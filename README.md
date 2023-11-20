@@ -2,7 +2,7 @@
 ## 🚀 Five Rookies 팀원 소개
 | **유재영** |               **송수빈**                |                    **윤선영**                     |               **이준엽**                |
 | :---------------------------------------------------------------------------------: | :-------------------------------------: | :-----------------------------------------------: | :-------------------------------------: |
-|                          [zxxng](https://github.com/zxxng)                          | [ssb1565b](https://github.com/ssb1565b) | [seonyeongyoon](https://github.com/seonyeongyoon) | [](https://github.com/jyeop920) |
+|                          [zxxng](https://github.com/zxxng)                          | [ssb1565b](https://github.com/ssb1565b) | [seonyeongyoon](https://github.com/seonyeongyoon) | [yeop920](https://github.com/jyeop920) |
 
 #### 👋🏻 과제 참여 안내문
 
