@@ -1,6 +1,7 @@
 {
   "plugins": ["import", "prettier"],
   "extends": [
+    "next/core-web-vitals",
     "airbnb-base",
     "plugin:import/errors",
     "plugin:import/warnings",
