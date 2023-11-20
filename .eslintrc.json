@@ -1,0 +1,21 @@
+{
+  "plugins": ["import", "prettier"],
+  "extends": [
+    "airbnb-base",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:prettier/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "ignorePatterns": ["node_modules/"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
