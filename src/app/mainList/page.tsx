@@ -1,74 +1,31 @@
 import Link from 'next/link'
+import { NextPage } from 'next';
 import styles from '@/app/mainList/page.module.scss'
 import React from 'react'
 import VIDEO_LIST from '@public/videos/popular.json'
 import formatRelativeDate from '@/utils/relativeDate'
+import { IVideo,ISnippet  } from '@/type/Api';
 
-interface Thumbnails {
-  default: {
-    url: string
-    width: number
-    height: number
-  }
-  medium: {
-    url: string
-    width: number
-    height: number
-  }
-  high: {
-    url: string
-    width: number
-    height: number
-  }
-  standard: {
-    url: string
-    width: number
-    height: number
-  }
-  maxres: {
-    url: string
-    width: number
-    height: number
-  }
-}
+type VideoList = IVideo[]
 
-interface Snippet {
-  publishedAt: string
-  channelId: string
-  title: string
-  description: string
-  thumbnails: Thumbnails
-  channelTitle: string
-  tags?: string[]
-  categoryId: string
-  liveBroadcastContent: string
-  defaultLanguage?: string
-  localized: {
-    title: string
-    description: string
-  }
-  defaultAudioLanguage?: string
-}
-
-interface Video {
-  kind: string
-  etag: string
-  id: string
-  snippet: Snippet
-}
-
-type VideoList = Video[]
-
-const VideoListPage = (): React.JSX.Element => {
+const VideoListPage:NextPage<ISnippet> = (): React.JSX.Element => {
   const videoList: VideoList = VIDEO_LIST.items
   return (
     <div>
       <ul className={styles.videoList}>
-        {videoList.map((video: Video) => {
+        {videoList.map((video: IVideo) => {
           const VIDEO = video.snippet
           return (
             <li className={styles.videoCard}>
-              <Link className={styles.videoLink} href="">
+              <Link 
+                className={styles.videoLink} 
+                href={
+                  {pathname:`/detail/${VIDEO.channelId}`,
+                   query:{videoInfo: encodeURIComponent(JSON.stringify(VIDEO))}
+                   }
+                }
+                // as={`/detail/${VIDEO.channelId}`}
+              >
                 <div>
                   <img
                     className={styles.videoImage}
