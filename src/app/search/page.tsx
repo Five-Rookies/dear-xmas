@@ -1,8 +1,7 @@
-'use client'
-import React, { useCallback, useState } from 'react'
-import { useRouter } from 'next/navigation'
-import datas from '../../../public/videos/popular.json'
-import Header from '../../components/Header'
+import React from 'react'
+import SEARCH_LIST from '@public/videos/searchByChannels/search-by-channel-id-UC1x03ziDHPct2xTikLyfMDA.json'
+import SearchResult from '@/components/SearchResult'
+import axios from 'axios'
 
 interface Video {
   snippet: {
@@ -10,37 +9,9 @@ interface Video {
   }
 }
 
-const Search = (): React.ReactNode => {
-  const router = useRouter()
-  const [search, setSearch] = useState<string>('')
-
-  const handleSearchValue = useCallback(
-    (e: React.ChangeEvent<HTMLInputElement>) => {
-      setSearch(e.target.value)
-      router.push('/search')
-    },
-    [router],
-  )
-
-  const filterData = datas.items.filter((data: Video): boolean => {
-    return data.snippet.title.includes(search)
-  })
-
-  return (
-    <div>
-      <Header
-        search={search}
-        setSearch={setSearch}
-        handleSearchValue={handleSearchValue}
-      />
-      {search && (
-        <div>
-          {filterData.map((el: Video, index: number) => (
-            <div key={index}>{el.snippet.title}</div>
-          ))}
-        </div>
-      )}
-    </div>
-  )
+// const Search = async (): Promise<React.JSX.Element> => {
+const Search = (): React.JSX.Element => {
+  // const res = await axios.get(``)
+  return <SearchResult props={SEARCH_LIST.items} />
 }
 export default Search
