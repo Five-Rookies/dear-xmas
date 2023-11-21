@@ -1,51 +1,47 @@
 import Link from 'next/link'
-import { NextPage } from 'next';
+import { NextPage } from 'next'
 import styles from '@/app/mainList/page.module.scss'
 import React from 'react'
 import VIDEO_LIST from '@public/videos/popular.json'
 import formatRelativeDate from '@/utils/relativeDate'
 import axios from 'axios'
-import { IVideo,ISnippet  } from '@/type/Api';
+import { IVideo } from '@/type/Api'
 
 type VideoList = IVideo[]
 
-const VideoListPage:NextPage<ISnippet> = (): React.JSX.Element => {
+const VideoListPage = (): React.JSX.Element => {
   const videoList: VideoList = VIDEO_LIST.items
-  console.log(videoList)
   return (
     <div>
       <ul className={styles.videoList}>
-        {videoList.map((video: IVideo) => {
-          const VIDEO = video.snippet
+        {videoList.map((video: IVideo, idx: number) => {
           return (
-            <li className={styles.videoCard}>
-              <Link 
-                className={styles.videoLink} 
-                href={
-                  {pathname:`/detail/${VIDEO.channelId}`,
-                   query:{videoInfo: encodeURIComponent(JSON.stringify(VIDEO))}
-                   }
-                }
-                // as={`/detail/${VIDEO.channelId}`}
+            <li key={idx} className={styles.videoCard}>
+              <Link
+                className={styles.videoLink}
+                href={{
+                  pathname: `/detail/${video.snippet.channelId}`,
+                  query: { id: video.id },
+                }}
               >
                 <div>
                   <img
                     className={styles.videoImage}
-                    src={VIDEO.thumbnails.medium.url}
+                    src={video.snippet.thumbnails.medium.url}
                     width={300}
                   />
                 </div>
                 <div className={styles.title}>
-                  <h4>{VIDEO.title}</h4>
+                  <h4>{video.snippet.title}</h4>
                 </div>
               </Link>
               <Link className={styles.videoLink} href="">
                 <div className={styles.channelTitle}>
-                  <span>{VIDEO.channelTitle}</span>
+                  <span>{video.snippet.channelTitle}</span>
                 </div>
               </Link>
               <div className={styles.publishedAt}>
-                <span>{formatRelativeDate(VIDEO.publishedAt)}</span>
+                <span>{formatRelativeDate(video.snippet.publishedAt)}</span>
               </div>
             </li>
           )

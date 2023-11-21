@@ -3,16 +3,17 @@
 import { useRouter, useSearchParams } from 'next/navigation'
 import { IChannelVideo } from '@/type/Api'
 import RelatedVedio from '@/components/detail/RelatedVedio'
+
 import styles from './detail.module.scss'
 
 const Detail = (props: any) => {
   const searchParams = useSearchParams()
-  const getItem = searchParams.get('videoInfo')
-  const getItemInfo = JSON.parse(decodeURIComponent(getItem!))
-  console.log(getItemInfo)
-  const videoData = require(
-    `/public/videos/searchByChannels/search-by-channel-id-${props.params.id}`,
-  ).items
+  const getVideoId = searchParams.get('id')
+  const videoIdData = require(`/public/videos/popular`).items
+  const [getItemInfo] = videoIdData.filter(
+    (e: IChannelVideo) => e.id === getVideoId,
+  )
+
   const router = useRouter()
 
   return (
@@ -25,7 +26,13 @@ const Detail = (props: any) => {
       </header>
 
       <figure className={styles.visual}>
-        <img src={getItemInfo.thumbnails.high.url} alt={getItemInfo.title} />
+        <iframe
+          src={`https://www.youtube.com/embed/${getVideoId}`}
+          width="100%"
+          height="100%"
+          allow="autoplay; encrypted-media"
+          allowFullScreen
+        />
       </figure>
 
       <div className={styles.videoInfo}>
@@ -33,26 +40,19 @@ const Detail = (props: any) => {
           <figure className={styles.videoInfoImgFrame}>
             <img
               className={styles.videoInfoImg}
-              src={getItemInfo.thumbnails.high.url}
-              alt={getItemInfo.title}
+              src={getItemInfo.snippet.thumbnails.high.url}
+              alt={getItemInfo.snippet.title}
             />
           </figure>
         </div>
         <div>
-          <h2 className={styles.videoInfoTitle}>{getItemInfo.title}</h2>
-          <p>{getItemInfo.channelTitle}</p>
-          <p>{getItemInfo.description}</p>
+          <h2 className={styles.videoInfoTitle}>{getItemInfo.snippet.title}</h2>
+          <p>{getItemInfo.snippet.channelTitle}</p>
+          <p>{getItemInfo.snippet.description}</p>
         </div>
       </div>
 
-      <div>
-        <h3>관련된 영상</h3>
-        <ul className={styles.list}>
-          {videoData.map((item: IChannelVideo, idx: number) => (
-            <RelatedVedio key={idx} item={item} />
-          ))}
-        </ul>
-      </div>
+      <RelatedVedio id={props.params.id} />
     </main>
   )
 }
