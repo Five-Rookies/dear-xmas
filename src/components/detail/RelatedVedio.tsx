@@ -1,12 +1,26 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 import Link from 'next/link'
 import { IChannelVideo } from '@/type/Api'
 import styles from './RelatedVedio.module.scss'
 
 const RelatedVedio = ({ id }: { id: string }) => {
-  const videoData = require(
-    `/public/videos/searchByChannels/search-by-channel-id-${id}`,
-  ).items
+  const [videoData, setVideoData] = useState<IChannelVideo[]>([])
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(
+          `/videos/searchByChannels/search-by-channel-id-${id}.json`,
+        )
+        setVideoData(response.data.items)
+      } catch (error) {
+        console.error('Failed to fetch video data', error)
+      }
+    }
+
+    fetchData()
+  }, [id])
 
   return (
     <section>
