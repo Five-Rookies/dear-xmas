@@ -1,17 +1,18 @@
-"use client"
+'use client'
 
-import Link from 'next/link'
 import { useRouter, useSearchParams } from 'next/navigation'
+import { IChannelVideo } from '@/type/Api'
+import RelatedVedio from '@/components/detail/RelatedVedio'
 import styles from './detail.module.scss'
-import { IVideo  } from '@/type/Api'
-
 
 const Detail = (props: any) => {
-  const searchParams = useSearchParams();
-  const getItem = searchParams.get('videoInfo');
-  const getItemInfo = JSON.parse(decodeURIComponent(getItem!));
-  console.log(getItemInfo);
-  const videoData = require(`/public/videos/searchByChannels/search-by-channel-id-${props.params.id}`).items
+  const searchParams = useSearchParams()
+  const getItem = searchParams.get('videoInfo')
+  const getItemInfo = JSON.parse(decodeURIComponent(getItem!))
+  console.log(getItemInfo)
+  const videoData = require(
+    `/public/videos/searchByChannels/search-by-channel-id-${props.params.id}`,
+  ).items
   const router = useRouter()
 
   return (
@@ -22,13 +23,19 @@ const Detail = (props: any) => {
         </button>
         <h1>나만의 과제 이름</h1>
       </header>
+
       <figure className={styles.visual}>
         <img src={getItemInfo.thumbnails.high.url} alt={getItemInfo.title} />
       </figure>
+
       <div className={styles.videoInfo}>
         <div>
           <figure className={styles.videoInfoImgFrame}>
-            <img className={styles.videoInfoImg} src={getItemInfo.thumbnails.high.url} alt={getItemInfo.title} />
+            <img
+              className={styles.videoInfoImg}
+              src={getItemInfo.thumbnails.high.url}
+              alt={getItemInfo.title}
+            />
           </figure>
         </div>
         <div>
@@ -37,22 +44,12 @@ const Detail = (props: any) => {
           <p>{getItemInfo.description}</p>
         </div>
       </div>
+
       <div>
         <h3>관련된 영상</h3>
         <ul className={styles.list}>
-        {videoData.map((item: IVideo, idx: number) => (
-            <li key={idx} className={styles.listItem}>
-              <Link href={`https://www.youtube.com/watch?v=${item.id.videoId}`} className={styles.listLink}>
-                <figure>
-                  <img src={item.snippet.thumbnails.medium.url} alt={item.snippet.title} />
-                </figure>
-                <div>
-                  <h4 className={styles.listTitle}>{item.snippet.title}</h4>
-                  <p>{item.snippet.channelTitle}</p>
-                  <p>{item.snippet.publishedAt}</p>
-                </div>
-              </Link>
-            </li>
+          {videoData.map((item: IChannelVideo, idx: number) => (
+            <RelatedVedio key={idx} item={item} />
           ))}
         </ul>
       </div>
@@ -60,4 +57,4 @@ const Detail = (props: any) => {
   )
 }
 
-export default Detail;
+export default Detail
