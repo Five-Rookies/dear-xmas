@@ -4,12 +4,14 @@ import styles from '@/app/mainList/page.module.scss'
 import React from 'react'
 import VIDEO_LIST from '@public/videos/popular.json'
 import formatRelativeDate from '@/utils/relativeDate'
+import axios from 'axios'
 import { IVideo,ISnippet  } from '@/type/Api';
 
 type VideoList = IVideo[]
 
 const VideoListPage:NextPage<ISnippet> = (): React.JSX.Element => {
   const videoList: VideoList = VIDEO_LIST.items
+  console.log(videoList)
   return (
     <div>
       <ul className={styles.videoList}>
