@@ -1,8 +1,13 @@
 import React from 'react'
 import { useRouter } from 'next/navigation'
 
-export default function Header(props): React.FC {
-  console.log('props', props)
+interface IHeader {
+  search: string
+  setSearch: (e: string) => void
+  handleSearchValue: (e: React.ChangeEvent<HTMLInputElement>) => void
+}
+
+const Header = (props: IHeader): React.ReactNode => {
   const router = useRouter()
   const backPage = () => {
     router.replace('/')
@@ -24,3 +29,5 @@ export default function Header(props): React.FC {
     </>
   )
 }
+
+export default Header

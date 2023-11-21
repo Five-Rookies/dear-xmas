@@ -10,7 +10,7 @@ interface Video {
   }
 }
 
-export default function Search(): React.FC {
+const Search = (): React.ReactNode => {
   const router = useRouter()
   const [search, setSearch] = useState<string>('')
 
@@ -43,3 +43,4 @@ export default function Search(): React.FC {
     </div>
   )
 }
+export default Search
