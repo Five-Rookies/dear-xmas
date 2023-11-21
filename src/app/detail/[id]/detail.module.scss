@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  gap: 1rem;
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.detail {
+  max-width: 1280px;
+  margin: auto;
+
+  .visual {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    background-color: #bbb;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+
+  .videoInfo {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    margin: 1rem 0;
+  }
+
+  .videoInfoTitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .videoInfoImgFrame {
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  .videoInfoImg {
+    height: 100%;
+  }
+}
+
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.listItem {
+  width: calc((100% - 2.5rem) / 3);
+  border-radius: .5rem;
+  overflow: hidden;
+
+  .listLink {
+    text-decoration: none;
+    color: #333;
+
+    .listTitle {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  }
+}
+
