@@ -1,0 +1,84 @@
+.videoList {
+  list-style: none;
+  padding: 30px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+  justify-content: center;
+
+  .videoCard {
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.03);
+      border-radius: 0px;
+
+      img {
+        border-radius: 0;
+      }
+    }
+
+    .videoImage {
+      width: 100%;
+      border-radius: 20px;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .videoCard {
+      width: calc(80% - 20px);
+    }
+  }
+
+  @media (max-width: 480px) {
+    .videoCard {
+      width: 100%;
+    }
+  }
+}
+
+.videoLink {
+  text-decoration: none;
+}
+
+.title {
+  padding: 5px 13px;
+  font-size: 1rem;
+  font-weight: 650;
+  color: black;
+  h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; // 텍스트가 오버플로우 될 때 "..." 표시
+    max-width: 100%;
+  }
+}
+
+.channelTitle {
+  padding: 10px 13px;
+  font-size: 0.9rem;
+  color: black;
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 1;
+    font-weight: 500;
+    transform: perspective(1300px) translateZ(15px);
+  }
+}
+
+.publishedAt {
+  padding: 5px 0px 20px 15px;
+  font-size: 0.8rem;
+  color: black;
+  opacity: 0.6;
+}
