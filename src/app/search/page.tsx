@@ -36,11 +36,14 @@ const Search = (): React.ReactElement => {
   return (
     <div className="inner-box">
       <ul className={styles.videoList}>
-        {filteredItems.map((item: ISearch, index: number) => {
-          const VIDEO = item.snippet
+        {filteredItems.map((video: ISearch, index: number) => {
+          const VIDEO = video.snippet
           return (
-            <li key={VIDEO.title} className={styles.videoCard}>
-              <Link href="">
+            <li className={styles.videoCard} key={video.id.videoId}>
+              <Link
+                className={styles.videoLink}
+                href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
+              >
                 <div>
                   <img
                     className={styles.videoImage}
@@ -52,7 +55,13 @@ const Search = (): React.ReactElement => {
                   <h4>{VIDEO.title}</h4>
                 </div>
               </Link>
-              <Link href="">
+              <Link
+                className={styles.videoLink}
+                // href={{
+                //   pathname: `/detail/${video.id.videoId}`,
+                // }}
+                href=""
+              >
                 <div className={styles.channelTitle}>
                   <span>{VIDEO.channelTitle}</span>
                 </div>
