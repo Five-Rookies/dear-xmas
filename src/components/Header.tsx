@@ -2,7 +2,8 @@ import Link from 'next/link'
 import React from 'react'
 import styles from '@/components/header.module.scss'
 import Search from './Search'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 const Header = (): React.JSX.Element => {
   return (
     <header className={styles.header}>
@@ -29,6 +30,7 @@ const Header = (): React.JSX.Element => {
           <span className={styles.line}>|</span>
           <span>회원가입</span>
         </p>
+        <FontAwesomeIcon className={styles.barIcon} icon={faBars} />
       </div>
     </header>
   )
