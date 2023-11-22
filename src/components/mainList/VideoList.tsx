@@ -14,14 +14,12 @@ const VideoList = ({ videoList }: { videoList: VideoListType }) => {
       <ul className={styles.videoList}>
         {videoList.map((video: IVideo) => {
           const VIDEO = video.snippet
+          console.log(VIDEO);
           return (
             <li className={styles.videoCard} key={video.id}>
               <Link
                 className={styles.videoLink}
-                href={{
-                  pathname: `/detail/${VIDEO.channelId}`,
-                  query: { id: video.id },
-                }}
+                href={`https://www.youtube.com/watch?v=${video.id}`}
               >
                 <div>
                   <img
@@ -34,7 +32,13 @@ const VideoList = ({ videoList }: { videoList: VideoListType }) => {
                   <h4>{VIDEO.title}</h4>
                 </div>
               </Link>
-              <Link className={styles.videoLink} href="">
+              <Link 
+                className={styles.videoLink}
+                href={{
+                  pathname: `/detail/${VIDEO.channelId}`,
+                  query: { id: video.id },
+                }}
+                >
                 <div className={styles.channelTitle}>
                   <span>{VIDEO.channelTitle}</span>
                 </div>
