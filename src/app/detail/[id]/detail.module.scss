@@ -27,7 +27,7 @@
   }
 
   .videoInfoTitle {
-    font-size: 1.5rem;
+    font-size: 2.25rem;
     margin-bottom: 0.5rem;
   }
 
@@ -52,12 +52,15 @@
 
 .listItem {
   width: calc((100% - 2.5rem) / 3);
-  border-radius: .5rem;
-  overflow: hidden;
 
   .listLink {
     text-decoration: none;
     color: #333;
+
+    .listImg {
+      border-radius: .5rem;
+      overflow: hidden;
+    }
 
     .listTitle {
       font-size: 1.2rem;

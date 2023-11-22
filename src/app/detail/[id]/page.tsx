@@ -43,7 +43,7 @@ const Detail = (props: any) => {
         {videoData.map((item: IVideo, idx: number) => (
             <li key={idx} className={styles.listItem}>
               <Link href={`https://www.youtube.com/watch?v=${item.id.videoId}`} className={styles.listLink}>
-                <figure>
+                <figure className={styles.listImg}>
                   <img src={item.snippet.thumbnails.medium.url} alt={item.snippet.title} />
                 </figure>
                 <div>
