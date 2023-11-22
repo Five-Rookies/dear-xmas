@@ -43,29 +43,3 @@
 }
 
 
-.list {
-  display: flex;
-  justify-content: space-between;
-  gap: 1.25rem;
-  flex-wrap: wrap;
-}
-
-.listItem {
-  width: calc((100% - 2.5rem) / 3);
-
-  .listLink {
-    text-decoration: none;
-    color: #333;
-
-    .listImg {
-      border-radius: .5rem;
-      overflow: hidden;
-    }
-
-    .listTitle {
-      font-size: 1.2rem;
-      font-weight: bold;
-    }
-  }
-}
-

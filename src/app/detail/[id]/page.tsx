@@ -1,17 +1,18 @@
-"use client"
+'use client'
 
-import Link from 'next/link'
+import videoIdData from '@public/videos/popular.json'
 import { useRouter, useSearchParams } from 'next/navigation'
+import { IVideo } from '@/type/Api'
+import RelatedVedio from '@/components/detail/RelatedVedio'
 import styles from './detail.module.scss'
-import { IVideo  } from '@/type/Api'
-
 
 const Detail = (props: any) => {
-  const searchParams = useSearchParams();
-  const getItem = searchParams.get('videoInfo');
-  const getItemInfo = JSON.parse(decodeURIComponent(getItem!));
-  console.log(getItemInfo);
-  const videoData = require(`/public/videos/searchByChannels/search-by-channel-id-${props.params.id}`).items
+  const searchParams = useSearchParams()
+  const getVideoId = searchParams.get('id')
+  const getItemInfo: IVideo | undefined = videoIdData.items.find(
+    (channel: IVideo) => channel.id === getVideoId,
+  )
+
   const router = useRouter()
 
   return (
@@ -22,42 +23,44 @@ const Detail = (props: any) => {
         </button>
         <h1>나만의 과제 이름</h1>
       </header>
-      <figure className={styles.visual}>
-        <img src={getItemInfo.thumbnails.high.url} alt={getItemInfo.title} />
-      </figure>
-      <div className={styles.videoInfo}>
-        <div>
-          <figure className={styles.videoInfoImgFrame}>
-            <img className={styles.videoInfoImg} src={getItemInfo.thumbnails.high.url} alt={getItemInfo.title} />
+
+      {getItemInfo ? (
+        <>
+          <figure className={styles.visual}>
+            <iframe
+              src={`https://www.youtube.com/embed/${getVideoId}`}
+              width="100%"
+              height="100%"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+            />
           </figure>
-        </div>
-        <div>
-          <h2 className={styles.videoInfoTitle}>{getItemInfo.title}</h2>
-          <p>{getItemInfo.channelTitle}</p>
-          <p>{getItemInfo.description}</p>
-        </div>
-      </div>
-      <div>
-        <h3>관련된 영상</h3>
-        <ul className={styles.list}>
-        {videoData.map((item: IVideo, idx: number) => (
-            <li key={idx} className={styles.listItem}>
-              <Link href={`https://www.youtube.com/watch?v=${item.id.videoId}`} className={styles.listLink}>
-                <figure className={styles.listImg}>
-                  <img src={item.snippet.thumbnails.medium.url} alt={item.snippet.title} />
-                </figure>
-                <div>
-                  <h4 className={styles.listTitle}>{item.snippet.title}</h4>
-                  <p>{item.snippet.channelTitle}</p>
-                  <p>{item.snippet.publishedAt}</p>
-                </div>
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
+
+          <div className={styles.videoInfo}>
+            <div>
+              <figure className={styles.videoInfoImgFrame}>
+                <img
+                  className={styles.videoInfoImg}
+                  src={getItemInfo.snippet.thumbnails.high.url}
+                  alt={getItemInfo.snippet.title}
+                />
+              </figure>
+            </div>
+            <div>
+              <h2 className={styles.videoInfoTitle}>
+                {getItemInfo.snippet.title}
+              </h2>
+              <p>{getItemInfo.snippet.channelTitle}</p>
+              <p>{getItemInfo.snippet.description}</p>
+            </div>
+          </div>
+        </>
+      ) : (
+        <div>상세정보 불러오기 실패 🥲</div>
+      )}
+      <RelatedVedio id={props.params.id} />
     </main>
   )
 }
 
-export default Detail;
+export default Detail

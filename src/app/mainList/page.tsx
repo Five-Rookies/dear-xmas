@@ -10,46 +10,42 @@ import { IVideo, ISnippet } from '@/type/Api'
 type VideoList = IVideo[]
 
 const VideoListPage: NextPage<ISnippet> = (): React.JSX.Element => {
-  //const ACCESS_KEY = process.env.YOUTUBE_API_KEY
-  //const URL = https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=25&key=${ACCESS_KEY}
-  //const response = await (await axios.get(URL)).data
-  //const videoList: VideoList = response.items
+  // const ACCESS_KEY = process.env.YOUTUBE_API_KEY
+  // const URL = https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=25&key=${ACCESS_KEY}
+  // const response = await (await axios.get(URL)).data
+  // const videoList: VideoList = response.items
   const videoList: VideoList = VIDEO_LIST.items
-  console.log(videoList)
   return (
     <div>
       <ul className={styles.videoList}>
-        {videoList.map((video: IVideo) => {
-          const VIDEO = video.snippet
+        {videoList.map((video: IVideo, idx: number) => {
           return (
-            <li className={styles.videoCard}>
+            <li key={idx} className={styles.videoCard}>
               <Link
                 className={styles.videoLink}
                 href={{
-                  pathname: `/detail/${VIDEO.channelId}`,
-                  query: {
-                    videoInfo: encodeURIComponent(JSON.stringify(VIDEO)),
-                  },
+                  pathname: `/detail/${video.snippet.channelId}`,
+                  query: { id: video.id },
                 }}
               >
                 <div>
                   <img
                     className={styles.videoImage}
-                    src={VIDEO.thumbnails.medium.url}
+                    src={video.snippet.thumbnails.medium.url}
                     width={300}
                   />
                 </div>
                 <div className={styles.title}>
-                  <h4>{VIDEO.title}</h4>
+                  <h4>{video.snippet.title}</h4>
                 </div>
               </Link>
               <Link className={styles.videoLink} href="">
                 <div className={styles.channelTitle}>
-                  <span>{VIDEO.channelTitle}</span>
+                  <span>{video.snippet.channelTitle}</span>
                 </div>
               </Link>
               <div className={styles.publishedAt}>
-                <span>{formatRelativeDate(VIDEO.publishedAt)}</span>
+                <span>{formatRelativeDate(video.snippet.publishedAt)}</span>
               </div>
             </li>
           )
