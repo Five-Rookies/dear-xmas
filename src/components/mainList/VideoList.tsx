@@ -15,14 +15,12 @@ const VideoList = ({ videoList }: { videoList: VideoListType }) => {
         {videoList.map((video: IVideo) => {
           const VIDEO = video.snippet
           return (
-            <li className={styles.videoCard}>
+            <li className={styles.videoCard} key={video.id}>
               <Link
                 className={styles.videoLink}
                 href={{
                   pathname: `/detail/${VIDEO.channelId}`,
-                  query: {
-                    videoInfo: encodeURIComponent(JSON.stringify(VIDEO)),
-                  },
+                  query: { id: video.id },
                 }}
               >
                 <div>
