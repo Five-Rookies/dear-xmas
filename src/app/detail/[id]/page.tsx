@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { IVideo } from '@/type/Api'
-import RelatedVedio from '@/components/detail/RelatedVedio'
+import RelatedVedio from '@/app/detail/[id]/RelatedVedio'
 import styles from './detail.module.scss'
 
 const getVideoList = async (getVideoId: string) => {

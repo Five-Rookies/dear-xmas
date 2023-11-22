@@ -1,8 +1,7 @@
 import React from 'react'
 import type { Metadata } from 'next'
-import './globals.css'
-import Header from '../components/Header'
-import Link from 'next/link'
+import './globals.scss'
+import Header from '../components/layout/Header'
 
 export const metadata: Metadata = {
   title: 'Christmas',

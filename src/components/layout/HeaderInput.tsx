@@ -1,11 +1,10 @@
 'use client'
 
 import React, { useRef } from 'react'
-import Link from 'next/link'
-import styles from '@/components/header.module.scss'
 import { useRouter } from 'next/navigation'
+import styles from './header.module.scss'
 
-const Search = (): React.JSX.Element => {
+const HeaderInput = (): React.JSX.Element => {
   const router = useRouter()
   const searchInput = useRef<HTMLInputElement>(null)
   const handleSearch = (): void => {
@@ -41,4 +40,4 @@ const Search = (): React.JSX.Element => {
   )
 }
 
-export default Search
+export default HeaderInput

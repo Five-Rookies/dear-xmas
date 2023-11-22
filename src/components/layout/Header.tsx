@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import React from 'react'
-import styles from '@/components/header.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-import Search from './Search'
+import styles from './header.module.scss'
+import HeaderInput from './HeaderInput'
 
 const Header = (): React.JSX.Element => {
   return (
@@ -25,7 +25,7 @@ const Header = (): React.JSX.Element => {
             <Link href="/faq">FAQ</Link>
           </li>
         </ul>
-        <Search />
+        <HeaderInput />
         <p className={styles.account}>
           <span>로그인</span>
           <span className={styles.line}>|</span>

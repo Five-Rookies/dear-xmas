@@ -53,9 +53,69 @@
     .videoInfoImg {
       height: 100%;
     }
+  } 
+}
+
+.relatedTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem 0;
+}
+.list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, calc((100% - 2.5rem) / 3));
+  column-gap: 1.25rem;
+  row-gap: 1.25rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, calc((100% - 1.25rem) / 2));
   }
 
-  
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(1, 100%);
+    row-gap: 0;
+  }
 }
+.listItem {
+  .listLink {
+    text-decoration: none;
+    color: #333;
+
+    .listImg {
+      height: 14.655rem;
+      border-radius: .5rem;
+      overflow: hidden;
+    }
+
+    img {
+      height: 100%;
+    }
+
+    &:hover img {
+      transform: scale(1.03);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .listTitle {
+      font-size: 1.2rem;
+      font-weight: bold;
+      line-height: 1.3;
+      margin: .5rem 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    .channelTitle {
+      font-weight: bold;
+      margin-bottom: .5rem;
+    }
+  }
+}
+
+
 
 

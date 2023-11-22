@@ -3,7 +3,7 @@ import { NextPage } from 'next'
 import React from 'react'
 import axios from 'axios'
 import { IVideo, ISnippet } from '@/type/Api'
-import VideoList from '@/components/mainList/VideoList'
+import VideoList from '@/app/mainList/VideoList'
 
 type VideoListType = IVideo[]
 
@@ -14,12 +14,13 @@ const getVideoList = async (): Promise<VideoListType> => {
   if (!response) {
     throw new Error('data is not defined')
   }
+
   return response
 }
 
 const VideoListPage: NextPage<ISnippet> = async () => {
   const videoList: VideoListType = await getVideoList()
-  //const videoList: VideoListType = VIDEO_LIST.items
+
   return (
     <div className="inner-box">
       <VideoList videoList={videoList} />

@@ -5,7 +5,7 @@ import axios from 'axios'
 import Link from 'next/link'
 import { IChannelVideo } from '@/type/Api'
 import formatRelativeDate from '@/utils/relativeDate'
-import styles from './RelatedVedio.module.scss'
+import styles from './detail.module.scss'
 
 const RelatedVedio = ({ channelId }: { channelId: string }) => {
   const [videoData, setVideoData] = useState<IChannelVideo[]>([])
