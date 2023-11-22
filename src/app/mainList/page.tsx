@@ -8,7 +8,7 @@ import VideoList from '@/components/mainList/VideoList'
 type VideoListType = IVideo[]
 
 const getVideoList = async (): Promise<VideoListType> => {
-  const ACCESS_KEY = process.env.YOUTUBE_API_KEY
+  const ACCESS_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
   const URL = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=32&key=${ACCESS_KEY}`
   const response = await (await axios.get(URL)).data.items
   if (!response) {
