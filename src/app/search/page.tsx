@@ -5,7 +5,6 @@ import axios from 'axios'
 import Link from 'next/link'
 import formatRelativeDate from '@/utils/relativeDate'
 import styles from '@/app/mainList/page.module.scss'
-import SEARCH_LIST from '@public/videos/searchByChannels/search-by-channel-id-UC1x03ziDHPct2xTikLyfMDA.json'
 import { ISearch } from '@/type/Api'
 
 const Search = (): React.ReactElement => {
@@ -17,7 +16,7 @@ const Search = (): React.ReactElement => {
   const handleSearch = async () => {
     if (!search) return
 
-    const URL = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${search}&type=video&key=${ACCESS_KEY}`
+    const URL = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${search}&type=video&regionCode=kr&key=${ACCESS_KEY}`
     try {
       const response = await axios.get(URL)
       const ITEM = response.data.items
@@ -31,12 +30,7 @@ const Search = (): React.ReactElement => {
   }
 
   useEffect(() => {
-    // handleSearch() // API 연결 후 활성화
-    setFilteredItems(
-      SEARCH_LIST.items.filter((el: ISearch): boolean => {
-        return el.snippet.title.includes(search ? search : '')
-      }),
-    ) // API 연결 후 삭제요망
+    handleSearch()
   }, [search])
 
   return (
