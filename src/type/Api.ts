@@ -50,3 +50,15 @@ export interface IVideo {
   id: string
   snippet: ISnippet
 }
+
+export interface IId {
+  kind: string
+  videoId: string
+}
+
+export interface IChannelVideo {
+  kind: string
+  etag: string
+  id: IId
+  snippet: ISnippet
+}
