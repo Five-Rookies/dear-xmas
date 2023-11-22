@@ -40,7 +40,7 @@ const Search = (): React.ReactElement => {
   }, [search])
 
   return (
-    <div className={styles.innerBox}>
+    <div className="inner-box">
       <ul className={styles.videoList}>
         {filteredItems.map((item: ISearch, index: number) => {
           const VIDEO = item.snippet

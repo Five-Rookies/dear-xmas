@@ -1,0 +1,52 @@
+.bg {
+  background-color: #da3017;
+  height: 40rem;
+  width: 100%;
+  position: relative;
+  .snowBg {
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    border-radius: 0 20rem 0 0;
+    height: 16rem;
+    width: 72rem;
+  }
+  .santa {
+    position: absolute;
+    top: 3rem;
+    left: 12.5rem;
+    transform: scaleX(-1);
+    width: 30rem;
+  }
+  .tree {
+    display: flex;
+    li {
+      img {
+        position: absolute;
+        top: 15rem;
+        width: 5rem;
+      }
+    }
+    li:nth-child(4) {
+      img {
+        left: -1.5rem;
+      }
+    }
+    li:nth-child(3) {
+      img {
+        left: 2rem;
+      }
+    }
+    li:nth-child(2) {
+      img {
+        top: 12.9rem;
+        left: 46rem;
+      }
+    }
+    li:nth-child(1) {
+      img {
+        left: 49.9rem;
+      }
+    }
+  }
+}

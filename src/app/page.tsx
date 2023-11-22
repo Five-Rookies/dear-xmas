@@ -1,9 +1,28 @@
-import styles from './page.module.css'
+import styles from './page.module.scss'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h1>나만의 과제 이름</h1>
+    <main>
+      <section className={styles.bg}>
+        <ul className={styles.tree}>
+          <li>
+            <img src="/assets/tree.png" alt="" />
+          </li>
+          <li>
+            <img src="/assets/tree.png" alt="" />
+          </li>
+          <li>
+            <img src="/assets/tree.png" alt="" />
+          </li>
+          <li>
+            <img src="/assets/tree.png" alt="" />
+          </li>
+        </ul>
+        <div className={styles.snowBg}></div>
+        <img className={styles.santa} src="/assets/santa.png" alt="" />
+      </section>
+
+      <div className="innerBox"></div>
     </main>
   )
 }
