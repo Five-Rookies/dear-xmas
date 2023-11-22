@@ -14,6 +14,13 @@ const Search = (): React.JSX.Element => {
     }
     router.push(`/search?info=${encodeURIComponent(searchTerm)}`)
   }
+  const handleKeyPress = (
+    event: React.KeyboardEvent<HTMLInputElement>,
+  ): void => {
+    if (event.key === 'Enter') {
+      handleSearch()
+    }
+  }
 
   return (
     <div className={styles.searchInput}>
@@ -23,10 +30,11 @@ const Search = (): React.JSX.Element => {
         autoFocus
         autoComplete="off"
         ref={searchInput}
+        onKeyPress={handleKeyPress}
       />
 
       <button type="button" onClick={handleSearch}>
-        <img src="/asset/header_search_icon.svg" alt="" />
+        <img src="/assets/header_search_icon.svg" alt="" />
       </button>
     </div>
   )

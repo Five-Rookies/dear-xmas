@@ -175,3 +175,8 @@ a {
   text-decoration: none;
   font-family: 'LINESeedKR-Rg';
 }
+
+.inner-box {
+  max-width: 80rem;
+  margin: 0 auto;
+}
