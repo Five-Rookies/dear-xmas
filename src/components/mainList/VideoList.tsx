@@ -19,8 +19,8 @@ const VideoList = ({ videoList }: { videoList: VideoListType }) => {
               <Link
                 className={styles.videoLink}
                 href={{
-                  pathname: `/detail/${VIDEO.channelId}`,
-                  query: { id: video.id },
+                  pathname: `/detail/${video.id}`,
+                  // query: { id: video.id },
                 }}
               >
                 <div>
