@@ -34,7 +34,7 @@ const Search = (): React.JSX.Element => {
       />
 
       <button type="button" onClick={handleSearch}>
-        <img src="/asset/header_search_icon.svg" alt="" />
+        <img src="/assets/header_search_icon.svg" alt="" />
       </button>
     </div>
   )
