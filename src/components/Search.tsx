@@ -1,4 +1,5 @@
 'use client'
+
 import React, { useRef } from 'react'
 import Link from 'next/link'
 import styles from '@/components/header.module.scss'

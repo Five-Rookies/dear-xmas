@@ -1,29 +1,26 @@
-'use client'
-
-import videoIdData from '@public/videos/popular.json'
-import { useRouter, useSearchParams } from 'next/navigation'
+import axios from 'axios'
 import { IVideo } from '@/type/Api'
 import RelatedVedio from '@/components/detail/RelatedVedio'
 import styles from './detail.module.scss'
 
-const Detail = (props: any) => {
-  const searchParams = useSearchParams()
-  const getVideoId = searchParams.get('id')
-  const getItemInfo: IVideo | undefined = videoIdData.items.find(
-    (channel: IVideo) => channel.id === getVideoId,
-  )
+const getVideoList = async (getVideoId: string) => {
+  const ACCESS_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
+  const URL = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=32&key=${ACCESS_KEY}`
+  const response = await (await axios.get(URL)).data.items
+  if (!response) {
+    throw new Error('data is not defined')
+  }
 
-  const router = useRouter()
+  return response.find((channel: IVideo) => channel.id === getVideoId)
+}
+
+const Detail = async (props: any) => {
+  const getVideoId = props.params.id
+  if (!getVideoId) return null
+  const getItemInfo = await getVideoList(getVideoId)
 
   return (
-    <div className={`inner-box ${styles.detail}`}>
-      <header className={styles.header}>
-        <button type="button" onClick={() => router.back()}>
-          <img src="/assets/left-arrow.png" alt="뒤로가기 아이콘" />
-        </button>
-        <h1>나만의 과제 이름</h1>
-      </header>
-
+    <>
       {getItemInfo ? (
         <>
           <figure className={styles.visual}>
@@ -51,15 +48,22 @@ const Detail = (props: any) => {
                 {getItemInfo.snippet.title}
               </h2>
               <p>{getItemInfo.snippet.channelTitle}</p>
-              <p dangerouslySetInnerHTML={{ __html: getItemInfo.snippet.description.replace(/\n/g, '<br/>') }} />
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: getItemInfo.snippet.description.replace(
+                    /\n/g,
+                    '<br/>',
+                  ),
+                }}
+              />
             </div>
           </div>
         </>
       ) : (
         <div>상세정보 불러오기 실패 🥲</div>
       )}
-      <RelatedVedio id={props.params.id} />
-    </div>
+      <RelatedVedio channelId={getItemInfo.snippet.channelId} />
+    </>
   )
 }
 

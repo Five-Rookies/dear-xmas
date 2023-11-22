@@ -1,9 +1,10 @@
 import Link from 'next/link'
 import React from 'react'
 import styles from '@/components/header.module.scss'
-import Search from './Search'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import Search from './Search'
+
 const Header = (): React.JSX.Element => {
   return (
     <header className={styles.header}>

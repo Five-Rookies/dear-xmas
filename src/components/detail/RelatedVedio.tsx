@@ -7,14 +7,15 @@ import { IChannelVideo } from '@/type/Api'
 import formatRelativeDate from '@/utils/relativeDate'
 import styles from './RelatedVedio.module.scss'
 
-const RelatedVedio = ({ id }: { id: string }) => {
+const RelatedVedio = ({ channelId }: { channelId: string }) => {
   const [videoData, setVideoData] = useState<IChannelVideo[]>([])
 
   useEffect(() => {
     const fetchData = async () => {
+      const ACCESS_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
       try {
         const response = await axios.get(
-          `/videos/searchByChannels/search-by-channel-id-${id}.json`,
+          `https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&maxResults=25&q=surfing&key=${ACCESS_KEY}`,
         )
         setVideoData(response.data.items)
       } catch (error) {
@@ -23,7 +24,7 @@ const RelatedVedio = ({ id }: { id: string }) => {
     }
 
     fetchData()
-  }, [id])
+  }, [channelId])
 
   return (
     <section>
@@ -43,7 +44,9 @@ const RelatedVedio = ({ id }: { id: string }) => {
               </figure>
               <div>
                 <h4 className={styles.listTitle}>{item.snippet.title}</h4>
-                <p className={styles.channelTitle}>{item.snippet.channelTitle}</p>
+                <p className={styles.channelTitle}>
+                  {item.snippet.channelTitle}
+                </p>
                 <p>{formatRelativeDate(item.snippet.publishedAt)}</p>
               </div>
             </Link>
