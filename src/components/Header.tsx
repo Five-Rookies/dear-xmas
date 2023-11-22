@@ -1,33 +1,36 @@
+import Link from 'next/link'
 import React from 'react'
-import { useRouter } from 'next/navigation'
+import styles from '@/components/header.module.scss'
+import Search from './Search'
 
-interface IHeader {
-  search: string
-  setSearch: (e: string) => void
-  handleSearchValue: (e: React.ChangeEvent<HTMLInputElement>) => void
-}
-
-const Header = (props: IHeader): React.ReactNode => {
-  const router = useRouter()
-  const backPage = () => {
-    router.replace('/')
-    props.setSearch('')
-  }
+const Header = (): React.JSX.Element => {
   return (
-    <>
-      <input
-        type="text"
-        placeholder="제목을 입력하세요"
-        autoFocus
-        autoComplete="off"
-        value={props.search}
-        onChange={props.handleSearchValue}
-      />
-      <button type="button" onClick={backPage}>
-        닫기
-      </button>
-    </>
+    <header className={styles.header}>
+      <div className={styles.innerBox}>
+        <h1>
+          <Link href="/">
+            <img src="/asset/header_logo.svg" alt="logo" />
+          </Link>
+        </h1>
+        <ul className={styles.navi}>
+          <li>
+            <Link href="/category">크리스마스</Link>
+          </li>
+          <li>
+            <Link href="/developers">개발자</Link>
+          </li>
+          <li>
+            <Link href="/faq">FAQ</Link>
+          </li>
+        </ul>
+        <Search />
+        <p className={styles.account}>
+          <span>로그인</span>
+          <span className={styles.line}>|</span>
+          <span>회원가입</span>
+        </p>
+      </div>
+    </header>
   )
 }
-
 export default Header
