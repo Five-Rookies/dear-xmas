@@ -55,7 +55,7 @@ const Detail = async (props: any) => {
       ) : (
         <div>상세정보 불러오기 실패 🥲</div>
       )}
-      <RelatedVedio id={'UCQ2O-iftmnlfrBuNsUUTofQ'} />
+      <RelatedVedio channelId={getItemInfo.snippet.channelId} />
     </>
   )
 }
