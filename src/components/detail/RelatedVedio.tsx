@@ -28,7 +28,7 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
 
   return (
     <section>
-      <h3>관련된 영상</h3>
+      <h3 className={styles.relatedTitle}>관련된 영상</h3>
       <ul className={styles.list}>
         {videoData.map((item: IChannelVideo, idx: number) => (
           <li key={idx} className={styles.listItem}>
@@ -36,7 +36,7 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
               href={`https://www.youtube.com/watch?v=${item.id.videoId}`}
               className={styles.listLink}
             >
-              <figure>
+              <figure className={styles.listImg}>
                 <img
                   src={item.snippet.thumbnails.medium.url}
                   alt={item.snippet.title}
@@ -44,7 +44,9 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
               </figure>
               <div>
                 <h4 className={styles.listTitle}>{item.snippet.title}</h4>
-                <p>{item.snippet.channelTitle}</p>
+                <p className={styles.channelTitle}>
+                  {item.snippet.channelTitle}
+                </p>
                 <p>{formatRelativeDate(item.snippet.publishedAt)}</p>
               </div>
             </Link>

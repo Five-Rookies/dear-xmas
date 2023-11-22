@@ -18,10 +18,7 @@ const VideoList = ({ videoList }: { videoList: VideoListType }) => {
             <li className={styles.videoCard} key={video.id}>
               <Link
                 className={styles.videoLink}
-                href={{
-                  pathname: `/detail/${video.id}`,
-                  // query: { id: video.id },
-                }}
+                href={`https://www.youtube.com/watch?v=${video.id}`}
               >
                 <div>
                   <img
@@ -34,7 +31,12 @@ const VideoList = ({ videoList }: { videoList: VideoListType }) => {
                   <h4>{VIDEO.title}</h4>
                 </div>
               </Link>
-              <Link className={styles.videoLink} href="">
+              <Link
+                className={styles.videoLink}
+                href={{
+                  pathname: `/detail/${video.id}`,
+                }}
+              >
                 <div className={styles.channelTitle}>
                   <span>{VIDEO.channelTitle}</span>
                 </div>

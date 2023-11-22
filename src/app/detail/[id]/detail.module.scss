@@ -1,19 +1,20 @@
 .header {
   display: flex;
   gap: 1rem;
+  margin: 1rem 0;
   h1 {
     font-size: 2rem;
   }
 }
 
 .detail {
-  max-width: 1280px;
+  max-width: 80rem;
   margin: auto;
 
   .visual {
     display: flex;
     align-items: center;
-    height: 300px;
+    height: 45rem;
     background-color: #bbb;
     border-radius: 1rem;
     overflow: hidden;
@@ -24,22 +25,37 @@
     gap: 4rem;
     align-items: center;
     margin: 1rem 0;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    .videoInfoTitleWrap {
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+
+      .videoInfoTitle {
+        font-size: 2.25rem;
+        font-weight: bold;
+        line-height: 1.3;
+        margin-bottom: 0.5rem;
+      }
+    }
+  
+    .videoInfoImgFrame {
+      width: 10rem;
+      height: 10rem;
+      overflow: hidden;
+      border-radius: 50%;
+    }
+
+    .videoInfoImg {
+      height: 100%;
+    }
   }
 
-  .videoInfoTitle {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .videoInfoImgFrame {
-    width: 10rem;
-    height: 10rem;
-    overflow: hidden;
-    border-radius: 50%;
-  }
-  .videoInfoImg {
-    height: 100%;
-  }
+  
 }
 
 

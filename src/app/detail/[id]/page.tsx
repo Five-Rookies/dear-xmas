@@ -43,12 +43,19 @@ const Detail = async (props: any) => {
                 />
               </figure>
             </div>
-            <div>
+            <div className={styles.videoInfoTitleWrap}>
               <h2 className={styles.videoInfoTitle}>
                 {getItemInfo.snippet.title}
               </h2>
               <p>{getItemInfo.snippet.channelTitle}</p>
-              <p>{getItemInfo.snippet.description}</p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: getItemInfo.snippet.description.replace(
+                    /\n/g,
+                    '<br/>',
+                  ),
+                }}
+              />
             </div>
           </div>
         </>

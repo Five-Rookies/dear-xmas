@@ -13,7 +13,7 @@ const Layout = props => {
   const router = useRouter()
 
   return (
-    <main className={styles.detail}>
+    <div className={`inner-box ${styles.detail}`}>
       <header className={styles.header}>
         <button type="button" onClick={() => router.back()}>
           <img src="/assets/left-arrow.png" alt="뒤로가기 아이콘" />
@@ -21,7 +21,7 @@ const Layout = props => {
         <h1>나만의 과제 이름</h1>
       </header>
       {props.children}
-    </main>
+    </div>
   )
 }
 
