@@ -6,53 +6,13 @@ import Link from 'next/link'
 import formatRelativeDate from '@/utils/relativeDate'
 import styles from '@/app/mainList/page.module.scss'
 import SEARCH_LIST from '@public/videos/searchByChannels/search-by-channel-id-UC1x03ziDHPct2xTikLyfMDA.json'
-
-interface Thumbnails {
-  default: {
-    url: string
-    width: number
-    height: number
-  }
-  medium: {
-    url: string
-    width: number
-    height: number
-  }
-  high: {
-    url: string
-    width: number
-    height: number
-  }
-}
-
-interface Snippet {
-  publishedAt: string
-  channelId: string
-  title: string
-  description: string
-  thumbnails: Thumbnails
-  channelTitle: string
-  liveBroadcastContent: string
-  publishTime: string
-}
-
-interface Id {
-  kind: string
-  videoId: string
-}
-
-interface Items {
-  kind: string
-  etag: string
-  id: Id
-  snippet: Snippet
-}
+import { ISearch } from '@/type/Api'
 
 const Search = (): React.ReactElement => {
   const searchParams = useSearchParams()
   const search = searchParams.get('info')
   const ACCESS_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
-  const [filteredItems, setFilteredItems] = useState<Items[]>([])
+  const [filteredItems, setFilteredItems] = useState<ISearch[]>([])
 
   const handleSearch = async () => {
     if (!search) return
@@ -61,7 +21,7 @@ const Search = (): React.ReactElement => {
     try {
       const response = await axios.get(URL)
       const ITEM = response.data.items
-      const filteredItems: Items[] = ITEM?.filter((el: Items): boolean => {
+      const filteredItems: ISearch[] = ITEM?.filter((el: ISearch): boolean => {
         return el.snippet.title.includes(search ? search : '')
       })
       setFilteredItems(filteredItems || [])
@@ -71,14 +31,18 @@ const Search = (): React.ReactElement => {
   }
 
   useEffect(() => {
-    // handleSearch()
-    setFilteredItems(SEARCH_LIST.items)
+    // handleSearch() // API 연결 후 활성화
+    setFilteredItems(
+      SEARCH_LIST.items.filter((el: ISearch): boolean => {
+        return el.snippet.title.includes(search ? search : '')
+      }),
+    ) // API 연결 후 삭제요망
   }, [search])
 
   return (
     <div className={styles.innerBox}>
       <ul className={styles.videoList}>
-        {filteredItems.map((item: Items, index: number) => {
+        {filteredItems.map((item: ISearch, index: number) => {
           const VIDEO = item.snippet
           return (
             <li key={VIDEO.title} className={styles.videoCard}>

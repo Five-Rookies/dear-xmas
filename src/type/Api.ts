@@ -14,12 +14,12 @@ export interface IThumbnails {
     width: number
     height: number
   }
-  standard: {
+  standard?: {
     url: string
     width: number
     height: number
   }
-  maxres: {
+  maxres?: {
     url: string
     width: number
     height: number
@@ -34,14 +34,15 @@ export interface ISnippet {
   thumbnails: IThumbnails
   channelTitle: string
   tags?: string[]
-  categoryId: string
+  categoryId?: string
   liveBroadcastContent: string
   defaultLanguage?: string
-  localized: {
+  localized?: {
     title: string
     description: string
   }
   defaultAudioLanguage?: string
+  publishTime?: string
 }
 
 export interface IVideo {
@@ -57,6 +58,13 @@ export interface IId {
 }
 
 export interface IChannelVideo {
+  kind: string
+  etag: string
+  id: IId
+  snippet: ISnippet
+}
+
+export interface ISearch {
   kind: string
   etag: string
   id: IId

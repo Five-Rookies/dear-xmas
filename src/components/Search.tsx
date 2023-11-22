@@ -9,9 +9,10 @@ const Search = (): React.JSX.Element => {
   const searchInput = useRef<HTMLInputElement>(null)
   const handleSearch = (): void => {
     const searchTerm = searchInput?.current?.value
-    if (searchTerm) {
-      router.push(`/search?info=${encodeURIComponent(searchTerm)}`)
+    if (!searchTerm) {
+      return router.push('/mainList')
     }
+    router.push(`/search?info=${encodeURIComponent(searchTerm)}`)
   }
 
   return (
