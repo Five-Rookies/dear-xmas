@@ -17,7 +17,8 @@ export default function RootLayout({
   return (
     <html>
       <body>
-        <Link href="/search">검색</Link> {children}
+        <Header />
+        {children}
       </body>
     </html>
   )

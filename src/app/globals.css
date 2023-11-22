@@ -1,7 +1,21 @@
 /* /styles/reset.css */
+@font-face {
+  font-family: 'LINESeedKR-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2')
+    format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LINESeedKR-Rg';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Rg.woff2')
+    format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
-  font-family: LINESeedKR-Rg;
 }
 html,
 body,
@@ -91,6 +105,7 @@ video {
   font-size: 62.5%;
   font: inherit;
   vertical-align: baseline;
+  font-family: 'LINESeedKR-Rg';
 }
 img {
   width: 100%;
@@ -154,4 +169,9 @@ input:active {
   overflow: hidden;
   padding: 0;
   position: absolute;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'LINESeedKR-Rg';
 }
