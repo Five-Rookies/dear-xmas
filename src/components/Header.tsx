@@ -10,7 +10,7 @@ const Header = (): React.JSX.Element => {
       <div className={styles.innerBox}>
         <h1>
           <Link href="/">
-            <img src="/asset/header_logo.svg" alt="logo" />
+            <img src="/assets/header_logo.svg" alt="logo" />
           </Link>
         </h1>
         <ul className={styles.navi}>
