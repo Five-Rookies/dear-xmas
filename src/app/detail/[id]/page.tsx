@@ -16,7 +16,7 @@ const Detail = (props: any) => {
   const router = useRouter()
 
   return (
-    <main className={styles.detail}>
+    <div className={`inner-box ${styles.detail}`}>
       <header className={styles.header}>
         <button type="button" onClick={() => router.back()}>
           <img src="/assets/left-arrow.png" alt="뒤로가기 아이콘" />
@@ -46,12 +46,12 @@ const Detail = (props: any) => {
                 />
               </figure>
             </div>
-            <div>
+            <div className={styles.videoInfoTitleWrap}>
               <h2 className={styles.videoInfoTitle}>
                 {getItemInfo.snippet.title}
               </h2>
               <p>{getItemInfo.snippet.channelTitle}</p>
-              <p>{getItemInfo.snippet.description}</p>
+              <p dangerouslySetInnerHTML={{ __html: getItemInfo.snippet.description.replace(/\n/g, '<br/>') }} />
             </div>
           </div>
         </>
@@ -59,7 +59,7 @@ const Detail = (props: any) => {
         <div>상세정보 불러오기 실패 🥲</div>
       )}
       <RelatedVedio id={props.params.id} />
-    </main>
+    </div>
   )
 }
 

@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Link from 'next/link'
 import { IChannelVideo } from '@/type/Api'
+import formatRelativeDate from '@/utils/relativeDate'
 import styles from './RelatedVedio.module.scss'
 
 const RelatedVedio = ({ id }: { id: string }) => {
@@ -26,7 +27,7 @@ const RelatedVedio = ({ id }: { id: string }) => {
 
   return (
     <section>
-      <h3>관련된 영상</h3>
+      <h3 className={styles.relatedTitle}>관련된 영상</h3>
       <ul className={styles.list}>
         {videoData.map((item: IChannelVideo, idx: number) => (
           <li key={idx} className={styles.listItem}>
@@ -34,7 +35,7 @@ const RelatedVedio = ({ id }: { id: string }) => {
               href={`https://www.youtube.com/watch?v=${item.id.videoId}`}
               className={styles.listLink}
             >
-              <figure>
+              <figure className={styles.listImg}>
                 <img
                   src={item.snippet.thumbnails.medium.url}
                   alt={item.snippet.title}
@@ -42,8 +43,8 @@ const RelatedVedio = ({ id }: { id: string }) => {
               </figure>
               <div>
                 <h4 className={styles.listTitle}>{item.snippet.title}</h4>
-                <p>{item.snippet.channelTitle}</p>
-                <p>{item.snippet.publishedAt}</p>
+                <p className={styles.channelTitle}>{item.snippet.channelTitle}</p>
+                <p>{formatRelativeDate(item.snippet.publishedAt)}</p>
               </div>
             </Link>
           </li>
