@@ -16,7 +16,7 @@ const VideoListPage: NextPage<ISnippet> = (): React.JSX.Element => {
   // const videoList: VideoList = response.items
   const videoList: VideoList = VIDEO_LIST.items
   return (
-    <div>
+    <div className={styles.innerBox}>
       <ul className={styles.videoList}>
         {videoList.map((video: IVideo, idx: number) => {
           return (

@@ -1,46 +1,49 @@
-.videoList {
-  list-style: none;
-  padding: 30px;
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 10px;
-  justify-content: center;
+.innerBox {
+  width: 80rem;
+  margin: 0 auto;
+  .videoList {
+    list-style: none;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    justify-content: center;
 
-  .videoCard {
-    margin: 10px;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+    .videoCard {
+      margin: 10px;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
 
-    &:hover {
-      transform: scale(1.03);
-      border-radius: 0px;
+      &:hover {
+        transform: scale(1.03);
+        border-radius: 0px;
 
-      img {
-        border-radius: 0;
+        img {
+          border-radius: 0;
+        }
+      }
+
+      .videoImage {
+        width: 100%;
+        border-radius: 20px;
+        transition: all 0.3s ease-in-out;
       }
     }
 
-    .videoImage {
-      width: 100%;
-      border-radius: 20px;
-      transition: all 0.3s ease-in-out;
+    @media (max-width: 768px) {
+      .videoCard {
+        width: calc(80% - 20px);
+      }
     }
-  }
 
-  @media (max-width: 768px) {
-    .videoCard {
-      width: calc(80% - 20px);
-    }
-  }
-
-  @media (max-width: 480px) {
-    .videoCard {
-      width: 100%;
+    @media (max-width: 480px) {
+      .videoCard {
+        width: 100%;
+      }
     }
   }
 }
