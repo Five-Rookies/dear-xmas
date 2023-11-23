@@ -32,7 +32,7 @@ export const createComments = async (text: string, video_id: string) => {
 
     return data
   } catch (err) {
-    console.error('데이터를 불러오지 못했습니다', err)
+    console.error('데이터를 생성하지 못했습니다', err)
   }
 }
 
@@ -46,7 +46,7 @@ export const updateComments = async (text: string, video_id: string) => {
     if (error) throw new Error()
     return data
   } catch (err) {
-    console.error('데이터를 불러오지 못했습니다', err)
+    console.error('데이터를 수정하지 못했습니다', err)
   }
 }
 
@@ -60,6 +60,6 @@ export const deleteComments = async (video_id: string) => {
     if (error) throw new Error()
     return data
   } catch (err) {
-    console.error('데이터를 불러오지 못했습니다', err)
+    console.error('데이터를 삭제하지 못했습니다', err)
   }
 }

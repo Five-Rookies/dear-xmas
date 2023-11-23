@@ -1,28 +1,24 @@
 'use client'
 
 import React, { useState, useEffect } from 'react'
-import axios from 'axios'
 import Link from 'next/link'
 import { IChannelVideo } from '@/type/Api'
 import formatRelativeDate from '@/utils/relativeDate'
+import youtubeApiRequest from '@/utils/apiRequest/youtubeApiRequest'
 import styles from './detail.module.scss'
 
 const RelatedVedio = ({ channelId }: { channelId: string }) => {
   const [videoData, setVideoData] = useState<IChannelVideo[]>([])
+  const fetchData = async () => {
+    const response = await youtubeApiRequest(
+      'search',
+      `&channel_id=${channelId}`,
+      25,
+    )
 
+    setVideoData(response)
+  }
   useEffect(() => {
-    const fetchData = async () => {
-      const ACCESS_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
-      try {
-        const response = await axios.get(
-          `https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=${channelId}&maxResults=25&q=surfing&key=${ACCESS_KEY}`,
-        )
-        setVideoData(response.data.items)
-      } catch (error) {
-        console.error('Failed to fetch video data', error)
-      }
-    }
-
     fetchData()
   }, [channelId])
 
