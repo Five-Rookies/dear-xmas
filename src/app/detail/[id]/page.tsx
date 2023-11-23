@@ -1,16 +1,10 @@
-import axios from 'axios'
 import { IVideo } from '@/type/Api'
 import RelatedVedio from '@/app/detail/[id]/RelatedVedio'
+import youtubeApiRequest from '@/utils/apiRequest/youtubeApiRequest'
 import styles from './detail.module.scss'
 
 const getVideoList = async (getVideoId: string) => {
-  const ACCESS_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
-  const URL = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=32&key=${ACCESS_KEY}`
-  const response = await (await axios.get(URL)).data.items
-  if (!response) {
-    throw new Error('data is not defined')
-  }
-
+  const response = await youtubeApiRequest()
   return response.find((channel: IVideo) => channel.id === getVideoId)
 }
 
