@@ -2,12 +2,12 @@
 
 import React, { useState, useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
-import axios from 'axios'
 import Link from 'next/link'
 import formatRelativeDate from '@/utils/relativeDate'
 import styles from '@/app/mainList/page.module.scss'
 import { ISearch } from '@/type/Api'
 import youtubeApiRequest from '@/utils/apiRequest/youtubeApiRequest'
+import testJSON from '@public/videos/searchByChannels/search-by-channel-id-UC1x03ziDHPct2xTikLyfMDA.json'
 
 const Search = (): React.ReactElement => {
   const searchParams = useSearchParams()
@@ -15,12 +15,13 @@ const Search = (): React.ReactElement => {
   const [filteredItems, setFilteredItems] = useState<ISearch[]>([])
 
   const handleSearch = async () => {
-    if (!search) return
-    const response = await youtubeApiRequest(
-      'search',
-      `&q=${search}&type=video`,
-      25,
-    )
+    // if (!search) return
+    // const response = await youtubeApiRequest(
+    //   'search',
+    //   `&q=${search}&type=video`,
+    //   25,
+    // )
+    const response = testJSON.items
     const filtered: ISearch[] = response.filter((el: ISearch): boolean => {
       return el.snippet.title.includes(search || '')
     })

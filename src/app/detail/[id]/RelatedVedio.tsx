@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { IChannelVideo } from '@/type/Api'
 import formatRelativeDate from '@/utils/relativeDate'
 import youtubeApiRequest from '@/utils/apiRequest/youtubeApiRequest'
+import testJSON from '@public/videos/searchByChannels/search-by-channel-id-UC1x03ziDHPct2xTikLyfMDA.json'
 import styles from './detail.module.scss'
 
 const RelatedVedio = ({ channelId }: { channelId: string }) => {
@@ -15,11 +16,11 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
       `&channel_id=${channelId}`,
       25,
     )
-
     setVideoData(response)
   }
   useEffect(() => {
-    fetchData()
+    setVideoData(testJSON.items)
+    // fetchData()
   }, [channelId])
 
   return (
@@ -38,7 +39,7 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
                   alt={item.snippet.title}
                 />
               </figure>
-              <div>
+              <div className={styles.listTitleWrap}>
                 <h4 className={styles.listTitle}>{item.snippet.title}</h4>
                 <p className={styles.channelTitle}>
                   {item.snippet.channelTitle}
