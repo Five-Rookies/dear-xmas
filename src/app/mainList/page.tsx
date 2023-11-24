@@ -1,6 +1,5 @@
 import VIDEO_LIST from '@public/videos/popular.json'
 import { NextPage } from 'next'
-import React from 'react'
 import axios from 'axios'
 import { IVideo, ISnippet } from '@/type/Api'
 import VideoList from '@/app/mainList/VideoList'
@@ -17,6 +16,7 @@ const getVideoList = async (): Promise<VideoListType> => {
 
   return response
 }
+
 
 const VideoListPage: NextPage<ISnippet> = async () => {
   const videoList: VideoListType = await getVideoList()

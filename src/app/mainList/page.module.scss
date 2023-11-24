@@ -1,3 +1,7 @@
+$color-primary: #ff1e1e;
+$color-primary-hover: #ee1818;
+
+
 .videoList {
   list-style: none;
   display: grid;
@@ -79,4 +83,28 @@
   font-size: 0.8rem;
   color: black;
   opacity: 0.6;
+}
+
+.scrollBtn {
+  width: 3.75rem;
+  height: 3.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  border-radius: 50%;
+  background-color: $color-primary;
+  transition: .3s ease;
+
+  &:hover {
+    background-color: $color-primary-hover;
+  }
+
+  .arrowUpIcon, .arrowDownIcon {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
 }
