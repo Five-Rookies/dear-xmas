@@ -1,16 +1,16 @@
 /* eslint-disable camelcase */
 import { createClient } from '@supabase/supabase-js'
-import Comment from '@/type/SupabaseRespons'
+import Comments from '@/type/SupabaseRespons'
 
-const supabase = createClient<Comment[]>(
+const supabase = createClient<Comments[]>(
   process.env.NEXT_PUBLIC_SUPABASE_URL as string,
   process.env.NEXT_PUBLIC_SERVICE_KEY as string,
 )
 
-export const getComments = async (video_id: number) => {
+export const getComments = async (video_id: string) => {
   try {
     const { data, error } = await supabase
-      .from('video_comment')
+      .from('comments')
       .select('*')
       .eq('video_id', video_id)
     if (error) throw new Error()
@@ -24,7 +24,7 @@ export const getComments = async (video_id: number) => {
 export const getCommentsById = async (id: number) => {
   try {
     const { data, error } = await supabase
-      .from('video_comment')
+      .from('comments')
       .select('*')
       .eq('id', id)
       .single()
@@ -43,13 +43,12 @@ export const createComments = async (
   img_path: number,
 ) => {
   try {
-    const { data, error } = await supabase.from('video_comment').insert([
+    const { data, error } = await supabase.from('comments').insert([
       {
         text,
         video_id,
         user_name,
         img_path,
-        like_num: 0,
       },
     ])
 
@@ -70,7 +69,7 @@ export const updateComments = async (
 ) => {
   try {
     const { data, error } = await supabase
-      .from('video_comment')
+      .from('comments')
       .update([{ text, like_num }])
       .eq('id', id)
 
@@ -84,7 +83,7 @@ export const updateComments = async (
 export const deleteComments = async (id: string) => {
   try {
     const { data, error } = await supabase
-      .from('video_comment')
+      .from('comments')
       .delete()
       .eq('id', id)
 

@@ -1,7 +1,10 @@
 interface Comments {
   id: number
   created_at: string
-  text: null | string
+  user_name: string
+  img_path: 1 | 2 | 3 | 4
+  like_num: number
+  text: string
   video_id: string
   anonymous_user_id: string
 }
