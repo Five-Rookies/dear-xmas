@@ -18,7 +18,9 @@ const VideoList = ({ videoList }: { videoList: VideoListType }) => {
             <li className={styles.videoCard} key={video.id}>
               <Link
                 className={styles.videoLink}
-                href={`https://www.youtube.com/watch?v=${video.id}`}
+                href={{
+                  pathname: `/detail/${video.id}`,
+                }}
               >
                 <div>
                   <img
