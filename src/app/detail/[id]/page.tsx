@@ -27,38 +27,33 @@ const Detail = async (props: any) => {
       <DetailHeader title={getItemInfo.snippet.channelTitle} />
       <h1 className={styles.videoInfoTitle}>{getItemInfo.snippet.title}</h1>
       {getItemInfo ? (
-        <div>
-          <figure className={styles.visual}>
-            <iframe
-              src={`https://www.youtube.com/embed/${getVideoId}`}
-              width="100%"
-              height="100%"
-              allow="autoplay; encrypted-media"
-              allowFullScreen
-            />
-          </figure>
-
-          <div className={styles.videoInfo}>
-            <div></div>
-            <div className={styles.videoInfoTitleWrap}>
-              <h2 className={styles.videoInfoTitle}>
-                {getItemInfo.snippet.title}
-              </h2>
-              <span>{getItemInfo.snippet.channelTitle}</span>
-              <span
+        <div className={styles.visualContainer}>
+          <div>
+            <figure className={styles.visual}>
+              <iframe
+                src={`https://www.youtube.com/embed/${getVideoId}`}
+                width="100%"
+                height="100%"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+              />
+            </figure>
+            <div className={styles.videoInfo}>
+              <p
+                className={styles.videoInfoText}
                 dangerouslySetInnerHTML={{
                   __html: getItemInfo.snippet.description.replace(
                     /\n/g,
                     '<br/>',
                   ),
                 }}
-              ></span>
+              />
+              <p></p>
             </div>
+            {/* <Comments /> */}
             {totalComments && <CommentList totalComments={...totalComments} />}
           </div>
-          <div>
-            <RelatedVedio channelId={getItemInfo?.snippet?.channelId} />
-          </div>
+          <RelatedVedio channelId={getItemInfo?.snippet?.channelId} />
         </div>
       ) : (
         <div>상세정보 불러오기 실패 🥲</div>

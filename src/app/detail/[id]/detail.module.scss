@@ -1,7 +1,7 @@
 .header {
   display: flex;
   align-items: center;
-  margin: 2.5rem 0 0.8rem;
+  margin: 0 0 0.8rem;
   font-size: 1.1rem;
   button {
     display: flex;
@@ -41,7 +41,6 @@
   margin-bottom: 1.5rem;
 }
 
-
 .visualContainer {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -62,8 +61,8 @@
   align-items: center;
   padding: 1rem;
   margin: 1rem 0;
-  background-color: #eeeeee;
   border-radius: 1.5rem;
+  background-color: var(--color-videoInfo-bg);
 
   .videoInfoImgFrame {
     width: 10rem;
@@ -104,12 +103,6 @@
 
     .listImg {
       background-color: #000;
-      overflow: hidden;
-    }
-
-    &:hover img {
-      height: 14.655rem;
-      border-radius: 0.5rem;
       overflow: hidden;
     }
 
@@ -208,6 +201,13 @@
       font-size: 1rem;
       font-weight: bold;
     }
+  }
+}
+
+.grid {
+  .visual {
+  }
+  .comments {
   }
 }
 

@@ -3,15 +3,19 @@ $text-color-2: #fff;
 $bg-color-1: #fff;
 $bg-color-2: #232323;
 $bg-color-3: #da3017;
+$bg-color-4: #eee;
+$bg-color-5: #3c3c3c;
 
 html[data-theme='light'] {
   --color-text: #{$text-color-1};
   --color-background: #{$bg-color-1};
   --color-main-bg: #{$bg-color-3};
+  --color-videoInfo-bg: #{$bg-color-4};
 }
 
 html[data-theme='dark'] {
   --color-text: #{$text-color-2};
   --color-background: #{$bg-color-2};
   --color-main-bg: #{$bg-color-2};
+  --color-videoInfo-bg: #{$bg-color-5};
 }
