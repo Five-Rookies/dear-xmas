@@ -20,6 +20,7 @@ const getVideoList = async (): Promise<VideoListType> => {
   return response*/
 }
 
+
 const VideoListPage: NextPage<ISnippet> = async () => {
   const videoList: VideoListType = await getVideoList()
   //const videoList: VideoListType = VIDEO_LIST.items
