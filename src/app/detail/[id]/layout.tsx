@@ -9,7 +9,7 @@ import styles from './detail.module.scss'
 //   title: '상세페이지',
 // }
 
-const Layout = props => {
+const Layout = (props: any) => {
   const router = useRouter()
 
   return (

@@ -2,7 +2,7 @@ import styles from './page.module.scss'
 
 export default function Home() {
   return (
-    <main>
+    <main className="main-container">
       <section className={styles.bg}>
         <ul className={styles.tree}>
           <li>

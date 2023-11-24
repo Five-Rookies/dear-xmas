@@ -1,0 +1,17 @@
+$text-color-1: #232323;
+$text-color-2: #fff;
+$bg-color-1: #fff;
+$bg-color-2: #232323;
+$bg-color-3: #da3017;
+
+html[data-theme='light'] {
+  --color-text: #{$text-color-1};
+  --color-background: #{$bg-color-1};
+  --color-main-bg: #{$bg-color-3};
+}
+
+html[data-theme='dark'] {
+  --color-text: #{$text-color-2};
+  --color-background: #{$bg-color-2};
+  --color-main-bg: #{$bg-color-2};
+}

@@ -47,7 +47,9 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
                 <p className={styles.channelTitle}>
                   {item.snippet.channelTitle}
                 </p>
-                <p>{formatRelativeDate(item.snippet.publishedAt)}</p>
+                <span className={styles.publishedAt}>
+                  {formatRelativeDate(item.snippet.publishedAt)}
+                </span>
               </div>
             </Link>
           </li>

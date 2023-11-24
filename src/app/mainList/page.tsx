@@ -14,13 +14,12 @@ const getVideoList = async (): Promise<VideoListType> => {
   if (!response) {
     throw new Error('data is not defined')
   }
-
   return response
 }
 
 const VideoListPage: NextPage<ISnippet> = async () => {
   const videoList: VideoListType = await getVideoList()
-
+  //const videoList: VideoListType = VIDEO_LIST.items
   return (
     <div className="inner-box">
       <VideoList videoList={videoList} />

@@ -1,3 +1,4 @@
+@use './thems.scss' as *;
 /* /styles/reset.css */
 @font-face {
   font-family: 'LINESeedKR-Bd';
@@ -179,4 +180,22 @@ a {
 .inner-box {
   max-width: 80rem;
   margin: 0 auto;
+  padding-top: 8rem;
+}
+
+.main-container {
+  padding-top: 4.5rem;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  transition: all 0.3s ease-in-out;
+}
+
+h4,
+span,
+p {
+  color: var(--color-text);
+  transition: all 0.3s ease-in-out;
 }
