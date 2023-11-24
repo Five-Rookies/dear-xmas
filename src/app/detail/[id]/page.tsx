@@ -1,7 +1,10 @@
 import { IVideo } from '@/type/Api'
 import RelatedVedio from '@/app/detail/[id]/RelatedVedio'
 import youtubeApiRequest from '@/utils/apiRequest/youtubeApiRequest'
+import testJSON from '@public/videos/popular.json'
 import styles from './detail.module.scss'
+import DetailHeader from './DetailHeader'
+import Comments from './Comments'
 
 const getVideoList = async (getVideoId: string) => {
   const response = await youtubeApiRequest()
@@ -11,37 +14,26 @@ const getVideoList = async (getVideoId: string) => {
 const Detail = async (props: any) => {
   const getVideoId = props.params.id
   if (!getVideoId) return null
-  const getItemInfo = await getVideoList(getVideoId)
-
+  // const getItemInfo = await getVideoList(getVideoId)
+  const getItemInfo = testJSON.items[0]
+  // const tagStr = getItemInfo.snippet.tags.forEach((tag) => {
   return (
-    <>
+    <div className={`inner-box ${styles.detail}`}>
+      <DetailHeader title={getItemInfo.snippet.channelTitle} />
+      <h1 className={styles.videoInfoTitle}>{getItemInfo.snippet.title}</h1>
       {getItemInfo ? (
-        <>
-          <figure className={styles.visual}>
-            <iframe
-              src={`https://www.youtube.com/embed/${getVideoId}`}
-              width="100%"
-              height="100%"
-              allow="autoplay; encrypted-media"
-              allowFullScreen
-            />
-          </figure>
-
-          <div className={styles.videoInfo}>
-            <div>
-              <figure className={styles.videoInfoImgFrame}>
-                <img
-                  className={styles.videoInfoImg}
-                  src={getItemInfo.snippet.thumbnails.high.url}
-                  alt={getItemInfo.snippet.title}
-                />
-              </figure>
-            </div>
-            <div className={styles.videoInfoTitleWrap}>
-              <h2 className={styles.videoInfoTitle}>
-                {getItemInfo.snippet.title}
-              </h2>
-              <p>{getItemInfo.snippet.channelTitle}</p>
+        <div className={styles.visualContainer}>
+          <div>
+            <figure className={styles.visual}>
+              <iframe
+                src={`https://www.youtube.com/embed/${getVideoId}`}
+                width="100%"
+                height="100%"
+                allow="autoplay; encrypted-media"
+                allowFullScreen
+              />
+            </figure>
+            <div className={styles.videoInfo}>
               <p
                 dangerouslySetInnerHTML={{
                   __html: getItemInfo.snippet.description.replace(
@@ -50,14 +42,16 @@ const Detail = async (props: any) => {
                   ),
                 }}
               />
+              <p></p>
             </div>
+            <Comments />
           </div>
-        </>
+          <RelatedVedio channelId={getItemInfo?.snippet?.channelId} />
+        </div>
       ) : (
         <div>상세정보 불러오기 실패 🥲</div>
       )}
-      <RelatedVedio channelId={getItemInfo?.snippet?.channelId} />
-    </>
+    </div>
   )
 }
 
