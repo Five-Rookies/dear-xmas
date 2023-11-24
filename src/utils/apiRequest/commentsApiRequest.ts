@@ -65,7 +65,7 @@ export const createComments = async (
 export const updateComments = async (
   text: string,
   like_num: number,
-  id: string,
+  id: number,
 ) => {
   try {
     const { data, error } = await supabase

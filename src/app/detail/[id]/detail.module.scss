@@ -44,7 +44,7 @@
 .visualContainer {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  column-gap: 1.25rem;
+  column-gap: 2rem;
   .visual {
     display: flex;
     align-items: center;
@@ -165,11 +165,13 @@
 .commentContainer {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   margin-bottom: 2rem;
+  gap: 0.5rem;
+  position: relative;
   img {
     width: 6%;
     height: 6%;
-    margin-right: 0.5rem;
   }
   .commentDetail {
     width: 100%;
@@ -190,6 +192,16 @@
       font-size: 1.1rem;
       line-height: 1.5;
     }
+    input.text {
+      border: 0.1rem solid #eee;
+      border-radius: 0.5rem;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      padding: 0.2rem;
+      margin-top: 0.5rem;
+      margin-right: 0.5rem;
+      width: 100%;
+    }
     button {
       img {
         width: 1.2rem;
@@ -202,12 +214,35 @@
       font-weight: bold;
     }
   }
-}
-
-.grid {
-  .visual {
+  .moreBtn {
+    cursor: pointer;
+    opacity: 0;
+    font-size: 2rem;
+    padding: 0 2rem 0 0;
+    &:hover,
+    &.active {
+      opacity: 1;
+    }
   }
-  .comments {
+  .dotMenu {
+    display: inline;
+    z-index: 10;
+    border: 0.1rem solid #ddd;
+    border-radius: 0.3rem;
+    width: 4rem;
+    text-align: center;
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    & > * {
+      padding: 0.5rem;
+      box-sizing: border-box;
+      height: 2rem;
+    }
+    :nth-child(2) {
+      border-top: 0.1rem solid #ddd;
+      color: #da3017;
+    }
   }
 }
 
