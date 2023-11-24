@@ -1,11 +1,42 @@
+'use client'
+
 import Link from 'next/link'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import styles from './header.module.scss'
 import HeaderInput from './HeaderInput'
+import useStore from '@/status/store'
 
 const Header = (): React.JSX.Element => {
+  const { isDark, toggleDarkMode } = useStore()
+  const [hydrated, setHydrated] = useState(false)
+
+  const onClickDarkMode = (): void => {
+    toggleDarkMode(!isDark)
+  }
+
+  const isdarkMode = () => {
+    const DOM_EL: HTMLElement = document.documentElement
+    isDark
+      ? DOM_EL.setAttribute('data-theme', 'dark')
+      : DOM_EL.setAttribute('data-theme', 'light')
+  }
+
+  const renderThemeToggle = () => {
+    if (hydrated) {
+      return isDark ? <span>🌝</span> : <span>🌞</span>
+    } else {
+      // Return a placeholder or nothing until the client script runs
+      return null
+    }
+  }
+
+  useEffect(() => {
+    setHydrated(true)
+    isdarkMode()
+  }, [isDark])
+
   return (
     <header className={styles.header}>
       <div className={styles.innerBox}>
@@ -26,11 +57,14 @@ const Header = (): React.JSX.Element => {
           </li>
         </ul>
         <HeaderInput />
-        <p className={styles.account}>
+        <button className={styles.darkModeIcon} onClick={onClickDarkMode}>
+          {renderThemeToggle()}
+        </button>
+        <div className={styles.account}>
           <span>로그인</span>
-          <span className={styles.line}>|</span>
+          <p className={styles.line}>|</p>
           <span>회원가입</span>
-        </p>
+        </div>
         <FontAwesomeIcon className={styles.barIcon} icon={faBars} />
       </div>
     </header>
