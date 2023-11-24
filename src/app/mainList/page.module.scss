@@ -54,7 +54,7 @@ $color-primary-hover: #ee1818;
 .title {
   padding: 5px 13px;
   font-size: 1rem;
-  font-weight: 650;
+  font-weight: bold;
   color: black;
   h4 {
     white-space: nowrap;
@@ -66,8 +66,8 @@ $color-primary-hover: #ee1818;
 
 .channelTitle {
   padding: 10px 13px;
+  font-weight: bold;
   font-size: 0.9rem;
-  color: black;
   opacity: 0.6;
   transition: all 0.3s ease-in-out;
 
@@ -79,10 +79,9 @@ $color-primary-hover: #ee1818;
 }
 
 .publishedAt {
+  opacity: 0.6;
   padding: 5px 0px 20px 15px;
   font-size: 0.8rem;
-  color: black;
-  opacity: 0.6;
 }
 
 .scrollBtn {

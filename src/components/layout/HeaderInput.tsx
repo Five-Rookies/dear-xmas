@@ -29,10 +29,10 @@ const HeaderInput = (): React.JSX.Element => {
         placeholder="제목을 입력하세요"
         autoFocus
         autoComplete="off"
+        name="search-input"
         ref={searchInput}
         onKeyPress={handleKeyPress}
       />
-
       <button type="button" onClick={handleSearch}>
         <img src="/assets/header_search_icon.svg" alt="" />
       </button>

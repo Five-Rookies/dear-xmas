@@ -6,4 +6,4 @@ interface Comments {
   anonymous_user_id: string
 }
 
-export default { Comments }
+export default Comments

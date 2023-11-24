@@ -1,8 +1,9 @@
 .bg {
-  background-color: #da3017;
+  background-color: var(--color-main-bg);
   height: 40rem;
   width: 100%;
   position: relative;
+  transition: all 0.3s ease-in-out;
   .snowBg {
     position: absolute;
     bottom: 0;
@@ -23,8 +24,8 @@
     li {
       img {
         position: absolute;
-        top: 15rem;
-        width: 5rem;
+        top: 13rem;
+        width: 4.5rem;
       }
     }
     li:nth-child(4) {

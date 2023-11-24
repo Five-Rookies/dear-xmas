@@ -1,13 +1,22 @@
 $main-color: #ff1e1e;
+
 .header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: var(--color-background);
   padding: 0.8rem 0;
   border-bottom: 0.1rem solid #eee;
+  transition: all 0.3s ease-in-out;
   .innerBox {
     max-width: 80rem;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    h1 {
+      width: 6rem;
+    }
     .navi {
       display: flex;
       align-items: center;
@@ -28,8 +37,11 @@ $main-color: #ff1e1e;
           }
         }
         a {
-          color: #000;
+          color: var(--color-text);
           font-size: 1.1rem;
+          &:hover {
+            border-bottom: 1px solid var(--color-text);
+          }
         }
       }
     }
@@ -37,7 +49,7 @@ $main-color: #ff1e1e;
       position: relative;
       input {
         height: 2.2rem;
-        width: 15rem;
+        width: 13rem;
         background-color: #ffdcdc;
         border: none;
         border-radius: 5rem;
@@ -60,8 +72,30 @@ $main-color: #ff1e1e;
         padding: 0 1rem;
         color: #eee;
       }
+      span {
+        cursor: pointer;
+        &:hover {
+          border-bottom: 1px solid var(--color-text);
+        }
+      }
       span:first-child {
         color: $main-color;
+        &:hover {
+          border-bottom: 1px solid $main-color;
+        }
+      }
+    }
+    .darkModeIcon {
+      cursor: pointer;
+      border-radius: 10px;
+      padding: 7px;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        background-color: #ecf0f1;
+      }
+      span {
+        font-size: 25px;
+        transition: all 0.3s ease-in-out;
       }
     }
     .barIcon {
@@ -85,7 +119,7 @@ $main-color: #ff1e1e;
         cursor: pointer;
         display: inline;
         width: 1.5rem;
-        transition: 0.5s;
+        transition: all 0.3s ease-in-out;
         &:hover {
           color: $main-color;
         }
@@ -94,5 +128,5 @@ $main-color: #ff1e1e;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 528px) {
 }
