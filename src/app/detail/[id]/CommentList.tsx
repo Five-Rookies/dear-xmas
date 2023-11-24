@@ -1,23 +1,17 @@
-import React from 'react'
+'use client'
+
+import React, { useState, useEffect } from 'react'
 import santa from '@public/assets/profile-santa.svg'
 import snowman from '@public/assets/profile-snowman.svg'
 import candle from '@public/assets/profile-candle.svg'
 import cookie from '@public/assets/profile-cookie.svg'
 import Image from 'next/image'
+import { getComments } from '@/utils/apiRequest/commentsApiRequest'
+import IComment from '@/type/SupabaseRespons'
 import styles from './detail.module.scss'
 import CreateComment from './CreateComment'
 import Comment from './Comment'
 
-interface ICommentProp {
-  id: number
-  created_at: string
-  user_name: string
-  img_path: 1 | 2 | 3 | 4
-  like_num: number
-  text: string
-  video_id: string
-  anonymous_user_id: string
-}
 const profiles = [santa, snowman, candle, cookie]
 const randomProfile = Math.round(Math.random() * 3)
 
@@ -28,17 +22,38 @@ const randomProfile = Math.round(Math.random() * 3)
 //   // randomProfile)
 // }
 
-const CommentList = ({ totalComments }: { totalComments: ICommentProp[] }) => {
-  const data = totalComments
+const CommentList = ({ getVideoId }: { getVideoId: string }) => {
+  const [comments, setComments] = useState<IComment[]>([])
+
+  useEffect(() => {
+    const fetchComments = async () => {
+      const totalComments = await getComments(getVideoId)
+      if (totalComments) {
+        setComments(totalComments)
+      }
+    }
+
+    fetchComments()
+  }, [getVideoId])
+
+  if (comments.length === 0) return null
+
   return (
     <div className={styles.comments}>
-      <p>댓글 {data.length}개</p>
+      <p>댓글 {comments.length}개</p>
       <div className={styles.inputComments}>
         <Image src={profiles[randomProfile]} alt="프로필 이미지" />
         <CreateComment />
       </div>
-      {data?.map((el: ICommentProp, idx: number) => {
-        return <Comment key={idx} comment={el} />
+      {comments?.map((el: IComment, idx: number) => {
+        return (
+          <Comment
+            key={idx}
+            comment={el}
+            getVideoId={getVideoId}
+            setComments={setComments}
+          />
+        )
       })}
     </div>
   )

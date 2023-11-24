@@ -2,10 +2,6 @@ import { IVideo } from '@/type/Api'
 import RelatedVedio from '@/app/detail/[id]/RelatedVedio'
 import youtubeApiRequest from '@/utils/apiRequest/youtubeApiRequest'
 import testJSON from '@public/videos/popular.json'
-import {
-  createComments,
-  getComments,
-} from '@/utils/apiRequest/commentsApiRequest'
 import styles from './detail.module.scss'
 import DetailHeader from './DetailHeader'
 import CommentList from './CommentList'
@@ -17,7 +13,6 @@ const getVideoList = async (getVideoId: string) => {
 
 const Detail = async (props: any) => {
   const getVideoId = props.params.id
-  const totalComments = await getComments(getVideoId)
   if (!getVideoId) return null
   // const getItemInfo = await getVideoList(getVideoId)
   const getItemInfo = testJSON.items[0]
@@ -50,8 +45,7 @@ const Detail = async (props: any) => {
               />
               <p></p>
             </div>
-            {/* <Comments /> */}
-            {totalComments && <CommentList totalComments={...totalComments} />}
+            <CommentList getVideoId={getVideoId} />
           </div>
           <RelatedVedio channelId={getItemInfo?.snippet?.channelId} />
         </div>

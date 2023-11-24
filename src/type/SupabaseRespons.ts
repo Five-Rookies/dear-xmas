@@ -1,4 +1,4 @@
-interface Comments {
+interface IComment {
   id: number
   created_at: string
   user_name: string
@@ -9,4 +9,4 @@ interface Comments {
   anonymous_user_id: string
 }
 
-export default Comments
+export default IComment

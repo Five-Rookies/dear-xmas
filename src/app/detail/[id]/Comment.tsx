@@ -1,11 +1,12 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState, Dispatch, SetStateAction } from 'react'
 import Comments from '@/type/SupabaseRespons'
 import formatRelativeDate from '@/utils/relativeDate'
 import {
   deleteComments,
   updateComments,
+  getComments,
 } from '@/utils/apiRequest/commentsApiRequest'
 import Image from 'next/image'
 import santa from '@public/assets/profile-santa.svg'
@@ -13,9 +14,16 @@ import snowman from '@public/assets/profile-snowman.svg'
 import candle from '@public/assets/profile-candle.svg'
 import cookie from '@public/assets/profile-cookie.svg'
 import likeIcon from '@public/assets/like.svg'
+import IComment from '@/type/SupabaseRespons'
 import styles from './detail.module.scss'
 
-const Comment = ({ comment }: { comment: Comments }) => {
+interface CommentProps {
+  comment: Comments
+  getVideoId: string
+  setComments: Dispatch<SetStateAction<IComment[]>>
+}
+
+const Comment = ({ comment, getVideoId, setComments }: CommentProps) => {
   const [isDotMenuVisible, setIsDotMenuVisible] = useState(false)
   const [isEditing, setIsEditing] = useState(false)
   const [inputValue, setInputValue] = useState(comment.text)
@@ -41,17 +49,27 @@ const Comment = ({ comment }: { comment: Comments }) => {
     setIsEditing(true)
   }
 
+  const renderUpdatedComment = async () => {
+    let totalComments = await getComments(getVideoId)
+    if (!totalComments) {
+      totalComments = []
+    }
+    setComments(totalComments)
+  }
+
   const handleEditCompleteButton = async () => {
     const text = inputValue
     const { like_num } = comment
     const { id } = comment
     await updateComments(text, like_num, id)
     setIsEditing(false)
+    await renderUpdatedComment()
   }
 
-  const handleDeleteButton = () => {
+  const handleDeleteButton = async () => {
     setIsDotMenuVisible(!isDotMenuVisible)
     deleteComments(comment.id)
+    await renderUpdatedComment()
   }
 
   return (
