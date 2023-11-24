@@ -1,19 +1,13 @@
-import VIDEO_LIST from '@public/videos/popular.json'
 import { NextPage } from 'next'
-import axios from 'axios'
+import React from 'react'
 import { IVideo, ISnippet } from '@/type/Api'
 import VideoList from '@/app/mainList/VideoList'
+import youtubeApiRequest from '@/utils/apiRequest/youtubeApiRequest'
 
 type VideoListType = IVideo[]
 
 const getVideoList = async (): Promise<VideoListType> => {
-  const ACCESS_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
-  const URL = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=32&key=${ACCESS_KEY}`
-  const response = await (await axios.get(URL)).data.items
-  if (!response) {
-    throw new Error('data is not defined')
-  }
-
+  const response = await youtubeApiRequest()
   return response
 }
 

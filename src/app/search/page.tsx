@@ -1,4 +1,5 @@
 'use client'
+
 import React, { useState, useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
 import axios from 'axios'
@@ -6,29 +7,25 @@ import Link from 'next/link'
 import formatRelativeDate from '@/utils/relativeDate'
 import styles from '@/app/mainList/page.module.scss'
 import { ISearch } from '@/type/Api'
+import youtubeApiRequest from '@/utils/apiRequest/youtubeApiRequest'
 
 const Search = (): React.ReactElement => {
   const searchParams = useSearchParams()
   const search = searchParams.get('info')
-  const ACCESS_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
   const [filteredItems, setFilteredItems] = useState<ISearch[]>([])
 
   const handleSearch = async () => {
     if (!search) return
-
-    const URL = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${search}&type=video&regionCode=kr&key=${ACCESS_KEY}`
-    try {
-      const response = await axios.get(URL)
-      const ITEM = response.data.items
-      const filteredItems: ISearch[] = ITEM?.filter((el: ISearch): boolean => {
-        return el.snippet.title.includes(search ? search : '')
-      })
-      setFilteredItems(filteredItems || [])
-    } catch (error) {
-      console.error('Error fetching data:', error)
-    }
+    const response = await youtubeApiRequest(
+      'search',
+      `&q=${search}&type=video`,
+      25,
+    )
+    const filtered: ISearch[] = response.filter((el: ISearch): boolean => {
+      return el.snippet.title.includes(search || '')
+    })
+    setFilteredItems(filtered || [])
   }
-
   useEffect(() => {
     handleSearch()
   }, [search])
