@@ -80,7 +80,7 @@ export const updateComments = async (
   }
 }
 
-export const deleteComments = async (id: string) => {
+export const deleteComments = async (id: number) => {
   try {
     const { data, error } = await supabase
       .from('comments')

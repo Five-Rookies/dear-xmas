@@ -51,8 +51,7 @@ const Comment = ({ comment }: { comment: Comments }) => {
 
   const handleDeleteButton = () => {
     setIsDotMenuVisible(!isDotMenuVisible)
-    console.log(`${comment.id} 삭제`)
-    // deleteComments(id)
+    deleteComments(comment.id)
   }
 
   return (
