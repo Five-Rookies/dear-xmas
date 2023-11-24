@@ -34,15 +34,7 @@ const Detail = async (props: any) => {
           </figure>
 
           <div className={styles.videoInfo}>
-            <div>
-              <figure className={styles.videoInfoImgFrame}>
-                <img
-                  className={styles.videoInfoImg}
-                  src={getItemInfo.snippet.thumbnails.high.url}
-                  alt={getItemInfo.snippet.title}
-                />
-              </figure>
-            </div>
+            <div></div>
             <div className={styles.videoInfoTitleWrap}>
               <h2 className={styles.videoInfoTitle}>
                 {getItemInfo.snippet.title}
