@@ -22,31 +22,46 @@ const Detail = async (props: any) => {
       <DetailHeader title={getItemInfo.snippet.channelTitle} />
       <h1 className={styles.videoInfoTitle}>{getItemInfo.snippet.title}</h1>
       {getItemInfo ? (
-        <div className={styles.visualContainer}>
-          <div>
-            <figure className={styles.visual}>
-              <iframe
-                src={`https://www.youtube.com/embed/${getVideoId}`}
-                width="100%"
-                height="100%"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-              />
-            </figure>
-            <div className={styles.videoInfo}>
-              <p
+        <div>
+          <figure className={styles.visual}>
+            <iframe
+              src={`https://www.youtube.com/embed/${getVideoId}`}
+              width="100%"
+              height="100%"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+            />
+          </figure>
+
+          <div className={styles.videoInfo}>
+            <div>
+              <figure className={styles.videoInfoImgFrame}>
+                <img
+                  className={styles.videoInfoImg}
+                  src={getItemInfo.snippet.thumbnails.high.url}
+                  alt={getItemInfo.snippet.title}
+                />
+              </figure>
+            </div>
+            <div className={styles.videoInfoTitleWrap}>
+              <h2 className={styles.videoInfoTitle}>
+                {getItemInfo.snippet.title}
+              </h2>
+              <span>{getItemInfo.snippet.channelTitle}</span>
+              <span
                 dangerouslySetInnerHTML={{
                   __html: getItemInfo.snippet.description.replace(
                     /\n/g,
                     '<br/>',
                   ),
                 }}
-              />
-              <p></p>
+              ></span>
             </div>
             <Comments />
           </div>
-          <RelatedVedio channelId={getItemInfo?.snippet?.channelId} />
+          <div>
+            <RelatedVedio channelId={getItemInfo?.snippet?.channelId} />
+          </div>
         </div>
       ) : (
         <div>상세정보 불러오기 실패 🥲</div>

@@ -15,7 +15,7 @@ const getVideoList = async (): Promise<VideoListType> => {
 
 const VideoListPage: NextPage<ISnippet> = async () => {
   const videoList: VideoListType = await getVideoList()
-
+  //const videoList: VideoListType = VIDEO_LIST.items
   return (
     <div className="inner-box">
       <VideoList videoList={videoList} />
