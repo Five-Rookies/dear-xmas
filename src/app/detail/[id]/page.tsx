@@ -8,7 +8,7 @@ import {
 } from '@/utils/apiRequest/commentsApiRequest'
 import styles from './detail.module.scss'
 import DetailHeader from './DetailHeader'
-import Comments from './Comments'
+import CommentList from './CommentList'
 
 const getVideoList = async (getVideoId: string) => {
   const response = await youtubeApiRequest()
@@ -54,7 +54,7 @@ const Detail = async (props: any) => {
                 }}
               ></span>
             </div>
-            {totalComments && <Comments totalComments={...totalComments} />}
+            {totalComments && <CommentList totalComments={...totalComments} />}
           </div>
           <div>
             <RelatedVedio channelId={getItemInfo?.snippet?.channelId} />
