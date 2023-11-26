@@ -59,8 +59,8 @@ const Comment = ({ comment, getVideoId, setComments }: CommentProps) => {
 
   const handleEditCompleteButton = async () => {
     const text = inputValue
-    const { like_num } = comment
-    const { id } = comment
+    const { like_num, id } = comment
+
     await updateComments(text, like_num, id)
     setIsEditing(false)
     await renderUpdatedComment()
@@ -72,6 +72,11 @@ const Comment = ({ comment, getVideoId, setComments }: CommentProps) => {
     await renderUpdatedComment()
   }
 
+  const handleLike = async (text: string) => {
+    const { like_num, id } = comment
+    await updateComments(text, like_num + 1, id)
+    await renderUpdatedComment()
+  }
   return (
     <div className={styles.commentContainer}>
       <Image src={profiles[comment.img_path]} alt="프로필 이미지" />
@@ -97,9 +102,9 @@ const Comment = ({ comment, getVideoId, setComments }: CommentProps) => {
         ) : (
           <p className={styles.text}>{comment.text}</p>
         )}
-        <button>
+        <button onClick={() => handleLike(comment.text)}>
           <Image src={likeIcon} alt="좋아요" />
-          <span>{comment.like_num}</span>
+          <span>&nbsp;{comment.like_num}</span>
         </button>
       </div>
       <p

@@ -15,13 +15,6 @@ import Comment from './Comment'
 const profiles = [santa, snowman, candle, cookie]
 const randomProfile = Math.round(Math.random() * 3)
 
-// const handleCreate = async (e: Event) => {
-//   console.log('????????', e)
-//   // const res = await createComments(text,   videoId,
-//   // '기본 사용자',
-//   // randomProfile)
-// }
-
 const CommentList = ({ getVideoId }: { getVideoId: string }) => {
   const [comments, setComments] = useState<IComment[]>([])
 
@@ -43,18 +36,20 @@ const CommentList = ({ getVideoId }: { getVideoId: string }) => {
       <p>댓글 {comments.length}개</p>
       <div className={styles.inputComments}>
         <Image src={profiles[randomProfile]} alt="프로필 이미지" />
-        <CreateComment />
+        <CreateComment profile={randomProfile} setComments={setComments} />
       </div>
-      {comments?.map((el: IComment, idx: number) => {
-        return (
-          <Comment
-            key={idx}
-            comment={el}
-            getVideoId={getVideoId}
-            setComments={setComments}
-          />
-        )
-      })}
+      {[...comments]
+        .sort((a, b) => b.id - a.id)
+        .map((el: IComment, idx: number) => {
+          return (
+            <Comment
+              key={idx}
+              comment={el}
+              getVideoId={getVideoId}
+              setComments={setComments}
+            />
+          )
+        })}
     </div>
   )
 }

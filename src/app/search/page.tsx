@@ -9,7 +9,7 @@ import { ISearch } from '@/type/Api'
 import youtubeApiRequest from '@/utils/apiRequest/youtubeApiRequest'
 import testJSON from '@public/videos/searchByChannels/search-by-channel-id-UC1x03ziDHPct2xTikLyfMDA.json'
 
-const Search = (): React.ReactElement => {
+const Search = (props: any): React.ReactElement => {
   const searchParams = useSearchParams()
   const search = searchParams.get('info')
   const [filteredItems, setFilteredItems] = useState<ISearch[]>([])
