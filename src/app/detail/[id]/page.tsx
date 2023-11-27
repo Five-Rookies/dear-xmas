@@ -1,13 +1,13 @@
 import { IYoutubeItem } from '@/type/Api'
 import RelatedVedio from '@/app/detail/[id]/RelatedVedio'
 import ScrollBtn from '@/components/ScrollBtn'
-import { youtubeJsonRequest } from '@/utils/apiRequest/youtubeApiRequest'
+import youtubeDataRequest from '@/utils/apiRequest/youtubeApiRequest'
 import styles from './detail.module.scss'
 import DetailHeader from './DetailHeader'
 import CommentList from './CommentList'
 
 const getVideoList = async (getVideoId: string) => {
-  const response = await youtubeJsonRequest()
+  const response = await youtubeDataRequest()
   return response.items.find(
     (channel: IYoutubeItem) => channel.id.videoId === getVideoId,
   )

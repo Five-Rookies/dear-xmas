@@ -5,7 +5,7 @@ import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import formatRelativeDate from '@/utils/relativeDate'
 import { IYoutubeItem } from '@/type/Api'
-import { youtubeJsonRequest } from '@/utils/apiRequest/youtubeApiRequest'
+import youtubeDataRequest from '@/utils/apiRequest/youtubeApiRequest'
 import styles from '../page.module.scss'
 
 const Search = (props: any): React.ReactElement => {
@@ -14,13 +14,8 @@ const Search = (props: any): React.ReactElement => {
   const [filteredItems, setFilteredItems] = useState<IYoutubeItem[]>([])
 
   const handleSearch = async () => {
-    // if (!search) return
-    // const response = await youtubeApiRequest(
-    //   'search',
-    //   `&q=${search}&type=video`,
-    //   25,
-    // )
-    const response = await youtubeJsonRequest()
+    if (!search) return
+    const response = await youtubeDataRequest('search', `&q=${search}`, 25)
     const filtered: IYoutubeItem[] = response.items.filter(
       (el: IYoutubeItem): boolean => {
         return el.snippet.title.includes(search || '')
