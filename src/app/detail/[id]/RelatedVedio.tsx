@@ -2,32 +2,36 @@
 
 import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { IChannelVideo } from '@/type/Api'
+import { IYoutubeItem } from '@/type/Api'
 import formatRelativeDate from '@/utils/relativeDate'
-import testJSON from '@public/videos/searchByChannels/search-by-channel-id-UC1x03ziDHPct2xTikLyfMDA.json'
 import ScrollBtn from '@/components/ScrollBtn'
+import { youtubeJsonRequest } from '@/utils/apiRequest/youtubeApiRequest'
 import styles from './detail.module.scss'
 
 const RelatedVedio = ({ channelId }: { channelId: string }) => {
-  const [videoData, setVideoData] = useState<IChannelVideo[]>([])
+  const [videoData, setVideoData] = useState<IYoutubeItem[]>([])
+
   const fetchData = async () => {
-    const response = await youtubeApiRequest(
-      'search',
-      `&channel_id=${channelId}`,
-      25,
-    )
-    setVideoData(response)
+    // const response = await youtubeApiRequest(
+    //   'search',
+    //   `&channel_id=${channelId}`,
+    //   25,
+    // )
+    // setVideoData(response)
+
+    const response = await youtubeJsonRequest('detail', channelId)
+    setVideoData(response.items)
   }
+
   useEffect(() => {
-    setVideoData(testJSON.items)
-    // fetchData()
+    fetchData()
   }, [channelId])
 
   return (
     <section>
       <h3 className={styles.relatedTitle}>관련된 영상</h3>
       <ul className={styles.list}>
-        {videoData.map((item: IChannelVideo, idx: number) => (
+        {videoData.map((item: IYoutubeItem, idx: number) => (
           <li key={idx} className={styles.listItem}>
             <Link
               href={`https://www.youtube.com/watch?v=${item.id.videoId}`}
