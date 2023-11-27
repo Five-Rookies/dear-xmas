@@ -1,8 +1,5 @@
 import axios from 'axios'
 
-// https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=30
-// &q=%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4|%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%EC%98%81%ED%99%94&type=video&regionCode=kr&order=rating&videoSyndicated=true&key=AIzaSyDyz5t2oRhfpHEnSrXL3LgZyWrJcvNy86Y
-
 const youtubeApiRequest = async (
   optionalQuery: string = '&q=크리스마스|크리스마스영화',
   maxResults: number = 32,
@@ -12,34 +9,52 @@ const youtubeApiRequest = async (
   const commonQuery = `&regionCode=kr&type=video&order=relevance&videoSyndicated=true&maxResults=${maxResults}`
   const URL = `${baseURL}${commonQuery}${optionalQuery}&key=${ACCESS_KEY}`
 
-  let response
   try {
-    response = await axios.get(URL)
+    const youtubeApiData = await axios.get(URL)
+    return youtubeApiData.data
   } catch (error) {
-    console.error('Error fetching data:', error)
+    console.log('[NOTICE] Youtube API 데이터 요청에 실패했습니다.')
+    // if (error instanceof Error) {
+    //   console.error(error.message)
+    // }
+    throw error
   }
-
-  if (!response) {
-    throw new Error('data is not defined')
-  }
-
-  return response.data
 }
 
 const youtubeJsonRequest = async (
   apiType: string = 'popular',
-  optionalQuery: string = '&chart=mostPopular',
+  optionalQuery: string = '',
 ) => {
   let jsonData
   if (apiType === 'popular') {
     jsonData = await import('@public/videos/christmas/christmasPopular_v1.json')
   } else {
+    const channelId = optionalQuery.split('=')[1]
     jsonData = await import(
-      `@public/videos/christmas/searchByChannels/search-by-channel-id-${optionalQuery}.json`
+      `@public/videos/christmas/searchByChannels/search-by-channel-id-${channelId}.json`
     )
   }
 
   return jsonData.default
 }
 
-export { youtubeApiRequest, youtubeJsonRequest }
+const youtubeDataRequest = async (
+  apiType: string = 'popular',
+  optionalQuery: string = '&q=크리스마스|크리스마스영화',
+  maxResults: number = 32,
+) => {
+  let youtubeData
+  try {
+    youtubeData = await youtubeApiRequest(optionalQuery, maxResults)
+  } catch (error) {
+    console.log('[NOTICE] API 요청 횟수 초과. JSON 데이터로 대체합니다.')
+    // if (error instanceof Error) {
+    //   console.error(error.message)
+    // }
+    youtubeData = await youtubeJsonRequest(apiType, optionalQuery)
+  }
+
+  return youtubeData
+}
+
+export default youtubeDataRequest
