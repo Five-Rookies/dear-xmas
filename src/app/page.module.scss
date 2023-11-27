@@ -1,15 +1,21 @@
 .bg {
   background-color: var(--color-main-bg);
-  height: 45rem;
+  height: calc(100vh - 70px);
   width: 100%;
   position: relative;
   transition: all 0.3s ease-in-out;
+  .snowman {
+    position: absolute;
+    right: 2.5rem;
+    bottom: 6.6rem;
+    width: 12rem;
+  }
   .snowBgSecond {
     position: absolute;
     bottom: 0;
     right: 0;
-    height: 10rem;
-    width: 30rem;
+    height: 7rem;
+    width: 100%;
     background-color: var(--color-main-ground-two-bg);
   }
   .snowBg {
@@ -17,13 +23,13 @@
     bottom: 0;
     background-color: var(--color-main-ground-bg);
     border-radius: 0 20rem 0 0;
-    height: 20rem;
-    width: 72rem;
+    height: 14.5rem;
+    width: 62rem;
   }
   .santa {
     position: absolute;
     top: 3rem;
-    left: 11rem;
+    left: 9.2rem;
     transform: scaleX(-1);
     width: 30rem;
   }
@@ -34,6 +40,24 @@
         position: absolute;
         top: 16rem;
         width: 5rem;
+      }
+    }
+    li:nth-child(7) {
+      img {
+        right: 20rem;
+        top: 23.5rem;
+      }
+    }
+    li:nth-child(6) {
+      img {
+        right: 23.5rem;
+        top: 23.5rem;
+      }
+    }
+    li:nth-child(5) {
+      img {
+        right: 27rem;
+        top: 23.5rem;
       }
     }
     li:nth-child(4) {
@@ -49,12 +73,12 @@
     li:nth-child(2) {
       img {
         top: 13.9rem;
-        left: 44rem;
+        left: 40rem;
       }
     }
     li:nth-child(1) {
       img {
-        left: 47.9rem;
+        left: 43.9rem;
       }
     }
   }
@@ -141,4 +165,41 @@
   opacity: 0.6;
   padding: 5px 0px 20px 15px;
   font-size: 0.8rem;
+}
+
+.notFound {
+  text-align: center;
+  position: relative;
+  background-color: var(--color-error-bg);
+  height: 100vh;
+  div {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-54%, -50%);
+    p.tag {
+      display: inline-block;
+      padding: 0.5rem 0.8rem;
+      color: #da3017;
+      font-weight: 800;
+      border-radius: 20rem;
+      background-color: #ffdcdc;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin: 1rem 0 2rem;
+    }
+    img {
+      width: 15rem;
+      margin: auto;
+      display: block;
+      margin-bottom: 2rem;
+    }
+    a {
+      text-decoration: underline;
+      font-weight: 500;
+      color: var(--color-text);
+    }
+  }
 }

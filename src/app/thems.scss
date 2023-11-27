@@ -9,6 +9,7 @@ $bg-color-6: #ffdcdc;
 $bg-color-7: #2d2d2d;
 $bg-color-8: #f4f4f4;
 $bg-color-9: #202020;
+$bg-color-10: #eee;
 
 $hover-color-3: #ce3017;
 
@@ -24,6 +25,7 @@ html[data-theme='light'] {
   --color-main-ground-two-bg: #{$bg-color-8};
   --color-videoInfo-bg: #{$bg-color-4};
   --color-searchInput-bg: #{$bg-color-6};
+  --color-error-bg: #{$bg-color-10};
 }
 
 html[data-theme='dark'] {
@@ -34,5 +36,5 @@ html[data-theme='dark'] {
   --color-main-ground-two-bg: #{$bg-color-9};
   --color-videoInfo-bg: #{$bg-color-5};
   --color-searchInput-bg: #{$bg-color-5};
+  --color-error-bg: #{$bg-color-2};
 }
-
