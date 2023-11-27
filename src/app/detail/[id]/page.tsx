@@ -1,11 +1,10 @@
 import { IVideo } from '@/type/Api'
 import RelatedVedio from '@/app/detail/[id]/RelatedVedio'
-import youtubeApiRequest from '@/utils/apiRequest/youtubeApiRequest'
 import testJSON from '@public/videos/popular.json'
+import ScrollBtn from '@/components/ScrollBtn'
 import styles from './detail.module.scss'
 import DetailHeader from './DetailHeader'
 import CommentList from './CommentList'
-import ScrollBtn from '@/components/ScrollBtn'
 
 const getVideoList = async (getVideoId: string) => {
   const response = await youtubeApiRequest()

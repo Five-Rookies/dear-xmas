@@ -45,28 +45,24 @@ export interface ISnippet {
   publishTime?: string
 }
 
-export interface IVideo {
+export interface IYoutubeItem {
   kind: string
   etag: string
-  id: string
+  id: {
+    kind: string
+    videoId: string
+  }
   snippet: ISnippet
 }
 
-export interface IId {
-  kind: string
-  videoId: string
-}
-
-export interface IChannelVideo {
+export interface IYoutubeResponse {
   kind: string
   etag: string
-  id: IId
-  snippet: ISnippet
-}
-
-export interface ISearch {
-  kind: string
-  etag: string
-  id: IId
-  snippet: ISnippet
+  nextPageToken: string
+  regionCode: string
+  pageInfo: {
+    totalResults: number
+    resultsPerPage: number
+  }
+  items: IYoutubeItem[]
 }

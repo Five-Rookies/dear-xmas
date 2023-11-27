@@ -22,4 +22,11 @@ const youtubeApiRequest = async (
   return response.data.items
 }
 
-export default youtubeApiRequest
+const youtubeJsonRequest = async () => {
+  const popularJSONData = await import(
+    '@public/videos/christmas/christmasPopular_v1.json'
+  )
+  return popularJSONData.default
+}
+
+export { youtubeApiRequest, youtubeJsonRequest }

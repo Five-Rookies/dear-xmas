@@ -1,29 +1,19 @@
-import { NextPage } from 'next'
 import React from 'react'
-import { IVideo, ISnippet } from '@/type/Api'
+import { IYoutubeItem } from '@/type/Api'
 import VideoList from '@/components/home/VideoList'
-import youtubeApiRequest from '@/utils/apiRequest/youtubeApiRequest'
-import testJSON from '@public/videos/popular.json'
+import { youtubeJsonRequest } from '@/utils/apiRequest/youtubeApiRequest'
 import styles from './page.module.scss'
 
-type VideoListType = IVideo[]
+type VideoListType = IYoutubeItem[]
 
 const getVideoList = async (): Promise<VideoListType> => {
-  // const response = await youtubeApiRequest()
-  // return response
-  return testJSON.items
-  /* const ACCESS_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
-	const URL = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=32&key=${ACCESS_KEY}`
-	const response = await (await axios.get(URL)).data.items
-	if (!response) {
-		throw new Error('data is not defined')
-	}
-	return response */
+  const response = await youtubeJsonRequest()
+
+  return response.items
 }
 
 const Home = async () => {
   const videoList: VideoListType = await getVideoList()
-  // const videoList: VideoListType = VIDEO_LIST.items
 
   return (
     <main className="main-container">
