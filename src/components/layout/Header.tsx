@@ -11,6 +11,7 @@ import useStore from '@/status/store'
 const Header = (): React.JSX.Element => {
   const { isDark, toggleDarkMode } = useStore()
   const [hydrated, setHydrated] = useState(false)
+  const [color, setColor] = useState(false)
 
   const onClickDarkMode = (): void => {
     toggleDarkMode(!isDark)
@@ -38,6 +39,7 @@ const Header = (): React.JSX.Element => {
   useEffect(() => {
     setHydrated(true)
     isdarkMode()
+    setColor(isDark)
   }, [isDark])
 
   return (
@@ -47,7 +49,8 @@ const Header = (): React.JSX.Element => {
           <Link href="/" style={{ display: 'flex' }}>
             <img src="/assets/header_logo_symbol.svg" alt="logo" />
             <img
-              src={`/assets/header_logo${isDark ? '_white' : ''}.svg`}
+              className={styles.logo}
+              src={`/assets/header_logo${color ? '_white' : ''}.svg`}
               alt="logo"
             />
           </Link>
