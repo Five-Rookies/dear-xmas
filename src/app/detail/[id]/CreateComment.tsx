@@ -21,7 +21,6 @@ const CreateComment = ({
   const inputValue = useRef<HTMLInputElement>(null)
   const handleCreate = async (e: any) => {
     if (e.key === 'Enter') {
-      console.log('create', profile)
       if (inputValue?.current?.value) {
         const res = await createComments(
           inputValue.current.value,

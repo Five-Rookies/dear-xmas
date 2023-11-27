@@ -170,7 +170,7 @@
 .notFound {
   text-align: center;
   position: relative;
-  background-color: var(--color-error-bg);
+  // background-color: var(--color-error-bg);
   height: 100vh;
   div {
     position: absolute;
@@ -200,6 +200,38 @@
       text-decoration: underline;
       font-weight: 500;
       color: var(--color-text);
+    }
+  }
+}
+
+.Loading {
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  background-color: var(--color-error-bg);
+  div {
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-56%, -50%);
+    p.tag {
+      display: inline-block;
+      padding: 0.5rem 0.8rem;
+      color: #4bad1c;
+      font-weight: 800;
+      border-radius: 20rem;
+      background-color: #d8ffb9;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin: 1rem 0 2rem;
+    }
+    img {
+      width: 16rem;
+      margin: auto;
+      display: block;
+      margin-bottom: 2rem;
     }
   }
 }
