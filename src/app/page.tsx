@@ -31,12 +31,21 @@ const Home = async () => {
           <li>
             <img src="/assets/tree.png" alt="" />
           </li>
+          <li>
+            <img src="/assets/tree.png" alt="" />
+          </li>
+          <li>
+            <img src="/assets/tree.png" alt="" />
+          </li>
+          <li>
+            <img src="/assets/tree.png" alt="" />
+          </li>
         </ul>
+        <img className={styles.snowman} src="/assets/snowman.png" alt="" />
+        <div className={styles.snowBgSecond}></div>
         <div className={styles.snowBg}></div>
         <img className={styles.santa} src="/assets/santa.png" alt="" />
       </section>
-
-      <div className="innerBox"></div>
       <section className="inner-box">
         <VideoList videoList={videoList} />
       </section>

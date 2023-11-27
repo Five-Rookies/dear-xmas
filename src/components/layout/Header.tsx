@@ -25,10 +25,13 @@ const Header = (): React.JSX.Element => {
 
   const renderThemeToggle = () => {
     if (hydrated) {
-      return isDark ? <span>🌝</span> : <span>🌞</span>
-    } else {
-      // Return a placeholder or nothing until the client script runs
-      return null
+      return (
+        <img
+          style={{ width: '2rem' }}
+          src={`/assets/header_${isDark ? 'moon' : 'sun'}.svg`}
+          alt=""
+        />
+      )
     }
   }
 
@@ -41,8 +44,12 @@ const Header = (): React.JSX.Element => {
     <header className={styles.header}>
       <div className={styles.innerBox}>
         <h1>
-          <Link href="/">
-            <img src="/assets/header_logo.svg" alt="logo" />
+          <Link href="/" style={{ display: 'flex' }}>
+            <img src="/assets/header_logo_symbol.svg" alt="logo" />
+            <img
+              src={`/assets/header_logo${isDark ? '_white' : ''}.svg`}
+              alt="logo"
+            />
           </Link>
         </h1>
         <ul className={styles.navi}>

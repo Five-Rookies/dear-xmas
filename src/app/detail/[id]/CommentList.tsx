@@ -28,7 +28,7 @@ const CommentList = ({ getVideoId }: { getVideoId: string }) => {
 
     fetchComments()
   }, [getVideoId])
-
+  console.log('parent?', randomProfile)
   return (
     <div className={styles.comments}>
       <p>댓글 {comments.length}개</p>
