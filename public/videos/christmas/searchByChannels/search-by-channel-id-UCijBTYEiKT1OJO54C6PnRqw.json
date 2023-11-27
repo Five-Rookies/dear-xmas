@@ -1,0 +1,856 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "LkKjwKk0BInihtzp3ono-kDgrr4",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 474,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SpBzrDYQ_tPBhQ_kCGTxJ6X7Od4",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw"
+      },
+      "snippet": {
+        "publishedAt": "2018-09-02T16:20:28Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "WLDO",
+        "description": "최신 해외 이슈 및 마케팅 트렌드를 소개해드리는 WLDO (Who Letta Dogs Out) 채널입니다. 가장 빠르고 신랄하게 이슈를 물어오 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKZ-2kxwGBSlwvWUdRtA9hyPuFJk2xv1hxtDKNfC=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKZ-2kxwGBSlwvWUdRtA9hyPuFJk2xv1hxtDKNfC=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKZ-2kxwGBSlwvWUdRtA9hyPuFJk2xv1hxtDKNfC=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-09-02T16:20:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NJHVEN9Krk71d9Pmr-5yJGJW1c0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8vnvKjwm70A"
+      },
+      "snippet": {
+        "publishedAt": "2019-09-02T13:37:29Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "WLDO_병맛 노래로 상까지 받은 광고",
+        "description": "후레따독스아웃(WLDO)의 해외 이슈를 포스팅 합니다. '좋아요'와 '구독하기' 많이 눌러주세요! * 메일 문의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8vnvKjwm70A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8vnvKjwm70A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8vnvKjwm70A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-09-02T13:37:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "alNEblo_y4z-FLJrvUWIzdB0Yxs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lRhi-1EOIHg"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-18T01:30:19Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "발렌시아가를 조롱한 이케아 #shorts",
+        "description": "발렌시아가 #이케아 #타월 발렌시아가는 2024년 봄 컬렉션에서 115만 원짜리 타월 스커트 제품을 선보였음. 이에 이케아는 본인들의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lRhi-1EOIHg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lRhi-1EOIHg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lRhi-1EOIHg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-18T01:30:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nByCoJq4oqwkSwHwOhi8H5Fkjek",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MT7di-luBxg"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-25T09:15:02Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "아기 상어가 볼보 광고에 등장한 이유 #shorts",
+        "description": "아기상어 #babyshark #볼보 #Volvo 아르메니아의 볼보는 무제한 테스트 드라이브 서비스를 홍보하고자 핑크퐁 '아기 상어'를 활용 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MT7di-luBxg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MT7di-luBxg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MT7di-luBxg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-25T09:15:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UlrzcsSUY7LfEhALrkbEc-MvTS4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YLykaAnsQJg"
+      },
+      "snippet": {
+        "publishedAt": "2019-09-13T16:54:26Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "WLDO_세상에서 가장 비싼 광고는?",
+        "description": "2019년 기준으로 가장 비싼 광고는 과연 무엇일까? 2004년에 제작된 샤넬(CHANEL) 광고로 약 370억원 정도. 니콜 키드먼이 등장 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YLykaAnsQJg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YLykaAnsQJg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YLykaAnsQJg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-09-13T16:54:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yx5sOJaU7tYdTL5QGwlFzMUw3T0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "l0FMkS5wwsc"
+      },
+      "snippet": {
+        "publishedAt": "2019-10-27T09:57:22Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "WLDO_아카데미 촬영상 감독이 만든 보드카 광고",
+        "description": "엠마누엘 루베즈키는 역대 최초로 3년 연속 아카데미 촬영상을 수상함. 2013년 그래비티, 2014년 버드맨에 이어 2015년 레버넌트 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/l0FMkS5wwsc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/l0FMkS5wwsc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/l0FMkS5wwsc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-10-27T09:57:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IxA_pXq7nzcAWQx_Ymg1-_SCEXk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "e0CFOx8WTPA"
+      },
+      "snippet": {
+        "publishedAt": "2019-11-13T16:11:09Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "WLDO_소음으로 전기차를 충전하는 푸조",
+        "description": "푸조는 신형 전기차의 마케팅을 위해 소음을 이용해 전기차를 충전하는 기술을 선보임. 이 기술은 음파의 진동을 센서로 증폭시켜서 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/e0CFOx8WTPA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/e0CFOx8WTPA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/e0CFOx8WTPA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-11-13T16:11:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zEWxnJ7tdS8tNat-yd-Ypt5ijpM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_HCCK6hGQgs"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-09T02:00:09Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "구글은 당신이 10초 후 무엇을 할지 알고 있다 (feat.도서 증정 이벤트)",
+        "description": "구글 #마케팅 #데이터 #데이터분석 #컨버티드 #더퀘스트 #닐호인 본 영상은 도서출판 '더퀘스트'의 협찬을 받아 제작된 콘텐츠입니다 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_HCCK6hGQgs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_HCCK6hGQgs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_HCCK6hGQgs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-09T02:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GmHFl3w8RD_whS7tC1ve1QSS6NM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "82svBE4ma-U"
+      },
+      "snippet": {
+        "publishedAt": "2019-09-06T15:33:23Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "묘한 쾌감을 주는 맥도날드 광고",
+        "description": "후레따독스아웃(WLDO)의 해외 이슈를 포스팅 합니다. '좋아요'와 '구독하기' 많이 눌러주세요! * 메일 문의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/82svBE4ma-U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/82svBE4ma-U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/82svBE4ma-U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-09-06T15:33:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "q8rqj_tRLbLV-5MZP5u24jO1uf4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fD-S-KJbts4"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-21T02:14:16Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "맥도날드의 천재적인 패키지 디자인 #shorts",
+        "description": "맥도날드 #McDonalds #디자인 #Design #패키지 매년 4월 스페인 밀라노에서 열리는 디자인 위크는 전 세계에서 수많은 관람객이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fD-S-KJbts4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fD-S-KJbts4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fD-S-KJbts4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-21T02:14:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BqscBSY9vWUvHMD8w_fiPn01t6U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "08HAnGGfFCs"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-11T02:00:00Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "맥도날드 후려 패는 KFC #shorts",
+        "description": "캐나다 맥도날드는 2년의 시간을 들여 소고기가 아닌 치킨 패티를 사용한 '치킨 빅 맥'을 출시했음. 하지만 기대보다 맛이 별로라는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/08HAnGGfFCs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/08HAnGGfFCs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/08HAnGGfFCs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-11T02:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1tCJakf5YnXN4lJjut_jK_VIyeQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bXf3wRq_G88"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-31T09:15:01Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "노이즈 캔슬링을 개발한 카프리썬 #shorts",
+        "description": "카프리썬 #유머 #엄마 카프리썬이 새 학기 시즌 맞아 부모에게 50초 간의 고요함을 선물했음. 아이들이 카프리썬 마시는 50초 간 말을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bXf3wRq_G88/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bXf3wRq_G88/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bXf3wRq_G88/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-31T09:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xywJiweA1BXhra_23C7OQ8ewnqs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aE5uI_Nj47g"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-06T09:15:01Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "정신이 혼미해지는 태국 감기약 광고",
+        "description": "태국 #지네 #감기약 태국 광고는 무더운 나라 특유의 긍정적이고 유쾌한 감성이 묻어 있고, 광고에 대한 규제 및 광고주의 간섭이 적어 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aE5uI_Nj47g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aE5uI_Nj47g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aE5uI_Nj47g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-06T09:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Jgj48WxZ4k13y_LCbSJOHMovqA4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "S6qXE4GgPfw"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-27T06:10:08Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "미친 짓도 계속하면 장르가 된다 feat. 태국 광고",
+        "description": "태국 #눈알 #엽기 #광고 태국의 과자 와플 브랜드 보이즈(Voiz)는 엽기적인 광고들로 유명한데, To good to share, 즉 너무 맛있어서 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/S6qXE4GgPfw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/S6qXE4GgPfw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/S6qXE4GgPfw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-27T06:10:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6NQGO5TpkvRFncmW_PUEyCtKgKc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gEOsW8DthXQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-07T09:30:06Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "아무도 예상치 못한 공익 광고의 결말",
+        "description": "미국 #반전 #공익 공익 광고를 PSA(Public Service Announcement)라고 부르는데, 보통 상업 광고보다 훨씬 더 몰입감 있고 반전이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gEOsW8DthXQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gEOsW8DthXQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gEOsW8DthXQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-07T09:30:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WT_cM77-tEsh9D2pH7jFqR6Xtz0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fSWfDhGldew"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-26T09:15:01Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "스티브 잡스는 왜 컨설팅을 극혐했나?",
+        "description": "스티브잡스 #컨설팅 # #Globant 스티브 잡스는 1992년 MIT 강의에서 컨설팅에 대한 부정적인 시각을 드러냈음. 컨설턴트는 직접 일을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fSWfDhGldew/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fSWfDhGldew/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fSWfDhGldew/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-26T09:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NIO3Q_8PTLq31-cz6a6fcwbvCrs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_DPsEsxqsFI"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-08T01:30:09Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "발렌시아가 해리 포터 어떻게 만들었나",
+        "description": "해리포터 #발렌시아가 #AI #패션 최근 크리에이터 DemonFlyingFox는 발렌시아가 패션을 소화한 해리포터 주인공들을 만들어냈음.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_DPsEsxqsFI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_DPsEsxqsFI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_DPsEsxqsFI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-08T01:30:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "puxBz5SQG3zl0bubj8lwmS0WnkU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YE6EHu0soyA"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-26T09:30:10Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "정신나간 인재 채용 공고 (feat. 돌고래유괴단)",
+        "description": "돌고래유괴단 #채용 #병맛 #뉴진스 채용 광고 역시 브랜드의 가치와 이미지를 전달할 수 있다는 것을 보여준 돌고래유괴단!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YE6EHu0soyA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YE6EHu0soyA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YE6EHu0soyA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-26T09:30:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qOfaB2eVqRAS3L2nCg2cCfbepxI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iuQFk0j3_WQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-26T02:00:13Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "태국 광고는 미쳤다",
+        "description": "태국 #광고 #반전 태국의 유명한 감동 나와폰 탐롱라타라닛 (Nawapol Thamrongrattanarit)은 최근 로빈슨 백화점의 광고를 찍었는데, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iuQFk0j3_WQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iuQFk0j3_WQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iuQFk0j3_WQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-26T02:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dx_6G6_anBiMvxqPZo8zfEbSOfU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iC91KTTQsMo"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-06T09:15:05Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "병맛의 범주를 넘어선 태국 광고 감독",
+        "description": "태국 #광고 #감독 #병맛 태국은 광고에 대한 규제가 적어 극단적이고 창의적인 시안들이 많이 나오고 있음. 이러한 문화는 공익 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iC91KTTQsMo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iC91KTTQsMo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iC91KTTQsMo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-06T09:15:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Pk7hs9UKazEkBn7RCCJf-oV-H3Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rt2UQnt96tU"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-29T08:30:12Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "세상에서 가장 어두운 물질의 힘",
+        "description": "반타블랙 #BMW #Volkswagen #Black 2014년 영국 기업 '서리 나노시스템즈(Surrey Nanosystems)'는 세상에서 가장 어두운 물질인 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rt2UQnt96tU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rt2UQnt96tU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rt2UQnt96tU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-29T08:30:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rZb7I1DpPbwf_BS8P4KvHOijp4o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "McitVFOQNKU"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-09T09:30:05Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "렉서스를 대놓고 조롱한 BMW 광고",
+        "description": "BMW #Lexus #유머 #패러디 렉서스는 1999년부터 북미에서 'December to Remember' 캠페인을 진행 중인데, 연 금리 0% 등 대규모 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/McitVFOQNKU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/McitVFOQNKU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/McitVFOQNKU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-09T09:30:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4EUv8ijSj6N_8asuJsLI-iwwIL0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "juEo0P7ycYw"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-08T09:15:01Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "오타니가 디자인 한 맥주 캔 #shorts",
+        "description": "오타니 #야구 #맥주 오타니는 뉴욕 메츠의 홈구장에서 우측 외야로 홈런성 파울 타구를 날렸음. 근데 이 타구는 '쿠어스 라이트(Coors ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/juEo0P7ycYw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/juEo0P7ycYw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/juEo0P7ycYw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-08T09:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fcq8SKFLgZ2anj0hHeHPcA3S1vQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VJNwyKRdkVQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-07T09:15:01Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "스위스랑 그만 좀 헷갈려! 개빡친 스웨덴",
+        "description": "스웨덴 #스위스 #조바이든 조 바이든 미국 대통령은 작년 나토(NATO·북대서양조약기구) 정상 회의에서 스웨덴을 스위스로 혼동하는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VJNwyKRdkVQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VJNwyKRdkVQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VJNwyKRdkVQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-07T09:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Xj6Jh-l2FFpAzt7OoryHx6de_ck",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "j6yTxQfF1FQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-16T09:15:04Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "하루에만 6억 원! 초현실적 광고판",
+        "description": "스피어 #라스베이거스 #옥외광고 미국 라스베이거스에서는 올해 9월 세계 최대 구형 공연장 스피어(Sphere)가 개장했음. 총 5년의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j6yTxQfF1FQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j6yTxQfF1FQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j6yTxQfF1FQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-16T09:15:04Z"
+      }
+    }
+  ]
+}

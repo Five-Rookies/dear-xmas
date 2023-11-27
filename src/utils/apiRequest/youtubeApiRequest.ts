@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const youtubeApiRequest = async (
-  apiType: string = 'videos',
+  apiType: string = 'popular',
   optionalQuery: string = '&chart=mostPopular',
   maxResults: number = 32,
 ) => {
@@ -22,4 +22,20 @@ const youtubeApiRequest = async (
   return response.data.items
 }
 
-export default youtubeApiRequest
+const youtubeJsonRequest = async (
+  apiType: string = 'popular',
+  optionalQuery: string = '&chart=mostPopular',
+) => {
+  let jsonData
+  if (apiType === 'popular') {
+    jsonData = await import('@public/videos/christmas/christmasPopular_v1.json')
+  } else {
+    jsonData = await import(
+      `@public/videos/christmas/searchByChannels/search-by-channel-id-${optionalQuery}.json`
+    )
+  }
+
+  return jsonData.default
+}
+
+export { youtubeApiRequest, youtubeJsonRequest }

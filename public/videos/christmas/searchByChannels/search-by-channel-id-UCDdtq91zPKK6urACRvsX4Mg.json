@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "ws6Ii7iZRY5DEw71k2OwfGaFJNM",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1857,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "i-rpLiWLCCNJG9l8uAaovR2wrYc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bHAFACJqGNs"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-19T07:00:10Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "아임 낫 쿨❤️ 핀아의 랜덤플레이댄스 #현아 #HyunA &#39;I&#39;m Not Cool&#39;",
+        "description": "랜덤플레이댄스 #딩가딩가스튜디오 #randomplaydance / Kpop in public #dance #버스킹 #kpop #fancam #busking #직캠 #비비드 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bHAFACJqGNs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bHAFACJqGNs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bHAFACJqGNs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-19T07:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sLQ6Lu8DLMYjfnVSGYg8HnIGUPU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gsRfe7Y4AvU"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-20T10:20:00Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "동성로 마이백 #MyBagChallenge #shorts 랜덤플레이댄스",
+        "description": "랜덤플레이댄스 #딩가딩가스튜디오 #randomplaydance / Kpop in public #dance #버스킹 #kpop #fancam #busking #직캠.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gsRfe7Y4AvU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gsRfe7Y4AvU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gsRfe7Y4AvU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-20T10:20:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NZtVsUweHyUAGZeQkwhxXPt7kEY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9goAVW7rifk"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-31T10:00:08Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "11년생 비비 &#39;나쁜X&#39; 레전드 댄스커버🔥",
+        "description": "randomplaydance #kpop #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9goAVW7rifk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9goAVW7rifk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9goAVW7rifk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-31T10:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VGcKdih7UfJQThLz9J4VCpF4muc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5x2fvnEJSs0"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-17T10:00:06Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "나폴리 랜덤 댄스에 &#39;까탈레나&#39;가 나온다면? #randomplaydance",
+        "description": "kpop #randomplaydance #short.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5x2fvnEJSs0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5x2fvnEJSs0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5x2fvnEJSs0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-17T10:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YmBV0wixH8v9ow9keRMg3qXRWUA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "V-HKm_jWASg"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-06T08:00:14Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "11년생의 핑크베놈🔥",
+        "description": "randomplaydance #kpop #shorts #PinkVenom.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/V-HKm_jWASg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/V-HKm_jWASg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/V-HKm_jWASg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-06T08:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EuLqwqY9OIZAUVnxc1zP38kzw7A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MlgTu_Y66Ao"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-14T11:00:11Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "코요태 &#39;우리의꿈(원피스OST)&#39; 댓글모음⛵🌊KBS 20190301",
+        "description": "코요태 #원피스 #댓글모음 #김종민 #우연히.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MlgTu_Y66Ao/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MlgTu_Y66Ao/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MlgTu_Y66Ao/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-14T11:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "f9mkNKrJ9v5VRFJNbA-vjdnQ1qc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4kDHqmb6yqI"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-01T07:14:32Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "아이유 - Dear Moon (Remastered) 숨소리까지 들리는 고음질 KBS 유희열의 스케치북 20180602",
+        "description": "4K 고음질 리마스터링 by KBS 레코드대장 안감독 아이유 - 디어문 '유희열의 스케치북' Live #아이유 #IU 'Dear Moon' #리마스터링 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4kDHqmb6yqI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4kDHqmb6yqI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4kDHqmb6yqI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-01T07:14:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YzH8b1G3IXU7IiKphPwY9-6UJEE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MorJfn5RL-c"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-22T07:33:34Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "김연자 &#39;아모르파티&#39; 댓글모음🔥[가요대축제](BTS) KBS 181228",
+        "description": "세상에서 젤 비싼 백댄서.. 방탄소년단 진 #아모르파티 #가요대축제 #댓글모음 #BTS #트와이스 #비투비 #NCT #아이돌.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MorJfn5RL-c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MorJfn5RL-c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MorJfn5RL-c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-22T07:33:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Rb-i9k0ZQhaY2HEelRR-BlScrXA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IKfNiIhGlq8"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-04T11:00:19Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "제국의아이들 &#39;후유증&#39; 댓글모음🔥 KBS 120817",
+        "description": "제국의아이들 #후유증 #댓글모음 #뮤직뱅크.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IKfNiIhGlq8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IKfNiIhGlq8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IKfNiIhGlq8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-04T11:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JVe2kjGmcLO_3wzggkulmY3IkMc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ChNcjIqWkwo"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-06T10:00:06Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "유스케 ‘크리스마스 특집’ 댓글모음🎅🎄🎁 (거미, 10cm, 악동뮤지션, 폴킴, 정승환, 김연우, 벤, 정준일, 유희열 등 전출연자) KBS 20191220",
+        "description": "Santa Claus Is Coming To Town ♬ 크리스마스 며칠 안 남았을 때는 하루 종일 캐롤 들으면서 설레는데 막상 당일에는 별거 안 하는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ChNcjIqWkwo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ChNcjIqWkwo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ChNcjIqWkwo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-06T10:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Qzux5lMkOCS7BeSwZsOtOh85bDs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jDCvKRnSMas"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-01T10:00:24Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "이무진 &#39;과제곡&#39; 댓글모음💕(교수님 죄송합니다🙏) KBS 210723",
+        "description": "이무진 #과제곡 #댓글모음 #유희열의스케치북.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jDCvKRnSMas/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jDCvKRnSMas/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jDCvKRnSMas/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-01T10:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KpMcfQOjLIaoEVTzw-AqYDggUIg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WZ6-AY4EfTg"
+      },
+      "snippet": {
+        "publishedAt": "2021-06-24T10:00:12Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "지디병 걸린 찬혁 댓글모음🔥AKMU 유스케 원본영상🔥KBS 20201120",
+        "description": "찬며들다..   Give Love + 200% #악뮤 #찬혁 #지디병 #악동뮤지션 #유스케 #유희열의스케치북 #댓글 Remastered by KBS 레코드 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WZ6-AY4EfTg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WZ6-AY4EfTg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WZ6-AY4EfTg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-06-24T10:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_HTGDCcZ7XTgwVcueAQ_XosIY0s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PYSxmdYgzuc"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-22T11:00:10Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "잔나비 이수현 &#39;대화가 필요해&#39; 댓글모음💕 KBS 210423",
+        "description": "이수현 #최정훈 #대화가필요해 #잔나비 #댓글모음 #악동뮤지션 #AKMU.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PYSxmdYgzuc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PYSxmdYgzuc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PYSxmdYgzuc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-22T11:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2s0J2tMYd2iND8hJMKnhwYdFJT0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "j8PZsjGYgHg"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-02T11:00:32Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "김진호 &#39;살다가&#39; 댓글모음 (불후의명곡 추모연가) KBS 131012",
+        "description": "김진호 #살다가 #불후의명곡 #SG워너비 #댓글모음.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j8PZsjGYgHg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j8PZsjGYgHg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j8PZsjGYgHg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-02T11:00:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bsoj6wo3WN_b-YNAbJlQPqqrlb0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ip9diUr0c7I"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-26T10:00:12Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "2PM(투피엠) ‘우리집’ 댓글모음 레전드 KBS 20150619",
+        "description": "댓글모음 #레전드 #방송원본 #2pm #투피엠 #우리집 #준호.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ip9diUr0c7I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ip9diUr0c7I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ip9diUr0c7I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-26T10:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "73lMkE5MMIYXieUS7EWfL_jJq98",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Q8EbxYINFCk"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-04T11:00:10Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "2AM &#39;죽어도 못보내&#39; 댓글모음💕 KBS 141219",
+        "description": "2AM #댓글모음 #유희열의스케치북 #죽어도못보내.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Q8EbxYINFCk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Q8EbxYINFCk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Q8EbxYINFCk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-04T11:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uBYH_vixYe-x4uDjWAfO7LP-CFM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "W5_SoI0LIbo"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-10T10:12:41Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "김연우 ‘분홍신’ 댓글모음🔥아이유 완벽빙의 KBS 20131206",
+        "description": "연우신.. 당신은..!! KBS 유희열의스케치북 김연우 분홍신 20131206 #유스케 #김연우 #분홍신.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/W5_SoI0LIbo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/W5_SoI0LIbo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/W5_SoI0LIbo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-10T10:12:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cXHywOZ2KSjkTmRcfkV2c1U0tcg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gqWLuJW4nxo"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-05T11:00:31Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "데이식스 &#39;예뻤어&#39; 댓글모음💕열린음악회 레전드 KBS 180930",
+        "description": "데이식스 #예뻤어 #열린음악회.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gqWLuJW4nxo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gqWLuJW4nxo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gqWLuJW4nxo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-05T11:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6CSZaNtHjQErOy3cO-Gc3oUSD60",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-bk9pR5IMm0"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-07T10:00:00Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "악동뮤지션 &#39;낙하&#39; 댓글모음🔥 KBS 20210730",
+        "description": "악동뮤지션 #낙하 #댓글모음 구독과 좋아요, 댓글은 큰 힘이 됩니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-bk9pR5IMm0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-bk9pR5IMm0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-bk9pR5IMm0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-07T10:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zGjA_QR9ps1RHmqUfVjvqgBkSpg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_WbHpuggZsw"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-11T10:00:15Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "홍진경 언니쓰 &#39;Shut Up&#39; 댓글모음 KBS 20160701",
+        "description": "홍진경 #언니쓰 #공부왕찐천재 홍진경 언니쓰 레전드 무대 댓글모음.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_WbHpuggZsw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_WbHpuggZsw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_WbHpuggZsw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-11T10:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vPcEltPvCXq0hd13B4xCkS_K5Yg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "sTK1GjZ6Z5s"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-03T05:00:13Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "포미닛 &#39;미쳐&#39; 댓글모음🔥 KBS 150306",
+        "description": "포미닛 #미쳐 #댓글모음.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sTK1GjZ6Z5s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sTK1GjZ6Z5s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sTK1GjZ6Z5s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-03T05:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kNI0orzWM00jokA2vUVW3icjg1E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DBy-f15MAY0"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-31T05:00:03Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "손든JYP찾기🖐2PM(투피엠) - 핸즈업 Hands Up KBS 연기대상 20111231",
+        "description": "손든사람 : JYP   '2PM(투피엠) - 핸즈업 Hands Up' KBS 연기대상 20111231 #JYP #박진영 #2pm #준호 #댓글 #우리집.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DBy-f15MAY0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DBy-f15MAY0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DBy-f15MAY0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-31T05:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DBtJB7TeKZJ_F0cXYbXipyVJu54",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rpzE4J-3PYM"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-19T11:00:23Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "세븐틴 &#39;Rock with you&#39; 댓글모음🔥 KBS 211022",
+        "description": "세븐틴 #뮤직뱅크 #댓글모음 #SEVENTEEN.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rpzE4J-3PYM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rpzE4J-3PYM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rpzE4J-3PYM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-19T11:00:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iGOz8CE0sBigXNlXOZ6WrD-1CNU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iH4Wlz1tgqc"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-12T11:00:32Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "언니쓰 &#39;맞지?&#39; 댓글모음❤️KBS 20170512",
+        "description": "언니쓰 #맞지 #뮤직뱅크 #홍진경 #홍진영 #댓글모음.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iH4Wlz1tgqc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iH4Wlz1tgqc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iH4Wlz1tgqc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-12T11:00:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eQV-vD1uwSIgQ96Ga5bxifMWcHk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kg7Va9tm4yQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-28T10:00:18Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "2PM(투피엠) ‘미친거 아니야?’ 댓글모음 레전드 KBS 20140912",
+        "description": "댓글모음 #레전드 #방송원본 #2pm #투피엠 #미친거아니야 #옥택연 #준호.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kg7Va9tm4yQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kg7Va9tm4yQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kg7Va9tm4yQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-28T10:00:18Z"
+      }
+    }
+  ]
+}

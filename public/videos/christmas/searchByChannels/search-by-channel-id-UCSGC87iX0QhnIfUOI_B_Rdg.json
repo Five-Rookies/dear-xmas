@@ -1,0 +1,856 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "3O-9lmLhgaizstvaKM9y-JA7O_Y",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 382,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5BoKF1a4PPWwftK6cnkImftGZ9U",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLKRZTF1Q1uwZZdHHkVC6M0VqOFQ-dkV9a"
+      },
+      "snippet": {
+        "publishedAt": "2020-03-30T08:19:52Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "daily pop 🍟",
+        "description": "적당하고 알맞은 안성맞춤 데일리 팝!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FmnHDSi5GNY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FmnHDSi5GNY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FmnHDSi5GNY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-03-30T08:19:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0HGEOSLhs4AbuCpPqtggrmbZCXQ",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg"
+      },
+      "snippet": {
+        "publishedAt": "2019-05-08T06:48:04Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "essential;",
+        "description": "better music, better mood 좋은 선곡 좋은 분위기 벅스 뮤직PD 앨범을 소개해드립니다. essential;은 NHN벅스 뮤직PD 앨범 서비스 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKbdhFmMkVSvsK_LP9YbLlyFpwiNbCVu0ooVh81X=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKbdhFmMkVSvsK_LP9YbLlyFpwiNbCVu0ooVh81X=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/APkrFKbdhFmMkVSvsK_LP9YbLlyFpwiNbCVu0ooVh81X=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-05-08T06:48:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iQCsusLULhcGeCj3Mb1NRa_AmKo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tRnJqiS_InY"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-14T08:23:55Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 트렌디한 카페에서 흐르는 팝송ㅣfrom Instagrammable Cafe",
+        "description": "해당 플레이리스트는 벅스 뮤직PD '왕깡'님께서 제작하였습니다 Playlist by 왕깡 Website :: http://bugs.kr/!yt0112 More Playlist ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tRnJqiS_InY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tRnJqiS_InY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tRnJqiS_InY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-14T08:23:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "h1VKqUfg4rvVJgrCw9G1uQXVjuo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HjAviB1BKH4"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-05T06:00:07Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 기분 좋은 일만 가득할 거야 | 선곡이 좋은 카페에서 듣는 데일리 팝 | have a good day! winter daily pop",
+        "description": "Playlist by 왕깡 (벅스 뮤직PD) *벅스에서 플레이리스트를 확인해보세요! :: http://bugs.kr/!yt55696 *왕깡님의 감성이 내 취향이라면!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HjAviB1BKH4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HjAviB1BKH4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HjAviB1BKH4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-05T06:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Q6rFYeCYsdMMpgpgLiQZHn74Yek",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cGhGtKnKZbY"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-03T05:00:13Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 세련된 카페 안, 나 그리고 커피 &amp; 음악 ☕🍮ㅣCoffee &amp; Music",
+        "description": "Playlist by 왕깡 (벅스 뮤직PD) *더욱 편하게 감상해보세요 Website :: http://bugs.kr/!yt0139 *왕깡님의 플레이리스트가 내 취향 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cGhGtKnKZbY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cGhGtKnKZbY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cGhGtKnKZbY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-07-03T05:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "G8sKY2dK6UyCXlo2ilxZEfZIrYE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jakKbiX2L-Q"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-17T05:00:06Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 봄볕이 드는 창가에 앉아 🕊 | 나른한 주말, 커피 한 잔과 함께하는 휴식 | cozy pop with coffee 🕊",
+        "description": "Playlist by 벅스PD (벅스 뮤직PD) *벅스에서 고음질로 감상해보세요! :: http://bugs.kr/!yt57144 *벅스PD님의 감성이 내 취향이라면!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jakKbiX2L-Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jakKbiX2L-Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jakKbiX2L-Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-17T05:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YNIAX80xzNOkGtVKyawZ3TUwJ6k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eaqVX9IMACQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-17T23:45:25Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 오늘은 왠지 예감이 좋아 🧃ㅣ기분 UP! 하루를 열어주는 Daily Popㅣhappy day good morning 🧃",
+        "description": "Playlist by 미러 (벅스 뮤직PD) *벅스에서 광고 없이 감상해보세요! :: http://bugs.kr/!yt50140 *미러님의 감성이 내 취향이라면!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eaqVX9IMACQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eaqVX9IMACQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eaqVX9IMACQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-17T23:45:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tBCC_3Gjvj9eb2tEdY1Xpsn9udc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QCPO7m23_bM"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-09T08:00:21Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 쌀쌀한 날엔 홈카페 오픈 ☕️ | 집 안을 채우는 포근한 감성 BGM with 삼성TV | soft &amp; cozy pop",
+        "description": "삼성TV X essential; * 본 컨텐츠는 벅스와 삼성TV가 함께 제작하였습니다. 삼성TV 플러스 essential; by Bugs 채널 오픈! 삼성전자 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QCPO7m23_bM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QCPO7m23_bM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QCPO7m23_bM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-09T08:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UbHr4aS7PGKm02c_YgIUBd5wb1o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Z1tAwwrhLAA"
+      },
+      "snippet": {
+        "publishedAt": "2019-11-21T04:51:40Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 고개가 까딱~ 까딱~ 나도 모르게 건방져지는 신나는 팝송ㅣ기분이 좋아지는 경쾌한 플레이리스트ㅣhello today! rhythmical daily pop",
+        "description": "by 루미너스 Website :: http://bugs.kr/!yt0021 More Playlist :: http://bugs.kr/!yt0021pd * 벅스에서 '루미너스'님의 더 많은 플레이리스트 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Z1tAwwrhLAA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Z1tAwwrhLAA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Z1tAwwrhLAA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-11-21T04:51:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sa2h5raJbuPGqwhJE6F3n4HmyXU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ojad3pnakrU"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-04T05:00:18Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 오늘은 그냥 집에 있을래 🛋️ | 나른하고 여유로운 오후 with 삼성TV | cozy &amp; relaxing pop songs 🛋️",
+        "description": "삼성TV X essential; * 본 컨텐츠는 벅스와 삼성TV가 함께 제작하였습니다. 삼성 TV 플러스 앱에서 essential; by Bugs 채널을 만나 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ojad3pnakrU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ojad3pnakrU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ojad3pnakrU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-04T05:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oOQA2Ynn3tzLbyBsrE4KVqO8Ids",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_xYRgpByc0c"
+      },
+      "snippet": {
+        "publishedAt": "2021-03-26T02:30:18Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 꿀이 뚝~뚝~ㅣ고막을 녹이는 달달한 팝 플레이리스트ㅣsweet spring honey pop 🍯",
+        "description": "Playlist by Youth (벅스 뮤직PD) *벅스에서 광고 없이 감상해보세요! :: http://bugs.kr/!yt0222 *Youth님의 감성이 내 취향이라면!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_xYRgpByc0c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_xYRgpByc0c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_xYRgpByc0c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-03-26T02:30:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dNHHa9vdcNYYCdBBh3yRfIY_e80",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "C2Zp813vd1Q"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-01T08:00:09Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 오래도록 기억될 우리의 여름날 | 여름밤 감성 드라이빙 with 르노코리아자동차 | sentimental drive pop",
+        "description": "르노코리아자동차 x essential; * 본 컨텐츠는 벅스와 르노코리아자동차가 함께 제작하였습니다 이 조명, 온도, 습도.. 르노코리아 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/C2Zp813vd1Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/C2Zp813vd1Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/C2Zp813vd1Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-01T08:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QPFaS_Kj9wXajhm3IZSH7K7bW_4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AzpDd4ZBW1w"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-16T01:00:09Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 덴마크의 아침은 행복해 | 행복지수 높아지는 데일리 팝 with 덴프스 | good morning pop",
+        "description": "덴프스 x essential; * 본 컨텐츠는 벅스와 덴프스가 함께 제작하였습니다 평범한 하루를 특별하게 만들어줄 '덴프스 x essential;'의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AzpDd4ZBW1w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AzpDd4ZBW1w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AzpDd4ZBW1w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-16T01:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "P22G1HZoSmxdYgvCbyHrpB-udUA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "h2sHEe_xnmU"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-06T08:00:30Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 퇴근 후 나만의 시간 | 잔잔하게 틀어두기 좋은 재즈 BGM | piano jazz instrumental",
+        "description": "Playlist by 벅스PD (벅스 뮤직PD) better music, better mood 삼성 TV 플러스에서도 essential;을 만나보세요 24시간 중 어느 때나 TV ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/h2sHEe_xnmU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/h2sHEe_xnmU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/h2sHEe_xnmU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-06T08:00:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tt7T5_RFKiCq91SzKXshiVoIaHg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "A_j_L8AdVLE"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-07T05:00:07Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 느낌있게 리듬 타고 싶을 때 | 기분이 좋아지는 리드미컬한 데일리 팝 | rhythm &amp; groove daily pop",
+        "description": "Playlist by 벅스PD (벅스 뮤직PD) *벅스에서 플레이리스트를 확인해보세요! :: http://bugs.kr/!yt57368 *벅스PD님의 감성이 내 취향 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/A_j_L8AdVLE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/A_j_L8AdVLE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/A_j_L8AdVLE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-07T05:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6UKV04jZV2srD8OMScVvtZh1hQs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7Mul8Zq0mRw"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-26T05:00:11Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 뭐든 시작하기 좋은 날씨야! | 설렘 가득한 봄날의 하루 with 더한섬닷컴 | refresh spring daily pop",
+        "description": "더한섬닷컴 x essential; * 본 컨텐츠는 벅스와 더한섬닷컴이 함께 제작하였습니다 ♬더한섬닷컴 X essential; 첫 만남❤ 특별한 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7Mul8Zq0mRw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7Mul8Zq0mRw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7Mul8Zq0mRw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-26T05:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7O9DNeDI5Uw1CFui4Vwhv9cVn8k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4b8-U4b-JKU"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-28T05:00:12Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 여기 대표 메뉴가 플레이리스트래ㅣ압로 핫플에서 들려오는 트렌디 팝 🍒ㅣhipster coffee shop playlist",
+        "description": "Playlist by toyou (벅스 뮤직PD) *벅스에서 광고 없이 감상해보세요! :: http://bugs.kr/!yt0260 *toyou님의 감성이 내 취향이라면!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4b8-U4b-JKU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4b8-U4b-JKU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4b8-U4b-JKU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-28T05:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8FLY_lZRNNfEESW-UnG9gmtyIeQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VVc7X4lSO4w"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-06T09:45:30Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 사장님 지금 이 노래 제목 뭐예요??ㅣ선곡 맛집 카페에서 들리는 BGMㅣtrendy coffee shop playlist 🥨",
+        "description": "Playlist by 시마 (벅스 뮤직PD) *벅스에서 고음질로 감상해보세요! :: http://bugs.kr/!yt0202 *시마님의 감성이 내 취향이라면!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VVc7X4lSO4w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VVc7X4lSO4w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VVc7X4lSO4w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-06T09:45:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "z8NW3dtXFnrLYIu9a7myEmwuxf8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "g7c0W-8rNmw"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-24T04:30:11Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 아니, 이런 노래는 어떻게 아는거야?? 너무 좋자나... | 노래 좀 듣는 애 플레이리스트😎ㅣShe has good taste in music😎",
+        "description": "Playlist by 루미너스 (벅스 뮤직PD) *벅스에서 고음질로 감상해보세요! :: http://bugs.kr/!yt0191 *루미너스님의 감성이 내 취향이라면!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/g7c0W-8rNmw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/g7c0W-8rNmw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/g7c0W-8rNmw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-11-24T04:30:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "W16LfwWF4p-lekWnvueb5TO2ZuU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AAfmtUcyzhU"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-10T05:00:11Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 그루브에 힙 투샷 추가 | 감각적인 공간을 채우는 그루브 BGM | hip and groovy vibes",
+        "description": "Playlist by 벅스PD (벅스 뮤직PD) *벅스에서 고음질로 감상해보세요! :: http://bugs.kr/!yt57036 *벅스PD님의 감성이 내 취향이라면!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AAfmtUcyzhU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AAfmtUcyzhU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AAfmtUcyzhU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-10T05:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dWWxW_XUV_QS8Jvp_B3C_3DHieQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3owcmKI642c"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-20T01:00:11Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 무기력한 아침, 리듬 타며 여름나기 🌿ㅣHow to Wake Up Without Feeling Sluggish 🌿",
+        "description": "아침부터 무기력? 바로 재생하시죠! Playlist by 고PD (벅스 뮤직PD) *벅스에서 광고없이 고음질로 감상해보세요 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3owcmKI642c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3owcmKI642c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3owcmKI642c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-07-20T01:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SxGpFkhDguXY2CqM17WhwBppQeQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PrqwxkBB0DA"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-23T06:00:10Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 매일이 주말이라면 좋겠어 | 포근포근 이불 속에서 듣는 감성 팝 | warm &amp; cozy pop songs",
+        "description": "Playlist by 우주 (벅스 뮤직PD) *벅스에서 고음질로 감상해보세요! :: http://bugs.kr/!yt56803 *우주님의 감성이 내 취향이라면!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PrqwxkBB0DA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PrqwxkBB0DA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PrqwxkBB0DA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-23T06:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9AQrHf_ycQoXo5zIxSdyb5kclUA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cqf0Ni3Jo_I"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-27T09:00:08Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 가을 노을빛으로 물들어가는 밤 | 감성 팝과 함께 하는 재충전의 시간 with 해비치 | relaxing pop music",
+        "description": "해비치호텔앤드리조트 x essential; * 본 컨텐츠는 벅스와 해비치호텔앤드리조트가 함께 제작하였습니다 ​ Playlist by 벅스PD (벅스 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cqf0Ni3Jo_I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cqf0Ni3Jo_I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cqf0Ni3Jo_I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-27T09:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "K4TOK5-bYYLHSUrYZxiP0IcFxvg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JDL7HlU83TE"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-13T03:30:10Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 아침 사과처럼 🍎 달짝지근 기분 좋아지는 Daily Pop 11ㅣsongs to make you feel happy 🍎",
+        "description": "Playlist by 세렌디피티 (벅스 뮤직PD) *벅스에서 광고 없이 감상해보세요! :: http://bugs.kr/!yt0265 *세렌디피티님의 감성이 내 취향 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JDL7HlU83TE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JDL7HlU83TE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JDL7HlU83TE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-13T03:30:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pTi6CXIkQyr4j0CWHv6vFn09rnI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "G8-asmfNEfg"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-21T07:00:14Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 따사로운 어느 봄날ㅣ푸릇푸릇 싱그러운 바질향이 느껴지는ㅣspring basil aromatic pop 🌿",
+        "description": "Playlist by anonym (벅스 뮤직PD) *벅스에서 플레이리스트를 확인해보세요! :: http://bugs.kr/!yt52704 *anonym님의 감성이 내 취향 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/G8-asmfNEfg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/G8-asmfNEfg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/G8-asmfNEfg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-21T07:00:14Z"
+      }
+    }
+  ]
+}

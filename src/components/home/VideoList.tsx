@@ -1,32 +1,32 @@
 'use client'
 
 import { useRef } from 'react'
-import styles from '@/app/mainList/page.module.scss'
+import styles from '@/app/page.module.scss'
 import formatRelativeDate from '@/utils/relativeDate'
 import Link from 'next/link'
-import { IVideo } from '@/type/Api'
+import { IYoutubeItem } from '@/type/Api'
 import ScrollBtn from '@/components/ScrollBtn'
 
-type VideoListType = IVideo[]
+type VideoListType = IYoutubeItem[]
 
 const VideoList = ({ videoList }: { videoList: VideoListType }) => {
-  const videoCardRef = useRef<HTMLLIElement | null>(null);
-  
+  const videoCardRef = useRef<HTMLLIElement | null>(null)
+
   return (
     <>
       <ul className={styles.videoList}>
-        {videoList.map((video: IVideo) => {
+        {videoList.map((video: IYoutubeItem) => {
           const VIDEO = video.snippet
           return (
-            <li 
-              className={`videoCard ${styles.videoCard}`} 
-              key={video.id}
+            <li
+              className={`videoCard ${styles.videoCard}`}
+              key={video.id.videoId}
               ref={videoCardRef}
             >
               <Link
                 className={styles.videoLink}
                 href={{
-                  pathname: `/detail/${video.id}`,
+                  pathname: `/detail/${video.id.videoId}`,
                 }}
               >
                 <div>
@@ -43,7 +43,7 @@ const VideoList = ({ videoList }: { videoList: VideoListType }) => {
               <Link
                 className={styles.videoLink}
                 href={{
-                  pathname: `/detail/${video.id}`,
+                  pathname: `/detail/${video.id.videoId}`,
                 }}
               >
                 <div className={styles.channelTitle}>

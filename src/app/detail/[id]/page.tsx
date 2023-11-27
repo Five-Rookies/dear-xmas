@@ -1,23 +1,24 @@
-import { IVideo } from '@/type/Api'
+import { IYoutubeItem } from '@/type/Api'
 import RelatedVedio from '@/app/detail/[id]/RelatedVedio'
-import youtubeApiRequest from '@/utils/apiRequest/youtubeApiRequest'
-import testJSON from '@public/videos/popular.json'
+import ScrollBtn from '@/components/ScrollBtn'
+import { youtubeJsonRequest } from '@/utils/apiRequest/youtubeApiRequest'
 import styles from './detail.module.scss'
 import DetailHeader from './DetailHeader'
 import CommentList from './CommentList'
-import ScrollBtn from '@/components/ScrollBtn'
 
 const getVideoList = async (getVideoId: string) => {
-  const response = await youtubeApiRequest()
-  return response.find((channel: IVideo) => channel.id === getVideoId)
+  const response = await youtubeJsonRequest()
+  return response.items.find(
+    (channel: IYoutubeItem) => channel.id.videoId === getVideoId,
+  )
 }
 
 const Detail = async (props: any) => {
   const getVideoId = props.params.id
   if (!getVideoId) return null
-  // const getItemInfo = await getVideoList(getVideoId)
-  const getItemInfo = testJSON.items[0]
-  // const tagStr = getItemInfo.snippet.tags.forEach((tag) => {
+  const getItemInfo = await getVideoList(getVideoId)
+  if (!getItemInfo) return null
+
   return (
     <div className={`inner-box ${styles.detail}`}>
       <DetailHeader title={getItemInfo.snippet.channelTitle} />

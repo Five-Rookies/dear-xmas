@@ -1,6 +1,20 @@
+import React from 'react'
+import { IYoutubeItem } from '@/type/Api'
+import VideoList from '@/components/home/VideoList'
+import { youtubeJsonRequest } from '@/utils/apiRequest/youtubeApiRequest'
 import styles from './page.module.scss'
 
-export default function Home() {
+type VideoListType = IYoutubeItem[]
+
+const getVideoList = async (): Promise<VideoListType> => {
+  const response = await youtubeJsonRequest()
+
+  return response.items
+}
+
+const Home = async () => {
+  const videoList: VideoListType = await getVideoList()
+
   return (
     <main className="main-container">
       <section className={styles.bg}>
@@ -23,6 +37,11 @@ export default function Home() {
       </section>
 
       <div className="innerBox"></div>
+      <section className="inner-box">
+        <VideoList videoList={videoList} />
+      </section>
     </main>
   )
 }
+
+export default Home

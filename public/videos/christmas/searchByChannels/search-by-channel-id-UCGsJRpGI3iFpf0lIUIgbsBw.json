@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "MKAFscLF2R-gN-31YL1y4wmYUQk",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 2802,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4v_nbFSyO0jnRUbyNGk9kJdsSJ8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "seeZ4Sjykt8"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-30T07:45:14Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "[소장각👍 #1] 이소라 &#39;제발&#39; ..........잊지 못해 너를...........",
+        "description": "[소장각   #1] 이소라의 프로포즈, 2001년 2월 24일 제발 가사: 이소라 작곡: 김현철 잊지 못해 너를 있잖아 아직도 눈물 흘리며 널 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/seeZ4Sjykt8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/seeZ4Sjykt8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/seeZ4Sjykt8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-30T07:45:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PI1sCIdUES8wX9ETnJC_qMTZECI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SO7TdgbFAJQ"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-07T07:30:36Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "[소장각👍 #6] 황치열 &amp; 김연지 &#39;거짓말&#39; - 애절한 발라드로 변신한 god의 명곡",
+        "description": "작사 박진영 작곡 박진영 편곡 박진영 난 니가 싫어 졌어 우리 이만 헤어져 다른 여자가 생겼어 너보다 훨씬 좋은 실망하지는 마 난 원래 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SO7TdgbFAJQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SO7TdgbFAJQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SO7TdgbFAJQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-07-07T07:30:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vm4caLMPkZh_8GlW7PSLjzDG1OQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hg1KWxE-Ns4"
+      },
+      "snippet": {
+        "publishedAt": "2021-06-25T11:00:11Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "세븐틴은 🌟본업 천재🌟 ❗우승❗까지 찍고 간 #세븐틴 #불후의명곡💘 | #소장각 | 불후의 명곡 [KBS 방송]",
+        "description": "소장각 #세븐틴 #불후의 명곡 천재만재 자체제작 아이돌 세븐틴!⭐ 무대 하나하나 역대급이지만 커버도 너무 잘해..세븐틴 진심 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hg1KWxE-Ns4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hg1KWxE-Ns4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hg1KWxE-Ns4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-06-25T11:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IGwjAO85qbY48RQTJbF4hzCZ2vs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MExNCbQPhlU"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-10T11:30:12Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "또 하나의 레전드❗ 트러블메이커(Trouble Maker)  - 내일은 없어(NOW)🔥 | #소장각 | KBS 연예대상 [KBS 131221 방송]",
+        "description": "현아 #트러블메이커 #내일은없어 에디터는 사실 트러블메이커보다 내일은 없어에 더 미쳐있습니다   컨셉이며 미모며 불타던   ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MExNCbQPhlU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MExNCbQPhlU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MExNCbQPhlU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-10T11:30:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "362wnVd2_C6L2wRbFkp9fiD0XKA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8xOBBkGbqII"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-02T01:30:12Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "[소장각👍 #3]  박효신 유스케 메들리 - 13분동안 고막을 호강시키는 가장 쉬운 방법",
+        "description": "[소장각   #3] 유희열의 스케치북, 2017년 7월 15일 박효신 00:00 해줄 수 없는 일 02:23 좋은 사람 03:00 동경 04:18 추억은 사랑을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8xOBBkGbqII/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8xOBBkGbqII/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8xOBBkGbqII/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-07-02T01:30:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "N77JeCBLN-HlR8uumoXXTmncYrQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Xrigiz4K5ik"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-23T02:30:12Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "[소장각👍 #18] 헨리의 눈으로 보는 바이올린 메들리 -  Despacito &amp; Mission Impossible &amp; Fantastic",
+        "description": "헨리 #유희열의스케치북 #바이올린 유희열의 스케치북 2014년 7월 25일, 2018년 12월 21일 방영 0:00 Despacito 01:17 Mission ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Xrigiz4K5ik/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Xrigiz4K5ik/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Xrigiz4K5ik/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-07-23T02:30:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ywYfXi9oJKVSyPPR6gsC1tmAp34",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rknN7S2i-W8"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-10T10:00:13Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "✨하이틴 감성 낭낭✨한 엔하이픈(ENHYPEN) 뮤직뱅크 무대모음 | #소장각 | KBS 방송",
+        "description": "소장각#엔하이픈#ENHYPEN#뮤직뱅크 엔하이픈이 세상을 뒤집어 귀엽고 멋있고 다 해 ..⭐ Given-Taken 부터 Tamed-Dashed 까지!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rknN7S2i-W8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rknN7S2i-W8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rknN7S2i-W8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-10T10:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "o_kT2DGWHNUNTnWMreE21uX_p6Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VfksP2MDIqg"
+      },
+      "snippet": {
+        "publishedAt": "2021-06-30T11:00:11Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "♬고화질 찢택연♬ 내 심장은 아직도 뛰고있어..그것도..너를향해...☆ Heartbeat 찢택연 엔딩ver. | #소장각 | 청룡영화상 [KBS 091202 방송]",
+        "description": "소장각 #택연 #2PM 택연이는..옷을 찢어..   그리고 무대도..   편집자 심장도   누구나 가슴속에 품어본 전설의 레전드 찢⭐택⭐연 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VfksP2MDIqg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VfksP2MDIqg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VfksP2MDIqg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-06-30T11:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SVNoo3TePlllMGy67teMVKoiQzY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1SjrxK0Oq-0"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-13T10:00:13Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "찬또배기 이찬원💖 훈훈한 얼굴에 맛깔나는 목소리😍 원조 트롯수저 이찬원의 KBS 무대 모음 | #트롯뱅크 | KBS 방송",
+        "description": "트롯뱅크 #이찬원 KBS와 함께 성장한 이찬원   이찬원의 KBS 무대를 모아봤어요^~^ 찬스들 드루와 드루와     전국노래자랑 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1SjrxK0Oq-0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1SjrxK0Oq-0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1SjrxK0Oq-0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-13T10:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "A_v9oPew8o06gW6AclrUoS7x-oo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "sYd7QKruz9k"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-05T11:00:14Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "성탄절도 어린이날처럼 휴일이니까요, &#39;Must Have Love&#39; 같이 들어요💕 | #소장각 | [KBS 방송]",
+        "description": "소장각 #가인 #김용준 #Must_have_love 함께 있단 이유로~ 행복했었던~ 우리들의~ 겨울날에~ 소중한 기억들~ 좋은 날엔 언제나~ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sYd7QKruz9k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sYd7QKruz9k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sYd7QKruz9k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-05T11:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wPndsL3lQWjgO8ANsYsBfzwgKCY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EhWyDFPGv4Q"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-30T11:00:14Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "노래도 &#39;잘생겼다...&#39;☺️ 유스케 속 노래하고 피아노치는 박보검 모음.zip⭐️ 얼굴도 음악실력도 박보검~나 잘하기 있음?!ㅠㅠ | #강제소환 | KBS 방송",
+        "description": "강제소환 #유희열의스케치북 #박보검 #parkbogum 저 얼굴에 노래실력까지 최상이면 반칙인데 피아노  까지 잘쳐버리네??? 모든게 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EhWyDFPGv4Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EhWyDFPGv4Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EhWyDFPGv4Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-30T11:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XfCAZ1JY9XcdmMhpYKsBo1dObs4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SQbZbVfPQuo"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-02T10:00:08Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "기대해 즐겨 듣던 그 멜로디🎵 믿고 듣는 명창아이돌 💙비투비💙의 유스케 무대 모음 | #유플리 | KBS 유희열의 스케치북",
+        "description": "유플리 #유희열의스케치북 #유스케 #비투비 비투비 웃긴 사람들 아니냐고요? 맞습니다 맞는데요... 예능감만큼이나 실력도 미쳤다 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SQbZbVfPQuo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SQbZbVfPQuo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SQbZbVfPQuo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-02T10:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "goVxU4DF5EtanVSXznASk8wGKmk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aiDegQKAxD0"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-27T10:00:02Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "우리의 영원한 지킬... 영원한 하이드...★ 스물다섯 조승우가 부르는 ‘지금 이 순간’ | #강제소환 | KBS 040807 방송",
+        "description": "강제소환 #조승우 이 노래를 오디션 금지곡으로 만들어버린 장본인!!! 19년 전 젊은 지킬 박사 조승우의 '지금 이 순간' 같이 들어요   ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aiDegQKAxD0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aiDegQKAxD0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aiDegQKAxD0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-27T10:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "j1aokZWW5TJceDe8ZRve_O-_xVY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ULmzFu5aKHQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-07T10:00:07Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "무대를 장악하는 퍼포먼스! 방탄소년단 열린음악회 무대 몰아보기💜 | #소장각 | KBS 방송",
+        "description": "bts #방탄소년단 #열린음악회 타임라인   00:00 I NEED U 03:31 흥탄소년단 07:42 쩔어 12:30 RUN 16:26 피 땀 눈물 21:47 불타 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ULmzFu5aKHQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ULmzFu5aKHQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ULmzFu5aKHQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-07T10:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GVAcSpu2LARotl_EPsCDK3vn-aU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LX9rcCbpUcg"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-31T06:51:06Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "(유스케 LIVE) 이무진 - 모아이",
+        "description": "shorts #유스케 #유희열의스케치북 #이무진 토크존잘 노래존잘 이무진의 유스케 무대 모음   https://youtu.be/7MX4i7mQy9k 노래 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LX9rcCbpUcg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LX9rcCbpUcg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LX9rcCbpUcg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-31T06:51:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "X4pxkGdXIx1yNi9BrXzWEFzWjDs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UkIDZCH1oN0"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-20T08:00:11Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "[소장각👍 #46] 완벽 칼군무 &#39;인피니트(INFINITE)&#39; 타이틀곡 몰아보기 (Stage-Mix)ㅣKBS 방송",
+        "description": "인피니트 #INFINITE #엘 칼군무로 유명한 인피니트! 이제는 연기돌로 우뚝 선 엘은 본업도 최고라구요..♥️ 얼굴 노래 춤 뭐 하나 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UkIDZCH1oN0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UkIDZCH1oN0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UkIDZCH1oN0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-20T08:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ap5jc2P_hHPOutKvMhWwoUZ6eF4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3DqwqYwQNvk"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-07T09:00:12Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "가을에 꼭 들어야 할 노래만 모은 🍂유스케 플레이리스트🍁유희열의  스케치북 | #유플리 | KBS 방송",
+        "description": "유플리 #유스케 #가을노래 찬 바람 살살 불기 시작한 10월   가을의 낮과 밤을 책임져 줄 유스케 무대들을 모아왔어요   타임라인   ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3DqwqYwQNvk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3DqwqYwQNvk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3DqwqYwQNvk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-07T09:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Hc7JNAStIL-D5wPKSvGUo4uwq84",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ePySmRddOxU"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-01T03:00:17Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "각시탈이다! | KBS 방송",
+        "description": "쇼츠 #shorts #각시탈 ❤️ KBS 드라마, 더 보고싶다면? ❤️ https://www.youtube.com/@kbsdramaclassic/videos ❤️ 각시탈 전체 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ePySmRddOxU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ePySmRddOxU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ePySmRddOxU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-01T03:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Sw-UU-Z8ScjfoV3z1QxnKBh7BXU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4mjFP_uCLJM"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-17T11:00:16Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "방탄소년단(BTS) 부산콘의 감동을 다시 한번💜 &#39;Yet To Come&#39; in MUSIC BANK | #소장각 | KBS 방송",
+        "description": "소장각 #뮤직뱅크 #BTS #방탄소년단 부산콘 못간 거 아직도 후회하는 아미 있어요? (그게 바로 저예요...) 아쉬운 마음 가득 담아 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4mjFP_uCLJM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4mjFP_uCLJM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4mjFP_uCLJM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-17T11:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tgoDvuLs6bzVhngLLFehStLo_vA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-uA9gIH9Xck"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-30T12:00:13Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "믿고 듣는 💙비투비 보이스💙 신나고 감동적이고혼자 다 하는 비투비의 🏆불후의 명곡🏆 모아듣기❗ 아싸(Outsider) 외쳐~! | #소장각 | 불후의 명곡 [KBS 방송]",
+        "description": "소장각 #비투비 #불후의 명곡 믿고 듣는 비투비의 노래들!   불후의 명곡에서도 눈에 띄는 실력을 자랑했는데요..! \"비투비가 비투비한\" ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-uA9gIH9Xck/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-uA9gIH9Xck/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-uA9gIH9Xck/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-30T12:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CBH7gSahywwGH3841Fli680UpJ4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ATPNjSa5yTQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-07T07:00:05Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "소녀시대와 카라가 부르는 원더걸스 노래 | KBS 방송",
+        "description": "쇼츠 #shorts 회차정보 ◾ KBS 가족오락관 2007.12.01 방송 ◾ KBS 가족오락관 2009.04.04 방송.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ATPNjSa5yTQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ATPNjSa5yTQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ATPNjSa5yTQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-07T07:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IZAG-lgwidJl93QQFqD1tdEajCI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zs1YcX_3kbc"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-14T11:00:37Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "[하드털이] 참가자에서 초대가수가 되고 결국 미스터트롯이 된 마이 리틀 히어로 HERO 💙 임영웅 전국노래자랑 무대 모아보기🎵 | #전국인물자랑 | KBS 방송",
+        "description": "전국노래자랑 #전국인물자랑 #임영웅 타임라인   00:00 일소일소 일노일로 [160214 방송] 02:02 일소일소 일노일로 앵콜 [160214 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zs1YcX_3kbc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zs1YcX_3kbc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zs1YcX_3kbc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-14T11:00:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7a33YYX1sItNw0PyXzp0UnJUV8E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HbBjHIwtjlI"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-15T13:00:07Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "[Playlist] 지친 당신을 위로해 줄 새벽 감성 유스케 플레이리스트🌙 | #유플리 | KBS 유희열의 스케치북",
+        "description": "유플리 #유희열의스케치북 #유스케 타임라인   00:00 나의 사춘기에게 - 볼빨간사춘기 [220603 방송] 03:45 꿈과 책과 힘과 벽 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HbBjHIwtjlI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HbBjHIwtjlI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HbBjHIwtjlI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-15T13:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "l11s3yVuuiYZAUQ9kdu0axmBnRo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mQfyyEUzJtw"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-26T12:00:35Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "[소장각👍 #76] 청춘을 노래하는 데이식스(DAY6)의 케베스 무대 하드털이🎸 [KBS 방송]",
+        "description": "소장각 #DAY6 #데이식스 요즘 출퇴근길에 'You make Me'만 계속 듣는 거.. 저만 그런 게 아니죠...   케베스 라디오의 자랑 Young ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mQfyyEUzJtw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mQfyyEUzJtw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mQfyyEUzJtw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-26T12:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "emM1HtSvWv1uZRDCvNOXw8P6ijo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FbQT4Jib7HM"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-06T10:00:09Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "그룹부터 유닛, 솔로까지! 백현의 버블 컴백 기념 유스케 무대모음🎉 | #유플리 | KBS 유희열의 스케치북",
+        "description": "유스케 #백현 #플레이리스트 #유플리 #유희열의스케치북 그 날이 왔습니다   백현 제대를 축하하며 모아 온 귀한 라이브 무대들.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FbQT4Jib7HM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FbQT4Jib7HM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FbQT4Jib7HM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-06T10:00:09Z"
+      }
+    }
+  ]
+}

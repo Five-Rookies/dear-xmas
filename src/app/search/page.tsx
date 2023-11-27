@@ -4,15 +4,14 @@ import React, { useState, useEffect } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import formatRelativeDate from '@/utils/relativeDate'
-import styles from '@/app/mainList/page.module.scss'
-import { ISearch } from '@/type/Api'
-import youtubeApiRequest from '@/utils/apiRequest/youtubeApiRequest'
-import testJSON from '@public/videos/searchByChannels/search-by-channel-id-UC1x03ziDHPct2xTikLyfMDA.json'
+import { IYoutubeItem } from '@/type/Api'
+import { youtubeJsonRequest } from '@/utils/apiRequest/youtubeApiRequest'
+import styles from '../page.module.scss'
 
 const Search = (props: any): React.ReactElement => {
   const searchParams = useSearchParams()
   const search = searchParams.get('info')
-  const [filteredItems, setFilteredItems] = useState<ISearch[]>([])
+  const [filteredItems, setFilteredItems] = useState<IYoutubeItem[]>([])
 
   const handleSearch = async () => {
     // if (!search) return
@@ -21,10 +20,12 @@ const Search = (props: any): React.ReactElement => {
     //   `&q=${search}&type=video`,
     //   25,
     // )
-    const response = testJSON.items
-    const filtered: ISearch[] = response.filter((el: ISearch): boolean => {
-      return el.snippet.title.includes(search || '')
-    })
+    const response = await youtubeJsonRequest()
+    const filtered: IYoutubeItem[] = response.items.filter(
+      (el: IYoutubeItem): boolean => {
+        return el.snippet.title.includes(search || '')
+      },
+    )
     setFilteredItems(filtered || [])
   }
   useEffect(() => {
@@ -34,13 +35,15 @@ const Search = (props: any): React.ReactElement => {
   return (
     <div className="inner-box">
       <ul className={styles.videoList}>
-        {filteredItems.map((video: ISearch, index: number) => {
+        {filteredItems.map((video: IYoutubeItem) => {
           const VIDEO = video.snippet
           return (
             <li className={styles.videoCard} key={video.id.videoId}>
               <Link
                 className={styles.videoLink}
-                href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
+                href={{
+                  pathname: `/detail/${video.id.videoId}`,
+                }}
               >
                 <div>
                   <img
@@ -55,10 +58,9 @@ const Search = (props: any): React.ReactElement => {
               </Link>
               <Link
                 className={styles.videoLink}
-                // href={{
-                //   pathname: `/detail/${video.id.videoId}`,
-                // }}
-                href=""
+                href={{
+                  pathname: `/detail/${video.id.videoId}`,
+                }}
               >
                 <div className={styles.channelTitle}>
                   <span>{VIDEO.channelTitle}</span>
