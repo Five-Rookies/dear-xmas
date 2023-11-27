@@ -11,19 +11,19 @@ import styles from './detail.module.scss'
 const RelatedVedio = ({ channelId }: { channelId: string }) => {
   const [videoData, setVideoData] = useState<IYoutubeItem[]>([])
 
-  const fetchData = async () => {
-    // const response = await youtubeApiRequest(
-    //   'search',
-    //   `&channel_id=${channelId}`,
-    //   25,
-    // )
-    // setVideoData(response)
-
-    const response = await youtubeJsonRequest('detail', channelId)
-    setVideoData(response.items)
-  }
-
   useEffect(() => {
+    const fetchData = async () => {
+      // const response = await youtubeApiRequest(
+      //   'search',
+      //   `&channel_id=${channelId}`,
+      //   25,
+      // )
+      // setVideoData(response)
+
+      const response = await youtubeJsonRequest('detail', channelId)
+      setVideoData(response.items)
+    }
+
     fetchData()
   }, [channelId])
 
