@@ -1,0 +1,856 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "1jwvX9xdikEAVetPRzwdxdzJ-d0",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1122,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "l9ilLn_bv825v9flZy2VAnjDUew",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3gLhf_6TXK0"
+      },
+      "snippet": {
+        "publishedAt": "2019-05-04T09:35:04Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "[Vol.7] 잠들며 듣는 편안한 CCM 피아노 연주곡 - 크리스찬 BGM",
+        "description": "[Vol.7] 잠들며 듣는 편안한 CCM 피아노 연주곡 - 크리스찬 BGM :::::List::::: 1.하나님의 은혜 00:01 2.주께와 엎드려 06:52 3.나의 가는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3gLhf_6TXK0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3gLhf_6TXK0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3gLhf_6TXK0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-05-04T09:35:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zQwH919saQbBKpyin5vhUNT58Ww",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0wcxl81QclQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-27T13:00:00Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "CCM 피아노 찬양 연주 모음집 No.01 (반복X 중간광고X) - CCM Piano Collection No.01",
+        "description": "나는 항상 소망을 품고 주를 더욱더욱 찬송하리이다 [시71:14] But I will keep on hoping for your help; I will praise you more and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0wcxl81QclQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0wcxl81QclQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0wcxl81QclQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-27T13:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WWZ1WnyscokImwrUiaJBVl1D-Ps",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "G7ia7pwUZic"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-23T21:00:06Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "주 말씀 향하여 | 𝐈 𝐰𝐢𝐥𝐥 𝐫𝐮𝐧 𝐭𝐨 𝐘𝐨𝐮 | Hillsong | CCM 피아노 연주",
+        "description": "[시63:2] 내가 주의 권능과 영광을 보기 위하여 이와 같이 성소에서 주를 바라보았나이다 [Psalms 63:2] I have seen you in your ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/G7ia7pwUZic/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/G7ia7pwUZic/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/G7ia7pwUZic/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-23T21:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "a_Fb_j0rsQdKgrbebEHhfYyI27Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Abtso3fd1bs"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-18T13:00:08Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "CCM 피아노 연주 모음집 베스트 50곡 (반복X 중간광고X)",
+        "description": "[PLAYLIST] 00:00:00 온 땅의 주인 [Who am I] 00:07:17 송축해 내 영혼 [10000 Reasons] 00:14:45 주 품에 [Still] 00:21:09 예수 안에 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Abtso3fd1bs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Abtso3fd1bs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Abtso3fd1bs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-18T13:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "38Ng0rIFhDHD3HpVtAZaObr_-mk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "g4-BZ2Bmoj0"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-12T04:06:11Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "Peaceful Piano Prayer Music🎹 #piano #bgm #공부음악  #묵상음악 #예배음악 #ccm",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/g4-BZ2Bmoj0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/g4-BZ2Bmoj0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/g4-BZ2Bmoj0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-12T04:06:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "p_872bqfa9fiWAoF2LOJf_NTfUI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "B328ldYjHtk"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-04T13:00:12Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "[1시간] 꽃들도 / flowers / CCM 피아노 연주🎹",
+        "description": "[계5:13] 내가 또 들으니 하늘 위에와 땅 위에와 땅 아래와 바다 위에와 또 그 가운데 모든 피조물이 이르되 보좌에 앉으신 이와 어린 양 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/B328ldYjHtk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/B328ldYjHtk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/B328ldYjHtk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-04T13:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oFXXLnWnQuylyqAX2nFeZ8RdQrw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Red5pj6GIeY"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-07T21:00:18Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "잠들며 듣는 편안한 𝐂𝐂𝐌 피아노 연주 모음 | 잔잔한 찬양 | 𝐖𝐨𝐫𝐤 | 𝐏𝐫𝐚𝐲𝐞𝐫 | 𝐒𝐭𝐮𝐝𝐲 | 𝐑𝐞𝐬𝐭",
+        "description": "[살전5:10] 예수께서 우리를 위하여 죽으사 우리로 하여금 깨어 있든지 자든지 자기와 함께 살게 하려 하셨느니라 [1 Thessalonians ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Red5pj6GIeY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Red5pj6GIeY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Red5pj6GIeY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-07T21:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "k6OAPFSW363Nvsorkte0-v1va_w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GfLwM3t3vkI"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-29T17:42:57Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "[3시간] 재즈로 듣는 크리스마스 찬송가 / Christmas Jazz Hymn / Joy to the world The Lord has come",
+        "description": "'천사가 이르되 무서워하지 말라 보라 내가 온 백성에게 미칠 큰 기쁨의 좋은 소식을 너희에게 전하노라. 오늘 다윗의 동네에 너희를 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GfLwM3t3vkI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GfLwM3t3vkI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GfLwM3t3vkI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-11-29T17:42:57Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wQPnOZpnn9DFbbOopHb0zwVnkwk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DiiW3kOjkH4"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-06T13:00:16Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "힘들 때 듣는 CCM 피아노 모음집 🎹",
+        "description": "[Psalms 34:9, NLT] Fear the LORD, you his godly people, for those who fear him will have all they need. [시34:9] 너희 성도들아 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DiiW3kOjkH4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DiiW3kOjkH4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DiiW3kOjkH4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-06T13:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Zxq1LKhw8ThMPO4Wp3NScULAkRo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Hd_MsqWIBFY"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-11T13:00:06Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "[10H] 🎄오르골로 듣는 크리스마스 찬송가 / ☃️Christmas Hymn Music Box / Joy to the world The Lord has come",
+        "description": "천사가 이르되 무서워하지 말라 보라 내가 온 백성에게 미칠 큰 기쁨의 좋은 소식을 너희에게 전하노라 오늘 다윗의 동네에 너희를 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Hd_MsqWIBFY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Hd_MsqWIBFY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Hd_MsqWIBFY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-11T13:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-mO00CnCbzOCVSHW7SRkv41e3PU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PJdRgo5k6t0"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-09T13:00:10Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "[10H] Study with CCM / 📚공부할 때 힘이 되는 CCM 피아노 🎹 / CCM Piano Compilation / Worship / Pray / Sleep",
+        "description": "나의 힘이시여 내가 주께 찬송하오리니 하나님은 나의 요새이시며 나를 긍휼히 여기시는 하나님이심이니이다 [시59:17] O my ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PJdRgo5k6t0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PJdRgo5k6t0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PJdRgo5k6t0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-09T13:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YwGT24bmeJB4UDqjUxdvAFlz6tE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FFc9OY7IBjo"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-14T13:00:05Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "[3H] 🎄재즈로 듣는 크리스마스 찬송가 /🎅 Christmas Hymn Jazz / Cafe Music / Rest / Relax",
+        "description": "오늘 다윗의 동네에 너희를 위하여 구주가 나셨으니 곧 그리스도 주시니라 [눅2:11] The Savior—yes, the Messiah, the Lord—has ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FFc9OY7IBjo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FFc9OY7IBjo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FFc9OY7IBjo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-14T13:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1U2oRhKtoXwRwg_AaoqseLeWifU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yfE5EOfiQnQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-03T13:00:43Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "하나님의 임재를 구하며 듣는 CCM 피아노 모음집 🎹",
+        "description": "[2 Corinthians 5:20, NLT] So we are Christ's ambassadors; God is making his appeal through us. We speak for Christ when we ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yfE5EOfiQnQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yfE5EOfiQnQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yfE5EOfiQnQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-03T13:00:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eZD-ZrEpTxL6wuvVGA9YpvwJ-aM",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ"
+      },
+      "snippet": {
+        "publishedAt": "2019-01-10T02:17:45Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "Christian BGM 크리스찬 BGM",
+        "description": "영혼의 안식과 평안을 주는 여러분의 채널 크리스찬 BGM에 오신걸 환영합니다.   크리스찬 BGM은 배경음악 전문채널로써 여러분의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/PeVsLeBFLR1CX_uyvOl3eVQxp9ouIktP3obbZnbHJfWlQvTFtGkfAzvIZspeb38Ea5hqTg7c7A=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/PeVsLeBFLR1CX_uyvOl3eVQxp9ouIktP3obbZnbHJfWlQvTFtGkfAzvIZspeb38Ea5hqTg7c7A=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/PeVsLeBFLR1CX_uyvOl3eVQxp9ouIktP3obbZnbHJfWlQvTFtGkfAzvIZspeb38Ea5hqTg7c7A=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "live",
+        "publishTime": "2019-01-10T02:17:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dK7JkWFMFjVMHcgYkJA2OeN-fWM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Kxi5G2hwowk"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-05T13:00:19Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "CCM 피아노 연주 모음집 베스트 50곡 (반복X 중간광고X)",
+        "description": "[롬15:11] 또 모든 열방들아 주를 찬양하며 모든 백성들아 그를 찬송하라 하였으며 [Romans 15:11, NLT] And yet again,\"Praise the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Kxi5G2hwowk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Kxi5G2hwowk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Kxi5G2hwowk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-05T13:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MU8runxY80N7aWuhoUdj6kfnx_k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5UJ-I_8Bgvc"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-05T13:00:04Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "은혜로 충만한 CCM 피아노 모음집 🎹",
+        "description": "[2 Timothy 1:9, NLT] For God saved us and called us to live a holy life. He did this, not because we deserved it, but because that ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5UJ-I_8Bgvc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5UJ-I_8Bgvc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5UJ-I_8Bgvc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-05T13:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yAS-wTlafL9SFxmsw5bkrG7mQFY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RaMhU3MJI8Q"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-31T23:56:02Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "𝐂𝐡𝐫𝐢𝐬𝐭𝐦𝐚𝐬 𝐇𝐲𝐦𝐧𝐬 𝐏𝐢𝐚𝐧𝐨 | 크리스마스 찬송 피아노 연주 모음 | 성탄절 찬양",
+        "description": "[Matthew 1:23] \"Look! The virgin will conceive a child! She will give birth to a son, and they will call him Immanuel, which means ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RaMhU3MJI8Q/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RaMhU3MJI8Q/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RaMhU3MJI8Q/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "live",
+        "publishTime": "2023-10-31T23:56:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_2X2cdmlQA4SFQ3NRV7vSQKOn8Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "50X7ZEb6WoQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-07T13:00:04Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "[10H] 🎄크리스마스 찬송가 피아노 연주 모음 🎹",
+        "description": "[눅2:11] 오늘 다윗의 동네에 너희를 위하여 구주가 나셨으니 곧 그리스도 주시니라 [Luke 2:11, NLT] The Savior—yes, the Messiah, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/50X7ZEb6WoQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/50X7ZEb6WoQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/50X7ZEb6WoQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-07T13:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "V6pehlqWUt-7C4q4xzkmfFtiQEA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "u4yDeENWkK4"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-21T23:32:45Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "𝐒𝐨𝐮𝐥𝐟𝐮𝐥 𝐂𝐡𝐫𝐢𝐬𝐭𝐦𝐚𝐬 𝐇𝐲𝐦𝐧𝐬🎄감성적인 크리스마스 찬양 🎸ʙᴀɴᴅ sᴇssɪᴏɴ",
+        "description": "[Matthew 1:23] \"Look! The virgin will conceive a child! She will give birth to a son, and they will call him Immanuel, which means ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u4yDeENWkK4/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u4yDeENWkK4/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u4yDeENWkK4/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "live",
+        "publishTime": "2023-11-21T23:32:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GND-fIJNuoIkXg39V_gUUCR2Vl4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RPvCRVSidGk"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-01T13:00:16Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "긍휼과 위로를 구하는 CCM 피아노 모음집 🎹",
+        "description": "[2 John 1:3, NLT] Grace, mercy, and peace, which come from God the Father and from Jesus Christ—the Son of the Father—will ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RPvCRVSidGk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RPvCRVSidGk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RPvCRVSidGk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-01T13:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nuBrAzM6YP_TOFrXkWtvq1cBPJ8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LNV5M2lX3rk"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-06T13:00:19Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "[10H] 예수님을 깊이 묵상하는 CCM 피아노 연주 / CCM Piano Compilation",
+        "description": "[히13:21] 모든 선한 일에 너희를 온전하게 하사 자기 뜻을 행하게 하시고 그 앞에 즐거운 것을 예수 그리스도로 말미암아 우리 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LNV5M2lX3rk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LNV5M2lX3rk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LNV5M2lX3rk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-06T13:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YnpdiKYq-kQmDg0enw7u60crefY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iHzrputqCIY"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-19T13:00:35Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "[1H] 충만 / Filled  / CCM 피아노 연주🎹",
+        "description": "[Colossians 1:19-20, NLT]For God in all his fullness was pleased to live in Christ, and through him God reconciled everything to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iHzrputqCIY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iHzrputqCIY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iHzrputqCIY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-19T13:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DoFsIjlp5X35HxEgsRfdpm0XtwA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "84wAxQiif7M"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-29T13:00:04Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "CCM 피아노 찬양 연주 모음집 No.03 (반복X 중간광고X) - CCM Piano Collection No.03",
+        "description": "나는 항상 소망을 품고 주를 더욱더욱 찬송하리이다 [시71:14] But I will keep on hoping for your help; I will praise you more and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/84wAxQiif7M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/84wAxQiif7M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/84wAxQiif7M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-29T13:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5PTwGvxomBfuhRvslFk7h6J9vtE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YgeWXH2RSqA"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-10T13:00:14Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "[1시간] 내 주 되신 주를 참 사랑하고 / My Jesus, I love Thee / 찬송가 피아노 연주 🎹",
+        "description": "[약1:12] 시험을 참는 자는 복이 있나니 이는 시련을 견디어 낸 자가 주께서 자기를 사랑하는 자들에게 약속하신 생명의 면류관을 얻을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YgeWXH2RSqA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YgeWXH2RSqA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YgeWXH2RSqA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-10T13:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Wd12C1QUQQEsuR1mXTg2fuNjmjA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-F7p_sieec4"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-23T13:00:01Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "[1시간] 말씀 앞에서 / Before one&#39;s words / CCM 피아노 연주",
+        "description": "[신8:3] 너를 낮추시며 너를 주리게 하시며 또 너도 알지 못하며 네 조상들도 알지 못하던 만나를 네게 먹이신 것은 사람이 떡으로만 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-F7p_sieec4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-F7p_sieec4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-F7p_sieec4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-23T13:00:01Z"
+      }
+    }
+  ]
+}

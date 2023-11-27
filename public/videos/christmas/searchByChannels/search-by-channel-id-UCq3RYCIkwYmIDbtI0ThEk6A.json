@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "__dEJCt8qZwZTbEfF8aFg-woUUs",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 263,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "912yweflQeqSCxORLBnSWt1swao",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5kbP23jYsNs"
+      },
+      "snippet": {
+        "publishedAt": "2018-08-15T12:46:27Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "지금 당신에게 위로가 될 Logic - 1-800-273-8255 [가사/해석/번역/lyrics]",
+        "description": "시청해주셔서 늘 감사합니다☕️ •수익창출 하지 않았습니다.원곡에 삽입된 광고가 알고리즘에 의하여 딸려오는 현상으로 모든 수익 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5kbP23jYsNs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5kbP23jYsNs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5kbP23jYsNs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-08-15T12:46:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-bZSJQ5rvkKjeTw_-AyD8-lhgqs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uKavzMpQc5Y"
+      },
+      "snippet": {
+        "publishedAt": "2021-06-25T12:20:00Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "뷔가 40초 동안 전국민을 꼬시는 방법 #shorts",
+        "description": "방탄소년단 Butter 싱글 CD 앨범 Photo Booth 포토부스 영상 입니다✨   보자마자 이건 공유해야해 무조건 이 생각 듬 #Shorts#쇼츠 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uKavzMpQc5Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uKavzMpQc5Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uKavzMpQc5Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-06-25T12:20:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TZhUB6LmfJUYuwTNRXvuCwF7Q50",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hihCy94JDEI"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-14T12:49:01Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 가을 아침 출근길을 책임져줄 기분좋은 가을 노래 | 2시간 플레이리스트",
+        "description": "No copyrights intended. All the song belongs to Singers and the music producers and company. 일부 컨텐츠는 카카오 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hihCy94JDEI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hihCy94JDEI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hihCy94JDEI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-14T12:49:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Zf1Z9vLXyn7SNeJuHvmQwAwXxp8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mswg9X5ciaU"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-24T08:49:00Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 𝑷𝒂𝒄𝒉𝒊𝒏𝒌𝒐 𝒕𝒓𝒂𝒈𝒊𝒄 𝒍𝒐𝒗𝒆 𝒔𝒕𝒐𝒓𝒚",
+        "description": "'돌멩이를 여기 바위틈에 끼워놓을게, 내가 왔다 간 걸 네가 알 수 있게.' 노아의 이야기와 한수, 선자의 스토리, 이방인으로서의 서러움, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mswg9X5ciaU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mswg9X5ciaU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mswg9X5ciaU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-24T08:49:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VUQDiC8d57AIZd1Ts9n68D4zbCY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Wc_iK702y7s"
+      },
+      "snippet": {
+        "publishedAt": "2021-06-13T04:57:00Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 띵곡 팝송 추천해주는 곳 | 사랑받는 기분이 드는 설레는 팝송들 💝 (ft. 𝐋𝐨𝐯𝐢𝐧𝐠 𝐘𝐨𝐮 𝐆𝐢𝐫𝐥)",
+        "description": "추천띵곡들#하나씩#적고가기 요즘 한창 유행중인 소니뮤직 신곡들 (광고X) ㅁㅏㅈㅣㅁㅏㄱㅇㅡㄹㅗ ㅅㅓㄹㄹㅔㅂㅗㄴㄱ ㅇㅓ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Wc_iK702y7s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Wc_iK702y7s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Wc_iK702y7s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-06-13T04:57:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oRtZXm1r6_NUa_LO1IojgB-cwRk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CBSwPGg7JAg"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-27T12:07:00Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 너는 나의 파도야 | 잔나비, 카더가든, 데이먼스 이어",
+        "description": "김현창 #허회경 #오존 #백아 #검정치마 #너드커넥션 #짙은 뮤뭉 - SWIM 죠지 - all day 그을 - 책임 못 질 거 아는데 김현창 - 아침만 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CBSwPGg7JAg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CBSwPGg7JAg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CBSwPGg7JAg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-27T12:07:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FJLjB_Z-pxNYJ0XUWzEKqTlKryE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fCjyOXFAAwE"
+      },
+      "snippet": {
+        "publishedAt": "2021-02-10T12:50:00Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 수고 많았어 잘자 예쁜아",
+        "description": "아으 오글 회사 이직하고 나서 출근시간이 7:30이라 요즘들어 8시면 뻗어버리네요 #   체력 상타치... 이 노래만 들으몀 잠이 그르케 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fCjyOXFAAwE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fCjyOXFAAwE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fCjyOXFAAwE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-02-10T12:50:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sEUz8Ut9QcU0jBO3dfVgl05yGeI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gXtW6NcIRiw"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-04T14:04:54Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 자기 전 포근하게 듣기좋은 팝송🌙",
+        "description": "곡 추천, 또는 광고문의 lookminplay@gmail.com 영상 출처: 디즈니 피노키오 투네이션: https://toon.at/donate/thanks_minplay 시청 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gXtW6NcIRiw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gXtW6NcIRiw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gXtW6NcIRiw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-04T14:04:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fEVOPF9MROVjVBt80Y5egZQbQAM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WBrf_GO6CoQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-01T00:35:00Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 작업에 집중할 수 있는 귀가 편안한 감성팝 💚",
+        "description": "[민플리x 크몽] 2023년 6월 1일 두 번째 프리랜서데이가 찾아왔습니다. 프리랜서데이란, No.1 프리랜서마켓 크몽이 지속 가능한 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WBrf_GO6CoQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WBrf_GO6CoQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WBrf_GO6CoQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-01T00:35:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-6usQZT0SYv64OXQZfJEd-DgBTw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eYtSJdQIsB4"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-05T12:25:00Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 🌸 봄 노래에 설렘 한 스푼 (ft.버스커 버스커,아이유,장범준,어쿠스틱 콜라보,긱스,도시 남녀,브레이브 걸스,스텐딩 에그,이구이)",
+        "description": "No copyrights intended. All the song parts belong to the original singers and producers and company.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eYtSJdQIsB4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eYtSJdQIsB4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eYtSJdQIsB4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-05T12:25:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "T794m_FbaAkH_YJ36PRgRKzX5CM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "F2qbQgkfgJo"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-08T13:15:01Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 한숨 섞인 계절 속에 사랑이 있었네 l 초겨울에 꼭 들어줘야 하는 가을 발라드 ft. 성시경, 카더가든, 최유리, 노리플라이, 아이유",
+        "description": "사진은 무채 MUCHAE 작가님의 '우린 서로 다른 별' 이라는 사진 제품입니다. 무채 MUCHAE X 민플리 플레이리스트 속 사진 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F2qbQgkfgJo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F2qbQgkfgJo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F2qbQgkfgJo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-08T13:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JkwLlRJfvKSv_KdfwL-Zn8nDK5I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uvdC5FooVEU"
+      },
+      "snippet": {
+        "publishedAt": "2021-06-05T03:15:01Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪꜱᴛ] 방구석을 한강뷰 오피스텔로 옮기는 방법 💕",
+        "description": "새 출발, 새 시작 6월의 플레이리스트. 6월도 열심히 살아보자   주변에 원룸이나 오피스텔 사시는 분들은 이사를 자주 다니시는데, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uvdC5FooVEU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uvdC5FooVEU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uvdC5FooVEU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-06-05T03:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZiihF_-dZDATltI3ViKKROVRnHQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kvRBrtrqjHc"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-26T15:00:41Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 가을을 거닐며 든 생각 | 잔나비, 카더가든, 최유리, 오왠, 10CM",
+        "description": "가을 #인디음악 #플레이리스트 #팝송 #산책하며듣기좋은노래 #카더가든 #잔나비 #혁오 #택우 #한로로 #릴러말즈 #허회경 #너드 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kvRBrtrqjHc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kvRBrtrqjHc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kvRBrtrqjHc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-26T15:00:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2mKArudoFLdN16cIe8lAEcEHIcw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "heL_65VI33o"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-04T13:45:01Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 위로와 사랑.",
+        "description": "겨울 #따스한 사진은 around_we 준민 작가님께서 제공해주셨습니다. https://instagram.com/around_we?igshid= 어느덧 겨울이네요.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/heL_65VI33o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/heL_65VI33o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/heL_65VI33o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-04T13:45:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sBvSzufQzmuL01xhDOyBHKTr_MU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gdye05AQTJE"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-18T12:00:28Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 네가 많이 보고싶은 밤이야 | INFP 새벽 인디 음악 모음 (ft.검정치마,참솜,카더가든,너드커넥션,비라,짙은,윤지영,성휘,오존,예빛)",
+        "description": "본 영상의 '일부'의 음원은 소정의 광고비를 받아 제작 되었습니다 ☺️ No copyrights intended. All the song belongs to Singers and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gdye05AQTJE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gdye05AQTJE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gdye05AQTJE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-18T12:00:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "E9ZqTwxNrzVaMnYKu6KHpWJ3fD8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_Itzj3qRWV0"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-05T12:19:43Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 유독 우울한 밤에 듣기좋은 감성팝송",
+        "description": "곡 추천, 협업 문의: lookminplay@gmail.com 영상으로 어떠한 수익도 창출하지 않습니다 No copyrights intended. All the song All the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_Itzj3qRWV0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_Itzj3qRWV0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_Itzj3qRWV0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-05T12:19:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "29dx7u9k1IU6U3m9drPXtSOJqGQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eUdHeQ3sl1U"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-28T07:59:01Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 선선한 저녁 공기 좋네, 이 노래 들으면서 드라이브 갈래?",
+        "description": "본 영상의 일부 음원은 소정의 광고비를 받아 제작 되었습니다. No copyrights intended. All the song belongs to Singers and the ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eUdHeQ3sl1U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eUdHeQ3sl1U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eUdHeQ3sl1U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-28T07:59:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jP-pjFVO1f_YJCNGVl_gCYhhJgU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HanOAs3exvc"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-14T03:07:00Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 설레는 겨울이 왔어",
+        "description": "겨울 #잔잔한팝송 #포근한팝송 #설레는겨울이왔어 #2023playlist.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HanOAs3exvc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HanOAs3exvc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HanOAs3exvc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-14T03:07:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "c-Pb5_86p5sus7L93zigy6mJUqk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "asNAITAS-rQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-31T11:30:12Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 너와 보낸 여름은 청춘이 아니었을까 | 사랑하는 기분이 드는 설레는 노래 💗",
+        "description": "설레는노래 #알앤비 #플레이리스트 #인디음악 #띵곡 #띵곡모음 #첫사랑 #짝사랑 00:00 Love Me Love Me - 권진아 03:21 허수아비 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/asNAITAS-rQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/asNAITAS-rQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/asNAITAS-rQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-31T11:30:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZV_FINEBaPXFJd2RhwqHsvaeBv0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "33NKTbPfpsk"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-13T02:43:12Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 너랑 인천대교 드라이브하면서 들으려고 아껴둔거야 (ft.적재,마크툽,그리즐리,태연,Cosmic Boy,로꼬,자이언티,크러쉬,션케이)",
+        "description": "본 영상의 '일부'의 음원은 소정의 광고비를 받아 제작 되었습니다 ☺️ No copyrights intended. All the song belongs to Singers and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/33NKTbPfpsk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/33NKTbPfpsk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/33NKTbPfpsk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-13T02:43:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CwceoWP_ktCujO4uIPGf8Io_l0Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZXDMhdwF0yU"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-21T10:55:00Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 슬슬 파리의 크리스마스 분위기 좀 내볼까요? 𝑪𝒉𝒓𝒊𝒔𝒕𝒎𝒂𝒔 𝑰𝒏 𝑷𝒂𝒓𝒊𝒔 𝑪𝒂𝒓𝒐𝒍",
+        "description": "공간과 계절 플레이리스트 ep5 #크리스마스 #포근한 #재즈음악 #팝송 #캐롤 #플레이리스트 #파리 #파리의크리스마스 #연말.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZXDMhdwF0yU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZXDMhdwF0yU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZXDMhdwF0yU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-21T10:55:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ausaPkP_4hkbbInOzicZ_6rmgxc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9dcU1WzgNaY"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-16T12:50:00Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 나는 파도가 될게요. 가장 깊은 곳이 될게요 | 데이먼스 이어, 잔나비, 최유리, 카더가든",
+        "description": "숲이고자 했던 나 바다였던 나 마주 볼 용기 드디어 숲이 된 나 부서지는 것들에 우리 지지 말아요. #수수문 #검정치마 #도리 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9dcU1WzgNaY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9dcU1WzgNaY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9dcU1WzgNaY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-16T12:50:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "H7OzkcYMJReEKtz5B1N4vZbEgbs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0ESafoYSbh0"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-27T22:15:00Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪꜱᴛ] 이 노래 들으려고 제주도 해안도로 드라이브 중 ⛱",
+        "description": "계속 직진. 그렇지.❞ ❝잘하고 있어. 잘하고 있어.❞ 우리는 어쩌면 인생이라는 운전대를 쥐고 이제 초보 딱지를 뗀 운전자일지도 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0ESafoYSbh0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0ESafoYSbh0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0ESafoYSbh0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-27T22:15:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gdIFPYFpstOXQLDwFW7TTTpwPzw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yr0T6w7Fmn4"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-29T02:58:00Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 여름이니깐, 청량하고 신나는 팝송 모음 💙🦋🏖",
+        "description": "No copyrights intended. All the song parts belong to the original singers and producers and company. All the songs, and images ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yr0T6w7Fmn4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yr0T6w7Fmn4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yr0T6w7Fmn4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-29T02:58:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "R79TywfdHBrzseoDHM9ElRYAnMU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nKd5Pu-kfv4"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-01T12:12:00Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 가을이 창문 사이로 | 가을 아침 뽀-송한 노래들 🍂 autumn music",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nKd5Pu-kfv4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nKd5Pu-kfv4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nKd5Pu-kfv4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-01T12:12:00Z"
+      }
+    }
+  ]
+}

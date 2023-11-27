@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "L7Z1b4xXDfrj1fpJea31mgNuoe8",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 183,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oIydidNaZRZHeJO2iTpqOiqFVos",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Bube0bKNiPk"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-26T03:07:29Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "[루피아노 악보] Ennio Morricone-Love Affair (영상 설명란 악보스토어 링크 기재)",
+        "description": "안녕하세요, 루 피아노입니다. 이 영상은 루 피아노 악보 스마트 스토어(https://smartstore.naver.com/loopiano) 에서 악보를 구매해 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Bube0bKNiPk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Bube0bKNiPk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Bube0bKNiPk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-26T03:07:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rC3EIRhgcLUoiULAOfGqCoZrCmg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HqF8Vti53rw"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-16T14:01:14Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "[루피아노 악보] comment te dire adieu (재즈 피아노 악보 연습용)",
+        "description": "안녕하세요, 루 피아노입니다. 이 영상은 루 피아노 악보 스마트 스토어(https://smartstore.naver.com/loopiano) 에서 악보를 구매해 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HqF8Vti53rw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HqF8Vti53rw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HqF8Vti53rw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-16T14:01:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pCLid5aTV6Qnpa4aTGWZYaz32Vc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wutD8UXo8Bk"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-07T05:36:04Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "뉴욕의 밤과 찰떡인 이 노래!(고정댓글 풀버전 링크)",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다   제 채널의 음악은 모두 직접 작곡 및 편곡, 연주하고 있습니다   ❌무단 사용 및 2 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wutD8UXo8Bk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wutD8UXo8Bk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wutD8UXo8Bk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-07T05:36:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9Me3ek3_LsHN5CEqdKGdJ4pG1rU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FJsxw6fXUPc"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-24T10:19:27Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "[루피아노 악보] 하울의 움직이는 성 - 인생의 회전목마 (영상 설명란 악보스토어 링크 기재)",
+        "description": "안녕하세요, 루 피아노입니다. 이 영상은 루 피아노 악보 스마트 스토어(https://url.kr/i6koa3) 에서 악보를 구매해 주신 분들이 따라서 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FJsxw6fXUPc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FJsxw6fXUPc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FJsxw6fXUPc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-24T10:19:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KrHnnUN4QIcUF-nmiG0B8n3U_7E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3uZUqIGlA8Q"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-28T08:00:01Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "비와 뉴욕, 재즈가 만나면? &quot;Everything Happens To Me&quot; #jazzpiano #jazzplaylist",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다   제 채널의 음악은 모두 직접 작곡 및 편곡, 연주하고 있습니다   ❌무단 사용 및 2 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3uZUqIGlA8Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3uZUqIGlA8Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3uZUqIGlA8Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-28T08:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0Eo-m-_AQ4grU1cpTxjIcFsHe1E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "t0pVcLRCyEs"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-02T07:00:10Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "내 방 한 켠에 포근한 지브리 재즈 | Jazz Piano | Playlist | 카페 음악 | 로비 음악",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다. 제 채널의 음악은 직접 작곡 및 편곡, 연주하고 있습니다. 구독과 좋아요는 제게 큰 힘 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/t0pVcLRCyEs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/t0pVcLRCyEs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/t0pVcLRCyEs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-02T07:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5KogPFgD4r1neSXYZlf0oC-0teY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "34_tc7FsNws"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-31T09:35:20Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "[루피아노 악보] Alexander Jean - Whiskey and Morphine (영상 설명란 악보스토어 링크 기재)",
+        "description": "안녕하세요, 루 피아노입니다. 이 영상은 루 피아노 악보 스마트 스토어(https://url.kr/du9evy) 에서 악보를 구매해 주신 분들이 따라서 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/34_tc7FsNws/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/34_tc7FsNws/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/34_tc7FsNws/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-31T09:35:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jYiiIctROyg6EmRSHdzcPLrVnSc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-wGsV995djQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-20T04:30:00Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "𝗝𝗮𝘇𝘇 𝗣𝗶𝗮𝗻𝗼 l 낭만에 대하여",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다   제 채널의 음악은 모두 직접 작곡 및 편곡, 연주하고 있습니다   ❌무단 사용 및 2 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-wGsV995djQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-wGsV995djQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-wGsV995djQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-20T04:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bEjp4c4EDYFAg1kG9LaB_mj_geM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nF5Fi--bNfo"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-05T09:15:02Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "🎅곧 크리스마스가 올거야  | Jazz piano playlist",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다. 제 채널의 음악은 직접 작곡 및 편곡, 연주하고 있습니다. 구독과 좋아요는 제게 큰 힘 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nF5Fi--bNfo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nF5Fi--bNfo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nF5Fi--bNfo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-05T09:15:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Rgv5poEMgjjmnQu8NvIpMgTw9jk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "64vOZ0MhyRc"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-14T11:40:39Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "𝗝𝗮𝘇𝘇 𝗣𝗶𝗮𝗻𝗼 l 어텀 인 마이홈",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다   제 채널의 음악은 모두 직접 작곡 및 편곡, 연주하고 있습니다   ❌무단 사용 및 2 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/64vOZ0MhyRc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/64vOZ0MhyRc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/64vOZ0MhyRc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-14T11:40:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "e2xp7A4_8wudbS8CMp7Lxrk7d3s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "x-S5xrOx-A8"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-12T08:07:33Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "하울의 움직이는 성을 재즈로 연주하면...? 인생의 회전목마 #jazz piano",
+        "description": "더 많은 재즈 음악을 듣고 싶다면? :) @loopiano.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x-S5xrOx-A8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x-S5xrOx-A8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x-S5xrOx-A8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-12T08:07:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "568B4jyEO76ufdsNefIxK71nT50",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XtByTWTzSLE"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-08T02:30:12Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "𝗝𝗮𝘇𝘇 𝗣𝗶𝗮𝗻𝗼 l 단풍도 곧 보겠네요",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다   제 채널의 음악은 모두 직접 작곡 및 편곡, 연주하고 있습니다   ❌무단 사용 및 2 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XtByTWTzSLE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XtByTWTzSLE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XtByTWTzSLE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-08T02:30:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZR8U20WbO7pB52nUO7yu2M-p2O0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iLFlktqKRJ4"
+      },
+      "snippet": {
+        "publishedAt": "2021-03-09T09:10:18Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "🎹 와인바에 온 것 처럼 그윽한 재즈 피아노 연주(Cozy Jazz Piano) | Playlist",
+        "description": "장점 : 숙취 없음 00:00 I've never been in love before 04:01 Beautiful love 08:06 Over the rainbow 12:35 Just the two of us 16:23 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iLFlktqKRJ4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iLFlktqKRJ4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iLFlktqKRJ4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-03-09T09:10:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QfVddjUsJW1uEtQ8RQoPMBheYy4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lZZjZRjI2XQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-03T09:48:52Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "[루피아노 악보] Johnny Stimson - Flower (영상 설명란 악보스토어 링크 기재)",
+        "description": "안녕하세요, 루 피아노입니다. 이 악보는 Johnny Stimson - Flower를 직접 편곡하여 제작하였습니다. 위의 영상을 0.5 배속으로 재생 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lZZjZRjI2XQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lZZjZRjI2XQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lZZjZRjI2XQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-03T09:48:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yKlylMMOXXwd2emwk_9Mz9MQRjE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9OYtA-df0bM"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-15T10:01:31Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "𝗝𝗮𝘇𝘇 𝗣𝗶𝗮𝗻𝗼｜캐롤 상자를 꺼내야 할 때,",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다   제 채널의 음악은 모두 직접 작곡 및 편곡, 연주하고 있습니다   ❌무단 사용 및 2 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9OYtA-df0bM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9OYtA-df0bM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9OYtA-df0bM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-15T10:01:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dQvIHSv8dY7wDpP_aXZzSOknyV8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xIZT55-OiXA"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-14T03:45:03Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "느긋하고 익숙하고 그런 음악을 듣고싶었어",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다 제 채널의 음악은 모두 직접 작곡 및 편곡, 연주하고 있습니다 ❌ 무단 사용 및 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xIZT55-OiXA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xIZT55-OiXA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xIZT55-OiXA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-14T03:45:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GPBVFS4ujm9EaAZqcIfpuaUV9r0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3EHJXPkumAs"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-22T08:14:29Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "도깨비의 슬픈 첫사랑 &quot;Hush&quot; Jazz ver.  #jazzpiano",
+        "description": "더 많은 재즈 음악을 듣고 싶다면? @loopiano.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3EHJXPkumAs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3EHJXPkumAs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3EHJXPkumAs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-22T08:14:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XL2RCM7hUa1ui8YcnBTqkMYBIw8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Jmb4uiyZiPk"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-16T08:00:09Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "누르면 바다가 들리는 마법을 걸어줄게요 &quot;마녀배달부 키키&quot; Jazz Piano. ver #jazzpiano",
+        "description": "마녀배달부 키키의 '바다가 들리는 마을' 풀 버전은 여기서! https://url.kr/olqbwd '바다가 들리는 마을' 악보는 여기서! 루 피아노 악보 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Jmb4uiyZiPk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Jmb4uiyZiPk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Jmb4uiyZiPk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-16T08:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qNCutCp8DDOptCB9XL9O8izBAAo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hKn6F-b95Ho"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-06T09:29:38Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "🎹크리스마스를 기다리는 설레임을 담아 연주했어요 | 캐롤 재즈피아노 | 재즈캐롤",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다. 제 채널의 음악은 직접 작곡 및 편곡, 연주하고 있습니다. 구독과 좋아요는 제게 큰 힘 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hKn6F-b95Ho/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hKn6F-b95Ho/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hKn6F-b95Ho/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-06T09:29:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0ZLNamYV-XAk0EAbFZT_XBR8UPc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "E45Ivf66u9c"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-12T10:33:40Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "𝗝𝗮𝘇𝘇 𝗣𝗶𝗮𝗻𝗼 l 여기 앉아요, 같이 들어요",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다   제 채널의 음악은 모두 직접 작곡 및 편곡, 연주하고 있습니다   ❌무단 사용 및 2 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/E45Ivf66u9c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/E45Ivf66u9c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/E45Ivf66u9c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-12T10:33:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "X2OHWkxJNitXcQ-pwcYCoe4ofx0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "je214swYz20"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-12T08:00:30Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "재즈 아이스로 한 잔 주세요, 산미 있는걸로",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다 제 채널의 음악은 모두 직접 작곡 및 편곡, 연주하고 있습니다 ❌ 무단 사용 및 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/je214swYz20/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/je214swYz20/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/je214swYz20/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-12T08:00:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BI9K_1VIO03jZOHPVMV6xqW25qs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3LMRwlUNw0w"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-04T08:00:04Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "뭐야, 뉴욕이랑 뉴진스 왜 이리 잘 어울려? &quot;Hype Boy 재즈버전&quot; #jazzpiano #jazzplaylist",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다   제 채널의 음악은 모두 직접 작곡 및 편곡, 연주하고 있습니다   ❌무단 사용 및 2 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3LMRwlUNw0w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3LMRwlUNw0w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3LMRwlUNw0w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-04T08:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cd9EUFXpSiLE3GKHlmBQIPuTIo4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7HvikO6sCvo"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-26T09:00:08Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "테라스의 계절, 음악이 빠질 수 없지",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다 제 채널의 음악은 모두 직접 작곡 및 편곡, 연주하고 있습니다 ❌ 무단 사용 및 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7HvikO6sCvo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7HvikO6sCvo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7HvikO6sCvo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-26T09:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2o-hlsOXYFOFFhpw87OEksbpDlE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MeIqFabHCjA"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-23T03:00:07Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "얊아진 옷차림과 따뜻한 여유, 일요일의 음악 | Jazz Piano | Playlist | 카페 음악 | 로비 음악",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다 제 채널의 음악은 모두 직접 작곡 및 편곡, 연주하고 있습니다 ❌ 무단 사용 및 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MeIqFabHCjA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MeIqFabHCjA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MeIqFabHCjA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-23T03:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QA4CG3scg8wCA5LunzhcjvxwTTs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KJV1nQEDFQc"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-25T04:30:06Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "𝗝𝗮𝘇𝘇 𝗣𝗶𝗮𝗻𝗼 l 한 여름의 크리스마스",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다   제 채널의 음악은 모두 직접 작곡 및 편곡, 연주하고 있습니다   ❌무단 사용 및 2 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KJV1nQEDFQc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KJV1nQEDFQc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KJV1nQEDFQc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-25T04:30:06Z"
+      }
+    }
+  ]
+}

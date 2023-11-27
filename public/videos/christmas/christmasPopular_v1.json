@@ -1,0 +1,1032 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "Z5H0QBtMKIJ0YpIc8IDfTm8rBk4",
+  "nextPageToken": "CB4QAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 30
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "26s8Jvs1rtRFeLMfxiF7coMD2co",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "a_80o2lDYec"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-02T11:00:04Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 슬슬 연말 분위기를 내볼까요? | 퍼펙트 크리스마스 캐롤 플레이리스트🎄🎅🎁 | Best Christmas Pop Songs Of All Time",
+        "description": "Playlist by 벅스PD (벅스 뮤직PD) *벅스에서 플레이리스트를 확인해보세요! :: http://bugs.kr/!yt0025 *벅스PD님의 감성이 내 취향 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/a_80o2lDYec/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/a_80o2lDYec/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/a_80o2lDYec/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-02T11:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0XwhkjYCnKXBncnZFQgsm0Cqs3A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vWQ7RFzyb60"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-17T10:45:18Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "[𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 남들 다 듣는 캐롤은 싫잖아?🎄나만 들으려고 아껴놨던 크리스마스 도입부좋은 캐롤모음 (1hour)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vWQ7RFzyb60/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vWQ7RFzyb60/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vWQ7RFzyb60/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-17T10:45:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Q115VTRzHAQSgkWJiAwVVCEejo0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "myRxf1o06bg"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-25T22:05:53Z",
+        "channelId": "UC5OStgYPn8_UbILMFNFF_-w",
+        "title": "𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 | 함께 듣는 재즈 캐롤, 한걸음 다가오는 설렘 가득 크리스마스🎄 | Christmas Carol Jazz",
+        "description": "채널의 모든 음악은 직접 연주 후 프로듀싱한 음원입니다. 방문해주셔서 감사합니다. All music from my ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/myRxf1o06bg/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/myRxf1o06bg/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/myRxf1o06bg/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "재즈오빠 Jazzoppa",
+        "liveBroadcastContent": "live",
+        "publishTime": "2023-11-25T22:05:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yAS-wTlafL9SFxmsw5bkrG7mQFY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RaMhU3MJI8Q"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-31T23:56:02Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "𝐂𝐡𝐫𝐢𝐬𝐭𝐦𝐚𝐬 𝐇𝐲𝐦𝐧𝐬 𝐏𝐢𝐚𝐧𝐨 | 크리스마스 찬송 피아노 연주 모음 | 성탄절 찬양",
+        "description": "[Matthew 1:23] \"Look! The virgin will conceive a child! She will give birth to a son, and they will call him Immanuel, which means ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RaMhU3MJI8Q/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RaMhU3MJI8Q/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RaMhU3MJI8Q/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "live",
+        "publishTime": "2023-10-31T23:56:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CE4c2zONkBSJwFDN2MhBsyZ3wdw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QDN9iZu94wU"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-11T11:05:02Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "크리스마스에 절대 빠질 수 없는 레전드 영화 《나 홀로 집에》 1-3편 한방에 보기[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 00:00 나홀로집에1 15:01 나홀로집에2 37:35 나홀로집에3.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QDN9iZu94wU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QDN9iZu94wU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QDN9iZu94wU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-11T11:05:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Tj041gS-mBLx-bTJooxI-dTAVzk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gWUrFxu2ggM"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-18T13:40:00Z",
+        "channelId": "UCq3RYCIkwYmIDbtI0ThEk6A",
+        "title": "[ᴘʟᴀʏʟɪsᴛ] 올 겨울 따듯한 커피 한 잔과, 홀리데이 크리스마스 𝒄𝒉𝒓𝒊𝒔𝒕𝒎𝒂𝒔 𝒂𝒕 𝒉𝒐𝒎𝒆",
+        "description": "재작년 크리스마스에 업로드한 홀리데이 플레이리스트 ☃️❤️ 행복한 주말 보내세요:)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gWUrFxu2ggM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gWUrFxu2ggM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gWUrFxu2ggM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "민플리ᴘʟᴀʏʟɪsᴛ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-18T13:40:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lm12IwN5AlBFq9FWyIDBHTELfeA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Gv-9jMMvNuc"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-17T01:18:12Z",
+        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
+        "title": "연말 분위기 가득 담은 크리스마스 K-캐롤 모음 🎅🏻❤️ ‧꙳•⋆꙳ | PLAYLIST",
+        "description": "해당 영상의 일부는 지원 받아 제작되었습니다. 설레는 크리스마스를 위한 연말 분위기 가득 담은 캐롤을 모아봤어요! 사랑하는 사람들 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Gv-9jMMvNuc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Gv-9jMMvNuc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Gv-9jMMvNuc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "찐막 JJINMAK",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-17T01:18:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9eSwtkX-XF4U7Cyv0iEyWp6L0uU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "F3oBTebuPDc"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-19T07:23:17Z",
+        "channelId": "UCGMz6JDxy0jlh-Rszf0tzUg",
+        "title": "𝐂𝐡𝐫𝐢𝐬𝐭𝐦𝐚𝐬 / 크리스마스 음악 2024 ☃️크리스마스 재즈🎄 기악 크리스마스 피아노 재즈 음악 , 크리스마스 캐롤 2024",
+        "description": "안녕 여러분 !! ❄️크리스마스 분위기가 가득한 재즈 음악 채널을 소개합니다! 우리의 채널은 황홀한 크리스마스 분위기를 만끽할 수 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F3oBTebuPDc/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F3oBTebuPDc/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F3oBTebuPDc/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Toyland Jazzy",
+        "liveBroadcastContent": "live",
+        "publishTime": "2023-10-19T07:23:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Gy_CZYviUTgJnKntAl6NFBAuwhw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nJ_gCRLsLJc"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-22T11:00:40Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 너에게 보내는 크리스마스 선물",
+        "description": "곧 크리스마스 #노래추천 #팝송추천 #플레이리스트 문의 micasfu@gmail.com 인스타 https://www.instagram.com/micasfu.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nJ_gCRLsLJc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nJ_gCRLsLJc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nJ_gCRLsLJc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-22T11:00:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MBNHCiynBqlG50w8OATmy43gU_g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Q5WeitstJgo"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-19T02:37:17Z",
+        "channelId": "UCKHV4MGtdlMb3aCGotUjzsQ",
+        "title": "[𝐏𝐋𝐀𝐘𝐋𝐈𝐒𝐓]슬슬 연말 분위기를 내볼까요? | 퍼펙트 크리스마스 캐롤 플레이리스트🎄🎅🎁| Best Christmas Pop Songs Of All Time",
+        "description": "크리스마스 음악은 연말 시즌을 기쁨과 따뜻함으로 가득 채우는 특별한 음악입니다. 고전적인 캐롤부터 현대적이고 다양한 곡들까지, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Q5WeitstJgo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Q5WeitstJgo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Q5WeitstJgo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "하얀 눈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-19T02:37:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-p7NmBJrsoLWZjcTiNWgDBjrA_w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8r7JiZRHSfs"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-30T03:15:21Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 크리스마스 가족영화 한 편 본 것만 같은 느낌 🎁ㅣ색다른 감동, 크리스마스 클래식 스페셜ㅣBest Classical Christmas Music 🎄",
+        "description": "케빈과 함께 랜선 여행 Playlist by 벅스PD *벅스에서 고음질로 감상해보세요! :: http://bugs.kr/!yt0187 *벅스PD님의 감성이 내 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8r7JiZRHSfs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8r7JiZRHSfs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8r7JiZRHSfs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-11-30T03:15:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gDsJUpCLc6v2lnElSYCBAp2U7XU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "j59HTVY1oCc"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-22T14:04:41Z",
+        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
+        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 벌써부터 크리스마스 기다리는 사람? 𝑴𝒆𝒓𝒓𝒚 𝑪𝒉𝒓𝒊𝒔𝒕𝒎𝒂𝒔 𝑪𝒂𝒓𝒐𝒍",
+        "description": "크리스마스 #플레이리스트 #캐롤.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j59HTVY1oCc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j59HTVY1oCc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j59HTVY1oCc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-22T14:04:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "to6JWgpCKHQHBlaIj-Da__e2JUY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CAd-_QcvqCk"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-19T02:00:05Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "𝗝𝗮𝘇𝘇 𝗣𝗶𝗮𝗻𝗼｜크리스마스는 기다리는 설렘이 더 좋아",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다   제 채널의 음악은 모두 직접 작곡 및 편곡, 연주하고 있습니다   ❌무단 사용 및 2 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CAd-_QcvqCk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CAd-_QcvqCk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CAd-_QcvqCk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-19T02:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8VeS_5iVcnxUoKrR1pGPWjcvASc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KwyvIUmND7I"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-23T08:44:13Z",
+        "channelId": "UC0dJz7rZ_OuV6nNG14dDAmg",
+        "title": "[𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 아늑한 벽난로 앞, 하얗게 물든 창밖을 보며.🎄 크리스마스 재즈🎺 (재업로드)",
+        "description": "겨울이 실감나게 다가온 요즘이에요. 이번에도 잔잔하게 들을 수 있는 플레이리스트를 만들어봤어요. 우리 모두가 크리스마스를 기대 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KwyvIUmND7I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KwyvIUmND7I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KwyvIUmND7I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "𝐽𝐴𝑍𝑍𝑌𝑊𝐸𝑆𝑇",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-23T08:44:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1DH9lsrTEtNVWiXsgMsfyssLbn4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oac-0qO-AXM"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-19T22:01:25Z",
+        "channelId": "UC5OStgYPn8_UbILMFNFF_-w",
+        "title": "𝗣𝗹𝗮𝘆𝗹𝗶𝘀𝘁 | 다가올 이번 크리스마스, 재즈와 함께🎄 | Christmas Carol Jazz",
+        "description": "채널의 모든 음악은 직접 연주 후 프로듀싱한 음원입니다. 방문해주셔서 감사합니다. All music from my ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oac-0qO-AXM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oac-0qO-AXM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oac-0qO-AXM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "재즈오빠 Jazzoppa",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-19T22:01:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dOlRgazJXyiLqHet7jh4FDzvbl0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PmoZQTp_9dI"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-12T06:15:11Z",
+        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
+        "title": "🎅 K-캐롤이 빠지면 섭하지, 크리스마스 국내 캐롤 모음 ❅*₊• | PLAYLIST",
+        "description": "크리스마스에 설레고 귀로 한번 더 설레는 K-캐롤 플레이리스트 ❅*₊• 영상이 마음에 드셨다면 [ 구독 ❤️️ ] [ 좋아요 ] [ 알림 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PmoZQTp_9dI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PmoZQTp_9dI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PmoZQTp_9dI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "찐막 JJINMAK",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-12T06:15:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mQlVwviIOpZV3DbnaTmZKUXBHWA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2BegA7SRYIQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-22T00:34:58Z",
+        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
+        "title": "Playlist | 듣기만 해도 설레는, 크리스마스 재즈🎅 | Christmas Jazz Playlist",
+        "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2BegA7SRYIQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2BegA7SRYIQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2BegA7SRYIQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "기분Jazz네 | Mood is Jazz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-22T00:34:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LqX7aAg8BQsVaCMe21DKGIWEh2E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wUlGI8JIx-s"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-19T22:15:04Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "재즈팝 분위기 잔잔한 크리스마스 캐롤 🎄 Design making tutorial",
+        "description": "캐롤모음 #재즈 #크리스마스 해당 영상은 제작과정과 설명 자막을 포함하고 있습니다. 03:17 부터 Design making tutorial 영상이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wUlGI8JIx-s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wUlGI8JIx-s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wUlGI8JIx-s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-19T22:15:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8okzDTtJlF8Whba39gabUNMvsbo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kN1ICC3orV4"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-22T19:07:36Z",
+        "channelId": "UCKHV4MGtdlMb3aCGotUjzsQ",
+        "title": "[𝐏𝐋𝐀𝐘𝐋𝐈𝐒𝐓] 평생 듣고 싶은 곡으로만 엄선한 올드 감성 크리스마스 캐롤🎄🎅 퍼펙트 크리스마스 캐롤 플레이리스트 | Best Christmas Song🎄",
+        "description": "겨울 음악의 아름다운 세 추위와 함께 따스 한 감정을 느끼고, 황홀한 음악을 통해 겨울의 아름다움을 누려보세요. 독특한 겨울 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kN1ICC3orV4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kN1ICC3orV4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kN1ICC3orV4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "하얀 눈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-22T19:07:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JugfBFGtYEUAloxDywipewKNua8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zt5y2kINvHw"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-18T05:54:34Z",
+        "channelId": "UCQ208ny4iVFEoHOTvNKnx3g",
+        "title": "크리스마스 한정판 산타 탕후루?!🎅🏻",
+        "description": "탕후루먹방 #왕가탕후루 #크리스마스 #christmas #koreanfood #mukbang #shorts #탕후루.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zt5y2kINvHw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zt5y2kINvHw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zt5y2kINvHw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "프롬서희",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-18T05:54:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gLZYPPQSlcJtssjxbfDE_Ku4pZU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bULzlbhcipU"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-20T23:00:11Z",
+        "channelId": "UCKHV4MGtdlMb3aCGotUjzsQ",
+        "title": "[𝐏𝐋𝐀𝐘𝐋𝐈𝐒𝐓] 다가오는 크리스마스를 기다리며 l 캐롤 Best 인기곡 총모음 / 𝐂𝐡𝐫𝐢𝐬𝐭𝐦𝐚𝐬 carol",
+        "description": "\"특별한 플레이리스트로 여러분을 초대합니다. 겨울의 아름다움과 로맨틱한 순간을 담아낸 멜로디와 가사가 가득합니다. 지금 이 노래 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bULzlbhcipU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bULzlbhcipU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bULzlbhcipU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "하얀 눈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-20T23:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "V6pehlqWUt-7C4q4xzkmfFtiQEA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "u4yDeENWkK4"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-21T23:32:45Z",
+        "channelId": "UCUkaBPcyqVjhSdLWppNL8SQ",
+        "title": "𝐒𝐨𝐮𝐥𝐟𝐮𝐥 𝐂𝐡𝐫𝐢𝐬𝐭𝐦𝐚𝐬 𝐇𝐲𝐦𝐧𝐬🎄감성적인 크리스마스 찬양 🎸ʙᴀɴᴅ sᴇssɪᴏɴ",
+        "description": "[Matthew 1:23] \"Look! The virgin will conceive a child! She will give birth to a son, and they will call him Immanuel, which means ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u4yDeENWkK4/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u4yDeENWkK4/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u4yDeENWkK4/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Christian BGM 크리스찬 BGM",
+        "liveBroadcastContent": "live",
+        "publishTime": "2023-11-21T23:32:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HzOTHtlRv84yxZtjhIJxfP3dE3k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "26wscV8QZ3I"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-12T14:00:01Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 빈티지 재즈 크리스마스 캐롤 플레이리스트",
+        "description": "플레이리스트 사진 정보 : 해당 영상은 수익을 창출하지 않습니다. 자동으로 붙은 영상 내 광고 수익은 원저작권자에게 돌아갑니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/26wscV8QZ3I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/26wscV8QZ3I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/26wscV8QZ3I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-12T14:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "r2hpM6LzDPFP1hcgp1WmwJhvvmc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Wa-k0iLTLZg"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-07T10:00:11Z",
+        "channelId": "UCGsJRpGI3iFpf0lIUIgbsBw",
+        "title": "[Playlist] 미리 준비하는 크리스마스🎄 유스케 캐롤 무대로 듣는 플레이리스트🎅 | #유플리 | KBS 유희열의 스케치북",
+        "description": "유플리 #유스케 #크리스마스 #캐롤 벌써부터 크리스마스 기다리시는 분?  ‍♀️ 지금부터 캐롤 열심히 들어줘야 하잖아요.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Wa-k0iLTLZg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Wa-k0iLTLZg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Wa-k0iLTLZg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "KBS StarTV: 인물사전",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-07T10:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FbBT6g5YqYSNmGisg22WkM5GhyE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0jpFxZNueMo"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-21T03:00:01Z",
+        "channelId": "UC1tqsiHUcbbDgGSbyLF7Z5Q",
+        "title": "[Playlist] 크리스마스를 준비하는 플레이리스트 | 케이팝 캐롤 플레이리스트🎄 | 귓구녕이감동",
+        "description": "벌써 올 한해도 끝나가네요 신나는 케이팝 캐롤 들으면서 크리스마스를 준비해볼까요   발생된 광고 수익은 모두 영상 속 원 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0jpFxZNueMo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0jpFxZNueMo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0jpFxZNueMo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "귓구녕이감동",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-21T03:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OLOGnjchcqDZXiiCSGspyfRsxmc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lQOiUBCIIvc"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-17T14:29:36Z",
+        "channelId": "UC-9Tn-iH6W_187YwCOf7CGw",
+        "title": "🔴 LIVE 🔴 상어가족과 크리스마스를 기다려요 🎄 | 미리 메리 크리스마스 | 겨울 인기 동요 | 뚜루루뚜루 | 핑크퐁! 아기상어 올리",
+        "description": "아기상어 올리가 추천하는 노래 목록 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lQOiUBCIIvc/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lQOiUBCIIvc/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lQOiUBCIIvc/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "핑크퐁! 아기상어 올리",
+        "liveBroadcastContent": "live",
+        "publishTime": "2023-11-17T14:29:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JVe2kjGmcLO_3wzggkulmY3IkMc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ChNcjIqWkwo"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-06T10:00:06Z",
+        "channelId": "UCDdtq91zPKK6urACRvsX4Mg",
+        "title": "유스케 ‘크리스마스 특집’ 댓글모음🎅🎄🎁 (거미, 10cm, 악동뮤지션, 폴킴, 정승환, 김연우, 벤, 정준일, 유희열 등 전출연자) KBS 20191220",
+        "description": "Santa Claus Is Coming To Town ♬ 크리스마스 며칠 안 남았을 때는 하루 종일 캐롤 들으면서 설레는데 막상 당일에는 별거 안 하는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ChNcjIqWkwo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ChNcjIqWkwo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ChNcjIqWkwo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "딩가딩가 스튜디오 DGDG Studio",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-06T10:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uTJ2xqftl3eb64iS46L9kpNrliI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "29nBqP71tc0"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-12T11:33:00Z",
+        "channelId": "UCURnLWTrLZVv_KiVaeZakog",
+        "title": "요즘 유행하는 니트 코디! 근데 미국 크리스마스를 곁들인..ㅎ (샵사이다)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/29nBqP71tc0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/29nBqP71tc0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/29nBqP71tc0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Jiwon 지원",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-12T11:33:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yFvA-nZaDODoJNiQEvTxUkC2tEM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8eemrb8qDEk"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-16T05:00:10Z",
+        "channelId": "UCSGC87iX0QhnIfUOI_B_Rdg",
+        "title": "[Playlist] 크리스마스에 눈이 올까요? ☃️ | 화이트 크리스마스를 기대하며 듣는 2022 캐롤 팝송 | Merry White Christmas ☃️",
+        "description": "Playlist by 벅스PD (벅스 뮤직PD) *벅스에서 플레이리스트를 확인해보세요! :: http://bugs.kr/!yt55570 *벅스PD님의 감성이 내 취향 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8eemrb8qDEk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8eemrb8qDEk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8eemrb8qDEk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "essential;",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-16T05:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Z3rNFJepkq08axMGKt5qs6g9VXY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vYJqg5eSLsw"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-25T05:36:06Z",
+        "channelId": "UCijBTYEiKT1OJO54C6PnRqw",
+        "title": "초심으로 돌아온 애플 크리스마스 광고",
+        "description": "애플 #엘지 #마이크로소프트 애플은 매년 감동적인 크리스마스 광고를 제작하는데 작년에는 감각적인 영상미로만 가득 찬 에어팟 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vYJqg5eSLsw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vYJqg5eSLsw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vYJqg5eSLsw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "WLDO",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-25T05:36:06Z"
+      }
+    }
+  ]
+}

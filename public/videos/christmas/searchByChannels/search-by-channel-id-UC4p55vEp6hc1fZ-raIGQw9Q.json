@@ -1,0 +1,856 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "7zL8g6x-XbMp6G7Utb-MxtIU8jE",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 187,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AeGQWVc0NThAj2Dnj8dIFilZ_7U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "awHe0jAucrs"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-14T11:30:00Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "니코틴, 알코올, 카페인 3대 영양소 땡기게 만드는 국힙𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/awHe0jAucrs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/awHe0jAucrs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/awHe0jAucrs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-14T11:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4Vhe85mVfv0FyBGhRxcIvSd9Vws",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kMzxnlHY-wU"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-14T10:30:55Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "난 너의 마음을 한 개도 몰라 (감성힙합𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kMzxnlHY-wU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kMzxnlHY-wU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kMzxnlHY-wU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-14T10:30:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HoFuBA65jKt1XZps1DoG5TUrYTA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3YBi0_DFkNg"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-22T11:33:16Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "넌 나에게 큰 우주였지만 난 너에게 작은 별이었겠지 (감성힙합𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3YBi0_DFkNg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3YBi0_DFkNg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3YBi0_DFkNg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-22T11:33:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cRIa-n9QjZDDII1DLwXZt383Jac",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rcKndonEp7M"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-29T11:57:57Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "[𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 도입부터 띵곡! 걔랑 누워서 나른하게 듣고싶은 몽글몽글 녹아내리는 달달하고 로맨틱한 𝙍&amp;𝘽/𝙎𝙤𝙪𝙡",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rcKndonEp7M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rcKndonEp7M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rcKndonEp7M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-29T11:57:57Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AdyIqnNDLsuhgqeUKdlxSZx4woU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eshONt8PzMY"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-22T11:38:41Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "내 방에 속옷을 두고 간 니가 너무 미워 (감성힙합𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eshONt8PzMY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eshONt8PzMY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eshONt8PzMY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-22T11:38:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3-3bMkoOCrKNQNeDST0oJO9msw4",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLU3Ku_nT2su9vbwqChumMKWQYSEBiPsx5"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-23T18:22:03Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "인디/R&amp;B 𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rcKndonEp7M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rcKndonEp7M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rcKndonEp7M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-23T18:22:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8449eDTI2SWW2mlcdP-MXtG_KvQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5aknSKNykko"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-01T12:31:38Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "이거들으면 총 맞고 싶어짐 외힙띵곡모음𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5aknSKNykko/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5aknSKNykko/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5aknSKNykko/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-01T12:31:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0XwhkjYCnKXBncnZFQgsm0Cqs3A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vWQ7RFzyb60"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-17T10:45:18Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "[𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 남들 다 듣는 캐롤은 싫잖아?🎄나만 들으려고 아껴놨던 크리스마스 도입부좋은 캐롤모음 (1hour)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vWQ7RFzyb60/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vWQ7RFzyb60/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vWQ7RFzyb60/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-17T10:45:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ybc2RZv8At3SZtt_kZje_QwB69g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9o862iTGwvs"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-09T10:54:57Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "걔가 내 폰으로 들었던 노래가 아직 내 플리에 남아있어 (감성힙합𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9o862iTGwvs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9o862iTGwvs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9o862iTGwvs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-09T10:54:57Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LvPlKRS1gsLmyT_j36375XVCiYU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "n39397u2wOA"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-27T12:00:39Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "썸녀랑 나랑 둘만 알던 감성적인 싱잉랩 띵곡 모음 (감성힙합𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/n39397u2wOA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/n39397u2wOA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/n39397u2wOA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-27T12:00:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3w3XVeFIvHdOgEcKtsz8y-oKcfE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cKvP2_Su5WI"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-12T08:06:36Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "[𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭] ♥️ 크리스마스가 다가왔어, 연말에 듣기 좋은 따뜻한 감성힙합 띵곡모음 (1hour)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cKvP2_Su5WI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cKvP2_Su5WI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cKvP2_Su5WI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-12T08:06:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "evDUkF2nvt4_Y8XbLxzJUvzeNpc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8YQpLJK03d8"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-06T13:43:18Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "가을 밤, 그녀랑 손잡고 걸으며 들었던 감성힙합𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8YQpLJK03d8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8YQpLJK03d8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8YQpLJK03d8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-06T13:43:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7Wbi-QhOVHUXRZC0IrLUeuqx8ww",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "euBBXq7sfic"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-15T12:41:33Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "네가 없는 사막같은 내 방 안에서, (감성힙합𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/euBBXq7sfic/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/euBBXq7sfic/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/euBBXq7sfic/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-15T12:41:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Oczl-eGIK9iHnZt3kXya6M2uI4Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8Ll0J9lnz4w"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-27T09:30:02Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "[𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 진짜 좋은 노래는 시작한지 3초만에 알 수 있음, 이 노래가 그런 노래 #2 (도입부 좋은 팝송 띵곡 1시간 모음) (1hour)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8Ll0J9lnz4w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8Ll0J9lnz4w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8Ll0J9lnz4w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-27T09:30:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kf_CsXel7voBBiegBgNS0mlyncE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Pee5KY8i2c4"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-19T11:54:57Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "그녀는 이런 싱잉랩을 좋아하더라 (감성힙합𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Pee5KY8i2c4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Pee5KY8i2c4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Pee5KY8i2c4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-19T11:54:57Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IZJbMf9IZaD6inaB7eTVsBBBCBA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Je_scwtmbwQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-07T10:22:17Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "[𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 드라이브할 때 틀어놓기 좋은 감성 발라드 200분 모음 | 아침부터 새벽까지 데일리로 듣기",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Je_scwtmbwQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Je_scwtmbwQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Je_scwtmbwQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-07T10:22:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nmKvN-yp3sOt_WhyCfdChxl-nkw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4ziwEXB44Wg"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-24T10:52:08Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "썸녀한테 들려줬더니 반해버린 감성힙합띵곡모음",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4ziwEXB44Wg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4ziwEXB44Wg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4ziwEXB44Wg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-24T10:52:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-GcW6QKof9JYIKoft8g57cvs9mA",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-14T07:19:54Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "description": "Wooya music list ⁂ 광고 및 협업, 채널 문의는 이메일로 문의 바랍니다. ➮ E-mail • wooo00.ya.0@gmail.com.",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/TgAiKikx1UhS-W9TxiYw5LfYmW02hRSmkZALcc3JPmoE4wz0Aod6SFUhzGWn0eygm4NIorPpqrA=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/TgAiKikx1UhS-W9TxiYw5LfYmW02hRSmkZALcc3JPmoE4wz0Aod6SFUhzGWn0eygm4NIorPpqrA=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/TgAiKikx1UhS-W9TxiYw5LfYmW02hRSmkZALcc3JPmoE4wz0Aod6SFUhzGWn0eygm4NIorPpqrA=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-14T07:19:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lnicTEr0nTRLRCgT7riioXBsqCw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ME_FUwxwGy4"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-27T09:17:58Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "[𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 진짜 좋은 노래는 시작한지 3초만에 알 수 있음, 이 노래가 그런 노래 #4 (도입부 좋은 팝송 띵곡 1시간 모음) (1hour)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ME_FUwxwGy4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ME_FUwxwGy4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ME_FUwxwGy4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-27T09:17:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PqJ6qFTvCmyYerNmOh4ASblS7q4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mgENvCPtRM8"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-12T14:25:43Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "니 생각나게 만드는 감성힙합𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mgENvCPtRM8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mgENvCPtRM8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mgENvCPtRM8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-12T14:25:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jLzS77oXoXgXi-TO8_oybLpkMYc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "76Tip2fJKHY"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-31T09:30:03Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "여사친이 좋아하는 사클감성 감성힙합 모음.ZIP",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/76Tip2fJKHY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/76Tip2fJKHY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/76Tip2fJKHY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-31T09:30:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0urXh7IcutFxnIoGrQFuNmq2lu0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Tb3wBQwWX-I"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-18T12:08:59Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "제발 돌아와, 니가 없으면 아무것도 못하는 날 알잖아 (𝙍&amp;𝘽/𝙎𝙤𝙪𝙡 𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Tb3wBQwWX-I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Tb3wBQwWX-I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Tb3wBQwWX-I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-18T12:08:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IasIfUP4fMICUmhEOHbdI51O9Vo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6cb_6LuQCDM"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-22T12:16:17Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "그 애는 이런 싱잉랩을 좋아하더라 (감성힙합𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6cb_6LuQCDM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6cb_6LuQCDM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6cb_6LuQCDM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-22T12:16:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qkAf-FOUGrmqIyMX9hnahp-cxnI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Fffi3FPfPeQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-20T10:23:25Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "그 애는 이런 싱잉랩을 좋아하더라 #2 (감성힙합𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fffi3FPfPeQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fffi3FPfPeQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fffi3FPfPeQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-20T10:23:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "An65STddXJgWLAedO0KLkKuMnAM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YVSaFQTTCbY"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-05T09:54:52Z",
+        "channelId": "UC4p55vEp6hc1fZ-raIGQw9Q",
+        "title": "그녀는 이런 싱잉랩을 좋아하더라 #2 (감성힙합𝙋𝙡𝙖𝙮𝙡𝙞𝙨𝙩)",
+        "description": "해당 영상의 광고는 유튜브 알고리즘에 의해 발생하는 것이며 이로 인한 수익은 원곡 가수에게 돌아갑니다. ☑️ 이어폰/헤드셋/스피커 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YVSaFQTTCbY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YVSaFQTTCbY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YVSaFQTTCbY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "우야 𝙇𝙤𝙪𝙣𝙜𝙚",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-05T09:54:52Z"
+      }
+    }
+  ]
+}

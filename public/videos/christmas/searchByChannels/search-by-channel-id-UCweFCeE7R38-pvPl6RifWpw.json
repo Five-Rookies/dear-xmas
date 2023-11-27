@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "EVxhnhQMn_VRT9aOwQRjGTbgbyY",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 225,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nWJSibzEC-lu3MpDiljMtkiz0ys",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ovRRIi1kUIA"
+      },
+      "snippet": {
+        "publishedAt": "2019-07-19T06:25:01Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "keshi - skeletons [가사해석/번역/한글자막]",
+        "description": "케시 신곡!! #keshi #케시 #팝송추천.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ovRRIi1kUIA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ovRRIi1kUIA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ovRRIi1kUIA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-07-19T06:25:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fzqkN67yhpXmfa_R6sQRweChyhg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "m-P3G5zNiNw"
+      },
+      "snippet": {
+        "publishedAt": "2019-05-30T13:30:01Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "keshi - summer [가사해석/번역/한글자막]",
+        "description": "keshi - summer [가사해석/번역/한글자막] 곧 여름 #keshi #케시 #팝송추천.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m-P3G5zNiNw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m-P3G5zNiNw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m-P3G5zNiNw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-05-30T13:30:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oGnzp3mYsolchhtZ_Du1dxfX9E8",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PL2YHata9QWSaTW5zftnCSz20VcP9ku5-N"
+      },
+      "snippet": {
+        "publishedAt": "2019-08-18T07:52:32Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "네창력",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DEtOoyNkfIk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DEtOoyNkfIk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DEtOoyNkfIk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-08-18T07:52:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "g6SsuIaSmjYdj5dCGkAPUlWxA58",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PL2YHata9QWSZGWh0hmQdjrd_ZjEKCoO7S"
+      },
+      "snippet": {
+        "publishedAt": "2019-09-16T14:07:45Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "네고막을책임져도될까 [playlist]",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mO94H9170P4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mO94H9170P4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mO94H9170P4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-09-16T14:07:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0XyboZ3c09lRzBfdo_cQnJqliUU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3iZCqGM35nw"
+      },
+      "snippet": {
+        "publishedAt": "2019-06-24T11:06:30Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "Bruno Major (브루노 메이저) - Easily [가사해석/번역/한글자막]",
+        "description": "이 분위기 너무 사랑스럽다 #노래추천 #팝송추천 #자장가.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3iZCqGM35nw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3iZCqGM35nw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3iZCqGM35nw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-06-24T11:06:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wsdhSdP2dX4VQ8VLzzsWytjGJXo",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PL2YHata9QWSatj-vz--IMqaR-UqFOvAKP"
+      },
+      "snippet": {
+        "publishedAt": "2019-11-12T13:10:24Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "새벽갬성",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nGNih9dTf9s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nGNih9dTf9s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nGNih9dTf9s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-11-12T13:10:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Se24ARNLmfR2D3waMoIzLDj61bs",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PL2YHata9QWSYIGxKeA73yyLdAbQE2MzqL"
+      },
+      "snippet": {
+        "publishedAt": "2021-02-28T07:18:07Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "봄생목록",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iagF3kYLoE8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iagF3kYLoE8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iagF3kYLoE8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-02-28T07:18:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-CPh7GgFbK5rswa-KeZTVKGPzIE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "selr-JVTOmI"
+      },
+      "snippet": {
+        "publishedAt": "2019-06-12T09:30:02Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "Johnny Balik (조니 발릭) - Honey [가사해석/번역/한글자막]",
+        "description": "Johnny Balik (조니 발릭) - Honey [가사해석/번역/한글자막] 믿고 듣는 네고책.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/selr-JVTOmI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/selr-JVTOmI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/selr-JVTOmI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-06-12T09:30:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gC1f0E1_pgUJ3oNDaxcVr4VO3n8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tRqI9Ta6m-I"
+      },
+      "snippet": {
+        "publishedAt": "2019-12-05T10:26:22Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 나만 알고 싶은 새벽감성 사클 노래 모음 #2",
+        "description": "제 채널에서 가장 높은 조회수를 기록한 '나만 알고 싶은 새벽감성 사클 노래 모음' 1탄에 이어 2탄을 준비해봤습니다!! 이것도 조회수 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tRqI9Ta6m-I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tRqI9Ta6m-I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tRqI9Ta6m-I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-12-05T10:26:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "l_BUGxneihbOUGXoSLsMiqmi9Dg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9FJHfYTVx_o"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-06T10:45:00Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 마치 영화 속의 한 장면처럼",
+        "description": "제 최애 영화 '어바웃타임'에서 당장이라도 흘러나올 것 같은 노래들을 주섬주섬 담아왔습니다. #노래추천 #팝송추천 #플레이리스트 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9FJHfYTVx_o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9FJHfYTVx_o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9FJHfYTVx_o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-06T10:45:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fCQH3g4Pigc9pS5mJ6HvT34yI5s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ic-3mudz8TA"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-30T10:45:00Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 가을 향기를 머금은 쳇 베이커의 목소리",
+        "description": "가을이 성큼 다가왔다. #팝송추천 #쳇베이커 #chetbaker 이메일 micasfu@gmail.com 인스타 instagram.com/micasfu.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ic-3mudz8TA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ic-3mudz8TA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ic-3mudz8TA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-30T10:45:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5OiyJn4Zqqk-nzudfOHJUv1jhYY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eqLySEpHZew"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-06T11:30:09Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 너의 하루가 조금은 버거울지라도",
+        "description": "가끔은 우연히 들은 노래 한 소절에 크나큰 위로를 받기도 하죠. 이 노래가 당신에게 위로가 되었으면 합니다. #노래추천 #팝송추천 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eqLySEpHZew/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eqLySEpHZew/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eqLySEpHZew/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-06T11:30:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BogpvBL3ZyGqGHJ3GeA0QS3Zut8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ptyL7BuwbuE"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-29T10:45:02Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 적당한 온도의 무드가 필요한 밤이었다.",
+        "description": "The Balvenie X 네고막을책임져도될까 스코틀랜드 프리미엄 정통 수제 싱글몰트 위스키 발베니와 2021년 한 해를 마무리하세요.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ptyL7BuwbuE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ptyL7BuwbuE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ptyL7BuwbuE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-29T10:45:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "n-r5EFuK6QJknyPMwxQBVBPRb6E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jsRqyWoYAIg"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-12T09:30:02Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 사클만의 오묘한 감성이 있더라",
+        "description": "아직 완성되지 않은 날 것의 감성이랄까 그 미완의 갬성에 빠져보자 커먼 #사클 #사운드클라우드 #플레이리스트 contact ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jsRqyWoYAIg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jsRqyWoYAIg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jsRqyWoYAIg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-08-12T09:30:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Acxr8No73IU60Sz1kpMeN4f0lAg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iuyG9gbZHFM"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-05T10:45:00Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 나른한 오후, 그 따스한 햇살과 함께:)",
+        "description": "어서 봄 왔으면 #노래추천 #팝송추천 #플레이리스트 이미지 출처 https://pin.it/a2dy2fknzeld32 contact : micasfu@gmail.com ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iuyG9gbZHFM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iuyG9gbZHFM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iuyG9gbZHFM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-05T10:45:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yC1UiRU7jw7MlESWYPlEHfjO538",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "x7NhlDkCrtA"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-14T10:45:02Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 이 노래엔 네가 스며있으니까",
+        "description": "아주 깊숙이 #노래추천 #팝송추천 #플레이리스트 문의 micasfu@gmail.com 인스타 https://www.instagram.com/micasfu.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/x7NhlDkCrtA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/x7NhlDkCrtA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/x7NhlDkCrtA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-14T10:45:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "O_Kbe2ixOev6E5AUuaSqXHFgAzo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ysqZzNnahvw"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-04T10:45:02Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 저기요, 혹시 재즈.. 좋아하세요?",
+        "description": "재즈.. 좋아하시냐구요! #재즈 #팝송추천 #플레이리스트 contact : micasfu@gmail.com instagram ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ysqZzNnahvw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ysqZzNnahvw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ysqZzNnahvw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-11-04T10:45:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "t_Z7doTVy_l0hicZl1KHV8n2T8o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8DnV9h-m66Q"
+      },
+      "snippet": {
+        "publishedAt": "2020-01-08T10:30:01Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 오늘 너의 하루는 어땠어?",
+        "description": "수고했어, 오늘도 #노래추천 #팝송추천 #playlist contact : micasfu@gmail.com instagram : https://www.instagram.com/micasfu.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8DnV9h-m66Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8DnV9h-m66Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8DnV9h-m66Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-01-08T10:30:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wRqje-FIC3urODR3avKE_Fg3oUQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DyijXIB7ytM"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-28T10:45:00Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 혼자만의 시간을 가득 채우다.",
+        "description": "노래추천 #팝송추천 #플레이리스트 문의 micasf@gmail.com 인스타 https://www.instagram.com/micasfu.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DyijXIB7ytM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DyijXIB7ytM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DyijXIB7ytM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-28T10:45:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GVsKop-aMHMXMeIS3sW-zYkdcd4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fs7erbNq9oQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-19T10:45:02Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 나는 이 감정을 사랑이라 부르겠다.",
+        "description": "수많은 형태의 사랑에 대하여 instagram : https://www.instagram.com/micasfu contact : micasfu@gmail.com.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fs7erbNq9oQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fs7erbNq9oQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fs7erbNq9oQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-19T10:45:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uVTpkJuI6QaM5nUktSel3Xa9DqU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "t_thfgLyKI8"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-29T11:30:24Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 재즈란 말이죠",
+        "description": "재즈가 뭐라고 생각하세요? #노래추천 #팝송추천 #플레이리스트 contact : micasfu@gmail.com instagram ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/t_thfgLyKI8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/t_thfgLyKI8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/t_thfgLyKI8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-29T11:30:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9XbTDiezaATdy9XoVnmm3WCAD74",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NRdv4jHBUrI"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-23T10:45:03Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 사랑에 대하여",
+        "description": "'두 눈빛이 우연히 마주치는 모든 곳에서 언제나 똑같은 힘으로 되살아나는 것, 사랑이었다.' - 파울로 코엘료, 연금술사 #노래추천 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NRdv4jHBUrI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NRdv4jHBUrI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NRdv4jHBUrI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-23T10:45:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6SpDrLDBO9iYXfPsmFApHvgions",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1QEUJ5d7WO8"
+      },
+      "snippet": {
+        "publishedAt": "2019-07-23T09:45:02Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 나만 알고 싶은 새벽감성 사클 노래 모음",
+        "description": "구독자 1000명! 다들 너무 고마워요! 그래서 준비했어요. 새벽감성 가득한 노래들 중 개인적인 취향을 듬뿍 담아 추리고 추려 만든 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1QEUJ5d7WO8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1QEUJ5d7WO8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1QEUJ5d7WO8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-07-23T09:45:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Mb1YNEKYh5dwsuKwAXjGiJQ8DdU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "puy71DQ9-eA"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-15T10:30:11Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 갑자기 오늘밤 분위기 캘리포니아 7번 국도",
+        "description": "안전벨트 매자 출발한다 #노래추천 #팝송추천 #플레이리스트 contact : micasfu@gmail.com instagram : instagram.com/micasfu.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/puy71DQ9-eA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/puy71DQ9-eA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/puy71DQ9-eA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-15T10:30:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nv9LFTp5nbYO42zMlBM_EhDHaWA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lzeIxSQULe4"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-06T10:45:00Z",
+        "channelId": "UCweFCeE7R38-pvPl6RifWpw",
+        "title": "[playlist] 혼자만의 시간을 갖는다는 것",
+        "description": "본 영상은 유료광고를 포함하고 있습니다. 나만의 시간을 가지며 나는 곧 내 머릿속을 복잡하게 만들던 문제들이 사실 그리 중요하지 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lzeIxSQULe4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lzeIxSQULe4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lzeIxSQULe4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "네고막을책임져도될까",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-06T10:45:00Z"
+      }
+    }
+  ]
+}

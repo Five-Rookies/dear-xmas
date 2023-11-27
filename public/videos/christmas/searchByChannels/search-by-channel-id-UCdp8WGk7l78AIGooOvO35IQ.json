@@ -1,0 +1,856 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "-vOFKSw_YmLtN8C6OaEdl3cjzFI",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 107,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RgbgA34Tc9JDVlpvTednjNtd2vk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5YEhUlXMb34"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-24T08:20:11Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "한낮의 여유를 닮은 팝송 모음✨ 노을지는 파리의 분위기 감성팝송 | Design making tutorial",
+        "description": "03:00 분부터 제가 영상을 제작하는 과정과 설명이 시작됩니다. WORK WITH ME ! 저와 함께해요 © 제 채널의 이미지 배경화면과 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5YEhUlXMb34/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5YEhUlXMb34/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5YEhUlXMb34/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-24T08:20:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "g5vXFbB1wNDAvQLb0czrVjVKfVQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MO2bePFLQW0"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-09T01:38:44Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "잔잔한 팝송이 흐르는 겨울의 카페 분위기☕️ 팝송 3시간 | Design making tutorial",
+        "description": "해당 영상은 제작과정과 설명 자막을 포함하고 있습니다. 03:33 부터 Design making tutorial 영상이 시작됩니다. 제 채널의 이미지 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MO2bePFLQW0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MO2bePFLQW0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MO2bePFLQW0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-09T01:38:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YyMPEFGCSlcJViFT_MjSB9QdZLY",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLeytiNo1GpMTll2RTddqk9wtS1uF36Kmk"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-05T12:36:11Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "여름에 듣기 좋은 노래들 ☀️",
+        "description": "여름에 듣기 좋은 노래들 ☀️, 여름 팝송 플리, 청량, 시원한 노래, summer songs.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/g0Y3EgGPTEA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/g0Y3EgGPTEA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/g0Y3EgGPTEA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-05T12:36:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LELYT42dnXjIlCVUbj6ZRZyB4CQ",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLeytiNo1GpMSCdSpzTnGaZVjLT9R2WLse"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-05T12:16:15Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "신나는 팝송 🙌",
+        "description": "신나는 팝송.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/g0Y3EgGPTEA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/g0Y3EgGPTEA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/g0Y3EgGPTEA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-05T12:16:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "48BZBAp5pUvBE5_y_memE1LurSs",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLeytiNo1GpMRsGzh-G0Ie8LwJxDQR4GsT"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-05T12:45:38Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "비오는날 듣기 좋은 노래들 ☔️",
+        "description": "비오는날 듣기 좋은 노래들 ☔️, rainy day songs.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NfkESh1kPpw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NfkESh1kPpw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NfkESh1kPpw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-05T12:45:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OcB3ySJNracAGXtkpf2B5o0n_vM",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLeytiNo1GpMQHpDXHWQLv5c0IhJHdxhPL"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-05T12:31:35Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "봄에 듣기 좋은 노래들 🌷",
+        "description": "봄에 듣기 좋은 노래, 팝송 플레이리스트.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MSR5KlR0hiA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MSR5KlR0hiA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MSR5KlR0hiA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-05T12:31:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "K1f1coYj4NSuI7s8uxGzkfrD2Dk",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLeytiNo1GpMSO-drZwZ7pvP2gjg0rrqWB"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-05T12:13:56Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "감성 팝송 ☕️",
+        "description": "감성 팝송 ✨ sentimental songs.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MSR5KlR0hiA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MSR5KlR0hiA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MSR5KlR0hiA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-05T12:13:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aIjS_9eRaKYhK1A4uYKUSF7KFjI",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLeytiNo1GpMRVec3oglwRlaCxd3PPIho-"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-05T12:19:51Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "잔잔, 조용한 팝송 ☁️",
+        "description": "잔잔, 조용한 팝송 ☁️ cozy pop, A calm, quiet song.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nw3rGYvjmW4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nw3rGYvjmW4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nw3rGYvjmW4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-05T12:19:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rWep5LauubbVRClDVe25tanQaV0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9ClPtlC6kts"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-01T23:30:02Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "햇살 가득한 공원, 가볍게 산책할까? 🍀 적당히 신나는 팝송 모음☘️ Design making tutorial",
+        "description": "산책할때듣는팝송 #산책 #경쾌한 #플리 #팝송 #힐링팝송 #신나는팝송 #신나는노래 #광고없는 #중간광고없는 #공원산책 #같이걸어 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9ClPtlC6kts/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9ClPtlC6kts/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9ClPtlC6kts/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-01T23:30:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aRumQEyTmd9M7sf4ERogI6wBEyI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "voch9AaADJs"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-22T23:15:01Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "봄 향기 가득한 카페🌼 적당히 신나는 감성팝송 | Design making tutorial",
+        "description": "해당 영상은 제작과정과 설명 자막을 포함하고 있습니다. 03:24 부터 Design making tutorial 영상이 시작됩니다. 제 채널의 이미지 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/voch9AaADJs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/voch9AaADJs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/voch9AaADJs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-22T23:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oiDKtSgVXaPo65ZDhBzvII9OcJ8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NeJUiXvejj0"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-03T09:15:01Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "밤에 듣기좋은 잔잔한 팝송 모음 | 도입부 부터 좋은 팝송 모음 무드있는 노래 | Design making tutorial",
+        "description": "발라드모음 #발라드추천 #감성팝송 #잔잔한팝송 #저녁에듣기좋은노래 #저녁에듣기좋은팝송 #여름밤 #힐링팝송 #퇴근길노래 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NeJUiXvejj0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NeJUiXvejj0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NeJUiXvejj0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-03T09:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6xa1zyVrR9oSVy8W12_daWxH6xM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "g0Y3EgGPTEA"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-12T23:15:01Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "어디론가 떠나고 싶은 날 적당히 신나는 팝송 ☁️ ✨ 드라이브, 여행 | Design making tutorial",
+        "description": "플리 #청량 #팝송 #광고없는노래모음 #중간광고없음 #중간광고없는 #workwithme #studywithme 기분좋은 하루의 시작 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/g0Y3EgGPTEA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/g0Y3EgGPTEA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/g0Y3EgGPTEA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-12T23:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "60AFVSLCv1nYu_2NOMUROjHK69c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TTLIRMHz82s"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-10T11:35:43Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "잔잔한 팝송과 눈내리는 도시의 분위기❄ 겨울 새벽 감성 팝송 | Design making tutorial",
+        "description": "해당 영상은 제작과정과 설명 자막을 포함하고 있습니다. 03:00 부터 how to make 영상이 시작됩니다. 제 채널의 이미지 배경화면과 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TTLIRMHz82s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TTLIRMHz82s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TTLIRMHz82s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-10T11:35:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1Nut8YJO73HaWNv4WjCUkbelc_Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lGXYEfB_8hU"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-01T23:15:00Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "새벽 감성 팝송과 서서히 물드는 하늘 chillout music | Design making tutorial",
+        "description": "잔잔한팝송 #새벽감성팝송 #chillmusic #광고없는노래모음 #중간광고없음 #중간광고없는 해당 영상은 제작과정과 설명 자막을 포함 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lGXYEfB_8hU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lGXYEfB_8hU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lGXYEfB_8hU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-01T23:15:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "38M2dyQA0s1E0d74j4V3ZRhmiwU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8hk0KwidO-k"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-26T05:19:23Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "눈내리는 겨울에 듣기좋은 팝송 | 추운날 듣기 좋은 조용한 팝송 플리 ⛄️ Winter songs | Design making tutorial",
+        "description": "눈오는날 #겨울노래 #잔잔한팝송 #중간광고없음 #중간광고없는 #광고없는노래모음 #광고없는팝송 #광고없는노래 해당 영상은 제작 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8hk0KwidO-k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8hk0KwidO-k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8hk0KwidO-k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-26T05:19:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "W6u5OcA5UP12ij2qGYNfxKXdSTU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uvjaXSlWtfE"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-20T22:17:00Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "산뜻한 여름의 시작 ☀️ 도입부 부터 좋은 팝송 플리, 적당히 신나는 노래 모음 | Design making tutorial",
+        "description": "여름에듣기좋은노래 #여름팝송 #청량한팝송 해당 영상은 제작과정과 설명 자막을 포함하고 있습니다. 00:10 부터 Design making ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uvjaXSlWtfE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uvjaXSlWtfE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uvjaXSlWtfE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-20T22:17:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JJgbimZk2YmKYnxpX9Q3TXIS760",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KpaqNU9hVhA"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-29T09:45:00Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "가을에 듣기좋은 노래 🌙 적당한 비트, 그루브 타기 좋은 인디 cozy k-pop | Design making tutorial",
+        "description": "인디음악 #인디케이팝 #잔잔한노래 해당 영상은 제작과정과 설명 자막을 포함하고 있습니다. 03:25 부터 Design making tutorial 영상 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KpaqNU9hVhA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KpaqNU9hVhA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KpaqNU9hVhA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-29T09:45:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6PBl85csNWjdBbZiG8dM6h1HMgk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VhC7ujGgnwk"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-23T06:47:22Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "운동 할때 듣기 좋은 노래 💪 신나는 팝송 플리 모음 | Design making tutorial",
+        "description": "신나는팝송 #신나는 #헬스 #운동 해당 영상은 제작과정과 설명 자막을 포함하고 있습니다. 00:10 부터 Design making tutorial 영상이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VhC7ujGgnwk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VhC7ujGgnwk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VhC7ujGgnwk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-23T06:47:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NXiXeoFJXGkxf1SStrIfm1QjHMo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NfkESh1kPpw"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-21T22:41:04Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "추적추적 비오던 날의 기억☔️비오는 날 듣기 좋은 팝송, 잔잔한 감성 팝송 | Design making tutorial",
+        "description": "비오는날 #흐린날팝송 #감성팝송 #광고없는노래모음 #중간광고없음 #중간광고없는 해당 영상은 제작과정과 설명 자막을 포함하고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NfkESh1kPpw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NfkESh1kPpw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NfkESh1kPpw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-21T22:41:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EH8FGmcjani2HCc4nvDIiNSGExs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pAMcG6-1sxo"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-19T23:15:01Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "상큼한 여름 노래🍋 신나고 청량한 팝송 모음🏖  Design making tutorial",
+        "description": "해당 영상은 제작과정과 설명 자막을 포함하고 있습니다. 02:37 부터 Design making tutorial 영상이 시작됩니다. 제 채널의 이미지 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pAMcG6-1sxo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pAMcG6-1sxo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pAMcG6-1sxo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-19T23:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_BaxWoGILG10Dry3bWwQLxKpg8U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fNdVbkH4y3Y"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-11T09:05:03Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "늦은 여름, 저녁에 듣기 좋은 몽환적인 비트 팝송 🌙 안유명한 띵곡 모음 | Design making tutorial",
+        "description": "사람들이모르는 #개띵곡 #감성팝송 해당 영상은 제작과정과 설명 자막을 포함하고 있습니다. 01:00 부터 Design making tutorial 영상 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fNdVbkH4y3Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fNdVbkH4y3Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fNdVbkH4y3Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-11T09:05:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5rtylsCimbPqdQ0zoqdlvPRSg54",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fj8ReY0HxWc"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-29T23:45:00Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "산책하기 좋은날엔🌿 적당히 신나는 청량 플리 | Design making tutorial",
+        "description": "광고없는노래모음#중간광고없음 #중간광고없는 #광고없는노래모음 #광고없는팝송 #광고없는노래 해당 영상은 제작과정과 설명 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fj8ReY0HxWc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fj8ReY0HxWc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fj8ReY0HxWc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-29T23:45:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tsVSkPK9bsWNExce-gmCTgeuNyY",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ"
+      },
+      "snippet": {
+        "publishedAt": "2012-07-07T15:32:05Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "Blue rain",
+        "description": "Design education contents Ambience Art & Music Blue rain의 영상은 디자인 교육 컨텐츠와 릴렉스, 수면, 휴식 및 공부에 도움이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/2Awk1PHthSMz7QSSLU8IBzCMA8tPYlm6iluaUqnsqRxWuZGaI_6jETjzF6cCG_ICTiULp4fM=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/2Awk1PHthSMz7QSSLU8IBzCMA8tPYlm6iluaUqnsqRxWuZGaI_6jETjzF6cCG_ICTiULp4fM=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/2Awk1PHthSMz7QSSLU8IBzCMA8tPYlm6iluaUqnsqRxWuZGaI_6jETjzF6cCG_ICTiULp4fM=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2012-07-07T15:32:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fo80_t5BJ7y7PM1z5yQDy1lymV0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_nrAQg-JdLc"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-27T22:15:00Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "여유롭게 햇살을 즐겨볼까요? ✨ 몽글몽글 잔잔한 노래 모음 🌱 아침에 듣기좋은 달달한 힐링 팝송 플리 | Design making tutorial",
+        "description": "아침에듣기좋은노래 #여름에듣기좋은노래 #잔잔한팝송 #잔잔한노래 해당 영상은 제작과정과 설명 자막을 포함하고 있습니다. 00:10 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_nrAQg-JdLc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_nrAQg-JdLc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_nrAQg-JdLc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-27T22:15:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PYss730cIbOfjsHcg4s5ZX52wiE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5bLSC3e4ffc"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-27T12:21:19Z",
+        "channelId": "UCdp8WGk7l78AIGooOvO35IQ",
+        "title": "비오는날 듣기좋은 노래 🌧 분위기 있는 감성팝송 ☔ Design making tutorial",
+        "description": "해당 영상은 제작과정과 설명 자막을 포함하고 있습니다. 03:14 부터 Design making tutorial 영상이 시작됩니다. 제 채널의 이미지 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5bLSC3e4ffc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5bLSC3e4ffc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5bLSC3e4ffc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Blue rain",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-27T12:21:19Z"
+      }
+    }
+  ]
+}
