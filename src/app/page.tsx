@@ -18,6 +18,7 @@ const Home = async () => {
   return (
     <main className="main-container">
       <section className={styles.bg}>
+        <div className={styles.snowBgSecond}></div>
         <ul className={styles.tree}>
           <li>
             <img src="/assets/tree.png" alt="" />
@@ -35,8 +36,6 @@ const Home = async () => {
         <div className={styles.snowBg}></div>
         <img className={styles.santa} src="/assets/santa.png" alt="" />
       </section>
-
-      <div className="innerBox"></div>
       <section className="inner-box">
         <VideoList videoList={videoList} />
       </section>

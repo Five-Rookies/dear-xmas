@@ -10,7 +10,7 @@ const HeaderInput = (): React.JSX.Element => {
   const handleSearch = (): void => {
     const searchTerm = searchInput?.current?.value
     if (!searchTerm) {
-      return router.push('/mainList')
+      return router.push('/')
     }
     router.push(`/search?info=${encodeURIComponent(searchTerm)}`)
   }
