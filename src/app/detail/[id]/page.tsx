@@ -5,6 +5,7 @@ import testJSON from '@public/videos/popular.json'
 import styles from './detail.module.scss'
 import DetailHeader from './DetailHeader'
 import CommentList from './CommentList'
+import ScrollBtn from '@/components/ScrollBtn'
 
 const getVideoList = async (getVideoId: string) => {
   const response = await youtubeApiRequest()

@@ -7,6 +7,7 @@ import formatRelativeDate from '@/utils/relativeDate'
 import youtubeApiRequest from '@/utils/apiRequest/youtubeApiRequest'
 import testJSON from '@public/videos/searchByChannels/search-by-channel-id-UC1x03ziDHPct2xTikLyfMDA.json'
 import styles from './detail.module.scss'
+import ScrollBtn from '@/components/ScrollBtn'
 
 const RelatedVedio = ({ channelId }: { channelId: string }) => {
   const [videoData, setVideoData] = useState<IChannelVideo[]>([])
@@ -52,6 +53,7 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
           </li>
         ))}
       </ul>
+      <ScrollBtn/>
     </section>
   )
 }
