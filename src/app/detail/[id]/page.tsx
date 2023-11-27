@@ -4,7 +4,7 @@ import ScrollBtn from '@/components/ScrollBtn'
 import youtubeDataRequest from '@/utils/apiRequest/youtubeApiRequest'
 import styles from './detail.module.scss'
 import DetailHeader from './DetailHeader'
-import CommentList from './CommentList'
+import CommentList from '../../../components/detail/CommentList'
 
 const getVideoList = async (getVideoId: string) => {
   const response = await youtubeDataRequest()

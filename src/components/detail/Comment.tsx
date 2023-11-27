@@ -15,7 +15,7 @@ import candle from '@public/assets/profile-candle.svg'
 import cookie from '@public/assets/profile-cookie.svg'
 import likeIcon from '@public/assets/like.svg'
 import IComment from '@/type/SupabaseRespons'
-import styles from './detail.module.scss'
+import styles from '@/app/detail/[id]/detail.module.scss'
 
 interface CommentProps {
   comment: Comments
