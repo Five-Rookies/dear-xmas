@@ -18,30 +18,32 @@ const Home = async () => {
   return (
     <main className="main-container">
       <section className={styles.bg}>
-        <ul className={styles.tree}>
-          <li>
-            <img src="/assets/tree.png" alt="" />
-          </li>
-          <li>
-            <img src="/assets/tree.png" alt="" />
-          </li>
-          <li>
-            <img src="/assets/tree.png" alt="" />
-          </li>
-          <li>
-            <img src="/assets/tree.png" alt="" />
-          </li>
-          <li>
-            <img src="/assets/tree.png" alt="" />
-          </li>
-          <li>
-            <img src="/assets/tree.png" alt="" />
-          </li>
-          <li>
-            <img src="/assets/tree.png" alt="" />
-          </li>
-        </ul>
         <img className={styles.snowman} src="/assets/snowman.png" alt="" />
+        <div className={styles.snowBgSecond}>
+          <ul className={styles.tree}>
+            <li>
+              <img src="/assets/tree.png" alt="" />
+            </li>
+            <li>
+              <img src="/assets/tree.png" alt="" />
+            </li>
+            <li>
+              <img src="/assets/tree.png" alt="" />
+            </li>
+            <li>
+              <img src="/assets/tree.png" alt="" />
+            </li>
+            <li>
+              <img src="/assets/tree.png" alt="" />
+            </li>
+            <li>
+              <img src="/assets/tree.png" alt="" />
+            </li>
+            <li>
+              <img src="/assets/tree.png" alt="" />
+            </li>
+          </ul>
+        </div>
         <div className={styles.snowBgSecond}></div>
         <div className={styles.snowBg}></div>
         <img className={styles.santa} src="/assets/santa.png" alt="" />
