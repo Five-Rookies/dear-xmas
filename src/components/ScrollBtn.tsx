@@ -30,16 +30,11 @@ const ScrollBtn = (): React.JSX.Element => {
   }
 
 
-  return (
-    <button 
-      className={`scrollBtn ${styles.scrollBtn}`}
-      onClick={() => scrollToTop()}>
-        <FontAwesomeIcon 
-          className={styles.arrowDownIcon} 
-          icon={isAtMiddle ? faArrowUp : faArrowDown}
-        />
-      </button>
-  )
+  return isAtMiddle ? (
+    <button className={`scrollBtn ${styles.scrollBtn}`} onClick={() => scrollToTop()}>
+      <FontAwesomeIcon className={styles.arrowUpIcon} icon={faArrowUp} />
+    </button>
+  ) : null!;
 }
 
 export default ScrollBtn;
