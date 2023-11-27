@@ -1,13 +1,17 @@
 import React from 'react'
 import { IYoutubeItem } from '@/type/Api'
 import VideoList from '@/components/home/VideoList'
-import { youtubeJsonRequest } from '@/utils/apiRequest/youtubeApiRequest'
+import {
+  youtubeJsonRequest,
+  youtubeApiRequest,
+} from '@/utils/apiRequest/youtubeApiRequest'
 import styles from './page.module.scss'
 
 type VideoListType = IYoutubeItem[]
 
 const getVideoList = async (): Promise<VideoListType> => {
-  const response = await youtubeJsonRequest()
+  // const response = await youtubeJsonRequest()
+  const response = await youtubeApiRequest()
 
   return response.items
 }

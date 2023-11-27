@@ -5,7 +5,10 @@ import Link from 'next/link'
 import { IYoutubeItem } from '@/type/Api'
 import formatRelativeDate from '@/utils/relativeDate'
 import ScrollBtn from '@/components/ScrollBtn'
-import { youtubeJsonRequest } from '@/utils/apiRequest/youtubeApiRequest'
+import {
+  youtubeApiRequest,
+  youtubeJsonRequest,
+} from '@/utils/apiRequest/youtubeApiRequest'
 import styles from './detail.module.scss'
 
 const RelatedVedio = ({ channelId }: { channelId: string }) => {
@@ -13,14 +16,8 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      // const response = await youtubeApiRequest(
-      //   'search',
-      //   `&channel_id=${channelId}`,
-      //   25,
-      // )
-      // setVideoData(response)
-
-      const response = await youtubeJsonRequest('detail', channelId)
+      const response = await youtubeApiRequest(`&channel_id=${channelId}`, 25)
+      // const response = await youtubeJsonRequest('detail', channelId)
       setVideoData(response.items)
     }
 
