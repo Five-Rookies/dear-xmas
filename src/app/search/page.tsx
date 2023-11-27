@@ -41,7 +41,9 @@ const Search = (props: any): React.ReactElement => {
             <li className={styles.videoCard} key={video.id.videoId}>
               <Link
                 className={styles.videoLink}
-                href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
+                href={{
+                  pathname: `/detail/${video.id.videoId}`,
+                }}
               >
                 <div>
                   <img
