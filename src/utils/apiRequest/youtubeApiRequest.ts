@@ -1,5 +1,8 @@
 import axios from 'axios'
 
+// 리렌더링시 오류메세지 지속적으로 표시되는 문제를 줄이기 위한 전역변수
+let isErrorMessageShown = false
+
 const youtubeApiRequest = async (
   optionalQuery: string = '&q=크리스마스|크리스마스영화',
   maxResults: number = 32,
@@ -14,6 +17,7 @@ const youtubeApiRequest = async (
     return youtubeApiData.data
   } catch (error) {
     console.log('[NOTICE] Youtube API 데이터 요청에 실패했습니다.')
+    isErrorMessageShown = true
     // if (error instanceof Error) {
     //   console.error(error.message)
     // }
@@ -48,9 +52,6 @@ const youtubeDataRequest = async (
     youtubeData = await youtubeApiRequest(optionalQuery, maxResults)
   } catch (error) {
     console.log('[NOTICE] API 요청 횟수 초과. JSON 데이터로 대체합니다.')
-    // if (error instanceof Error) {
-    //   console.error(error.message)
-    // }
     youtubeData = await youtubeJsonRequest(apiType, optionalQuery)
   }
 
