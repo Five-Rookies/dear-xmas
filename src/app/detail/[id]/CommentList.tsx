@@ -29,8 +29,6 @@ const CommentList = ({ getVideoId }: { getVideoId: string }) => {
     fetchComments()
   }, [getVideoId])
 
-  if (comments.length === 0) return null
-
   return (
     <div className={styles.comments}>
       <p>댓글 {comments.length}개</p>
@@ -38,18 +36,19 @@ const CommentList = ({ getVideoId }: { getVideoId: string }) => {
         <Image src={profiles[randomProfile]} alt="프로필 이미지" />
         <CreateComment profile={randomProfile} setComments={setComments} />
       </div>
-      {[...comments]
-        .sort((a, b) => b.id - a.id)
-        .map((el: IComment, idx: number) => {
-          return (
-            <Comment
-              key={idx}
-              comment={el}
-              getVideoId={getVideoId}
-              setComments={setComments}
-            />
-          )
-        })}
+      {comments.length !== 0 &&
+        [...comments]
+          .sort((a, b) => b.id - a.id)
+          .map((el: IComment, idx: number) => {
+            return (
+              <Comment
+                key={idx}
+                comment={el}
+                getVideoId={getVideoId}
+                setComments={setComments}
+              />
+            )
+          })}
     </div>
   )
 }
