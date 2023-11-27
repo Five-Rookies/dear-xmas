@@ -156,6 +156,7 @@
       height: 3rem;
       padding: 0 1.2rem;
       border: none;
+      font-size: 1rem;
       border-radius: 12rem;
       background-color: #f8f8f8;
     }
@@ -205,10 +206,10 @@
       border-radius: 0.5rem;
       font-size: 1.1rem;
       line-height: 1.5;
-      padding: 0.2rem;
-      margin-top: 0.5rem;
+      padding: 0.2rem 0.7rem;
+      margin: 1rem 0 1.5rem;
       margin-right: 0.5rem;
-      width: 100%;
+      width: 87%;
     }
     button {
       img {
@@ -216,9 +217,17 @@
       }
       display: flex;
       align-items: center;
-      color: #da3017;
+
       font-size: 1rem;
       font-weight: bold;
+      &.save_btn {
+        color: #da3017;
+        margin: 1rem 0.5rem 1.5rem;
+      }
+      &.cancle_btn {
+        color: #6d6d6d;
+        margin: 1rem 0.5rem 1.5rem;
+      }
     }
   }
   .moreBtn {

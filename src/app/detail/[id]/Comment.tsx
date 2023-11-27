@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, Dispatch, SetStateAction } from 'react'
+import React, { useState, Dispatch, SetStateAction, useRef } from 'react'
 import Comments from '@/type/SupabaseRespons'
 import formatRelativeDate from '@/utils/relativeDate'
 import {
@@ -40,15 +40,18 @@ const Comment = ({ comment, getVideoId, setComments }: CommentProps) => {
     }
   }
 
-  const handleInputChage = e => {
-    setInputValue(e.target.value)
+  const handleInputChage = (e: any) => {
+    setInputValue(e?.target?.value)
   }
 
   const handleEditButton = () => {
     setIsDotMenuVisible(!isDotMenuVisible)
     setIsEditing(true)
   }
-
+  const handleEditCancle = (text: string) => {
+    setInputValue(text)
+    setIsEditing(!isEditing)
+  }
   const renderUpdatedComment = async () => {
     let totalComments = await getComments(getVideoId)
     if (!totalComments) {
@@ -60,7 +63,6 @@ const Comment = ({ comment, getVideoId, setComments }: CommentProps) => {
   const handleEditCompleteButton = async () => {
     const text = inputValue
     const { like_num, id } = comment
-
     await updateComments(text, like_num, id)
     setIsEditing(false)
     await renderUpdatedComment()
@@ -77,6 +79,7 @@ const Comment = ({ comment, getVideoId, setComments }: CommentProps) => {
     await updateComments(text, like_num + 1, id)
     await renderUpdatedComment()
   }
+
   return (
     <div className={styles.commentContainer}>
       <Image src={profiles[comment.img_path]} alt="프로필 이미지" />
@@ -93,10 +96,16 @@ const Comment = ({ comment, getVideoId, setComments }: CommentProps) => {
               onChange={handleInputChage}
             />
             <button
+              className={styles.save_btn}
               onClick={handleEditCompleteButton}
-              style={{ width: '5rem' }}
             >
-              수정 완료
+              저장
+            </button>
+            <button
+              className={styles.cancle_btn}
+              onClick={() => handleEditCancle(comment.text)}
+            >
+              취소
             </button>
           </div>
         ) : (
