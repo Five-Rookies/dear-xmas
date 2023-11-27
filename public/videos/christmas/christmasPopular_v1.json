@@ -860,36 +860,36 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "OLOGnjchcqDZXiiCSGspyfRsxmc",
+      "etag": "_2Jl5Dui6Qn7Pba-w3f8i81-lg0",
       "id": {
         "kind": "youtube#video",
-        "videoId": "lQOiUBCIIvc"
+        "videoId": "fBrmM7AcL-o"
       },
       "snippet": {
-        "publishedAt": "2023-11-17T14:29:36Z",
-        "channelId": "UC-9Tn-iH6W_187YwCOf7CGw",
-        "title": "🔴 LIVE 🔴 상어가족과 크리스마스를 기다려요 🎄 | 미리 메리 크리스마스 | 겨울 인기 동요 | 뚜루루뚜루 | 핑크퐁! 아기상어 올리",
-        "description": "아기상어 올리가 추천하는 노래 목록 ...",
+        "publishedAt": "2023-11-24T06:48:46Z",
+        "channelId": "UCqXwKu6dKobXEQFhdKtiJLQ",
+        "title": "크리스마스가 찾아왔어요! 🎄 크리스마스 특집 24시간 | 함께 캐럴 노래 따라불러요🎵 | 어린이 BEST송 연속재생 | 핑크퐁 아기상어 크리스마스 캐럴 동요 | 핑크퐁! 인기동요",
+        "description": "핑크퐁의 새로운 영상을 가장 빠르게 만나는 방법! 지금 바로 핑크퐁 공식 유튜브 채널 [구독] 버튼을 눌러주세요. ☆ 핑크퐁 유튜브 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/lQOiUBCIIvc/default_live.jpg",
+            "url": "https://i.ytimg.com/vi/fBrmM7AcL-o/default_live.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/lQOiUBCIIvc/mqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/fBrmM7AcL-o/mqdefault_live.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/lQOiUBCIIvc/hqdefault_live.jpg",
+            "url": "https://i.ytimg.com/vi/fBrmM7AcL-o/hqdefault_live.jpg",
             "width": 480,
             "height": 360
           }
         },
-        "channelTitle": "핑크퐁! 아기상어 올리",
+        "channelTitle": "핑크퐁 (인기 동요・동화)",
         "liveBroadcastContent": "live",
-        "publishTime": "2023-11-17T14:29:36Z"
+        "publishTime": "2023-11-24T06:48:46Z"
       }
     },
     {
@@ -1026,6 +1026,74 @@
         "channelTitle": "WLDO",
         "liveBroadcastContent": "none",
         "publishTime": "2023-11-25T05:36:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hBv_bVcPLBZS2Zwm6MECW5_vOoQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QeE8m8ilypk"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-23T10:24:55Z",
+        "channelId": "UCnDahTFzq0NNIttHVKLBUUw",
+        "title": "𝗝𝗮𝘇𝘇 𝗣𝗶𝗮𝗻𝗼｜각자의 크리스마스의 추억",
+        "description": "듣는 분들의 행복을 기원하는 Loo Piano 입니다   제 채널의 음악은 모두 직접 작곡 및 편곡, 연주하고 있습니다   ❌무단 사용 및 2 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QeE8m8ilypk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QeE8m8ilypk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QeE8m8ilypk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Loo Piano 루 피아노",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-23T10:24:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "J3q67Hm4gEQ-dfNW5SD8-kBvU-0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VttrkkVmlr0"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-22T04:19:25Z",
+        "channelId": "UCUxfAC7VlejlRtJhWdTG3qQ",
+        "title": "옛날 크리스마스 캐롤🎄🎁 Classic Christmas carols",
+        "description": "아름다운 소중한 댓글들이 날라갔어요   조금 수정해서 다시 올리지만, 어떤곡 때문에 블락 됬는지 정확하게 알지 못해서, 불안불안 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VttrkkVmlr0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VttrkkVmlr0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VttrkkVmlr0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "La Vida Es Bella",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-22T04:19:25Z"
       }
     }
   ]
