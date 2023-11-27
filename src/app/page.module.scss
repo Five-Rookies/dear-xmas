@@ -53,9 +53,6 @@
 }
 
 // popular video List
-$color-primary: #ff1e1e;
-$color-primary-hover: #ee1818;
-
 .videoList {
   list-style: none;
   display: grid;
@@ -136,28 +133,4 @@ $color-primary-hover: #ee1818;
   opacity: 0.6;
   padding: 5px 0px 20px 15px;
   font-size: 0.8rem;
-}
-
-.scrollBtn {
-  width: 3.75rem;
-  height: 3.75rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  bottom: 3rem;
-  right: 3rem;
-  border-radius: 50%;
-  background-color: $color-primary;
-  transition: 0.3s ease;
-
-  &:hover {
-    background-color: $color-primary-hover;
-  }
-
-  .arrowUpIcon,
-  .arrowDownIcon {
-    font-size: 1.5rem;
-    color: #fff;
-  }
 }

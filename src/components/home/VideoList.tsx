@@ -1,7 +1,7 @@
 'use client'
 
 import { useRef } from 'react'
-import styles from '@/app/mainList/page.module.scss'
+import styles from '@/app/page.module.scss'
 import formatRelativeDate from '@/utils/relativeDate'
 import Link from 'next/link'
 import { IVideo } from '@/type/Api'
