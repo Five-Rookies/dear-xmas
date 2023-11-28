@@ -35,18 +35,7 @@ const Detail = async (props: any) => {
                 allowFullScreen
               />
             </figure>
-            <div className={styles.videoInfo}>
-              <p
-                className={styles.videoInfoText}
-                dangerouslySetInnerHTML={{
-                  __html: getItemInfo.snippet.description.replace(
-                    /\n/g,
-                    '<br/>',
-                  ),
-                }}
-              />
-              <p></p>
-            </div>
+
             <CommentList getVideoId={getVideoId} />
           </div>
           <RelatedVedio channelId={getItemInfo?.snippet?.channelId} />

@@ -55,27 +55,6 @@
   }
 }
 
-.videoInfo {
-  display: flex;
-  gap: 4rem;
-  align-items: center;
-  padding: 1rem;
-  margin: 1rem 0;
-  border-radius: 1.5rem;
-  background-color: var(--color-videoInfo-bg);
-
-  .videoInfoImgFrame {
-    width: 10rem;
-    height: 10rem;
-    overflow: hidden;
-    border-radius: 50%;
-  }
-
-  .videoInfoImg {
-    height: 100%;
-  }
-}
-
 .relatedTitle {
   font-size: 1.5rem;
   font-weight: bold;
