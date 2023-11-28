@@ -12,7 +12,7 @@ const Search = (props: any): React.ReactElement => {
   const searchParams = useSearchParams()
   const search = searchParams.get('info')
   const [filteredItems, setFilteredItems] = useState<IYoutubeItem[]>([])
-
+   
   const handleSearch = async () => {
     if (!search) return
     const response = await youtubeDataRequest('search', `&q=${search}`, 25)
@@ -25,7 +25,14 @@ const Search = (props: any): React.ReactElement => {
   }
   useEffect(() => {
     handleSearch()
+    
   }, [search])
+
+  //처음 검색해서 영상목록 받아오는 코드
+  //URI가 들어오면 영상목록을 검색하지 않고 바로 추가
+  // const onSearch = (e) => {
+    
+  // }
 
   return (
     <div className="inner-box">

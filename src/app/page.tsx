@@ -6,9 +6,8 @@ import styles from './page.module.scss'
 
 type VideoListType = IYoutubeItem[]
 
-const getVideoList = async (): Promise<VideoListType> => {
-  const response = await youtubeDataRequest()
-
+export const getVideoList = async (pageToken?: string) => {
+  const response = await youtubeDataRequest('popular', '&q=크리스마스|크리스마스영화', 4, pageToken);
   return response.items
 }
 
@@ -49,7 +48,9 @@ const Home = async () => {
         <img className={styles.santa} src="/assets/santa.png" alt="" />
       </section>
       <section className="inner-box">
-        <VideoList videoList={videoList} />
+        <VideoList 
+          videoList={videoList} 
+        />
       </section>
     </main>
   )
