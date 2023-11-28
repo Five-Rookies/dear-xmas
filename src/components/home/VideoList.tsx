@@ -7,15 +7,18 @@ import Link from 'next/link'
 import { IYoutubeItem } from '@/type/Api'
 import ScrollBtn from '@/components/ScrollBtn'
 import youtubeDataRequest from '@/utils/apiRequest/youtubeApiRequest'
-import { getVideoList } from '@/app/page'
 
-type VideoListType = IYoutubeItem[]
-
-const VideoList = ({ videoList }: { videoList: VideoListType }) => {
+const VideoList:React.FC = () => {
+  //const videoList: VideoListType = await getVideoList()
   //const videoCardRef = useRef<HTMLLIElement | null>(null)
   const [pageToken, setPageToken] = useState<string | undefined>(undefined);
   const [isLoading, setIsLoading] = useState(false);
-  const [allVideos, setAllVideos] = useState<VideoListType>(videoList);
+  const [allVideos, setAllVideos] = useState<VideoListType>([]);
+
+  const getVideoList = async (pageToken?: string) => {
+    const response = await youtubeDataRequest('popular', '&q=크리스마스|크리스마스영화', 4, pageToken);
+    return response.items
+  }
 
    const fetchMoreVideos = useCallback(async () => {
      if (isLoading) return;
