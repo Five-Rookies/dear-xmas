@@ -4,16 +4,7 @@ import VideoList from '@/components/home/VideoList'
 import youtubeDataRequest from '@/utils/apiRequest/youtubeApiRequest'
 import styles from './page.module.scss'
 
-type VideoListType = IYoutubeItem[]
-
-export const getVideoList = async (pageToken?: string) => {
-  const response = await youtubeDataRequest('popular', '&q=크리스마스|크리스마스영화', 4, pageToken);
-  return response.items
-}
-
-const Home = async () => {
-  const videoList: VideoListType = await getVideoList()
-
+const Home = () => {
   return (
     <main className="main-container">
       <section className={styles.bg}>
@@ -48,9 +39,7 @@ const Home = async () => {
         <img className={styles.santa} src="/assets/santa.png" alt="" />
       </section>
       <section className="inner-box">
-        <VideoList 
-          videoList={videoList} 
-        />
+        <VideoList />
       </section>
     </main>
   )
