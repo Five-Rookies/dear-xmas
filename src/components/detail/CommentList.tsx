@@ -8,7 +8,7 @@ import cookie from '@public/assets/profile-cookie.svg'
 import Image from 'next/image'
 import { getComments } from '@/utils/apiRequest/commentsApiRequest'
 import IComment from '@/type/SupabaseRespons'
-import styles from './detail.module.scss'
+import styles from '@/app/detail/[id]/detail.module.scss'
 import CreateComment from './CreateComment'
 import Comment from './Comment'
 
