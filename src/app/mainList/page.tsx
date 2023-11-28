@@ -20,7 +20,6 @@ const getVideoList = async (): Promise<VideoListType> => {
   return response*/
 }
 
-
 const VideoListPage: NextPage<ISnippet> = async () => {
   const videoList: VideoListType = await getVideoList()
   //const videoList: VideoListType = VIDEO_LIST.items
@@ -32,3 +31,6 @@ const VideoListPage: NextPage<ISnippet> = async () => {
 }
 
 export default VideoListPage
+
+// review
+// 안 쓰는 코드는 제거해주세요.
