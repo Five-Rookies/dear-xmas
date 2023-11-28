@@ -30,6 +30,8 @@ const Header = (): React.JSX.Element => {
       // Return a placeholder or nothing until the client script runs
       return null
     }
+    // review
+    // hydrated 를 사용하는 이유가 뭘까요?
   }
 
   useEffect(() => {

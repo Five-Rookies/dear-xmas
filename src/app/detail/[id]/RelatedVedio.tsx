@@ -57,3 +57,6 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
 }
 
 export default RelatedVedio
+
+// // review
+// Vedio를 video로 수정해주세요
