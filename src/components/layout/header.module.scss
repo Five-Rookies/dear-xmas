@@ -55,7 +55,10 @@ $main-color: #ff1e1e;
         border: none;
         border-radius: 5rem;
         padding: 0 1rem;
+        transition: all 0.3s ease-in-out;
+
         &::placeholder {
+          transition: all 0.3s ease-in-out;
           color: var(--color-text);
         }
       }
