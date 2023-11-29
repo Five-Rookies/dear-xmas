@@ -33,12 +33,6 @@ const Search = (): React.ReactElement => {
     }
   }, [search, currentSearchResult])
 
-  // 처음 검색해서 영상목록 받아오는 코드
-  // URI가 들어오면 영상목록을 검색하지 않고 바로 추가
-  // const onSearch = (e) => {
-
-  // }
-
   return (
     <div className="inner-box">
       <ul className={styles.videoList}>

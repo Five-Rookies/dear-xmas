@@ -11,8 +11,6 @@ import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 type VideoListType = IYoutubeItem[]
 
 const VideoList: React.FC = () => {
-  // const videoList: VideoListType = await getVideoList()
-  // const videoCardRef = useRef<HTMLLIElement | null>(null)
   const [pageToken, setPageToken] = useState<string | undefined>(undefined)
   const [isLoading, setIsLoading] = useState(false)
   const [allVideos, setAllVideos] = useState<VideoListType>([])
