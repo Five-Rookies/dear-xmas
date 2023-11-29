@@ -30,7 +30,7 @@ const youtubeJsonRequest = async (
   optionalQuery: string = '',
 ) => {
   let jsonData
-  if (apiType === 'popular') {
+  if (apiType === 'popular' || apiType === 'search') {
     jsonData = await import('@public/videos/christmas/christmasPopular_v1.json')
   } else {
     const channelId = optionalQuery.split('=')[1]

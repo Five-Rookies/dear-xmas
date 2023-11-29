@@ -1,7 +1,5 @@
 import React from 'react'
-import { IYoutubeItem } from '@/type/Api'
 import VideoList from '@/components/home/VideoList'
-import youtubeDataRequest from '@/utils/apiRequest/youtubeApiRequest'
 import styles from './page.module.scss'
 
 const Home = () => {

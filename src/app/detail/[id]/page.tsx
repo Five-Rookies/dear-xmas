@@ -1,59 +1,59 @@
-import { IYoutubeItem } from '@/type/Api'
+'use client'
+
+import React, { useEffect, useState } from 'react'
+import { IYoutubeResponse, IYoutubeItem } from '@/type/Api'
 import RelatedVedio from '@/app/detail/[id]/RelatedVedio'
-import ScrollBtn from '@/components/ScrollBtn'
-import youtubeDataRequest from '@/utils/apiRequest/youtubeApiRequest'
+import CommentList from '@/components/detail/CommentList'
+import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import styles from './detail.module.scss'
 import DetailHeader from './DetailHeader'
-import CommentList from '../../../components/detail/CommentList'
 
-const getVideoList = async (getVideoId: string) => {
-  const response = await youtubeDataRequest()
-  return response.items.find(
-    (channel: IYoutubeItem) => channel.id.videoId === getVideoId,
-  )
-}
+const Detail = (props: any) => {
+  const currentVideoId = props.params.id
+  const popularVideoDataList = useYoutubeDataRequest()
+  const [currentVideo, setCurrentVideo] = useState<IYoutubeItem | null>(null)
 
-const Detail = async (props: any) => {
-  const getVideoId = props.params.id
-  if (!getVideoId) return null
-  const getItemInfo = await getVideoList(getVideoId)
-  if (!getItemInfo) return null
+  useEffect(() => {
+    if (popularVideoDataList) {
+      const fetchData = (dataRequest: IYoutubeResponse, id: string) => {
+        const currentVideoInfo = dataRequest.items.find(
+          (channel: IYoutubeItem) => channel.id.videoId === id,
+        )
+        if (currentVideoInfo) {
+          setCurrentVideo(currentVideoInfo)
+        }
+      }
+
+      fetchData(popularVideoDataList!, currentVideoId)
+    }
+  }, [popularVideoDataList])
 
   return (
     <div className={`inner-box ${styles.detail}`}>
-      <DetailHeader title={getItemInfo.snippet.channelTitle} />
-      <h1 className={styles.videoInfoTitle}>{getItemInfo.snippet.title}</h1>
-      {getItemInfo ? (
-        <div className={styles.visualContainer}>
-          <div>
-            <figure className={styles.visual}>
-              <iframe
-                src={`https://www.youtube.com/embed/${getVideoId}`}
-                width="100%"
-                height="100%"
-                allow="autoplay; encrypted-media"
-                allowFullScreen
-              />
-            </figure>
-            <div className={styles.videoInfo}>
-              <p
-                className={styles.videoInfoText}
-                dangerouslySetInnerHTML={{
-                  __html: getItemInfo.snippet.description.replace(
-                    /\n/g,
-                    '<br/>',
-                  ),
-                }}
-              />
-              <p></p>
+      {currentVideo !== null ? (
+        <>
+          <DetailHeader title={currentVideo.snippet.channelTitle} />
+          <h1 className={styles.videoInfoTitle}>
+            {currentVideo.snippet.title}
+          </h1>
+          <div className={styles.visualContainer}>
+            <div>
+              <figure className={styles.visual}>
+                <iframe
+                  src={`https://www.youtube.com/embed/${currentVideoId}`}
+                  width="100%"
+                  height="100%"
+                  allow="autoplay; encrypted-media"
+                  allowFullScreen
+                />
+              </figure>
+
+              <CommentList getVideoId={currentVideoId} />
             </div>
-            <CommentList getVideoId={getVideoId} />
+            <RelatedVedio channelId={currentVideo?.snippet?.channelId} />
           </div>
-          <RelatedVedio channelId={getItemInfo?.snippet?.channelId} />
-        </div>
-      ) : (
-        <div>상세정보 불러오기 실패 🥲</div>
-      )}
+        </>
+      ) : null}
     </div>
   )
 }
