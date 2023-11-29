@@ -5,33 +5,38 @@ import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import formatRelativeDate from '@/utils/relativeDate'
 import { IYoutubeItem } from '@/type/Api'
-import youtubeDataRequest from '@/utils/apiRequest/youtubeApiRequest'
+import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import styles from '../page.module.scss'
 
-const Search = (props: any): React.ReactElement => {
+const Search = (): React.ReactElement => {
   const searchParams = useSearchParams()
   const search = searchParams.get('info')
   const [filteredItems, setFilteredItems] = useState<IYoutubeItem[]>([])
-   
+  const currentSearchResult = useYoutubeDataRequest(
+    'search',
+    `&q=${search}`,
+    25,
+  )
+
   const handleSearch = async () => {
     if (!search) return
-    const response = await youtubeDataRequest('search', `&q=${search}`, 25)
-    const filtered: IYoutubeItem[] = response.items.filter(
-      (el: IYoutubeItem): boolean => {
-        return el.snippet.title.includes(search || '')
-      },
-    )
-    setFilteredItems(filtered || [])
+    if (currentSearchResult !== null) {
+      const filtered: IYoutubeItem[] = currentSearchResult.items.filter(
+        (el: IYoutubeItem): boolean => {
+          return el.snippet.title.includes(search || '')
+        },
+      )
+      setFilteredItems(filtered || [])
+    }
   }
   useEffect(() => {
     handleSearch()
-    
-  }, [search])
+  }, [search, currentSearchResult])
 
-  //처음 검색해서 영상목록 받아오는 코드
-  //URI가 들어오면 영상목록을 검색하지 않고 바로 추가
+  // 처음 검색해서 영상목록 받아오는 코드
+  // URI가 들어오면 영상목록을 검색하지 않고 바로 추가
   // const onSearch = (e) => {
-    
+
   // }
 
   return (

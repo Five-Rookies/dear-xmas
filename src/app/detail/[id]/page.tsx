@@ -1,41 +1,46 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import { IYoutubeItem } from '@/type/Api'
+import { IYoutubeResponse, IYoutubeItem } from '@/type/Api'
 import RelatedVedio from '@/app/detail/[id]/RelatedVedio'
-import youtubeDataRequest from '@/utils/apiRequest/youtubeApiRequest'
+import CommentList from '@/components/detail/CommentList'
+import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import styles from './detail.module.scss'
 import DetailHeader from './DetailHeader'
-import CommentList from '../../../components/detail/CommentList'
 
 const Detail = (props: any) => {
-  const [videoId, setVideoId] = useState<string>('')
-  const [videoInfo, setVideoInfo] = useState<IYoutubeItem | null>(null)
+  const currentVideoId = props.params.id
+  const popularVideoDataList = useYoutubeDataRequest()
+  const [currentVideo, setCurrentVideo] = useState<IYoutubeItem | null>(null)
 
   useEffect(() => {
-    const getVideoList = async (id: string): Promise<void> => {
-      const response = await youtubeDataRequest()
-      const getItemInfo = response.items.find(
-        (channel: IYoutubeItem) => channel.id.videoId === id,
-      )
-      setVideoInfo(getItemInfo)
-    }
+    if (popularVideoDataList) {
+      const fetchData = (dataRequest: IYoutubeResponse, id: string) => {
+        const currentVideoInfo = dataRequest.items.find(
+          (channel: IYoutubeItem) => channel.id.videoId === id,
+        )
+        if (currentVideoInfo) {
+          setCurrentVideo(currentVideoInfo)
+        }
+      }
 
-    setVideoId(props.params.id)
-    getVideoList(props.params.id)
-  }, [props.params.id])
+      fetchData(popularVideoDataList!, currentVideoId)
+    }
+  }, [popularVideoDataList])
 
   return (
     <div className={`inner-box ${styles.detail}`}>
-      {videoInfo !== null ? (
+      {currentVideo !== null ? (
         <>
-          <DetailHeader title={videoInfo.snippet.channelTitle} />
-          <h1 className={styles.videoInfoTitle}>{videoInfo.snippet.title}</h1>
+          <DetailHeader title={currentVideo.snippet.channelTitle} />
+          <h1 className={styles.videoInfoTitle}>
+            {currentVideo.snippet.title}
+          </h1>
           <div className={styles.visualContainer}>
             <div>
               <figure className={styles.visual}>
                 <iframe
-                  src={`https://www.youtube.com/embed/${videoId}`}
+                  src={`https://www.youtube.com/embed/${currentVideoId}`}
                   width="100%"
                   height="100%"
                   allow="autoplay; encrypted-media"
@@ -43,9 +48,9 @@ const Detail = (props: any) => {
                 />
               </figure>
 
-              <CommentList getVideoId={videoId} />
+              <CommentList getVideoId={currentVideoId} />
             </div>
-            <RelatedVedio channelId={videoInfo?.snippet?.channelId} />
+            <RelatedVedio channelId={currentVideo?.snippet?.channelId} />
           </div>
         </>
       ) : null}
