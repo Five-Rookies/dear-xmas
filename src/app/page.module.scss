@@ -17,6 +17,7 @@
     height: 7rem;
     width: 100%;
     background-color: var(--color-main-ground-two-bg);
+    transition: all 0.3s ease-in-out;
   }
   .snowBg {
     position: absolute;
@@ -25,6 +26,7 @@
     border-radius: 0 20rem 0 0;
     height: 14.5rem;
     width: 62rem;
+    transition: all 0.3s ease-in-out;
   }
   .santa {
     position: absolute;
@@ -171,6 +173,7 @@
   text-align: center;
   position: relative;
   background-color: var(--color-error-bg);
+
   height: 100vh;
   div {
     position: absolute;
@@ -200,6 +203,7 @@
       text-decoration: underline;
       font-weight: 500;
       color: var(--color-text);
+      transition: all 0.3s ease-in-out;
     }
   }
 }
@@ -209,6 +213,7 @@
   position: relative;
   height: 100vh;
   background-color: var(--color-error-bg);
+
   div {
     position: absolute;
     top: 56%;

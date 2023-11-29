@@ -27,7 +27,7 @@ const CommentList = ({ getVideoId }: { getVideoId: string }) => {
     }
 
     fetchComments()
-  }, [getVideoId])
+  }, [getVideoId, comments])
   return (
     <div className={styles.comments}>
       <p>댓글 {comments.length}개</p>
@@ -41,7 +41,7 @@ const CommentList = ({ getVideoId }: { getVideoId: string }) => {
           .map((el: IComment, idx: number) => {
             return (
               <Comment
-                key={idx}
+                key={el.id}
                 comment={el}
                 getVideoId={getVideoId}
                 setComments={setComments}
