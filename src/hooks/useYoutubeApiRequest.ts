@@ -17,17 +17,17 @@ const youtubeApiRequest = async (
   maxResults: number = 32,
 ) => {
   const ACCESS_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
-  const baseURL = `https://youtube.googleapis.com/youtube/v3/search?`
-  const commonQuery = `&nextPageToken=CBkQAA&regionCode=kr&type=video&order=relevance&videoSyndicated=true&maxResults=${maxResults}`
+  const baseURL = `https://youtube.googleapis.com/youtube/v3/search?part=snippet`
+  const commonQuery = `&regionCode=kr&type=video&order=relevance&videoSyndicated=true&maxResults=${maxResults}`
   const URL = `${baseURL}${commonQuery}${optionalQuery}&key=${ACCESS_KEY}`
 
   try {
     const youtubeApiData = await axios.get(URL)
-    return youtubeApiData!.data
+    return youtubeApiData.data
   } catch (error) {
-    setQuotaExhausted()
     console.log('[NOTICE] Youtube API 요청 불가. JSON 데이터로 대체합니다.')
     printErrorMessage(error)
+    setQuotaExhausted()
   }
 }
 

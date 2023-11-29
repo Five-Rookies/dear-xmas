@@ -27,19 +27,10 @@ const VideoList: React.FC = () => {
 
     try {
       setIsLoading(true)
-      if (popularVideoDataList !== null) {
-        const nextPageVideos = popularVideoDataList.items
-        const newVideos = nextPageVideos.filter(
-          (newVideo: any) =>
-            !allVideos.some(
-              existingVideos =>
-                existingVideos.id.videoId === newVideo.id.videoId,
-            ),
-        )
-        if (nextPageVideos.length > 0) {
-          setAllVideos(prevVideos => [...prevVideos, ...nextPageVideos])
-          setPageToken(popularVideoDataList.nextPageToken)
-        }
+      const nextPageVideos = popularVideoDataList!.items
+      if (nextPageVideos.length > 0) {
+        setAllVideos(prevVideos => [...prevVideos, ...nextPageVideos])
+        setPageToken(popularVideoDataList!.nextPageToken)
       }
     } finally {
       setIsLoading(false)
@@ -54,7 +45,7 @@ const VideoList: React.FC = () => {
       const { scrollHeight } = document.documentElement
       const isNearBottom = scrollY + windowHeight >= scrollHeight - 200
 
-      if (isNearBottom && !isLoading) {
+      if (isNearBottom && !isLoading && popularVideoDataList) {
         fetchMoreVideos()
       }
     }
@@ -64,7 +55,7 @@ const VideoList: React.FC = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll)
     }
-  }, [isLoading, fetchMoreVideos])
+  }, [isLoading, fetchMoreVideos, allVideos])
 
   return (
     <>

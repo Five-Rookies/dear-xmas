@@ -20,17 +20,17 @@ const Search = (): React.ReactElement => {
 
   const handleSearch = async () => {
     if (!search) return
-    if (currentSearchResult !== null) {
-      const filtered: IYoutubeItem[] = currentSearchResult.items.filter(
-        (el: IYoutubeItem): boolean => {
-          return el.snippet.title.includes(search || '')
-        },
-      )
-      setFilteredItems(filtered || [])
-    }
+    const filtered: IYoutubeItem[] = currentSearchResult!.items.filter(
+      (el: IYoutubeItem): boolean => {
+        return el.snippet.title.includes(search || '')
+      },
+    )
+    setFilteredItems(filtered || [])
   }
   useEffect(() => {
-    handleSearch()
+    if (currentSearchResult) {
+      handleSearch()
+    }
   }, [search, currentSearchResult])
 
   // 처음 검색해서 영상목록 받아오는 코드
