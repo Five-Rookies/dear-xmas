@@ -1,28 +1,65 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
-import Link from 'next/link'
-import { IYoutubeItem } from '@/type/Api'
-import formatRelativeDate from '@/utils/relativeDate'
-import ScrollBtn from '@/components/ScrollBtn'
-import youtubeDataRequest from '@/utils/apiRequest/youtubeApiRequest'
-import styles from './detail.module.scss'
+import React, { useState, useEffect, useCallback } from 'react';
+import Link from 'next/link';
+import { IYoutubeItem } from '@/type/Api';
+import formatRelativeDate from '@/utils/relativeDate';
+import ScrollBtn from '@/components/ScrollBtn';
+import youtubeDataRequest from '@/utils/apiRequest/youtubeApiRequest';
+import styles from './detail.module.scss';
+import Image from 'next/image';
 
 const RelatedVedio = ({ channelId }: { channelId: string }) => {
-  const [videoData, setVideoData] = useState<IYoutubeItem[]>([])
+  const [videoData, setVideoData] = useState<IYoutubeItem[]>([]);
+  const [pageToken, setPageToken] = useState<string | undefined>(undefined);
+  const [isLoading, setIsLoading] = useState(false);
 
-  useEffect(() => {
-    const fetchData = async () => {
+  const fetchMoreVideos = useCallback(async () => {
+    if (isLoading) return;
+
+    try {
+      setIsLoading(true);
       const response = await youtubeDataRequest(
         'detail',
         `&channel_id=${channelId}`,
         25,
-      )
-      setVideoData(response.items)
-    }
+        pageToken
+      );
 
-    fetchData()
-  }, [channelId])
+      if (response.items.length > 0) {
+        setVideoData((prevData) => [...prevData, ...response.items]);
+        setPageToken(response.nextPageToken);
+      }
+    } finally {
+      setIsLoading(false);
+    }
+  }, [channelId, isLoading, pageToken]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY || document.documentElement.scrollTop;
+      const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+      const scrollHeight = document.documentElement.scrollHeight;
+      const isNearBottom = scrollY + windowHeight >= scrollHeight - 200;
+
+      if (isNearBottom && !isLoading && pageToken) {
+        fetchMoreVideos();
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [isLoading, fetchMoreVideos, pageToken]);
+
+  useEffect(() => {
+    // Initial data fetch when the component mounts
+    if (!pageToken) {
+      fetchMoreVideos();
+    }
+  }, [fetchMoreVideos, pageToken]);
 
   return (
     <section>
@@ -35,8 +72,12 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
               className={styles.listLink}
             >
               <figure className={styles.listImg}>
-                <img
+                <Image
                   src={item.snippet.thumbnails.medium.url}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{width: '100%', height: 'auto'}}
                   alt={item.snippet.title}
                 />
               </figure>
@@ -53,9 +94,10 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
           </li>
         ))}
       </ul>
+      {isLoading && <p>Loading...</p>}
       <ScrollBtn />
     </section>
-  )
-}
+  );
+};
 
-export default RelatedVedio
+export default RelatedVedio;

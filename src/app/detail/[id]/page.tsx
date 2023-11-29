@@ -1,6 +1,5 @@
 import { IYoutubeItem } from '@/type/Api'
 import RelatedVedio from '@/app/detail/[id]/RelatedVedio'
-import ScrollBtn from '@/components/ScrollBtn'
 import youtubeDataRequest from '@/utils/apiRequest/youtubeApiRequest'
 import styles from './detail.module.scss'
 import DetailHeader from './DetailHeader'

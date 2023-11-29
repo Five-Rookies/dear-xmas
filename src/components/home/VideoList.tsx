@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { IYoutubeItem } from '@/type/Api'
 import ScrollBtn from '@/components/ScrollBtn'
 import youtubeDataRequest from '@/utils/apiRequest/youtubeApiRequest'
+import Image from 'next/image'
 
 const VideoList:React.FC = () => {
   //const videoList: VideoListType = await getVideoList()
@@ -26,9 +27,6 @@ const VideoList:React.FC = () => {
      try {
        setIsLoading(true);
        const nextPageVideos = await getVideoList(pageToken);
-       const newVideos = nextPageVideos.filter(
-         (newVideo: any) => !allVideos.some((existingVideos) => existingVideos.id.videoId === newVideo.id.videoId)
-       )
        if (nextPageVideos.length > 0) {
          setAllVideos((prevVideos) => [...prevVideos, ...nextPageVideos]);
          setPageToken(nextPageVideos.nextPageToken);
@@ -78,10 +76,14 @@ const VideoList:React.FC = () => {
                 }}
               >
                 <div>
-                  <img
+                  <Image
                     className={styles.videoImage}
                     src={VIDEO.thumbnails.medium.url}
-                    width={300}
+                    width={0}
+                    height={0}
+                    sizes="18.15rem"
+                    style={{width: '18.15rem', height: 'auto'}}
+                    alt={VIDEO.title}
                   />
                 </div>
                 <div className={styles.title}>
