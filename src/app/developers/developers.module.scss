@@ -1,5 +1,6 @@
 section {
   &.skillContainer {
+    transition: all 0.3s ease-in-out;
     background-color: var(--color-main-ground-two-bg);
   }
   .title {
@@ -38,6 +39,7 @@ section {
       flex-wrap: wrap;
       .memberBox {
         margin: 2rem 0;
+        overflow: hidden;
         @media (min-width: 480px) {
           width: 49%;
         }
@@ -75,7 +77,7 @@ section {
         .githubContainer {
           padding: 20px;
           border: 1px solid #eee;
-
+          transition: all 0.3s ease-in-out;
           svg:first-child {
             height: 140px;
           }
