@@ -25,9 +25,9 @@ const youtubeApiRequest = async (
     const youtubeApiData = await axios.get(URL)
     return youtubeApiData.data
   } catch (error) {
-    console.log('[NOTICE] Youtube API 요청 불가. JSON 데이터로 대체합니다.')
     printErrorMessage(error)
     setQuotaExhausted()
+    throw new Error('[ERROR] Youtube API 요청 불가. JSON 데이터로 대체합니다.')
   }
 }
 
@@ -50,8 +50,8 @@ const youtubeJsonRequest = async (
 
     return jsonData.default
   } catch (error) {
-    console.log('[NOTICE] 유효하지 않은 JSON 데이터 요청입니다.')
     printErrorMessage(error)
+    throw new Error('[ERROR] 유효하지 않은 JSON 데이터 요청입니다.')
   }
 }
 
@@ -76,14 +76,14 @@ const useYoutubeDataRequest = (
             maxResults,
           )
         } catch (error) {
+          printErrorMessage(error)
           response = await youtubeJsonRequest(apiType, optionalQuery)
         }
       }
       setData(response)
     }
 
-    // 데이터가 없을 경우에만 데이터 패칭
-    if (data === null) fetchData()
+    fetchData()
   }, [isApiQuotaExhausted])
 
   return data
