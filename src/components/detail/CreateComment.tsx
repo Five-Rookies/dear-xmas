@@ -17,7 +17,6 @@ const CreateComment = ({
   const pathParam = usePathname()
   const paramArr = pathParam.split('/')
   const videoId = paramArr[paramArr.length - 1]
-  const [comment, setComment] = useState({})
   const inputValue = useRef<HTMLInputElement>(null)
   const handleCreate = async (e: any) => {
     if (e.key === 'Enter') {
@@ -28,10 +27,8 @@ const CreateComment = ({
           '기본 사용자',
           profile,
         )
-
-        res && setComment(res)
-        await renderUpdatedComment()
         inputValue.current.value = ''
+        res && (await renderUpdatedComment())
       }
     }
   }

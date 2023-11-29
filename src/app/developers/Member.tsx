@@ -6,6 +6,7 @@ import Link from 'next/link'
 import ActivityCalendar from 'react-github-calendar'
 import { Tooltip as ReactTooltip } from 'react-tooltip'
 import 'react-tooltip/dist/react-tooltip.css'
+import useStore from '@/status/store'
 interface Day {
   date: string
   count: number
@@ -31,6 +32,7 @@ const Member = ({ member }: { member: IDeveloper }) => {
   const [displayWidth, setDisplayWidth] = useState(8)
   const [isMounted, setIsMounted] = useState(false)
   const githubId = member.github.split('/')
+  const { isDark } = useStore()
 
   useEffect(() => {
     setIsMounted(true)
@@ -48,6 +50,9 @@ const Member = ({ member }: { member: IDeveloper }) => {
       window.removeEventListener('resize', handleResize)
     }
   }, [])
+  const explicitTheme = {
+    light: [`hsl(0, 0%, ${isDark ? '0%' : '90%'})`, '#0DAA37'],
+  }
   return (
     <>
       <div className={styles.memberBox}>
@@ -66,17 +71,20 @@ const Member = ({ member }: { member: IDeveloper }) => {
           </div>
         </div>
         <div className={styles.githubContainer}>
-          <ActivityCalendar
-            username={githubId[githubId.length - 1]}
-            blockSize={12}
-            transformData={day => selectLastHalfYear(day, displayWidth)}
-            renderBlock={(block, activity) => {
-              return React.cloneElement(block, {
-                'data-tooltip-id': 'react-tooltip',
-                'data-tooltip-content': `${activity.date}에 ${activity.count}번 커밋함`,
-              })
-            }}
-          />
+          {isMounted && (
+            <ActivityCalendar
+              username={githubId[githubId.length - 1]}
+              blockSize={12}
+              theme={explicitTheme}
+              transformData={day => selectLastHalfYear(day, displayWidth)}
+              renderBlock={(block, activity) => {
+                return React.cloneElement(block, {
+                  'data-tooltip-id': 'react-tooltip',
+                  'data-tooltip-content': `${activity.date}에 ${activity.count}번 커밋함`,
+                })
+              }}
+            />
+          )}
         </div>
       </div>
       <ReactTooltip id="react-tooltip" />
