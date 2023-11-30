@@ -71,9 +71,13 @@ const Header = (): React.JSX.Element => {
           {renderThemeToggle()}
         </button>
         <div className={styles.account}>
-          <span>로그인</span>
+          <Link href="signIn">
+            <span>로그인</span>
+          </Link>
           <p className={styles.line}>|</p>
-          <span>회원가입</span>
+          <Link href="signUp">
+            <span>회원가입</span>
+          </Link>
         </div>
         <FontAwesomeIcon className={styles.barIcon} icon={faBars} />
       </div>
