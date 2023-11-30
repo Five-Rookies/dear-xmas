@@ -76,9 +76,7 @@ const Search = (): React.ReactElement => {
   }, [search, currentSearchResult])
 
   return (
-  <>
-    {filteredItems.length ? (
-      <>
+    <>
       {filteredItems.length ? (
         <div className="inner-box">
             <ul className={styles.videoList}>
@@ -130,10 +128,6 @@ const Search = (): React.ReactElement => {
       <NoResult />
     )}
   </>
-      ) : (
-        <NoResult />
-      )}
-    </>
   )
 }
 
