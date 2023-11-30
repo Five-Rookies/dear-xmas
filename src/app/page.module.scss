@@ -5,6 +5,7 @@
   position: relative;
   transition: all 0.3s ease-in-out;
   .snowman {
+    display: block;
     position: absolute;
     right: 2.5rem;
     bottom: 6.6rem;
@@ -36,27 +37,29 @@
     width: 30rem;
   }
   .tree {
-    display: flex;
     li {
       img {
         position: absolute;
-        top: -16.6rem;
+        bottom: 11.2rem;
         width: 5rem;
       }
     }
     li:nth-child(7) {
+      display: block;
       img {
         right: 20rem;
         top: -9rem;
       }
     }
     li:nth-child(6) {
+      display: block;
       img {
         right: 23.5rem;
         top: -9rem;
       }
     }
     li:nth-child(5) {
+      display: block;
       img {
         right: 27rem;
         top: -9rem;
@@ -84,89 +87,111 @@
       }
     }
   }
+  .snow {
+    mix-blend-mode: plus-lighter;
+  }
+  .counter {
+    color: white;
+    text-align: center;
+    position: absolute;
+    right: 16rem;
+    top: 6rem;
+
+    h2 {
+      font-size: 5.8rem;
+      font-weight: 800;
+    }
+    h4 {
+      color: #ebff6f;
+      font-size: 3.5rem;
+      padding-bottom: 0.6rem;
+    }
+  }
 }
 
 // popular video List
-.videoList {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 10px;
-  justify-content: center;
+.videoContainer {
+  .videoList {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    justify-content: center;
 
-  .videoCard {
-    margin: 10px;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+    .videoCard {
+      margin: 10px;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
 
-    &:hover {
-      transform: scale(1.03);
-      border-radius: 0px;
+      &:hover {
+        transform: scale(1.03);
+        border-radius: 0px;
 
-      img {
-        border-radius: 0;
+        img {
+          border-radius: 0;
+        }
+      }
+
+      .videoImage {
+        width: 100%;
+        border-radius: 20px;
+        transition: all 0.3s ease-in-out;
       }
     }
 
-    .videoImage {
-      width: 100%;
-      border-radius: 20px;
-      transition: all 0.3s ease-in-out;
+    @media (max-width: 768px) {
+      .videoCard {
+        width: calc(80% - 20px);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .videoCard {
+        width: 100%;
+      }
     }
   }
 
-  @media (max-width: 768px) {
-    .videoCard {
-      width: calc(80% - 20px);
+  .videoLink {
+    text-decoration: none;
+  }
+
+  .title {
+    padding: 5px 13px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    h4 {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; // 텍스트가 오버플로우 될 때 "..." 표시
+      max-width: 100%;
     }
   }
 
-  @media (max-width: 480px) {
-    .videoCard {
-      width: 100%;
+  .channelTitle {
+    padding: 10px 13px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      opacity: 1;
+      font-weight: 500;
+      transform: perspective(1300px) translateZ(15px);
     }
   }
-}
 
-.videoLink {
-  text-decoration: none;
-}
-
-.title {
-  padding: 5px 13px;
-  font-size: 1rem;
-  font-weight: bold;
-  color: black;
-  h4 {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; // 텍스트가 오버플로우 될 때 "..." 표시
-    max-width: 100%;
+  .publishedAt {
+    opacity: 0.6;
+    padding: 5px 0px 20px 15px;
+    font-size: 0.8rem;
   }
-}
-
-.channelTitle {
-  padding: 10px 13px;
-  font-weight: bold;
-  font-size: 0.9rem;
-  opacity: 0.6;
-  transition: all 0.3s ease-in-out;
-
-  &:hover {
-    opacity: 1;
-    font-weight: 500;
-    transform: perspective(1300px) translateZ(15px);
-  }
-}
-
-.publishedAt {
-  opacity: 0.6;
-  padding: 5px 0px 20px 15px;
-  font-size: 0.8rem;
 }
 
 .notFound {
@@ -237,6 +262,77 @@
       margin: auto;
       display: block;
       margin-bottom: 2rem;
+    }
+  }
+}
+
+@media (max-width: 1136px) {
+  .bg {
+    position: relative;
+    width: 100vw;
+    .snowBg {
+      width: inherit;
+      border-radius: 0;
+      height: 10rem;
+    }
+    .snowman {
+      display: none;
+    }
+    .tree {
+      li img {
+        position: absolute;
+        bottom: 6.8rem;
+      }
+      li:nth-child(2) {
+        img {
+          right: 0;
+        }
+      }
+      li:nth-child(1) {
+        img {
+          right: 0;
+        }
+      }
+      li:nth-child(7) {
+        display: none;
+        img {
+          right: 20rem;
+          top: -9rem;
+        }
+      }
+      li:nth-child(6) {
+        display: none;
+        img {
+          right: 23.5rem;
+          top: -9rem;
+        }
+      }
+      li:nth-child(5) {
+        display: none;
+        img {
+          right: 27rem;
+          top: -9rem;
+        }
+      }
+    }
+    .santa {
+      transition: 0.8s;
+      transform: scaleX(-1) scale(70%);
+      bottom: -2rem;
+      left: 2.8rem;
+    }
+    .counter {
+      position: absolute;
+      top: 5rem;
+      right: 50%;
+      transform: translateX(50%);
+
+      h2 {
+        font-size: 5.2rem;
+      }
+      h4 {
+        font-size: 3.2rem;
+      }
     }
   }
 }
