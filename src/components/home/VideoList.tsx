@@ -33,7 +33,7 @@ const VideoList: React.FC = () => {
       if (nextPageVideos.length > 0) {
         setAllVideos(prevVideos => [...prevVideos, ...nextPageVideos])
         setPageToken(popularVideoDataList!.nextPageToken)
-        
+        console.log(popularVideoDataList!.nextPageToken)
       }
     } finally {
       setIsLoading(false)
