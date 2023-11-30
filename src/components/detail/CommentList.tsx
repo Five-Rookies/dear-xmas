@@ -38,7 +38,7 @@ const CommentList = ({ getVideoId }: { getVideoId: string }) => {
       {comments.length !== 0 &&
         [...comments]
           .sort((a, b) => b.id - a.id)
-          .map((el: IComment, idx: number) => {
+          .map((el: IComment) => {
             return (
               <Comment
                 key={el.id}
