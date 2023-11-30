@@ -55,6 +55,7 @@ const Member = ({ member }: { member: IDeveloper }) => {
   }, [])
   const explicitTheme = {
     light: [`hsl(0, 0%, ${isDark ? '0%' : '90%'})`, '#0DAA37'],
+    dark: [`hsl(0, 0%, ${isDark ? '0%' : '90%'})`, '#0DAA37'],
   }
   return (
     <>
