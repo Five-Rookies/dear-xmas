@@ -81,7 +81,9 @@
     color: #333;
 
     .listImg {
-      background-color: #000;
+      height: 10.625rem;
+      display: flex;
+      align-items: center;
       overflow: hidden;
       position: relative;
     }
@@ -258,6 +260,14 @@
 
   .list {
     grid-template-columns: repeat(2, calc((100% - 1.25rem) / 2));
+  }
+
+  .listItem {
+    .listLink {
+      .listImg {
+        height: 20.625rem;
+      }
+    }
   }
 }
 
