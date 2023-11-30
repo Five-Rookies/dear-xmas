@@ -68,8 +68,8 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
     <section>
       <h3 className={styles.relatedTitle}>관련된 영상</h3>
       <ul className={styles.list}>
-        {videoData && videoData.slice(0, displayCount).map((item: IYoutubeItem, idx: number) => (
-          <li key={idx} className={styles.listItem}>
+        {videoData && videoData.slice(0, displayCount).map((item: IYoutubeItem) => (
+          <li key={item.id.videoId} className={styles.listItem}>
             <Link
               href={`https://www.youtube.com/watch?v=${item.id.videoId}`}
               className={styles.listLink}

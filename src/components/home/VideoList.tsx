@@ -33,6 +33,7 @@ const VideoList: React.FC = () => {
       if (nextPageVideos.length > 0) {
         setAllVideos(prevVideos => [...prevVideos, ...nextPageVideos])
         setPageToken(popularVideoDataList!.nextPageToken)
+        
       }
     } finally {
       setIsLoading(false)
@@ -84,6 +85,7 @@ const VideoList: React.FC = () => {
                     height={0}
                     sizes="18.15rem"
                     style={{width: '18.15rem', height: 'auto'}}
+                    layout="responsive"
                     alt={VIDEO.title}
                   />
                 </div>
