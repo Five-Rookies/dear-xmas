@@ -2,22 +2,23 @@ import React from 'react'
 import VideoList from '@/components/home/VideoList'
 import styles from './page.module.scss'
 import Image from 'next/image'
-
+import ChristmasCounter from '@/components/home/ChristmasCounter'
 
 const Home = () => {
   return (
     <main className="main-container">
       <section className={styles.bg}>
-        {/* <img className={styles.snowman} src="/assets/snowman.png" alt="" /> */}
         <Image
-          className={styles.snowman}
-          src="/assets/snowman.png"
+          className={styles.snow}
           width={0}
           height={0}
-          sizes="12rem"
-          style={{width: '12rem', height: 'auto'}}
+          sizes="100%"
+          style={{ width: '100%', height: 'auto', marginTop: '5rem' }}
+          layout="fiil"
+          src="/assets/bg-snow.svg"
           alt=""
         />
+        <img className={styles.snowman} src="/assets/snowman.png" alt="" />
         <div className={styles.snowBgSecond}>
           <ul className={styles.tree}>
             <li>
@@ -27,7 +28,7 @@ const Home = () => {
                 width={0}
                 height={0}
                 sizes="5rem"
-                style={{width: '5rem', height: 'auto'}}
+                style={{ width: '5rem', height: 'auto' }}
                 alt=""
               />
             </li>
@@ -37,7 +38,7 @@ const Home = () => {
                 width={0}
                 height={0}
                 sizes="5rem"
-                style={{width: '5rem', height: 'auto'}}
+                style={{ width: '5rem', height: 'auto' }}
                 alt=""
               />
             </li>
@@ -47,7 +48,7 @@ const Home = () => {
                 width={0}
                 height={0}
                 sizes="5rem"
-                style={{width: '5rem', height: 'auto'}}
+                style={{ width: '5rem', height: 'auto' }}
                 alt=""
               />
             </li>
@@ -57,7 +58,7 @@ const Home = () => {
                 width={0}
                 height={0}
                 sizes="5rem"
-                style={{width: '5rem', height: 'auto'}}
+                style={{ width: '5rem', height: 'auto' }}
                 alt=""
               />
             </li>
@@ -67,7 +68,7 @@ const Home = () => {
                 width={0}
                 height={0}
                 sizes="5rem"
-                style={{width: '5rem', height: 'auto'}}
+                style={{ width: '5rem', height: 'auto' }}
                 alt=""
               />
             </li>
@@ -77,7 +78,7 @@ const Home = () => {
                 width={0}
                 height={0}
                 sizes="5rem"
-                style={{width: '5rem', height: 'auto'}}
+                style={{ width: '5rem', height: 'auto' }}
                 alt=""
               />
             </li>
@@ -87,7 +88,7 @@ const Home = () => {
                 width={0}
                 height={0}
                 sizes="5rem"
-                style={{width: '5rem', height: 'auto'}}
+                style={{ width: '5rem', height: 'auto' }}
                 alt=""
               />
             </li>
@@ -95,16 +96,17 @@ const Home = () => {
         </div>
         <div className={styles.snowBgSecond}></div>
         <div className={styles.snowBg}></div>
-        {/* <img className={styles.santa} src="/assets/santa.png" alt="" /> */}
+
         <Image
           className={styles.santa}
           src="/assets/santa.png"
           width={0}
           height={0}
           sizes="30rem"
-          style={{width: '30rem', height: 'auto'}}
+          style={{ width: '30rem', height: 'auto' }}
           alt=""
         />
+        <ChristmasCounter />
       </section>
       <section className="inner-box">
         <VideoList />
