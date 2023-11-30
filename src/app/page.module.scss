@@ -280,15 +280,16 @@
       li img {
         position: absolute;
         bottom: 6.8rem;
-        left: auto;
       }
       li:nth-child(2) {
         img {
+          left: auto;
           right: 7%;
         }
       }
       li:nth-child(1) {
         img {
+          left: auto;
           right: 0;
         }
       }
@@ -328,9 +329,11 @@
 
       h2 {
         font-size: 5.2rem;
+        white-space: nowrap;
       }
       h4 {
         font-size: 3.2rem;
+        white-space: nowrap;
       }
     }
   }
