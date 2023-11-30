@@ -62,7 +62,7 @@ const VideoList: React.FC = () => {
   }, [isLoading, popularVideoDataList, fetchMoreVideos])
 
   return (
-    <>
+    <div className={styles.videoContainer}>
       <ul className={styles.videoList}>
       {allVideos.slice(0, displayCount).map((video: IYoutubeItem, index: number) => {
         const VIDEO = video.snippet
@@ -112,7 +112,7 @@ const VideoList: React.FC = () => {
       </ul>
       {isLoading && <p>Loading...</p>}
       <ScrollBtn />
-    </>
+    </div>
   )
 }
 
