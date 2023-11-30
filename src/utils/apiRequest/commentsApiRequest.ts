@@ -2,6 +2,9 @@
 import { createClient } from '@supabase/supabase-js'
 import Comments from '@/type/SupabaseRespons'
 
+const tableName =
+  process.env.NEXT_PUBLIC_IS_DEV_MODE === 'true' ? 'comments' : 'comments_PROD'
+
 const supabase = createClient<Comments[]>(
   process.env.NEXT_PUBLIC_SUPABASE_URL as string,
   process.env.NEXT_PUBLIC_SERVICE_KEY as string,
@@ -10,7 +13,7 @@ const supabase = createClient<Comments[]>(
 export const getComments = async (video_id: string) => {
   try {
     const { data, error } = await supabase
-      .from('comments')
+      .from(tableName)
       .select('*')
       .eq('video_id', video_id)
     if (error) throw new Error()
@@ -24,7 +27,7 @@ export const getComments = async (video_id: string) => {
 export const getCommentsById = async (id: number) => {
   try {
     const { data, error } = await supabase
-      .from('comments')
+      .from(tableName)
       .select('*')
       .eq('id', id)
       .single()
@@ -43,7 +46,7 @@ export const createComments = async (
   img_path: number,
 ) => {
   try {
-    const { data, error } = await supabase.from('comments').insert([
+    const { data, error } = await supabase.from(tableName).insert([
       {
         text,
         video_id,
@@ -69,7 +72,7 @@ export const updateComments = async (
 ) => {
   try {
     const { data, error } = await supabase
-      .from('comments')
+      .from(tableName)
       .update([{ text, like_num }])
       .eq('id', id)
 
@@ -82,10 +85,7 @@ export const updateComments = async (
 
 export const deleteComments = async (id: number) => {
   try {
-    const { data, error } = await supabase
-      .from('comments')
-      .delete()
-      .eq('id', id)
+    const { data, error } = await supabase.from(tableName).delete().eq('id', id)
 
     if (error) throw new Error()
     return data
