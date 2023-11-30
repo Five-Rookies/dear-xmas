@@ -10,33 +10,29 @@ const supabase = createClient<Comments[]>(
   process.env.NEXT_PUBLIC_SERVICE_KEY as string,
 )
 
-export const getComments = async (video_id: string) => {
+const executeQuery = async (queryBuilder: any, errorMessage: string) => {
   try {
-    const { data, error } = await supabase
-      .from(tableName)
-      .select('*')
-      .eq('video_id', video_id)
-    if (error) throw new Error()
+    const { data, error } = await queryBuilder
+    if (error) throw new Error(`[ERROR]${errorMessage}`)
     return data
-  } catch (err) {
-    console.error('데이터를 불러오지 못했습니다', err)
-    return null
+  } catch (error) {
+    console.error(error)
+    throw error
   }
 }
 
+export const getComments = async (video_id: string) => {
+  return executeQuery(
+    supabase.from(tableName).select('*').eq('video_id', video_id),
+    '데이터를 불러오지 못했습니다',
+  )
+}
+
 export const getCommentsById = async (id: number) => {
-  try {
-    const { data, error } = await supabase
-      .from(tableName)
-      .select('*')
-      .eq('id', id)
-      .single()
-    if (error) throw new Error()
-    return data
-  } catch (err) {
-    console.error('해당 id의 데이터를 불러오지 못했습니다', err)
-    return null
-  }
+  return executeQuery(
+    supabase.from(tableName).select('*').eq('id', id).single(),
+    '해당 id의 데이터를 불러오지 못했습니다',
+  )
 }
 
 export const createComments = async (
@@ -45,24 +41,17 @@ export const createComments = async (
   user_name: string,
   img_path: number,
 ) => {
-  try {
-    const { data, error } = await supabase.from(tableName).insert([
+  return executeQuery(
+    supabase.from(tableName).insert([
       {
         text,
         video_id,
         user_name,
         img_path,
       },
-    ])
-
-    if (error) {
-      throw error
-    }
-
-    return data
-  } catch (err) {
-    console.error('데이터를 생성하지 못했습니다', err)
-  }
+    ]),
+    '데이터를 생성하지 못했습니다',
+  )
 }
 
 export const updateComments = async (
@@ -70,26 +59,15 @@ export const updateComments = async (
   like_num: number,
   id: number,
 ) => {
-  try {
-    const { data, error } = await supabase
-      .from(tableName)
-      .update([{ text, like_num }])
-      .eq('id', id)
-
-    if (error) throw new Error()
-    return data
-  } catch (err) {
-    console.error('데이터를 수정하지 못했습니다', err)
-  }
+  return executeQuery(
+    supabase.from(tableName).update([{ text, like_num }]).eq('id', id),
+    '데이터를 수정하지 못했습니다',
+  )
 }
 
 export const deleteComments = async (id: number) => {
-  try {
-    const { data, error } = await supabase.from(tableName).delete().eq('id', id)
-
-    if (error) throw new Error()
-    return data
-  } catch (err) {
-    console.error('데이터를 삭제하지 못했습니다', err)
-  }
+  return executeQuery(
+    supabase.from(tableName).delete().eq('id', id),
+    '데이터를 삭제하지 못했습니다',
+  )
 }
