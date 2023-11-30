@@ -1,4 +1,5 @@
 import styles from './page.module.scss'
+import Image from 'next/image'
 
 const Loading = () => {
   return (
@@ -6,7 +7,14 @@ const Loading = () => {
       <div>
         <p className={styles.tag}>Loading...</p>
         <h1>잠시만 기다려주세요</h1>
-        <img src="/assets/loading.png" alt="" />
+        <Image
+          src="/assets/loading.png"
+          width={0}
+          height={0}
+          sizes="15rem"
+          style={{width: '15rem', height: 'auto'}}
+          alt=""
+        />
       </div>
     </div>
   )

@@ -8,7 +8,7 @@ const youtubeApiRequest = async (
   maxResults: number = 32,
 ) => {
   const ACCESS_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
-  const baseURL = `https://youtube.googleapis.com/youtube/v3/playlists`
+  const baseURL = `https://youtube.googleapis.com/youtube/v3/search?part=snippet`
   const commonQuery = `&nextPageToken=CBkQAA&regionCode=kr&type=video&order=relevance&videoSyndicated=true&maxResults=${maxResults}`
   const URL = `${baseURL}${commonQuery}${optionalQuery}&key=${ACCESS_KEY}`
 
@@ -46,6 +46,7 @@ const youtubeDataRequest = async (
   apiType: string = 'popular',
   optionalQuery: string = '&q=크리스마스|크리스마스영화',
   maxResults: number = 32,
+  pageToken: any
 ) => {
   let youtubeData
   try {
