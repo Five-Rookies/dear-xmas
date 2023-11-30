@@ -97,10 +97,11 @@ const Search = (): React.ReactElement => {
                           className={styles.videoImage}
                           src={VIDEO.thumbnails.medium.url}
                           width={0}
-                      height={0}
-                      sizes="18.15rem"
-                      style={{width: '18.15rem', height: 'auto'}}
-                      alt={VIDEO.title}
+                          height={0}
+                          sizes="18.15rem"
+                          style={{width: '18.15rem', height: 'auto'}}
+                          layout="responsive"
+                          alt={VIDEO.title}
                         />
                       </div>
                       <div className={styles.title}>
