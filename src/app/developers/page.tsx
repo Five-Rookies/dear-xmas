@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './developers.module.scss'
 import Member from './Member'
 import { IDeveloper } from '@/type/Component'
+import Image from 'next/image'
 
 const title = (subTItle: string, title: string, intro: string) => {
   return (
@@ -67,7 +68,14 @@ const Developers = () => {
             {skills.map((skill: string) => {
               return (
                 <li key={skill}>
-                  <img src={`/assets/skills/skill-${skill}.svg`} alt={skill} />
+                  <Image
+                    src={`/assets/skills/skill-${skill}.svg`}
+                    width={0}
+                    height={0}
+                    sizes="4.5rem"
+                    style={{width: '100%', height: 'auto'}}
+                    alt={skill}
+                  />
                 </li>
               )
             })}

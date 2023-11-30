@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { IYoutubeItem } from '@/type/Api'
 import ScrollBtn from '@/components/ScrollBtn'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
+import Image from 'next/image'
 
 type VideoListType = IYoutubeItem[]
 
@@ -17,8 +18,11 @@ const VideoList: React.FC = () => {
   const popularVideoDataList = useYoutubeDataRequest(
     'popular',
     '&q=크리스마스|크리스마스영화',
-    4,
+    32,
+    pageToken,
   )
+  const scrolledItems = 4
+  const [displayCount, setDisplayCount] = useState(scrolledItems)
 
   const fetchMoreVideos = useCallback(async () => {
     if (isLoading) return
@@ -33,7 +37,7 @@ const VideoList: React.FC = () => {
     } finally {
       setIsLoading(false)
     }
-  }, [isLoading, pageToken, allVideos, popularVideoDataList])
+  }, [isLoading, popularVideoDataList])
 
   useEffect(() => {
     const handleScroll = () => {
@@ -44,6 +48,7 @@ const VideoList: React.FC = () => {
       const isNearBottom = scrollY + windowHeight >= scrollHeight - 200
 
       if (isNearBottom && !isLoading && popularVideoDataList) {
+        setDisplayCount((prevDisplayCount) => prevDisplayCount + scrolledItems)
         fetchMoreVideos()
       }
     }
@@ -53,56 +58,55 @@ const VideoList: React.FC = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll)
     }
-  }, [isLoading, fetchMoreVideos, allVideos])
+  }, [isLoading, popularVideoDataList, fetchMoreVideos])
 
   return (
     <>
       <ul className={styles.videoList}>
-        {allVideos &&
-          allVideos.map((video: IYoutubeItem, index: number) => {
-            const VIDEO = video.snippet
-            return (
-              <li
-                className={`videoCard ${styles.videoCard}`}
-                key={video.id.videoId + index}
+      {allVideos.slice(0, displayCount).map((video: IYoutubeItem, index: number) => {
+        const VIDEO = video.snippet
+          return (
+            <li
+              className={`videoCard ${styles.videoCard}`}
+              key={video.id.videoId + index}
+            >
+              <Link
+                className={styles.videoLink}
+                href={{
+                  pathname: `/detail/${video.id.videoId}`,
+                }}
               >
-                <Link
-                  className={styles.videoLink}
-                  href={{
-                    pathname: `/detail/${video.id.videoId}`,
-                  }}
-                >
-                  <div>
-                    <Image
-                      className={styles.videoImage}
-                      src={VIDEO.thumbnails.medium.url}
-                      width={0}
+                <div>
+                  <Image
+                    className={styles.videoImage}
+                    src={VIDEO.thumbnails.medium.url}
+                    width={0}
                     height={0}
                     sizes="18.15rem"
                     style={{width: '18.15rem', height: 'auto'}}
                     alt={VIDEO.title}
-                    />
-                  </div>
-                  <div className={styles.title}>
-                    <h4>{VIDEO.title}</h4>
-                  </div>
-                </Link>
-                <Link
-                  className={styles.videoLink}
-                  href={{
-                    pathname: `/detail/${video.id.videoId}`,
-                  }}
-                >
-                  <div className={styles.channelTitle}>
-                    <span>{VIDEO.channelTitle}</span>
-                  </div>
-                </Link>
-                <div className={styles.publishedAt}>
-                  <span>{formatRelativeDate(VIDEO.publishedAt)}</span>
+                  />
                 </div>
-              </li>
-            )
-          })}
+                <div className={styles.title}>
+                  <h4>{VIDEO.title}</h4>
+                </div>
+              </Link>
+              <Link
+                className={styles.videoLink}
+                href={{
+                  pathname: `/detail/${video.id.videoId}`,
+                }}
+              >
+                <div className={styles.channelTitle}>
+                  <span>{VIDEO.channelTitle}</span>
+                </div>
+              </Link>
+              <div className={styles.publishedAt}>
+                <span>{formatRelativeDate(VIDEO.publishedAt)}</span>
+              </div>
+            </li>
+          )
+        })}
       </ul>
       {isLoading && <p>Loading...</p>}
       <ScrollBtn />

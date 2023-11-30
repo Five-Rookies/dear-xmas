@@ -7,6 +7,7 @@ import ActivityCalendar from 'react-github-calendar'
 import { Tooltip as ReactTooltip } from 'react-tooltip'
 import 'react-tooltip/dist/react-tooltip.css'
 import useStore from '@/status/store'
+import Image from 'next/image'
 interface Day {
   date: string
   count: number
@@ -57,7 +58,14 @@ const Member = ({ member }: { member: IDeveloper }) => {
     <>
       <div className={styles.memberBox}>
         <div className={styles.memberInfo}>
-          <img src={`/assets/mimoticon/mimoticon-${member.img}.png`} alt="" />
+          <Image
+            src={`/assets/mimoticon/mimoticon-${member.img}.png`}
+            width={0}
+            height={0}
+            sizes="8rem"
+            style={{width: '8rem', height: 'auto'}}
+            alt=""
+          />
           <div className={styles.textBox}>
             <p className={styles.name}>
               {member.name}
