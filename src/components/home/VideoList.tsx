@@ -21,6 +21,7 @@ const VideoList: React.FC = () => {
     32,
     pageToken,
   )
+  //console.log(popularVideoDataList)
   const scrolledItems = 4
   const [displayCount, setDisplayCount] = useState(scrolledItems)
 
@@ -33,7 +34,6 @@ const VideoList: React.FC = () => {
       if (nextPageVideos.length > 0) {
         setAllVideos(prevVideos => [...prevVideos, ...nextPageVideos])
         setPageToken(popularVideoDataList!.nextPageToken)
-        console.log(popularVideoDataList!.nextPageToken)
       }
     } finally {
       setIsLoading(false)

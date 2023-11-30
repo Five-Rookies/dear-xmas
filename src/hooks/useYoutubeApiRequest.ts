@@ -15,10 +15,11 @@ const youtubeApiRequest = async (
   setQuotaExhausted: () => void,
   optionalQuery: string = '&q=크리스마스|크리스마스영화',
   maxResults: number = 32,
+  pageToken: string | undefined
 ) => {
   const ACCESS_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
   const baseURL = `https://youtube.googleapis.com/youtube/v3/search?part=snippet`
-  const commonQuery = `&nextPageToken&regionCode=kr&type=video&order=relevance&videoSyndicated=true&maxResults=${maxResults}`
+  const commonQuery = `&nextPageToken=${pageToken}&regionCode=kr&type=video&order=relevance&videoSyndicated=true&maxResults=${maxResults}`
   const URL = `${baseURL}${commonQuery}${optionalQuery}&key=${ACCESS_KEY}`
 
   try {
@@ -59,7 +60,7 @@ const useYoutubeDataRequest = (
   apiType: string = 'popular',
   optionalQuery: string = '&q=크리스마스|크리스마스영화',
   maxResults: number = 32,
-  pageToken: any
+  pageToken: string | undefined
   // pageToken: any
 ) => {
   const { isApiQuotaExhausted, setQuotaExhausted } = useStore()
@@ -76,6 +77,7 @@ const useYoutubeDataRequest = (
             setQuotaExhausted,
             optionalQuery,
             maxResults,
+            pageToken
           )
         } catch (error) {
           printErrorMessage(error)
