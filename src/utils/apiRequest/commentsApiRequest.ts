@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
 import { createClient } from '@supabase/supabase-js'
-import Comments from '@/type/SupabaseRespons'
+import Comments from '@/type/SupabaseResponse'
 
 const tableName =
   process.env.NEXT_PUBLIC_IS_DEV_MODE === 'true' ? 'comments' : 'comments_PROD'

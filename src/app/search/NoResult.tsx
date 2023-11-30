@@ -1,8 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from './search.module.scss'
 import Image from 'next/image'
-
+import styles from './search.module.scss'
 
 const NoResult = () => {
   return (
@@ -16,7 +15,7 @@ const NoResult = () => {
           width={0}
           height={0}
           sizes="25rem"
-          style={{width: '25rem', height: 'auto'}}
+          style={{ width: '25rem', height: 'auto' }}
           alt=""
         />
         <Link href="/">홈으로 돌아가기</Link>

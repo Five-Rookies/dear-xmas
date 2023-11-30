@@ -1,8 +1,8 @@
 import React from 'react'
 import VideoList from '@/components/home/VideoList'
-import styles from './page.module.scss'
 import Image from 'next/image'
 import ChristmasCounter from '@/components/home/ChristmasCounter'
+import styles from './page.module.scss'
 
 const Home = () => {
   return (

@@ -1,11 +1,12 @@
 'use client'
-import React, { useEffect, useRef, useState } from 'react'
+
+import React, { useRef } from 'react'
+import { usePathname } from 'next/navigation'
 import {
   createComments,
   getComments,
 } from '@/utils/apiRequest/commentsApiRequest'
-import { usePathname } from 'next/navigation'
-import IComments from '@/type/SupabaseRespons'
+import IComments from '@/type/SupabaseResponse'
 
 const CreateComment = ({
   profile,

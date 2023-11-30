@@ -4,9 +4,9 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import useStore from '@/status/store'
 import styles from './header.module.scss'
 import HeaderInput from './HeaderInput'
-import useStore from '@/status/store'
 
 const Header = (): React.JSX.Element => {
   const { isDark, toggleDarkMode } = useStore()

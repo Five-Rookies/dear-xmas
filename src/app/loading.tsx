@@ -1,5 +1,5 @@
-import styles from './page.module.scss'
 import Image from 'next/image'
+import styles from './page.module.scss'
 
 const Loading = () => {
   return (
@@ -12,7 +12,7 @@ const Loading = () => {
           width={0}
           height={0}
           sizes="15rem"
-          style={{width: '15rem', height: 'auto'}}
+          style={{ width: '15rem', height: 'auto' }}
           alt=""
         />
       </div>

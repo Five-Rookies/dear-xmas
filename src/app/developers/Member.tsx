@@ -1,4 +1,5 @@
 'use client'
+
 import React, { useEffect, useState } from 'react'
 import styles from './developers.module.scss'
 import { IDeveloper } from '@/type/Component'
@@ -8,6 +9,7 @@ import { Tooltip as ReactTooltip } from 'react-tooltip'
 import 'react-tooltip/dist/react-tooltip.css'
 import useStore from '@/status/store'
 import Image from 'next/image'
+
 interface Day {
   date: string
   count: number
@@ -63,13 +65,13 @@ const Member = ({ member }: { member: IDeveloper }) => {
             width={0}
             height={0}
             sizes="8rem"
-            style={{width: '8rem', height: 'auto'}}
+            style={{ width: '8rem', height: 'auto' }}
             alt=""
           />
           <div className={styles.textBox}>
             <p className={styles.name}>
               {member.name}
-              <span>FE/BE{member.img == 'song' && '/UIUX'}</span>
+              <span>FE/BE{member.img === 'song' && '/UIUX'}</span>
             </p>
             <p className={styles.introdution}>{member.intro}</p>
             <div className={styles.contact}>

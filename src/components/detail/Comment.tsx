@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useState, Dispatch, SetStateAction, useRef } from 'react'
-import Comments from '@/type/SupabaseRespons'
 import formatRelativeDate from '@/utils/relativeDate'
 import {
   deleteComments,
@@ -14,8 +13,9 @@ import snowman from '@public/assets/profile-snowman.svg'
 import candle from '@public/assets/profile-candle.svg'
 import cookie from '@public/assets/profile-cookie.svg'
 import likeIcon from '@public/assets/like.svg'
-import IComment from '@/type/SupabaseRespons'
 import styles from '@/app/detail/[id]/detail.module.scss'
+import IComment from '@/type/SupabaseResponse'
+import Comments from '@/type/SupabaseResponse'
 
 interface CommentProps {
   comment: Comments
