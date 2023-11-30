@@ -34,11 +34,13 @@
 
 ✨ 협업 : <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white"/> <img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=Discord&logoColor=white"/>
 
+✨ 배포 : <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white"/> 
+
 <br>
 
 ### [개발 환경]
-코드 충돌을 줄이고 브랜치 관리가 용이한 **Git Flow** 방식을 사용하여 Develop 브랜치를 만들고<br>
-각자 작업 브랜치를 따로 생성하여 작업하고, Develop 브랜치로 PR을 올립니다.<br>
+코드 충돌을 줄이고 브랜치 관리가 용이한 **Git Flow** 방식을 사용하여 기능 브랜치를 만들고<br>
+각자 작업 브랜치를 따로 생성하여 작업하고, 기능 브랜치로 PR을 올립니다.<br>
 PR은 코드 리뷰 담당자를 지정하여 검토 후 Merge를 진행합니다.
 
 </br>
