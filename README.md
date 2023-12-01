@@ -6,7 +6,7 @@
 
 </br>
 
-🔗배포 URL : https://merry-christmas-rouge.vercel.app/
+🔗 1차 배포 URL : https://dear-xmas-first-build.vercel.app/
 
 </br>
 
