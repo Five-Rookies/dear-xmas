@@ -42,9 +42,9 @@ const Member = ({ member }: { member: IDeveloper }) => {
     const handleResize = () => {
       const width = window.innerWidth
       if (width <= 768 && width >= 480) {
-        setDisplayWidth(10)
+        setDisplayWidth(11)
       } else {
-        setDisplayWidth(8)
+        setDisplayWidth(9)
       }
     }
     handleResize()
@@ -91,7 +91,7 @@ const Member = ({ member }: { member: IDeveloper }) => {
               renderBlock={(block, activity) => {
                 return React.cloneElement(block, {
                   'data-tooltip-id': 'react-tooltip',
-                  'data-tooltip-content': `${activity.date}에 ${activity.count}번 커밋함`,
+                  'data-tooltip-content': `${activity.date}에 ${activity.count}번의 Contribution`,
                 })
               }}
             />

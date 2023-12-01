@@ -4,7 +4,7 @@ import './globals.scss'
 import Header from '../components/layout/Header'
 
 export const metadata: Metadata = {
-  title: 'Christmas',
+  title: 'Dear,Xmas',
   description: 'Christmas playground project',
 }
 
