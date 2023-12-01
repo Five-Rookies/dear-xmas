@@ -82,16 +82,16 @@ $main-color: #ff1e1e;
         padding: 0 1rem;
         color: #eee;
       }
+      a:first-child span {
+        color: $main-color;
+        &:hover {
+          border-bottom: 1px solid $main-color;
+        }
+      }
       span {
         cursor: pointer;
         &:hover {
           border-bottom: 1px solid var(--color-text);
-        }
-      }
-      span:first-child {
-        color: $main-color;
-        &:hover {
-          border-bottom: 1px solid $main-color;
         }
       }
     }
