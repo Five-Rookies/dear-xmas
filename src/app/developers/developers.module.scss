@@ -33,6 +33,7 @@ section {
     padding: 4rem 0 2rem;
     max-width: 80rem;
     margin: 0 auto;
+
     .developerBox {
       display: flex;
       justify-content: space-between;
@@ -40,6 +41,7 @@ section {
       .memberBox {
         margin: 2rem 0;
         overflow: hidden;
+
         @media (min-width: 480px) {
           width: 49%;
         }
@@ -78,6 +80,8 @@ section {
           padding: 20px;
           border: 1px solid #eee;
           transition: all 0.3s ease-in-out;
+          display: flex;
+          justify-content: center;
           svg:first-child {
             height: 140px;
           }
