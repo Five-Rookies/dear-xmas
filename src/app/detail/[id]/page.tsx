@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import { IYoutubeResponse, IYoutubeItem } from '@/type/Api'
+import { IYoutubeResponse, IYoutubeItem } from '@/type/YoutubeApiResponse'
 import RelatedVedio from '@/app/detail/[id]/RelatedVedio'
 import CommentList from '@/components/detail/CommentList'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
@@ -10,7 +10,12 @@ import DetailHeader from './DetailHeader'
 
 const Detail = (props: any) => {
   const currentVideoId = props.params.id
-  const popularVideoDataList = useYoutubeDataRequest()
+  const popularVideoDataList = useYoutubeDataRequest(
+    'popular',
+    '&q=크리스마스|크리스마스영화',
+    32,
+    undefined,
+  )
   const [currentVideo, setCurrentVideo] = useState<IYoutubeItem | null>(null)
 
   useEffect(() => {

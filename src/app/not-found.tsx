@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import styles from './page.module.scss'
 import Image from 'next/image'
+import styles from './page.module.scss'
 
 const NotFound = () => {
   return (
@@ -13,7 +13,7 @@ const NotFound = () => {
           width={0}
           height={0}
           sizes="15rem"
-          style={{width: '15rem', height: 'auto'}}
+          style={{ width: '15rem', height: 'auto' }}
           alt=""
         />
         <Link href="/">홈으로 돌아가기</Link>

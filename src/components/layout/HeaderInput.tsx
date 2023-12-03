@@ -7,6 +7,7 @@ import styles from './header.module.scss'
 const HeaderInput = (): React.JSX.Element => {
   const router = useRouter()
   const searchInput = useRef<HTMLInputElement>(null)
+
   const handleSearch = (): void => {
     const searchTerm = searchInput?.current?.value
     if (!searchTerm) {
@@ -14,6 +15,7 @@ const HeaderInput = (): React.JSX.Element => {
     }
     router.push(`/search?info=${encodeURIComponent(searchTerm)}`)
   }
+
   const handleKeyPress = (
     event: React.KeyboardEvent<HTMLInputElement>,
   ): void => {

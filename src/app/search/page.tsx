@@ -4,10 +4,10 @@ import React, { useState, useEffect, useCallback } from 'react'
 import { useSearchParams } from 'next/navigation'
 import Link from 'next/link'
 import formatRelativeDate from '@/utils/relativeDate'
-import { IYoutubeItem } from '@/type/Api'
+import { IYoutubeItem } from '@/type/YoutubeApiResponse'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
-import styles from '../page.module.scss'
 import Image from 'next/image'
+import styles from '../page.module.scss'
 import NoResult from './NoResult'
 
 const Search = (): React.ReactElement => {
@@ -20,7 +20,7 @@ const Search = (): React.ReactElement => {
     'search',
     `&q=${search}`,
     25,
-    pageToken
+    pageToken,
   )
   const scrolledItems = 4
   const [displayCount, setDisplayCount] = useState(scrolledItems)
@@ -49,7 +49,7 @@ const Search = (): React.ReactElement => {
       setIsLoading(false)
     }
   }, [isLoading, currentSearchResult])
-  
+
   useEffect(() => {
     if (currentSearchResult) {
       handleSearch()
@@ -63,7 +63,7 @@ const Search = (): React.ReactElement => {
       const isNearBottom = scrollY + windowHeight >= scrollHeight - 200
 
       if (isNearBottom && !isLoading && currentSearchResult) {
-        setDisplayCount((prevDisplayCount) => prevDisplayCount + scrolledItems)
+        setDisplayCount(prevDisplayCount => prevDisplayCount + scrolledItems)
         fetchMoreVideos()
       }
     }
@@ -79,55 +79,55 @@ const Search = (): React.ReactElement => {
     <>
       {filteredItems.length ? (
         <div className="inner-box">
-            <ul className={styles.videoList}>
-              {filteredItems.map((video: IYoutubeItem) => {
-                const VIDEO = video.snippet
-                return (
-                  <li className={styles.videoCard} key={video.id.videoId}>
-                    <Link
-                      className={styles.videoLink}
-                      href={{
-                        pathname: `/detail/${video.id.videoId}`,
-                      }}
-                    >
-                      <div>
-                        <Image
-                          className={styles.videoImage}
-                          src={VIDEO.thumbnails.medium.url}
-                          width={0}
-                          height={0}
-                          sizes="18.15rem"
-                          style={{width: '18.15rem', height: 'auto'}}
-                          layout="responsive"
-                          alt={VIDEO.title}
-                        />
-                      </div>
-                      <div className={styles.title}>
-                        <h4>{VIDEO.title}</h4>
-                      </div>
-                    </Link>
-                    <Link
-                      className={styles.videoLink}
-                      href={{
-                        pathname: `/detail/${video.id.videoId}`,
-                      }}
-                    >
-                      <div className={styles.channelTitle}>
-                        <span>{VIDEO.channelTitle}</span>
-                      </div>
-                    </Link>
-                    <div className={styles.publishedAt}>
-                      <span>{formatRelativeDate(VIDEO.publishedAt)}</span>
+          <ul className={styles.videoList}>
+            {filteredItems.map((video: IYoutubeItem) => {
+              const VIDEO = video.snippet
+              return (
+                <li className={styles.videoCard} key={video.id.videoId}>
+                  <Link
+                    className={styles.videoLink}
+                    href={{
+                      pathname: `/detail/${video.id.videoId}`,
+                    }}
+                  >
+                    <div>
+                      <Image
+                        className={styles.videoImage}
+                        src={VIDEO.thumbnails.medium.url}
+                        width={0}
+                        height={0}
+                        sizes="18.15rem"
+                        style={{ width: '18.15rem', height: 'auto' }}
+                        layout="responsive"
+                        alt={VIDEO.title}
+                      />
                     </div>
-                  </li>
-                )
-              })}
-            </ul>
-          </div>
+                    <div className={styles.title}>
+                      <h4>{VIDEO.title}</h4>
+                    </div>
+                  </Link>
+                  <Link
+                    className={styles.videoLink}
+                    href={{
+                      pathname: `/detail/${video.id.videoId}`,
+                    }}
+                  >
+                    <div className={styles.channelTitle}>
+                      <span>{VIDEO.channelTitle}</span>
+                    </div>
+                  </Link>
+                  <div className={styles.publishedAt}>
+                    <span>{formatRelativeDate(VIDEO.publishedAt)}</span>
+                  </div>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
       ) : (
-      <NoResult />
-    )}
-  </>
+        <NoResult />
+      )}
+    </>
   )
 }
 

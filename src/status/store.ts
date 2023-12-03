@@ -7,12 +7,13 @@ interface Store {
   toggleDarkMode: (state: boolean) => void
   setQuotaExhausted: () => void
 }
+
 const useStore = create<Store>()(
   persist(
     set => ({
       isDark: false,
       isApiQuotaExhausted: false,
-      toggleDarkMode: (state: boolean) => set({ isDark: state }),
+      toggleDarkMode: state => set({ isDark: state }),
       setQuotaExhausted: () => set({ isApiQuotaExhausted: true }),
     }),
     {

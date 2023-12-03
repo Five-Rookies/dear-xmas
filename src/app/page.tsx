@@ -1,8 +1,8 @@
 import React from 'react'
 import VideoList from '@/components/home/VideoList'
-import styles from './page.module.scss'
 import Image from 'next/image'
 import ChristmasCounter from '@/components/home/ChristmasCounter'
+import styles from './page.module.scss'
 
 const Home = () => {
   return (
@@ -100,10 +100,9 @@ const Home = () => {
         <Image
           className={styles.santa}
           src="/assets/santa.png"
-          width={0}
-          height={0}
-          sizes="30rem"
-          style={{ width: '30rem', height: 'auto' }}
+          width={480}
+          height={452}
+          sizes="(max-width: 768px) 100%, 30rem"
           alt=""
         />
         <ChristmasCounter />

@@ -1,13 +1,13 @@
 'use client'
 
-import React, { useState, useEffect, useCallback } from 'react';
-import Link from 'next/link';
-import { IYoutubeItem } from '@/type/Api';
-import formatRelativeDate from '@/utils/relativeDate';
-import ScrollBtn from '@/components/ScrollBtn';
-import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest';
-import styles from './detail.module.scss';
-import Image from 'next/image';
+import React, { useState, useEffect, useCallback } from 'react'
+import Link from 'next/link'
+import { IYoutubeItem } from '@/type/YoutubeApiResponse'
+import formatRelativeDate from '@/utils/relativeDate'
+import ScrollBtn from '@/components/ScrollBtn'
+import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
+import Image from 'next/image'
+import styles from './detail.module.scss'
 
 const RelatedVedio = ({ channelId }: { channelId: string }) => {
   const [pageToken, setPageToken] = useState<string | undefined>(undefined)
@@ -17,9 +17,8 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
     'detail',
     `&channel_id=${channelId}`,
     25,
-    pageToken
+    pageToken,
   )
-
   const scrolledItems = 1
   const [displayCount, setDisplayCount] = useState(scrolledItems)
 
@@ -47,7 +46,7 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
       const isNearBottom = scrollY + windowHeight >= scrollHeight - 200
 
       if (isNearBottom && !isLoading && currentChannelDataList) {
-        setDisplayCount((prevDisplayCount) => prevDisplayCount + scrolledItems)
+        setDisplayCount(prevDisplayCount => prevDisplayCount + scrolledItems)
         fetchMoreVideos()
       }
     }
@@ -59,47 +58,44 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
     }
   }, [isLoading, currentChannelDataList, fetchMoreVideos])
 
-  // useEffect(() => {
-  //   if (currentChannelDataList !== null)
-  //     setVideoData(currentChannelDataList.items)
-  // }, [currentChannelDataList])
-
   return (
     <section>
       <h3 className={styles.relatedTitle}>관련된 영상</h3>
       <ul className={styles.list}>
-        {videoData && videoData.slice(0, displayCount).map((item: IYoutubeItem) => (
-          <li key={item.id.videoId} className={styles.listItem}>
-            <Link
-              href={`https://www.youtube.com/watch?v=${item.id.videoId}`}
-              className={styles.listLink}
-            >
-              <figure className={styles.listImg}>
-                <Image
-                  src={item.snippet.thumbnails.medium.url}
-                  width={0}
-                  height={0}
-                  sizes="100vw"
-                  style={{ width: '100%', height: 'auto' }}
-                  layout="responsive"
-                  alt={item.snippet.title}
-                />
-              </figure>
-              <div className={styles.listTitleWrap}>
-                <h4 className={styles.listTitle}>{item.snippet.title}</h4>
-                <p className={styles.channelTitle}>{item.snippet.channelTitle}</p>
-                <span className={styles.publishedAt}>
-                  {formatRelativeDate(item.snippet.publishedAt)}
-                </span>
-              </div>
-            </Link>
-          </li>
-        ))}
+        {videoData &&
+          videoData.slice(0, displayCount).map((item: IYoutubeItem) => (
+            <li key={item.id.videoId} className={styles.listItem}>
+              <Link
+                href={`https://www.youtube.com/watch?v=${item.id.videoId}`}
+                className={styles.listLink}
+              >
+                <figure className={styles.listImg}>
+                  <Image
+                    src={item.snippet.thumbnails.medium.url}
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }}
+                    layout="responsive"
+                    alt={item.snippet.title}
+                  />
+                </figure>
+                <div className={styles.listTitleWrap}>
+                  <h4 className={styles.listTitle}>{item.snippet.title}</h4>
+                  <p className={styles.channelTitle}>
+                    {item.snippet.channelTitle}
+                  </p>
+                  <span className={styles.publishedAt}>
+                    {formatRelativeDate(item.snippet.publishedAt)}
+                  </span>
+                </div>
+              </Link>
+            </li>
+          ))}
       </ul>
-      {/* {isLoading && <p>Loading...</p>} */}
       <ScrollBtn />
     </section>
-  );
-};
+  )
+}
 
-export default RelatedVedio;
+export default RelatedVedio

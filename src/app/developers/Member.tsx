@@ -1,4 +1,5 @@
 'use client'
+
 import React, { useEffect, useState } from 'react'
 import styles from './developers.module.scss'
 import { IDeveloper } from '@/type/Component'
@@ -8,6 +9,7 @@ import { Tooltip as ReactTooltip } from 'react-tooltip'
 import 'react-tooltip/dist/react-tooltip.css'
 import useStore from '@/status/store'
 import Image from 'next/image'
+
 interface Day {
   date: string
   count: number
@@ -40,9 +42,9 @@ const Member = ({ member }: { member: IDeveloper }) => {
     const handleResize = () => {
       const width = window.innerWidth
       if (width <= 768 && width >= 480) {
-        setDisplayWidth(10)
+        setDisplayWidth(11)
       } else {
-        setDisplayWidth(8)
+        setDisplayWidth(9)
       }
     }
     handleResize()
@@ -53,6 +55,7 @@ const Member = ({ member }: { member: IDeveloper }) => {
   }, [])
   const explicitTheme = {
     light: [`hsl(0, 0%, ${isDark ? '0%' : '90%'})`, '#0DAA37'],
+    dark: [`hsl(0, 0%, ${isDark ? '0%' : '90%'})`, '#0DAA37'],
   }
   return (
     <>
@@ -63,13 +66,13 @@ const Member = ({ member }: { member: IDeveloper }) => {
             width={0}
             height={0}
             sizes="8rem"
-            style={{width: '8rem', height: 'auto'}}
+            style={{ width: '8rem', height: 'auto' }}
             alt=""
           />
           <div className={styles.textBox}>
             <p className={styles.name}>
               {member.name}
-              <span>FE/BE{member.img == 'song' && '/UIUX'}</span>
+              <span>FE/BE{member.img === 'song' && '/UIUX'}</span>
             </p>
             <p className={styles.introdution}>{member.intro}</p>
             <div className={styles.contact}>
@@ -88,7 +91,7 @@ const Member = ({ member }: { member: IDeveloper }) => {
               renderBlock={(block, activity) => {
                 return React.cloneElement(block, {
                   'data-tooltip-id': 'react-tooltip',
-                  'data-tooltip-content': `${activity.date}에 ${activity.count}번 커밋함`,
+                  'data-tooltip-content': `${activity.date}에 ${activity.count}번의 Contribution`,
                 })
               }}
             />

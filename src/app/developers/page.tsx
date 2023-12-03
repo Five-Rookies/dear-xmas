@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from './developers.module.scss'
-import Member from './Member'
 import { IDeveloper } from '@/type/Component'
 import Image from 'next/image'
+import styles from './developers.module.scss'
+import Member from './Member'
 
 const title = (subTItle: string, title: string, intro: string) => {
   return (
@@ -73,7 +73,7 @@ const Developers = () => {
                     width={0}
                     height={0}
                     sizes="4.5rem"
-                    style={{width: '100%', height: 'auto'}}
+                    style={{ width: '100%', height: 'auto' }}
                     alt={skill}
                   />
                 </li>

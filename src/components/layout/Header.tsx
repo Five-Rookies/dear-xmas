@@ -4,9 +4,9 @@ import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import useStore from '@/status/store'
 import styles from './header.module.scss'
 import HeaderInput from './HeaderInput'
-import useStore from '@/status/store'
 
 const Header = (): React.JSX.Element => {
   const { isDark, toggleDarkMode } = useStore()
@@ -71,9 +71,13 @@ const Header = (): React.JSX.Element => {
           {renderThemeToggle()}
         </button>
         <div className={styles.account}>
-          <span>로그인</span>
+          <Link href="signIn">
+            <span>로그인</span>
+          </Link>
           <p className={styles.line}>|</p>
-          <span>회원가입</span>
+          <Link href="signUp">
+            <span>회원가입</span>
+          </Link>
         </div>
         <FontAwesomeIcon className={styles.barIcon} icon={faBars} />
       </div>

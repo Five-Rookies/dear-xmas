@@ -3,7 +3,7 @@
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import useStore from '@/status/store'
-import { IYoutubeResponse } from '@/type/Api'
+import { IYoutubeResponse } from '@/type/YoutubeApiResponse'
 
 const printErrorMessage = (error: unknown) => {
   if (error instanceof Error) {
@@ -13,9 +13,9 @@ const printErrorMessage = (error: unknown) => {
 
 const youtubeApiRequest = async (
   setQuotaExhausted: () => void,
-  optionalQuery: string = '&q=크리스마스|크리스마스영화',
-  maxResults: number = 32,
-  pageToken: string | undefined
+  optionalQuery: string,
+  maxResults: number,
+  pageToken: string | undefined,
 ) => {
   const ACCESS_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
   const baseURL = `https://youtube.googleapis.com/youtube/v3/search?part=snippet`
@@ -32,10 +32,7 @@ const youtubeApiRequest = async (
   }
 }
 
-const youtubeJsonRequest = async (
-  apiType: string = 'popular',
-  optionalQuery: string = '',
-) => {
+const youtubeJsonRequest = async (apiType: string, optionalQuery: string) => {
   try {
     let jsonData
     if (apiType === 'popular' || apiType === 'search') {
@@ -57,11 +54,10 @@ const youtubeJsonRequest = async (
 }
 
 const useYoutubeDataRequest = (
-  apiType: string = 'popular',
-  optionalQuery: string = '&q=크리스마스|크리스마스영화',
-  maxResults: number = 32,
-  pageToken: string | undefined
-  // pageToken: any
+  apiType: string,
+  optionalQuery: string,
+  maxResults: number,
+  pageToken: string | undefined,
 ) => {
   const { isApiQuotaExhausted, setQuotaExhausted } = useStore()
   const [data, setData] = useState<IYoutubeResponse | null>(null)
@@ -77,7 +73,7 @@ const useYoutubeDataRequest = (
             setQuotaExhausted,
             optionalQuery,
             maxResults,
-            pageToken
+            pageToken,
           )
         } catch (error) {
           printErrorMessage(error)
