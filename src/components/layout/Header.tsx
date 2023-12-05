@@ -7,6 +7,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 import useStore from '@/status/store'
 import styles from './header.module.scss'
 import HeaderInput from './HeaderInput'
+import DropDownMenu from './DropDownMenu'
 
 const Header = (): React.JSX.Element => {
   const { isDark, toggleDarkMode } = useStore()
@@ -44,6 +45,7 @@ const Header = (): React.JSX.Element => {
 
   return (
     <header className={styles.header}>
+      <DropDownMenu />
       <div className={styles.innerBox}>
         <h1>
           <Link href="/" style={{ display: 'flex' }}>
