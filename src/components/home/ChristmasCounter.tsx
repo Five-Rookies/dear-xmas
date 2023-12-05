@@ -41,8 +41,10 @@ const ChristmasCounter = () => {
 
   return (
     <div className={styles.counter}>
-      <h2>{dayRemaining}</h2>
-      <h4>{timeRemaining}</h4>
+      <div className={styles.counterContent}>
+        <h2>{dayRemaining}</h2>
+        <h4>{timeRemaining}</h4>
+      </div>
     </div>
   )
 }
