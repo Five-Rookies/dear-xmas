@@ -1,7 +1,9 @@
-import React from 'react'
-import styles from './sign.module.scss'
+'use client'
 
-const page = () => {
+import React from 'react'
+import styles from '@/app/(sign)/_components/sign.module.scss'
+
+const SignUp = () => {
   return (
     <main className={styles.container}>
       <h1>회원가입</h1>
@@ -37,10 +39,9 @@ const page = () => {
         </div>
 
         <button type="submit">회원가입</button>
-        <span>@Copyright 2023. Five Rookies All rights reserved.</span>
       </form>
     </main>
   )
 }
 
-export default page
+export default SignUp

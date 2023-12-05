@@ -1,12 +1,18 @@
+'use client'
+
 import React from 'react'
-import styles from '@/app/signUp/sign.module.scss'
+import styles from '@/app/(sign)/_components/sign.module.scss'
 import Link from 'next/link'
 
-const page = () => {
+const FindPassword = () => {
   return (
-    <main className={`${styles.singInContainer} ${styles.container}`}>
+    <main className={styles.container}>
       <h1>비밀번호 찾기</h1>
       <form>
+        <div className="input-field">
+          <h3>아이디</h3>
+          <input type="text" placeholder="아이디를 입력해주세요" />
+        </div>
         <div className="input-field">
           <h3>비밀번호 찾기 힌트</h3>
           <input
@@ -33,4 +39,4 @@ const page = () => {
   )
 }
 
-export default page
+export default FindPassword
