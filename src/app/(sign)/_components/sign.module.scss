@@ -1,13 +1,10 @@
 .container {
   width: 30rem;
   padding: 35px;
-  position: absolute;
-  margin-top: 5rem;
+  margin: auto;
   border: none;
   transition: all 0.3s;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  padding-top: 9.375rem;
   h1 {
     color: var(--color-text);
     text-align: center;
@@ -98,13 +95,6 @@
       border-bottom: 2px solid var(--color-text);
     }
   }
-}
-
-.singInContainer {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .account {

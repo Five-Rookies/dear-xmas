@@ -5,7 +5,7 @@ import styles from '@/app/page.module.scss'
 import formatRelativeDate from '@/utils/relativeDate'
 import Link from 'next/link'
 import { IYoutubeItem } from '@/type/YoutubeApiResponse'
-import ScrollBtn from '@/components/ScrollBtn'
+import ScrollBtn from '@/app/(common)/_components/ScrollBtn'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import Image from 'next/image'
 

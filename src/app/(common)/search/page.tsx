@@ -7,7 +7,7 @@ import formatRelativeDate from '@/utils/relativeDate'
 import { IYoutubeItem } from '@/type/YoutubeApiResponse'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import Image from 'next/image'
-import styles from '../page.module.scss'
+import styles from '@/app/page.module.scss'
 import NoResult from './NoResult'
 
 const Search = (): React.ReactElement => {

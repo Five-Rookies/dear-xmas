@@ -1,10 +1,12 @@
+'use client'
+
 import React from 'react'
-import styles from '@/app/signUp/sign.module.scss'
+import styles from '@/app/(sign)/_components/sign.module.scss'
 import Link from 'next/link'
 
-const page = () => {
+const SignIn = () => {
   return (
-    <main className={`${styles.singInContainer} ${styles.container}`}>
+    <main className={styles.container}>
       <h1>로그인</h1>
       <form>
         <div className="input-field">
@@ -29,4 +31,4 @@ const page = () => {
   )
 }
 
-export default page
+export default SignIn

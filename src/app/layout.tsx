@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import './globals.scss'
 import Header from '../components/layout/Header'
 import Footer from '../components/layout/Footer'
+import ScrollBtn from './(common)/_components/ScrollBtn'
 
 export const metadata: Metadata = {
   title: 'Dear,Xmas',
@@ -19,6 +20,7 @@ export default function RootLayout({
       <body style={{ overflowX: 'hidden' }}>
         <Header />
         {children}
+        <ScrollBtn />
         <Footer />
       </body>
     </html>
