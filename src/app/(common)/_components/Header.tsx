@@ -7,12 +7,13 @@ import { faBars } from '@fortawesome/free-solid-svg-icons'
 import useStore from '@/status/store'
 import styles from './header.module.scss'
 import HeaderInput from './HeaderInput'
-import DropDownMenu from './DropDownMenu'
+import MainMenu from './MainMenu'
 
 const Header = (): React.JSX.Element => {
   const { isDark, toggleDarkMode } = useStore()
   const [hydrated, setHydrated] = useState(false)
   const [color, setColor] = useState(false)
+  const [isClicked, setIsClicked] = useState(false);
 
   const onClickDarkMode = (): void => {
     toggleDarkMode(!isDark)
@@ -37,6 +38,10 @@ const Header = (): React.JSX.Element => {
     }
   }
 
+  const toggleMainMenu = () => {
+    setIsClicked(!isClicked);
+  }
+
   useEffect(() => {
     setHydrated(true)
     isdarkMode()
@@ -45,7 +50,6 @@ const Header = (): React.JSX.Element => {
 
   return (
     <header className={styles.header}>
-      <DropDownMenu />
       <div className={styles.innerBox}>
         <h1>
           <Link href="/" style={{ display: 'flex' }}>
@@ -59,7 +63,7 @@ const Header = (): React.JSX.Element => {
         </h1>
         <ul className={styles.navi}>
           <li>
-            <Link href="/">크리스마스</Link>
+            <button onClick={toggleMainMenu}>크리스마스</button>
           </li>
           <li>
             <Link href="/meetup">촛불모임</Link>
@@ -68,6 +72,9 @@ const Header = (): React.JSX.Element => {
             <Link href="/developers">개발자</Link>
           </li>
         </ul>
+        {isClicked && (
+          <MainMenu />
+        )}
         <HeaderInput />
         <button className={styles.darkModeIcon} onClick={onClickDarkMode}>
           {renderThemeToggle()}

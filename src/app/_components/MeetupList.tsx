@@ -1,4 +1,6 @@
 import React from 'react'
+import { IYoutubeItem } from '@/type/YoutubeApiResponse'
+import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import styles from '@/app/page.module.scss'
 import MainMeetupList from './MainMeetupList'
 
@@ -6,7 +8,7 @@ const MeetupList = () => {
   return (
     <section
       id="streaming"
-      className={`${styles.mainCommon} ${styles.streaming}`}
+      className={`${styles.mainCommon} ${styles.meetupList}`}
     >
       <div className="inner-box">
         <h2>Streaming</h2>
@@ -18,6 +20,7 @@ const MeetupList = () => {
             src="/assets/candystick.png"
             alt=""
           />
+          <img className={styles.leaf} src="/assets/leaf.png" alt="" />
           <img className={styles.star} src="/assets/star.png" alt="" />
           <img className={styles.star} src="/assets/star.png" alt="" />
         </div>
