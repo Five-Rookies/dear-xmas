@@ -15,7 +15,7 @@ const LiveChat = ({
   const [chat, setChat] = useState<ISupabase[]>([...serverData])
   const inputValue = useRef()
   useEffect(() => {
-    const getLive = supabase
+    const checkInsertLive = supabase
       .channel('table-db-changes')
       .on(
         'postgres_changes',
@@ -33,7 +33,7 @@ const LiveChat = ({
       .subscribe()
 
     return () => {
-      supabase.removeChannel(getLive)
+      supabase.removeChannel(checkInsertLive)
     }
   }, [supabase, chat, setChat])
 
