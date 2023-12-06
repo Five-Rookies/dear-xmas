@@ -5,7 +5,7 @@ import styles from '@/app/page.module.scss'
 import formatRelativeDate from '@/utils/relativeDate'
 import Link from 'next/link'
 import { IYoutubeItem } from '@/type/YoutubeApiResponse'
-import ScrollBtn from '@/components/ScrollBtn'
+import ScrollBtn from '@/app/(common)/_components/ScrollBtn'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import Image from 'next/image'
 
@@ -39,26 +39,26 @@ const VideoList: React.FC = () => {
     }
   }, [isLoading, popularVideoDataList])
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollY = window.scrollY || document.documentElement.scrollTop
-      const windowHeight =
-        window.innerHeight || document.documentElement.clientHeight
-      const { scrollHeight } = document.documentElement
-      const isNearBottom = scrollY + windowHeight >= scrollHeight - 200
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollY = window.scrollY || document.documentElement.scrollTop
+  //     const windowHeight =
+  //       window.innerHeight || document.documentElement.clientHeight
+  //     const { scrollHeight } = document.documentElement
+  //     const isNearBottom = scrollY + windowHeight >= scrollHeight - 200
 
-      if (isNearBottom && !isLoading && popularVideoDataList) {
-        setDisplayCount(prevDisplayCount => prevDisplayCount + scrolledItems)
-        fetchMoreVideos()
-      }
-    }
+  //     if (isNearBottom && !isLoading && popularVideoDataList) {
+  //       setDisplayCount(prevDisplayCount => prevDisplayCount + scrolledItems)
+  //       fetchMoreVideos()
+  //     }
+  //   }
 
-    window.addEventListener('scroll', handleScroll)
+  //   window.addEventListener('scroll', handleScroll)
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
-  }, [isLoading, popularVideoDataList, fetchMoreVideos])
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll)
+  //   }
+  // }, [isLoading, popularVideoDataList, fetchMoreVideos])
 
   return (
     <div className={styles.videoContainer}>
