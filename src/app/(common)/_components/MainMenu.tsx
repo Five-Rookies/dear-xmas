@@ -2,12 +2,12 @@ import React from 'react';
 import styles from './header.module.scss'
 import Link from 'next/link'
 
-const DropDownMenu = () => {
+const MainMenu = () => {
   return (
     <div className={styles.dropDownMenu}>
       <ul className="inner-box">
         <li style={{ backgroundColor: '#FEFFD9' }}>
-          <Link href="#counter" >
+          <Link href="/#counter" >
             <figure>
               <img src="/assets/calendar.png" alt="" />
             </figure>
@@ -15,7 +15,7 @@ const DropDownMenu = () => {
           </Link>
         </li>
         <li style={{ backgroundColor: '#5EC63A' }}>
-          <Link href="#streaming" >
+          <Link href="/#streaming" >
             <figure>
               <img src="/assets/bell.png" alt="" />
             </figure>
@@ -23,7 +23,7 @@ const DropDownMenu = () => {
           </Link>
         </li>
         <li style={{ backgroundColor: '#FFA132' }}>
-          <Link href="#slot" >
+          <Link href="/#slot" >
             <figure>
               <img src="/assets/slot-arrow.png" alt="" />
             </figure>
@@ -31,7 +31,7 @@ const DropDownMenu = () => {
           </Link>
         </li>
         <li style={{ backgroundColor: '#FB6B2D' }}>
-          <Link href="#survey" >
+          <Link href="/#survey" >
             <figure>
              <img src="/assets/gift.png" alt="" />
             </figure>
@@ -39,7 +39,7 @@ const DropDownMenu = () => {
           </Link>
         </li>
         <li style={{ backgroundColor: '#FB2D38' }}>
-          <Link href="#meetup" >
+          <Link href="/#meetup" >
             <figure>
              <img src="/assets/candles.png" alt="" />
             </figure>
@@ -75,4 +75,4 @@ const DropDownMenu = () => {
   );
 };
 
-export default DropDownMenu;
+export default MainMenu;

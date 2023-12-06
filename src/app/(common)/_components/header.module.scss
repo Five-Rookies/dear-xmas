@@ -8,11 +8,11 @@ $main-color: #ff1e1e;
   padding: 0.8rem 0;
   border-bottom: 0.1rem solid #eee;
   transition: all 0.3s ease-in-out;
-  &:hover .dropDownMenu{
-    display: block;
-    opacity: 1;
-    height: 32.3125rem;
-  }
+  // &:hover .dropDownMenu{
+  //   display: block;
+  //   opacity: 1;
+  //   height: 32.3125rem;
+  // }
   .innerBox {
     max-width: 80rem;
     margin: 0 auto;
@@ -118,9 +118,9 @@ $main-color: #ff1e1e;
     }
   }
   .dropDownMenu {
-    display: none;
-    opacity: 0;
-    height: 0;
+    // display: none;
+    // opacity: 0;
+    // height: 0;
     position: absolute;
     top: 100%;
     left: 0;
