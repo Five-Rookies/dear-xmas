@@ -12,14 +12,26 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  main,
+  meetuplist,
+  slot,
+  survey
 }: {
   children: React.ReactNode
+  main: React.ReactNode
+  meetuplist: React.ReactNode
+  slot: React.ReactNode
+  survey: React.ReactNode
 }) {
   return (
     <html>
       <body style={{ overflowX: 'hidden' }}>
         <Header />
         {children}
+        {main}
+        {meetuplist}
+        {slot}
+        {survey}
         <ScrollBtn />
         <Footer />
       </body>
