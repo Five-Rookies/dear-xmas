@@ -2,11 +2,11 @@
 
 import React, { useEffect, useState } from 'react'
 import { IYoutubeResponse, IYoutubeItem } from '@/type/YoutubeApiResponse'
-import RelatedVedio from '@/app/detail/[id]/RelatedVedio'
-import CommentList from '@/components/detail/CommentList'
+import RelatedVedio from '@/app/(meetUp)/detail/[id]/_components/RelatedVedio'
+import CommentList from '@/app/(meetUp)/detail/[id]/_components/CommentList'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import styles from './detail.module.scss'
-import DetailHeader from './DetailHeader'
+import DetailHeader from './_components/DetailHeader'
 
 const Detail = (props: any) => {
   const currentVideoId = props.params.id

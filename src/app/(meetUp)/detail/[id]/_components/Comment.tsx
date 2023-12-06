@@ -13,9 +13,9 @@ import snowman from '@public/assets/profile-snowman.svg'
 import candle from '@public/assets/profile-candle.svg'
 import cookie from '@public/assets/profile-cookie.svg'
 import likeIcon from '@public/assets/like.svg'
-import styles from '@/app/detail/[id]/detail.module.scss'
 import IComment from '@/type/SupabaseResponse'
 import Comments from '@/type/SupabaseResponse'
+import styles from '../detail.module.scss'
 
 interface CommentProps {
   comment: Comments

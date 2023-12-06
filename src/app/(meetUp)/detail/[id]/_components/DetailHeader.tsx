@@ -2,7 +2,7 @@
 
 import React from 'react'
 import { useRouter } from 'next/navigation'
-import styles from './detail.module.scss'
+import styles from '../detail.module.scss'
 
 const DetailHeader = ({ title }: { title: string }) => {
   const router = useRouter()
