@@ -1,13 +1,13 @@
 'use client'
 
 import React, { useEffect, useState, useCallback } from 'react'
-import styles from '@/app/page.module.scss'
 import formatRelativeDate from '@/utils/relativeDate'
 import Link from 'next/link'
 import { IYoutubeItem } from '@/type/YoutubeApiResponse'
 import ScrollBtn from '@/app/(common)/_components/ScrollBtn'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import Image from 'next/image'
+import styles from '../meetup.module.scss'
 
 type VideoListType = IYoutubeItem[]
 
@@ -21,23 +21,28 @@ const VideoList: React.FC = () => {
     32,
     pageToken,
   )
-  const scrolledItems = 4
+  const scrolledItems = 8
   const [displayCount, setDisplayCount] = useState(scrolledItems)
 
-  const fetchMoreVideos = useCallback(async () => {
-    if (isLoading) return
-
-    try {
-      setIsLoading(true)
-      const nextPageVideos = popularVideoDataList!.items
-      if (nextPageVideos.length > 0) {
-        setAllVideos(prevVideos => [...prevVideos, ...nextPageVideos])
-        setPageToken(popularVideoDataList!.nextPageToken)
-      }
-    } finally {
-      setIsLoading(false)
+  useEffect(() => {
+    if (popularVideoDataList) {
+      setAllVideos(popularVideoDataList.items)
     }
-  }, [isLoading, popularVideoDataList])
+  }, [popularVideoDataList])
+  // const fetchMoreVideos = useCallback(async () => {
+  //   if (isLoading) return
+
+  //   try {
+  //     setIsLoading(true)
+  //     const nextPageVideos = popularVideoDataList!.items
+  //     if (nextPageVideos.length > 0) {
+  //       setAllVideos(prevVideos => [...prevVideos, ...nextPageVideos])
+  //       setPageToken(popularVideoDataList!.nextPageToken)
+  //     }
+  //   } finally {
+  //     setIsLoading(false)
+  //   }
+  // }, [isLoading, popularVideoDataList])
 
   // useEffect(() => {
   //   const handleScroll = () => {
