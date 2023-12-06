@@ -7,7 +7,7 @@ import formatRelativeDate from '@/utils/relativeDate'
 import ScrollBtn from '@/app/(common)/_components/ScrollBtn'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import Image from 'next/image'
-import styles from './detail.module.scss'
+import styles from '../detail.module.scss'
 
 const RelatedVedio = ({ channelId }: { channelId: string }) => {
   const [pageToken, setPageToken] = useState<string | undefined>(undefined)
