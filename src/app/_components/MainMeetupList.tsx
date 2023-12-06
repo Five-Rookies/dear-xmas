@@ -1,19 +1,18 @@
-import React from 'react';
+import React from 'react'
 import styles from '@/app/page.module.scss'
-import Link from 'next/link';
+import Link from 'next/link'
 
 const MainMeetupList = () => {
   return (
     <ul className={styles.videoList}>
-      <li
-        className={`videoCard ${styles.videoCard}`}
-      >
-        <Link
-          className={styles.videoLink}
-          href="http://naver.com"
-        >
+      <li className={`videoCard ${styles.videoCard}`}>
+        <Link className={styles.videoLink} href="http://naver.com">
           <div>
-            <img className={styles.videoImage} src="http://via.placeholder.com/640x300" alt=""/>
+            <img
+              className={styles.videoImage}
+              src="http://via.placeholder.com/640x300"
+              alt=""
+            />
             <span className={styles.tag}>NOW</span>
           </div>
           <div className={styles.titleArea}>
@@ -27,15 +26,14 @@ const MainMeetupList = () => {
           </div>
         </Link>
       </li>
-      <li
-        className={`videoCard ${styles.videoCard}`}
-      >
-        <Link
-          className={styles.videoLink}
-          href="http://naver.com"
-        >
+      <li className={`videoCard ${styles.videoCard}`}>
+        <Link className={styles.videoLink} href="http://naver.com">
           <div>
-            <img className={styles.videoImage} src="http://via.placeholder.com/640x300" alt=""/>
+            <img
+              className={styles.videoImage}
+              src="http://via.placeholder.com/640x300"
+              alt=""
+            />
             <span className={styles.tag}>NOW</span>
           </div>
           <div className={styles.titleArea}>
@@ -49,15 +47,14 @@ const MainMeetupList = () => {
           </div>
         </Link>
       </li>
-      <li
-        className={`videoCard ${styles.videoCard}`}
-      >
-        <Link
-          className={styles.videoLink}
-          href="http://naver.com"
-        >
+      <li className={`videoCard ${styles.videoCard}`}>
+        <Link className={styles.videoLink} href="http://naver.com">
           <div>
-            <img className={styles.videoImage} src="http://via.placeholder.com/640x300" alt=""/>
+            <img
+              className={styles.videoImage}
+              src="http://via.placeholder.com/640x300"
+              alt=""
+            />
             <span className={styles.tag}>NOW</span>
           </div>
           <div className={styles.titleArea}>
@@ -71,15 +68,14 @@ const MainMeetupList = () => {
           </div>
         </Link>
       </li>
-      <li
-        className={`videoCard ${styles.videoCard}`}
-      >
-        <Link
-          className={styles.videoLink}
-          href="http://naver.com"
-        >
+      <li className={`videoCard ${styles.videoCard}`}>
+        <Link className={styles.videoLink} href="http://naver.com">
           <div>
-            <img className={styles.videoImage} src="http://via.placeholder.com/640x300" alt=""/>
+            <img
+              className={styles.videoImage}
+              src="http://via.placeholder.com/640x300"
+              alt=""
+            />
             <span className={styles.tag}>NOW</span>
           </div>
           <div className={styles.titleArea}>
@@ -93,15 +89,14 @@ const MainMeetupList = () => {
           </div>
         </Link>
       </li>
-      <li
-        className={`videoCard ${styles.videoCard}`}
-      >
-        <Link
-          className={styles.videoLink}
-          href="http://naver.com"
-        >
+      <li className={`videoCard ${styles.videoCard}`}>
+        <Link className={styles.videoLink} href="http://naver.com">
           <div>
-            <img className={styles.videoImage} src="http://via.placeholder.com/640x300" alt=""/>
+            <img
+              className={styles.videoImage}
+              src="http://via.placeholder.com/640x300"
+              alt=""
+            />
             <span className={styles.tag}>NOW</span>
           </div>
           <div className={styles.titleArea}>
@@ -115,15 +110,14 @@ const MainMeetupList = () => {
           </div>
         </Link>
       </li>
-      <li
-        className={`videoCard ${styles.videoCard}`}
-      >
-        <Link
-          className={styles.videoLink}
-          href="http://naver.com"
-        >
+      <li className={`videoCard ${styles.videoCard}`}>
+        <Link className={styles.videoLink} href="http://naver.com">
           <div>
-            <img className={styles.videoImage} src="http://via.placeholder.com/640x300" alt=""/>
+            <img
+              className={styles.videoImage}
+              src="http://via.placeholder.com/640x300"
+              alt=""
+            />
             <span className={styles.tag}>NOW</span>
           </div>
           <div className={styles.titleArea}>
@@ -137,15 +131,14 @@ const MainMeetupList = () => {
           </div>
         </Link>
       </li>
-      <li
-        className={`videoCard ${styles.videoCard}`}
-      >
-        <Link
-          className={styles.videoLink}
-          href="http://naver.com"
-        >
+      <li className={`videoCard ${styles.videoCard}`}>
+        <Link className={styles.videoLink} href="http://naver.com">
           <div>
-            <img className={styles.videoImage} src="http://via.placeholder.com/640x300" alt=""/>
+            <img
+              className={styles.videoImage}
+              src="http://via.placeholder.com/640x300"
+              alt=""
+            />
             <span className={styles.tag}>NOW</span>
           </div>
           <div className={styles.titleArea}>
@@ -159,15 +152,14 @@ const MainMeetupList = () => {
           </div>
         </Link>
       </li>
-      <li
-        className={`videoCard ${styles.videoCard}`}
-      >
-        <Link
-          className={styles.videoLink}
-          href="http://naver.com"
-        >
+      <li className={`videoCard ${styles.videoCard}`}>
+        <Link className={styles.videoLink} href="http://naver.com">
           <div>
-            <img className={styles.videoImage} src="http://via.placeholder.com/640x300" alt=""/>
+            <img
+              className={styles.videoImage}
+              src="http://via.placeholder.com/640x300"
+              alt=""
+            />
             <span className={styles.tag}>NOW</span>
           </div>
           <div className={styles.titleArea}>
@@ -182,7 +174,7 @@ const MainMeetupList = () => {
         </Link>
       </li>
     </ul>
-  );
-};
+  )
+}
 
-export default MainMeetupList;
+export default MainMeetupList

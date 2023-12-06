@@ -62,7 +62,7 @@ const Header = (): React.JSX.Element => {
             <Link href="/">크리스마스</Link>
           </li>
           <li>
-            <Link href="/">촛불모임</Link>
+            <Link href="/meetup">촛불모임</Link>
           </li>
           <li>
             <Link href="/developers">개발자</Link>

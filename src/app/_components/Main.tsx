@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 import Image from 'next/image'
 import styles from '@/app/page.module.scss'
-import ChristmasCounter from './_components/ChristmasCounter';
+import ChristmasCounter from './ChristmasCounter'
 
 const Main = () => {
   return (
@@ -94,7 +94,11 @@ const Main = () => {
       <div className={styles.snowBgSecond}></div>
       <div className={styles.snowBg}>
         <h2>Introduce</h2>
-        <p>Dear, Xmas에서 특별한 순간을 함께 만들어요! 분위기를 업시키는 노래와 <span>재미있는 콘텐츠로</span> 이번 크리스마스를 더 특별하게 기억해보아요.</p>
+        <p>
+          Dear, Xmas에서 특별한 순간을 함께 만들어요! 분위기를 업시키는 노래와{' '}
+          <span>재미있는 콘텐츠로</span> 이번 크리스마스를 더 특별하게
+          기억해보아요.
+        </p>
       </div>
 
       <Image
@@ -107,7 +111,7 @@ const Main = () => {
       />
       <ChristmasCounter />
     </section>
-  );
-};
+  )
+}
 
-export default Main;
+export default Main

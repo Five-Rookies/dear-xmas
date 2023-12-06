@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import styles from '@/app/page.module.scss'
 
 const Slot = () => {
@@ -8,7 +8,7 @@ const Slot = () => {
         <img src="/assets/slot-arrow.png" alt="" />
       </figure>
       <figure className={styles.slotSanta}>
-      <img src="/assets/slot-santa.png" alt="" />
+        <img src="/assets/slot-santa.png" alt="" />
       </figure>
       <div className={`inner-box ${styles.slotBox}`}>
         <h2>Slot</h2>
@@ -19,15 +19,23 @@ const Slot = () => {
             <div></div>
           </div>
           <ul className={styles.slotContent}>
-            <li><span>냄새나는</span></li>
-            <li><span>지하철에서</span></li>
-            <li><span>친구랑</span></li>
-            <li><span>피자먹는다</span></li>
+            <li>
+              <span>냄새나는</span>
+            </li>
+            <li>
+              <span>지하철에서</span>
+            </li>
+            <li>
+              <span>친구랑</span>
+            </li>
+            <li>
+              <span>피자먹는다</span>
+            </li>
           </ul>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Slot;
+export default Slot
