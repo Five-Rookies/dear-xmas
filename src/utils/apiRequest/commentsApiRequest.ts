@@ -22,9 +22,9 @@ const executeQuery = async (queryBuilder: any, errorMessage: string) => {
 }
 
 // 실시간 채팅
-export const GetChat = async () => {
+export const GetChat = async (video_id: string) => {
   return executeQuery(
-    supabase.from('live').select('*'),
+    supabase.from('live').select('*').eq('video_id', video_id),
     '라이브 채팅목록 불러오기 실패!',
   )
 }

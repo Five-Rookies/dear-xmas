@@ -2,18 +2,25 @@
 import React, { useEffect, useState, useRef } from 'react'
 import styles from '../live.module.scss'
 import ISupabase from '@/type/SupabaseResponse'
-import { createChat, supabase } from '@/utils/apiRequest/commentsApiRequest'
+import {
+  GetChat,
+  createChat,
+  supabase,
+} from '@/utils/apiRequest/commentsApiRequest'
 import { RealtimePostgresInsertPayload } from '@supabase/supabase-js'
 
 const LiveChat = ({
   serverData,
   user,
+  videoId,
 }: {
   serverData: ISupabase[]
   user: ISupabase
+  videoId: string
 }) => {
   const [chat, setChat] = useState<ISupabase[]>([...serverData])
   const inputValue = useRef()
+
   useEffect(() => {
     const checkInsertLive = supabase
       .channel('table-db-changes')
@@ -38,22 +45,20 @@ const LiveChat = ({
   }, [supabase, chat, setChat])
 
   const profiles = ['santa', 'snowman', 'candle', 'cookie']
-  const videoID = 'qweqwe' // 추후에 pathQuery로 가져오기
+
   const handleCreate = async (e: any) => {
     if (e.key === 'Enter') {
-      const res = await createChat(
-        videoID,
+      await createChat(
+        videoId,
         user.nick_name || '',
         user.user_id || '',
         user.profile_img,
         inputValue?.current?.value,
       )
-      if (res) {
-        setChat([...chat, res])
-      }
       inputValue.current.value = ''
     }
   }
+
   return (
     <div className={styles.liveChatContainer}>
       <ul className={styles.liveChat}>

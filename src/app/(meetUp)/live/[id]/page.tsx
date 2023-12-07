@@ -3,10 +3,11 @@ import LiveStream from './_components/LiveStream'
 import LiveChat from './_components/LiveChat'
 import styles from './live.module.scss'
 import { GetChat } from '@/utils/apiRequest/commentsApiRequest'
-import DetailHeader from '../detail/[id]/_components/DetailHeader'
+import DetailHeader from '../../detail/[id]/_components/DetailHeader'
 
-const LivePage = async () => {
-  const data = await GetChat()
+const LivePage = async (props: any) => {
+  const currentVideoId = props.params.id
+  const data = await GetChat(currentVideoId)
   const user = { profile_img: 0, nick_name: '산타', user_id: 2 } // 추후 로그인 유저 정보 백엔드 연결 후 가져올 예정
   return (
     <div className="inner-box">
@@ -18,7 +19,7 @@ const LivePage = async () => {
         </div>
         <div className={styles.liveBox}>
           <LiveStream />
-          <LiveChat serverData={data} user={user} />
+          <LiveChat serverData={data} user={user} videoId={currentVideoId} />
         </div>
       </div>
     </div>
