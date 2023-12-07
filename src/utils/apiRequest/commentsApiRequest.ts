@@ -21,25 +21,33 @@ const executeQuery = async (queryBuilder: any, errorMessage: string) => {
   }
 }
 
-// 실시간 채팅
-export const GetChat = async (video_id: string) => {
+// 실시간 영상
+export const getLive = async (meetup_id: string) => {
   return executeQuery(
-    supabase.from('live').select('*').eq('video_id', video_id),
+    supabase.from('meetup_board').select('*').eq('id', meetup_id).single(),
+    '라이브 영상 불러오기 실패!',
+  )
+}
+
+// 실시간 채팅
+export const getChat = async (meetup_id: string) => {
+  return executeQuery(
+    supabase.from('live_chat').select('*').eq('meetup_id', meetup_id),
     '라이브 채팅목록 불러오기 실패!',
   )
 }
 
 export const createChat = async (
-  video_id: string,
+  meetup_id: string,
   user_name: string,
   user_id: string,
   profile_img: number,
   live_content: string,
 ) => {
   return executeQuery(
-    supabase.from('live').insert([
+    supabase.from('live_chat').insert([
       {
-        video_id,
+        meetup_id,
         user_name,
         user_id,
         profile_img,

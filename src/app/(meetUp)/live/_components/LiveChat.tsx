@@ -2,23 +2,19 @@
 import React, { useEffect, useState, useRef } from 'react'
 import styles from '../live.module.scss'
 import ISupabase from '@/type/SupabaseResponse'
-import {
-  GetChat,
-  createChat,
-  supabase,
-} from '@/utils/apiRequest/commentsApiRequest'
+import { createChat, supabase } from '@/utils/apiRequest/commentsApiRequest'
 import { RealtimePostgresInsertPayload } from '@supabase/supabase-js'
 
 const LiveChat = ({
-  serverData,
+  chatData,
   user,
-  videoId,
+  meetupId,
 }: {
-  serverData: ISupabase[]
+  chatData: ISupabase[]
   user: ISupabase
-  videoId: string
+  meetupId: string
 }) => {
-  const [chat, setChat] = useState<ISupabase[]>([...serverData])
+  const [chat, setChat] = useState<ISupabase[]>([...chatData])
   const inputValue = useRef()
 
   useEffect(() => {
@@ -29,7 +25,7 @@ const LiveChat = ({
         {
           event: 'INSERT',
           schema: 'public',
-          table: 'live',
+          table: 'live_chat',
         },
         (
           payload: RealtimePostgresInsertPayload<{
@@ -49,8 +45,8 @@ const LiveChat = ({
   const handleCreate = async (e: any) => {
     if (e.key === 'Enter') {
       await createChat(
-        videoId,
-        user.nick_name || '',
+        meetupId,
+        user.user_name || '',
         user.user_id || '',
         user.profile_img,
         inputValue?.current?.value,

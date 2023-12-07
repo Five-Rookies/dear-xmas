@@ -8,5 +8,5 @@ export default interface ISupabase {
   comment_content?: string
   live_content?: string
   user_id?: string
-  nick_name?: string
+  user_name?: string
 }
