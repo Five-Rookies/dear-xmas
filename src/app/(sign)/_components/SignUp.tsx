@@ -5,7 +5,7 @@ import styles from '@/app/(sign)/_components/sign.module.scss'
 import { userSignUp } from '@/utils/apiRequest/signUserSupabase'
 
 const SignUp = () => {
-  const [nickName, setNickName] = useState<string>('')
+  const [userName, setUserName] = useState<string>('')
   const [userId, setUserId] = useState<string>('')
   const [password, setPassword] = useState<string>('')
   const [checkPassword, setCheckPassword] = useState<string>('')
@@ -15,7 +15,7 @@ const SignUp = () => {
     event.preventDefault()
 
     const option = {
-      user_name: nickName,
+      user_name: userName,
       password_hint: passwordHint,
     }
 
@@ -36,7 +36,7 @@ const SignUp = () => {
             type="text"
             placeholder="특수문자 제외 8글자 이하로 입력해주세요"
             onChange={e => {
-              setNickName(e.target.value)
+              setUserName(e.target.value)
             }}
           />
         </div>
