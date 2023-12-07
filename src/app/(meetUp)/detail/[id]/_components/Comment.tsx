@@ -26,7 +26,7 @@ interface CommentProps {
 const Comment = ({ comment, getVideoId, setComments }: CommentProps) => {
   const [isDotMenuVisible, setIsDotMenuVisible] = useState(false)
   const [isEditing, setIsEditing] = useState(false)
-  const [inputValue, setInputValue] = useState(comment.text)
+  const [inputValue, setInputValue] = useState(comment.comment_content)
   const profiles = [santa, snowman, candle, cookie]
 
   const handleDotMenu = () => {
@@ -82,7 +82,7 @@ const Comment = ({ comment, getVideoId, setComments }: CommentProps) => {
 
   return (
     <div className={styles.commentContainer}>
-      <Image src={profiles[comment.img_path]} alt="프로필 이미지" />
+      <Image src={profiles[comment.profile_img]} alt="프로필 이미지" />
       <div className={styles.commentDetail}>
         <p className={styles.userInfo}>
           {comment.user_name}
@@ -103,15 +103,15 @@ const Comment = ({ comment, getVideoId, setComments }: CommentProps) => {
             </button>
             <button
               className={styles.cancle_btn}
-              onClick={() => handleEditCancle(comment.text)}
+              onClick={() => handleEditCancle(comment.comment_content)}
             >
               취소
             </button>
           </div>
         ) : (
-          <p className={styles.text}>{comment.text}</p>
+          <p className={styles.text}>{comment.comment_content}</p>
         )}
-        <button onClick={() => handleLike(comment.text)}>
+        <button onClick={() => handleLike(comment.comment_content)}>
           <Image src={likeIcon} alt="좋아요" />
           <span>&nbsp;{comment.like_num}</span>
         </button>

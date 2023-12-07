@@ -1,11 +1,11 @@
 /* eslint-disable camelcase */
 import { createClient } from '@supabase/supabase-js'
-import Comments from '@/type/SupabaseResponse'
+import ISupabase from '@/type/SupabaseResponse'
 
 const tableName =
   process.env.NEXT_PUBLIC_IS_DEV_MODE === 'true' ? 'comments' : 'comments_PROD'
 
-const supabase = createClient<Comments[]>(
+export const supabase = createClient<ISupabase[]>(
   process.env.NEXT_PUBLIC_SUPABASE_URL as string,
   process.env.NEXT_PUBLIC_SERVICE_KEY as string,
 )
@@ -21,6 +21,36 @@ const executeQuery = async (queryBuilder: any, errorMessage: string) => {
   }
 }
 
+// 실시간 채팅
+export const GetChat = async () => {
+  return executeQuery(
+    supabase.from('live').select('*'),
+    '라이브 채팅목록 불러오기 실패!',
+  )
+}
+
+export const createChat = async (
+  video_id: string,
+  user_name: string,
+  user_id: string,
+  profile_img: number,
+  live_content: string,
+) => {
+  return executeQuery(
+    supabase.from('live').insert([
+      {
+        video_id,
+        user_name,
+        user_id,
+        profile_img,
+        live_content,
+      },
+    ]),
+    '데이터를 생성하지 못했습니다',
+  )
+}
+
+// 댓글
 export const getComments = async (video_id: string) => {
   return executeQuery(
     supabase.from(tableName).select('*').eq('video_id', video_id),
@@ -36,18 +66,18 @@ export const getCommentsById = async (id: number) => {
 }
 
 export const createComments = async (
-  text: string,
+  comment_content: string,
   video_id: string,
   user_name: string,
-  img_path: number,
+  profile_img: number,
 ) => {
   return executeQuery(
     supabase.from(tableName).insert([
       {
-        text,
+        comment_content,
         video_id,
         user_name,
-        img_path,
+        profile_img,
       },
     ]),
     '데이터를 생성하지 못했습니다',

@@ -14,7 +14,7 @@ type VideoListType = IYoutubeItem[]
 const VideoList: React.FC = () => {
   const [pageToken, setPageToken] = useState<string | undefined>(undefined)
   const [isLoading, setIsLoading] = useState(false)
-  const [allVideos, setAllVideos] = useState<VideoListType>([])
+  const [videoData, setVideoData] = useState<VideoListType>([])
   const popularVideoDataList = useYoutubeDataRequest(
     'popular',
     '&q=크리스마스|크리스마스영화',
@@ -26,7 +26,7 @@ const VideoList: React.FC = () => {
 
   useEffect(() => {
     if (popularVideoDataList) {
-      setAllVideos(popularVideoDataList.items)
+      setVideoData(popularVideoDataList.items)
     }
   }, [popularVideoDataList])
   // const fetchMoreVideos = useCallback(async () => {
@@ -36,7 +36,7 @@ const VideoList: React.FC = () => {
   //     setIsLoading(true)
   //     const nextPageVideos = popularVideoDataList!.items
   //     if (nextPageVideos.length > 0) {
-  //       setAllVideos(prevVideos => [...prevVideos, ...nextPageVideos])
+  //       setVideoData(prevVideos => [...prevVideos, ...nextPageVideos])
   //       setPageToken(popularVideoDataList!.nextPageToken)
   //     }
   //   } finally {
@@ -68,7 +68,7 @@ const VideoList: React.FC = () => {
   return (
     <div className={styles.videoContainer}>
       <ul className={styles.videoList}>
-        {allVideos
+        {videoData
           .slice(0, displayCount)
           .map((video: IYoutubeItem, index: number) => {
             const VIDEO = video.snippet
