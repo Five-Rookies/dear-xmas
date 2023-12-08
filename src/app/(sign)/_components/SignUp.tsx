@@ -13,25 +13,23 @@ const SignUp = () => {
   const [checkPassword, setCheckPassword] = useState<string>('')
   const [passwordHint, setPasswordHint] = useState<string>('')
 
+  // 인풋 유효성 검사 결과에 따른 메세지 설정
   const setInvalidMessage = (event: EventTarget, inputType: string) => {
     const target = event as HTMLInputElement
-    if (inputType === 'userName') {
+    const errorMessages: { [key: string]: string } = {
+      userName: '특수문자 제외 8글자 이하만 입력 가능합니다',
+      password: '영어,숫자,특수문자 포함 8~15 글자로 입력해주세요',
+      passwordHint: '비밀번호 확인이 일치하지 않습니다',
+    }
+
+    if (inputType === 'passwordHint') {
+      target.setCustomValidity(
+        password !== checkPassword ? errorMessages[inputType] : '',
+      )
+    } else {
       target.reportValidity()
       target.setCustomValidity(
-        target.validity.patternMismatch
-          ? '특수문자 제외 8글자 이하만 입력 가능합니다'
-          : '',
-      )
-    } else if (inputType === 'password') {
-      target.reportValidity()
-      target.setCustomValidity(
-        target.validity.patternMismatch
-          ? '영어,숫자,특수문자 포함 8~15 글자 입력해주세요'
-          : '',
-      )
-    } else if (inputType === 'passwordHint') {
-      target.setCustomValidity(
-        password !== checkPassword ? '비밀번호 확인이 일치하지 않습니다' : '',
+        target.validity.patternMismatch ? errorMessages[inputType] : '',
       )
     }
   }
