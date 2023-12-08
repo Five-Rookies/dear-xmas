@@ -93,12 +93,15 @@ export const createComments = async (
 }
 
 export const updateComments = async (
-  text: string,
+  comment_content: string,
   like_num: number,
   id: number,
 ) => {
   return executeQuery(
-    supabase.from(tableName).update([{ text, like_num }]).eq('id', id),
+    supabase
+      .from(tableName)
+      .update([{ comment_content, like_num }])
+      .eq('id', id),
     '데이터를 수정하지 못했습니다',
   )
 }

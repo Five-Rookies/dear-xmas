@@ -22,24 +22,15 @@ const CreateComment = ({
   const handleCreate = async (e: any) => {
     if (e.key === 'Enter') {
       if (inputValue?.current?.value) {
-        const res = await createComments(
+        await createComments(
           inputValue.current.value,
           videoId,
           '기본 사용자',
           profile,
         )
         inputValue.current.value = ''
-        res && (await renderUpdatedComment())
       }
     }
-  }
-
-  const renderUpdatedComment = async () => {
-    let totalComments = await getComments(videoId)
-    if (!totalComments) {
-      totalComments = []
-    }
-    setComments(totalComments)
   }
 
   return (
