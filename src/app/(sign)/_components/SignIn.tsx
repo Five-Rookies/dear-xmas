@@ -17,7 +17,9 @@ const SignIn = () => {
       await userSignIn(userId, password)
       router.push('/')
     } catch (error) {
-      alert('로그인 불가\n비밀번호가 일치하지 않습니다. 다시 입력해주세요!')
+      alert(
+        '로그인 실패\n이메일이나 비밀번호가 잘못되었습니다. 다시 입력해주세요!',
+      )
       console.log(error)
     }
   }

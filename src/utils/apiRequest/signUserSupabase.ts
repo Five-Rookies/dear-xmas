@@ -19,10 +19,14 @@ export const userSignUp = async (
       },
     })
 
-    if (error) return console.error(error)
+    if (error) {
+      console.error(error)
+      throw new Error('[ERROR] 회원가입 실패')
+    }
     console.log(data)
   } catch (error) {
     console.error(error)
+    throw new Error('[ERROR] 회원가입 실패')
   }
 }
 
@@ -36,20 +40,38 @@ export const userSignIn = async (
       password,
     })
 
-    if (error) return console.error(error)
+    if (error) {
+      console.error(error)
+      throw new Error('[ERROR] 로그인 실패')
+    }
+
     console.log(data)
-    alert(`로그인 완료\n${data.user.email}`)
+    alert(`로그인 성공\n${data.user.email}`)
   } catch (error) {
     console.error(error)
+    throw new Error('[ERROR] 로그인 실패')
   }
 }
 
 export const userSignOut = async () => {
+  const {
+    data: { user },
+  } = await supabase.auth.getUser()
+  if (!user) {
+    alert(`로그인 상태가 아닙니다!`)
+    return
+  }
+
   try {
     const { error } = await supabase.auth.signOut()
-    if (error) return console.log(error)
+    if (error) {
+      console.log(error)
+      throw new Error('[ERROR] 로그아웃 실패')
+    }
+
     alert(`로그아웃 완료`)
   } catch (error) {
     console.log(error)
+    throw new Error('[ERROR] 로그아웃 실패')
   }
 }
