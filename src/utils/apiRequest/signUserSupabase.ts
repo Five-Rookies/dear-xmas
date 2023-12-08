@@ -38,7 +38,7 @@ export const userSignIn = async (
 
     if (error) return console.error(error)
     console.log(data)
-    alert(data.user.email)
+    alert(`로그인 완료\n${data.user.email}`)
   } catch (error) {
     console.error(error)
   }
@@ -48,6 +48,7 @@ export const userSignOut = async () => {
   try {
     const { error } = await supabase.auth.signOut()
     if (error) return console.log(error)
+    alert(`로그아웃 완료`)
   } catch (error) {
     console.log(error)
   }

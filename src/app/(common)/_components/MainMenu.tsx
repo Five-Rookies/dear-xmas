@@ -1,13 +1,14 @@
-import React from 'react';
-import styles from './header.module.scss'
+import React from 'react'
 import Link from 'next/link'
+import { userSignOut } from '@/utils/apiRequest/signUserSupabase'
+import styles from './header.module.scss'
 
 const MainMenu = () => {
   return (
     <div className={styles.dropDownMenu}>
       <ul className="inner-box">
         <li style={{ backgroundColor: '#FEFFD9' }}>
-          <Link href="/#counter" >
+          <Link href="/#counter">
             <figure>
               <img src="/assets/calendar.png" alt="" />
             </figure>
@@ -15,7 +16,7 @@ const MainMenu = () => {
           </Link>
         </li>
         <li style={{ backgroundColor: '#5EC63A' }}>
-          <Link href="/#streaming" >
+          <Link href="/#streaming">
             <figure>
               <img src="/assets/bell.png" alt="" />
             </figure>
@@ -23,7 +24,7 @@ const MainMenu = () => {
           </Link>
         </li>
         <li style={{ backgroundColor: '#FFA132' }}>
-          <Link href="/#slot" >
+          <Link href="/#slot">
             <figure>
               <img src="/assets/slot-arrow.png" alt="" />
             </figure>
@@ -31,23 +32,23 @@ const MainMenu = () => {
           </Link>
         </li>
         <li style={{ backgroundColor: '#FB6B2D' }}>
-          <Link href="/#survey" >
+          <Link href="/#survey">
             <figure>
-             <img src="/assets/gift.png" alt="" />
+              <img src="/assets/gift.png" alt="" />
             </figure>
             <p>설문조사</p>
           </Link>
         </li>
         <li style={{ backgroundColor: '#FB2D38' }}>
-          <Link href="/#meetup" >
+          <Link href="/#meetup">
             <figure>
-             <img src="/assets/candles.png" alt="" />
+              <img src="/assets/candles.png" alt="" />
             </figure>
             <p>촛불 모임</p>
           </Link>
         </li>
         <li style={{ backgroundColor: '#FFF' }}>
-          <Link href="/developers" >
+          <Link href="/developers">
             <figure>
               <img src="/assets/sledge.png" alt="" />
             </figure>
@@ -55,15 +56,15 @@ const MainMenu = () => {
           </Link>
         </li>
         <li style={{ backgroundColor: '#F3FFAC' }}>
-          <Link href="/" >
+          <Link href="/">
             <figure>
               <img src="/assets/sock.png" alt="" />
             </figure>
             <p>마이페이지</p>
           </Link>
         </li>
-        <li style={{ backgroundColor: '#0E6B1D' }}>
-          <Link href="/" >
+        <li style={{ backgroundColor: '#0E6B1D' }} onClick={userSignOut}>
+          <Link href="/">
             <figure>
               <img src="/assets/stuckedSanta.png" alt="" />
             </figure>
@@ -72,7 +73,7 @@ const MainMenu = () => {
         </li>
       </ul>
     </div>
-  );
-};
+  )
+}
 
-export default MainMenu;
+export default MainMenu
