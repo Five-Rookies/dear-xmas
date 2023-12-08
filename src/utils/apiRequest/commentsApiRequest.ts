@@ -21,25 +21,33 @@ const executeQuery = async (queryBuilder: any, errorMessage: string) => {
   }
 }
 
-// 실시간 채팅
-export const GetChat = async () => {
+// 실시간 영상
+export const getLive = async (meetup_id: string) => {
   return executeQuery(
-    supabase.from('live').select('*'),
+    supabase.from('meetup_board').select('*').eq('id', meetup_id).single(),
+    '라이브 영상 불러오기 실패!',
+  )
+}
+
+// 실시간 채팅
+export const getChat = async (meetup_id: string) => {
+  return executeQuery(
+    supabase.from('live_chat').select('*').eq('meetup_id', meetup_id),
     '라이브 채팅목록 불러오기 실패!',
   )
 }
 
 export const createChat = async (
-  video_id: string,
+  meetup_id: string,
   user_name: string,
   user_id: string,
   profile_img: number,
   live_content: string,
 ) => {
   return executeQuery(
-    supabase.from('live').insert([
+    supabase.from('live_chat').insert([
       {
-        video_id,
+        meetup_id,
         user_name,
         user_id,
         profile_img,
@@ -85,12 +93,15 @@ export const createComments = async (
 }
 
 export const updateComments = async (
-  text: string,
+  comment_content: string,
   like_num: number,
   id: number,
 ) => {
   return executeQuery(
-    supabase.from(tableName).update([{ text, like_num }]).eq('id', id),
+    supabase
+      .from(tableName)
+      .update([{ comment_content, like_num }])
+      .eq('id', id),
     '데이터를 수정하지 못했습니다',
   )
 }

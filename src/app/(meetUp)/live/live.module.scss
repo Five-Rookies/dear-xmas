@@ -32,7 +32,7 @@
     padding: 2rem 1.5rem;
     .createChat {
       display: flex;
-      margin-top: 1rem;
+      margin-bottom: 1rem;
       input {
         border: none;
         outline: none;
@@ -52,6 +52,7 @@
       flex-direction: column;
       height: 90%;
       overflow-y: scroll;
+
       .liveChatBox {
         display: flex;
         align-items: center;
