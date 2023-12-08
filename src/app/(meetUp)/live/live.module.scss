@@ -32,7 +32,7 @@
     padding: 2rem 1.5rem;
     .createChat {
       display: flex;
-      margin-top: 1rem;
+      margin-bottom: 1rem;
       input {
         border: none;
         outline: none;
@@ -50,9 +50,9 @@
     .liveChat {
       display: flex;
       flex-direction: column;
-      // justify-content: flex-end; div로 한번 더 감싸보자
       height: 90%;
       overflow-y: scroll;
+
       .liveChatBox {
         display: flex;
         align-items: center;

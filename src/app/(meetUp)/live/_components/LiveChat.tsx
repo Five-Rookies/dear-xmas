@@ -27,11 +27,8 @@ const LiveChat = ({
           schema: 'public',
           table: 'live_chat',
         },
-        (
-          payload: RealtimePostgresInsertPayload<{
-            [key: string]: any
-          }>,
-        ) => setChat([...chat, payload.new]),
+
+        (payload: any) => setChat([...chat, payload.new]),
       )
       .subscribe()
 
@@ -57,20 +54,6 @@ const LiveChat = ({
 
   return (
     <div className={styles.liveChatContainer}>
-      <ul className={styles.liveChat}>
-        {chat?.map((liveChat: ISupabase) => {
-          return (
-            <li key={liveChat.id} className={styles.liveChatBox}>
-              <img
-                src={`/assets/profile-${profiles[liveChat.profile_img]}.svg`}
-                alt=""
-              />
-              <span className={styles.userName}> {liveChat.user_name}</span>
-              <span> {liveChat.live_content}</span>
-            </li>
-          )
-        })}
-      </ul>
       <div className={styles.createChat}>
         <img src={`/assets/profile-${profiles[user.profile_img]}.svg`} alt="" />
         <input
@@ -80,6 +63,22 @@ const LiveChat = ({
           onKeyPress={handleCreate}
         />
       </div>
+      <ul className={styles.liveChat}>
+        {[...chat]
+          .sort((a, b) => b.id - a.id)
+          ?.map((liveChat: ISupabase) => {
+            return (
+              <li key={liveChat.id} className={styles.liveChatBox}>
+                <img
+                  src={`/assets/profile-${profiles[liveChat.profile_img]}.svg`}
+                  alt=""
+                />
+                <span className={styles.userName}> {liveChat.user_name}</span>
+                <span> {liveChat.live_content}</span>
+              </li>
+            )
+          })}
+      </ul>
     </div>
   )
 }
