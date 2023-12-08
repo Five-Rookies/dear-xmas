@@ -27,7 +27,7 @@ const CommentList = ({ getVideoId }: { getVideoId: string }) => {
     }
 
     fetchComments()
-  }, [getVideoId, comments])
+  }, [getVideoId, comments.length])
   return (
     <div className={styles.comments}>
       <p>댓글 {comments.length}개</p>
