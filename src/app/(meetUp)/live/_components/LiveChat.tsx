@@ -6,14 +6,17 @@ import { createChat, supabase } from '@/utils/apiRequest/commentsApiRequest'
 import { RealtimePostgresInsertPayload } from '@supabase/supabase-js'
 
 const LiveChat = ({
-  serverData,
+  chatData,
   user,
+  meetupId,
 }: {
-  serverData: ISupabase[]
+  chatData: ISupabase[]
   user: ISupabase
+  meetupId: string
 }) => {
-  const [chat, setChat] = useState<ISupabase[]>([...serverData])
+  const [chat, setChat] = useState<ISupabase[]>([...chatData])
   const inputValue = useRef()
+
   useEffect(() => {
     const checkInsertLive = supabase
       .channel('table-db-changes')
@@ -22,13 +25,10 @@ const LiveChat = ({
         {
           event: 'INSERT',
           schema: 'public',
-          table: 'live',
+          table: 'live_chat',
         },
-        (
-          payload: RealtimePostgresInsertPayload<{
-            [key: string]: any
-          }>,
-        ) => setChat([...chat, payload.new]),
+
+        (payload: any) => setChat([...chat, payload.new]),
       )
       .subscribe()
 
@@ -38,38 +38,22 @@ const LiveChat = ({
   }, [supabase, chat, setChat])
 
   const profiles = ['santa', 'snowman', 'candle', 'cookie']
-  const videoID = 'qweqwe' // 추후에 pathQuery로 가져오기
+
   const handleCreate = async (e: any) => {
     if (e.key === 'Enter') {
-      const res = await createChat(
-        videoID,
-        user.nick_name || '',
+      await createChat(
+        meetupId,
+        user.user_name || '',
         user.user_id || '',
         user.profile_img,
         inputValue?.current?.value,
       )
-      if (res) {
-        setChat([...chat, res])
-      }
       inputValue.current.value = ''
     }
   }
+
   return (
     <div className={styles.liveChatContainer}>
-      <ul className={styles.liveChat}>
-        {chat?.map((liveChat: ISupabase) => {
-          return (
-            <li key={liveChat.id} className={styles.liveChatBox}>
-              <img
-                src={`/assets/profile-${profiles[liveChat.profile_img]}.svg`}
-                alt=""
-              />
-              <span className={styles.userName}> {liveChat.user_name}</span>
-              <span> {liveChat.live_content}</span>
-            </li>
-          )
-        })}
-      </ul>
       <div className={styles.createChat}>
         <img src={`/assets/profile-${profiles[user.profile_img]}.svg`} alt="" />
         <input
@@ -79,6 +63,22 @@ const LiveChat = ({
           onKeyPress={handleCreate}
         />
       </div>
+      <ul className={styles.liveChat}>
+        {[...chat]
+          .sort((a, b) => b.id - a.id)
+          ?.map((liveChat: ISupabase) => {
+            return (
+              <li key={liveChat.id} className={styles.liveChatBox}>
+                <img
+                  src={`/assets/profile-${profiles[liveChat.profile_img]}.svg`}
+                  alt=""
+                />
+                <span className={styles.userName}> {liveChat.user_name}</span>
+                <span> {liveChat.live_content}</span>
+              </li>
+            )
+          })}
+      </ul>
     </div>
   )
 }
