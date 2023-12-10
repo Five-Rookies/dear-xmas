@@ -8,6 +8,7 @@ import ScrollBtn from '@/app/(common)/_components/ScrollBtn'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import Image from 'next/image'
 import styles from '../detail.module.scss'
+import CreateMeetUpButton from './CreateMeetUpButton'
 
 const RelatedVedio = ({ channelId }: { channelId: string }) => {
   const [pageToken, setPageToken] = useState<string | undefined>(undefined)
@@ -60,7 +61,7 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
 
   return (
     <section>
-      <h3 className={styles.relatedTitle}>관련된 영상</h3>
+      <CreateMeetUpButton />
       <ul className={styles.list}>
         {videoData &&
           videoData.slice(0, displayCount).map((item: IYoutubeItem) => (
