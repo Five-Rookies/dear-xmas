@@ -61,14 +61,14 @@ export const createChat = async (
 // 댓글
 export const getComments = async (video_id: string) => {
   return executeQuery(
-    supabase.from('comments').select('*').eq('video_id', video_id),
+    supabase.from(tableName).select('*').eq('video_id', video_id),
     '데이터를 불러오지 못했습니다',
   )
 }
 
 export const getCommentsById = async (id: number) => {
   return executeQuery(
-    supabase.from('comments').select('*').eq('id', id).single(),
+    supabase.from(tableName).select('*').eq('id', id).single(),
     '해당 id의 데이터를 불러오지 못했습니다',
   )
 }
@@ -80,7 +80,7 @@ export const createComments = async (
   profile_img: number,
 ) => {
   return executeQuery(
-    supabase.from('comments').insert([
+    supabase.from(tableName).insert([
       {
         comment_content,
         video_id,
@@ -99,7 +99,7 @@ export const updateComments = async (
 ) => {
   return executeQuery(
     supabase
-      .from('comments')
+      .from(tableName)
       .update([{ comment_content, like_num }])
       .eq('id', id),
     '데이터를 수정하지 못했습니다',
@@ -108,7 +108,7 @@ export const updateComments = async (
 
 export const deleteComments = async (id: number) => {
   return executeQuery(
-    supabase.from('comments').delete().eq('id', id),
+    supabase.from(tableName).delete().eq('id', id),
     '데이터를 삭제하지 못했습니다',
   )
 }
