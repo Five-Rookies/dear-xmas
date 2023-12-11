@@ -14,50 +14,31 @@ const MainMeetupList = () => {
   const popularVideoDataList = useYoutubeDataRequest(
     'popular',
     '&q=크리스마스|크리스마스영화',
-    8,
+    32,
     pageToken,
   )
   const [videoData, setVideoData] = useState<VideoListType>([])
+  const [loadedVideos, setloadedVideos] = useState<number>(8)
 
   useEffect(() => {
     if (popularVideoDataList) {
-      setVideoData((prevData) => [...prevData, ...popularVideoDataList.items])
+      setVideoData(popularVideoDataList.items)
     }
   }, [popularVideoDataList])
 
-  // const loadMore = () => {
-  //   setPageToken(popularVideoDataList.nextPageToken);
-  // }
-  // console.log(popularVideoDataList);
+  const loadMore = () => {
+    // Increase the loadedVideos by 4 each time the "moreBtn" is clicked
+    setloadedVideos((prevCount) => prevCount + 4)
+  }
 
   return (
     <div>
       <ul className={styles.meetupList}>
-        {videoData.map((video: IYoutubeItem, index: number) => {
+        {videoData.slice(0, loadedVideos).map((video: IYoutubeItem, index: number) => {
           const VIDEO = video.snippet
           return (
-            // <li>
-            //   <Link href="http://naver.com">
-            //     <div className={styles.imgFrame}>
-            //       <img
-            //         src="http://via.placeholder.com/640x300"
-            //         alt=""
-            //       />
-            //       <span className={styles.tag}>NOW</span>
-            //     </div>
-            //     <div className={styles.titleArea}>
-            //       <div>
-            //         <span className={styles.date}>12/06 17:00</span>
-            //         <h4>함께 캐롤 들으며 스터디해요</h4>
-            //       </div>
-            //       <div className={styles.channelName}>
-            //         <span>쿠키맨이지롱 · 스터디</span>
-            //       </div>
-            //     </div>
-            //   </Link>
-            // </li>
             <li key={video.id.videoId + index}>
-              <Link href={{pathname: `/detail/${video.id.videoId}`}}>
+              <Link href={{ pathname: `/detail/${video.id.videoId}` }}>
                 <div className={styles.imgFrame}>
                   <img
                     src={VIDEO.thumbnails.medium.url}
@@ -81,13 +62,11 @@ const MainMeetupList = () => {
           )
         })}
       </ul>
-      <button 
-        className='moreBtn'
-        // onClick={loadMore} 
-        // disabled={!popularVideoDataList.nextPageToken}
-        >
+      {loadedVideos < videoData.length && (
+        <button className='btn btn--white' onClick={loadMore}>
           + 더보기
-      </button>
+        </button>
+      )}
     </div>
   )
 }

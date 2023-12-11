@@ -1,49 +1,199 @@
-.container {
+.pageHeader {
+  display: flex;
+  align-items: center;
+  height: 13.125rem;
+  background: no-repeat top 10% right 5% / 20% url("/assets/candles.png");
+  padding: 0;
   h1 {
-    padding-top: 5rem;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  p {
+    font-size: 1.5rem;
+    margin-top: 1.375rem;
   }
 }
-// MeetupEventButtons
-.buttonList {
-  button {
-    margin-right: 3rem;
-    background-color: skyblue;
-  }
+
+.container {
+  background-color: #F2F2F2;
 }
-
-// VideoList
-// popular video List
-.videoList {
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 10px;
-  justify-content: center;
-
-  .videoCard {
-    margin: 10px;
-    border: 1px solid #ddd;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-
-    &:hover {
-      transform: scale(1.03);
-      border-radius: 0px;
-
-      img {
-        border-radius: 0;
+.contents {
+  padding: 0;
+  .buttonList {
+    display: inline-flex;
+    gap: 1rem;
+    margin: 2.125rem 0;
+  }
+  
+  // VideoList
+  .videoList {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    justify-content: center;
+  
+    .videoCard {
+      background-color: #fff;
+      margin: 10px;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease-in-out;
+      cursor: pointer;
+  
+      &:hover {
+        transform: scale(1.03);
+        border-radius: 0px;
+  
+        img {
+          border-radius: 0;
+        }
       }
-    }
-
-    .videoImage {
+  
+      .videoImage {
       width: 100%;
       border-radius: 20px;
       transition: all 0.3s ease-in-out;
+      }
     }
   }
+
+  .meetupList {
+    .meetupPost {
+      background-color: #fff;
+      border-radius: 1.25rem;
+      padding: 1.875rem 2.5rem;
+    }
+    .titleArea {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+
+      span {
+        color: #da3017;
+      }
+      i {
+        color: #999;
+      }
+      h2 {
+        color: #000;
+        font-size: 1.25rem;
+      }
+      .openNotice {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        p {
+          color: #da3017;
+        }
+      }
+    }
+    .writer {
+      margin-top: .5rem;
+      color: #999;
+    }
+    .textContent {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin: .9375rem 0 1.875rem;
+    }
+
+    .buttonArea {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      button {
+        display: inline-flex;
+        align-items: center;
+        gap: .375rem;
+        img {
+          width: 1.5rem;
+        }
+        & + * {
+          margin-left: 2.0625rem;
+        }
+      }
+    }
+
+    .comment {
+      margin-top: 1rem;
+      input, .commentContainer {
+        width: 100%;
+        padding: .8rem 1.2rem;
+        border: none;
+        font-size: 1rem;
+        border-radius: .625rem;
+        background-color: #f8f8f8;
+      }
+      input {
+        color: #999;
+        font-family: Pretendard, sans-serif;
+      }
+      .commentContainer {
+        color: #000;
+        margin-top: .625rem;
+        &:hover {
+          .moreBtn {
+            opacity: 1;
+            &.active {
+              opacity: 1;
+            }
+          }
+        }
+        > div {
+          display: flex;
+          justify-content: space-between;
+          position: relative;
+        }
+        .writer {
+          margin-bottom: .5rem;
+          margin-top: 0;
+          span:first-child {
+            font-weight: bold;
+          }
+          span:last-child {
+            color: #999;
+          }
+        }
+      }
+
+      .moreBtn {
+        cursor: pointer;
+        opacity: 0;
+        font-size: 2rem;
+        padding: 0 2rem 0 0;
+      }
+      .dotMenu {
+        display: inline;
+        z-index: 10;
+        border: 0.1rem solid #ddd;
+        background-color: white;
+        border-radius: 0.3rem;
+        width: 4rem;
+        text-align: center;
+        position: absolute;
+        top: 2rem;
+        right: 0;
+        color: #111;
+        & > * {
+          display: block;
+          padding: 0.5rem;
+          box-sizing: border-box;
+          height: 2rem;
+        }
+        :nth-child(2) {
+          border-top: 0.1rem solid #ddd;
+          color: #da3017;
+        }
+      }
+    }
+  }
+}
+
+
 
   @media (max-width: 768px) {
     .videoCard {
@@ -56,7 +206,6 @@
       width: 100%;
     }
   }
-}
 
 .videoLink {
   text-decoration: none;
