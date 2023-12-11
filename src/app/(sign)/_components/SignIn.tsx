@@ -17,31 +17,37 @@ const SignIn = () => {
       await userSignIn(userId, password)
       router.push('/')
     } catch (error) {
+      alert(
+        '로그인 실패\n이메일이나 비밀번호가 잘못되었습니다. 다시 입력해주세요!',
+      )
       console.log(error)
     }
   }
+
   return (
     <main className={styles.container}>
       <h1>로그인</h1>
       <form onSubmit={onSubmitUserSignIn}>
-        <div className="input-field">
-          <h3>아이디</h3>
+        <div className={styles.inputField}>
+          <h3>이메일</h3>
           <input
-            type="text"
-            placeholder="아이디를 입력해주세요"
+            type="email"
+            placeholder="이메일을 입력해주세요"
             onChange={e => {
               setUserId(e.target.value)
             }}
+            required
           />
         </div>
-        <div className="input-field">
+        <div className={styles.inputField}>
           <h3>비밀번호</h3>
           <input
-            type="text"
+            type="password"
             placeholder="비밀번호를 입력해주세요"
             onChange={e => {
               setPassword(e.target.value)
             }}
+            required
           />
         </div>
         <button type="submit">로그인</button>
