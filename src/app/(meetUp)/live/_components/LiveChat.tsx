@@ -2,17 +2,14 @@
 import React, { useEffect, useState, useRef } from 'react'
 import styles from '../live.module.scss'
 import ISupabase from '@/type/SupabaseResponse'
-import { createChat, supabase } from '@/utils/apiRequest/commentsApiRequest'
+import {
+  createChat,
+  supabase,
+  getChat,
+} from '@/utils/apiRequest/commentsApiRequest'
 import { RealtimePostgresInsertPayload } from '@supabase/supabase-js'
-const LiveChat = ({
-  chatData,
-
-  meetupId,
-}: {
-  chatData: ISupabase[]
-  meetupId: string
-}) => {
-  const [chat, setChat] = useState<ISupabase[]>([...chatData])
+const LiveChat = ({ meetupId }: { meetupId: string }) => {
+  const [chat, setChat] = useState<any>([])
   const inputValue = useRef()
   const userData =
     typeof window !== undefined &&
@@ -20,6 +17,16 @@ const LiveChat = ({
   const userItem = userData && JSON.parse(userData).user
 
   console.log(userData && JSON.parse(userData))
+  const fetchChat = async () => {
+    const chatData = await getChat(meetupId)
+    if (chatData) {
+      setChat(chatData)
+    }
+  }
+
+  useEffect(() => {
+    fetchChat()
+  }, [])
   useEffect(() => {
     const checkInsertLive = supabase
       .channel('table-db-changes')
@@ -31,14 +38,14 @@ const LiveChat = ({
           table: 'live_chat',
         },
 
-        (payload: any) => setChat([...chat, payload.new]),
+        () => fetchChat(),
       )
       .subscribe()
 
     return () => {
       supabase.removeChannel(checkInsertLive)
     }
-  }, [supabase, chat, setChat])
+  }, [chat])
 
   const profiles = ['santa', 'snowman', 'candle', 'cookie']
 
