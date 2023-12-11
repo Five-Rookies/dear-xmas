@@ -20,7 +20,7 @@ const SurveyGraph = () => {
           isToggleListShow ? '' : styles.hidden
         }`}
       >
-        {/* <li className={styles.toggleItem}>
+        <li className={styles.toggleItem}>
           <button>Q. 여러분은 산타를 몇살까지 믿었나요?</button>
           <div className={styles.toggleInner}>
             <ul>
@@ -31,7 +31,7 @@ const SurveyGraph = () => {
                     src="/assets/emoji-baby.svg"
                     alt=""
                   />
-                  <span>{survey.first_baby}</span>
+                  <span>0~5세</span>
                 </div>
                 <div className={styles.graph}></div>
               </li>
@@ -81,7 +81,7 @@ const SurveyGraph = () => {
               </li>
             </ul>
           </div>
-        </li> */}
+        </li>
         <li className={styles.toggleItem}>
           <button>
             Q. 마음에 들지 않은 선물을 받았을 때 어떻게 하시나요?
