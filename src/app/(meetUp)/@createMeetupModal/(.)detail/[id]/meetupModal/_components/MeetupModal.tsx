@@ -1,5 +1,5 @@
 'use client'
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import styles from './meetupModal.module.scss'
 import { useRouter } from 'next/navigation'
 
@@ -17,6 +17,16 @@ const MeetupModal = (): React.JSX.Element => {
       router.back()
     }
   }
+
+  useEffect(() => {
+    // 모달이 열릴 때 body의 overflow를 hidden으로 설정
+    document.body.style.overflow = 'hidden'
+
+    return () => {
+      // 모달이 닫힐 때 body의 overflow를 초기 상태로 복원
+      document.body.style.overflow = 'auto'
+    }
+  }, [])
 
   return (
     <div
