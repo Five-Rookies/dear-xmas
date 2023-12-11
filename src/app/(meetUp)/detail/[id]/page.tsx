@@ -55,7 +55,11 @@ const Detail = (props: any) => {
 
               <CommentList getVideoId={currentVideoId} />
             </div>
-            <RelatedVedio channelId={currentVideo?.snippet?.channelId} />
+
+            <RelatedVedio
+              currentVideoId={currentVideoId}
+              channelId={currentVideo?.snippet?.channelId}
+            />
           </div>
         </>
       ) : null}

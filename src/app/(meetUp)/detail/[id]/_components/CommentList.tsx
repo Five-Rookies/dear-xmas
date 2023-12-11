@@ -17,23 +17,21 @@ const randomProfile = Math.round(Math.random() * 3)
 
 const CommentList = ({ getVideoId }: { getVideoId: string }) => {
   const [comments, setComments] = useState<IComment[]>([])
-
-  useEffect(() => {
-    const fetchComments = async () => {
-      const totalComments = await getComments(getVideoId)
-      if (totalComments) {
-        setComments(totalComments)
-      }
+  const fetchComments = async () => {
+    const totalComments = await getComments(getVideoId)
+    if (totalComments) {
+      setComments(totalComments)
     }
-
+  }
+  useEffect(() => {
     fetchComments()
-  }, [getVideoId, comments.length])
+  }, [getVideoId, comments])
   return (
     <div className={styles.comments}>
       <p>댓글 {comments.length}개</p>
       <div className={styles.inputComments}>
         <Image src={profiles[randomProfile]} alt="프로필 이미지" />
-        <CreateComment profile={randomProfile} setComments={setComments} />
+        <CreateComment profile={randomProfile} fetchComments={fetchComments} />
       </div>
       {comments.length !== 0 &&
         [...comments]

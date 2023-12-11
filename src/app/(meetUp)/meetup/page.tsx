@@ -6,12 +6,21 @@ import MeetupList from './_components/MeetupList'
 
 const MeetupPage = () => {
   return (
-    <div className={styles.container}>
-      <h1>meetup페이지 입니다.</h1>
-      <p>버튼 클릭시 해당하는 컴포넌트가 표시되도록 기능 추가해야 합니다</p>
-      <MeetupEventButtons />
-      <MeetupList />
-      <VideoList />
+    <div style={{paddingTop: '4.6619rem'}}>
+      <div className={`inner-box ${styles.pageHeader}`}>
+        <div>
+          <h1>안녕하세요, 캔디님</h1>
+          <p>촛불 모임에서 특별한 사람과 크리스마스의 추억을 쌓아보세요.</p>
+        </div>
+      </div>
+
+      <div className={styles.container}>
+        <div className={`inner-box ${styles.contents}`}>
+          <MeetupEventButtons />
+          <MeetupList />
+          <VideoList />
+        </div>
+      </div>
     </div>
   )
 }
