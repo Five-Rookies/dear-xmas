@@ -8,8 +8,15 @@ import ScrollBtn from '@/app/(common)/_components/ScrollBtn'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import Image from 'next/image'
 import styles from '../detail.module.scss'
+import CreateMeetUpButton from './CreateMeetUpButton'
 
-const RelatedVedio = ({ channelId }: { channelId: string }) => {
+const RelatedVedio = ({
+  currentVideoId,
+  channelId,
+}: {
+  currentVideoId: string
+  channelId: string
+}) => {
   const [pageToken, setPageToken] = useState<string | undefined>(undefined)
   const [isLoading, setIsLoading] = useState(false)
   const [videoData, setVideoData] = useState<IYoutubeItem[]>([])
@@ -60,38 +67,41 @@ const RelatedVedio = ({ channelId }: { channelId: string }) => {
 
   return (
     <section>
-      <h3 className={styles.relatedTitle}>관련된 영상</h3>
+      <CreateMeetUpButton currentVideoId={currentVideoId} />
       <ul className={styles.list}>
         {videoData &&
-          videoData.slice(0, displayCount).map((item: IYoutubeItem) => (
-            <li key={item.id.videoId} className={styles.listItem}>
-              <Link
-                href={`https://www.youtube.com/watch?v=${item.id.videoId}`}
-                className={styles.listLink}
-              >
-                <figure className={styles.listImg}>
-                  <Image
-                    src={item.snippet.thumbnails.medium.url}
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    style={{ width: '100%', height: 'auto' }}
-                    layout="responsive"
-                    alt={item.snippet.title}
-                  />
-                </figure>
-                <div className={styles.listTitleWrap}>
-                  <h4 className={styles.listTitle}>{item.snippet.title}</h4>
-                  <p className={styles.channelTitle}>
-                    {item.snippet.channelTitle}
-                  </p>
-                  <span className={styles.publishedAt}>
-                    {formatRelativeDate(item.snippet.publishedAt)}
-                  </span>
-                </div>
-              </Link>
-            </li>
-          ))}
+          videoData.slice(0, displayCount).map((item: IYoutubeItem) => {
+            const SNIPPET = item.snippet
+            return (
+              <li key={item.id.videoId} className={styles.listItem}>
+                <Link
+                  href={`https://www.youtube.com/watch?v=${item.id.videoId}`}
+                  className={styles.listLink}
+                >
+                  <figure className={styles.listImg}>
+                    <Image
+                      src={SNIPPET.thumbnails.medium.url}
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: 'auto' }}
+                      layout="responsive"
+                      alt={SNIPPET.title}
+                    />
+                  </figure>
+                  <div className={styles.listTitleWrap}>
+                    <h4 className={styles.listTitle}>{SNIPPET.title}</h4>
+                    <p className={styles.channelTitle}>
+                      {SNIPPET.channelTitle}
+                    </p>
+                    <span className={styles.publishedAt}>
+                      {formatRelativeDate(SNIPPET.publishedAt)}
+                    </span>
+                  </div>
+                </Link>
+              </li>
+            )
+          })}
       </ul>
       <ScrollBtn />
     </section>
