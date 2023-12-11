@@ -1,10 +1,17 @@
 'use client'
+import Link from 'next/link'
 import styles from '../detail.module.scss'
 
-const CreateMeetUpButton = (): JSX.Element => {
+const CreateMeetUpButton = ({
+  currentVideoId,
+}: {
+  currentVideoId: string
+}): JSX.Element => {
   return (
     <div className={styles.buttonArea}>
-      <button className={styles.createMeetup}>모임 생성</button>
+      <Link href={`/detail/${currentVideoId}/meetupModal`}>
+        <button className={styles.createMeetup}>모임 생성</button>
+      </Link>
     </div>
   )
 }
