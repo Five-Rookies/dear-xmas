@@ -1,20 +1,15 @@
 import React from 'react'
 import LiveStream from './_components/LiveStream'
 import styles from './live.module.scss'
-import {
-  getChat,
-  getLive,
-  supabase,
-} from '@/utils/apiRequest/commentsApiRequest'
+import { getLive } from '@/utils/apiRequest/commentsApiRequest'
 import DetailHeader from '../detail/[id]/_components/DetailHeader'
 import dynamic from 'next/dynamic'
-const ComponentsWithNoSSR = dynamic<{ chatData: any; meetupId: any }>( // typescript에서 props를 전달할때 interface를 정의해줍니다.
+const ComponentsWithNoSSR = dynamic<{ meetupId: any }>( // typescript에서 props를 전달할때 interface를 정의해줍니다.
   () => import('./_components/LiveChat'), // Component로 사용할 항목을 import합니다.
   { ssr: false }, // ssr옵션을 false로 설정해줍니다.
 )
 const LivePage = async (param: any) => {
   const currentMeetupId = param.searchParams.meetup_id
-  const chatData = await getChat(currentMeetupId)
   const meetupData = await getLive(currentMeetupId)
   return (
     <div className="inner-box">
@@ -26,7 +21,7 @@ const LivePage = async (param: any) => {
         </div>
         <div className={styles.liveBox}>
           <LiveStream videoId={meetupData.video_id} />
-          <ComponentsWithNoSSR chatData={chatData} meetupId={currentMeetupId} />
+          <ComponentsWithNoSSR meetupId={currentMeetupId} />
         </div>
       </div>
     </div>
