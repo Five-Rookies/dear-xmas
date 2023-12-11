@@ -16,12 +16,6 @@ const LivePage = async (param: any) => {
   const currentMeetupId = param.searchParams.meetup_id
   const chatData = await getChat(currentMeetupId)
   const meetupData = await getLive(currentMeetupId)
-
-  const testUser = {
-    profile_img: 0 as 0 | 1 | 2 | 3,
-    user_name: '첼시',
-    user_id: 'b724f998-3195-459d-b888-1edcd3627b1e',
-  } // 추후 로그인 유저 정보 백엔드 연결 후 가져올 예정
   return (
     <div className="inner-box">
       <div className={styles.container}>
@@ -38,5 +32,4 @@ const LivePage = async (param: any) => {
     </div>
   )
 }
-
 export default LivePage
