@@ -201,20 +201,37 @@ a {
   text-decoration: none;
   font-family: 'LINESeedKR-Rg';
 }
-.moreBtn {
+.btn {
+  box-sizing: border-box;
   display: block;
   font-size: 1.25rem;
   line-height: 1;
-  color: #fff;
-  border: 2px solid #fff;
   border-radius: 3.125rem;
   padding: 0.5rem 1.25rem;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.btn--white {
+  color: #fff;
+  border: 2px solid #fff;
   &:hover {
     background-color: #fff;
     color: var(--color-sub-bg);
   }
 }
+.btn--gray {
+  color: #999;
+  border: 2px solid #999;
+  &:hover {
+    border: 2px solid #DA3017;
+    background-color: #DA3017;
+    color: #fff;
+  }
+}
+.btn--red {
+  color: #DA3017;
+  background-color: #FFDCDC;
+}
+
 
 .inner-box {
   max-width: 80rem;
