@@ -40,6 +40,7 @@ const SignUp = () => {
     const option = {
       user_name: userName,
       password_hint: passwordHint,
+      profile_img: 0,
     }
 
     try {

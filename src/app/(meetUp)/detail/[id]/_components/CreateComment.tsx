@@ -2,18 +2,15 @@
 
 import React, { useRef } from 'react'
 import { usePathname } from 'next/navigation'
-import {
-  createComments,
-  getComments,
-} from '@/utils/apiRequest/commentsApiRequest'
+import { createComments } from '@/utils/apiRequest/commentsApiRequest'
 import IComments from '@/type/SupabaseResponse'
 
 const CreateComment = ({
   profile,
-  setComments,
+  fetchComments,
 }: {
   profile: number
-  setComments: (e: IComments[]) => void
+  fetchComments: () => Promise<void>
 }) => {
   const pathParam = usePathname()
   const paramArr = pathParam.split('/')
@@ -29,6 +26,7 @@ const CreateComment = ({
           profile,
         )
         inputValue.current.value = ''
+        fetchComments()
       }
     }
   }
