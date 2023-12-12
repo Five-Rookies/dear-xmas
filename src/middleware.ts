@@ -6,22 +6,14 @@ export async function middleware(req: NextRequest) {
   const res = NextResponse.next()
   const supabase = createMiddlewareClient({ req, res })
 
-  // 쿠키에서 토큰을 읽어옵니다.
-  const refreshToken = req.cookies.get('my-refresh-token')
-  const accessToken = req.cookies.get('my-access-token')
-
-  // 토큰이 있는 경우, Supabase 세션을 설정합니다.
-  if (refreshToken && accessToken) {
-    await supabase.auth.setSession({
-      refresh_token: refreshToken.value,
-      access_token: accessToken.value,
-    })
-  }
+  const { data } = await supabase.auth.getSession()
+  console.log('### middleware settion ###')
+  console.log(data.session)
 
   const {
     data: { user },
   } = await supabase.auth.getUser()
-  console.log('### user ###')
+  console.log('### middleware user ###')
   console.log(user)
 
   /**
