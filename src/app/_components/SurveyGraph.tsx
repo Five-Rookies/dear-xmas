@@ -1,17 +1,144 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, CSSProperties, useEffect } from 'react'
 import styles from '@/app/page.module.scss'
 import { getSurveyResult } from '@/utils/apiRequest/surveyApiRequest'
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+} from 'chart.js'
+import { Bar } from 'react-chartjs-2'
+import { faker } from '@faker-js/faker'
 
-const SurveyGraph = () => {
-  const survey = getSurveyResult()
-  console.log(survey)
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+)
+
+export const options: chartOptions<"bar"> = {
+  indexAxis: 'y' as const,
+  elements: {
+    bar: {
+      borderWidth: 0,
+    },
+  },
+  responsive: true,
+  scales: {
+    x: {
+      grid: {
+        display: false, // Hide grid lines for x-axis as well
+      },
+    },
+    y: {
+      ticks: {
+        font: {
+          size: 20, // Set the desired font size for y-axis labels
+          family: "'pretendard', sans-serif"
+        },
+      },
+      grid: {
+        display: false, 
+      },
+    },
+  },
+  datasets: {
+    bar: {
+      barThickness: 40, // Set the desired thickness for the bars
+      barPercentage: 0.5,
+    },
+  },
+};
+
+
+const SurveyGraph = (first_question) => {
+  const survey2 = getSurveyResult(first_question)
+  console.log(survey2)
+  const [surveyData, setSurveyData] = useState([])
   const [isToggleListShow, setToggleListShow] = useState(true)
 
   const toggleToggleList = () => {
     setToggleListShow(!isToggleListShow)
   }
+
+  useEffect(() => {
+    const fetchSurveyData = async () => {
+      try {
+        const data = await getSurveyResult()
+        setSurveyData(data)
+      } catch (error) {
+        console.error(error)
+      }
+    }
+    fetchSurveyData()
+  }, [])
+
+  
+
+  const survey = [
+    {
+      "id": 2,
+      "created_at": "2023-12-10T08:42:34.67389+00:00",
+      "first_baby": 8,
+      "first_child": 12,
+      "first_teenager": 2,
+      "first_adult": 0,
+      "first_stillTrust": 4,
+      "second_pretend": 20,
+      "second_pokerFace": 4,
+      "second_honest": 1,
+      "second_throwAway": 1,
+      "second_sell": 1,
+      "third_money": 12,
+      "third_electronics": 9,
+      "third_clothes": 2,
+      "third_travelTicket": 3,
+      "third_none": 0
+    },
+    {
+      "id": 3,
+      "created_at": "2023-12-10T08:42:34.67389+00:00",
+      "first_baby": 8,
+      "first_child": 12,
+      "first_teenager": 2,
+      "first_adult": 0,
+      "first_stillTrust": 4,
+      "second_pretend": 20,
+      "second_pokerFace": 4,
+      "second_honest": 1,
+      "second_throwAway": 1,
+      "second_sell": 1,
+      "third_money": 12,
+      "third_electronics": 9,
+      "third_clothes": 2,
+      "third_travelTicket": 3,
+      "third_none": 0
+    }
+  ]
+
+  const labels = survey.map((item) => item.first_baby)
+  
+  const data: chartData<"bar"> = {
+    labels,
+    datasets: [
+      {
+        labels,
+        data: labels.map(() => faker.datatype.number({ min: 0, max: 100 })),
+        backgroundColor: 'rgb(218, 48, 23)',
+      },
+    ],
+  };
+  
+  // export const style: CSSProperties = {
+  //   width: "40rem",
+  //   height: "30rem",
+  // };
 
   return (
     <div className={styles.toggleWrap}>
@@ -23,63 +150,14 @@ const SurveyGraph = () => {
         <li className={styles.toggleItem}>
           <button>Q. 여러분은 산타를 몇살까지 믿었나요?</button>
           <div className={styles.toggleInner}>
-            <ul>
-              <li className={styles.toggleInnerItem}>
-                <div className={styles.ageArea}>
-                  <img
-                    className={styles.emoji}
-                    src="/assets/emoji-baby.svg"
-                    alt=""
-                  />
-                  <span>0~5세</span>
-                </div>
-                <div className={styles.graph}></div>
-              </li>
-              <li className={styles.toggleInnerItem}>
-                <div className={styles.ageArea}>
-                  <img
-                    className={styles.emoji}
-                    src="/assets/emoji-child.svg"
-                    alt=""
-                  />
-                  <span>6~10세</span>
-                </div>
-                <div className={styles.graph}></div>
-              </li>
-              <li className={styles.toggleInnerItem}>
-                <div className={styles.ageArea}>
-                  <img
-                    className={styles.emoji}
-                    src="/assets/emoji-teenager.svg"
-                    alt=""
-                  />
-                  <span>11~20세</span>
-                </div>
-                <div className={styles.graph}></div>
-              </li>
-              <li className={styles.toggleInnerItem}>
-                <div className={styles.ageArea}>
-                  <img
-                    className={styles.emoji}
-                    src="/assets/emoji-adult.svg"
-                    alt=""
-                  />
-                  <span>20세 이상</span>
-                </div>
-                <div className={styles.graph}></div>
-              </li>
-              <li className={styles.toggleInnerItem}>
-                <div className={styles.ageArea}>
-                  <img
-                    className={styles.emoji}
-                    src="/assets/emoji-santa.svg"
-                    alt=""
-                  />
-                  <span>아직도 믿음</span>
-                </div>
-                <div className={styles.graph}></div>
-              </li>
-            </ul>
+            <div>
+              {/* <div className={styles.graph}></div> */}
+              <Bar 
+                options={options}
+                data={data}
+                // style={style}
+              />
+            </div>
           </div>
         </li>
         <li className={styles.toggleItem}>
