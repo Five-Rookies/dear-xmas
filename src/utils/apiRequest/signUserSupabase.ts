@@ -5,61 +5,22 @@ const supabase = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string,
 )
 
-export const userSignUp = async (
-  email: string,
-  password: string,
-  option: object,
-): Promise<void> => {
+export const handleSignOut = async () => {
   try {
-    const { data, error } = await supabase.auth.signUp({
-      email,
-      password,
-      options: {
-        data: option,
-        emailRedirectTo: `/signIn/auth/callback`,
-      },
+    const response = await fetch('/auth/logout', {
+      method: 'POST',
     })
 
-    if (error) throw error
+    if (!response.ok) {
+      const errorData = await response.json()
+      throw new Error(errorData.error)
+    }
+
+    alert('로그아웃 완료')
   } catch (error) {
+    alert('[ERROR]\n로그아웃 실패\n다시 시도해 주세요!')
     console.error(error)
-    throw new Error('[ERROR] 회원가입 실패')
   }
 }
 
-export const userSignIn = async (email: string, password: string) => {
-  try {
-    const { data, error } = await supabase.auth.signInWithPassword({
-      email,
-      password,
-    })
-
-    if (error) throw error
-
-    alert(`로그인 성공\n${data.user.email}`)
-  } catch (error) {
-    console.error(error)
-    throw new Error('[ERROR] 로그인 실패')
-  }
-}
-
-export const userSignOut = async () => {
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  if (!user) {
-    alert(`로그인 상태가 아닙니다!`)
-    return
-  }
-
-  try {
-    const { error } = await supabase.auth.signOut()
-
-    if (error) throw error
-
-    alert(`로그아웃 완료`)
-  } catch (error) {
-    console.error(error)
-    throw new Error('[ERROR] 로그아웃 실패')
-  }
-}
+export default handleSignOut

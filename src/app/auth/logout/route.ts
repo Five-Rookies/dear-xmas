@@ -6,29 +6,23 @@ import { NextResponse } from 'next/server'
 
 export async function POST(request: Request) {
   const requestUrl = new URL(request.url)
-  const formData = await request.formData()
-  const email = String(formData.get('email'))
-  const password = String(formData.get('password'))
   const cookieStore = cookies()
   const supabase = createRouteHandlerClient({
     cookies: () => cookieStore,
   })
 
   try {
-    const { error } = await supabase.auth.signInWithPassword({
-      email,
-      password,
-    })
+    const { error } = await supabase.auth.signOut()
     if (error) throw error
   } catch (error) {
     console.error(error)
     return NextResponse.json(
-      { error: '[ERROR] 로그인 실패. supabase 통신 에러 발생' },
+      { error: '[ERROR] 로그아웃 실패. supabase 통신 에러 발생' },
       { status: 500 },
     )
   }
 
-  return NextResponse.redirect(requestUrl.origin, {
+  return NextResponse.redirect(`${requestUrl.origin}/signIn`, {
     status: 301,
   })
 }
