@@ -9,7 +9,7 @@ export const getLive = async (meetup_id: string) => {
 }
 
 export const deleteLive = async (meetup_id: string) => {
-  console.log(meetup_id)
+  console.log('meetup_id', meetup_id)
   return executeQuery(
     supabase.from('meetup_board').delete().eq('id', meetup_id),
     '모임을 삭제하지 못했습니다',

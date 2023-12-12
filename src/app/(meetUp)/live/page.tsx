@@ -19,6 +19,7 @@ const LivePage = async (param: any) => {
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
           <h1>{meetupData.meetup_title}</h1>
           <LiveButton
+            leader={meetupData.user_name}
             scheduling={meetupData.scheduling}
             currentMeetupId={currentMeetupId}
           />
