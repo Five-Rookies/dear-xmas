@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import { userSignOut } from '@/utils/apiRequest/signUserSupabase'
 import styles from './header.module.scss'
 
-const MainMenu = () => {
+const MainMenu = ({ setIsClicked }: any) => {
+  const closeMenu = () => {
+    setIsClicked(false)
+  }
+
   return (
     <div className={styles.dropDownMenu}>
       <ul className="inner-box">
-        <li style={{ backgroundColor: '#FEFFD9' }}>
+        <li style={{ backgroundColor: '#FEFFD9' }} onClick={closeMenu}>
           <Link href="/#counter">
             <figure>
               <img src="/assets/calendar.png" alt="" />
@@ -15,7 +19,7 @@ const MainMenu = () => {
             <p>카운트다운</p>
           </Link>
         </li>
-        <li style={{ backgroundColor: '#5EC63A' }}>
+        <li style={{ backgroundColor: '#5EC63A' }} onClick={closeMenu}>
           <Link href="/#streaming">
             <figure>
               <img src="/assets/bell.png" alt="" />
@@ -23,7 +27,7 @@ const MainMenu = () => {
             <p>음악</p>
           </Link>
         </li>
-        <li style={{ backgroundColor: '#FFA132' }}>
+        <li style={{ backgroundColor: '#FFA132' }} onClick={closeMenu}>
           <Link href="/#slot">
             <figure>
               <img src="/assets/slot-arrow.png" alt="" />
@@ -31,7 +35,7 @@ const MainMenu = () => {
             <p>랜덤 슬롯</p>
           </Link>
         </li>
-        <li style={{ backgroundColor: '#FB6B2D' }}>
+        <li style={{ backgroundColor: '#FB6B2D' }} onClick={closeMenu}>
           <Link href="/#survey">
             <figure>
               <img src="/assets/gift.png" alt="" />
@@ -39,15 +43,15 @@ const MainMenu = () => {
             <p>설문조사</p>
           </Link>
         </li>
-        <li style={{ backgroundColor: '#FB2D38' }}>
-          <Link href="/#meetup">
+        <li style={{ backgroundColor: '#FB2D38' }} onClick={closeMenu}>
+          <Link href="/meetup">
             <figure>
               <img src="/assets/candles.png" alt="" />
             </figure>
             <p>촛불 모임</p>
           </Link>
         </li>
-        <li style={{ backgroundColor: '#FFF' }}>
+        <li style={{ backgroundColor: '#FFF' }} onClick={closeMenu}>
           <Link href="/developers">
             <figure>
               <img src="/assets/sledge.png" alt="" />
@@ -55,7 +59,7 @@ const MainMenu = () => {
             <p>개발자</p>
           </Link>
         </li>
-        <li style={{ backgroundColor: '#F3FFAC' }}>
+        <li style={{ backgroundColor: '#F3FFAC' }} onClick={closeMenu}>
           <Link href="/">
             <figure>
               <img src="/assets/sock.png" alt="" />
@@ -63,7 +67,7 @@ const MainMenu = () => {
             <p>마이페이지</p>
           </Link>
         </li>
-        <li style={{ backgroundColor: '#0E6B1D' }} onClick={userSignOut}>
+        <li style={{ backgroundColor: '#0E6B1D' }} onClick={() => {closeMenu(); userSignOut();}}>
           <Link href="/">
             <figure>
               <img src="/assets/stuckedSanta.png" alt="" />
