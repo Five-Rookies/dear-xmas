@@ -7,7 +7,7 @@ const NotFound = () => {
     <div className={styles.notFound}>
       <div>
         <p className={styles.tag}>Not Found</p>
-        <h1>페이지를 찾을 수 없습니다</h1>
+        <h1>접근할 수 없는 페이지입니다</h1>
         <Image
           src="/assets/not-found.png"
           width={0}

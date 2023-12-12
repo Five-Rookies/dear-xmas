@@ -6,18 +6,11 @@ export async function middleware(req: NextRequest) {
   const res = NextResponse.next()
   const supabase = createMiddlewareClient({ req, res })
 
-  const { data } = await supabase.auth.getSession()
-  console.log('### middleware settion ###')
-  console.log(data.session)
-
   const {
     data: { user },
   } = await supabase.auth.getUser()
-  console.log('### middleware user ###')
-  console.log(user)
 
   /**
-   * 사용자 접근 제한 조건
    * 1. 로그인이 되어 있지 않고
    * 2. 경로가 '/meetup' || '/live' || '/detail' 인 경우
    * -> '/signIn' 페이지로 리다이렉트
@@ -26,13 +19,32 @@ export async function middleware(req: NextRequest) {
   const isLivePage = req.nextUrl.pathname.startsWith('/live')
   const isDetailPage = req.nextUrl.pathname.startsWith('/detail')
   if (!user && (isMeetupPage || isLivePage || isDetailPage)) {
-    return NextResponse.redirect(new URL('/signIn', req.url))
+    const loginUrl = new URL('/signIn', req.url)
+    loginUrl.searchParams.set('login', 'false')
+    return NextResponse.redirect(loginUrl)
+  }
+
+  /**
+   * 1. 로그인이 되어 있고
+   * 2. 경로가 '/sign*'인 경우
+   * -> '/' 페이지로 리다이렉트
+   */
+  const isAuthPage = req.nextUrl.pathname.startsWith('/sign')
+  if (user && isAuthPage) {
+    return NextResponse.redirect(new URL('/not-found', req.url))
   }
 
   return res
 }
 
-// 이 미들웨어가 적용되는 경로를 설정
+// 미들웨어가 적용되는 경로를 설정
 export const config = {
-  matcher: ['/signIn', '/meetup/:path*', '/live/:path*', '/detail/:path*'],
+  matcher: [
+    '/',
+    '/signIn/:path*',
+    '/signUp',
+    '/meetup/:path*',
+    '/live/:path*',
+    '/detail/:path*',
+  ],
 }

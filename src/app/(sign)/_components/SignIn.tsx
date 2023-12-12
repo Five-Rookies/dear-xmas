@@ -1,12 +1,19 @@
 'use client'
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from '@/app/(sign)/_components/sign.module.scss'
 import Link from 'next/link'
-import { useRouter } from 'next/navigation'
+import { useRouter, useSearchParams } from 'next/navigation'
 
 const SignIn = () => {
   const router = useRouter()
+  const searchParams = useSearchParams()
+  let login = searchParams.get('login')
+
+  useEffect(() => {
+    if (login) alert('로그인이 필요한 페이지입니다')
+    login = null
+  }, [])
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault()
