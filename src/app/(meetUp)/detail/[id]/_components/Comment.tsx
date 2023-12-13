@@ -21,9 +21,15 @@ interface CommentProps {
   comment: Comments
   getVideoId: string
   setComments: Dispatch<SetStateAction<IComment[]>>
+  fetchComments: () => Promise<void>
 }
 
-const Comment = ({ comment, getVideoId, setComments }: CommentProps) => {
+const Comment = ({
+  comment,
+  getVideoId,
+  setComments,
+  fetchComments,
+}: CommentProps) => {
   const [isDotMenuVisible, setIsDotMenuVisible] = useState(false)
   const [isEditing, setIsEditing] = useState(false)
   const [inputValue, setInputValue] = useState(comment.comment_content)
@@ -48,10 +54,12 @@ const Comment = ({ comment, getVideoId, setComments }: CommentProps) => {
     setIsDotMenuVisible(!isDotMenuVisible)
     setIsEditing(true)
   }
+
   const handleEditCancle = (text: string) => {
     setInputValue(text)
     setIsEditing(!isEditing)
   }
+
   const renderUpdatedComment = async () => {
     let totalComments = await getComments(getVideoId)
     if (!totalComments) {
@@ -66,11 +74,13 @@ const Comment = ({ comment, getVideoId, setComments }: CommentProps) => {
     await updateComments(text, like_num, id)
     setIsEditing(false)
     await renderUpdatedComment()
+    await fetchComments()
   }
 
   const handleDeleteButton = async () => {
     setIsDotMenuVisible(!isDotMenuVisible)
     deleteComments(comment.id)
+    await fetchComments()
     await renderUpdatedComment()
   }
 

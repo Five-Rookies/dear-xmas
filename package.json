@@ -9,12 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@mui/material": "^5.14.18",
     "@supabase/auth-helpers-nextjs": "^0.8.7",
     "@supabase/supabase-js": "^2.39.0",
     "axios": "^1.6.2",
@@ -23,6 +20,7 @@
     "next": "14.0.3",
     "react": "^18",
     "react-chartjs-2": "^5.2.0",
+    "react-datetime-picker": "^5.6.0",
     "react-dom": "^18",
     "react-github-calendar": "^4.0.6",
     "react-tooltip": "^5.24.0",
