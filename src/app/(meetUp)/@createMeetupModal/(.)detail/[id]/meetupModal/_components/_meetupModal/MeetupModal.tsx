@@ -2,6 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import styles from './meetupModal.module.scss'
 import { useRouter } from 'next/navigation'
+import DatePicker from '../_datePicker/DatePicker'
 
 const MeetupModal = (): React.JSX.Element => {
   const router = useRouter()
@@ -60,14 +61,11 @@ const MeetupModal = (): React.JSX.Element => {
                 />
               </div>
             </div>
+
             <div className={styles.inputDiv}>
-              <input
-                className={styles.input}
-                type="text"
-                placeholder="예약 시간을 선택해 주세요"
-                onChange={e => setMeetupScheduling(e.target.value)}
-              />
+              <DatePicker />
             </div>
+
             <div className={styles.inputDiv}>
               <textarea
                 className={`${styles.input} ${styles.inputContent}`}
