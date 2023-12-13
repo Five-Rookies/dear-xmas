@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import Link from 'next/link'
-import { userSignOut } from '@/utils/apiRequest/signUserSupabase'
+import handleSignOut from '@/utils/apiRequest/signUserSupabase'
 import styles from './header.module.scss'
 
 const MainMenu = ({ closeMenu, modalRef, onClickOutside }: any) => {
