@@ -1,68 +1,66 @@
-import { createClient } from '@supabase/supabase-js'
+import React from 'react'
+import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL as string,
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string,
-)
+const supabase = createClientComponentClient()
 
-export const userSignUp = async (
-  email: string,
-  password: string,
-  option: object,
-): Promise<void> => {
-  try {
-    const { data, error } = await supabase.auth.signUp({
-      email,
-      password,
-      options: {
-        data: option,
-      },
-    })
-
-    if (error) throw error
-  } catch (error) {
-    console.error(error)
-    throw new Error('[ERROR] 회원가입 실패')
-  }
-}
-
-export const userSignIn = async (
-  email: string,
-  password: string,
-): Promise<void> => {
-  try {
-    const { data, error } = await supabase.auth.signInWithPassword({
-      email,
-      password,
-    })
-
-    if (error) throw error
-
-    console.log(data)
-    alert(`로그인 성공\n${data.user.email}`)
-  } catch (error) {
-    console.error(error)
-    throw new Error('[ERROR] 로그인 실패')
-  }
-}
-
-export const userSignOut = async () => {
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  if (!user) {
-    alert(`로그인 상태가 아닙니다!`)
+export const handleSignOut = async () => {
+  const { data } = await supabase.auth.getSession()
+  if (!data.session) {
+    alert('로그아웃 상태입니다!')
     return
   }
 
   try {
-    const { error } = await supabase.auth.signOut()
+    const response = await fetch('/auth/logout', {
+      method: 'POST',
+    })
 
-    if (error) throw error
+    if (!response.ok) {
+      const errorData = await response.json()
+      throw new Error(errorData.error)
+    }
 
-    alert(`로그아웃 완료`)
+    alert('로그아웃 완료')
   } catch (error) {
-    console.log(error)
-    throw new Error('[ERROR] 로그아웃 실패')
+    alert('로그아웃 실패\n다시 시도해 주세요!')
+    console.error(error)
+  }
+}
+
+export const handleSignIn = async (event: React.FormEvent<HTMLFormElement>) => {
+  try {
+    const formData = new FormData(event.currentTarget)
+    const response = await fetch('/auth/login', {
+      method: 'POST',
+      body: formData,
+    })
+
+    if (!response.ok) {
+      const errorData = await response.json()
+      throw new Error(errorData.error)
+    }
+  } catch (error) {
+    alert(
+      '로그인 실패\n이메일이나 비밀번호가 잘못되었습니다. 다시 입력해주세요!',
+    )
+    throw error
+  }
+}
+
+export const handleSignUp = async (event: React.FormEvent<HTMLFormElement>) => {
+  try {
+    const formData = new FormData(event.currentTarget)
+    const response = await fetch('/auth/sign-up', {
+      method: 'POST',
+      body: formData,
+    })
+
+    if (!response.ok) {
+      const errorData = await response.json()
+      throw new Error(errorData.error)
+    }
+  } catch (error) {
+    alert('회원가입 시도 중 오류가 발생하였습니다.')
+    throw error
   }
 }

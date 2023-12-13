@@ -1,4 +1,6 @@
 @use './thems.scss' as *;
+/*@use './datepicker.scss' as *;*/
+
 /* /styles/reset.css */
 @font-face {
   font-family: 'LINESeedKR-Bd';
@@ -222,16 +224,15 @@ a {
   color: #999;
   border: 2px solid #999;
   &:hover {
-    border: 2px solid #DA3017;
-    background-color: #DA3017;
+    border: 2px solid #da3017;
+    background-color: #da3017;
     color: #fff;
   }
 }
 .btn--red {
-  color: #DA3017;
-  background-color: #FFDCDC;
+  color: #da3017;
+  background-color: #ffdcdc;
 }
-
 
 .inner-box {
   max-width: 80rem;
