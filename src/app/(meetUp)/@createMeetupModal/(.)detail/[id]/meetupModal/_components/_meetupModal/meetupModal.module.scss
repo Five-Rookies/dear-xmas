@@ -1,3 +1,14 @@
+@keyframes showModal {
+  0% {
+    transform: translateY(500px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 .modalBackground {
   width: 100%;
   height: 100%;
@@ -12,15 +23,17 @@
 }
 
 .modal {
-  background: #ffffff;
+  background-color: var(--color-background);
   position: relative;
   width: 90%;
   height: 29rem;
-  top: 8%;
+  top: 5%;
   border-radius: 16px 16px 0 0;
   display: flex;
   flex-direction: column;
   flex: 0.5;
+  transition: all 0.3s ease-in-out;
+  animation: showModal 0.3s ease-in-out;
 }
 
 .modalHeader {
@@ -64,6 +77,19 @@
   color: rgb(0, 0, 0.5);
   padding: 1.1rem;
   cursor: pointer;
+  color: var(--color-text);
+}
+
+.schedule {
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: rgba(182, 182, 182, 0.1);
+  font-size: 1rem;
+  color: rgb(0, 0, 0.5);
+  padding: 1.1rem;
+  cursor: pointer;
+  color: var(--color-text);
+  width: 6.5rem;
 }
 
 .input {
@@ -74,6 +100,7 @@
   padding: 1.2rem;
   cursor: pointer;
   font-weight: bold;
+  color: var(--color-text);
 }
 
 .inputTitle {
@@ -83,7 +110,7 @@
 
 .inputContent {
   resize: none;
-  padding: 2rem;
+  padding: 2.5rem;
   font-family: none;
 }
 
@@ -96,13 +123,15 @@
 
 .actionButton {
   width: 100%;
-  background-color: rgb(15, 20, 25);
   color: white;
   font-size: 1rem;
   cursor: pointer;
   border: none;
   text-align: center;
   padding: 1rem 0;
+  transition: all 0.3s ease-in-out;
+  color: var(--color-text);
+  background-color: var(--color-background);
 }
 
 .actionButton:disabled {
@@ -110,7 +139,7 @@
 }
 
 .actionButton:hover {
-  background-color: rgb(39, 44, 48);
+  background-color: var(--color-hover-bg);
 }
 
 @media (max-width: 870px) {
@@ -119,14 +148,66 @@
   }
 }
 
-@media (max-width: 655px) {
-  .modal {
-    flex: 0.9;
-  }
+@media (max-width: 661px) {
   .modalBody {
     padding: 0 2rem;
   }
   .inputTitle {
-    width: 16.5rem;
+    width: 18rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .modal {
+    flex: 0.8;
+  }
+  .modalBody {
+    padding: 0 2.3rem;
+  }
+  .inputTitle {
+    width: 16rem;
+  }
+  .modalHeader {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 498px) {
+  .modal {
+    flex: 0.6;
+  }
+  .modalBody {
+    padding: 0 2.6rem;
+  }
+  .inputTitle {
+    width: 14rem;
+  }
+}
+
+@media (max-width: 476px) {
+  .inputTitle {
+    width: 12rem;
+  }
+}
+
+@media (max-width: 442px) {
+  .inputTitle {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 406px) {
+  .inputTitle {
+    width: 7.6rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .modalBody {
+    padding: 0 1rem;
+  }
+
+  .inputTitle {
+    width: 9rem;
   }
 }

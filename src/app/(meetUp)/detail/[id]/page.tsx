@@ -1,7 +1,11 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import { IYoutubeResponse, IYoutubeItem } from '@/type/YoutubeApiResponse'
+import {
+  IYoutubeResponse,
+  IYoutubeItem,
+  ISnippet,
+} from '@/type/YoutubeApiResponse'
 import RelatedVedio from '@/app/(meetUp)/detail/[id]/_components/RelatedVedio'
 import CommentList from '@/app/(meetUp)/detail/[id]/_components/CommentList'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
@@ -9,38 +13,38 @@ import styles from './detail.module.scss'
 import DetailHeader from './_components/DetailHeader'
 
 const Detail = (props: any) => {
-  const currentVideoId = props.params.id
-  const popularVideoDataList = useYoutubeDataRequest(
+  const currentVideoId: string = props.params.id
+  const [currentVideo, setCurrentVideo] = useState<IYoutubeItem | null>(null)
+  const VIDEO_SNIPPET: ISnippet | undefined = currentVideo?.snippet
+
+  const popularVideoDataList: IYoutubeResponse | null = useYoutubeDataRequest(
     'popular',
     '&q=크리스마스|크리스마스영화',
     32,
     undefined,
   )
-  const [currentVideo, setCurrentVideo] = useState<IYoutubeItem | null>(null)
+
+  const fetchData = (dataRequest: IYoutubeResponse, id: string) => {
+    const currentVideoInfo = dataRequest.items.find(
+      (channel: IYoutubeItem) => channel.id.videoId === id,
+    )
+    if (currentVideoInfo) {
+      setCurrentVideo(currentVideoInfo)
+    }
+  }
 
   useEffect(() => {
     if (popularVideoDataList) {
-      const fetchData = (dataRequest: IYoutubeResponse, id: string) => {
-        const currentVideoInfo = dataRequest.items.find(
-          (channel: IYoutubeItem) => channel.id.videoId === id,
-        )
-        if (currentVideoInfo) {
-          setCurrentVideo(currentVideoInfo)
-        }
-      }
-
-      fetchData(popularVideoDataList!, currentVideoId)
+      fetchData(popularVideoDataList, currentVideoId)
     }
   }, [popularVideoDataList])
 
   return (
     <div className={`inner-box ${styles.detail}`}>
-      {currentVideo !== null ? (
+      {currentVideo && (
         <>
-          <DetailHeader title={currentVideo.snippet.channelTitle} />
-          <h1 className={styles.videoInfoTitle}>
-            {currentVideo.snippet.title}
-          </h1>
+          <DetailHeader title={VIDEO_SNIPPET?.channelTitle} />
+          <h1 className={styles.videoInfoTitle}>{VIDEO_SNIPPET?.title}</h1>
           <div className={styles.visualContainer}>
             <div>
               <figure className={styles.visual}>
@@ -58,11 +62,11 @@ const Detail = (props: any) => {
 
             <RelatedVedio
               currentVideoId={currentVideoId}
-              channelId={currentVideo?.snippet?.channelId}
+              channelId={VIDEO_SNIPPET?.channelId}
             />
           </div>
         </>
-      ) : null}
+      )}
     </div>
   )
 }
