@@ -1,11 +1,14 @@
-import { createClient } from '@supabase/supabase-js'
+import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 
-const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL as string,
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string,
-)
+const supabase = createClientComponentClient()
 
-export const handleSignOut = async () => {
+const handleSignOut = async () => {
+  const { data } = await supabase.auth.getSession()
+  if (!data.session) {
+    alert('로그아웃 상태입니다!')
+    return
+  }
+
   try {
     const response = await fetch('/auth/logout', {
       method: 'POST',

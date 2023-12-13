@@ -6,9 +6,7 @@ export async function middleware(req: NextRequest) {
   const res = NextResponse.next()
   const supabase = createMiddlewareClient({ req, res })
 
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
+  const { data } = await supabase.auth.getSession()
 
   /**
    * 1. 로그인이 되어 있지 않고
@@ -18,7 +16,7 @@ export async function middleware(req: NextRequest) {
   const isMeetupPage = req.nextUrl.pathname.startsWith('/meetup')
   const isLivePage = req.nextUrl.pathname.startsWith('/live')
   const isDetailPage = req.nextUrl.pathname.startsWith('/detail')
-  if (!user && (isMeetupPage || isLivePage || isDetailPage)) {
+  if (!data.session && (isMeetupPage || isLivePage || isDetailPage)) {
     const loginUrl = new URL('/signIn', req.url)
     loginUrl.searchParams.set('login', 'false')
     return NextResponse.redirect(loginUrl)
@@ -30,7 +28,7 @@ export async function middleware(req: NextRequest) {
    * -> '/' 페이지로 리다이렉트
    */
   const isAuthPage = req.nextUrl.pathname.startsWith('/sign')
-  if (user && isAuthPage) {
+  if (data.session && isAuthPage) {
     return NextResponse.redirect(new URL('/not-found', req.url))
   }
 
