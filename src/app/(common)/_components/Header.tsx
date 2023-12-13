@@ -2,18 +2,31 @@
 
 import Link from 'next/link'
 import React, { useEffect, useState, useRef } from 'react'
+import useStore from '@/status/store'
+import { useRouter } from 'next/navigation'
+import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-import useStore from '@/status/store'
+import { handleSignOut } from '@/utils/apiRequest/signUserSupabase'
 import styles from './header.module.scss'
 import HeaderInput from './HeaderInput'
 import MainMenu from './MainMenu'
 
+const supabase = createClientComponentClient()
+
 const Header = (): React.JSX.Element => {
   const { isDark, toggleDarkMode } = useStore()
+  const { isLogin, toggleLogin } = useStore()
   const [hydrated, setHydrated] = useState(false)
   const [color, setColor] = useState(false)
-  const [isClicked, setIsClicked] = useState<boolean>(false);
+  const [isClicked, setIsClicked] = useState<boolean>(false)
+  const router = useRouter()
+
+  const setLoginMenu = async () => {
+    const { data } = await supabase.auth.getSession()
+    if (data.session) toggleLogin(true)
+    else toggleLogin(false)
+  }
 
   const onClickDarkMode = (): void => {
     toggleDarkMode(!isDark)
@@ -38,14 +51,48 @@ const Header = (): React.JSX.Element => {
     }
   }
 
+  const renderLoginMenu = () => {
+    if (hydrated) {
+      return isLogin ? (
+        <div className={styles.account}>
+          <span
+            onClick={() => {
+              handleSignOut()
+              router.refresh()
+            }}
+          >
+            로그아웃
+          </span>
+          <p className={styles.line}>|</p>
+          <Link href="">
+            <span onClick={() => alert('마이페이지 추후 개발!')}>
+              마이페이지
+            </span>
+          </Link>
+        </div>
+      ) : (
+        <div className={styles.account}>
+          <Link href="signIn">
+            <span>로그인</span>
+          </Link>
+          <p className={styles.line}>|</p>
+          <Link href="signUp">
+            <span>회원가입</span>
+          </Link>
+        </div>
+      )
+    }
+  }
+
   useEffect(() => {
     setHydrated(true)
+    setLoginMenu()
     isdarkMode()
     setColor(isDark)
-  }, [isDark])
+  }, [isDark, isLogin])
 
   const toggleMainMenu = () => {
-    setIsClicked(!isClicked);
+    setIsClicked(!isClicked)
   }
 
   const closeMenu = () => {
@@ -80,31 +127,27 @@ const Header = (): React.JSX.Element => {
               <button onClick={toggleMainMenu}>크리스마스</button>
             </li>
             <li>
-              <Link href="/meetup" onClick={closeMenu}>촛불모임</Link>
+              <Link href="/meetup" onClick={closeMenu}>
+                촛불모임
+              </Link>
             </li>
             <li>
-              <Link href="/developers" onClick={closeMenu}>개발자</Link>
+              <Link href="/developers" onClick={closeMenu}>
+                개발자
+              </Link>
             </li>
           </ul>
           <HeaderInput />
           <button className={styles.darkModeIcon} onClick={onClickDarkMode}>
             {renderThemeToggle()}
           </button>
-          <div className={styles.account}>
-            <Link href="signIn">
-              <span>로그인</span>
-            </Link>
-            <p className={styles.line}>|</p>
-            <Link href="signUp">
-              <span>회원가입</span>
-            </Link>
-          </div>
+          {renderLoginMenu()}
           <FontAwesomeIcon className={styles.barIcon} icon={faBars} />
         </div>
       </div>
       {isClicked && (
-        <MainMenu 
-          setIsClicked={setIsClicked} 
+        <MainMenu
+          setIsClicked={setIsClicked}
           closeMenu={closeMenu}
           modalRef={modalRef}
           onClickOutside={onClickOutside}
