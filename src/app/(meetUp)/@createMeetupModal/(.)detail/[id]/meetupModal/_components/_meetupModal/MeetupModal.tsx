@@ -6,6 +6,7 @@ import DatePicker from '../_datePicker/DatePicker'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { User } from '@supabase/supabase-js'
 import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequest'
+import useStore from '@/status/store'
 
 type ValuePiece = Date | null
 type Value = ValuePiece | [ValuePiece, ValuePiece]
@@ -16,11 +17,18 @@ export interface IMeetupBoardData {
   meetup_content: string
   scheduling: Value
   user_name: string
+  video_id: string
+  thumbnail: string
 }
 
-const MeetupModal = (): React.JSX.Element => {
+const MeetupModal = ({
+  currentVideoId,
+}: {
+  currentVideoId: string
+}): React.JSX.Element => {
   const router = useRouter()
   const modalRef = useRef<null>(null)
+  const { videoThumbnailUrl, removeThumbnailUrl } = useStore()
   const [meetupCategory, setMeetupCategory] = useState<string>('')
   const [meetupTitle, setMeetupTitle] = useState<string>('')
   const [meetupScheduling, setMeetupScheduling] = useState<Value>(new Date())
@@ -74,11 +82,14 @@ const MeetupModal = (): React.JSX.Element => {
       meetup_content: meetupContent,
       scheduling: meetupScheduling,
       user_name: user?.user_metadata.user_name,
+      video_id: currentVideoId,
+      thumbnail: videoThumbnailUrl,
     }
 
     try {
       await createMeetupBoard(data)
       alert('모임 생성 완료!')
+      removeThumbnailUrl()
       router.back()
     } catch (error) {
       console.log(error)
