@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Link from 'next/link'
-import { userSignOut } from '@/utils/apiRequest/signUserSupabase'
+import handleSignOut from '@/utils/apiRequest/signUserSupabase'
 import styles from './header.module.scss'
 
 const MainMenu = ({ setIsClicked }: any) => {
@@ -67,7 +67,13 @@ const MainMenu = ({ setIsClicked }: any) => {
             <p>마이페이지</p>
           </Link>
         </li>
-        <li style={{ backgroundColor: '#0E6B1D' }} onClick={() => {closeMenu(); userSignOut();}}>
+        <li
+          style={{ backgroundColor: '#0E6B1D' }}
+          onClick={() => {
+            handleSignOut()
+            closeMenu()
+          }}
+        >
           <Link href="/">
             <figure>
               <img src="/assets/stuckedSanta.png" alt="" />
