@@ -1,7 +1,5 @@
 import React from 'react'
-import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
-
-const supabase = createClientComponentClient()
+import { supabase } from './defaultApiSetting'
 
 export const handleSignOut = async () => {
   const { data } = await supabase.auth.getSession()

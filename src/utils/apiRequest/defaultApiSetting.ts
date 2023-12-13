@@ -1,10 +1,7 @@
-import { createClient } from '@supabase/supabase-js'
+import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 import ISupabase from '@/type/SupabaseResponse'
 
-export const supabase = createClient<ISupabase[]>(
-  process.env.NEXT_PUBLIC_SUPABASE_URL as string,
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string,
-)
+export const supabase = createClientComponentClient<ISupabase[]>()
 
 export const executeQuery = async (queryBuilder: any, errorMessage: string) => {
   try {
