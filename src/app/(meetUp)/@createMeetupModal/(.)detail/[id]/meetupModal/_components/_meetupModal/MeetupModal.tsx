@@ -157,7 +157,10 @@ const MeetupModal = ({
             <button
               type="button"
               className={styles.actionButton}
-              onClick={() => router.back()}
+              onClick={() => {
+                removeThumbnailUrl()
+                router.back()
+              }}
             >
               취소
             </button>
