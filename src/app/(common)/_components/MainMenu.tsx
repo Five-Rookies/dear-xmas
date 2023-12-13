@@ -1,11 +1,11 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import Link from 'next/link'
-import handleSignOut from '@/utils/apiRequest/signUserSupabase'
+import { handleSignOut } from '@/utils/apiRequest/signUserSupabase'
 import styles from './header.module.scss'
 
 const MainMenu = ({ closeMenu, modalRef, onClickOutside }: any) => {
   return (
-    <div 
+    <div
       className={styles.dropDownWrap}
       ref={modalRef}
       onClick={onClickOutside}
@@ -68,7 +68,13 @@ const MainMenu = ({ closeMenu, modalRef, onClickOutside }: any) => {
               <p>마이페이지</p>
             </Link>
           </li>
-          <li style={{ backgroundColor: '#0E6B1D' }} onClick={() => {closeMenu(); userSignOut();}}>
+          <li
+            style={{ backgroundColor: '#0E6B1D' }}
+            onClick={() => {
+              closeMenu()
+              handleSignOut()
+            }}
+          >
             <Link href="/">
               <figure>
                 <img src="/assets/stuckedSanta.png" alt="" />
