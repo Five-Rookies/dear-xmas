@@ -4,6 +4,7 @@ import React, { useEffect } from 'react'
 import styles from '@/app/(sign)/_components/sign.module.scss'
 import Link from 'next/link'
 import { useRouter, useSearchParams } from 'next/navigation'
+import { handleSignIn } from '@/utils/apiRequest/signUserSupabase'
 
 const SignIn = () => {
   const router = useRouter()
@@ -19,24 +20,11 @@ const SignIn = () => {
     event.preventDefault()
 
     try {
-      const formData = new FormData(event.currentTarget)
-      const response = await fetch('/auth/login', {
-        method: 'POST',
-        body: formData,
-      })
-
-      if (!response.ok) {
-        const errorData = await response.json()
-        throw new Error(errorData.error)
-      }
-
+      await handleSignIn(event)
       alert('로그인 완료. 반갑습니다!')
       router.refresh()
       router.push('/')
     } catch (error) {
-      alert(
-        '[ERROR]\n로그인 실패\n이메일이나 비밀번호가 잘못되었습니다. 다시 입력해주세요!',
-      )
       console.error(error)
     }
   }
