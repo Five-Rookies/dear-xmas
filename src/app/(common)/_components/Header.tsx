@@ -13,7 +13,7 @@ const Header = (): React.JSX.Element => {
   const { isDark, toggleDarkMode } = useStore()
   const [hydrated, setHydrated] = useState(false)
   const [color, setColor] = useState(false)
-  const [isClicked, setIsClicked] = useState(false);
+  const [isClicked, setIsClicked] = useState<boolean>(false);
 
   const onClickDarkMode = (): void => {
     toggleDarkMode(!isDark)
@@ -73,7 +73,7 @@ const Header = (): React.JSX.Element => {
           </li>
         </ul>
         {isClicked && (
-          <MainMenu />
+          <MainMenu setIsClicked={setIsClicked} />
         )}
         <HeaderInput />
         <button className={styles.darkModeIcon} onClick={onClickDarkMode}>

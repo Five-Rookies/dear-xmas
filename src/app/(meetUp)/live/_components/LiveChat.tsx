@@ -2,24 +2,29 @@
 import React, { useEffect, useState, useRef } from 'react'
 import styles from '../live.module.scss'
 import ISupabase from '@/type/SupabaseResponse'
-import { createChat, supabase } from '@/utils/apiRequest/commentsApiRequest'
-import { RealtimePostgresInsertPayload } from '@supabase/supabase-js'
-const LiveChat = ({
-  chatData,
+import { supabase } from '@/utils/apiRequest/defaultApiSetting'
+import { createChat, getChat } from '@/utils/apiRequest/liveApiRequest'
 
-  meetupId,
-}: {
-  chatData: ISupabase[]
-  meetupId: string
-}) => {
-  const [chat, setChat] = useState<ISupabase[]>([...chatData])
+const LiveChat = ({ meetupId }: { meetupId: string }) => {
+  const [chat, setChat] = useState<any>([])
+  const [user, setUser] = useState<any>([])
   const inputValue = useRef()
-  const userData =
-    typeof window !== undefined &&
-    window?.localStorage.getItem('sb-axftcjlvcdretsqgyikt-auth-token')
-  const userItem = userData && JSON.parse(userData).user
 
-  console.log(userData && JSON.parse(userData))
+  const fetchChat = async () => {
+    const {
+      data: { session },
+    } = await supabase.auth.getSession()
+    setUser(session?.user)
+    const chatData = await getChat(meetupId)
+    if (chatData) {
+      setChat(chatData)
+    }
+  }
+
+  useEffect(() => {
+    fetchChat()
+  }, [])
+
   useEffect(() => {
     const checkInsertLive = supabase
       .channel('table-db-changes')
@@ -31,14 +36,14 @@ const LiveChat = ({
           table: 'live_chat',
         },
 
-        (payload: any) => setChat([...chat, payload.new]),
+        () => fetchChat(),
       )
       .subscribe()
 
     return () => {
       supabase.removeChannel(checkInsertLive)
     }
-  }, [supabase, chat, setChat])
+  }, [chat])
 
   const profiles = ['santa', 'snowman', 'candle', 'cookie']
 
@@ -46,21 +51,21 @@ const LiveChat = ({
     if (e.key === 'Enter') {
       await createChat(
         meetupId,
-        userItem.user_metadata.user_name || '',
-        userItem.id || '',
-        userItem.user_metadata.profile_img as 0 | 1 | 2 | 3,
+        user.user_metadata.user_name || '',
+        user.id || '',
+        user.user_metadata.profile_img as 0 | 1 | 2 | 3,
         inputValue?.current?.value,
       )
       inputValue.current.value = ''
     }
   }
-  console.log('what?', userItem.user_metadata)
+
   return (
     <div className={styles.liveChatContainer}>
       <div className={styles.createChat}>
         <img
           src={`/assets/profile-${
-            profiles[userItem.user_metadata.profile_img]
+            profiles[user?.user_metadata?.profile_img]
           }.svg`}
           alt=""
         />
