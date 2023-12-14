@@ -74,6 +74,12 @@ const SurveyGraph = () => {
     '크리스마스에 가장 받고 싶은 선물은 무엇인가요?',
   ]
 
+  const bgColor = [
+    '#DA3017', 
+    '#17914F', 
+    '#FFCC36'
+  ]
+
   return (
     <div className={styles.toggleWrap}>
       <button className={styles.closeAll} onClick={handleAllToggle}>
@@ -88,7 +94,7 @@ const SurveyGraph = () => {
                 {
                   label: key,
                   data: Object.values(value),
-                  backgroundColor: 'rgb(218, 48, 23)',
+                  backgroundColor: bgColor[index],
                 },
               ],
             }
