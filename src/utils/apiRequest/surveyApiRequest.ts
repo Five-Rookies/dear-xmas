@@ -7,12 +7,11 @@ const supabase = createClient<ISupabase[]>(
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string,
 )
 
-export const getSurveyResult = async (first_question): Promise<ISurvey[]> => {
+export const getSurveyResult = async (): Promise<ISurvey[]> => {
   try {
     const { data, error } = await supabase
-      .from('survey2')
+      .from('survey')
       .select('*')
-      .eq('first_question', first_question)
     if (error) throw error
     console.log(data)
     return data
@@ -27,8 +26,9 @@ export const getSurveyResult = async (first_question): Promise<ISurvey[]> => {
 // export const insertSurveyValue = async () => {
 // const { data, error } = await supabase
 //   .from('survey')
-//   .eq('first_question', first_question)
-//   .insert({"bar": "baz", "active": false, "balance": 7.77})
+//   .insert([
+//     { firsty_baby: 3, first_adult: 4 },
+//   ])
 //   .select()
         
 // }

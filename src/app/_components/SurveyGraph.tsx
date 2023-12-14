@@ -57,9 +57,7 @@ export const options: chartOptions<"bar"> = {
 };
 
 
-const SurveyGraph = (first_question) => {
-  const survey2 = getSurveyResult(first_question)
-  console.log(survey2)
+const SurveyGraph = () => {
   const [surveyData, setSurveyData] = useState([])
   const [isToggleListShow, setToggleListShow] = useState(true)
 
@@ -81,7 +79,7 @@ const SurveyGraph = (first_question) => {
 
   
 
-  const survey = [
+  const survey2 = [
     {
       "id": 2,
       "created_at": "2023-12-10T08:42:34.67389+00:00",
@@ -122,7 +120,24 @@ const SurveyGraph = (first_question) => {
     }
   ]
 
-  const labels = survey.map((item) => item.first_baby)
+  
+  
+
+  
+ 
+  const survey = getSurveyResult()
+  console.log(Object.keys(survey))
+
+  const labels = Object.keys(survey2[0])
+  //console.log(labels)
+
+  // const object1 = {
+  //   a: 'somestring',
+  //   b: 42,
+  //   c: false,
+  // };
+  
+  // console.log(Object.keys(object1));
   
   const data: chartData<"bar"> = {
     labels,
