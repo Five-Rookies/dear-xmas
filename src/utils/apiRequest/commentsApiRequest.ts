@@ -20,7 +20,7 @@ export const getCommentsById = async (id: number) => {
 export const createComments = async (
   comment_content: string,
   video_id: string,
-  user_name: string,
+  user_name: string | undefined,
   profile_img: number,
 ) => {
   return executeQuery(

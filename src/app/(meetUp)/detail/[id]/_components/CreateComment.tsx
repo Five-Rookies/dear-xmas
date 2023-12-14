@@ -4,7 +4,6 @@ import React, { useEffect, useRef, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import { createComments } from '@/utils/apiRequest/commentsApiRequest'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
-import { User } from '@supabase/supabase-js'
 
 const CreateComment = ({
   profile,
@@ -17,13 +16,13 @@ const CreateComment = ({
   const paramArr = pathParam.split('/')
   const videoId = paramArr[paramArr.length - 1]
   const inputValue = useRef<HTMLInputElement>(null)
-  const [user, setUser] = useState<User>()
+  const [userName, setUserName] = useState<string | undefined>()
 
   const getUserName = async () => {
     const {
-      data: { session },
-    } = await supabase.auth.getSession()
-    setUser(session?.user)
+      data: { user },
+    } = await supabase.auth.getUser()
+    setUserName(user?.user_metadata.user_name)
   }
 
   const handleCreateCommnet = async (event: KeyboardEvent) => {
@@ -32,7 +31,7 @@ const CreateComment = ({
         await createComments(
           inputValue.current.value,
           videoId,
-          user?.user_metadata.user_name,
+          userName,
           profile,
         )
         inputValue.current.value = ''

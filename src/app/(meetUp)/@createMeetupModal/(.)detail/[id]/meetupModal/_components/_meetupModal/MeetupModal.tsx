@@ -4,7 +4,6 @@ import styles from './meetupModal.module.scss'
 import { useRouter } from 'next/navigation'
 import DatePicker from '../_datePicker/DatePicker'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
-import { User } from '@supabase/supabase-js'
 import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequest'
 import useStore from '@/status/store'
 
@@ -16,7 +15,7 @@ export interface IMeetupBoardData {
   meetup_title: string
   meetup_content: string
   scheduling: Value
-  user_name: string
+  user_name: string | undefined
   video_id: string
   thumbnail: string
 }
@@ -33,13 +32,13 @@ const MeetupModal = ({
   const [meetupTitle, setMeetupTitle] = useState<string>('')
   const [meetupScheduling, setMeetupScheduling] = useState<Value>(new Date())
   const [meetupContent, setMeetupContent] = useState<string>('')
-  const [user, setUser] = useState<User>()
+  const [userName, setUserName] = useState<string | undefined>()
 
   const getUserName = async () => {
     const {
-      data: { session },
-    } = await supabase.auth.getSession()
-    setUser(session?.user)
+      data: { user },
+    } = await supabase.auth.getUser()
+    setUserName(user?.user_metadata.user_name)
   }
 
   const handleClickOutside = (
@@ -81,7 +80,7 @@ const MeetupModal = ({
       meetup_title: meetupTitle,
       meetup_content: meetupContent,
       scheduling: meetupScheduling,
-      user_name: user?.user_metadata.user_name,
+      user_name: userName,
       video_id: currentVideoId,
       thumbnail: videoThumbnailUrl,
     }
