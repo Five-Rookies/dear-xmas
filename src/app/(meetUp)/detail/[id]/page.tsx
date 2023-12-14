@@ -45,11 +45,13 @@ const Detail = (props: any) => {
       {currentVideo && (
         <>
           <DetailHeader title={VIDEO_SNIPPET?.channelTitle} />
-          <CreateMeetUpButton
-            thumbnailUrl={VIDEO_SNIPPET?.thumbnails.medium.url}
-            currentVideoId={currentVideoId}
-          />
-          <h1 className={styles.videoInfoTitle}>{VIDEO_SNIPPET?.title}</h1>
+          <div className={styles.titleArea}>
+            <CreateMeetUpButton
+              thumbnailUrl={VIDEO_SNIPPET?.thumbnails.medium.url}
+              currentVideoId={currentVideoId}
+            />
+            <h1 className={styles.videoInfoTitle}>{VIDEO_SNIPPET?.title}</h1>
+          </div>
           <div className={styles.visualContainer}>
             <div>
               <figure className={styles.visual}>
