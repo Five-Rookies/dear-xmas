@@ -30,6 +30,10 @@
 .buttonRed {
   color: #da3017;
   background-color: #ffdcdc;
+  &:hover {
+    background-color: #da3017;
+    color: #fff;
+  }
 }
 
 .activeTab {

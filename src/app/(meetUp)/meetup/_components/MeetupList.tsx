@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react'
 import styles from '../meetup.module.scss'
+import btn from '@/app/globalButton.module.scss'
 //import likeIcon from '@public/assets/like.svg'
 
 const MeetupList = () => {
@@ -37,7 +38,9 @@ const MeetupList = () => {
           </h2>
           <div className={styles.openNotice}>
             <p>12/06 17:00 오픈예정</p>
-            <button className="btn btn--red">참가하기</button>
+            <button className={`${btn.button} ${btn.buttonRed}`}>
+              참가하기
+            </button>
           </div>
         </div>
         <p className={styles.writer}>

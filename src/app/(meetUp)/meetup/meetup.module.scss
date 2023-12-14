@@ -15,7 +15,8 @@
 }
 
 .container {
-  background-color: #f2f2f2;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--color-background);
 }
 .contents {
   padding: 0;
@@ -34,7 +35,7 @@
     justify-content: center;
 
     .videoCard {
-      background-color: #fff;
+      background-color: var(--color-background);
       margin: 10px;
       border: 1px solid #ddd;
       border-radius: 20px;
@@ -62,9 +63,10 @@
 
   .meetupList {
     .meetupPost {
-      background-color: #fff;
+      background-color: var(--color-background);
       border-radius: 1.25rem;
       padding: 1.875rem 2.5rem;
+      transition: all 0.3s ease-in-out;
     }
     .titleArea {
       display: flex;
@@ -79,8 +81,9 @@
         color: #999;
       }
       h2 {
-        color: #000;
+        color: var(--color-text);
         font-size: 1.25rem;
+        transition: all 0.3s ease-in-out;
       }
       .openNotice {
         display: flex;
