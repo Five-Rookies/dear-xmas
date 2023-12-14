@@ -1,12 +1,16 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from '../meetup.module.scss'
 import btn from '@/app/globalButton.module.scss'
+import { supabase } from '@/utils/apiRequest/defaultApiSetting'
+import { getMeetupList } from '@/utils/apiRequest/meetupApiRequest'
+import { IMeetupBoardData } from '../../@createMeetupModal/(.)detail/[id]/meetupModal/_components/_meetupModal/MeetupModal'
 //import likeIcon from '@public/assets/like.svg'
 
 const MeetupList = () => {
   const [isDotMenuVisible, setIsDotMenuVisible] = useState(false)
+  const [createdMeetup, setCreatedMeetup] = useState([])
   const [isEditing, setIsEditing] = useState(false)
   const handleDotMenu = () => {
     setIsDotMenuVisible(!isDotMenuVisible)
@@ -29,47 +33,64 @@ const MeetupList = () => {
     // await renderUpdatedComment()
   }
 
+  const fetchMeetupList = async () => {
+    const res = await getMeetupList()
+    setCreatedMeetup(res)
+  }
+
+  useEffect(() => {
+    fetchMeetupList()
+  }, [])
+
   return (
-    <div className={styles.meetupList}>
-      <div className={styles.meetupPost}>
-        <div className={styles.titleArea}>
-          <h2>
-            <span>영화</span> <i>|</i> 크리스마스에는 역시 나홀로 집에~!
-          </h2>
-          <div className={styles.openNotice}>
-            <p>12/06 17:00 오픈예정</p>
-            <button className={`${btn.button} ${btn.buttonRed}`}>
-              참가하기
-            </button>
-          </div>
-        </div>
-        <p className={styles.writer}>
-          <span>쿠키맨</span> ·<span>1분전</span>
-        </p>
-        <div className={styles.textContent}>
-          <p>
-            안녕하세요 나홀로집에 함꼐 봐주실 촛불님들 구합니다. <br />
-            1편부터 보려고 해요! 함께 감상하실분 계신가요?????
-            <br />
-            혹시 음식도 추천해주실 분 계신다면 아래 댓글로 남겨주시면
-            감사하겠습니다. <br />
-            저는 팝콘 먹을거에요~!
-          </p>
-        </div>
-        <div className={styles.buttonArea}>
-          <div>
-            <button>
-              <img src="/assets/like.svg" alt="좋아요" />
-              <span>10명 좋아요</span>
-            </button>
-            {/*<button>
+    <>
+      {createdMeetup.map((meetup: IMeetupBoardData) => {
+        console.log(meetup)
+        const originalDate = new Date(meetup?.scheduling?.toString() as string)
+
+        const year = originalDate.getFullYear().toString().substr(-2) // 연도의 뒤 2자리
+        const month = (originalDate.getMonth() + 1).toString().padStart(2, '0') // 월
+        const day = originalDate.getDate().toString().padStart(2, '0') // 일
+        const hours = originalDate.getHours().toString().padStart(2, '0') // 시
+        const minutes = originalDate.getMinutes().toString().padStart(2, '0') // 분
+
+        const formattedDate = `${year}/${month}/${day} ${hours}:${minutes}`
+
+        return (
+          <div className={styles.meetupList}>
+            <div className={styles.meetupPost}>
+              <div className={styles.titleArea}>
+                <h2>
+                  <span>{meetup.category}</span> <i>|</i> {meetup.meetup_title}
+                </h2>
+                <div className={styles.openNotice}>
+                  <p>{formattedDate} 오픈예정</p>
+                  <button className={`${btn.button} ${btn.buttonRed}`}>
+                    참가하기
+                  </button>
+                </div>
+              </div>
+              <p className={styles.writer}>
+                <span>{meetup.user_name}</span> ·
+                <span>{meetup?.created_at}</span>
+              </p>
+              <div className={styles.textContent}>
+                <p>{meetup.meetup_content}</p>
+              </div>
+              <div className={styles.buttonArea}>
+                <div>
+                  <button>
+                    <img src="/assets/like.svg" alt="좋아요" />
+                    <span>10명 좋아요</span>
+                  </button>
+                  {/*<button>
               <img src="/assets/like.svg" alt="댓글" />
               <span>10개 댓글</span>
               </button>*/}
-          </div>
-          <button className="btn btn--gray">영상 보러가기</button>
-        </div>
-        {/*<div className={styles.comment}>
+                </div>
+                <button className="btn btn--gray">영상 보러가기</button>
+              </div>
+              {/*<div className={styles.comment}>
           <input type="text" placeholder="하고 싶은 말을 적어봐요!" />
           <div className={styles.commentContainer}>
             <div>
@@ -100,8 +121,11 @@ const MeetupList = () => {
             </p>
           </div>
         </div>*/}
-      </div>
-    </div>
+            </div>
+          </div>
+        )
+      })}
+    </>
   )
 }
 

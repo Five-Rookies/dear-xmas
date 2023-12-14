@@ -7,17 +7,19 @@ import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequest'
 import useStore from '@/status/store'
 
-type ValuePiece = Date | null
+type ValuePiece = Date | null | string
 type Value = ValuePiece | [ValuePiece, ValuePiece]
 
 export interface IMeetupBoardData {
-  category: string
-  meetup_title: string
-  meetup_content: string
+  meetup_id?: number
+  category?: string
+  meetup_title?: string
+  meetup_content?: string
   scheduling: Value
-  user_name: string | undefined
-  video_id: string
-  thumbnail: string
+  user_name?: string | undefined
+  video_id?: string
+  thumbnail?: string
+  created_at?: string
 }
 
 const MeetupModal = ({
