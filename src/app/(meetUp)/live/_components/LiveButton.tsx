@@ -35,10 +35,7 @@ const LiveButton = ({
           schema: 'public',
           table: 'meetup_board',
         },
-        payload => {
-          console.log('payload', payload)
-          isDeleteMeetup()
-        },
+        () => isDeleteMeetup(),
       )
       .subscribe()
 
@@ -73,7 +70,6 @@ const LiveButton = ({
   }
 
   const isDeleteMeetup = () => {
-    console.log('촛불 모임이 종료되었습니다')
     router.refresh()
     router.push('/meetup')
   }
@@ -85,7 +81,6 @@ const LiveButton = ({
         await deleteLive(currentMeetupId)
         isDeleteMeetup()
       }
-      console.log('종료하기 통과', currentMeetupId, '/')
     }
   }
 
