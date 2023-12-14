@@ -1,25 +1,15 @@
-import { createClient } from '@supabase/supabase-js'
+import { supabase, executeQuery } from '@/utils/apiRequest/defaultApiSetting'
 import ISupabase from '@/type/SupabaseResponse'
 import ISurvey from '@/type/SupabaseResponse'
 
-const supabase = createClient<ISupabase[]>(
-  process.env.NEXT_PUBLIC_SUPABASE_URL as string,
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string,
-)
 
 export const getSurveyResult = async (): Promise<ISurvey[]> => {
-  try {
-    const { data, error } = await supabase
-      .from('survey')
-      .select('*')
-    if (error) throw error
-    console.log(data)
-    return data
-  } catch (error) {
-    console.error(error)
-    throw error
-  }
+  return executeQuery(
+    supabase.from('survey2').select('*'),
+    '데이터를 불러오지 못했습니다',
+  )
 }
+
 
 
 
