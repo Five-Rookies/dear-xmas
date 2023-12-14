@@ -5,7 +5,11 @@ const tableName =
 
 export const getComments = async (video_id: string) => {
   return executeQuery(
-    supabase.from(tableName).select('*').eq('video_id', video_id),
+    supabase
+      .from(tableName)
+      .select('*')
+      .eq('video_id', video_id)
+      .order('id', { ascending: false }),
     '데이터를 불러오지 못했습니다',
   )
 }

@@ -18,7 +18,11 @@ export const deleteLive = async (meetup_id: number) => {
 // 실시간 채팅
 export const getChat = async (meetup_id: number) => {
   return executeQuery(
-    supabase.from('live_chat').select('*').eq('meetup_id', meetup_id),
+    supabase
+      .from('live_chat')
+      .select('*')
+      .eq('meetup_id', meetup_id)
+      .order('id', { ascending: false }),
     '채팅 목록 불러오기 실패!',
   )
 }
