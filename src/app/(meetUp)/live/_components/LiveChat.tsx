@@ -6,7 +6,7 @@ import { createChat, getChat } from '@/utils/apiRequest/liveApiRequest'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import useStore from '@/status/store'
 
-const LiveChat = ({ meetupId }: { meetupId: string }) => {
+const LiveChat = ({ meetupId }: { meetupId: number }) => {
   const { setTime } = useStore()
   const [chat, setChat] = useState<any>([])
   const [user, setUser] = useState<any>([])
@@ -72,6 +72,7 @@ const LiveChat = ({ meetupId }: { meetupId: string }) => {
     const time = chat.substring(startIndex, startIndex + 8)
     const seconds = timeToSeconds(time)
     setTime(seconds)
+    // location.reload() // TODO: 같은 시간 선택 시 리렌더링 되지 않는 문제 해결을 위한 코드. 단 전체 새로고침이 되므로 지양해야함..
   }
   return (
     <div className={styles.liveChatContainer}>

@@ -11,7 +11,7 @@ import { createServerActionClient } from '@supabase/auth-helpers-nextjs'
 import { revalidatePath } from 'next/cache'
 import { IMeetupBoardData } from '../@createMeetupModal/(.)detail/[id]/meetupModal/_components/_meetupModal/MeetupModal'
 
-const ComponentsWithNoSSR = dynamic<{ meetupId: string }>(
+const ComponentsWithNoSSR = dynamic<{ meetupId: number }>(
   () => import('./_components/LiveChat'), // Component로 사용할 항목을 import합니다.
   { ssr: false },
 )
@@ -41,9 +41,9 @@ const LivePage = async (param: any) => {
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
           <h1>{meetup_title}</h1>
           <LiveButton
-            leader={user_name}
+            user_name={user_name}
             scheduling={scheduling}
-            currentMeetupId={currentMeetupId}
+            meetup_id={currentMeetupId}
           />
         </div>
 
@@ -51,7 +51,7 @@ const LivePage = async (param: any) => {
           <LiveStream
             scheduling={scheduling}
             thumbnail={thumbnail}
-            videoId={video_id}
+            video_id={video_id}
           />
           <ComponentsWithNoSSR meetupId={currentMeetupId} />
         </div>
