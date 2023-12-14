@@ -1,100 +1,120 @@
-'use client'
-
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import styles from '@/app/page.module.scss'
 import { getSurveyResult } from '@/utils/apiRequest/surveyApiRequest'
+import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip } from 'chart.js'
+import { Bar } from 'react-chartjs-2'
+import ISurvey from '@/type/SupabaseResponse'
+
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip)
+
+export const options = {
+  indexAxis: 'y',
+  elements: {
+    bar: {
+      borderWidth: 0,
+    },
+  },
+  responsive: true,
+  scales: {
+    x: {
+      grid: {
+        display: false,
+      },
+      ticks: {
+        align: 'start', // 왼쪽 정렬로 변경
+      },
+    },
+    y: {
+      ticks: {
+        font: {
+          size: 20,
+          family: "'pretendard', sans-serif",
+        },
+      },
+      grid: {
+        display: false,
+      },
+    },
+  },
+  datasets: {
+    bar: {
+      barThickness: 40,
+      barPercentage: 0.7,
+    },
+  },
+}
 
 const SurveyGraph = () => {
-  const survey = getSurveyResult()
-  console.log(survey)
-  const [isToggleListShow, setToggleListShow] = useState(true)
+  const [surveyData, setSurveyData] = useState<ISurvey[]>([])
+  const [isToggleListShow, setToggleListShow] = useState(false)
+  const [toggleIndex, setToggleIndex] = useState<number>(0)
 
-  const toggleToggleList = () => {
-    setToggleListShow(!isToggleListShow)
+  const handleToggle = (index: number) => {
+    setToggleIndex(index === toggleIndex ? -1 : index)
   }
+  const handleAllToggle = () => {
+    setToggleListShow(!isToggleListShow)
+    setToggleIndex(-1)
+  }
+
+  useEffect(() => {
+    const fetchSurveyData = async () => {
+      const data = await getSurveyResult()
+      if (data) {
+        setSurveyData(data)
+      }
+    }
+    fetchSurveyData()
+  }, [])
+
+
+  const questionList = [
+    '여러분은 산타를 몇살까지 믿었나요?',
+    '마음에 들지 않은 선물을 받았을 때 어떻게 하시나요?',
+    '크리스마스에 가장 받고 싶은 선물은 무엇인가요?',
+  ]
 
   return (
     <div className={styles.toggleWrap}>
-      <ul
-        className={`${styles.toggleList} ${
-          isToggleListShow ? '' : styles.hidden
-        }`}
-      >
-        <li className={styles.toggleItem}>
-          <button>Q. 여러분은 산타를 몇살까지 믿었나요?</button>
-          <div className={styles.toggleInner}>
-            <ul>
-              <li className={styles.toggleInnerItem}>
-                <div className={styles.ageArea}>
-                  <img
-                    className={styles.emoji}
-                    src="/assets/emoji-baby.svg"
-                    alt=""
-                  />
-                  <span>0~5세</span>
-                </div>
-                <div className={styles.graph}></div>
+      <button className={styles.closeAll} onClick={handleAllToggle}>
+        {isToggleListShow ? '전체 접기 ▲' : '전체 펼치기 ▼'}
+      </button>
+      <ul className={styles.toggleList}>
+        {surveyData.length > 0 &&
+          Object.entries(surveyData[0]).slice(2, 5).map(([key, value], index) => {
+            const data = {
+              labels: Object.keys(value),
+              datasets: [
+                {
+                  label: key,
+                  data: Object.values(value),
+                  backgroundColor: 'rgb(218, 48, 23)',
+                },
+              ],
+            }
+
+            return (
+              <li 
+                className={`${styles.toggleItem} ${toggleIndex === index || isToggleListShow ? styles.active : ''}`} 
+                key={key}>
+                <button onClick={() => handleToggle(index)}>{`Q. ${questionList[index]}`}</button>
+                {(toggleIndex === index || isToggleListShow) && (
+                  <div className={styles.toggleInner}>
+                    <div>
+                      <Bar 
+                        options={options} 
+                        data={data} 
+                        height={110}
+                      />
+                    </div>
+                  </div>
+                )}
               </li>
-              <li className={styles.toggleInnerItem}>
-                <div className={styles.ageArea}>
-                  <img
-                    className={styles.emoji}
-                    src="/assets/emoji-child.svg"
-                    alt=""
-                  />
-                  <span>6~10세</span>
-                </div>
-                <div className={styles.graph}></div>
-              </li>
-              <li className={styles.toggleInnerItem}>
-                <div className={styles.ageArea}>
-                  <img
-                    className={styles.emoji}
-                    src="/assets/emoji-teenager.svg"
-                    alt=""
-                  />
-                  <span>11~20세</span>
-                </div>
-                <div className={styles.graph}></div>
-              </li>
-              <li className={styles.toggleInnerItem}>
-                <div className={styles.ageArea}>
-                  <img
-                    className={styles.emoji}
-                    src="/assets/emoji-adult.svg"
-                    alt=""
-                  />
-                  <span>20세 이상</span>
-                </div>
-                <div className={styles.graph}></div>
-              </li>
-              <li className={styles.toggleInnerItem}>
-                <div className={styles.ageArea}>
-                  <img
-                    className={styles.emoji}
-                    src="/assets/emoji-santa.svg"
-                    alt=""
-                  />
-                  <span>아직도 믿음</span>
-                </div>
-                <div className={styles.graph}></div>
-              </li>
-            </ul>
-          </div>
-        </li>
-        <li className={styles.toggleItem}>
-          <button>
-            Q. 마음에 들지 않은 선물을 받았을 때 어떻게 하시나요?
-          </button>
-          <div></div>
-        </li>
-        <li className={styles.toggleItem}>
-          <button>Q. 크리스마스에 가장 받고 싶은 선물은 무엇인가요?</button>
-          <div></div>
-        </li>
+            )
+          })}
       </ul>
     </div>
-  );
-};
+  )
+}
 
-export default SurveyGraph;
+export default SurveyGraph
