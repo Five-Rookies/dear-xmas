@@ -6,11 +6,10 @@ import styles from './live.module.scss'
 import DetailHeader from '../detail/[id]/_components/DetailHeader'
 import dynamic from 'next/dynamic'
 import LiveButton from './_components/LiveButton'
-import { getLive } from '@/utils/apiRequest/liveApiRequest'
-
 import { cookies } from 'next/headers'
 import { createServerActionClient } from '@supabase/auth-helpers-nextjs'
 import { revalidatePath } from 'next/cache'
+import { IMeetupBoardData } from '../@createMeetupModal/(.)detail/[id]/meetupModal/_components/_meetupModal/MeetupModal'
 
 const ComponentsWithNoSSR = dynamic<{ meetupId: string }>(
   () => import('./_components/LiveChat'), // Component로 사용할 항목을 import합니다.
@@ -28,8 +27,13 @@ const LivePage = async (param: any) => {
     .single()
   revalidatePath('/')
 
-  const { meetup_title, user_name, scheduling, thumbnail, video_id } =
-    meetupData?.data
+  const {
+    meetup_title,
+    user_name,
+    scheduling,
+    thumbnail,
+    video_id,
+  }: IMeetupBoardData = meetupData?.data
   return (
     <div className="inner-box">
       <div className={styles.container}>
