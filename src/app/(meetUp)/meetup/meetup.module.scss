@@ -38,7 +38,7 @@
       background-color: var(--color-grey-bg);
       margin: 10px;
       border: 1px solid #ddd;
-      border-radius: 20px;
+      border-radius: 1.25rem;
       overflow: hidden;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
       transition: all 0.3s ease-in-out;
@@ -46,7 +46,7 @@
 
       &:hover {
         transform: scale(1.03);
-        border-radius: 0px;
+        border-radius: 0;
 
         img {
           border-radius: 0;
@@ -55,7 +55,7 @@
 
       .videoImage {
         width: 100%;
-        border-radius: 20px;
+        border-radius: 1.25rem;
         transition: all 0.3s ease-in-out;
       }
     }
@@ -134,7 +134,7 @@
         border: none;
         font-size: 1rem;
         border-radius: 0.625rem;
-        background-color: #f8f8f8;
+        background-color: var(--color-main-ground-two-bg);
       }
       input {
         color: #999;
