@@ -19,6 +19,7 @@ export interface IMeetupBoardData {
   user_name?: string | undefined
   video_id?: string
   thumbnail?: string
+  created_at?: string
 }
 
 const MeetupModal = ({

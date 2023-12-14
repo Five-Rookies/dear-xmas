@@ -16,7 +16,7 @@
 
 .container {
   transition: all 0.3s ease-in-out;
-  background-color: var(--color-background);
+  background-color: var(--color-grey-bg);
 }
 .contents {
   padding: 0;
@@ -35,7 +35,7 @@
     justify-content: center;
 
     .videoCard {
-      background-color: var(--color-background);
+      background-color: var(--color-grey-bg);
       margin: 10px;
       border: 1px solid #ddd;
       border-radius: 20px;
@@ -63,7 +63,8 @@
 
   .meetupList {
     .meetupPost {
-      background-color: var(--color-background);
+      background-color: var(--color-grey-box-bg);
+      border: 1px solid var(--color-border);
       border-radius: 1.25rem;
       padding: 1.875rem 2.5rem;
       transition: all 0.3s ease-in-out;
@@ -94,7 +95,7 @@
         }
       }
     }
-    .writer {
+    .writer span {
       margin-top: 0.5rem;
       color: #999;
     }
@@ -102,6 +103,9 @@
       font-size: 1rem;
       line-height: 1.5;
       margin: 0.9375rem 0 1.875rem;
+      p {
+        white-space: pre-wrap;
+      }
     }
 
     .buttonArea {
