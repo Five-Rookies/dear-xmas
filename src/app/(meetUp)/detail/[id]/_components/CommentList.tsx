@@ -37,19 +37,17 @@ const CommentList = ({ getVideoId }: { getVideoId: string }) => {
         <CreateComment profile={randomProfile} fetchComments={fetchComments} />
       </div>
       {comments.length !== 0 &&
-        [...comments]
-          .sort((a, b) => b.id - a.id)
-          .map((el: IComment) => {
-            return (
-              <Comment
-                key={el.id}
-                comment={el}
-                getVideoId={getVideoId}
-                setComments={setComments}
-                fetchComments={fetchComments}
-              />
-            )
-          })}
+        comments.map((el: IComment) => {
+          return (
+            <Comment
+              key={el.id}
+              comment={el}
+              getVideoId={getVideoId}
+              setComments={setComments}
+              fetchComments={fetchComments}
+            />
+          )
+        })}
     </div>
   )
 }

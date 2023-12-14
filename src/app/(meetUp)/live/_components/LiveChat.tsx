@@ -91,31 +91,29 @@ const LiveChat = ({ meetupId }: { meetupId: number }) => {
         />
       </div>
       <ul className={styles.liveChat}>
-        {[...chat]
-          .sort((a, b) => b?.id - a?.id)
-          ?.map((liveChat: ISupabase) => {
-            const { profile_img, live_content } = liveChat
-            return (
-              <li key={liveChat.id} className={styles.liveChatBox}>
-                <img
-                  src={`/assets/profile-${profiles[profile_img]}.svg`}
-                  alt=""
-                />
-                <span className={styles.userName}> {liveChat.user_name}</span>
-                {live_content?.includes('#') ? (
-                  <button
-                    className={styles.startTime}
-                    onClick={() => handleVideoStart(live_content)}
-                    type="button"
-                  >
-                    {live_content.split('#').join('')}
-                  </button>
-                ) : (
-                  <span> {live_content}</span>
-                )}
-              </li>
-            )
-          })}
+        {...chat?.map((liveChat: ISupabase) => {
+          const { profile_img, live_content } = liveChat
+          return (
+            <li key={liveChat.id} className={styles.liveChatBox}>
+              <img
+                src={`/assets/profile-${profiles[profile_img]}.svg`}
+                alt=""
+              />
+              <span className={styles.userName}> {liveChat.user_name}</span>
+              {live_content?.includes('#') ? (
+                <button
+                  className={styles.startTime}
+                  onClick={() => handleVideoStart(live_content)}
+                  type="button"
+                >
+                  {live_content.split('#').join('')}
+                </button>
+              ) : (
+                <span> {live_content}</span>
+              )}
+            </li>
+          )
+        })}
       </ul>
     </div>
   )

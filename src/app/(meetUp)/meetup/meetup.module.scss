@@ -15,6 +15,7 @@
 }
 
 .container {
+  padding-bottom: 1rem;
   transition: all 0.3s ease-in-out;
   background-color: var(--color-grey-bg);
 }
@@ -62,6 +63,7 @@
   }
 
   .meetupList {
+    margin-bottom: 1.2rem;
     .meetupPost {
       background-color: var(--color-grey-box-bg);
       border: 1px solid var(--color-border);
