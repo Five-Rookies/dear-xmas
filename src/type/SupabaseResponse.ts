@@ -7,6 +7,7 @@ export default interface ISupabase {
   comment_content?: string
   live_content?: string
   user_id?: string
+  user_name?: string
 }
 
 export default interface ISurvey {
