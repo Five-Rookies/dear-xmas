@@ -36,7 +36,10 @@ const LiveChat = ({ meetupId }: { meetupId: string }) => {
           table: 'live_chat',
         },
 
-        () => fetchChat(),
+        payload => {
+          fetchChat()
+          console.log(payload)
+        },
       )
       .subscribe()
 

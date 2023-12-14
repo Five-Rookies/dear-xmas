@@ -26,33 +26,26 @@ const LiveButton = ({
   const isNotEnded = dayRemaining !== '종료하기'
 
   useEffect(() => {
-    console.log('why???')
     const checkDeleteLive = supabase
-      .channel('table-db-changes')
-      .on(
-        'postgres_changes',
-        {
-          event: 'DELETE',
-          schema: 'public',
-          table: 'meetup_board',
-        },
-        payload => console.log('payload', payload),
-      )
+      .channel('meetup-changes')
       .on(
         'postgres_changes',
         {
           event: '*',
           schema: 'public',
-          table: 'users',
+          table: 'meetup_board',
         },
-        payload => console.log('payload all', payload),
+        payload => {
+          console.log('payload', payload)
+          isDeleteMeetup()
+        },
       )
       .subscribe()
 
     return () => {
       supabase.removeChannel(checkDeleteLive)
     }
-  }, [true])
+  }, [isEnd])
 
   useEffect(() => {
     fetchUser()
@@ -80,15 +73,18 @@ const LiveButton = ({
   }
 
   const isDeleteMeetup = () => {
-    alert('촛불 모임이 종료되었습니다')
+    console.log('촛불 모임이 종료되었습니다')
     router.refresh()
     router.push('/meetup')
   }
 
   const handleDeleteLive = async (e: any) => {
     if (e.target.textContent === '종료하기') {
-      await deleteLive(currentMeetupId)
-
+      if (window.confirm('종료하시겠습니까?')) {
+        setIsEnd(!isEnd)
+        await deleteLive(currentMeetupId)
+        isDeleteMeetup()
+      }
       console.log('종료하기 통과', currentMeetupId, '/')
     }
   }
