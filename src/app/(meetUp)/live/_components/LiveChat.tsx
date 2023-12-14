@@ -35,7 +35,6 @@ const LiveChat = ({ meetupId }: { meetupId: string }) => {
           schema: 'public',
           table: 'live_chat',
         },
-
         () => fetchChat(),
       )
       .subscribe()

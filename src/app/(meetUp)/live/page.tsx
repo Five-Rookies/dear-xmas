@@ -28,25 +28,26 @@ const LivePage = async (param: any) => {
     .single()
   revalidatePath('/')
 
-  // const meetupData = await getLive(currentMeetupId)
+  const { meetup_title, user_name, scheduling, thumbnail, video_id } =
+    meetupData?.data
   return (
     <div className="inner-box">
       <div className={styles.container}>
         <DetailHeader title="라이브 스트리밍" />
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <h1>{meetupData?.data?.meetup_title}</h1>
+          <h1>{meetup_title}</h1>
           <LiveButton
-            leader={meetupData.data.user_name}
-            scheduling={meetupData.data.scheduling}
+            leader={user_name}
+            scheduling={scheduling}
             currentMeetupId={currentMeetupId}
           />
         </div>
 
         <div className={styles.liveBox}>
           <LiveStream
-            scheduling={meetupData.data.scheduling}
-            thumbnail={meetupData.data.thumbnail}
-            videoId={meetupData.data.video_id}
+            scheduling={scheduling}
+            thumbnail={thumbnail}
+            videoId={video_id}
           />
           <ComponentsWithNoSSR meetupId={currentMeetupId} />
         </div>
