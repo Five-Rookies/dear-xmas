@@ -8,7 +8,6 @@ import ScrollBtn from '@/app/(common)/_components/ScrollBtn'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import Image from 'next/image'
 import styles from '../detail.module.scss'
-import CreateMeetUpButton from './CreateMeetUpButton'
 
 const RelatedVedio = ({
   currentVideoId,
@@ -70,7 +69,6 @@ const RelatedVedio = ({
 
   return (
     <section>
-      <CreateMeetUpButton currentVideoId={currentVideoId} />
       <ul className={styles.list}>
         {videoData &&
           videoData

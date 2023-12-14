@@ -2,13 +2,13 @@
 import React, { useEffect, useState, useRef } from 'react'
 import styles from '../live.module.scss'
 import ISupabase from '@/type/SupabaseResponse'
-import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { createChat, getChat } from '@/utils/apiRequest/liveApiRequest'
+import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 
 const LiveChat = ({ meetupId }: { meetupId: string }) => {
   const [chat, setChat] = useState<any>([])
   const [user, setUser] = useState<any>([])
-  const inputValue = useRef()
+  const inputValue = useRef<any>()
 
   const fetchChat = async () => {
     const {
@@ -31,11 +31,10 @@ const LiveChat = ({ meetupId }: { meetupId: string }) => {
       .on(
         'postgres_changes',
         {
-          event: 'INSERT',
+          event: '*',
           schema: 'public',
           table: 'live_chat',
         },
-
         () => fetchChat(),
       )
       .subscribe()
