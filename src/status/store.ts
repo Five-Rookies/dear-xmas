@@ -4,8 +4,11 @@ import { persist, createJSONStorage } from 'zustand/middleware'
 interface Store {
   isDark: boolean
   isApiQuotaExhausted: boolean
+  videoThumbnailUrl: string
   toggleDarkMode: (state: boolean) => void
   setQuotaExhausted: () => void
+  setThumbnailUrl: (state: string | undefined) => void
+  removeThumbnailUrl: () => void
 }
 
 const useStore = create<Store>()(
@@ -13,8 +16,14 @@ const useStore = create<Store>()(
     set => ({
       isDark: false,
       isApiQuotaExhausted: false,
+      videoThumbnailUrl: '',
       toggleDarkMode: state => set({ isDark: state }),
       setQuotaExhausted: () => set({ isApiQuotaExhausted: true }),
+      setThumbnailUrl: state => set({ videoThumbnailUrl: state }),
+      removeThumbnailUrl: () => {
+        sessionStorage.removeItem('videoThumbnailUrl')
+        set({ videoThumbnailUrl: '' })
+      },
     }),
     {
       name: 'dark-mode-storage',
