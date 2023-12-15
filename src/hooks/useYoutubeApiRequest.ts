@@ -18,7 +18,7 @@ const youtubeApiRequest = async (
   pageToken: string | undefined,
 ) => {
   const ACCESS_KEY = process.env.NEXT_PUBLIC_YOUTUBE_API_KEY
-  const baseURL = `https://youtube.googleapis.com/youtube/v3/search?part=snippet`
+  const baseURL = process.env.NEXT_PUBLIC_YOUTUBE_API_BASE_URL
   const commonQuery = `&nextPageToken=${pageToken}&regionCode=kr&type=video&order=relevance&videoSyndicated=true&maxResults=${maxResults}`
   const URL = `${baseURL}${commonQuery}${optionalQuery}&key=${ACCESS_KEY}`
 

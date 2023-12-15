@@ -6,7 +6,7 @@ import { calculateTimeUntilDays } from '@/utils/calculateTimeUntilDay'
 import { useRouter } from 'next/navigation'
 import { deleteLive } from '@/utils/apiRequest/liveApiRequest'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
-import { IMeetupBoardData } from '../../@createMeetupModal/(.)detail/[id]/meetupModal/_components/_meetupModal/MeetupModal'
+import { IMeetupBoardData } from '@/type/Component'
 
 const LiveButton = ({ user_name, scheduling, meetup_id }: IMeetupBoardData) => {
   const router = useRouter()

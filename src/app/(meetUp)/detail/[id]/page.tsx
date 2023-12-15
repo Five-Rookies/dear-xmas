@@ -41,15 +41,17 @@ const Detail = (props: any) => {
   }, [popularVideoDataList])
 
   return (
-    <div className={`inner-box ${styles.detail}`}>
+    <div className={`inner-box ${styles.detail} ${styles.detailContainer}`}>
       {currentVideo && (
         <>
-          <DetailHeader title={VIDEO_SNIPPET?.channelTitle} />
-          <CreateMeetUpButton
-            thumbnailUrl={VIDEO_SNIPPET?.thumbnails.medium.url}
-            currentVideoId={currentVideoId}
-          />
-          <h1 className={styles.videoInfoTitle}>{VIDEO_SNIPPET?.title}</h1>
+          <DetailHeader title={VIDEO_SNIPPET?.channelTitle} back="detail" />
+          <div className={styles.titleArea}>
+            <h1 className={styles.videoInfoTitle}>{VIDEO_SNIPPET?.title}</h1>{' '}
+            <CreateMeetUpButton
+              thumbnailUrl={VIDEO_SNIPPET?.thumbnails.medium.url}
+              currentVideoId={currentVideoId}
+            />
+          </div>
           <div className={styles.visualContainer}>
             <div>
               <figure className={styles.visual}>

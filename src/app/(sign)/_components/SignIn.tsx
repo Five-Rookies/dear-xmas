@@ -21,9 +21,8 @@ const SignIn = () => {
 
     try {
       await handleSignIn(event)
-      alert('로그인 완료. 반갑습니다!')
       router.refresh()
-      router.push('/')
+      router.replace('/')
     } catch (error) {
       console.error(error)
     }
