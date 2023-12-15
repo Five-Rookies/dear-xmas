@@ -37,7 +37,7 @@ const LivePage = async (param: any) => {
   return (
     <div className="inner-box">
       <div className={styles.container}>
-        <DetailHeader title="라이브 스트리밍" />
+        <DetailHeader title="라이브 스트리밍" back="live" />
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
           <h1>{meetup_title}</h1>
           <LiveButton

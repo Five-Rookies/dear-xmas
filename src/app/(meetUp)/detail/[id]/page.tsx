@@ -44,7 +44,7 @@ const Detail = (props: any) => {
     <div className={`inner-box ${styles.detail} ${styles.detailContainer}`}>
       {currentVideo && (
         <>
-          <DetailHeader title={VIDEO_SNIPPET?.channelTitle} />
+          <DetailHeader title={VIDEO_SNIPPET?.channelTitle} back="detail" />
           <div className={styles.titleArea}>
             <h1 className={styles.videoInfoTitle}>{VIDEO_SNIPPET?.title}</h1>{' '}
             <CreateMeetUpButton

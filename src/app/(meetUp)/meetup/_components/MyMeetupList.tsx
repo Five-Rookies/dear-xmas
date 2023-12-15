@@ -28,7 +28,11 @@ const MyMeetupList = () => {
   return (
     <div>
       {createdMeetup
-        ?.filter((meetup: IMeetupBoardData) => meetup?.user_name === userName)
+        ?.filter(
+          (meetup: IMeetupBoardData) =>
+            meetup?.user_name === userName ||
+            meetup?.member_list?.includes(userName),
+        )
         .map((meetup: IMeetupBoardData) => {
           return (
             <MeetupBox

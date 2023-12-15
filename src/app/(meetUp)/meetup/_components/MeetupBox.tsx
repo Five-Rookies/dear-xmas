@@ -12,6 +12,7 @@ import {
 import styles from '../meetup.module.scss'
 import btn from '@/app/globalButton.module.scss'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
+const APPLY = '참가신청'
 const MeetupBox = ({
   meetup,
   fetchMeetupList,
@@ -30,7 +31,7 @@ const MeetupBox = ({
   }, [])
   const handleMember = async (id: number, user_name: string, status: any) => {
     const prevMember = await getPrevMember(id)
-    if (status.target.innerText === '참가하기') {
+    if (status.target.innerText === APPLY) {
       const memberArr = [...prevMember.member_list, userName]
       if (
         [...prevMember.member_list].includes(userName) ||
@@ -47,6 +48,7 @@ const MeetupBox = ({
     }
     fetchMeetupList()
   }
+
   return (
     <div key={meetup.id} className={styles.meetupList}>
       <div className={styles.meetupPost}>
@@ -55,14 +57,22 @@ const MeetupBox = ({
             <span>{meetup.category}</span> <i>|</i> {meetup.meetup_title}
           </h2>
           <div className={styles.openNotice}>
-            <p>{dateFomatter(meetup?.scheduling)} 오픈예정</p>
-            <Link
-              href={`/detail/${meetup.video_id}`}
-              className={`${btn.button} ${btn.buttonGrayBg}`}
-            >
-              영상보기
-            </Link>
-            {!meetup?.user_name?.includes(userName) && (
+            {new Date(meetup?.scheduling as string) < new Date() ? (
+              <p>실시간 중계중</p>
+            ) : (
+              <p>{dateFomatter(meetup?.scheduling)} 오픈예정</p>
+            )}
+
+            {(meetup?.user_name === userName ||
+              meetup?.member_list?.includes(userName)) && (
+              <Link
+                href={`/live?meetup_id=${meetup?.id}`}
+                className={`${btn.button} ${btn.buttonGrayBg}`}
+              >
+                라이브 바로가기
+              </Link>
+            )}
+            {meetup?.user_name !== userName && (
               <button
                 onClick={(e: React.MouseEvent) =>
                   handleMember(meetup?.id!, meetup?.user_name!, e)
@@ -70,8 +80,8 @@ const MeetupBox = ({
                 className={`${btn.button} ${btn.buttonRed}`}
               >
                 {[...meetup?.member_list!].includes(userName)
-                  ? '참가됨'
-                  : '참가하기'}
+                  ? '신청취소'
+                  : APPLY}
               </button>
             )}
           </div>
@@ -83,6 +93,9 @@ const MeetupBox = ({
         </p>
         <div className={styles.textContent}>
           <p>{meetup.meetup_content}</p>
+          <p className={styles.previewVideo}>
+            <Link href={`/detail/${meetup.video_id}`}>영상 미리보기</Link>
+          </p>
         </div>
         <div className={styles.buttonArea}>
           <div>

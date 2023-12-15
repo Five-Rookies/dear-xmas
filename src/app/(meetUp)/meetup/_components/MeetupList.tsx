@@ -54,7 +54,13 @@ const MeetupList = () => {
   return (
     <>
       {createdMeetup.map((meetup: IMeetupBoardData) => {
-        return <MeetupBox key={meetup.id} meetup={meetup} fetchMeetupList={fetchMeetupList} />
+        return (
+          <MeetupBox
+            key={meetup.id}
+            meetup={meetup}
+            fetchMeetupList={fetchMeetupList}
+          />
+        )
       })}
     </>
   )
