@@ -6,14 +6,12 @@ interface Store {
   isApiQuotaExhausted: boolean
   videoThumbnailUrl: string
   time: number
-  isLogin: boolean
   toggleDarkMode: (state: boolean) => void
   setQuotaExhausted: () => void
   setThumbnailUrl: (state: string | undefined) => void
   setTime: (state: number) => void
   removeThumbnailUrl: () => void
   removeTime: () => void
-  toggleLogin: (state: boolean) => void
 }
 
 const useStore = create<Store>()(
@@ -23,7 +21,6 @@ const useStore = create<Store>()(
       isApiQuotaExhausted: false,
       videoThumbnailUrl: '',
       time: 0,
-      isLogin: false,
       toggleDarkMode: state => set({ isDark: state }),
       setQuotaExhausted: () => set({ isApiQuotaExhausted: true }),
       setThumbnailUrl: state => set({ videoThumbnailUrl: state }),
@@ -36,7 +33,6 @@ const useStore = create<Store>()(
         sessionStorage.removeItem('time')
         set({ time: 0 })
       },
-      toggleLogin: state => set({ isLogin: state }),
     }),
     {
       name: 'dark-mode-storage',

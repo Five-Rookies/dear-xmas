@@ -16,17 +16,11 @@ const supabase = createClientComponentClient()
 
 const Header = (): React.JSX.Element => {
   const { isDark, toggleDarkMode } = useStore()
-  const { isLogin, toggleLogin } = useStore()
-  const [hydrated, setHydrated] = useState(false)
-  const [color, setColor] = useState(false)
+  const [isLogin, setIsLogin] = useState<boolean>(false)
+  const [hydrated, setHydrated] = useState<boolean>(false)
+  const [color, setColor] = useState<boolean>(false)
   const [isClicked, setIsClicked] = useState<boolean>(false)
   const router = useRouter()
-
-  const setLoginMenu = async () => {
-    const { data } = await supabase.auth.getSession()
-    if (data.session) toggleLogin(true)
-    else toggleLogin(false)
-  }
 
   const onClickDarkMode = (): void => {
     toggleDarkMode(!isDark)
@@ -85,8 +79,13 @@ const Header = (): React.JSX.Element => {
   }
 
   useEffect(() => {
-    setHydrated(true)
+    const setLoginMenu = async () => {
+      const { data } = await supabase.auth.getSession()
+      if (data.session) setIsLogin(true)
+      else setIsLogin(false)
+    }
     setLoginMenu()
+    setHydrated(true)
     isdarkMode()
     setColor(isDark)
   }, [isDark, isLogin])
