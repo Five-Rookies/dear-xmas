@@ -103,7 +103,18 @@ const Header = (): React.JSX.Element => {
               <span>회원가입</span>
             </Link>
           </div>
-          <FontAwesomeIcon className={styles.barIcon} icon={faBars} />
+          <FontAwesomeIcon 
+            className={styles.barIcon} 
+            icon={faBars}
+            onClick={toggleMainMenu}
+          />
+          {isClicked && 
+            <MainMenu
+            setIsClicked={setIsClicked}
+            closeMenu={closeMenu}
+            modalRef={modalRef}
+          />
+          }
         </div>
       </div>
       {isClicked && (
