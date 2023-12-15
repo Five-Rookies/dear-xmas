@@ -44,13 +44,13 @@ const Detail = (props: any) => {
     <div className={`inner-box ${styles.detail} ${styles.detailContainer}`}>
       {currentVideo && (
         <>
-          <DetailHeader title={VIDEO_SNIPPET?.channelTitle} />
+          <DetailHeader title={VIDEO_SNIPPET?.channelTitle} back="detail" />
           <div className={styles.titleArea}>
+            <h1 className={styles.videoInfoTitle}>{VIDEO_SNIPPET?.title}</h1>{' '}
             <CreateMeetUpButton
               thumbnailUrl={VIDEO_SNIPPET?.thumbnails.medium.url}
               currentVideoId={currentVideoId}
             />
-            <h1 className={styles.videoInfoTitle}>{VIDEO_SNIPPET?.title}</h1>
           </div>
           <div className={styles.visualContainer}>
             <div>

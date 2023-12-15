@@ -5,7 +5,7 @@ import VideoList from './VideoList'
 import MeetupList from './MeetupList'
 import MyMeetupList from './MyMeetupList'
 
-const MeetupTabPage = () => {
+const MeetupTabPage = (meetupList: any) => {
   const [activeTab, setActiveTab] = useState<string>('videoList')
 
   const handleClickTabButton = (tabName: string): void => {
