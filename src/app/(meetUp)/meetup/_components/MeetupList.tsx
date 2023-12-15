@@ -18,7 +18,7 @@ const MeetupList = () => {
   const [isDotMenuVisible, setIsDotMenuVisible] = useState(false)
   const [createdMeetup, setCreatedMeetup] = useState([])
   const [userName, setUserName] = useState('')
-  const [isEditing, setIsEditing] = useState(false)
+
   const handleDotMenu = () => {
     setIsDotMenuVisible(!isDotMenuVisible)
 
@@ -55,13 +55,24 @@ const MeetupList = () => {
     fetchUser()
   }, [])
 
-  const handleAddMember = async (id: number, user_name: string) => {
+  const handleMember = async (id: number, user_name: string, status: any) => {
     const prevMember = await getPrevMember(id)
-    const memberArr = [...prevMember.member_list, userName]
-    if ([...prevMember.member_list] || user_name.includes(userName)) {
-      return alert('이미 참가하였습니다.')
+    if (status.target.innerText === '참가하기') {
+      const memberArr = [...prevMember.member_list, userName]
+      if (
+        [...prevMember.member_list].includes(userName) ||
+        user_name.includes(userName)
+      ) {
+        return alert('이미 참가하였습니다.')
+      }
+      await updateMember(id, memberArr)
+    } else {
+      const memberArr = prevMember.member_list.filter(
+        (member: string) => member !== userName,
+      )
+      await updateMember(id, memberArr)
     }
-    await updateMember(id, memberArr)
+    fetchMeetupList()
   }
 
   return (
@@ -82,19 +93,24 @@ const MeetupList = () => {
                   >
                     영상보기
                   </Link>
-                  <button
-                    onClick={() =>
-                      handleAddMember(meetup?.id!, meetup?.user_name!)
-                    }
-                    className={`${btn.button} ${btn.buttonRed}`}
-                  >
-                    참가하기
-                  </button>
+                  {!meetup?.user_name?.includes(userName) && (
+                    <button
+                      onClick={(e: React.MouseEvent) =>
+                        handleMember(meetup?.id!, meetup?.user_name!, e)
+                      }
+                      className={`${btn.button} ${btn.buttonRed}`}
+                    >
+                      {[...meetup?.member_list!].includes(userName)
+                        ? '참가됨'
+                        : '참가하기'}
+                    </button>
+                  )}
                 </div>
               </div>
               <p className={styles.writer}>
-                <span>{meetup.user_name}</span> ·
-                <span>{dateDifference(meetup?.created_at)}</span>
+                <span>{meetup.user_name}</span> · &nbsp;
+                <span>{dateDifference(meetup?.created_at)}</span> · &nbsp;
+                <span>{meetup?.member_list?.length}명 참가중</span>
               </p>
               <div className={styles.textContent}>
                 <p>{meetup.meetup_content}</p>
