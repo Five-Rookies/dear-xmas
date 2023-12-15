@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import React, { useEffect, useState, useRef } from 'react'
 import useStore from '@/status/store'
-import { useRouter } from 'next/navigation'
+import { useRouter, usePathname } from 'next/navigation'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
@@ -21,6 +21,7 @@ const Header = (): React.JSX.Element => {
   const [color, setColor] = useState<boolean>(false)
   const [isClicked, setIsClicked] = useState<boolean>(false)
   const router = useRouter()
+  const pathname = usePathname()
 
   const onClickDarkMode = (): void => {
     toggleDarkMode(!isDark)
@@ -59,7 +60,11 @@ const Header = (): React.JSX.Element => {
           </span>
           <p className={styles.line}>|</p>
           <Link href="">
-            <span onClick={() => alert('마이페이지 추후 개발!')}>
+            <span
+              onClick={() => {
+                alert('마이페이지 추후 개발!')
+              }}
+            >
               마이페이지
             </span>
           </Link>
@@ -67,11 +72,15 @@ const Header = (): React.JSX.Element => {
       ) : (
         <div className={styles.account}>
           <Link href="signIn">
-            <span>로그인</span>
+            <span className={pathname === '/signIn' ? styles.active : ''}>
+              로그인
+            </span>
           </Link>
           <p className={styles.line}>|</p>
           <Link href="signUp">
-            <span>회원가입</span>
+            <span className={pathname === '/signUp' ? styles.active : ''}>
+              회원가입
+            </span>
           </Link>
         </div>
       )
