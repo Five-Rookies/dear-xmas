@@ -9,7 +9,7 @@ import LiveButton from './_components/LiveButton'
 import { cookies } from 'next/headers'
 import { createServerActionClient } from '@supabase/auth-helpers-nextjs'
 import { revalidatePath } from 'next/cache'
-import { IMeetupBoardData } from '../@createMeetupModal/(.)detail/[id]/meetupModal/_components/_meetupModal/MeetupModal'
+import { IMeetupBoardData } from '@/type/Component'
 
 const ComponentsWithNoSSR = dynamic<{ meetupId: number }>(
   () => import('./_components/LiveChat'), // Component로 사용할 항목을 import합니다.

@@ -1,4 +1,4 @@
-import { IMeetupBoardData } from '@/app/(meetUp)/@createMeetupModal/(.)detail/[id]/meetupModal/_components/_meetupModal/MeetupModal'
+import { IMeetupBoardData } from '@/type/Component'
 import { executeQuery, supabase } from './defaultApiSetting'
 
 export const createMeetupBoard = async (data: IMeetupBoardData) => {

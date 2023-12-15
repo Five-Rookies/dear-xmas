@@ -6,24 +6,10 @@ import DatePicker from '../_datePicker/DatePicker'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequest'
 import useStore from '@/status/store'
+import { IMeetupBoardData } from '@/type/Component'
 
 type ValuePiece = Date | null | string
 type Value = ValuePiece | [ValuePiece, ValuePiece]
-
-export interface IMeetupBoardData {
-  id?: number
-  meetup_id?: number
-  category?: string
-  meetup_title?: string
-  meetup_content?: string
-  scheduling: Value
-  user_name?: string | undefined
-  video_id?: string
-  thumbnail?: string
-  created_at?: string
-  meetup_like_num?: number
-  member_list?: string[]
-}
 
 const MeetupModal = ({
   currentVideoId,

@@ -29,7 +29,7 @@ const MeetupPage = async () => {
       <div className={`inner-box ${styles.pageHeader}`}>
         <div>
           <h1>안녕하세요, {userName}님</h1>
-          <p>촛불 모임에서 특별한 사람과 크리스마스의 추억을 쌓아보세요.</p>
+          <p>촛불 모임에서 친구들과 특별한 크리스마스 추억을 쌓아보세요.</p>
         </div>
       </div>
 

@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import { IMeetupBoardData } from '../../@createMeetupModal/(.)detail/[id]/meetupModal/_components/_meetupModal/MeetupModal'
+import { IMeetupBoardData } from '@/type/Component'
 import { dateFomatter, dateDifference } from '@/utils/calculateTimeUntilDay'
 import Link from 'next/link'
 import {

@@ -1,9 +1,8 @@
 'use client'
+
 import React, { useState, useEffect } from 'react'
-import { IMeetupBoardData } from '../../@createMeetupModal/(.)detail/[id]/meetupModal/_components/_meetupModal/MeetupModal'
+import { IMeetupBoardData } from '@/type/Component'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
-import Link from 'next/link'
-import { dateFomatter } from '@/utils/calculateTimeUntilDay'
 import MeetupBox from './MeetupBox'
 import { getMeetupList } from '@/utils/apiRequest/meetupApiRequest'
 
@@ -25,6 +24,7 @@ const MyMeetupList = () => {
     fetchUser()
     fetchMeetupList()
   }, [])
+
   return (
     <div>
       {createdMeetup

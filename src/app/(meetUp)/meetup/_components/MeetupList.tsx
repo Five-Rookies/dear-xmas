@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 
 import btn from '@/app/globalButton.module.scss'
 import { getMeetupList } from '@/utils/apiRequest/meetupApiRequest'
-import { IMeetupBoardData } from '../../@createMeetupModal/(.)detail/[id]/meetupModal/_components/_meetupModal/MeetupModal'
+import { IMeetupBoardData } from '@/type/Component'
 
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import MeetupBox from './MeetupBox'
