@@ -1,15 +1,14 @@
 import { executeQuery, supabase } from './defaultApiSetting'
 
 // 실시간 영상
-export const getLive = async (meetup_id: string) => {
+export const getLive = async (meetup_id: number) => {
   return executeQuery(
     supabase.from('meetup_board').select('*').eq('id', meetup_id).single(),
     '라이브 영상 불러오기 실패!',
   )
 }
 
-export const deleteLive = async (meetup_id: string) => {
-  console.log('meetup_id', meetup_id)
+export const deleteLive = async (meetup_id: number) => {
   return executeQuery(
     supabase.from('meetup_board').delete().eq('id', meetup_id),
     '모임을 삭제하지 못했습니다',
@@ -17,15 +16,19 @@ export const deleteLive = async (meetup_id: string) => {
 }
 
 // 실시간 채팅
-export const getChat = async (meetup_id: string) => {
+export const getChat = async (meetup_id: number) => {
   return executeQuery(
-    supabase.from('live_chat').select('*').eq('meetup_id', meetup_id),
+    supabase
+      .from('live_chat')
+      .select('*')
+      .eq('meetup_id', meetup_id)
+      .order('id', { ascending: false }),
     '채팅 목록 불러오기 실패!',
   )
 }
 
 export const createChat = async (
-  meetup_id: string,
+  meetup_id: number,
   user_name: string,
   user_id: string,
   profile_img: number,

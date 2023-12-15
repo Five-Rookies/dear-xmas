@@ -1,9 +1,9 @@
 'use client'
 
-import React, { useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import { createComments } from '@/utils/apiRequest/commentsApiRequest'
-import IComments from '@/type/SupabaseResponse'
+import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 
 const CreateComment = ({
   profile,
@@ -16,13 +16,22 @@ const CreateComment = ({
   const paramArr = pathParam.split('/')
   const videoId = paramArr[paramArr.length - 1]
   const inputValue = useRef<HTMLInputElement>(null)
-  const handleCreate = async (e: any) => {
-    if (e.key === 'Enter') {
+  const [userName, setUserName] = useState<string | undefined>()
+
+  const getUserName = async () => {
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+    setUserName(user?.user_metadata.user_name)
+  }
+
+  const handleCreateCommnet = async (event: KeyboardEvent) => {
+    if (event.key === 'Enter') {
       if (inputValue?.current?.value) {
         await createComments(
           inputValue.current.value,
           videoId,
-          '기본 사용자',
+          userName,
           profile,
         )
         inputValue.current.value = ''
@@ -31,13 +40,17 @@ const CreateComment = ({
     }
   }
 
+  useEffect(() => {
+    getUserName()
+  }, [])
+
   return (
     <>
       <input
         ref={inputValue}
         type="text"
         placeholder="댓글을 남겨주세요"
-        onKeyPress={handleCreate}
+        onKeyPress={handleCreateCommnet}
       />
     </>
   )

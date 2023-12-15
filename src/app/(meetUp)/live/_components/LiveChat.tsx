@@ -2,14 +2,15 @@
 import React, { useEffect, useState, useRef } from 'react'
 import styles from '../live.module.scss'
 import ISupabase from '@/type/SupabaseResponse'
-import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { createChat, getChat } from '@/utils/apiRequest/liveApiRequest'
+import { supabase } from '@/utils/apiRequest/defaultApiSetting'
+import useStore from '@/status/store'
 
-const LiveChat = ({ meetupId }: { meetupId: string }) => {
+const LiveChat = ({ meetupId }: { meetupId: number }) => {
+  const { setTime } = useStore()
   const [chat, setChat] = useState<any>([])
   const [user, setUser] = useState<any>([])
-  const inputValue = useRef()
-
+  const inputValue = useRef<any>()
   const fetchChat = async () => {
     const {
       data: { session },
@@ -31,11 +32,10 @@ const LiveChat = ({ meetupId }: { meetupId: string }) => {
       .on(
         'postgres_changes',
         {
-          event: 'INSERT',
+          event: '*',
           schema: 'public',
           table: 'live_chat',
         },
-
         () => fetchChat(),
       )
       .subscribe()
@@ -46,7 +46,15 @@ const LiveChat = ({ meetupId }: { meetupId: string }) => {
   }, [chat])
 
   const profiles = ['santa', 'snowman', 'candle', 'cookie']
+  const timeToSeconds = (time: string) => {
+    let timeArray = time.split(':')
+    let hours = parseInt(timeArray[0], 10)
+    let minutes = parseInt(timeArray[1], 10)
+    let seconds = parseInt(timeArray[2], 10)
 
+    let totalSeconds = hours * 3600 + minutes * 60 + seconds
+    return totalSeconds
+  }
   const handleCreate = async (e: any) => {
     if (e.key === 'Enter') {
       await createChat(
@@ -59,7 +67,13 @@ const LiveChat = ({ meetupId }: { meetupId: string }) => {
       inputValue.current.value = ''
     }
   }
-
+  const handleVideoStart = (chat: string) => {
+    const startIndex = chat.indexOf('#') + 1
+    const time = chat.substring(startIndex, startIndex + 8)
+    const seconds = timeToSeconds(time)
+    setTime(seconds)
+    // location.reload() // TODO: 같은 시간 선택 시 리렌더링 되지 않는 문제 해결을 위한 코드. 단 전체 새로고침이 되므로 지양해야함..
+  }
   return (
     <div className={styles.liveChatContainer}>
       <div className={styles.createChat}>
@@ -71,26 +85,35 @@ const LiveChat = ({ meetupId }: { meetupId: string }) => {
         />
         <input
           type="text"
-          placeholder="하고싶은 말을 입력해보세요."
+          placeholder="[#00:00:00] #을 붙여 현재 재생시간을 공유하세요"
           ref={inputValue}
           onKeyPress={handleCreate}
         />
       </div>
       <ul className={styles.liveChat}>
-        {[...chat]
-          .sort((a, b) => b?.id - a?.id)
-          ?.map((liveChat: ISupabase) => {
-            return (
-              <li key={liveChat.id} className={styles.liveChatBox}>
-                <img
-                  src={`/assets/profile-${profiles[liveChat?.profile_img]}.svg`}
-                  alt=""
-                />
-                <span className={styles.userName}> {liveChat.user_name}</span>
-                <span> {liveChat.live_content}</span>
-              </li>
-            )
-          })}
+        {...chat?.map((liveChat: ISupabase) => {
+          const { profile_img, live_content } = liveChat
+          return (
+            <li key={liveChat.id} className={styles.liveChatBox}>
+              <img
+                src={`/assets/profile-${profiles[profile_img]}.svg`}
+                alt=""
+              />
+              <span className={styles.userName}> {liveChat.user_name}</span>
+              {live_content?.includes('#') ? (
+                <button
+                  className={styles.startTime}
+                  onClick={() => handleVideoStart(live_content)}
+                  type="button"
+                >
+                  {live_content.split('#').join('')}
+                </button>
+              ) : (
+                <span> {live_content}</span>
+              )}
+            </li>
+          )
+        })}
       </ul>
     </div>
   )

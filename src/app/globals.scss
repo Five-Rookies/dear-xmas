@@ -209,7 +209,7 @@ a {
   font-size: 1.25rem;
   line-height: 1;
   border-radius: 3.125rem;
-  padding: 0.5rem 1.25rem;
+  padding: 0.7rem 1.25rem 0.5rem;
   transition: all 0.2s ease-in-out;
 }
 .btn--white {
@@ -232,6 +232,16 @@ a {
 .btn--red {
   color: #da3017;
   background-color: #ffdcdc;
+  &:hover {
+    background-color: rgb(211, 173, 173);
+  }
+}
+.btn--darkRed {
+  color: #fff;
+  background-color: #da3017;
+  &:hover {
+    background-color: var(--color-main-bg-hover);
+  }
 }
 
 .inner-box {

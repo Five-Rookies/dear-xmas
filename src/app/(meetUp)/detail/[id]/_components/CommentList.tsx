@@ -17,15 +17,18 @@ const randomProfile = Math.round(Math.random() * 3)
 
 const CommentList = ({ getVideoId }: { getVideoId: string }) => {
   const [comments, setComments] = useState<IComment[]>([])
+
   const fetchComments = async () => {
     const totalComments = await getComments(getVideoId)
     if (totalComments) {
       setComments(totalComments)
     }
   }
+
   useEffect(() => {
     fetchComments()
   }, [])
+
   return (
     <div className={styles.comments}>
       <p>댓글 {comments.length}개</p>
@@ -34,19 +37,17 @@ const CommentList = ({ getVideoId }: { getVideoId: string }) => {
         <CreateComment profile={randomProfile} fetchComments={fetchComments} />
       </div>
       {comments.length !== 0 &&
-        [...comments]
-          .sort((a, b) => b.id - a.id)
-          .map((el: IComment) => {
-            return (
-              <Comment
-                key={el.id}
-                comment={el}
-                getVideoId={getVideoId}
-                setComments={setComments}
-                fetchComments={fetchComments}
-              />
-            )
-          })}
+        comments.map((el: IComment) => {
+          return (
+            <Comment
+              key={el.id}
+              comment={el}
+              getVideoId={getVideoId}
+              setComments={setComments}
+              fetchComments={fetchComments}
+            />
+          )
+        })}
     </div>
   )
 }

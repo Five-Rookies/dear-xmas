@@ -1,0 +1,51 @@
+.button {
+  box-sizing: border-box;
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1;
+  border-radius: 3.125rem;
+  padding: 0.7rem 1.25rem 0.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttonWhite {
+  color: #fff;
+  border: 2px solid #fff;
+  &:hover {
+    background-color: #fff;
+    color: var(--color-sub-bg);
+  }
+}
+
+.buttonGray {
+  color: #999;
+  border: 2px solid #999;
+  &:hover {
+    border: 2px solid #da3017;
+    background-color: #da3017;
+    color: #fff;
+  }
+}
+
+.buttonRed {
+  color: #da3017;
+  background-color: #ffdcdc;
+  &:hover {
+    background-color: #da3017;
+    color: #fff;
+  }
+}
+.buttonGrayBg {
+  color: #999;
+  background-color: #eee;
+  &:hover {
+    background-color: #999;
+    color: #fff;
+  }
+}
+
+.activeTab {
+  color: #fff;
+  border: 2px solid #da3017;
+  background-color: #da3017;
+}

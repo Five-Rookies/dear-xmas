@@ -1,22 +1,16 @@
 'use client'
-import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import styles from '../live.module.scss'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import Link from 'next/link'
+import useStore from '@/status/store'
+import { IMeetupBoardData } from '../../@createMeetupModal/(.)detail/[id]/meetupModal/_components/_meetupModal/MeetupModal'
 
-const LiveStream = ({
-  scheduling,
-  videoId,
-  thumbnail,
-}: {
-  scheduling: string
-  videoId: string
-  thumbnail: string
-}) => {
+const LiveStream = ({ scheduling, video_id, thumbnail }: IMeetupBoardData) => {
   const [isLive, setIsLive] = useState(false)
+  const { time } = useStore()
   const checkLiveTime = () => {
-    const difference = new Date(scheduling).getTime() - new Date().getTime()
+    const difference =
+      new Date(scheduling as string).getTime() - new Date().getTime()
     if (difference <= 0) {
       return setIsLive(true)
     }
@@ -36,7 +30,9 @@ const LiveStream = ({
         {isLive ? (
           <iframe
             className={styles.liveVideo}
-            src={`https://www.youtube.com/embed/${videoId}`}
+            src={`https://www.youtube.com/embed/${video_id}?autoplay=1&mute=1&start=${
+              time ? time : 0
+            }`}
             width="100%"
             height="100%"
             allow="autoplay; encrypted-media"
@@ -44,13 +40,13 @@ const LiveStream = ({
           />
         ) : (
           <Image
-            src={thumbnail}
+            src={thumbnail!}
             width={0}
             height={0}
             sizes="100vw"
             style={{ width: '100%', height: 'auto' }}
             layout="responsive"
-            alt={videoId}
+            alt={video_id!}
           />
         )}
       </figure>

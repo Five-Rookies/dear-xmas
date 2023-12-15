@@ -3,35 +3,42 @@
 import React, { useEffect, useState } from 'react'
 import styles from '../live.module.scss'
 import { calculateTimeUntilDays } from '@/utils/calculateTimeUntilDay'
-import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { useRouter } from 'next/navigation'
 import { deleteLive } from '@/utils/apiRequest/liveApiRequest'
-const LiveButton = ({
-  leader,
-  scheduling,
-  currentMeetupId,
-}: {
-  leader: string
-  scheduling: string
-  currentMeetupId: string
-}) => {
+import { supabase } from '@/utils/apiRequest/defaultApiSetting'
+import { IMeetupBoardData } from '../../@createMeetupModal/(.)detail/[id]/meetupModal/_components/_meetupModal/MeetupModal'
+
+const LiveButton = ({ user_name, scheduling, meetup_id }: IMeetupBoardData) => {
   const router = useRouter()
+  const [isEnd, setIsEnd] = useState<any>(false)
   const [dayRemaining, setDayRemaining] = useState('')
   const [timeRemaining, setTimeRemaining] = useState('')
   const [userName, setUserName] = useState<any>([])
+  const meetupTime = new Date(scheduling as string)
+  const isLeader = user_name === userName
+  const isNotEnded = dayRemaining !== '종료하기'
 
-  const fetchChat = async () => {
-    const {
-      data: { session },
-    } = await supabase.auth.getSession()
-    setUserName(session?.user.user_metadata.user_name)
-  }
   useEffect(() => {
-    fetchChat()
-  }, [])
+    const checkDeleteLive = supabase
+      .channel('meetup-changes')
+      .on(
+        'postgres_changes',
+        {
+          event: '*',
+          schema: 'public',
+          table: 'meetup_board',
+        },
+        () => isDeleteMeetup(),
+      )
+      .subscribe()
 
-  const meetupTime = new Date(scheduling)
+    return () => {
+      supabase.removeChannel(checkDeleteLive)
+    }
+  }, [isEnd])
+
   useEffect(() => {
+    fetchUser()
     calculateTimeUntilDays(
       '종료하기',
       meetupTime,
@@ -49,15 +56,26 @@ const LiveButton = ({
     }, 1000)
     return () => clearInterval(interval)
   }, [])
+
+  const fetchUser = async () => {
+    const { data } = await supabase.auth.getSession()
+    setUserName(data.session?.user.user_metadata.user_name)
+  }
+
+  const isDeleteMeetup = () => {
+    router.refresh()
+    router.push('/meetup')
+  }
+
   const handleDeleteLive = async (e: any) => {
     if (e.target.textContent === '종료하기') {
-      deleteLive(currentMeetupId)
-      alert('촛불 모임이 종료되었습니다')
-      router.push('/meetup')
+      if (window.confirm('종료하시겠습니까?')) {
+        setIsEnd(!isEnd)
+        meetup_id && (await deleteLive(meetup_id))
+        isDeleteMeetup()
+      }
     }
   }
-  const isLeader = leader === userName
-  const isNotEnded = dayRemaining !== '종료하기'
 
   return isLeader ? (
     <button

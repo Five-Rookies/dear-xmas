@@ -73,10 +73,7 @@ const VideoList: React.FC = () => {
           .map((video: IYoutubeItem, index: number) => {
             const VIDEO = video.snippet
             return (
-              <li
-                className={`videoCard ${styles.videoCard}`}
-                key={video.id.videoId + index}
-              >
+              <li className={styles.videoCard} key={video.id.videoId + index}>
                 <Link
                   className={styles.videoLink}
                   href={{

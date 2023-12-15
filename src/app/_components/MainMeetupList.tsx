@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { IYoutubeItem } from '@/type/YoutubeApiResponse'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import formatRelativeDate from '@/utils/relativeDate'
+import useLoadMore from '@/hooks/useLoadMore'
 
 type VideoListType = IYoutubeItem[]
 
@@ -18,7 +19,8 @@ const MainMeetupList = () => {
     pageToken,
   )
   const [videoData, setVideoData] = useState<VideoListType>([])
-  const [loadedVideos, setloadedVideos] = useState<number>(8)
+
+  const { loadedCount, loadMore } = useLoadMore(8, 4)
 
   useEffect(() => {
     if (popularVideoDataList) {
@@ -26,16 +28,11 @@ const MainMeetupList = () => {
     }
   }, [popularVideoDataList])
 
-  const loadMore = () => {
-    // Increase the loadedVideos by 4 each time the "moreBtn" is clicked
-    setloadedVideos(prevCount => prevCount + 4)
-  }
-
   return (
     <div>
       <ul className={styles.meetupList}>
         {videoData
-          .slice(0, loadedVideos)
+          .slice(0, loadedCount)
           .map((video: IYoutubeItem, index: number) => {
             const VIDEO_SNIPPET = video.snippet
             return (
@@ -68,7 +65,7 @@ const MainMeetupList = () => {
             )
           })}
       </ul>
-      {loadedVideos < videoData.length && (
+      {loadedCount < videoData.length && (
         <button className="btn btn--white" onClick={loadMore}>
           + 더보기
         </button>

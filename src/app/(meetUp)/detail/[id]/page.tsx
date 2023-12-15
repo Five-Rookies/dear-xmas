@@ -11,6 +11,7 @@ import CommentList from '@/app/(meetUp)/detail/[id]/_components/CommentList'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import styles from './detail.module.scss'
 import DetailHeader from './_components/DetailHeader'
+import CreateMeetUpButton from './_components/CreateMeetUpButton'
 
 const Detail = (props: any) => {
   const currentVideoId: string = props.params.id
@@ -40,11 +41,17 @@ const Detail = (props: any) => {
   }, [popularVideoDataList])
 
   return (
-    <div className={`inner-box ${styles.detail}`}>
+    <div className={`inner-box ${styles.detail} ${styles.detailContainer}`}>
       {currentVideo && (
         <>
           <DetailHeader title={VIDEO_SNIPPET?.channelTitle} />
-          <h1 className={styles.videoInfoTitle}>{VIDEO_SNIPPET?.title}</h1>
+          <div className={styles.titleArea}>
+            <CreateMeetUpButton
+              thumbnailUrl={VIDEO_SNIPPET?.thumbnails.medium.url}
+              currentVideoId={currentVideoId}
+            />
+            <h1 className={styles.videoInfoTitle}>{VIDEO_SNIPPET?.title}</h1>
+          </div>
           <div className={styles.visualContainer}>
             <div>
               <figure className={styles.visual}>
@@ -56,10 +63,8 @@ const Detail = (props: any) => {
                   allowFullScreen
                 />
               </figure>
-
               <CommentList getVideoId={currentVideoId} />
             </div>
-
             <RelatedVedio
               currentVideoId={currentVideoId}
               channelId={VIDEO_SNIPPET?.channelId}
