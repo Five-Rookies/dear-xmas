@@ -21,7 +21,6 @@ export const getPrevMember = async (id: number) => {
   )
 }
 export const updateMember = async (id: number, member_list: string[]) => {
-  console.log('member_list', member_list)
   return executeQuery(
     supabase.from('meetup_board').update({ member_list }).eq('id', id),
     '멤버가 추가되지 않았습니다',
