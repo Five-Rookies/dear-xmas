@@ -150,7 +150,18 @@ const Header = (): React.JSX.Element => {
             {renderThemeToggle()}
           </button>
           {renderLoginMenu()}
-          <FontAwesomeIcon className={styles.barIcon} icon={faBars} />
+          <FontAwesomeIcon 
+            className={styles.barIcon} 
+            icon={faBars}
+            onClick={toggleMainMenu}
+          />
+          {isClicked && 
+            <MainMenu
+            setIsClicked={setIsClicked}
+            closeMenu={closeMenu}
+            modalRef={modalRef}
+          />
+          }
         </div>
       </div>
       {isClicked && (
