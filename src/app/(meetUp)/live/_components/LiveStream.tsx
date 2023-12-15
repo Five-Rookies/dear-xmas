@@ -3,7 +3,7 @@ import styles from '../live.module.scss'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import useStore from '@/status/store'
-import { IMeetupBoardData } from '../../@createMeetupModal/(.)detail/[id]/meetupModal/_components/_meetupModal/MeetupModal'
+import { IMeetupBoardData } from '@/type/Component'
 
 const LiveStream = ({ scheduling, video_id, thumbnail }: IMeetupBoardData) => {
   const [isLive, setIsLive] = useState(false)

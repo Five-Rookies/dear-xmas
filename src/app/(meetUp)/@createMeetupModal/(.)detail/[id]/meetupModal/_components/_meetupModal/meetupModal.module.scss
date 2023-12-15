@@ -16,17 +16,18 @@
   justify-content: center;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.4);
-  top: 10%;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  padding-top: 8rem;
 }
 
 .modal {
   background-color: var(--color-background);
   position: relative;
   width: 90%;
-  height: 29rem;
+  height: 24rem;
   top: 5%;
   border-radius: 16px 16px 0 0;
   display: flex;
@@ -40,8 +41,8 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 3rem 5rem;
-  font-size: 2rem;
+  padding: 2rem 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -52,7 +53,7 @@
 
 .modalBody {
   flex: 1;
-  padding: 0 5rem;
+  padding: 0 2rem;
 }
 
 .row {
@@ -99,18 +100,18 @@
   font-size: 1rem;
   padding: 1.2rem;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: medium;
   color: var(--color-text);
 }
 
 .inputTitle {
   margin-left: 1rem;
-  width: 30rem;
+  width: 50rem;
 }
 
 .inputContent {
   resize: none;
-  padding: 2.5rem;
+  padding: 1.2rem;
   font-family: none;
 }
 
