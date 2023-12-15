@@ -22,6 +22,7 @@ export interface IMeetupBoardData {
   thumbnail?: string
   created_at?: string
   meetup_like_num?: number
+  member_list?: string[]
 }
 
 const MeetupModal = ({
@@ -69,7 +70,7 @@ const MeetupModal = ({
     ]
     return options.map((item, index) => {
       return (
-        <option key={index} value={item}>
+        <option key={index} value={item === '카테고리' ? '' : item}>
           {item}
         </option>
       )
@@ -87,6 +88,7 @@ const MeetupModal = ({
       user_name: userName,
       video_id: currentVideoId,
       thumbnail: videoThumbnailUrl,
+      member_list: [],
     }
 
     try {
@@ -125,6 +127,7 @@ const MeetupModal = ({
             <div className={styles.row}>
               <div className={styles.inputDiv}>
                 <select
+                  required
                   className={styles.category}
                   onChange={event => setMeetupCategory(event.target.value)}
                 >
@@ -133,6 +136,7 @@ const MeetupModal = ({
               </div>
               <div className={styles.inputDiv}>
                 <input
+                  required
                   className={`${styles.input} ${styles.inputTitle}`}
                   type="text"
                   placeholder="모임명을 입력해 주세요"
@@ -143,6 +147,7 @@ const MeetupModal = ({
 
             <div className={styles.inputDiv}>
               <DatePicker
+                required
                 meetupScheduling={meetupScheduling}
                 onChangeValue={onChangeValue}
               />
@@ -150,6 +155,7 @@ const MeetupModal = ({
 
             <div className={styles.inputDiv}>
               <textarea
+                required
                 className={`${styles.input} ${styles.inputContent}`}
                 placeholder="모임 내용을 입력해 주세요"
                 onChange={e => setMeetupContent(e.target.value)}
