@@ -29,7 +29,7 @@ export async function middleware(req: NextRequest) {
    */
   const isAuthPage = req.nextUrl.pathname.startsWith('/sign')
   if (data.session && isAuthPage) {
-    return NextResponse.redirect(new URL('/not-found', req.url))
+    return NextResponse.redirect(new URL('/', req.url))
   }
 
   return res

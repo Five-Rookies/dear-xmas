@@ -40,5 +40,5 @@ const useStore = create<Store>()(
     },
   ),
 )
-// sessionStorage.removeItem('dark-mode-storage')
+
 export default useStore
