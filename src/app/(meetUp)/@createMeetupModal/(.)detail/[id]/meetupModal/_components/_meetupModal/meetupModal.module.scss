@@ -143,9 +143,30 @@
   background-color: var(--color-hover-bg);
 }
 
-@media (max-width: 870px) {
-  .inputTitle {
-    width: 20rem;
+@media (min-width: 1700px) {
+  .modal {
+    top: 15%;
+    flex: 0.3;
+  }
+}
+
+@media (max-width: 1400px) {
+  .modal {
+    top: 7%;
+    flex: 0.4;
+  }
+}
+
+@media (max-width: 1290px) {
+  .modal {
+    top: 3%;
+    flex: 0.5;
+  }
+}
+
+@media (max-width: 900px) {
+  .modal {
+    flex: 0.8;
   }
 }
 
