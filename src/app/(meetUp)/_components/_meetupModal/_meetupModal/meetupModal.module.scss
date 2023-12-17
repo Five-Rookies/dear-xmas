@@ -20,51 +20,49 @@
   left: 0;
   right: 0;
   bottom: 0;
-  padding-top: 8rem;
+  padding-top: 6rem;
 }
 
 .modal {
   background-color: var(--color-background);
+  width: 100%;
   position: relative;
-  width: 90%;
-  height: 24rem;
   top: 5%;
   border-radius: 16px 16px 0 0;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   flex: 0.5;
   transition: all 0.3s ease-in-out;
   animation: showModal 0.3s ease-in-out;
+  box-sizing: border-box;
 }
 
 .modalHeader {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 2rem 2rem;
-  font-size: 1.5rem;
+  padding: 3rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
-.modal form {
-  display: flex;
-  flex-direction: column;
+.modalForm {
+  margin: 0.5rem 0;
 }
 
-.modalBody {
-  flex: 1;
-  padding: 0 2rem;
-}
-
-.row {
+.inputGroup {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  padding: 0 3rem;
+  padding-bottom: 1.1rem;
+  gap: 2%;
 }
 
 .inputDiv {
   display: flex;
   flex-direction: column;
+  padding: 0 3rem;
   padding-bottom: 1.1rem;
 }
 
@@ -75,10 +73,15 @@
   border-radius: 20px;
   background-color: rgba(182, 182, 182, 0.1);
   font-size: 0.9rem;
+  text-align: center;
   color: rgb(0, 0, 0.5);
   padding: 1.1rem;
   cursor: pointer;
   color: var(--color-text);
+}
+
+.inputTitle {
+  width: 100%;
 }
 
 .schedule {
@@ -104,26 +107,22 @@
   color: var(--color-text);
 }
 
-.inputTitle {
-  margin-left: 1rem;
-  width: 50rem;
-}
-
 .inputContent {
   resize: none;
   padding: 1.2rem;
   font-family: none;
+  height: 7rem;
 }
 
 .buttonContainer {
-  margin-top: 1.2rem;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 .actionButton {
-  width: 100%;
+  width: 50%;
   color: white;
   font-size: 1rem;
   cursor: pointer;
@@ -157,7 +156,7 @@
   }
 }
 
-@media (max-width: 1290px) {
+@media (max-width: 1220px) {
   .modal {
     top: 3%;
     flex: 0.5;
@@ -171,65 +170,98 @@
 }
 
 @media (max-width: 661px) {
-  .modalBody {
-    padding: 0 2rem;
-  }
-  .inputTitle {
-    width: 18rem;
+  .modal {
+    flex: 0.9;
   }
 }
 
 @media (max-width: 520px) {
   .modal {
-    flex: 0.8;
-  }
-  .modalBody {
-    padding: 0 2.3rem;
-  }
-  .inputTitle {
-    width: 16rem;
+    top: 7%;
   }
   .modalHeader {
     justify-content: center;
   }
+  .inputDiv,
+  .inputGroup {
+    padding: 0 1rem 1rem 1rem;
+  }
+  .modalHeader {
+    padding: 2rem 1rem;
+  }
 }
 
-@media (max-width: 498px) {
+@media (max-width: 350px) {
   .modal {
-    flex: 0.6;
+    flex: 1;
   }
-  .modalBody {
-    padding: 0 2.6rem;
+  .inputDiv,
+  .inputGroup {
+    padding: 0 0.5rem 0.5rem 0.5rem;
   }
-  .inputTitle {
-    width: 14rem;
-  }
-}
-
-@media (max-width: 476px) {
-  .inputTitle {
-    width: 12rem;
+  .modalHeader {
+    padding: 1rem 0.5rem;
   }
 }
 
-@media (max-width: 442px) {
-  .inputTitle {
-    width: 10rem;
+@media (min-height: 1200px) {
+  .modal {
+    top: 15%;
+    height: 35vh;
   }
 }
 
-@media (max-width: 406px) {
-  .inputTitle {
-    width: 7.6rem;
+@media (max-height: 1200px) {
+  .modal {
+    height: 45vh;
   }
 }
 
-@media (max-width: 375px) {
-  .modalBody {
-    padding: 0 1rem;
+@media (max-height: 950px) {
+  .modal {
+    height: 50vh;
   }
+}
 
-  .inputTitle {
-    width: 9rem;
+@media (max-height: 882px) {
+  .modal {
+    height: 53vh;
+  }
+}
+
+@media (max-height: 850px) {
+  .modal {
+    height: 57vh;
+  }
+}
+
+@media (max-height: 800px) {
+  .modal {
+    height: 60vh;
+  }
+}
+
+@media (max-height: 719px) {
+  .modal {
+    height: 64vh;
+  }
+}
+
+@media (max-height: 670px) {
+  .modal {
+    height: 68vh;
+  }
+}
+
+@media (max-height: 626px) {
+  .modal {
+    height: 72vh;
+  }
+}
+
+@media (max-height: 607px) {
+  .modal {
+    top: 3%;
+    height: 75vh;
   }
 }
