@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       Copyright 2023. Five Rookies All rights reserved.
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

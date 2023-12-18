@@ -17,8 +17,8 @@
 .container {
   padding-bottom: 1rem;
   transition: all 0.3s ease-in-out;
-  height: 110rem;
-  overflow-y: scroll;
+  // 뷰포트 - 레이아웃 높이(13.125rem) - 버튼&푸터 높이(((2.125rem + 4.375rem) * 2) - 1.2rem)
+  min-height: calc(100vh - 13.125rem - ((2.125rem + 4.375rem) * 2) - 1.2rem);
   background-color: var(--color-grey-bg);
 }
 

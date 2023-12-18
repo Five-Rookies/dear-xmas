@@ -1,9 +1,9 @@
 'use server'
 
 import React from 'react'
-import styles from './meetup.module.scss'
 import { cookies } from 'next/headers'
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
+import styles from './meetup.module.scss'
 import MeetupTabButtons from './_components/_tab/MeetupTabButtons'
 import MeetupTabPage from './_components/_tab/MeetupTabPage'
 
@@ -16,9 +16,6 @@ const MeetupLayout = async (props: any): Promise<React.JSX.Element> => {
   const { data } = await supabase.auth.getSession()
   const userName: string = data.session?.user.user_metadata.user_name
 
-  // console.log('### meetup page getSession ###')
-  // console.log(data.session)
-  // console.log(data.se  const cookieStore = cookies()
   return (
     <div className={styles.layout}>
       <div style={{ paddingTop: '4.6619rem' }}>
