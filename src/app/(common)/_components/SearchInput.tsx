@@ -13,8 +13,8 @@ const SearchInput = (): React.JSX.Element => {
     if (!searchTerm) {
       return router.push('/')
     }
-    document.cookie = `keyword=${encodeURIComponent(searchTerm)}`
-    router.push(`/search?keyword=${encodeURIComponent(searchTerm)}`)
+    document.cookie = `search-keyword=${encodeURIComponent(searchTerm)}`
+    router.push(`/search?search-keyword=${encodeURIComponent(searchTerm)}`)
   }
 
   const handleKeyPress = (

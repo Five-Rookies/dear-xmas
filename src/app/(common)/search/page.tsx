@@ -7,7 +7,7 @@ import NoResult from './_components/NoResult'
 
 const SearchPage = async () => {
   const cookieStore = cookies()
-  const keyword = cookieStore.get('keyword')?.value
+  const keyword = cookieStore.get('search-keyword')?.value
   let searchResults: IYoutubeItem[] | [] = []
   if (keyword) {
     const result = await youtubeDataRequest<IYoutubeResponse>(
