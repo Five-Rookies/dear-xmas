@@ -1,20 +1,17 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-
-import btn from '@/app/globalButton.module.scss'
 import { getMeetupList } from '@/utils/apiRequest/meetupApiRequest'
 import { IMeetupBoardData } from '@/type/Component'
-
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import MeetupBox from './MeetupBox'
 //import likeIcon from '@public/assets/like.svg'
 
-const MeetupList = () => {
-  const [isDotMenuVisible, setIsDotMenuVisible] = useState(false)
-  const [createdMeetup, setCreatedMeetup] = useState([])
-  const [userName, setUserName] = useState('')
-  const [isEditing, setIsEditing] = useState(false)
+const MeetupList = (): React.JSX.Element => {
+  const [isDotMenuVisible, setIsDotMenuVisible] = useState<boolean>(false)
+  const [createdMeetup, setCreatedMeetup] = useState<never[]>([])
+  const [userName, setUserName] = useState<string>('')
+  const [isEditing, setIsEditing] = useState<boolean>(false)
   const handleDotMenu = () => {
     setIsDotMenuVisible(!isDotMenuVisible)
 
@@ -41,7 +38,7 @@ const MeetupList = () => {
     setCreatedMeetup(res)
   }
 
-  const fetchUser = async () => {
+  const fetchUser = async (): Promise<void> => {
     const { data } = await supabase.auth.getSession()
     setUserName(data.session?.user.user_metadata.user_name)
   }

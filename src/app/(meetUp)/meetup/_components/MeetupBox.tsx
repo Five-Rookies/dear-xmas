@@ -7,29 +7,32 @@ import Link from 'next/link'
 import {
   updateMember,
   getPrevMember,
-  getMeetupList,
 } from '@/utils/apiRequest/meetupApiRequest'
 import styles from '../meetup.module.scss'
 import btn from '@/app/globalButton.module.scss'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
+
 const APPLY = '참가신청'
+
 const MeetupBox = ({
   meetup,
   fetchMeetupList,
 }: {
   meetup: IMeetupBoardData
   fetchMeetupList: () => void
-}) => {
-  const [userName, setUserName] = useState('')
+}): React.JSX.Element => {
+  const [userName, setUserName] = useState<string>('')
 
-  const fetchUser = async () => {
+  const fetchUser = async (): Promise<void> => {
     const { data } = await supabase.auth.getSession()
     setUserName(data.session?.user.user_metadata.user_name)
   }
-  useEffect(() => {
-    fetchUser()
-  }, [])
-  const handleMember = async (id: number, user_name: string, status: any) => {
+
+  const handleMember = async (
+    id: number,
+    user_name: string,
+    status: any,
+  ): Promise<void> => {
     const prevMember = await getPrevMember(id)
     if (status.target.innerText === APPLY) {
       const memberArr = [...prevMember.member_list, userName]
@@ -48,6 +51,10 @@ const MeetupBox = ({
     }
     fetchMeetupList()
   }
+
+  useEffect(() => {
+    fetchUser()
+  }, [])
 
   return (
     <div key={meetup.id} className={styles.meetupList}>

@@ -11,7 +11,7 @@ import styles from '../meetup.module.scss'
 
 type VideoListType = IYoutubeItem[]
 
-const VideoList: React.FC = () => {
+const VideoList = (): React.JSX.Element => {
   const [pageToken, setPageToken] = useState<string | undefined>(undefined)
   const [isLoading, setIsLoading] = useState(false)
   const [videoData, setVideoData] = useState<VideoListType>([])
@@ -21,8 +21,8 @@ const VideoList: React.FC = () => {
     32,
     pageToken,
   )
-  const scrolledItems = 8
-  const [displayCount, setDisplayCount] = useState(scrolledItems)
+  const scrolledItems: number = 8
+  const [displayCount, setDisplayCount] = useState<number>(scrolledItems)
 
   useEffect(() => {
     if (popularVideoDataList) {

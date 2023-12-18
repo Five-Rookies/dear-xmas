@@ -25,7 +25,7 @@ const MeetupModal = ({
   const [meetupContent, setMeetupContent] = useState<string>('')
   const [userName, setUserName] = useState<string | undefined>()
 
-  const getUserName = async () => {
+  const getUserName = async (): Promise<void> => {
     const {
       data: { user },
     } = await supabase.auth.getUser()
@@ -40,7 +40,7 @@ const MeetupModal = ({
     }
   }
 
-  const onChangeValue = (event: ValuePiece) => {
+  const onChangeValue = (event: ValuePiece): void => {
     setMeetupScheduling(event)
   }
 
@@ -63,7 +63,9 @@ const MeetupModal = ({
     })
   }
 
-  const handleSubmitCreateMeetupBoard = async (event: FormEvent) => {
+  const handleSubmitCreateMeetupBoard = async (
+    event: FormEvent,
+  ): Promise<void> => {
     event.preventDefault()
 
     const data: IMeetupBoardData = {
