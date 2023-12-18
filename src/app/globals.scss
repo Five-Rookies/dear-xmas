@@ -1,5 +1,4 @@
 @use './thems.scss' as *;
-/*@use './datepicker.scss' as *;*/
 
 /* /styles/reset.css */
 @font-face {
@@ -41,7 +40,9 @@
   font-weight: normal;
   font-style: normal;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
 }
@@ -187,6 +188,7 @@ input:active {
   box-shadow: none;
   outline: none;
 }
+
 /* 접근성 숨김 처리 */
 .a11y-hidden {
   clip: rect(1px, 1px, 1px, 1px);

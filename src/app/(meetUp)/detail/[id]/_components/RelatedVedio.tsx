@@ -68,7 +68,7 @@ const RelatedVedio = ({
   }, [isLoading, currentChannelDataList, fetchMoreVideos])
 
   return (
-    <section>
+    <section className={styles.relatedVideoContainer}>
       <ul className={styles.list}>
         {videoData &&
           videoData
