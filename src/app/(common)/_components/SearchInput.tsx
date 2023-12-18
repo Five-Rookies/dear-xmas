@@ -4,7 +4,7 @@ import React, { useRef } from 'react'
 import { useRouter } from 'next/navigation'
 import styles from './header.module.scss'
 
-const HeaderInput = (): React.JSX.Element => {
+const SearchInput = (): React.JSX.Element => {
   const router = useRouter()
   const searchInput = useRef<HTMLInputElement>(null)
 
@@ -28,12 +28,12 @@ const HeaderInput = (): React.JSX.Element => {
     <div className={styles.searchInput}>
       <input
         type="text"
-        placeholder="제목을 입력하세요"
+        placeholder="보고싶은 영상을 검색해보세요!"
         autoFocus
         autoComplete="off"
         name="search-input"
         ref={searchInput}
-        onKeyPress={handleKeyPress}
+        onKeyDown={handleKeyPress}
       />
       <button type="button" onClick={handleSearch}>
         <img src="/assets/header_search_icon.svg" alt="" />
@@ -42,4 +42,4 @@ const HeaderInput = (): React.JSX.Element => {
   )
 }
 
-export default HeaderInput
+export default SearchInput
