@@ -2,11 +2,18 @@
 import React, { FormEvent, useEffect, useRef, useState } from 'react'
 import styles from './meetupModal.module.scss'
 import { useRouter } from 'next/navigation'
-import DatePicker from '../_datePicker/DatePicker'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequest'
 import useStore from '@/status/store'
 import { IMeetupBoardData } from '@/type/Component'
+import dynamic from 'next/dynamic'
+
+const DatePicker: React.ComponentType<any> = dynamic(
+  () => import('../_datePicker/DatePicker'),
+  {
+    ssr: false,
+  },
+)
 
 type ValuePiece = Date | null | string
 type Value = ValuePiece | [ValuePiece, ValuePiece]
@@ -44,7 +51,7 @@ const MeetupModal = ({
     setMeetupScheduling(event)
   }
 
-  const renderCategoryOption = (): React.JSX.Element[] => {
+  const renderCategoryOption = (): React.JSX.Element[] | undefined => {
     const options = [
       '카테고리',
       '영화',
@@ -93,7 +100,6 @@ const MeetupModal = ({
     // 모달이 열릴 때 body의 overflow를 hidden으로 설정
     document.body.style.overflow = 'hidden'
     getUserName()
-
     return () => {
       // 모달이 닫힐 때 body의 overflow를 초기 상태로 복원
       document.body.style.overflow = 'auto'
@@ -110,45 +116,42 @@ const MeetupModal = ({
         <div className={styles.modalHeader}>
           <h1>모임 만들기</h1>
         </div>
-        <form onSubmit={handleSubmitCreateMeetupBoard}>
-          <div className={styles.modalBody}>
-            <div className={styles.row}>
-              <div className={styles.inputDiv}>
-                <select
-                  required
-                  className={styles.category}
-                  onChange={event => setMeetupCategory(event.target.value)}
-                >
-                  {renderCategoryOption()}
-                </select>
-              </div>
-              <div className={styles.inputDiv}>
-                <input
-                  required
-                  className={`${styles.input} ${styles.inputTitle}`}
-                  type="text"
-                  placeholder="모임명을 입력해 주세요"
-                  onChange={e => setMeetupTitle(e.target.value)}
-                />
-              </div>
-            </div>
+        <form
+          className={styles.modalForm}
+          onSubmit={handleSubmitCreateMeetupBoard}
+        >
+          <div className={styles.inputGroup}>
+            <select
+              required
+              className={styles.category}
+              onChange={event => setMeetupCategory(event.target.value)}
+            >
+              {renderCategoryOption()}
+            </select>
+            <input
+              required
+              className={`${styles.input} ${styles.inputTitle}`}
+              type="text"
+              placeholder="모임명을 입력해 주세요"
+              onChange={e => setMeetupTitle(e.target.value)}
+            />
+          </div>
 
-            <div className={styles.inputDiv}>
-              <DatePicker
-                required
-                meetupScheduling={meetupScheduling}
-                onChangeValue={onChangeValue}
-              />
-            </div>
+          <div className={styles.inputDiv}>
+            <DatePicker
+              required
+              meetupScheduling={meetupScheduling}
+              onChangeValue={onChangeValue}
+            />
+          </div>
 
-            <div className={styles.inputDiv}>
-              <textarea
-                required
-                className={`${styles.input} ${styles.inputContent}`}
-                placeholder="모임 내용을 입력해 주세요"
-                onChange={e => setMeetupContent(e.target.value)}
-              />
-            </div>
+          <div className={styles.inputDiv}>
+            <textarea
+              required
+              className={`${styles.input} ${styles.inputContent}`}
+              placeholder="모임 내용을 입력해 주세요"
+              onChange={e => setMeetupContent(e.target.value)}
+            />
           </div>
           <div className={styles.buttonContainer}>
             <button
