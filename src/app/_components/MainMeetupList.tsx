@@ -7,65 +7,48 @@ import { IYoutubeItem } from '@/type/YoutubeApiResponse'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import formatRelativeDate from '@/utils/relativeDate'
 import useLoadMore from '@/hooks/useLoadMore'
+import { IMeetupBoardData } from '@/type/Component'
 
 type VideoListType = IYoutubeItem[]
 
-const MainMeetupList = () => {
-  const [pageToken, setPageToken] = useState<string | undefined>(undefined)
-  const popularVideoDataList = useYoutubeDataRequest(
-    'popular',
-    '&q=크리스마스|크리스마스영화',
-    32,
-    pageToken,
-  )
-  const [videoData, setVideoData] = useState<VideoListType>([])
-
-  const { loadedCount, loadMore } = useLoadMore(8, 4)
-
-  useEffect(() => {
-    if (popularVideoDataList) {
-      setVideoData(popularVideoDataList.items)
-    }
-  }, [popularVideoDataList])
-
+const MainMeetupList = ({
+  todayMeetup,
+}: {
+  todayMeetup: IMeetupBoardData[]
+}) => {
+  const { loadedCount, loadMore } = useLoadMore(4, 4)
   return (
     <div>
       <ul className={styles.meetupList}>
-        {videoData
-          .slice(0, loadedCount)
-          .map((video: IYoutubeItem, index: number) => {
-            const VIDEO_SNIPPET = video.snippet
-            return (
-              <li key={video.id.videoId + index}>
-                <Link
-                  href={{
-                    pathname: `/detail/${video.id.videoId}`,
-                  }}
-                >
-                  <div className={styles.imgFrame}>
-                    <img
-                      src={VIDEO_SNIPPET.thumbnails.medium.url}
-                      alt={VIDEO_SNIPPET.title}
-                    />
-                    <span className={styles.tag}>NOW</span>
+        {todayMeetup.slice(0, loadedCount).map(meetup => {
+          return (
+            <li key={meetup.id}>
+              <Link href={`/live?meetup_id=${meetup.id}`}>
+                <div className={styles.imgFrame}>
+                  <img src={meetup.thumbnail} alt={meetup.meetup_title} />
+                  <span className={styles.tag}>Today</span>
+                </div>
+                <div className={styles.titleArea}>
+                  <div>
+                    <span className={styles.date}>{meetup.category} </span>
+                    <h4>{meetup.meetup_title}</h4>
                   </div>
-                  <div className={styles.titleArea}>
-                    <div>
-                      <span className={styles.date}>
-                        {formatRelativeDate(VIDEO_SNIPPET.publishedAt)}
-                      </span>
-                      <h4>{VIDEO_SNIPPET.title}</h4>
-                    </div>
-                    <div className={styles.channelName}>
-                      <span>{VIDEO_SNIPPET.channelTitle}</span>
-                    </div>
+                  <div className={styles.channelName}>
+                    <span>
+                      {' '}
+                      {formatRelativeDate(
+                        new Date(meetup?.scheduling as string).toISOString(),
+                      )}{' '}
+                      열림
+                    </span>
                   </div>
-                </Link>
-              </li>
-            )
-          })}
+                </div>
+              </Link>
+            </li>
+          )
+        })}
       </ul>
-      {loadedCount < videoData.length && (
+      {loadedCount < todayMeetup.length && (
         <button className="btn btn--white" onClick={loadMore}>
           + 더보기
         </button>

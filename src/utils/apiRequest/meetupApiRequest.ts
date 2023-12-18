@@ -23,6 +23,27 @@ export const getPrevMember = async (id: number) => {
 export const updateMember = async (id: number, member_list: string[]) => {
   return executeQuery(
     supabase.from('meetup_board').update({ member_list }).eq('id', id),
-    '멤버가 추가되지 않았습니다',
+    '멤버가 수정되지 않았습니다',
+  )
+}
+
+export const getTodayMeetup = async () => {
+  return executeQuery(
+    supabase
+      .from('meetup_board')
+      .select()
+      .gte(
+        'scheduling',
+        `${new Date().getFullYear()}-${
+          new Date().getMonth() + 1
+        }-${new Date().getDate()}`,
+      )
+      .lte(
+        'scheduling',
+        `${new Date().getFullYear()}-${new Date().getMonth() + 1}-${
+          new Date().getDate() + 1
+        }`,
+      ),
+    '오늘 라이브 데이터를 불러오지 못했습니다',
   )
 }
