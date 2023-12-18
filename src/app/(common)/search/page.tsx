@@ -1,129 +1,29 @@
-'use client'
+import React from 'react'
+import { cookies } from 'next/headers'
+import youtubeDataRequest from '@/utils/apiRequest/youtubeApiRequest'
+import { IYoutubeResponse, IYoutubeItem } from '@/type/YoutubeApiResponse'
+import SearchList from './_components/SearchList'
+import NoResult from './_components/NoResult'
 
-import React, { useState, useEffect, useCallback } from 'react'
-import { useSearchParams } from 'next/navigation'
-import Link from 'next/link'
-import formatRelativeDate from '@/utils/relativeDate'
-import { IYoutubeItem } from '@/type/YoutubeApiResponse'
-import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
-import Image from 'next/image'
-import styles from '@/app/page.module.scss'
-import NoResult from './NoResult'
-
-const Search = (): React.ReactElement => {
-  const searchParams = useSearchParams()
-  const search = searchParams.get('info')
-  const [filteredItems, setFilteredItems] = useState<IYoutubeItem[]>([])
-  const [pageToken, setPageToken] = useState<string | undefined>(undefined)
-  const [isLoading, setIsLoading] = useState(false)
-  const currentSearchResult = useYoutubeDataRequest(
-    'search',
-    `&q=${search}`,
-    25,
-    pageToken,
-  )
-  const scrolledItems = 4
-  const [displayCount, setDisplayCount] = useState(scrolledItems)
-
-  const handleSearch = async () => {
-    if (!search) return
-    const filtered: IYoutubeItem[] = currentSearchResult!.items.filter(
-      (el: IYoutubeItem): boolean => {
-        return el.snippet.title.includes(search || '')
-      },
+const SearchPage = async () => {
+  const cookieStore = cookies()
+  const keyword = cookieStore.get('search-keyword')?.value
+  let searchResults: IYoutubeItem[] | [] = []
+  if (keyword) {
+    const result = await youtubeDataRequest<IYoutubeResponse>(
+      'search',
+      `&q=${keyword}`,
+      25,
     )
-    setFilteredItems(filtered || [])
+    searchResults = result.items.filter((el: IYoutubeItem): boolean => {
+      return el.snippet.title.includes(keyword || '')
+    })
   }
-
-  const fetchMoreVideos = useCallback(async () => {
-    if (isLoading) return
-
-    try {
-      setIsLoading(true)
-      const nextPageVideos = currentSearchResult!.items
-      if (nextPageVideos.length > 0) {
-        setFilteredItems(prevVideos => [...prevVideos, ...nextPageVideos])
-        setPageToken(currentSearchResult!.nextPageToken)
-      }
-    } finally {
-      setIsLoading(false)
-    }
-  }, [isLoading, currentSearchResult])
-
-  useEffect(() => {
-    if (currentSearchResult) {
-      handleSearch()
-    }
-
-    const handleScroll = () => {
-      const scrollY = window.scrollY || document.documentElement.scrollTop
-      const windowHeight =
-        window.innerHeight || document.documentElement.clientHeight
-      const { scrollHeight } = document.documentElement
-      const isNearBottom = scrollY + windowHeight >= scrollHeight - 200
-
-      if (isNearBottom && !isLoading && currentSearchResult) {
-        setDisplayCount(prevDisplayCount => prevDisplayCount + scrolledItems)
-        fetchMoreVideos()
-      }
-    }
-
-    window.addEventListener('scroll', handleScroll)
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll)
-    }
-  }, [search, currentSearchResult])
 
   return (
     <>
-      {filteredItems.length ? (
-        <div className="inner-box">
-          <ul className={styles.videoList}>
-            {filteredItems.map((video: IYoutubeItem) => {
-              const VIDEO = video.snippet
-              return (
-                <li className={styles.videoCard} key={video.id.videoId}>
-                  <Link
-                    className={styles.videoLink}
-                    href={{
-                      pathname: `/detail/${video.id.videoId}`,
-                    }}
-                  >
-                    <div>
-                      <Image
-                        className={styles.videoImage}
-                        src={VIDEO.thumbnails.medium.url}
-                        width={0}
-                        height={0}
-                        sizes="18.15rem"
-                        style={{ width: '18.15rem', height: 'auto' }}
-                        layout="responsive"
-                        alt={VIDEO.title}
-                      />
-                    </div>
-                    <div className={styles.title}>
-                      <h4>{VIDEO.title}</h4>
-                    </div>
-                  </Link>
-                  <Link
-                    className={styles.videoLink}
-                    href={{
-                      pathname: `/detail/${video.id.videoId}`,
-                    }}
-                  >
-                    <div className={styles.channelTitle}>
-                      <span>{VIDEO.channelTitle}</span>
-                    </div>
-                  </Link>
-                  <div className={styles.publishedAt}>
-                    <span>{formatRelativeDate(VIDEO.publishedAt)}</span>
-                  </div>
-                </li>
-              )
-            })}
-          </ul>
-        </div>
+      {searchResults.length ? (
+        <SearchList searchResult={searchResults} />
       ) : (
         <NoResult />
       )}
@@ -131,4 +31,4 @@ const Search = (): React.ReactElement => {
   )
 }
 
-export default Search
+export default SearchPage

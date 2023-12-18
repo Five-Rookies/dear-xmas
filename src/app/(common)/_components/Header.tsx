@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { handleSignOut } from '@/utils/apiRequest/signUserSupabase'
 import styles from './header.module.scss'
-import HeaderInput from './HeaderInput'
+import SearchInput from './SearchInput'
 import MainMenu from './MainMenu'
 
 const supabase = createClientComponentClient()
@@ -145,23 +145,23 @@ const Header = (): React.JSX.Element => {
               </Link>
             </li>
           </ul>
-          <HeaderInput />
+          <SearchInput />
           <button className={styles.darkModeIcon} onClick={onClickDarkMode}>
             {renderThemeToggle()}
           </button>
           {renderLoginMenu()}
-          <FontAwesomeIcon 
-            className={styles.barIcon} 
+          <FontAwesomeIcon
+            className={styles.barIcon}
             icon={faBars}
             onClick={toggleMainMenu}
           />
-          {isClicked && 
+          {isClicked && (
             <MainMenu
-            setIsClicked={setIsClicked}
-            closeMenu={closeMenu}
-            modalRef={modalRef}
-          />
-          }
+              setIsClicked={setIsClicked}
+              closeMenu={closeMenu}
+              modalRef={modalRef}
+            />
+          )}
         </div>
       </div>
       {isClicked && (

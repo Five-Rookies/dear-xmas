@@ -1,9 +1,7 @@
-'use client'
-
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import styles from './search.module.scss'
+import styles from '../search.module.scss'
 
 const NoResult = () => {
   return (
