@@ -6,16 +6,16 @@ import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import MeetupBox from './MeetupBox'
 import { getMeetupList } from '@/utils/apiRequest/meetupApiRequest'
 
-const MyMeetupList = () => {
-  const [userName, setUserName] = useState('')
-  const [createdMeetup, setCreatedMeetup] = useState([])
+const MyMeetupList = (): React.JSX.Element => {
+  const [userName, setUserName] = useState<string>('')
+  const [createdMeetup, setCreatedMeetup] = useState<never[]>([])
 
-  const fetchUser = async () => {
+  const fetchUser = async (): Promise<void> => {
     const { data } = await supabase.auth.getSession()
     setUserName(data.session?.user.user_metadata.user_name)
   }
 
-  const fetchMeetupList = async () => {
+  const fetchMeetupList = async (): Promise<void> => {
     const res = await getMeetupList()
     setCreatedMeetup(res)
   }
