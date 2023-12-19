@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { handleSignOut } from '@/utils/apiRequest/signUserSupabase'
 import styles from './header.module.scss'
 
 const MainMenu = ({ closeMenu, modalRef, onClickOutside }: any) => {
+  
+
   return (
     <div
       className={styles.dropDownWrap}
@@ -25,7 +27,7 @@ const MainMenu = ({ closeMenu, modalRef, onClickOutside }: any) => {
               <figure>
                 <img src="/assets/bell.png" alt="" />
               </figure>
-              <p>음악</p>
+              <p>라이브</p>
             </Link>
           </li>
           <li style={{ backgroundColor: '#FFA132' }} onClick={closeMenu}>
@@ -65,7 +67,7 @@ const MainMenu = ({ closeMenu, modalRef, onClickOutside }: any) => {
               <figure>
                 <img src="/assets/sock.png" alt="" />
               </figure>
-              <p>마이페이지</p>
+              <p>프로필</p>
             </Link>
           </li>
           <li

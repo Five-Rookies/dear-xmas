@@ -27,7 +27,13 @@ const MeetupList = async () => {
           <img className={styles.star} src="/assets/star.png" alt="" />
           <img className={styles.star} src="/assets/star.png" alt="" />
         </div>
-        <MainMeetupList todayMeetup={todayMeetup} />
+        {todayMeetup.length > 0 ? (
+          <MainMeetupList todayMeetup={todayMeetup} />
+        ) : (
+          <span className={styles.liveNone}>
+            오늘 라이브되는 영상이 없습니다
+          </span>
+        )}
       </div>
     </section>
   )
