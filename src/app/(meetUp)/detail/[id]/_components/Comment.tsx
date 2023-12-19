@@ -14,7 +14,6 @@ import candle from '@public/assets/profile-candle.svg'
 import cookie from '@public/assets/profile-cookie.svg'
 import likeIcon from '@public/assets/like.svg'
 import IComment from '@/type/SupabaseResponse'
-import Comments from '@/type/SupabaseResponse'
 import styles from '../detail.module.scss'
 
 interface CommentProps {
@@ -95,7 +94,7 @@ const Comment = ({
 
   return (
     <>
-      {comment.comment_content === undefined ? (
+      {comment.comment_content !== undefined ? (
         <div className={styles.commentContainer}>
           <Image src={profiles[comment.profile_img]} alt="프로필 이미지" />
           <div className={styles.commentDetail}>
