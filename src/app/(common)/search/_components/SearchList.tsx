@@ -4,7 +4,7 @@ import React from 'react'
 import Link from 'next/link'
 import formatRelativeDate from '@/utils/relativeDate'
 import styles from '@/app/page.module.scss'
-import { IYoutubeItem } from '@/type/Api'
+import { IYoutubeItem } from '@/type/YoutubeApiResponse'
 
 interface IProps {
   searchResult: IYoutubeItem[] | []

@@ -2,12 +2,12 @@ import React from 'react'
 import { IYoutubeItem } from '@/type/YoutubeApiResponse'
 import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import styles from '@/app/page.module.scss'
-import MainMeetupList from './MainMeetupList'
 import { getTodayMeetup } from '@/utils/apiRequest/meetupApiRequest'
+import MainMeetupList from './MainMeetupList'
 
 const MeetupList = async () => {
   const todayMeetup = await getTodayMeetup()
-  console.log('?', todayMeetup)
+
   return (
     <section
       id="streaming"

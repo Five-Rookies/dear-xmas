@@ -1,5 +1,6 @@
 /* eslint-disable camelcase */
 import { executeQuery, supabase } from './defaultApiSetting'
+
 const tableName =
   process.env.NEXT_PUBLIC_IS_DEV_MODE === 'true' ? 'comments' : 'comments_PROD'
 
@@ -41,8 +42,8 @@ export const createComments = async (
 }
 
 export const updateComments = async (
-  comment_content: string,
-  like_num: number,
+  comment_content: string | undefined,
+  like_num: number | undefined,
   id: number,
 ) => {
   return executeQuery(

@@ -1,12 +1,13 @@
 'use client'
+
 import React, { FormEvent, useEffect, useRef, useState } from 'react'
-import styles from './meetupModal.module.scss'
 import { useRouter } from 'next/navigation'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequest'
 import useStore from '@/status/store'
 import { IMeetupBoardData } from '@/type/Component'
 import dynamic from 'next/dynamic'
+import styles from './meetupModal.module.scss'
 
 const DatePicker: React.ComponentType<any> = dynamic(
   () => import('../_datePicker/DatePicker'),
@@ -92,7 +93,7 @@ const MeetupModal = ({
       removeThumbnailUrl()
       router.back()
     } catch (error) {
-      console.log(error)
+      console.error(error)
     }
   }
 
