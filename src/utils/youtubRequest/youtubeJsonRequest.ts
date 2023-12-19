@@ -1,7 +1,7 @@
 import { IYoutubeResponse } from '@/type/YoutubeApiResponse'
 
 interface IParameter {
-  apiType: string
+  apiType?: string
   optionalQuery?: { [info: string]: string }
 }
 
