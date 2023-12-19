@@ -25,7 +25,9 @@ const CreateComment = ({
     setUserName(user?.user_metadata.user_name)
   }
 
-  const handleCreateCommnet = async (event: KeyboardEvent) => {
+  const handleCreateCommnet = async (
+    event: React.KeyboardEvent<HTMLInputElement>,
+  ) => {
     if (event.key === 'Enter') {
       if (inputValue?.current?.value) {
         await createComments(
@@ -50,7 +52,7 @@ const CreateComment = ({
         ref={inputValue}
         type="text"
         placeholder="댓글을 남겨주세요"
-        onKeyPress={handleCreateCommnet}
+        onKeyDown={e => handleCreateCommnet(e)}
       />
     </>
   )

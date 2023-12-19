@@ -44,5 +44,3 @@ export async function POST(request: Request) {
     status: 301,
   })
 }
-
-export default POST
