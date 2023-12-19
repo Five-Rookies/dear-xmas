@@ -1,7 +1,8 @@
-import { useState, useEffect } from 'react'
+import { useState, useRef, useEffect } from 'react'
 
 export function useScrollBottom(loadPosition: number): boolean {
   const [isBottom, setIsBottom] = useState(false)
+  const timeoutIdRef = useRef<number | null>(null)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,9 +19,16 @@ export function useScrollBottom(loadPosition: number): boolean {
       const documentHeight = document.documentElement.offsetHeight
 
       // 스크롤이 최하단에 가기 전에 미리 로드하기 위해 loadPosition을 더함
-      setIsBottom(
-        Math.ceil(scrollBottomPosition + loadPosition) >= documentHeight,
-      )
+      const isScrollAtBottom =
+        Math.ceil(scrollBottomPosition + loadPosition) >= documentHeight
+
+      // isBottom 값이 변경되면, 0.5초 동안은 변경되지 않도록 setTimeout 사용
+      if (timeoutIdRef.current === null) {
+        setIsBottom(isScrollAtBottom)
+        timeoutIdRef.current = window.setTimeout(() => {
+          timeoutIdRef.current = null
+        }, 500)
+      }
     }
 
     window.addEventListener('scroll', handleScroll)
@@ -28,6 +36,10 @@ export function useScrollBottom(loadPosition: number): boolean {
     return () => {
       // 컴포넌트가 언마운트될 때 스크롤 이벤트 정리
       window.removeEventListener('scroll', handleScroll)
+      if (timeoutIdRef.current !== null) {
+        // 컴포넌트 언마운트 시 timeout 취소
+        clearTimeout(timeoutIdRef.current)
+      }
     }
   }, [])
 
