@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import formatRelativeDate from '@/utils/relativeDate'
 import { IYoutubeResponse, IYoutubeItem } from '@/type/YoutubeApiResponse'
-import youtubeDataRequest from '@/utils/youtubApiRequest/youtubeApiRequest'
+import youtubeDataRequest from '@/utils/youtubRequest/youtubeApiRequest'
 import useScrollBottom from '@/hooks/useScrollBottom'
 import ScrollBtn from '@/app/(common)/_components/ScrollBtn'
 import styles from '../meetup.module.scss'
@@ -17,20 +17,12 @@ interface IProps {
 
 const VideoList = ({ initialData, pageToken }: IProps): React.JSX.Element => {
   const [videoList, setVideoList] = useState<IYoutubeItem[] | []>(initialData)
-  const [dataRange, setDataRange] = useState<[number, number]>([0, 7])
   // const [isLoading, setIsLoading] = useState<boolean>(false)
   const isBottom: boolean = useScrollBottom(100)
 
   const fetchMoreData = useCallback(async () => {
     // setIsLoading(true)
-    const { items } = await youtubeDataRequest<IYoutubeResponse>({
-      apiType: 'popular',
-      optionalQuery: { pageToken },
-    })
-    setDataRange(prevRange => {
-      const [min, max] = [...prevRange]
-      return [min + 8, max + 8]
-    })
+    const { items } = await youtubeDataRequest({ pageToken })
     setVideoList(prevVideoList => {
       return [...prevVideoList, ...items.slice(0, 8)]
     })

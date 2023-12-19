@@ -1,7 +1,7 @@
 'use server'
 
 import React from 'react'
-import youtubeDataRequest from '@/utils/youtubApiRequest/youtubeApiRequest'
+import youtubeDataRequest from '@/utils/youtubRequest/youtubeApiRequest'
 import { IYoutubeResponse } from '@/type/YoutubeApiResponse'
 
 import VideoList from './_components/VideoList'
