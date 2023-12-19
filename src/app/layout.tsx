@@ -10,16 +10,15 @@ export const metadata: Metadata = {
   description: 'Christmas playground project',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children, createSurveyModal }: React.ReactNode,
+
+) {
   return (
     <html>
       <body style={{ overflowX: 'hidden' }}>
         <Header />
         {children}
+        {createSurveyModal}
         <ScrollBtn />
         <Footer />
       </body>
