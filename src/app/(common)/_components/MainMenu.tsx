@@ -65,7 +65,7 @@ const MainMenu = ({ closeMenu, modalRef, onClickOutside }: any) => {
               <figure>
                 <img src="/assets/sock.png" alt="" />
               </figure>
-              <p>마이페이지</p>
+              <p>프로필</p>
             </Link>
           </li>
           <li
