@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import React, { useEffect, useState, useRef } from 'react'
+import React, { useEffect, useState, useRef, Children } from 'react'
 import useStore from '@/status/store'
 import { useRouter, usePathname } from 'next/navigation'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
@@ -11,15 +11,23 @@ import { handleSignOut } from '@/utils/apiRequest/signUserSupabase'
 import styles from './header.module.scss'
 import SearchInput from './SearchInput'
 import MainMenu from './MainMenu'
+import Profile from './Profile'
+import dynamic from 'next/dynamic'
 
 const supabase = createClientComponentClient()
 
-const Header = (): React.JSX.Element => {
+const Header = () //   {
+//   children,
+// }: {
+//   children: React.ReactNode
+// }
+: React.JSX.Element => {
   const { isDark, toggleDarkMode } = useStore()
   const [isLogin, setIsLogin] = useState<boolean>(false)
   const [hydrated, setHydrated] = useState<boolean>(false)
   const [color, setColor] = useState<boolean>(false)
   const [isClicked, setIsClicked] = useState<boolean>(false)
+  const [isClickedProfile, setIsClickedProfile] = useState<boolean>(false)
   const router = useRouter()
   const pathname = usePathname()
 
@@ -50,6 +58,10 @@ const Header = (): React.JSX.Element => {
     if (hydrated) {
       return isLogin ? (
         <div className={styles.account}>
+          <button onClick={() => setIsClickedProfile(!isClickedProfile)}>
+            <span>프로필</span>
+          </button>
+          <p className={styles.line}>|</p>
           <span
             onClick={() => {
               handleSignOut()
@@ -58,16 +70,6 @@ const Header = (): React.JSX.Element => {
           >
             로그아웃
           </span>
-          <p className={styles.line}>|</p>
-          <Link href="">
-            <span
-              onClick={() => {
-                alert('마이페이지 추후 개발!')
-              }}
-            >
-              마이페이지
-            </span>
-          </Link>
         </div>
       ) : (
         <div className={styles.account}>
@@ -99,10 +101,6 @@ const Header = (): React.JSX.Element => {
     setColor(isDark)
   }, [isDark, isLogin])
 
-  const toggleMainMenu = () => {
-    setIsClicked(!isClicked)
-  }
-
   const closeMenu = () => {
     setIsClicked(false)
   }
@@ -132,7 +130,9 @@ const Header = (): React.JSX.Element => {
           </h1>
           <ul className={styles.navi}>
             <li>
-              <button onClick={toggleMainMenu}>크리스마스</button>
+              <button onClick={() => setIsClicked(!isClicked)}>
+                크리스마스
+              </button>
             </li>
             <li>
               <Link href="/meetup" onClick={closeMenu}>
@@ -153,7 +153,7 @@ const Header = (): React.JSX.Element => {
           <FontAwesomeIcon
             className={styles.barIcon}
             icon={faBars}
-            onClick={toggleMainMenu}
+            onClick={() => setIsClicked(!isClicked)}
           />
           {isClicked && (
             <MainMenu
@@ -172,6 +172,8 @@ const Header = (): React.JSX.Element => {
           onClickOutside={onClickOutside}
         />
       )}
+      {/* {isClickedProfile && children} */}
+      {isClickedProfile && <Profile />}
     </header>
   )
 }
