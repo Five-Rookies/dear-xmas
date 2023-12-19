@@ -27,7 +27,7 @@ const MeetupList = async () => {
           <img className={styles.star} src="/assets/star.png" alt="" />
           <img className={styles.star} src="/assets/star.png" alt="" />
         </div>
-        {todayMeetup.length < 0 ? (
+        {todayMeetup.length > 0 ? (
           <MainMeetupList todayMeetup={todayMeetup} />
         ) : (
           <span className={styles.liveNone}>
