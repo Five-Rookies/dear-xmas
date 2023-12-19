@@ -11,11 +11,14 @@ $bg-color-8: #f4f4f4;
 $bg-color-9: #202020;
 $bg-color-10: #0c412f;
 $bg-color-11: #f2f2f2;
+$bg-color-12: #146238;
 $hover-bg-color-1: #272727;
 $hover-color-3: #ce3017;
+$animation-1: cubic-bezier(0.71, -0.02, 0.34, 1.21);
 
 html {
   --color-main-bg-hover: #{$hover-color-3};
+  --slot-animation: #{$animation-1};
 }
 
 html[data-theme='light'] {
@@ -25,6 +28,7 @@ html[data-theme='light'] {
   --color-main-ground-bg: #{$bg-color-1};
   --color-main-ground-two-bg: #{$bg-color-8};
   --color-sub-bg: #{$bg-color-10};
+  --color-slot-bg: #{$bg-color-12};
   --color-videoInfo-bg: #{$bg-color-4};
   --color-searchInput-bg: #{$bg-color-6};
   --color-error-bg: #{$bg-color-4};
@@ -41,6 +45,7 @@ html[data-theme='dark'] {
   --color-main-ground-bg: #{$bg-color-7};
   --color-main-ground-two-bg: #{$bg-color-9};
   --color-sub-bg: #{$bg-color-7};
+  --color-slot-bg: #{$bg-color-9};
   --color-videoInfo-bg: #{$bg-color-5};
   --color-searchInput-bg: #{$bg-color-5};
   --color-error-bg: #{$bg-color-2};

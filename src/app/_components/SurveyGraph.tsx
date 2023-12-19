@@ -10,7 +10,6 @@ import {
   Tooltip,
 } from 'chart.js'
 import { Bar } from 'react-chartjs-2'
-import ISurvey from '@/type/SupabaseResponse'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip)
 
@@ -51,9 +50,8 @@ export const options = {
   },
 }
 
-const SurveyGraph = () => {
-  const [surveyData, setSurveyData] = useState<ISurvey[]>([])
-  const [isToggleListShow, setToggleListShow] = useState<boolean>(false)
+const SurveyGraph = ({surveyData, questionList, dataObj}) => {
+  const [isToggleListShow, setToggleListShow] = useState(false)
   const [toggleIndex, setToggleIndex] = useState<number>(0)
 
   const handleToggle = (index: number): void => {
@@ -64,22 +62,6 @@ const SurveyGraph = () => {
     setToggleListShow(!isToggleListShow)
     setToggleIndex(-1)
   }
-
-  useEffect(() => {
-    const fetchSurveyData = async (): Promise<void> => {
-      const data = await getSurveyResult()
-      if (data) {
-        setSurveyData(data)
-      }
-    }
-    fetchSurveyData()
-  }, [])
-
-  const questionList: string[] = [
-    '여러분은 산타를 몇살까지 믿었나요?',
-    '마음에 들지 않은 선물을 받았을 때 어떻게 하시나요?',
-    '크리스마스에 가장 받고 싶은 선물은 무엇인가요?',
-  ]
 
   const bgColor: string[] = ['#DA3017', '#17914F', '#FFCC36']
 
