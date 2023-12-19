@@ -1,11 +1,12 @@
 'use client'
 
-import React, { useState, useEffect, useCallback } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
 import formatRelativeDate from '@/utils/relativeDate'
-import { IYoutubeResponse, IYoutubeItem } from '@/type/YoutubeApiResponse'
-import youtubeDataRequest from '@/utils/youtubRequest/youtubeApiRequest'
+import { IYoutubeItem } from '@/type/YoutubeApiResponse'
+import youtubeApiRequest from '@/utils/youtubRequest/youtubeApiRequest'
 import useScrollBottom from '@/hooks/useScrollBottom'
 import ScrollBtn from '@/app/(common)/_components/ScrollBtn'
 import styles from '../meetup.module.scss'
@@ -16,22 +17,28 @@ interface IProps {
 }
 
 const VideoList = ({ initialData, pageToken }: IProps): React.JSX.Element => {
-  const [videoList, setVideoList] = useState<IYoutubeItem[] | []>(initialData)
-  // const [isLoading, setIsLoading] = useState<boolean>(false)
+  const router = useRouter()
   const isBottom: boolean = useScrollBottom(100)
+  const currentPageToken = useRef<string>(pageToken)
+  const [videoList, setVideoList] = useState<IYoutubeItem[] | []>(initialData)
 
-  const fetchMoreData = useCallback(async () => {
-    // setIsLoading(true)
-    const { items } = await youtubeDataRequest({ pageToken })
-    setVideoList(prevVideoList => {
-      return [...prevVideoList, ...items.slice(0, 8)]
+  const fetchMoreData = async () => {
+    const { nextPageToken, items } = await youtubeApiRequest({
+      pageToken: currentPageToken.current,
     })
-    // setIsLoading(false)
-  }, [])
+    currentPageToken.current = nextPageToken
+    setVideoList(prevVideoList => {
+      return [...prevVideoList, ...items]
+    })
+  }
 
   useEffect(() => {
-    if (isBottom) {
-      fetchMoreData()
+    if (pageToken && isBottom) {
+      fetchMoreData().catch(error => {
+        console.error(error)
+        alert('[ERROR] 사용중 오류가 발생했습니다. 데이터를 다시 조회합니다.')
+        router.refresh()
+      })
     }
   }, [isBottom])
 

@@ -1,17 +1,27 @@
 'use server'
 
 import React from 'react'
-import youtubeDataRequest from '@/utils/youtubRequest/youtubeApiRequest'
-import { IYoutubeResponse } from '@/type/YoutubeApiResponse'
-
+import youtubeApiRequest from '@/utils/youtubRequest/youtubeApiRequest'
+import youtubeJsonRequest from '@/utils/youtubRequest/youtubeJsonRequest'
+import { IYoutubeItem } from '@/type/YoutubeApiResponse'
 import VideoList from './_components/VideoList'
 
 const MeetupPage = async (): Promise<React.JSX.Element> => {
-  const { nextPageToken, items } = await youtubeDataRequest<IYoutubeResponse>({
-    apiType: 'popular',
-  })
+  let totalItems: IYoutubeItem[] = []
+  let pageToken: string = ''
 
-  return <VideoList initialData={items} pageToken={nextPageToken} />
+  try {
+    const { nextPageToken, items } = await youtubeApiRequest()
+    totalItems = items
+    pageToken = nextPageToken
+  } catch {
+    const { items } = await youtubeJsonRequest({
+      apiType: 'search',
+    })
+    totalItems = items
+  }
+
+  return <VideoList initialData={totalItems} pageToken={pageToken} />
 }
 
 export default MeetupPage

@@ -6,7 +6,7 @@ interface IParameter {
 }
 
 const youtubeApiRequest = async (
-  optionalQuery: IParameter,
+  optionalQuery?: IParameter,
 ): Promise<IYoutubeResponse> => {
   try {
     const URL = process.env.NEXT_PUBLIC_YOUTUBE_API_URL as string
