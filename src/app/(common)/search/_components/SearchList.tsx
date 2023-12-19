@@ -8,6 +8,7 @@ import { IYoutubeItem } from '@/type/YoutubeApiResponse'
 import youtubeApiRequest from '@/utils/youtubRequest/youtubeApiRequest'
 import useScrollBottom from '@/hooks/useScrollBottom'
 import { useRouter } from 'next/navigation'
+import { setVideoInfoToCookie } from '@/utils/youtubRequest/videoInfoCookieClient'
 
 interface IProps {
   initialData: IYoutubeItem[] | []
@@ -53,7 +54,6 @@ const SearchList = ({
     <div className="inner-box">
       <ul className={styles.videoList}>
         {searchResult.map((video: IYoutubeItem, index: number) => {
-          const VIDEO = video.snippet
           return (
             <li className={styles.videoCard} key={index}>
               <Link
@@ -61,30 +61,32 @@ const SearchList = ({
                 href={{
                   pathname: `/detail/${video.id.videoId}`,
                 }}
+                onClick={() =>
+                  setVideoInfoToCookie({
+                    channelTitle: video.snippet.channelTitle,
+                    videoId: video.id.videoId,
+                    channelId: video.snippet.channelId,
+                    title: video.snippet.title,
+                    thumbnailsUrl: video.snippet.thumbnails.medium.url,
+                  })
+                }
               >
                 <div>
                   <img
                     className={styles.videoImage}
-                    src={VIDEO.thumbnails.medium.url}
+                    src={video.snippet.thumbnails.medium.url}
                     width={300}
                   />
                 </div>
                 <div className={styles.title}>
-                  <h4>{VIDEO.title}</h4>
+                  <h4>{video.snippet.title}</h4>
                 </div>
-              </Link>
-              <Link
-                className={styles.videoLink}
-                href={{
-                  pathname: `/detail/${video.id.videoId}`,
-                }}
-              >
                 <div className={styles.channelTitle}>
-                  <span>{VIDEO.channelTitle}</span>
+                  <span>{video.snippet.channelTitle}</span>
                 </div>
               </Link>
               <div className={styles.publishedAt}>
-                <span>{formatRelativeDate(VIDEO.publishedAt)}</span>
+                <span>{formatRelativeDate(video.snippet.publishedAt)}</span>
               </div>
             </li>
           )

@@ -9,6 +9,7 @@ import { IYoutubeItem } from '@/type/YoutubeApiResponse'
 import youtubeApiRequest from '@/utils/youtubRequest/youtubeApiRequest'
 import useScrollBottom from '@/hooks/useScrollBottom'
 import ScrollBtn from '@/app/(common)/_components/ScrollBtn'
+import { setVideoInfoToCookie } from '@/utils/youtubRequest/videoInfoCookieClient'
 import styles from '../meetup.module.scss'
 
 interface IProps {
@@ -54,6 +55,15 @@ const VideoList = ({ initialData, pageToken }: IProps): React.JSX.Element => {
                 href={{
                   pathname: `/detail/${video.id.videoId}`,
                 }}
+                onClick={() =>
+                  setVideoInfoToCookie({
+                    channelTitle: video.snippet.channelTitle,
+                    videoId: video.id.videoId,
+                    channelId: video.snippet.channelId,
+                    title: video.snippet.title,
+                    thumbnailsUrl: video.snippet.thumbnails.medium.url,
+                  })
+                }
               >
                 <div>
                   <Image
@@ -70,13 +80,6 @@ const VideoList = ({ initialData, pageToken }: IProps): React.JSX.Element => {
                 <div className={styles.title}>
                   <h4>{VIDEO.title}</h4>
                 </div>
-              </Link>
-              <Link
-                className={styles.videoLink}
-                href={{
-                  pathname: `/detail/${video.id.videoId}`,
-                }}
-              >
                 <div className={styles.channelTitle}>
                   <span>{VIDEO.channelTitle}</span>
                 </div>
