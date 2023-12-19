@@ -10,7 +10,6 @@ const youtubeApiRequest = async (
 ): Promise<IYoutubeResponse> => {
   try {
     const URL = process.env.NEXT_PUBLIC_YOUTUBE_API_URL as string
-    console.log(URL)
     const youtubeApiData = await axios.get<IYoutubeResponse>(URL, {
       params: {
         part: 'snippet',
