@@ -7,11 +7,11 @@ import { IYoutubeResponse } from '@/type/YoutubeApiResponse'
 import VideoList from './_components/VideoList'
 
 const MeetupPage = async (): Promise<React.JSX.Element> => {
-  const videoList = await youtubeDataRequest<IYoutubeResponse>({
+  const { nextPageToken, items } = await youtubeDataRequest<IYoutubeResponse>({
     apiType: 'popular',
   })
 
-  return <VideoList initialVideoList={videoList.items} />
+  return <VideoList initialData={items} pageToken={nextPageToken} />
 }
 
 export default MeetupPage

@@ -6,23 +6,20 @@ const printErrorMessage = (error: unknown) => {
   }
 }
 
-const youtubeApiRequest = async <T>({
-  optionalQuery,
-  maxResults,
-}: {
-  optionalQuery: { [info: string]: string }
-  maxResults: number
+const youtubeApiRequest = async <T>(optionalQuery: {
+  [info: string]: string
 }): Promise<AxiosResponse<T>> => {
   try {
-    const youtubeApiData = await axios.get(process.env.YOUTUBE_API_URL!, {
+    const URL = process.env.YOUTUBE_API_URL as string
+    const youtubeApiData = await axios.get(URL, {
       params: {
         q: '크리스마스|크리스마스영화',
         part: 'snippet',
         regionCode: 'kr',
         type: 'video',
-        maxResults,
-        key: process.env.YOUTUBE_API_KEY,
+        maxResults: '8',
         ...optionalQuery,
+        key: process.env.YOUTUBE_API_KEY,
       },
     })
     return youtubeApiData.data
@@ -43,7 +40,7 @@ const youtubeJsonRequest = async <T>({
     let jsonData
     if (apiType === 'popular' || apiType === 'search') {
       jsonData = await import(
-        '@public/videos/christmas/christmasPopular_v1.json'
+        `@public/videos/christmas/christmasPopular_v1.json`
       )
     } else {
       const { channelId } = optionalQuery
@@ -62,15 +59,13 @@ const youtubeJsonRequest = async <T>({
 const youtubeDataRequest = async <T>({
   apiType,
   optionalQuery = {},
-  maxResults = 8,
 }: {
   apiType: string
   optionalQuery?: { [info: string]: string }
-  maxResults?: number
 }): Promise<T> => {
   let youtubeData
   try {
-    youtubeData = await youtubeApiRequest<T>({ optionalQuery, maxResults })
+    youtubeData = await youtubeApiRequest<T>(optionalQuery)
   } catch (error) {
     printErrorMessage(error)
     youtubeData = await youtubeJsonRequest<T>({ apiType, optionalQuery })

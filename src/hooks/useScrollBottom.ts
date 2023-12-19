@@ -4,7 +4,7 @@ export function useScrollBottom(loadPosition: number): boolean {
   const [isBottom, setIsBottom] = useState(false)
 
   useEffect(() => {
-    window.addEventListener('scroll', () => {
+    const handleScroll = () => {
       /**
        * document.documentElement.scrollTop : 요소의 콘텐츠가 수직으로 스크롤되는 픽셀 수
        * window.innerHeight : 창의 내부 높이를 픽셀 단위로 반환
@@ -21,7 +21,14 @@ export function useScrollBottom(loadPosition: number): boolean {
       setIsBottom(
         Math.ceil(scrollBottomPosition + loadPosition) >= documentHeight,
       )
-    })
+    }
+
+    window.addEventListener('scroll', handleScroll)
+
+    return () => {
+      // 컴포넌트가 언마운트될 때 스크롤 이벤트 정리
+      window.removeEventListener('scroll', handleScroll)
+    }
   }, [])
 
   return isBottom

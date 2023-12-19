@@ -8,9 +8,14 @@ import { IYoutubeItem } from '@/type/Api'
 
 interface IProps {
   searchResult: IYoutubeItem[] | []
+  pageToken: string
 }
 
-const SearchList = ({ searchResult }: IProps): React.ReactElement => {
+const SearchList = ({
+  searchResult,
+  pageToken,
+}: IProps): React.ReactElement => {
+  // 데이터 통신
   return (
     <div className="inner-box">
       <ul className={styles.videoList}>
