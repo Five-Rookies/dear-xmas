@@ -26,9 +26,11 @@ const MeetupLayout = async (props: any): Promise<React.JSX.Element> => {
           </div>
         </div>
       </div>
-      <div className={styles.container}>
-        <MeetupTabButtons />
-        <MeetupTabPage>{props.children}</MeetupTabPage>
+      <div className={` ${styles.container}`}>
+        <div className="inner-box">
+          <MeetupTabButtons />
+          <MeetupTabPage>{props.children}</MeetupTabPage>
+        </div>
       </div>
     </div>
   )
