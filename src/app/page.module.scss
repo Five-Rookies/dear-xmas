@@ -81,62 +81,59 @@
     }
     li:nth-child(1) {
       img {
-        left: 0;
-        bottom: 45vh;
+        left: -2%;
+        bottom: 40vh;
       }
     }
     li:nth-child(2) {
       img {
-        left: 3%;
-        bottom: 45vh;
+        left: 1%;
+        bottom: 40vh;
       }
     }
     li:nth-child(3) {
       img {
-        left: 6%;
-        bottom: 45vh;
+        left: 43%;
+        bottom: 39vh;
       }
     }
     li:nth-child(4) {
       img {
-        left: 43%;
-        bottom: 45vh;
+        left: 48%;
+        bottom: 34vh;
       }
     }
     li:nth-child(5) {
       img {
-        left: 47%;
-        bottom: 41vh;
+        left: 66%;
+        bottom: 50vh;
       }
     }
     li:nth-child(6) {
       img {
-        left: 51%;
-        bottom: 38vh;
+        left: 70%;
+        bottom: 50vh;
       }
     }
     li:nth-child(7) {
       img {
-        left: 66%;
-        bottom: 53vh;
-      }
-    }
-    li:nth-child(8) {
-      img {
-        left: 69%;
-        bottom: 53vh;
-      }
-    }
-    li:nth-child(9) {
-      img {
-        left: 72%;
-        bottom: 53vh;
+        left: 74%;
+        bottom: 50vh;
       }
     }
   }
   .snow {
+    position: absolute;
+    top: 0;
+    left: 0;
     mix-blend-mode: plus-lighter;
-    animation: fallDown 20s linear infinite;
+  }
+  .snow1 {
+    animation: fallDown1 20s linear backwards infinite;
+  }
+  .snow2 {
+    transform: scaleX(-1) translateY(-100%);
+    animation: fallDown2 20s linear backwards infinite;
   }
   .counter {
     color: white;
@@ -250,6 +247,10 @@
 
     img {
       position: absolute;
+      transition: .3s ease;
+      &:hover {
+        transform: translate3d(-.3rem, -.3rem, .3rem);
+      }
     }
 
     .star {
@@ -515,8 +516,7 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
-   
-
+            //animation: spin 3.75s var(--slot-animation) forwards;
             height: calc(100% / 5);
           }
 
@@ -524,19 +524,17 @@
 
           &:nth-child(1) span {
             color: #68AD10;
-            animation: spin 3.75s var(--slot-animation) forwards;
+            
           }
           &:nth-child(2) span {
             color: #4DC088;
-            animation: spin 3.75s .2s var(--slot-animation) forwards;
           }
           &:nth-child(3) span {
             color: #93CA20;
-            animation: spin 3.75s .4s var(--slot-animation) forwards;
           }
           &:nth-child(4) span {
             color: #2E6F30;
-            animation: spin 3.75s .6s var(--slot-animation) forwards;
+            //animation: spin 3.75s .6s var(--slot-animation) forwards;
           }
 
           
@@ -544,7 +542,7 @@
           
         }
 
-        .stopAnimation span {
+        .stopAnimation {
           animation-play-state: paused;
         }
       }
@@ -623,6 +621,12 @@
   h2,
   p {
     color: #0c412f;
+  }
+  h2 + div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
   }
   .toggleWrap {
     position: relative;
@@ -845,8 +849,8 @@ html[data-theme='dark'] {
     .counter {
       position: absolute;
       top: 5rem;
-      right: 50%;
-      transform: translateX(50%);
+      left: 50%;
+      transform: translateX(-50%);
 
       h2 {
         font-size: 5.2rem;
@@ -858,15 +862,153 @@ html[data-theme='dark'] {
       }
     }
   }
+
+  .meetupList {
+    ul {
+      grid-template-columns: 1fr 1fr;
+      padding: 0 1.25rem;
+
+      li + li {
+        margin-top: 1.25rem;
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
+  // .main-container {
+  //   padding-top: 0;
+  // }
+  .bg {
+    height: auto;
+    z-index: 1;
+    background: linear-gradient(to bottom, var(--color-main-bg) 54%, #fff 46%);
+    .snow {
+      position: static;
+    }
+    .snowBg {
+      position: relative;
+      height: auto;
+      background-color: transparent;
+      margin-top: 15%;
+    }
+    .snowBgSecond {
+      display: none;
+    }
+    .tree {
+      li {
+        &:nth-child(1) img,
+        &:nth-child(2) img,
+        &:nth-child(6) img,
+        &:nth-child(7) img{
+          bottom: 46%;
+        }
+        &:nth-child(1) img {
+          right: auto;
+          left: 0;
+        }
+        &:nth-child(2) img {
+          right: auto;
+          left: 7%;
+        }
+        &:nth-child(3),
+        &:nth-child(4), 
+        &:nth-child(5){
+          display: none;
+        }
+        &:nth-child(6) {
+          display: block;
+        }
+        &:nth-child(7) {
+          display: block;
+        }
+        
+        &:nth-child(6) img {
+          right: 7%;
+          left: auto;
+          top: auto;
+        }
+        &:nth-child(7) img {
+          right: 0;
+          left: auto;
+          top: auto;
+        }
+
+        img {
+          width: 4rem !important;
+        }
+      }
+    }
+    .santa {
+      bottom: auto;
+      top: 11.5%;
+      transform: scaleX(-1) translateX(50%);
+      left: 50%;
+      width: 70%;
+    }
+    .counter {
+      position: relative;
+      top: auto;
+      width: 10rem;
+      height: 10rem;
+      bottom: 3%;
+      margin: 5% 0;
+      h2 {
+        font-size: 3.4rem;
+      }
+      h4 {
+        font-size: 2rem;
+      }
+    }
+  }
+
   .videoList {
     padding: 0 0.625rem;
 
     .videoCard {
       width: 100%;
       margin: 0;
+    }
+  }
+
+  .meetupList {
+    ul {
+      display: block;
+    }
+
+    .decoImage {
+      .star {
+        &:nth-child(1) {
+          width: 0.6875rem;
+          left: 13%;
+          top: 50%;
+        }
+        &:nth-child(4) {
+          width: 1.75rem;
+          left: 70%;
+          top: 52%;
+        }
+        &:nth-child(5) {
+          width: 0.4rem;
+          left: 87%;
+          top: 35%;
+        }
+      }
+  
+      .candyStick {
+        width: 2.375rem;
+        height: auto;
+        left: 31%;
+        top: 17%;
+        transform: rotate(-26deg);
+      }
+  
+      .leaf {
+        width: 7.5rem;
+        left: 55%;
+        top: 1.5rem;
+        transform: rotate(34deg);
+      }
     }
   }
   .slot {
@@ -878,13 +1020,25 @@ html[data-theme='dark'] {
           height: auto;
           flex-direction: column;
           
-          li {
+          .slotAnimation {
             width: 100%;
             height: 11rem;
             border-left: 0;
             border-bottom: 1px solid #146238;
+            overflow: hidden;
+            display: block;
             &:last-child {
               border-bottom: 0;
+            }
+
+            span {
+              display: block;
+              height: 100%;
+              position: relative;
+              top: 50%;
+              transform: translateY(-50%);
+              text-align: center;
+              display: flex;
             }
           }
           &::before,
@@ -893,6 +1047,28 @@ html[data-theme='dark'] {
           }
         }
       }
+    }
+  }
+
+  .survey {
+    .closeAll {
+      position: relative;
+    }
+    h2,
+    h2 + div,
+    .toggleWrap {
+      padding: 0 1.25rem;
+    }
+    h2 + div {
+      display: block;
+      position: relative;
+    }
+    .surveyBtn {
+      width: 10rem;
+      text-align: center;
+      position: absolute;
+      top: -3.6rem;
+      right: 0;
     }
   }
 }
@@ -926,23 +1102,47 @@ html[data-theme='dark'] {
   }
 }
 
-
-
-@keyframes spin {
-  0% {
-    transform: translateY(calc(-5 * 15.625rem));
+.spin {
+  animation-name: spin; // SCSS에서 정의한 spin keyframes를 사용
+  animation-duration: 3.75s;
+  animation-timing-function: var(--slot-animation);
+  &--ani-1 {
+    animation-delay: 0s;
   }
+  &--ani-2 {
+    animation-delay: 0.2s;
+  }
+  &--ani-3 {
+    animation-delay: 0.4s;
+  }
+  &--ani-4 {
+    animation-delay: 0.6s;
+  }
+  @keyframes spin {
+    0% {
+      transform: translateY(calc(-5 * 15.625rem));
+    }
 
-  100% {
-    transform: translateY(0);
+    100% {
+      transform: translateY(0);
+    }
   }
 }
 
-@keyframes fallDown {
+@keyframes fallDown1 {
   0% {
-    transform: translateY(-200%);
+    transform: translateY(0);
   }
   100% {
     transform: translateY(100%);
+  }
+}
+
+@keyframes fallDown2 {
+  0% {
+    transform: scaleX(-1) translateY(-100%);
+  }
+  100% {
+    transform: scaleX(-1) translateY(0%);
   }
 }
