@@ -1,5 +1,5 @@
 import React from 'react'
-import { executeQuery, supabase } from './defaultApiSetting'
+import { supabase } from './defaultApiSetting'
 
 export const handleSignOut = async () => {
   const { data } = await supabase.auth.getSession()
