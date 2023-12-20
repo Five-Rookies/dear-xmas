@@ -33,7 +33,6 @@ useEffect(() => {
   const handleClick = (index) => {
   if (!isClicked) {
   setIsClicked(true)
-  handleAnimation(index)
   handleMakeSentence()
   setButtonText('restart')
   setCurrentIndex(0)
