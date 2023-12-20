@@ -12,14 +12,14 @@ import styles from '../detail.module.scss'
 import CreateComment from './CreateComment'
 import Comment from './Comment'
 
-const profiles = [santa, snowman, candle, cookie]
-const randomProfile = Math.round(Math.random() * 3)
+const profiles: any[] = [santa, snowman, candle, cookie]
+const randomProfile: number = Math.round(Math.random() * 3)
 
 const CommentList = ({ getVideoId }: { getVideoId: string }) => {
   const [comments, setComments] = useState<IComment[]>([])
 
-  const fetchComments = async () => {
-    const totalComments = await getComments(getVideoId)
+  const fetchComments = async (): Promise<void> => {
+    const totalComments: IComment[] = await getComments(getVideoId)
     if (totalComments) {
       setComments(totalComments)
     }
@@ -39,13 +39,7 @@ const CommentList = ({ getVideoId }: { getVideoId: string }) => {
       {comments.length !== 0 &&
         comments.map((el: IComment) => {
           return (
-            <Comment
-              key={el.id}
-              comment={el}
-              getVideoId={getVideoId}
-              setComments={setComments}
-              fetchComments={fetchComments}
-            />
+            <Comment key={el.id} comment={el} fetchComments={fetchComments} />
           )
         })}
     </div>

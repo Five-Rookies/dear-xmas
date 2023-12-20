@@ -12,13 +12,13 @@ const CreateComment = ({
   profile: number
   fetchComments: () => Promise<void>
 }) => {
-  const pathParam = usePathname()
-  const paramArr = pathParam.split('/')
-  const videoId = paramArr[paramArr.length - 1]
+  const pathParam: string = usePathname()
+  const paramArr: string[] = pathParam.split('/')
+  const videoId: string = paramArr[paramArr.length - 1]
   const inputValue = useRef<HTMLInputElement>(null)
-  const [userName, setUserName] = useState<string | undefined>()
+  const [userName, setUserName] = useState<string | undefined>('')
 
-  const getUserName = async () => {
+  const getUserName = async (): Promise<void> => {
     const {
       data: { user },
     } = await supabase.auth.getUser()

@@ -8,6 +8,7 @@ import useStore from '@/status/store'
 import { IMeetupBoardData } from '@/type/Component'
 import dynamic from 'next/dynamic'
 import styles from './meetupModal.module.scss'
+import { Value, ValuePiece } from '@/type/Component'
 
 const DatePicker: React.ComponentType<any> = dynamic(
   () => import('../_datePicker/DatePicker'),
@@ -15,9 +16,6 @@ const DatePicker: React.ComponentType<any> = dynamic(
     ssr: false,
   },
 )
-
-type ValuePiece = Date | null | string
-type Value = ValuePiece | [ValuePiece, ValuePiece]
 
 const MeetupModal = ({
   currentVideoId,
@@ -31,7 +29,7 @@ const MeetupModal = ({
   const [meetupTitle, setMeetupTitle] = useState<string>('')
   const [meetupScheduling, setMeetupScheduling] = useState<Value>(new Date())
   const [meetupContent, setMeetupContent] = useState<string>('')
-  const [userName, setUserName] = useState<string | undefined>()
+  const [userName, setUserName] = useState<string | undefined>('')
 
   const getUserName = async (): Promise<void> => {
     const {
