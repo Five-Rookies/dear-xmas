@@ -51,13 +51,14 @@ useEffect(() => {
   }
 }
 
-const handleAnimation = (index: number, isClicked: string) => {
-  if (isClicked) {
-    return `${styles.spin} ${styles[`spin--ani-${index + 1}`]}`
-  } else {
-    return styles.spin
-  }
-}
+// const handleAnimation = (index: number, isClicked: string) => {
+//   if (isClicked) {
+//     return `${styles.spin} ${styles[`spin--ani-${index + 1}`]}`
+//   } else {
+//     return styles.spin
+//   }
+// }
+
 
 const handleRestart = () => {
 setCurrentIndex(0) // 재시작 시 currentIndex 초기화
@@ -117,19 +118,8 @@ return (
             {Array.from({ length: 5 }, (_, i) => (
               <span
                 key={i}
-                className={
-                  isClicked
-                    ? styles[`spin-ani-${index + 1}`]
-                    : styles.spin
-                }
+                className={`${styles.spin} ${styles[`spin--ani-${index + 1}`]}`}
                 ref={wordRef}
-                style={{
-                  animationDelay: handleAnimation(index),
-                  animationFillMode:
-                    index === currentIndex && isClicked
-                      ? "forwards"
-                      : "none",
-                }}
               >
                 {word}
               </span>

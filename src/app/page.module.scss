@@ -839,18 +839,11 @@ html[data-theme='dark'] {
         }
       }
     }
-    .santa {
-      transition: 0.8s;
-      transform: scaleX(-1) scale(70%);
-      width: 100%;
-      bottom: -2%;
-      left: 2.8%;
-    }
     .counter {
-      position: absolute;
-      top: 5rem;
-      left: 50%;
-      transform: translateX(-50%);
+      // position: absolute;
+      // top: 5rem;
+      // left: 50%;
+      // transform: translateX(-50%);
 
       h2 {
         font-size: 5.2rem;
@@ -949,6 +942,8 @@ html[data-theme='dark'] {
     .counter {
       position: relative;
       top: auto;
+      left: 50%;
+      transform: translateX(-50%);
       width: 10rem;
       height: 10rem;
       bottom: 3%;
