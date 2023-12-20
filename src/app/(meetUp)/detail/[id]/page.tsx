@@ -7,32 +7,32 @@ import styles from './detail.module.scss'
 import DetailHeader from './_components/DetailHeader'
 import CreateMeetUpButton from './_components/CreateMeetUpButton'
 
-// 클릭한 영상의 상세 정보를 가져오는 함수
-const getCurrentVideoInfo = async (currentVideoId: string) => {
-  const { itemList: totalVideoList = [] } = await youtubeRequest({
-    apiType: 'popular',
-  })
-
-  return totalVideoList.find(
-    (item: IYoutubeItem) => item.id.videoId === currentVideoId,
-  )
-}
-
-// 클릭한 영상에 해당하는 채널ID의 영상 목록을 가져오는 함수
-const getChannelVideoList = async (videoInfo: IYoutubeItem) => {
-  const { itemList: channelVideoList = [], pageToken = '' } =
-    await youtubeRequest({
-      apiType: 'detail',
-      optionalQuery: {
-        channelId: videoInfo.snippet.channelId,
-        maxResults: '6',
-      },
+const DetailPage = async ({ params }: { params: { id: string } }) => {
+  // 클릭한 영상의 상세 정보를 가져오는 함수
+  const getCurrentVideoInfo = async (currentVideoId: string) => {
+    const { itemList: totalVideoList = [] } = await youtubeRequest({
+      apiType: 'popular',
     })
 
-  return { channelVideoList, pageToken }
-}
+    return totalVideoList.find(
+      (item: IYoutubeItem) => item.id.videoId === currentVideoId,
+    )
+  }
 
-const Detail = async ({ params }: { params: { id: string } }) => {
+  // 클릭한 영상에 해당하는 채널ID의 영상 목록을 가져오는 함수
+  const getChannelVideoList = async (videoInfo: IYoutubeItem) => {
+    const { itemList: channelVideoList = [], pageToken = '' } =
+      await youtubeRequest({
+        apiType: 'detail',
+        optionalQuery: {
+          channelId: videoInfo.snippet.channelId,
+          maxResults: '6',
+        },
+      })
+
+    return { channelVideoList, pageToken }
+  }
+
   const currentVideoId = params.id
   const currentVideoInfo = await getCurrentVideoInfo(currentVideoId)
   const { channelVideoList, pageToken } = await getChannelVideoList(
@@ -77,4 +77,4 @@ const Detail = async ({ params }: { params: { id: string } }) => {
   )
 }
 
-export default Detail
+export default DetailPage
