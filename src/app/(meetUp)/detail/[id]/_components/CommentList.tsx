@@ -11,12 +11,12 @@ import IComment from '@/type/SupabaseResponse'
 import styles from '../detail.module.scss'
 import CreateComment from './CreateComment'
 import Comment from './Comment'
-
-const profiles: any[] = [santa, snowman, candle, cookie]
-const randomProfile: number = Math.round(Math.random() * 3)
+import { supabase } from '@/utils/apiRequest/defaultApiSetting'
+const profiles = [santa, snowman, candle, cookie]
 
 const CommentList = ({ getVideoId }: { getVideoId: string }) => {
   const [comments, setComments] = useState<IComment[]>([])
+  const [userProfile, setUserProfile] = useState<number>(0)
 
   const fetchComments = async (): Promise<void> => {
     const totalComments: IComment[] = await getComments(getVideoId)
@@ -24,8 +24,14 @@ const CommentList = ({ getVideoId }: { getVideoId: string }) => {
       setComments(totalComments)
     }
   }
-
+  const getUserName = async (): Promise<void> => {
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+    setUserProfile(user?.user_metadata.profile_img)
+  }
   useEffect(() => {
+    getUserName()
     fetchComments()
   }, [])
 
@@ -33,8 +39,8 @@ const CommentList = ({ getVideoId }: { getVideoId: string }) => {
     <div className={styles.comments}>
       <p>댓글 {comments.length}개</p>
       <div className={styles.inputComments}>
-        <Image src={profiles[randomProfile]} alt="프로필 이미지" />
-        <CreateComment profile={randomProfile} fetchComments={fetchComments} />
+        <Image src={profiles[userProfile]} alt="프로필 이미지" />
+        <CreateComment profile={userProfile} fetchComments={fetchComments} />
       </div>
       {comments.length !== 0 &&
         comments.map((el: IComment) => {
