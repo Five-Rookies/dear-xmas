@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <section id="counter" className={`${styles.mainCommon} ${styles.bg}`}>
       <Image
-        className={styles.snow}
+        className={`${styles.snow} ${styles.snow1}`}
         width={0}
         height={0}
         sizes="100%"
@@ -17,7 +17,7 @@ const Main = () => {
         alt=""
       />
       <Image
-        className={styles.snow}
+        className={`${styles.snow} ${styles.snow2}`}
         width={0}
         height={0}
         sizes="100%"
@@ -55,27 +55,7 @@ const Main = () => {
             width={0}
             height={0}
             sizes="6.5rem"
-            style={{ width: '5rem', height: 'auto' }}
-            alt=""
-          />
-        </li>
-        <li>
-          <Image
-            src="/assets/tree.png"
-            width={0}
-            height={0}
-            sizes="6.5rem"
-            style={{ width: '5rem', height: 'auto' }}
-            alt=""
-          />
-        </li>
-        <li>
-          <Image
-            src="/assets/tree.png"
-            width={0}
-            height={0}
-            sizes="5rem"
-            style={{ width: '5rem', height: 'auto' }}
+            style={{ width: '6.5rem', height: 'auto' }}
             alt=""
           />
         </li>
