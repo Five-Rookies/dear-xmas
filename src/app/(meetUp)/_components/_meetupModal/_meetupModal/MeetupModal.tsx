@@ -8,7 +8,7 @@ import useStore from '@/status/store'
 import { IMeetupBoardData } from '@/type/Component'
 import dynamic from 'next/dynamic'
 import styles from './meetupModal.module.scss'
-import { Value, ValuePiece } from '@/type/Component'
+import { Value, ValuePiece, IVideoDetailInfo } from '@/type/Component'
 
 const DatePicker: React.ComponentType<any> = dynamic(
   () => import('../_datePicker/DatePicker'),
@@ -17,14 +17,14 @@ const DatePicker: React.ComponentType<any> = dynamic(
   },
 )
 
-const MeetupModal = ({
-  currentVideoId,
-}: {
-  currentVideoId: string
-}): React.JSX.Element => {
+const MeetupModal = (): React.JSX.Element => {
   const router = useRouter()
   const modalRef = useRef<null>(null)
-  const { videoThumbnailUrl, removeThumbnailUrl } = useStore()
+
+  const { videoDetailInfo, removeVideoDetailInfo } = useStore()
+  const { channelId, title, channelTitle, currentVideoId, thumbnailUrl } =
+    videoDetailInfo as IVideoDetailInfo
+
   const [meetupCategory, setMeetupCategory] = useState<string>('')
   const [meetupTitle, setMeetupTitle] = useState<string>('')
   const [meetupScheduling, setMeetupScheduling] = useState<Value>(new Date())
@@ -44,6 +44,7 @@ const MeetupModal = ({
   ): void => {
     if (modalRef.current === event.target) {
       router.back()
+      removeVideoDetailInfo()
     }
   }
 
@@ -87,14 +88,18 @@ const MeetupModal = ({
       scheduling: meetupScheduling,
       user_name: userName,
       video_id: currentVideoId,
-      thumbnail: videoThumbnailUrl,
+      thumbnail: thumbnailUrl,
+      channel_id: channelId,
+      channel_title: channelTitle,
+      video_title: title,
       member_list: [],
     }
 
     try {
+      console.log(data, channelTitle)
       await createMeetupBoard(data)
       alert('모임 생성 완료!')
-      removeThumbnailUrl()
+      removeVideoDetailInfo()
       router.back()
     } catch (error) {
       console.error(error)
@@ -163,7 +168,7 @@ const MeetupModal = ({
               type="button"
               className={styles.actionButton}
               onClick={() => {
-                removeThumbnailUrl()
+                removeVideoDetailInfo()
                 router.back()
               }}
             >

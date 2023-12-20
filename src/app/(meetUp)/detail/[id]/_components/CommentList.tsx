@@ -12,9 +12,9 @@ import styles from '../detail.module.scss'
 import CreateComment from './CreateComment'
 import Comment from './Comment'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
-const profiles = [santa, snowman, candle, cookie]
 
 const CommentList = ({ getVideoId }: { getVideoId: string }) => {
+  const profiles = [santa, snowman, candle, cookie]
   const [comments, setComments] = useState<IComment[]>([])
   const [userProfile, setUserProfile] = useState<number>(0)
 

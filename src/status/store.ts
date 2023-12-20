@@ -1,17 +1,26 @@
 import { create } from 'zustand'
 import { persist, createJSONStorage } from 'zustand/middleware'
+import { IVideoDetailInfo } from '@/type/Component'
 
 interface Store {
   isDark: boolean
   isApiQuotaExhausted: boolean
-  videoThumbnailUrl: string
+  videoDetailInfo: IVideoDetailInfo
   time: number
   toggleDarkMode: (state: boolean) => void
   setQuotaExhausted: () => void
-  setThumbnailUrl: (state: string | undefined) => void
+  setVideoDetailInfo: (state: IVideoDetailInfo) => void
+  removeVideoDetailInfo: () => void
   setTime: (state: number) => void
-  removeThumbnailUrl: () => void
   removeTime: () => void
+}
+
+const VideoInitialState: IVideoDetailInfo = {
+  channelId: '',
+  title: '',
+  channelTitle: '',
+  thumbnailUrl: '',
+  currentVideoId: '',
 }
 
 const useStore = create<Store>()(
@@ -19,18 +28,17 @@ const useStore = create<Store>()(
     set => ({
       isDark: false,
       isApiQuotaExhausted: false,
-      videoThumbnailUrl: '',
+      videoDetailInfo: VideoInitialState,
       time: 0,
+
       toggleDarkMode: state => set({ isDark: state }),
       setQuotaExhausted: () => set({ isApiQuotaExhausted: true }),
-      setThumbnailUrl: state => set({ videoThumbnailUrl: state }),
-      setTime: state => set({ time: state }),
-      removeThumbnailUrl: () => {
-        sessionStorage.removeItem('videoThumbnailUrl')
-        set({ videoThumbnailUrl: '' })
+      setVideoDetailInfo: state => set({ videoDetailInfo: state }),
+      removeVideoDetailInfo: () => {
+        set({ videoDetailInfo: VideoInitialState })
       },
+      setTime: state => set({ time: state }),
       removeTime: () => {
-        sessionStorage.removeItem('time')
         set({ time: 0 })
       },
     }),
