@@ -11,8 +11,9 @@ declare global {
 }
 const SlotModal = ({ handleModalClose, sentence }: any) => {
   const [userName, setUserName] = useState<string | undefined>()
-
+ 
   useEffect(() => {
+    getUserName()
     if (!window.Kakao.isInitialized()) {
       window.Kakao.init(process.env.NEXT_PUBLIC_KAKAO_API_KEY)
     }
