@@ -96,7 +96,6 @@ const MeetupModal = (): React.JSX.Element => {
     }
 
     try {
-      console.log(data, channelTitle)
       await createMeetupBoard(data)
       alert('모임 생성 완료!')
       removeVideoDetailInfo()
