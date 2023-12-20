@@ -8,6 +8,7 @@ import {
   updateMember,
   getPrevMember,
 } from '@/utils/apiRequest/meetupApiRequest'
+import likeOff from '@public/assets/likeOff.svg'
 import styles from '../meetup.module.scss'
 import btn from '@/app/globalButton.module.scss'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
@@ -107,7 +108,7 @@ const MeetupBox = ({
         <div className={styles.buttonArea}>
           <div>
             <button>
-              <img src="/assets/like.svg" alt="좋아요" />
+              <img src="/assets/likeOff.svg" alt="좋아요" />
               <span>
                 {meetup.meetup_like_num ? meetup.meetup_like_num : 0}명
               </span>

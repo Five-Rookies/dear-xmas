@@ -6,8 +6,8 @@ export interface IDeveloper {
   email: string
 }
 
-type ValuePiece = Date | null | string
-type Value = ValuePiece | [ValuePiece, ValuePiece]
+export type ValuePiece = Date | null | string
+export type Value = ValuePiece | [ValuePiece, ValuePiece]
 
 export interface IMeetupBoardData {
   id?: number

@@ -273,6 +273,38 @@
   }
 }
 
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes reduction {
+  0% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.likeOn {
+  animation: pop 0.3s;
+}
+
+.likeOff {
+  animation: reduction 0.3s;
+}
+
 @media (max-width: 1280px) {
   .detailContainer {
     padding: 7rem 0.5rem;

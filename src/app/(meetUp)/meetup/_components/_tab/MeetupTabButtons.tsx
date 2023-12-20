@@ -7,10 +7,10 @@ import Link from 'next/link'
 
 const MeetupTabButtons = (): React.JSX.Element => {
   const firstButtonRef = useRef<HTMLButtonElement | null>(null)
-  const [activeTab, setActiveTab] = useState('videoList')
+  const [activeTab, setActiveTab] = useState<string>('videoList')
 
   const getTabState = (): void => {
-    const savedState =
+    const savedState: string | false | null =
       typeof window !== 'undefined' && localStorage.getItem('activeTab')
     if (savedState) {
       setActiveTab(savedState)
