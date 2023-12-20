@@ -19,7 +19,7 @@ const MeetupTabPage = ({
   }, [children])
 
   return (
-    <div className={`inner-box ${styles.contents}`}>
+    <div className={styles.contents}>
       {isLoading ? <TabLoading /> : children}
     </div>
   )

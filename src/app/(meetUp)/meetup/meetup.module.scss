@@ -23,10 +23,14 @@
 }
 
 .buttonContainer {
-  display: inline-flex;
+  padding: 1rem;
+}
+
+.buttonColumn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   gap: 1rem;
-  margin: 2.125rem 0;
-  margin-left: 6rem;
 }
 
 .contents {
@@ -211,18 +215,6 @@
         }
       }
     }
-  }
-}
-
-@media (max-width: 1400px) {
-  .buttonContainer {
-    margin-left: 3rem;
-  }
-}
-
-@media (max-width: 1300px) {
-  .buttonContainer {
-    margin-left: 1rem;
   }
 }
 
