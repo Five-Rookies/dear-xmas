@@ -30,6 +30,7 @@ const MeetupModal = ({
   const [meetupScheduling, setMeetupScheduling] = useState<Value>(new Date())
   const [meetupContent, setMeetupContent] = useState<string>('')
   const [userName, setUserName] = useState<string | undefined>('')
+  const nowDate = new Date()
 
   const getUserName = async (): Promise<void> => {
     const {
@@ -73,6 +74,11 @@ const MeetupModal = ({
     event: FormEvent,
   ): Promise<void> => {
     event.preventDefault()
+
+    if (meetupScheduling !== null && meetupScheduling < nowDate) {
+      alert('시간 설정 확인해 주세요!')
+      return
+    }
 
     const data: IMeetupBoardData = {
       category: meetupCategory,
