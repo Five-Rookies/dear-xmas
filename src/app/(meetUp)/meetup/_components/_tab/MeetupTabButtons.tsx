@@ -22,38 +22,40 @@ const MeetupTabButtons = (): React.JSX.Element => {
 
   return (
     <div className={styles.buttonContainer}>
-      <Link href="/meetup">
-        <button
-          className={`${btn.button} ${btn.buttonGray} ${
-            pathName === '/meetup' ? btn.activeTab : ''
-          }`}
-          ref={firstButtonRef}
-          onClick={() => handleClickTabButton('meetup')}
-        >
-          모임생성 가능한 영상
-        </button>
-      </Link>
+      <div className={styles.buttonColumn}>
+        <Link href="/meetup">
+          <button
+            className={`${btn.button} ${btn.buttonGray} ${
+              pathName === '/meetup' ? btn.activeTab : ''
+            }`}
+            ref={firstButtonRef}
+            onClick={() => handleClickTabButton('meetup')}
+          >
+            모임생성 가능한 영상
+          </button>
+        </Link>
 
-      <Link href="/meetup/meetupList">
-        <button
-          className={`${btn.button} ${btn.buttonGray} ${
-            pathName === '/meetup/meetupList' ? btn.activeTab : ''
-          }`}
-          onClick={() => handleClickTabButton('meetupList')}
-        >
-          생성된 모임
-        </button>
-      </Link>
-      <Link href="/meetup/myMeetupList">
-        <button
-          className={`${btn.button} ${btn.buttonGray} ${
-            pathName === '/meetup/myMeetupList' ? btn.activeTab : ''
-          }`}
-          onClick={() => handleClickTabButton('myMeetupList')}
-        >
-          내 모임
-        </button>
-      </Link>
+        <Link href="/meetup/meetupList">
+          <button
+            className={`${btn.button} ${btn.buttonGray} ${
+              pathName === '/meetup/meetupList' ? btn.activeTab : ''
+            }`}
+            onClick={() => handleClickTabButton('meetupList')}
+          >
+            생성된 모임
+          </button>
+        </Link>
+        <Link href="/meetup/myMeetupList">
+          <button
+            className={`${btn.button} ${btn.buttonGray} ${
+              pathName === '/meetup/myMeetupList' ? btn.activeTab : ''
+            }`}
+            onClick={() => handleClickTabButton('myMeetupList')}
+          >
+            내 모임
+          </button>
+        </Link>
+      </div>
     </div>
   )
 }

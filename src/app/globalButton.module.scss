@@ -35,6 +35,7 @@
     color: #fff;
   }
 }
+
 .buttonGrayBg {
   color: #999;
   background-color: #eee;
@@ -48,4 +49,30 @@
   color: #fff;
   border: 2px solid #da3017;
   background-color: #da3017;
+}
+
+@media (max-width: 800px) {
+  .button {
+    font-size: 1.25rem;
+    padding: 0.5rem 0.4rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .button {
+    font-size: 1.25rem;
+    padding: 0.5rem 0.4rem;
+  }
+}
+
+@media (min-width: 345px) and (max-width: 452px) {
+  .buttonContainer {
+    padding: 0.5rem;
+    gap: 50rem;
+  }
+
+  .button {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.3rem 0.3rem;
+  }
 }
