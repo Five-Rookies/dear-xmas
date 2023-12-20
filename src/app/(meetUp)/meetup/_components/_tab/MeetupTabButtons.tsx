@@ -4,28 +4,19 @@ import React, { useEffect, useRef, useState } from 'react'
 import styles from '@/app/(meetUp)/meetup/meetup.module.scss'
 import btn from '@/app/globalButton.module.scss'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 const MeetupTabButtons = (): React.JSX.Element => {
+  const pathName = usePathname()
   const firstButtonRef = useRef<HTMLButtonElement | null>(null)
-  const [activeTab, setActiveTab] = useState<string>('videoList')
-
-  const getTabState = (): void => {
-    const savedState: string | false | null =
-      typeof window !== 'undefined' && localStorage.getItem('activeTab')
-    if (savedState) {
-      setActiveTab(savedState)
-    }
-  }
 
   const handleClickTabButton = (tabName: string): void => {
-    setActiveTab(tabName)
     if (typeof window !== 'undefined') {
       localStorage.setItem('activeTab', tabName)
     }
   }
 
   useEffect(() => {
-    getTabState()
     firstButtonRef.current?.focus()
   }, [])
 
@@ -34,10 +25,10 @@ const MeetupTabButtons = (): React.JSX.Element => {
       <Link href="/meetup">
         <button
           className={`${btn.button} ${btn.buttonGray} ${
-            activeTab === 'videoList' ? btn.activeTab : ''
+            pathName === '/meetup' ? btn.activeTab : ''
           }`}
           ref={firstButtonRef}
-          onClick={() => handleClickTabButton('videoList')}
+          onClick={() => handleClickTabButton('meetup')}
         >
           모임생성 가능한 영상
         </button>
@@ -46,7 +37,7 @@ const MeetupTabButtons = (): React.JSX.Element => {
       <Link href="/meetup/meetupList">
         <button
           className={`${btn.button} ${btn.buttonGray} ${
-            activeTab === 'meetupList' ? btn.activeTab : ''
+            pathName === '/meetup/meetupList' ? btn.activeTab : ''
           }`}
           onClick={() => handleClickTabButton('meetupList')}
         >
@@ -56,7 +47,7 @@ const MeetupTabButtons = (): React.JSX.Element => {
       <Link href="/meetup/myMeetupList">
         <button
           className={`${btn.button} ${btn.buttonGray} ${
-            activeTab === 'myMeetupList' ? btn.activeTab : ''
+            pathName === '/meetup/myMeetupList' ? btn.activeTab : ''
           }`}
           onClick={() => handleClickTabButton('myMeetupList')}
         >
