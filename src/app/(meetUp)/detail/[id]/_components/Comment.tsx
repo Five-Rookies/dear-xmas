@@ -60,17 +60,21 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
   }
 
   const handleClickCommentLike = async (): Promise<void> => {
-    const checkIsLiked: ILike[] = await checkLike(userId, COMMENT_ID)
+    const checkIsLiked: ILike[] = await checkLike(
+      userId,
+      COMMENT_ID,
+      'comment_like',
+    )
 
     if (checkIsLiked.length <= 0) {
-      await createLike(userId, COMMENT_ID, true)
+      await createLike(userId, COMMENT_ID, 'comment_like')
       setLikeCount(likeCount =>
         likeCount !== undefined ? likeCount + 1 : undefined,
       )
     }
 
     if (checkIsLiked.length > 0) {
-      await removeLike(COMMENT_ID)
+      await removeLike(userId!, COMMENT_ID, 'comment_like')
       setLikeCount(likeCount =>
         likeCount !== undefined ? likeCount - 1 : undefined,
       )
@@ -120,8 +124,15 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
   useEffect(() => {
     const fetchLike = async (): Promise<void> => {
       if (userId && COMMENT_ID) {
-        const isLike: boolean = await getLike(userId, COMMENT_ID)
-        const likeLength: number | undefined = await countLike(COMMENT_ID)
+        const isLike: boolean = await getLike(
+          userId,
+          COMMENT_ID,
+          'comment_like',
+        )
+        const likeLength: number | undefined = await countLike(
+          COMMENT_ID,
+          'comment_like',
+        )
         setIsLiked(isLike)
         setLikeCount(likeLength)
       }
