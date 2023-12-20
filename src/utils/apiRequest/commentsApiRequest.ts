@@ -4,7 +4,7 @@ import { executeQuery, supabase } from './defaultApiSetting'
 const tableName =
   process.env.NEXT_PUBLIC_IS_DEV_MODE === 'true' ? 'comments' : 'comments_PROD'
 
-export const getComments = async (video_id: string) => {
+export const getComments = async (video_id: string): Promise<any> => {
   return executeQuery(
     supabase
       .from(tableName)
@@ -15,7 +15,7 @@ export const getComments = async (video_id: string) => {
   )
 }
 
-export const getCommentsById = async (id: number) => {
+export const getCommentsById = async (id: number): Promise<any> => {
   return executeQuery(
     supabase.from(tableName).select('*').eq('id', id).single(),
     '해당 id의 데이터를 불러오지 못했습니다',
@@ -27,7 +27,7 @@ export const createComments = async (
   video_id: string,
   user_name: string | undefined,
   profile_img: number,
-) => {
+): Promise<any> => {
   return executeQuery(
     supabase.from(tableName).insert([
       {
@@ -43,19 +43,15 @@ export const createComments = async (
 
 export const updateComments = async (
   comment_content: string | undefined,
-  like_num: number | undefined,
   id: number,
-) => {
+): Promise<any> => {
   return executeQuery(
-    supabase
-      .from(tableName)
-      .update([{ comment_content, like_num }])
-      .eq('id', id),
+    supabase.from(tableName).update([{ comment_content }]).eq('id', id),
     '데이터를 수정하지 못했습니다',
   )
 }
 
-export const deleteComments = async (id: number) => {
+export const deleteComments = async (id: number): Promise<any> => {
   return executeQuery(
     supabase.from(tableName).delete().eq('id', id),
     '데이터를 삭제하지 못했습니다',
