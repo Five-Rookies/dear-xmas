@@ -6,6 +6,7 @@ import formatRelativeDate from '@/utils/relativeDate'
 import styles from '@/app/page.module.scss'
 import { IYoutubeItem } from '@/type/YoutubeApiResponse'
 import useInfiniteScroll from '@/hooks/useInfiniteScroll'
+import { setVideoInfoToCookie } from '@/utils/cookieClient'
 
 interface IProps {
   initialData: IYoutubeItem[] | []
@@ -37,6 +38,15 @@ const SearchList = ({
                 className={styles.videoLink}
                 href={{
                   pathname: `/detail/${video.id.videoId}`,
+                }}
+                onClick={() => {
+                  setVideoInfoToCookie({
+                    channelTitle: video.snippet.channelTitle,
+                    videoId: video.id.videoId,
+                    channelId: video.snippet.channelId,
+                    title: video.snippet.title,
+                    thumbnailsUrl: video.snippet.thumbnails.medium.url,
+                  })
                 }}
               >
                 <div>

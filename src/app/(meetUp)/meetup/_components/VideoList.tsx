@@ -7,6 +7,7 @@ import formatRelativeDate from '@/utils/relativeDate'
 import { IYoutubeItem } from '@/type/YoutubeApiResponse'
 import ScrollBtn from '@/app/(common)/_components/ScrollBtn'
 import useInfiniteScroll from '@/hooks/useInfiniteScroll'
+import { setVideoInfoToCookie } from '@/utils/cookieClient'
 import styles from '../meetup.module.scss'
 
 interface IProps {
@@ -31,6 +32,15 @@ const VideoList = ({ initialData, pageToken }: IProps): React.JSX.Element => {
                 className={styles.videoLink}
                 href={{
                   pathname: `/detail/${video.id.videoId}`,
+                }}
+                onClick={() => {
+                  setVideoInfoToCookie({
+                    channelTitle: video.snippet.channelTitle,
+                    videoId: video.id.videoId,
+                    channelId: video.snippet.channelId,
+                    title: video.snippet.title,
+                    thumbnailsUrl: video.snippet.thumbnails.medium.url,
+                  })
                 }}
               >
                 <div>

@@ -1,5 +1,5 @@
 import { useRouter } from 'next/navigation'
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { IYoutubeItem } from '@/type/YoutubeApiResponse'
 import youtubeApiRequest from '@/utils/youtubRequest/youtubeApiRequest'
 import useScrollBottom from './useScrollBottom'

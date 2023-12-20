@@ -1,31 +1,20 @@
 import React from 'react'
 import RelatedVedio from '@/app/(meetUp)/detail/[id]/_components/RelatedVedio'
 import CommentList from '@/app/(meetUp)/detail/[id]/_components/CommentList'
-import { IYoutubeItem } from '@/type/YoutubeApiResponse'
 import youtubeRequest from '@/utils/youtubRequest/youtubeRequest'
+import { IVideoInfoToCookie, getVideoInfoToCookie } from '@/utils/cookieServer'
 import styles from './detail.module.scss'
 import DetailHeader from './_components/DetailHeader'
 import CreateMeetUpButton from './_components/CreateMeetUpButton'
 
 const DetailPage = async ({ params }: { params: { id: string } }) => {
-  // 클릭한 영상의 상세 정보를 가져오는 함수
-  const getCurrentVideoInfo = async (currentVideoId: string) => {
-    const { itemList: totalVideoList = [] } = await youtubeRequest({
-      apiType: 'popular',
-    })
-
-    return totalVideoList.find(
-      (item: IYoutubeItem) => item.id.videoId === currentVideoId,
-    )
-  }
-
   // 클릭한 영상에 해당하는 채널ID의 영상 목록을 가져오는 함수
-  const getChannelVideoList = async (videoInfo: IYoutubeItem) => {
+  const getChannelVideoList = async (channelId: string) => {
     const { itemList: channelVideoList = [], pageToken = '' } =
       await youtubeRequest({
         apiType: 'detail',
         optionalQuery: {
-          channelId: videoInfo.snippet.channelId,
+          channelId,
           maxResults: '6',
         },
       })
@@ -34,23 +23,18 @@ const DetailPage = async ({ params }: { params: { id: string } }) => {
   }
 
   const currentVideoId = params.id
-  const currentVideoInfo = await getCurrentVideoInfo(currentVideoId)
+  const currentVideoInfo: IVideoInfoToCookie | null = getVideoInfoToCookie()
   const { channelVideoList, pageToken } = await getChannelVideoList(
-    currentVideoInfo!,
+    currentVideoInfo!.channelId,
   )
 
   return (
     <div className={`inner-box ${styles.detail} ${styles.detailContainer}`}>
-      <DetailHeader
-        title={currentVideoInfo?.snippet.channelTitle}
-        back="detail"
-      />
+      <DetailHeader title={currentVideoInfo?.channelTitle} back="detail" />
       <div className={styles.titleArea}>
-        <h1 className={styles.videoInfoTitle}>
-          {currentVideoInfo?.snippet.title}
-        </h1>{' '}
+        <h1 className={styles.videoInfoTitle}>{currentVideoInfo?.title}</h1>
         <CreateMeetUpButton
-          thumbnailUrl={currentVideoInfo?.snippet.thumbnails.medium.url}
+          thumbnailUrl={currentVideoInfo?.thumbnailsUrl}
           currentVideoId={currentVideoId}
         />
       </div>
@@ -69,7 +53,7 @@ const DetailPage = async ({ params }: { params: { id: string } }) => {
         </div>
         <RelatedVedio
           initialData={channelVideoList}
-          channelId={currentVideoInfo!.snippet.channelId}
+          channelId={currentVideoInfo!.channelId}
           pageToken={pageToken}
         />
       </div>
