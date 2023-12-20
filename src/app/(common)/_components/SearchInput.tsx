@@ -2,6 +2,7 @@
 
 import React, { useRef } from 'react'
 import { useRouter } from 'next/navigation'
+import { setSearchKeywordToCookie } from '@/utils/cookieClient'
 import styles from './header.module.scss'
 
 const SearchInput = (): React.JSX.Element => {
@@ -13,7 +14,7 @@ const SearchInput = (): React.JSX.Element => {
     if (!searchTerm) {
       return router.push('/')
     }
-    document.cookie = `search-keyword=${encodeURIComponent(searchTerm)}`
+    setSearchKeywordToCookie(searchTerm)
     router.push(`/search?search-keyword=${encodeURIComponent(searchTerm)}`)
   }
 
