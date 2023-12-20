@@ -23,3 +23,11 @@ export interface IMeetupBoardData {
   meetup_like_num?: number
   member_list?: string[]
 }
+export interface ILike {
+  comment_id?: number
+  meetup_id?: number
+  created_at?: string
+  id: number
+  is_like: boolean
+  user_id: string
+}

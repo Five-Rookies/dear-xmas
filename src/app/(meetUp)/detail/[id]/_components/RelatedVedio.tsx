@@ -32,7 +32,10 @@ const RelatedVedio = ({ initialData, channelId, pageToken }: IProps) => {
           channelVideoList.map((video: IYoutubeItem, index: number) => {
             const VIDEO_SNIPPET = video.snippet
             return (
-              <li key={video.id.videoId + index} className={styles.listItem}>
+              <li
+                key={video.id.videoId + index.toString()}
+                className={styles.listItem}
+              >
                 <Link
                   href={`https://www.youtube.com/watch?v=${video.id.videoId}`}
                   className={styles.listLink}

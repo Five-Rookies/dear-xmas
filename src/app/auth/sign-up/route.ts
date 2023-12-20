@@ -11,6 +11,7 @@ export async function POST(request: Request) {
   const email = String(formData.get('email'))
   const password = String(formData.get('password'))
   const passwordHint = String(formData.get('password_hint'))
+  const randomProfile = Math.round(Math.random() * 3)
   const cookieStore = cookies()
   const supabase = createRouteHandlerClient({
     cookies: () => cookieStore,
@@ -19,7 +20,7 @@ export async function POST(request: Request) {
   const option = {
     user_name: userName,
     password_hint: passwordHint,
-    profile_img: 0,
+    profile_img: randomProfile,
   }
 
   try {

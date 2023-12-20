@@ -133,6 +133,38 @@
         display: inline-flex;
         align-items: center;
         gap: 0.375rem;
+        @keyframes pop {
+          0% {
+            transform: scale(1);
+          }
+          50% {
+            transform: scale(1.4);
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+
+        @keyframes reduction {
+          0% {
+            transform: scale(1.2);
+          }
+          50% {
+            transform: scale(1.1);
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+
+        .likeOn {
+          animation: pop 0.3s;
+        }
+
+        .likeOff {
+          animation: reduction 0.3s;
+        }
+
         img {
           width: 1.5rem;
         }

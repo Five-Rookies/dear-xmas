@@ -25,7 +25,7 @@ const DetailPage = async ({ params }: { params: { id: string } }) => {
   const currentVideoId = params.id
   const currentVideoInfo: IVideoInfoToCookie | null = getVideoInfoToCookie()
   const { channelVideoList, pageToken } = await getChannelVideoList(
-    currentVideoInfo!.channelId,
+    currentVideoInfo!.channelId!,
   )
 
   return (
