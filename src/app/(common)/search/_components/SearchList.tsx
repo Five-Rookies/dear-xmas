@@ -5,19 +5,34 @@ import Link from 'next/link'
 import formatRelativeDate from '@/utils/relativeDate'
 import styles from '@/app/page.module.scss'
 import { IYoutubeItem } from '@/type/YoutubeApiResponse'
+import useInfiniteScroll from '@/hooks/useInfiniteScroll'
 
 interface IProps {
-  searchResult: IYoutubeItem[] | []
+  initialData: IYoutubeItem[] | []
+  keyword: string
+  pageToken: string
 }
 
-const SearchList = ({ searchResult }: IProps): React.ReactElement => {
+const SearchList = ({
+  initialData,
+  keyword,
+  pageToken,
+}: IProps): React.ReactElement => {
+  const searchResult = useInfiniteScroll({
+    pageToken,
+    initialData,
+    optionalQuery: {
+      q: keyword,
+      maxResults: '12',
+    },
+  })
+
   return (
     <div className="inner-box">
       <ul className={styles.videoList}>
-        {searchResult.map((video: IYoutubeItem) => {
-          const VIDEO = video.snippet
+        {searchResult.map((video: IYoutubeItem, index: number) => {
           return (
-            <li className={styles.videoCard} key={video.id.videoId}>
+            <li className={styles.videoCard} key={index}>
               <Link
                 className={styles.videoLink}
                 href={{
@@ -27,26 +42,19 @@ const SearchList = ({ searchResult }: IProps): React.ReactElement => {
                 <div>
                   <img
                     className={styles.videoImage}
-                    src={VIDEO.thumbnails.medium.url}
+                    src={video.snippet.thumbnails.medium.url}
                     width={300}
                   />
                 </div>
                 <div className={styles.title}>
-                  <h4>{VIDEO.title}</h4>
+                  <h4>{video.snippet.title}</h4>
                 </div>
-              </Link>
-              <Link
-                className={styles.videoLink}
-                href={{
-                  pathname: `/detail/${video.id.videoId}`,
-                }}
-              >
                 <div className={styles.channelTitle}>
-                  <span>{VIDEO.channelTitle}</span>
+                  <span>{video.snippet.channelTitle}</span>
                 </div>
               </Link>
               <div className={styles.publishedAt}>
-                <span>{formatRelativeDate(VIDEO.publishedAt)}</span>
+                <span>{formatRelativeDate(video.snippet.publishedAt)}</span>
               </div>
             </li>
           )

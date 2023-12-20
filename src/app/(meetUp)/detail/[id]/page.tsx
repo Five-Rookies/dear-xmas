@@ -1,79 +1,80 @@
-'use client'
-
-import React, { useEffect, useState } from 'react'
-import {
-  IYoutubeResponse,
-  IYoutubeItem,
-  ISnippet,
-} from '@/type/YoutubeApiResponse'
+import React from 'react'
 import RelatedVedio from '@/app/(meetUp)/detail/[id]/_components/RelatedVedio'
 import CommentList from '@/app/(meetUp)/detail/[id]/_components/CommentList'
-import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
+import { IYoutubeItem } from '@/type/YoutubeApiResponse'
+import youtubeRequest from '@/utils/youtubRequest/youtubeRequest'
 import styles from './detail.module.scss'
 import DetailHeader from './_components/DetailHeader'
 import CreateMeetUpButton from './_components/CreateMeetUpButton'
 
-const Detail = (props: any) => {
-  const currentVideoId: string = props.params.id
-  const [currentVideo, setCurrentVideo] = useState<IYoutubeItem | null>(null)
-  const VIDEO_SNIPPET: ISnippet | undefined = currentVideo?.snippet
+const DetailPage = async ({ params }: { params: { id: string } }) => {
+  // 클릭한 영상의 상세 정보를 가져오는 함수
+  const getCurrentVideoInfo = async (currentVideoId: string) => {
+    const { itemList: totalVideoList = [] } = await youtubeRequest({
+      apiType: 'popular',
+    })
 
-  const popularVideoDataList: IYoutubeResponse | null = useYoutubeDataRequest(
-    'popular',
-    '&q=크리스마스|크리스마스영화',
-    32,
-    undefined,
-  )
-
-  const fetchData = (dataRequest: IYoutubeResponse, id: string) => {
-    const currentVideoInfo = dataRequest.items.find(
-      (channel: IYoutubeItem) => channel.id.videoId === id,
+    return totalVideoList.find(
+      (item: IYoutubeItem) => item.id.videoId === currentVideoId,
     )
-    if (currentVideoInfo) {
-      setCurrentVideo(currentVideoInfo)
-    }
   }
 
-  useEffect(() => {
-    if (popularVideoDataList) {
-      fetchData(popularVideoDataList, currentVideoId)
-    }
-  }, [popularVideoDataList])
+  // 클릭한 영상에 해당하는 채널ID의 영상 목록을 가져오는 함수
+  const getChannelVideoList = async (videoInfo: IYoutubeItem) => {
+    const { itemList: channelVideoList = [], pageToken = '' } =
+      await youtubeRequest({
+        apiType: 'detail',
+        optionalQuery: {
+          channelId: videoInfo.snippet.channelId,
+          maxResults: '6',
+        },
+      })
+
+    return { channelVideoList, pageToken }
+  }
+
+  const currentVideoId = params.id
+  const currentVideoInfo = await getCurrentVideoInfo(currentVideoId)
+  const { channelVideoList, pageToken } = await getChannelVideoList(
+    currentVideoInfo!,
+  )
 
   return (
     <div className={`inner-box ${styles.detail} ${styles.detailContainer}`}>
-      {currentVideo && (
-        <>
-          <DetailHeader title={VIDEO_SNIPPET?.channelTitle} back="detail" />
-          <div className={styles.titleArea}>
-            <h1 className={styles.videoInfoTitle}>{VIDEO_SNIPPET?.title}</h1>{' '}
-            <CreateMeetUpButton
-              thumbnailUrl={VIDEO_SNIPPET?.thumbnails.medium.url}
-              currentVideoId={currentVideoId}
+      <DetailHeader
+        title={currentVideoInfo?.snippet.channelTitle}
+        back="detail"
+      />
+      <div className={styles.titleArea}>
+        <h1 className={styles.videoInfoTitle}>
+          {currentVideoInfo?.snippet.title}
+        </h1>{' '}
+        <CreateMeetUpButton
+          thumbnailUrl={currentVideoInfo?.snippet.thumbnails.medium.url}
+          currentVideoId={currentVideoId}
+        />
+      </div>
+      <div className={styles.visualContainer}>
+        <div>
+          <figure className={styles.visual}>
+            <iframe
+              src={`https://www.youtube.com/embed/${currentVideoId}`}
+              width="100%"
+              height="100%"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
             />
-          </div>
-          <div className={styles.visualContainer}>
-            <div>
-              <figure className={styles.visual}>
-                <iframe
-                  src={`https://www.youtube.com/embed/${currentVideoId}`}
-                  width="100%"
-                  height="100%"
-                  allow="autoplay; encrypted-media"
-                  allowFullScreen
-                />
-              </figure>
-              <CommentList getVideoId={currentVideoId} />
-            </div>
-            <RelatedVedio
-              currentVideoId={currentVideoId}
-              channelId={VIDEO_SNIPPET?.channelId}
-            />
-          </div>
-        </>
-      )}
+          </figure>
+          <CommentList getVideoId={currentVideoId} />
+        </div>
+        <RelatedVedio
+          initialData={channelVideoList}
+          channelId={currentVideoInfo!.snippet.channelId}
+          pageToken={pageToken}
+        />
+      </div>
     </div>
   )
 }
 
-export default Detail
+export default DetailPage
