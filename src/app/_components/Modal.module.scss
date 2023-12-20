@@ -122,6 +122,19 @@
     opacity: 0;
   }
 
+  @media (max-width: 768px) {
+    .modalContent {
+      width: 95%;
+      ul {
+        height: 54vh;
+        overflow: auto;
+      }
+      .labelContent {
+        flex-direction: column;
+      }
+    }
+  }
+
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -133,3 +146,4 @@
 
 
 }
+
