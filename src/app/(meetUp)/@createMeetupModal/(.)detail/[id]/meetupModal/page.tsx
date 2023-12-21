@@ -1,23 +1,17 @@
+'use server'
+
 import React from 'react'
 import MeetupModal from '@/app/(meetUp)/_components/_meetupModal/_meetupModal/MeetupModal'
+import { IVideoInfoToCookie, getVideoInfoToCookie } from '@/utils/cookieServer'
 
-interface IParams {
-  id: string
-}
+const page = (): React.ReactNode => {
+  const currentVideoInfo: IVideoInfoToCookie | null = getVideoInfoToCookie()
 
-interface ISearchParams {
-  thumbnailUrl: string
-}
-
-interface IProps {
-  params: IParams
-  searchParams: ISearchParams
-}
-
-const page = (props: IProps): React.ReactNode => {
-  const currentVideoId: string = props.params.id
-
-  return <MeetupModal currentVideoId={currentVideoId} />
+  return (
+    <MeetupModal
+      currentVideoInfo={currentVideoInfo ? currentVideoInfo : null}
+    />
+  )
 }
 
 export default page

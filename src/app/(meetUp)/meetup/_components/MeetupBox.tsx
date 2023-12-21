@@ -1,17 +1,26 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import { IMeetupBoardData } from '@/type/Component'
+import { ILike, IMeetupBoardData } from '@/type/Component'
 import { dateFomatter, dateDifference } from '@/utils/calculateTimeUntilDay'
 import Link from 'next/link'
 import {
   updateMember,
   getPrevMember,
-} from '@/utils/apiRequest/meetupApiRequest'
+} from '@/utils/apiRequest/meetupApiRequestClient'
+import likeOn from '@public/assets/likeOn.svg'
 import likeOff from '@public/assets/likeOff.svg'
 import styles from '../meetup.module.scss'
 import btn from '@/app/globalButton.module.scss'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
+import {
+  checkLike,
+  createLike,
+  getLike,
+  removeLike,
+  countLike,
+} from '@/utils/apiRequest/likeApiRequest'
+import Image from 'next/image'
 
 const APPLY = '참가신청'
 
@@ -23,10 +32,26 @@ const MeetupBox = ({
   fetchMeetupList: () => void
 }): React.JSX.Element => {
   const [userName, setUserName] = useState<string>('')
+  const [userId, setUserId] = useState<string>('')
+  const [isLiked, setIsLiked] = useState<boolean>(false)
+  const [likeCount, setLikeCount] = useState<number | undefined>(0)
 
-  const fetchUser = async (): Promise<void> => {
-    const { data } = await supabase.auth.getSession()
-    setUserName(data.session?.user.user_metadata.user_name)
+  const fetchData = async (): Promise<void> => {
+    const {
+      data: { session },
+    } = await supabase.auth.getSession()
+    setUserName(session?.user.user_metadata.user_name)
+    const userId = session?.user?.id
+    if (userId && meetup.id) {
+      const isLike = await getLike(userId, meetup.id, 'meetup_like')
+      const likeLength: number | undefined = await countLike(
+        meetup.id,
+        'meetup_like',
+      )
+      setIsLiked(isLike)
+      setLikeCount(likeLength)
+    }
+    setUserId(session?.user?.id!)
   }
 
   const handleMember = async (
@@ -53,8 +78,31 @@ const MeetupBox = ({
     fetchMeetupList()
   }
 
+  const handleLike = async () => {
+    const checkIsLiked: ILike[] = await checkLike(
+      userId,
+      meetup?.id!,
+      'meetup_like',
+    )
+
+    if (checkIsLiked.length <= 0) {
+      await createLike(userId, meetup?.id!, 'meetup_like')
+      setLikeCount(likeCount =>
+        likeCount !== undefined ? likeCount + 1 : undefined,
+      )
+    }
+
+    if (checkIsLiked.length > 0) {
+      await removeLike(userId!, meetup?.id!, 'meetup_like')
+      setLikeCount(likeCount =>
+        likeCount !== undefined ? likeCount - 1 : undefined,
+      )
+    }
+    setIsLiked(!isLiked)
+  }
+
   useEffect(() => {
-    fetchUser()
+    fetchData()
   }, [])
 
   return (
@@ -107,11 +155,13 @@ const MeetupBox = ({
         </div>
         <div className={styles.buttonArea}>
           <div>
-            <button>
-              <img src="/assets/likeOff.svg" alt="좋아요" />
-              <span>
-                {meetup.meetup_like_num ? meetup.meetup_like_num : 0}명
-              </span>
+            <button onClick={() => handleLike()}>
+              <Image
+                className={isLiked ? styles.likeOn : styles.likeOff}
+                src={isLiked ? likeOn : likeOff}
+                alt="좋아요"
+              />
+              <span>{likeCount}명</span>
             </button>
             {/*<button>
         <img src="/assets/like.svg" alt="댓글" />

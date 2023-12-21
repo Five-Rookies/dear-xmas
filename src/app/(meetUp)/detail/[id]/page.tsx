@@ -24,19 +24,16 @@ const DetailPage = async ({ params }: { params: { id: string } }) => {
 
   const currentVideoId = params.id
   const currentVideoInfo: IVideoInfoToCookie | null = getVideoInfoToCookie()
-  const { channelVideoList, pageToken } = await getChannelVideoList(
-    currentVideoInfo!.channelId,
-  )
 
+  const { channelVideoList, pageToken } = await getChannelVideoList(
+    currentVideoInfo!.channelId!,
+  )
   return (
     <div className={`inner-box ${styles.detail} ${styles.detailContainer}`}>
       <DetailHeader title={currentVideoInfo?.channelTitle} back="detail" />
       <div className={styles.titleArea}>
         <h1 className={styles.videoInfoTitle}>{currentVideoInfo?.title}</h1>
-        <CreateMeetUpButton
-          thumbnailUrl={currentVideoInfo?.thumbnailsUrl}
-          currentVideoId={currentVideoId}
-        />
+        <CreateMeetUpButton currentVideoId={currentVideoId} />
       </div>
       <div className={styles.visualContainer}>
         <div>

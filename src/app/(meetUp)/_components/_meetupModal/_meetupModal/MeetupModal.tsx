@@ -3,12 +3,12 @@
 import React, { FormEvent, useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
-import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequest'
-import useStore from '@/status/store'
+import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequestClient'
 import { IMeetupBoardData } from '@/type/Component'
 import dynamic from 'next/dynamic'
 import styles from './meetupModal.module.scss'
 import { Value, ValuePiece } from '@/type/Component'
+import { IVideoInfoToCookie } from '@/utils/cookieServer'
 
 const DatePicker: React.ComponentType<any> = dynamic(
   () => import('../_datePicker/DatePicker'),
@@ -18,18 +18,22 @@ const DatePicker: React.ComponentType<any> = dynamic(
 )
 
 const MeetupModal = ({
-  currentVideoId,
+  currentVideoInfo,
 }: {
-  currentVideoId: string
+  currentVideoInfo: IVideoInfoToCookie | null
 }): React.JSX.Element => {
   const router = useRouter()
   const modalRef = useRef<null>(null)
-  const { videoThumbnailUrl, removeThumbnailUrl } = useStore()
+
+  const { videoId, channelTitle, title, channelId, thumbnailsUrl } =
+    currentVideoInfo as IVideoInfoToCookie
+
   const [meetupCategory, setMeetupCategory] = useState<string>('')
   const [meetupTitle, setMeetupTitle] = useState<string>('')
   const [meetupScheduling, setMeetupScheduling] = useState<Value>(new Date())
   const [meetupContent, setMeetupContent] = useState<string>('')
   const [userName, setUserName] = useState<string | undefined>('')
+  const nowDate = new Date()
 
   const getUserName = async (): Promise<void> => {
     const {
@@ -74,21 +78,28 @@ const MeetupModal = ({
   ): Promise<void> => {
     event.preventDefault()
 
+    if (meetupScheduling !== null && meetupScheduling < nowDate) {
+      alert('시간 설정 확인해 주세요!')
+      return
+    }
+
     const data: IMeetupBoardData = {
       category: meetupCategory,
       meetup_title: meetupTitle,
       meetup_content: meetupContent,
       scheduling: meetupScheduling,
       user_name: userName,
-      video_id: currentVideoId,
-      thumbnail: videoThumbnailUrl,
+      video_id: videoId,
+      thumbnail: thumbnailsUrl,
+      channel_id: channelId,
+      channel_title: channelTitle,
+      video_title: title,
       member_list: [],
     }
 
     try {
       await createMeetupBoard(data)
       alert('모임 생성 완료!')
-      removeThumbnailUrl()
       router.back()
     } catch (error) {
       console.error(error)
@@ -132,7 +143,7 @@ const MeetupModal = ({
               className={`${styles.input} ${styles.inputTitle}`}
               type="text"
               placeholder="모임명을 입력해 주세요"
-              onChange={e => setMeetupTitle(e.target.value)}
+              onChange={event => setMeetupTitle(event.target.value)}
             />
           </div>
 
@@ -149,7 +160,7 @@ const MeetupModal = ({
               required
               className={`${styles.input} ${styles.inputContent}`}
               placeholder="모임 내용을 입력해 주세요"
-              onChange={e => setMeetupContent(e.target.value)}
+              onChange={event => setMeetupContent(event.target.value)}
             />
           </div>
           <div className={styles.buttonContainer}>
@@ -157,7 +168,6 @@ const MeetupModal = ({
               type="button"
               className={styles.actionButton}
               onClick={() => {
-                removeThumbnailUrl()
                 router.back()
               }}
             >

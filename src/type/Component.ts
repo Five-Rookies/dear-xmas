@@ -17,9 +17,20 @@ export interface IMeetupBoardData {
   meetup_content?: string
   scheduling: Value
   user_name?: string | undefined
-  video_id?: string
-  thumbnail?: string
+  video_id: string
+  thumbnail: string
+  channel_id: string
+  channel_title: string
+  video_title: string
   created_at?: string
   meetup_like_num?: number
   member_list?: string[]
+}
+export interface ILike {
+  comment_id?: number
+  meetup_id?: number
+  created_at?: string
+  id: number
+  is_like: boolean
+  user_id: string
 }
