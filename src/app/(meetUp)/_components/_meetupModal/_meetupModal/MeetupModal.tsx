@@ -3,12 +3,12 @@
 import React, { FormEvent, useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
-import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequest'
-import useStore from '@/status/store'
+import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequestClient'
 import { IMeetupBoardData } from '@/type/Component'
 import dynamic from 'next/dynamic'
 import styles from './meetupModal.module.scss'
-import { Value, ValuePiece, IVideoDetailInfo } from '@/type/Component'
+import { Value, ValuePiece } from '@/type/Component'
+import { IVideoInfoToCookie } from '@/utils/cookieServer'
 
 const DatePicker: React.ComponentType<any> = dynamic(
   () => import('../_datePicker/DatePicker'),
@@ -17,13 +17,16 @@ const DatePicker: React.ComponentType<any> = dynamic(
   },
 )
 
-const MeetupModal = (): React.JSX.Element => {
+const MeetupModal = ({
+  currentVideoInfo,
+}: {
+  currentVideoInfo: IVideoInfoToCookie | null
+}): React.JSX.Element => {
   const router = useRouter()
   const modalRef = useRef<null>(null)
 
-  const { videoDetailInfo, removeVideoDetailInfo } = useStore()
-  const { channelId, title, channelTitle, currentVideoId, thumbnailUrl } =
-    videoDetailInfo as IVideoDetailInfo
+  const { videoId, channelTitle, title, channelId, thumbnailsUrl } =
+    currentVideoInfo as IVideoInfoToCookie
 
   const [meetupCategory, setMeetupCategory] = useState<string>('')
   const [meetupTitle, setMeetupTitle] = useState<string>('')
@@ -44,7 +47,6 @@ const MeetupModal = (): React.JSX.Element => {
   ): void => {
     if (modalRef.current === event.target) {
       router.back()
-      removeVideoDetailInfo()
     }
   }
 
@@ -87,8 +89,8 @@ const MeetupModal = (): React.JSX.Element => {
       meetup_content: meetupContent,
       scheduling: meetupScheduling,
       user_name: userName,
-      video_id: currentVideoId,
-      thumbnail: thumbnailUrl,
+      video_id: videoId,
+      thumbnail: thumbnailsUrl,
       channel_id: channelId,
       channel_title: channelTitle,
       video_title: title,
@@ -98,7 +100,6 @@ const MeetupModal = (): React.JSX.Element => {
     try {
       await createMeetupBoard(data)
       alert('모임 생성 완료!')
-      removeVideoDetailInfo()
       router.back()
     } catch (error) {
       console.error(error)
@@ -142,7 +143,7 @@ const MeetupModal = (): React.JSX.Element => {
               className={`${styles.input} ${styles.inputTitle}`}
               type="text"
               placeholder="모임명을 입력해 주세요"
-              onChange={e => setMeetupTitle(e.target.value)}
+              onChange={event => setMeetupTitle(event.target.value)}
             />
           </div>
 
@@ -159,7 +160,7 @@ const MeetupModal = (): React.JSX.Element => {
               required
               className={`${styles.input} ${styles.inputContent}`}
               placeholder="모임 내용을 입력해 주세요"
-              onChange={e => setMeetupContent(e.target.value)}
+              onChange={event => setMeetupContent(event.target.value)}
             />
           </div>
           <div className={styles.buttonContainer}>
@@ -167,7 +168,6 @@ const MeetupModal = (): React.JSX.Element => {
               type="button"
               className={styles.actionButton}
               onClick={() => {
-                removeVideoDetailInfo()
                 router.back()
               }}
             >

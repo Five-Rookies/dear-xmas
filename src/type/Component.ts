@@ -34,11 +34,3 @@ export interface ILike {
   is_like: boolean
   user_id: string
 }
-
-export interface IVideoDetailInfo {
-  channelId: string
-  title: string
-  channelTitle: string
-  thumbnailUrl: string
-  currentVideoId: string
-}

@@ -7,7 +7,7 @@ import Link from 'next/link'
 import {
   updateMember,
   getPrevMember,
-} from '@/utils/apiRequest/meetupApiRequest'
+} from '@/utils/apiRequest/meetupApiRequestClient'
 import likeOn from '@public/assets/likeOn.svg'
 import likeOff from '@public/assets/likeOff.svg'
 import styles from '../meetup.module.scss'
