@@ -23,7 +23,7 @@ export const getProfile = async (
 
 interface IUpdateProfile {
   id: string
-  profileImg: 0 | 1 | 2 | 3
+  profileImg: number
   userName: string
 }
 

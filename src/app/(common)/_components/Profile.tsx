@@ -13,11 +13,10 @@ import styles from './header.module.scss'
 const Profile = () => {
   const [userData, setUserData] = useState<IProfile>()
   const [editMode, setEditMode] = useState(false)
+  const [currentImg, setCurrentImg] = useState<number>(0)
   const inputRef = useRef<HTMLInputElement>(null)
-  const profiles = ['santa', 'snowman', 'candle', 'cookie']
-
-  console.log(userData)
-  console.log(editMode)
+  const profileImages = ['santa', 'snowman', 'candle', 'cookie']
+  console.log(`프로필 이미지: ${currentImg}`)
 
   const fetchData = async () => {
     const supabase = createClientComponentClient<ISupabase[]>()
@@ -29,6 +28,7 @@ const Profile = () => {
     if (!profile.length) alert('오류가 발생했습니다!')
 
     setUserData(profile[0])
+    setCurrentImg(profile[0].profile_img)
   }
 
   useEffect(() => {
@@ -37,9 +37,14 @@ const Profile = () => {
 
   const handleUserName = async () => {
     if (editMode && inputRef.current && userData) {
+      const REGEX = /^[a-zA-Z가-힣0-9]{1,8}$/
+      if (!REGEX.test(inputRef.current.value)) {
+        alert('닉네임을 특수문자 제외 8글자 이하로 입력해주세요')
+        return
+      }
       const data = {
         id: userData.id,
-        profileImg: userData.profile_img,
+        profileImg: currentImg,
         userName: inputRef.current.value,
       }
       const res = await updateProfile(data)
@@ -52,20 +57,26 @@ const Profile = () => {
     userData && (
       <div className={styles.profile}>
         <div className={styles.profileImgBox}>
-          <span>
+          <button
+            type="button"
+            onClick={() => setCurrentImg(prev => (prev === 0 ? 3 : prev - 1))}
+          >
             <img src="/assets/profile-btn.svg" alt="" />
-          </span>
+          </button>
           <img
             className={styles.myProfileImg}
-            src={`/assets/profile-${profiles[userData.profile_img]}.svg`}
+            src={`/assets/profile-${profileImages[currentImg]}.svg`}
             alt=""
           />
-          <span>
+          <button
+            type="button"
+            onClick={() => setCurrentImg(prev => (prev === 3 ? 0 : prev + 1))}
+          >
             <img src="/assets/profile-btn.svg" alt="" />
-          </span>
+          </button>
         </div>
         <div className={styles.userInfo}>
-          {editMode ? (
+          {userData && editMode ? (
             <p>
               <input ref={inputRef} placeholder={userData.user_name} />
             </p>
@@ -73,7 +84,7 @@ const Profile = () => {
             <p>{userData.user_name}</p>
           )}
           <p>{userData.email}</p>
-          <p onClick={handleUserName}>닉네임 수정</p>
+          <p onClick={handleUserName}>프로필 수정</p>
         </div>
       </div>
     )

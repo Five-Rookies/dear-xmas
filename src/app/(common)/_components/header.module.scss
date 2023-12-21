@@ -346,12 +346,9 @@ $main-color: #ff1e1e;
     display: flex;
     justify-content: center;
     align-items: center;
-    span {
-      cursor: pointer;
+    gap: 0.5rem;
+    button {
       width: 2rem;
-      img {
-        width: 100%;
-      }
       &:last-child {
         transform: scaleX(-1);
       }
@@ -366,9 +363,10 @@ $main-color: #ff1e1e;
       font-size: 1.2rem;
       font-weight: bold;
       padding: 2rem 0 0.1rem;
-      // padding: 1rem 0 0.2rem;
+      margin-bottom: 0.5rem;
       input {
         height: 1.6rem;
+        margin-bottom: 0.5rem;
       }
     }
     p:last-child {
