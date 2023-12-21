@@ -37,6 +37,11 @@ const FindPasswordPage = () => {
       alert('비밀번호 힌트가 일치하지 않습니다!')
       return null
     }
+
+    await supabase.auth.resetPasswordForEmail(email!, {
+      redirectTo: 'http://localhost:3000/signIn/resetPassword',
+    })
+    alert('비밀번호 재설정 이메일이 발송되었습니다.')
   }
 
   return (

@@ -3,7 +3,7 @@
 import React, { useRef } from 'react'
 import styles from '@/app/(sign)/_components/sign.module.scss'
 import { useRouter } from 'next/navigation'
-import { handleResetPassword } from '@/utils/apiRequest/signUserSupabase'
+import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 
 const ResetPasswordPage = () => {
   const router = useRouter()
@@ -13,33 +13,40 @@ const ResetPasswordPage = () => {
     event.preventDefault()
 
     try {
-      await handleResetPassword(event)
+      await supabase.auth.updateUser({ password: passwordRef.current?.value })
       alert('비밀번호 재설정이 완료되었습니다.')
       router.refresh()
-      router.replace('/signIn')
     } catch (error) {
-      console.error(error)
+      alert('비밀번호 재설정 시도 중 오류가 발생하였습니다.')
+      throw error
     }
-  }
-
-  const test = () => {
-    alert('성공!')
   }
 
   return (
     <main className={styles.container}>
       <h1>비밀번호 재설정</h1>
 
-      <form onSubmit={test}>
+      <form onSubmit={handleSubmit}>
         <div className={styles.inputField}>
           <h3>새 비밀번호</h3>
           <input
             ref={passwordRef}
-            name="new_password"
-            type="password"
-            placeholder="비밀번호를 입력해주세요"
+            placeholder="영어,숫자,특수문자 포함 8~15 글자를 입력해주세요"
+            minLength={8}
+            maxLength={15}
+            pattern="(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#\$%\^*+=\-]).*"
             required
+            onInvalid={e => {
+              const inputElement = e.currentTarget as HTMLInputElement
+              if (inputElement.validity.patternMismatch)
+                inputElement.setCustomValidity(
+                  '영어,숫자,특수문자 포함 8~15 글자로 입력해주세요',
+                )
+            }}
+            onInput={e => e.currentTarget.setCustomValidity('')}
+            type="password"
           />
+          <p>특수문자는 다음 문자들만 입력 가능합니다 : !@#$%^*+=- </p>
         </div>
 
         <div className={styles.inputField}>
