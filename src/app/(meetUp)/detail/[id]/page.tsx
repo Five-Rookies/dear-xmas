@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import RelatedVedio from '@/app/(meetUp)/detail/[id]/_components/RelatedVedio'
 import CommentList from '@/app/(meetUp)/detail/[id]/_components/CommentList'
 import youtubeRequest from '@/utils/youtubRequest/youtubeRequest'
@@ -24,6 +24,8 @@ const DetailPage = async ({ params }: { params: { id: string } }) => {
 
   const currentVideoId = params.id
   const currentVideoInfo: IVideoInfoToCookie | null = getVideoInfoToCookie()
+  const { channelTitle, title, channelId, thumbnailsUrl } =
+    currentVideoInfo as IVideoInfoToCookie
   const { channelVideoList, pageToken } = await getChannelVideoList(
     currentVideoInfo!.channelId!,
   )
@@ -34,7 +36,10 @@ const DetailPage = async ({ params }: { params: { id: string } }) => {
       <div className={styles.titleArea}>
         <h1 className={styles.videoInfoTitle}>{currentVideoInfo?.title}</h1>
         <CreateMeetUpButton
-          thumbnailUrl={currentVideoInfo?.thumbnailsUrl}
+          channelId={channelId}
+          title={title}
+          channelTitle={channelTitle}
+          thumbnailUrl={thumbnailsUrl}
           currentVideoId={currentVideoId}
         />
       </div>

@@ -2,21 +2,31 @@
 import Link from 'next/link'
 import styles from '../detail.module.scss'
 import useStore from '@/status/store'
+import { IVideoDetailInfo } from '@/type/Component'
 
 const CreateMeetUpButton = ({
+  channelId,
+  title,
+  channelTitle,
   currentVideoId,
   thumbnailUrl,
-}: {
-  thumbnailUrl: string | undefined
-  currentVideoId: string
-}): JSX.Element => {
-  const { setThumbnailUrl } = useStore()
+}: IVideoDetailInfo): JSX.Element => {
+  const { setVideoDetailInfo } = useStore()
+
+  const videoDetailInfo: IVideoDetailInfo = {
+    channelId: channelId,
+    title: title,
+    channelTitle: channelTitle,
+    currentVideoId: currentVideoId,
+    thumbnailUrl: thumbnailUrl,
+  }
+
   return (
     <div className={styles.buttonArea}>
       <Link
         href={`/detail/${currentVideoId}/meetupModal`}
         onClick={() => {
-          setThumbnailUrl(thumbnailUrl)
+          setVideoDetailInfo(videoDetailInfo)
         }}
       >
         <button className={styles.createMeetup}>모임 생성</button>
