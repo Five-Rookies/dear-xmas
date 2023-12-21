@@ -66,20 +66,3 @@ export const handleSignUp = async (event: React.FormEvent<HTMLFormElement>) => {
     throw error
   }
 }
-
-export const updateUser = async ({
-  userName,
-  userId,
-}: {
-  userName: string | undefined
-  userId: any
-}) => {
-  try {
-    const { data: user, error } = await supabase.auth.admin.updateUserById(
-      userId,
-      { user_metadata: { user_name: userName } },
-    )
-  } catch (error) {
-    console.error(error)
-  }
-}
