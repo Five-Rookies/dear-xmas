@@ -30,7 +30,7 @@ const FindPasswordPage = () => {
 
     try {
       await supabase.auth.resetPasswordForEmail(email, {
-        redirectTo: 'http://localhost:3000/signIn/resetPassword',
+        redirectTo: 'http://localhost:3000/resetpassword',
       })
       alert('비밀번호 재설정 이메일이 발송되었습니다.')
     } catch (error) {

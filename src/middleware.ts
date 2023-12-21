@@ -32,6 +32,14 @@ export async function middleware(req: NextRequest) {
     return NextResponse.redirect(new URL('/', req.url))
   }
 
+  // 비밀번호 재설정 페이지 접근 제한 : redirect로 경로에 code가 표시될 경우에만 접근 가능
+  const requestUrl = new URL(req.url)
+  const code = requestUrl.searchParams.get('code')
+  const isResetpasswordPage = req.nextUrl.pathname.startsWith('/resetpassword')
+  if (!code && isResetpasswordPage) {
+    return NextResponse.redirect(new URL('/', req.url))
+  }
+
   return res
 }
 
@@ -44,5 +52,6 @@ export const config = {
     '/meetup/:path*',
     '/live/:path*',
     '/detail/:path*',
+    '/resetpassword',
   ],
 }
