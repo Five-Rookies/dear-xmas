@@ -2,10 +2,11 @@
   display: flex;
   align-items: center;
   height: 13.125rem;
-  background: no-repeat top 10% right 5% / 20% url('/assets/candles.png');
-  padding: 0;
+  background: no-repeat top 20% right 6.5% / 18% url('/assets/candles.png');
+  padding: 9rem 4rem 7rem 4rem;
+
   h1 {
-    font-size: 35px;
+    font-size: 3rem;
     font-weight: bold;
   }
   p {
@@ -20,6 +21,11 @@
   // 뷰포트 - 레이아웃 높이(13.125rem) - 버튼&푸터 높이(((2.125rem + 4.375rem) * 2) - 1.2rem)
   min-height: calc(100vh - 13.125rem - ((2.125rem + 4.375rem) * 2) - 1.2rem);
   background-color: var(--color-grey-bg);
+}
+
+.meetupColumn {
+  margin: 0 auto;
+  padding: 2rem 3rem 5rem 3rem;
 }
 
 .buttonContainer {
@@ -250,15 +256,102 @@
   }
 }
 
-@media (max-width: 768px) {
-  .videoCard {
-    width: calc(80% - 20px);
+@media (max-width: 1190px) {
+  .pageHeader {
+    padding: 7rem 2rem;
+    background: no-repeat top 70% right 6.5% / 20% url('/assets/candles.png');
+  }
+  .meetupColumn {
+    padding: 1rem 1rem 3rem 1rem;
   }
 }
 
-@media (max-width: 480px) {
-  .videoCard {
-    width: 100%;
+@media (max-width: 900px) {
+  .pageHeader {
+    h1 {
+      font-size: 2.8rem;
+    }
+    p {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .pageHeader {
+    padding: 5rem 1rem;
+  }
+  .meetupColumn {
+    padding: 2rem 0.3rem;
+  }
+}
+
+@media (max-width: 738px) {
+  .pageHeader {
+    padding: 3rem 1rem;
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+@media (max-width: 635px) {
+  .pageHeader {
+    padding: 2rem 1rem;
+    p {
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  }
+}
+
+@media (max-width: 557px) {
+  .pageHeader {
+    padding: 0rem 1rem;
+    background: no-repeat top 25% right 6.5% / 20% url('/assets/candles.png');
+    p {
+      font-size: 0.8rem;
+    }
+  }
+  .meetupColumn {
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 438px) {
+  .pageHeader {
+    height: 10.125rem;
+    background: no-repeat top 10% right 6.5% / 20% url('/assets/candles.png');
+    h1 {
+      font-size: 2.4rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@media (max-width: 415px) {
+  .pageHeader {
+    background: no-repeat top 15% right 6.5% / 20% url('/assets/candles.png');
+    h1 {
+      font-size: 2.3rem;
+    }
+    p {
+      font-size: 0.7rem;
+    }
+  }
+}
+
+@media (max-width: 398px) {
+  .pageHeader {
+    background: no-repeat top 18% right 6.5% / 20% url('/assets/candles.png');
+    h1 {
+      font-size: 2rem;
+    }
   }
 }
 
