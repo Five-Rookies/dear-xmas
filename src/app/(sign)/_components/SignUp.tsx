@@ -1,13 +1,13 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useRef } from 'react'
 import styles from '@/app/(sign)/_components/sign.module.scss'
 import { useRouter } from 'next/navigation'
 import { handleSignUp } from '@/utils/apiRequest/signUserSupabase'
 
 const SignUp = () => {
   const router = useRouter()
-  const [password, setPassword] = useState<string>('')
+  const passwordRef = useRef<HTMLInputElement>(null)
   const errorMessages: { [key: string]: string } = {
     userName: '특수문자 제외 8글자 이하만 입력 가능합니다',
     password: '영어,숫자,특수문자 포함 8~15 글자로 입력해주세요',
@@ -62,6 +62,7 @@ const SignUp = () => {
         <div className={styles.inputField}>
           <h3>비밀번호</h3>
           <input
+            ref={passwordRef}
             name="password"
             type="password"
             placeholder="영어,숫자,특수문자 포함 8~15 글자를 입력해주세요"
@@ -69,7 +70,6 @@ const SignUp = () => {
             maxLength={15}
             pattern="(?=.*\d)(?=.*[a-zA-Z])(?=.*[!@#\$%\^*+=\-]).*"
             required
-            onChange={e => setPassword(e.target.value)}
             onInvalid={e => {
               const inputElement = e.currentTarget as HTMLInputElement
               if (inputElement.validity.patternMismatch)
@@ -88,7 +88,7 @@ const SignUp = () => {
             required
             onChange={e =>
               e.currentTarget.setCustomValidity(
-                password !== e.currentTarget.value
+                passwordRef.current?.value !== e.currentTarget.value
                   ? errorMessages.passwordHint
                   : '',
               )
