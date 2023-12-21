@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import { getMeetupList } from '@/utils/apiRequest/meetupApiRequest'
+import { getMeetupList } from '@/utils/apiRequest/meetupApiRequestClient'
 import { IMeetupBoardData } from '@/type/Component'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import MeetupBox from './MeetupBox'
@@ -9,7 +9,7 @@ import MeetupBox from './MeetupBox'
 
 const MeetupList = (): React.JSX.Element => {
   const [isDotMenuVisible, setIsDotMenuVisible] = useState<boolean>(false)
-  const [createdMeetup, setCreatedMeetup] = useState<never[]>([])
+  const [createdMeetup, setCreatedMeetup] = useState<IMeetupBoardData[]>([])
   const [userName, setUserName] = useState<string>('')
   const [isEditing, setIsEditing] = useState<boolean>(false)
   const handleDotMenu = () => {
@@ -34,8 +34,8 @@ const MeetupList = (): React.JSX.Element => {
   }
 
   const fetchMeetupList = async () => {
-    const res = await getMeetupList()
-    setCreatedMeetup(res)
+    const meetupList = await getMeetupList()
+    setCreatedMeetup(meetupList)
   }
 
   const fetchUser = async (): Promise<void> => {

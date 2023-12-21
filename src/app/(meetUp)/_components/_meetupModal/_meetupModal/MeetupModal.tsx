@@ -3,7 +3,7 @@
 import React, { FormEvent, useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
-import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequest'
+import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequestClient'
 import { IMeetupBoardData } from '@/type/Component'
 import dynamic from 'next/dynamic'
 import styles from './meetupModal.module.scss'

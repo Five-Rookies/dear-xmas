@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 import { IMeetupBoardData } from '@/type/Component'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import MeetupBox from './MeetupBox'
-import { getMeetupList } from '@/utils/apiRequest/meetupApiRequest'
+import { getMeetupList } from '@/utils/apiRequest/meetupApiRequestClient'
 
 const MyMeetupList = (): React.JSX.Element => {
   const [userName, setUserName] = useState<string>('')

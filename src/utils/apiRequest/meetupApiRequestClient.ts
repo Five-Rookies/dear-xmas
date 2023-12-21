@@ -14,12 +14,14 @@ export const getMeetupList = async () => {
     '데이터 조회를 실패했습니다',
   )
 }
+
 export const getPrevMember = async (id: number) => {
   return executeQuery(
     supabase.from('meetup_board').select('member_list').eq('id', id).single(),
     '기존멤버 조회를 실패했습니다',
   )
 }
+
 export const updateMember = async (id: number, member_list: string[]) => {
   return executeQuery(
     supabase.from('meetup_board').update({ member_list }).eq('id', id),
