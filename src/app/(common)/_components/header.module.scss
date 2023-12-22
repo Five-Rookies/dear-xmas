@@ -139,19 +139,21 @@ $main-color: #ff1e1e;
     ul {
       display: flex;
       flex-wrap: wrap;
-      gap: 1.5376rem;
+      gap: 2%;
       padding: 2.5rem 0;
       li {
         display: block;
-        flex-basis: 15.7594rem;
+        flex-basis: 20.3333%;
         height: 12.875rem;
         border-radius: 1.5376rem;
         overflow: hidden;
         position: relative;
-
+        &:nth-child(n+5):nth-child(-n+8) {
+          margin-top: 1.6rem;
+        }
         &:nth-child(3),
         &:nth-child(5) {
-          flex-basis: 27.675rem;
+          flex-basis: 33%;
         }
         & figure {
           margin: 8% auto 0;
@@ -226,7 +228,9 @@ $main-color: #ff1e1e;
     .innerBox {
       padding: 0 1rem;
       h1 {
-        margin-right: 3.5rem;
+        margin-right: 2rem;
+        flex-shrink: 0;
+        width: 4rem;
       }
       .navi,
       .account {
@@ -239,6 +243,20 @@ $main-color: #ff1e1e;
         transition: all 0.3s ease-in-out;
         &:hover {
           color: $main-color;
+        }
+      }
+    }
+    .dropDownMenu {
+      ul {
+        li {
+          height: 10.875rem;
+          &:nth-child(n+5):nth-child(-n+8) {
+            margin-top: 1.3rem;
+          }
+          p {
+            font-size: 1.2rem;
+            white-space: nowrap;
+          }
         }
       }
     }
@@ -259,50 +277,36 @@ $main-color: #ff1e1e;
           height: 100%;
           padding: 0;
           gap: 1.61vh;
-
           li {
             flex-basis: calc((100% - 1.61vh) / 2);
             height: calc(((100% - (1.61vh * 4)) / 5));
             border-radius: 1.25rem;
+            &:nth-child(n+5):nth-child(-n+8) {
+              margin-top: 0;
+            }
             &:nth-child(1) {
               order: 1;
-              figure {
-              }
             }
             &:nth-child(2) {
               order: 2;
-              figure {
-              }
             }
             &:nth-child(3) {
               order: 3;
-              figure {
-              }
             }
             &:nth-child(4) {
               order: 5;
-              figure {
-              }
             }
             &:nth-child(5) {
               order: 4;
-              figure {
-              }
             }
             &:nth-child(6) {
               order: 6;
-              figure {
-              }
             }
             &:nth-child(7) {
               order: 7;
-              figure {
-              }
             }
             &:nth-child(8) {
               order: 8;
-              figure {
-              }
             }
             &:nth-child(3),
             &:nth-child(5) {

@@ -1,4 +1,4 @@
-export default interface ISupabase {
+export interface ISupabase {
   id: number
   created_at: string
   video_id: string
@@ -10,7 +10,7 @@ export default interface ISupabase {
   user_name?: string
 }
 
-export default interface ISurvey {
+export interface ISurvey {
   first_baby: number
   first_child: number
   first_teenager: number

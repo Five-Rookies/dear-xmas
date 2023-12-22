@@ -30,6 +30,17 @@
       margin-bottom: .625rem;
     }
 
+    // .submitForm {
+    //   display: flex;
+    // }
+   
+    .row + .row {
+      margin-top: 2rem;
+    }
+    .checkboxContent {
+      display: flex;
+    }
+
     .labelContent {
       display: flex;
       gap: .625rem;
@@ -41,10 +52,14 @@
       margin-bottom: .3rem;
     }
     .checkbox input[type="checkbox"] {
-      display: none;
+      //display: none;
+      
     }
 
     .checkbox .label {
+      color: #333;
+      font-size: 1rem;
+      margin-left: 0.625rem;
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -125,12 +140,15 @@
   @media (max-width: 768px) {
     .modalContent {
       width: 95%;
-      ul {
+      form {
         height: 54vh;
         overflow: auto;
       }
-      .labelContent {
+      .checkboxContent {
         flex-direction: column;
+      }
+      .label {
+        margin-left: 0;
       }
     }
   }

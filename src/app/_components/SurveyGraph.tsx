@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import styles from '@/app/page.module.scss'
-import { getSurveyResult } from '@/utils/apiRequest/surveyApiRequest'
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -50,7 +49,7 @@ export const options = {
   },
 }
 
-const SurveyGraph = ({surveyData, questionList, dataObj}) => {
+const SurveyGraph = ({surveyData, questionList, labels}) => {
   const [isToggleListShow, setToggleListShow] = useState(false)
   const [toggleIndex, setToggleIndex] = useState<number>(0)
 
@@ -65,22 +64,32 @@ const SurveyGraph = ({surveyData, questionList, dataObj}) => {
 
   const bgColor: string[] = ['#DA3017', '#17914F', '#FFCC36']
 
+  // surveyData를 5개씩 끊어서 배열로 나누는 함수
+  const chunkSurveyData = (arr, size) => {
+    const chunkedArr = [];
+    for (let i = 0; i < arr.length; i += size) {
+      chunkedArr.push(arr.slice(i, i + size));
+    }
+    return chunkedArr;
+  };
+
+  // surveyData를 5개씩 끊어서 매핑하는 부분 수정
+  const chunkedSurveyData = chunkSurveyData(Object.entries(surveyData), 5);
+  
+
   return (
     <div className={styles.toggleWrap}>
       <button className={styles.closeAll} onClick={handleAllToggle}>
         {isToggleListShow ? '전체 접기 ▲' : '전체 펼치기 ▼'}
       </button>
       <ul className={styles.toggleList}>
-        {surveyData.length > 0 &&
-          Object.entries(surveyData[0])
-            .slice(2, 5)
-            .map(([key, value], index) => {
+        {Object.entries(chunkedSurveyData).map(([key, value], index) => {
               const data = {
-                labels: Object.keys(value),
+                labels: labels[index],
                 datasets: [
                   {
                     label: key,
-                    data: Object.values(value),
+                    data: Object.values(surveyData),
                     backgroundColor: bgColor[index],
                   },
                 ],

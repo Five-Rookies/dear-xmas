@@ -792,11 +792,6 @@ html[data-theme='dark'] {
   .bg {
     position: relative;
     width: 100%;
-    .snowBg {
-      width: inherit;
-      border-radius: 0;
-      height: 10rem;
-    }
     .snowman {
       display: none;
     }
@@ -840,19 +835,7 @@ html[data-theme='dark'] {
       }
     }
     .counter {
-      // position: absolute;
-      // top: 5rem;
-      // left: 50%;
-      // transform: translateX(-50%);
-
-      h2 {
-        font-size: 5.2rem;
-        white-space: nowrap;
-      }
-      h4 {
-        font-size: 3.2rem;
-        white-space: nowrap;
-      }
+      right: 9%;
     }
   }
 
@@ -860,10 +843,7 @@ html[data-theme='dark'] {
     ul {
       grid-template-columns: 1fr 1fr;
       padding: 0 1.25rem;
-
-      li + li {
-        margin-top: 1.25rem;
-      }
+      gap: 1.25rem;
     }
   }
 }
@@ -934,7 +914,7 @@ html[data-theme='dark'] {
     }
     .santa {
       bottom: auto;
-      top: 11.5%;
+      top: 18.5%;
       transform: scaleX(-1) translateX(50%);
       left: 50%;
       width: 70%;
@@ -969,6 +949,9 @@ html[data-theme='dark'] {
   .meetupList {
     ul {
       display: block;
+      li + li {
+        margin-top: 1.25rem;
+      }
     }
 
     .decoImage {
@@ -1057,6 +1040,11 @@ html[data-theme='dark'] {
     h2 + div {
       display: block;
       position: relative;
+    }
+    .toggleInner {
+      canvas {
+        height: 15rem !important;
+      }
     }
     .surveyBtn {
       width: 10rem;
