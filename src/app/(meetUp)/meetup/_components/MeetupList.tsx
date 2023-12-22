@@ -5,6 +5,7 @@ import { getMeetupList } from '@/utils/apiRequest/meetupApiRequestClient'
 import { IMeetupBoardData } from '@/type/Component'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import MeetupBox from './MeetupBox'
+import TabLoading from '@/app/(meetUp)/meetup/_components/_tab/TabLoading'
 //import likeIcon from '@public/assets/like.svg'
 
 const MeetupList = (): React.JSX.Element => {
@@ -12,6 +13,7 @@ const MeetupList = (): React.JSX.Element => {
   const [createdMeetup, setCreatedMeetup] = useState<IMeetupBoardData[]>([])
   const [userName, setUserName] = useState<string>('')
   const [isEditing, setIsEditing] = useState<boolean>(false)
+  const [isLoading, setIsLoading] = useState<boolean>(false)
   const handleDotMenu = () => {
     setIsDotMenuVisible(!isDotMenuVisible)
 
@@ -34,8 +36,10 @@ const MeetupList = (): React.JSX.Element => {
   }
 
   const fetchMeetupList = async () => {
+    setIsLoading(true)
     const meetupList = await getMeetupList()
     setCreatedMeetup(meetupList)
+    setIsLoading(false)
   }
 
   const fetchUser = async (): Promise<void> => {
@@ -50,15 +54,17 @@ const MeetupList = (): React.JSX.Element => {
 
   return (
     <>
-      {createdMeetup.map((meetup: IMeetupBoardData) => {
-        return (
-          <MeetupBox
-            key={meetup.id}
-            meetup={meetup}
-            fetchMeetupList={fetchMeetupList}
-          />
-        )
-      })}
+      {isLoading && <TabLoading />}
+      {!isLoading &&
+        createdMeetup.map((meetup: IMeetupBoardData) => {
+          return (
+            <MeetupBox
+              key={meetup.id}
+              meetup={meetup}
+              fetchMeetupList={fetchMeetupList}
+            />
+          )
+        })}
     </>
   )
 }
