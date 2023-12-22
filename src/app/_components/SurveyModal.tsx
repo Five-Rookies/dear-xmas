@@ -1,154 +1,299 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
-import { updateSurveyData } from '@/utils/apiRequest/surveyApiRequest'
+import React, { useEffect, useState, useRef } from 'react'
+import { createClient } from '@supabase/supabase-js'
+import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
+import updateServeyData from '@/utils/apiRequest/surveyApiRequest'
 import ISurvey from '@/type/SupabaseResponse'
+import ISupabase from '@/type/SupabaseResponse'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark } from '@fortawesome/free-solid-svg-icons'
 import styles from './Modal.module.scss'
 
+const supabase = createClientComponentClient<ISupabase[]>()
+
 const SurveyModal = ({
-  surveyData,
+  surveyData: any,
   setSurveyData,
   questionList,
-  handleModalClose,
-}: any) => {
-  const [checkBoxValues, setCheckBoxValues] = useState([])
+  labels,
+  handleModalClose
+}) => {
+  const [userId, setUserId] = useState<string | undefined>('')
+  const [loading, setLoading] = useState(false)
+  const [selectedItems, setSelectedItems] = useState({
+    first_baby: false,
+    first_child: false,
+    first_teenager: false,
+    first_adult: false,
+    first_stilltrust: false,
+    second_pretend: false,
+    second_pokerface: false,
+    second_honest: false,
+    second_throwaway: false,
+    second_sell: false,
+    third_money: false,
+    third_electronics: false,
+    third_clothes: false,
+    third_travelticket: false,
+    third_none: false,
+  })
 
-  const handleCheckboxChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const { value, checked } = event.target
-    const parentLi = event.target.closest('li')
-    const key = parentLi?.dataset.key
+  const getUserId = async (): Promise<void> => {
+    const {
+      data: { user },
+    } = await supabase.auth.getUser()
+    setUserId(user?.id)
+  }
 
-    const updatedSurveyData = surveyData[0].slice(2, 5).map(data => {
-      if (data.id === value) {
-        return { ...data, isChecked: checked }
-      }
-      return data
+  const handleCheckboxChange = (event: any) => {
+    setSelectedItems({
+      ...selectedItems,
+      [event.target.name]: event.target.checked,
     })
-
-    setSurveyData(updatedSurveyData) // setSurveyData 함수 사용
   }
 
-  const handleSubmit = async () => {
-    const updatedSurveyData = surveyData[0]
-    const { id } = updatedSurveyData
-    const { first_question } = updatedSurveyData
-    const { second_question } = updatedSurveyData
-    const { third_question } = updatedSurveyData
-
-    try {
-      await updateSurveyData(
-        first_question,
-        second_question,
-        third_question,
-        id,
-      )
-      alert('설문조사가 제출되었습니다.')
-      handleModalClose()
-    } catch (error) {
-      console.error(error)
-      alert('설문조사 제출에 실패했습니다.')
-    }
+  const submitForm = async (event: any) => {
+    event.preventDefault()
+    setLoading(true)
+    const { data, error } = await supabase
+      .from('survey')
+      .insert([{ selectedItems }])
+    if (error) console.error('Error: ', error)
+    else console.log('Success: ', data)
+    setLoading(false)
   }
+  
+  useEffect(() => {
+    getUserId()
+    return () => setUserId('')
+  }, [])
+
 
   useEffect(() => {
-    // 모달이 열릴 때 body의 overflow를 hidden으로 설정
-    document.body.style.overflow = 'hidden'
+    //console.log(selectedItems)
+  }, [selectedItems])
 
-    return () => {
-      // 모달이 닫힐 때 body의 overflow를 초기 상태로 복원
-      document.body.style.overflow = 'auto'
-    }
-  }, [])
+function getAnswers(selectedItems) {
+  const checkedAnswers = Object.keys(selectedItems)
+    .filter(value => selectedItems[value] === true);
+  
+  return checkedAnswers;
+}
+
+const checkedAnswers = getAnswers(selectedItems);
+const firstAnswer = checkedAnswers[0]
+const secondAnswer = checkedAnswers[1]
+const thirdAnswer = checkedAnswers[2]
+
+// 값이 true인 선택된 checkbox들 출력
+
+
+const handleSubmit = async (event: any) => {
+  event.preventDefault()
+  await updateServeyData(
+    userId,
+    firstAnswer,
+    secondAnswer,
+    thirdAnswer
+  )
+  
+}
 
   return (
     <div className={styles.modal} onClick={handleModalClose}>
       <div className={styles.modalContent} onClick={e => e.stopPropagation()}>
         <h2 className={styles.title}>설문조사</h2>
-        <ul>
-          {surveyData.length > 0 &&
-            Object.entries(surveyData[0])
-              .slice(2, 5)
-              .map(([key, value], index) => {
-                const valueCount = Object.keys(surveyData[0][key]).length
-                const data = Object.keys(surveyData[0][key])
-                const dataValue = Object.values(surveyData[0][key])
-                const id = dataValue[0]
-                return (
-                  <li key={index}>
-                    <p
-                      className={styles.subTitle}
-                    >{`Q. ${questionList[index]}`}</p>
-                    <div className={styles.labelContent}>
-                      {Array.from({ length: valueCount - 1 }).map(
-                        (_, valueIndex) => {
-                          return (
-                            <div className={styles.checkbox}>
-                              <input
-                                type="checkbox"
-                                name="checkbox"
-                                id={`${index + 1}-${valueIndex + 1}`}
-                                onChange={handleCheckboxChange}
-                              />
-                              <label
-                                htmlFor={`${index + 1}-${valueIndex + 1}`}
-                                className={styles.label}
-                              >
-                                <svg
-                                  className={styles.checkboxSvg}
-                                  viewBox="0 0 200 200"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <mask
-                                    id={`path-${valueIndex + 1}-inside-${
-                                      valueIndex + 1
-                                    }_476_5-37`}
-                                    fill="white"
-                                  >
-                                    <rect width="200" height="200"></rect>
-                                  </mask>
-                                  <rect
-                                    width="200"
-                                    height="200"
-                                    className={styles.checkboxSquare}
-                                    strokeWidth="40"
-                                    mask={`url(#path-${valueIndex + 1}-inside-${
-                                      valueIndex + 1
-                                    }_476_5-37)`}
-                                  ></rect>
-                                  <path
-                                    className={styles.checkboxTick}
-                                    d={`M52 111.018L76.9867 136L149 64`}
-                                    strokeWidth="15"
-                                  ></path>
-                                </svg>
-                                <span className={styles.labelText}>
-                                  {
-                                    Object.keys(surveyData[0][key])[
-                                      valueIndex + 1
-                                    ]
-                                  }
-                                </span>
-                              </label>
-                            </div>
-                          )
-                        },
-                      )}
-                    </div>
-                  </li>
-                )
-              })}
-        </ul>
-        <div className={styles.btnGroup}>
-          <button className={styles.submitBtn} onClick={handleSubmit}>
-            제출하기
-          </button>
-          <button className={styles.closeBtn} onClick={handleModalClose}>
-            <FontAwesomeIcon icon={faXmark} />
-          </button>
-        </div>
+        <form className={styles.submitForm} onSubmit={handleSubmit}>
+          <div className={styles.row}>
+            <p className={styles.subTitle}>{`Q. ${questionList[0]}`}</p>
+            <div className={styles.checkboxContent}>
+              <div className={styles.checkbox}>
+                <label className={styles.label}>
+                  <input
+                    type="checkbox"
+                    name="first_baby"
+                    checked={selectedItems.first_baby}
+                    onChange={handleCheckboxChange}
+                  />
+                  {labels[0][0]}
+                </label>
+              </div>
+              <div className={styles.checkbox}>
+                <label className={styles.label}>
+                  <input
+                    type="checkbox"
+                    name="first_child"
+                    checked={selectedItems.first_child}
+                    onChange={handleCheckboxChange}
+                  />
+                  {labels[0][1]}
+                </label>
+              </div>
+              <div className={styles.checkbox}>
+                <label className={styles.label}>
+                  <input
+                    type="checkbox"
+                    name="first_teenager"
+                    checked={selectedItems.first_teenager}
+                    onChange={handleCheckboxChange}
+                  />
+                  {labels[0][2]}
+                </label>
+              </div>
+              <div className={styles.checkbox}>
+                <label className={styles.label}>
+                  <input
+                    type="checkbox"
+                    name="first_adult"
+                    checked={selectedItems.first_adult}
+                    onChange={handleCheckboxChange}
+                  />
+                  {labels[0][3]}
+                </label>
+              </div>
+              <div className={styles.checkbox}>
+                <label className={styles.label}>
+                  <input
+                    type="checkbox"
+                    name="first_stilltrust"
+                    checked={selectedItems.first_stilltrust}
+                    onChange={handleCheckboxChange}
+                  />
+                  {labels[0][4]}
+                </label>
+              </div>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <p className={styles.subTitle}>{`Q. ${questionList[1]}`}</p>
+            <div className={styles.checkboxContent}>
+              <div className={styles.checkbox}>
+                <label className={styles.label}>
+                  <input
+                    type="checkbox"
+                    name="second_pretend"
+                    checked={selectedItems.second_pretend}
+                    onChange={handleCheckboxChange}
+                  />
+                  {labels[1][0]}
+                </label>
+              </div>
+              <div className={styles.checkbox}>
+                <label className={styles.label}>
+                  <input
+                    type="checkbox"
+                    name="second_pokerface"
+                    checked={selectedItems.second_pokerface}
+                    onChange={handleCheckboxChange}
+                  />
+                  {labels[1][1]}
+                </label>
+              </div>
+              <div className={styles.checkbox}>
+                <label className={styles.label}>
+                  <input
+                    type="checkbox"
+                    name="second_honest"
+                    checked={selectedItems.second_honest}
+                    onChange={handleCheckboxChange}
+                  />
+                  {labels[1][2]}
+                </label>
+              </div>
+              <div className={styles.checkbox}>
+                <label className={styles.label}>
+                  <input
+                    type="checkbox"
+                    name="second_throwaway"
+                    checked={selectedItems.second_throwaway}
+                    onChange={handleCheckboxChange}
+                  />
+                  {labels[1][3]}
+                </label>
+              </div>
+              <div className={styles.checkbox}>
+                <label className={styles.label}>
+                  <input
+                    type="checkbox"
+                    name="second_sell"
+                    checked={selectedItems.second_sell}
+                    onChange={handleCheckboxChange}
+                  />
+                  {labels[1][4]}
+                </label>
+              </div>
+            </div>
+          </div>
+          <div className={styles.row}>
+            <p className={styles.subTitle}>{`Q. ${questionList[2]}`}</p>
+            <div className={styles.checkboxContent}>
+              <div className={styles.checkbox}>
+                <label className={styles.label}>
+                  <input
+                    type="checkbox"
+                    name="third_money"
+                    checked={selectedItems.third_money}
+                    onChange={handleCheckboxChange}
+                  />
+                  {labels[2][0]}
+                </label>
+              </div>
+              <div className={styles.checkbox}>
+                <label className={styles.label}>
+                  <input
+                    type="checkbox"
+                    name="third_electronics"
+                    checked={selectedItems.third_electronics}
+                    onChange={handleCheckboxChange}
+                  />
+                  {labels[2][1]}
+                </label>
+              </div>
+              <div className={styles.checkbox}>
+                <label className={styles.label}>
+                  <input
+                    type="checkbox"
+                    name="third_clothes"
+                    checked={selectedItems.third_clothes}
+                    onChange={handleCheckboxChange}
+                  />
+                  {labels[2][2]}
+                </label>
+              </div>
+              <div className={styles.checkbox}>
+                <label className={styles.label}>
+                  <input
+                    type="checkbox"
+                    name="third_travelticket"
+                    checked={selectedItems.third_travelticket}
+                    onChange={handleCheckboxChange}
+                  />
+                  {labels[2][3]}
+                </label>
+              </div>
+              <div className={styles.checkbox}>
+                <label className={styles.label}>
+                  <input
+                    type="checkbox"
+                    name="third_none"
+                    checked={selectedItems.third_none}
+                    onChange={handleCheckboxChange}
+                  />
+                  {labels[2][4]}
+                </label>
+              </div>
+            </div>
+          </div>
+          <div className={styles.btnGroup}>
+            <button className={styles.submitBtn} type="submit" disabled={loading}>
+              제출하기
+            </button>
+            <button className={styles.closeBtn} onClick={handleModalClose}>
+              <FontAwesomeIcon icon={faXmark} />
+            </button>
+          </div>
+        </form>
       </div>
     </div>
   )
