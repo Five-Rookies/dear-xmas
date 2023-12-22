@@ -175,8 +175,11 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
 
         <button onClick={() => handleClickCommentLike()}>
           <Image
+            width="0"
+            height="0"
             className={isLiked ? styles.likeOn : styles.likeOff}
             src={isLiked ? likeOn : likeOff}
+            style={{ width: 'auto', height: 'auto' }}
             alt="좋아요"
           />
 

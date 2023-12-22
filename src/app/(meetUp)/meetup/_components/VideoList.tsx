@@ -50,8 +50,8 @@ const VideoList = ({ initialData, pageToken }: IProps): React.JSX.Element => {
                     width={0}
                     height={0}
                     sizes="18.15rem"
-                    style={{ width: '18.15rem', height: 'auto' }}
-                    layout="responsive"
+                    style={{ width: '100%', height: 'auto' }}
+                    priority
                     alt={VIDEO.title}
                   />
                 </div>

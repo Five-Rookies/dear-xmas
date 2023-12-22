@@ -75,6 +75,7 @@ const Developers = () => {
                     sizes="4.5rem"
                     style={{ width: '100%', height: 'auto' }}
                     alt={skill}
+                    priority
                   />
                 </li>
               )
