@@ -17,11 +17,11 @@ export interface IMeetupBoardData {
   meetup_content?: string
   scheduling: Value
   user_name?: string | undefined
-  video_id: string
-  thumbnail: string
-  channel_id: string
-  channel_title: string
-  video_title: string
+  video_id?: string
+  thumbnail?: string
+  channel_id?: string
+  channel_title?: string
+  video_title?: string
   created_at?: string
   meetup_like_num?: number
   member_list?: string[]

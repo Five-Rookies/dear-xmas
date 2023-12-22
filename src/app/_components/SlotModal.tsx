@@ -10,10 +10,7 @@ declare global {
   }
 }
 const SlotModal = ({ handleModalClose, sentence }: any) => {
-  const [userName, setUserName] = useState<string | undefined>()
- 
   useEffect(() => {
-    getUserName()
     if (!window.Kakao.isInitialized()) {
       window.Kakao.init(process.env.NEXT_PUBLIC_KAKAO_API_KEY)
     }
@@ -25,21 +22,31 @@ const SlotModal = ({ handleModalClose, sentence }: any) => {
     }
   }, [])
   const getUserName = async (): Promise<void> => {
-    const {
-      data: { user },
-    } = await supabase.auth.getUser()
-    setUserName(user?.user_metadata.user_name)
+    try {
+      const {
+        data: { user },
+        error,
+      } = await supabase.auth.getUser()
+      if (!user) {
+        throw error
+      }
+      return user?.user_metadata.user_name
+    } catch (error) {
+      alert('로그인 후 사용해주세요')
+    }
   }
   const handleShare = async () => {
+    const userName = await getUserName()
     try {
-      await getUserName()
-      window.Kakao.Share.sendCustom({
-        templateId: 102052,
-        templateArgs: {
-          tester: userName,
-          result: sentence.join(' '),
-        },
-      })
+      if (userName !== undefined) {
+        window.Kakao.Share.sendCustom({
+          templateId: 102052,
+          templateArgs: {
+            tester: userName,
+            result: sentence.join(' '),
+          },
+        })
+      }
     } catch (error) {
       console.error(error)
     }

@@ -157,6 +157,9 @@ const MeetupBox = ({
           <div>
             <button onClick={() => handleLike()}>
               <Image
+                width="0"
+                height="0"
+                style={{ width: 'auto', height: 'auto' }}
                 className={isLiked ? styles.likeOn : styles.likeOff}
                 src={isLiked ? likeOn : likeOff}
                 alt="좋아요"

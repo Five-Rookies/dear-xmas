@@ -25,6 +25,7 @@ export const BasicInput = ({
         type={type}
         placeholder={placeholder}
         required
+        autoComplete="off"
       />
     </div>
   )
@@ -58,6 +59,7 @@ export const PasswordInput = ({
             inputElement.setCustomValidity(errorMessages.password)
         }}
         onInput={e => e.currentTarget.setCustomValidity('')}
+        autoComplete="off"
       />
       <p>특수문자는 다음 문자들만 입력 가능합니다 : !@#$%^*+=- </p>
     </div>
@@ -76,6 +78,7 @@ export const PasswordCheckInput = ({
         type="password"
         placeholder="비밀번호를 한번 더 입력해주세요"
         required
+        autoComplete="off"
         onChange={e =>
           e.currentTarget.setCustomValidity(
             passwordRef.current?.value !== e.currentTarget.value
@@ -97,6 +100,7 @@ export const PasswordHintInput = ({
     <div className={styles.inputField}>
       <h3>비밀번호 찾기 힌트</h3>
       <input
+        autoComplete="off"
         ref={passwordHintRef}
         name="password_hint"
         type="text"
