@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 import { createRouteHandlerClient } from '@supabase/auth-helpers-nextjs'
 import { cookies } from 'next/headers'
 import { NextResponse } from 'next/server'

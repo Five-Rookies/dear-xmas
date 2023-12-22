@@ -1,5 +1,5 @@
 import React from 'react'
-import { executeQuery, supabase } from './defaultApiSetting'
+import { supabase } from './defaultApiSetting'
 
 export const handleSignOut = async () => {
   const { data } = await supabase.auth.getSession()
@@ -64,22 +64,5 @@ export const handleSignUp = async (event: React.FormEvent<HTMLFormElement>) => {
   } catch (error) {
     alert('회원가입 시도 중 오류가 발생하였습니다.')
     throw error
-  }
-}
-
-export const updateUser = async ({
-  userName,
-  userId,
-}: {
-  userName: string | undefined
-  userId: any
-}) => {
-  try {
-    const { data: user, error } = await supabase.auth.admin.updateUserById(
-      userId,
-      { user_metadata: { user_name: userName } },
-    )
-  } catch (error) {
-    console.error(error)
   }
 }

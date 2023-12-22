@@ -2,70 +2,101 @@
 
 import React, { useEffect, useRef, useState } from 'react'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
-import styles from './header.module.scss'
-import { Session } from 'inspector'
-import { updateUser } from '@/utils/apiRequest/signUserSupabase'
+import {
+  IProfile,
+  getProfile,
+  updateProfile,
+} from '@/utils/apiRequest/profileApiRequest'
 import ISupabase from '@/type/SupabaseResponse'
+import styles from './header.module.scss'
 
 const Profile = () => {
-  const [userData, setUserData] = useState<any>({})
-  const [editMode, setEditMode] = useState(false)
+  const [isEditMode, setIsEditMode] = useState(false)
+  const [currentImg, setCurrentImg] = useState<number>(0)
+  const userData = useRef<IProfile>()
   const inputRef = useRef<HTMLInputElement>(null)
-  const profiles = ['santa', 'snowman', 'candle', 'cookie']
-  const fetchData = async () => {
-    const supabase = createClientComponentClient<ISupabase[]>()
-    const {
-      data: { session },
-    } = await supabase.auth.getSession()
+  const profileImages = ['santa', 'snowman', 'candle', 'cookie']
 
-    setUserData(session?.user)
-  }
   useEffect(() => {
+    const fetchData = async () => {
+      const supabase = createClientComponentClient<ISupabase[]>()
+      const {
+        data: { session },
+      } = await supabase.auth.getSession()
+
+      const profile: IProfile[] = await getProfile(
+        'email',
+        session!.user.email!,
+      )
+      if (!profile.length) {
+        alert('오류가 발생했습니다!')
+        return
+      }
+
+      userData.current = profile[0]!
+      setCurrentImg(profile[0].profile_img)
+    }
+
     fetchData()
   }, [])
-  const handleUserName = async () => {
-    if (editMode) {
-      const data = {
-        userName: inputRef?.current?.value,
-        userId: userData?.id,
+
+  const handleUserProfile = async () => {
+    if (isEditMode && inputRef.current && userData.current) {
+      // 업데이트 정보 유효성 검사
+      const REGEX = /^[a-zA-Z가-힣0-9]{1,8}$/
+      if (!REGEX.test(inputRef.current.value)) {
+        alert('닉네임을 특수문자 제외 8글자 이하로 입력해주세요')
+        return
       }
-      const res = await updateUser(data)
-      // setUserData(res)
-      return
+
+      // 유효성 검사 통과 시 수정 진행
+      const data = {
+        id: userData.current.id,
+        profileImg: currentImg,
+        userName: inputRef.current.value,
+      }
+      const res = await updateProfile(data)
+      userData.current = res
     }
-    setEditMode(!editMode)
+    setIsEditMode(!isEditMode)
   }
+
   return (
-    userData && (
+    userData.current && (
       <div className={styles.profile}>
         <div className={styles.profileImgBox}>
-          {/* <span>
-            <img src="/assets/profile-btn.svg" alt="" />
-          </span> */}
+          {isEditMode && (
+            <button
+              type="button"
+              onClick={() => setCurrentImg(prev => (prev === 0 ? 3 : prev - 1))}
+            >
+              <img src="/assets/profile-btn.svg" alt="" />
+            </button>
+          )}
           <img
             className={styles.myProfileImg}
-            src={`/assets/profile-${
-              profiles[userData?.user_metadata?.profile_img]
-            }.svg`}
+            src={`/assets/profile-${profileImages[currentImg]}.svg`}
             alt=""
           />
-          {/* <span>
-            <img src="/assets/profile-btn.svg" alt="" />
-          </span> */}
+          {isEditMode && (
+            <button
+              type="button"
+              onClick={() => setCurrentImg(prev => (prev === 3 ? 0 : prev + 1))}
+            >
+              <img src="/assets/profile-btn.svg" alt="" />
+            </button>
+          )}
         </div>
         <div className={styles.userInfo}>
-          {editMode ? (
+          {isEditMode ? (
             <p>
-              <input
-                ref={inputRef}
-                placeholder={userData?.user_metadata?.user_name}
-              />
+              <input ref={inputRef} placeholder={userData.current.user_name} />
             </p>
           ) : (
-            <p>{userData?.user_metadata?.user_name}</p>
+            <p>{userData.current.user_name}</p>
           )}
-          <p>{userData?.email}</p>
-          {/* <p onClick={e => handleUserName()}>닉네임 수정</p> */}
+          <p>{userData.current.email}</p>
+          <p onClick={() => handleUserProfile()}>프로필 수정</p>
         </div>
       </div>
     )
