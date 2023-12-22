@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import styles from '@/app/page.module.scss'
 import {
   Chart as ChartJS,

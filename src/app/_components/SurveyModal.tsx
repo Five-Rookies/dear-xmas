@@ -74,7 +74,14 @@ const SurveyModal = ({ surveyList, handleModalClose }: any) => {
 
   const handleSubmit = async (event: any) => {
     event.preventDefault()
-    await updateServeyData(userId, firstAnswer, secondAnswer, thirdAnswer)
+
+    try {
+      await updateServeyData(userId, firstAnswer, secondAnswer, thirdAnswer)
+      alert('설문이 완료되었습니다🎅🏻')
+    } catch (error) {
+      console.error(error)
+      alert('오류가 발생하였습니다!')
+    }
     // handleModalClose()
   }
 
@@ -83,9 +90,9 @@ const SurveyModal = ({ surveyList, handleModalClose }: any) => {
       <div className={styles.modalContent} onClick={e => e.stopPropagation()}>
         <h2 className={styles.title}>설문조사</h2>
         <form className={styles.submitForm} onSubmit={handleSubmit}>
-          {surveyList.map((ques: ISurvey) => {
+          {surveyList.map((ques: ISurvey, index: number) => {
             return (
-              <div className={styles.row}>
+              <div key={index} className={styles.row}>
                 <p className={styles.subTitle}>{`Q. ${ques.question}`}</p>
                 <div className={styles.checkboxContent}>
                   {ques.checkList.map(check => {
