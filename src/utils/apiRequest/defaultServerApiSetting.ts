@@ -1,8 +1,8 @@
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
-import ISupabase from '@/type/SupabaseResponse'
+import { Database } from '@/type/supabase'
 import { cookies } from 'next/headers'
 
-export const supabase = createServerComponentClient<ISupabase[]>({ cookies })
+export const supabase = createServerComponentClient<Database>({ cookies })
 
 export const executeQuery = async (queryBuilder: any, errorMessage: string) => {
   try {

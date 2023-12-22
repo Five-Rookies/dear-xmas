@@ -4,11 +4,13 @@ import React, { FormEvent, useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequestClient'
-import { IMeetupBoardData } from '@/type/Component'
-import dynamic from 'next/dynamic'
-import styles from './meetupModal.module.scss'
 import { Value, ValuePiece } from '@/type/Component'
+import dynamic from 'next/dynamic'
 import { IVideoInfoToCookie } from '@/utils/cookieServer'
+import { Tables } from '@/type/supabase'
+import styles from './meetupModal.module.scss'
+
+type TMeetupBoardData = Tables<'meetup_board'>
 
 const DatePicker: React.ComponentType<any> = dynamic(
   () => import('../_datePicker/DatePicker'),
@@ -32,7 +34,7 @@ const MeetupModal = ({
   const [meetupTitle, setMeetupTitle] = useState<string>('')
   const [meetupScheduling, setMeetupScheduling] = useState<Value>(new Date())
   const [meetupContent, setMeetupContent] = useState<string>('')
-  const [userName, setUserName] = useState<string | undefined>('')
+  const [userName, setUserName] = useState<string | null>('')
   const nowDate = new Date()
 
   const getUserName = async (): Promise<void> => {
@@ -83,11 +85,11 @@ const MeetupModal = ({
       return
     }
 
-    const data: IMeetupBoardData = {
+    const data: Partial<TMeetupBoardData> = {
       category: meetupCategory,
       meetup_title: meetupTitle,
       meetup_content: meetupContent,
-      scheduling: meetupScheduling,
+      scheduling: meetupScheduling as string,
       user_name: userName,
       video_id: videoId,
       thumbnail: thumbnailsUrl,

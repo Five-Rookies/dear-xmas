@@ -1,4 +1,5 @@
 /* eslint-disable camelcase */
+import { Database, Tables } from '@/type/supabase'
 import { executeQuery, supabase } from './defaultApiSetting'
 
 const tableName =
@@ -42,7 +43,7 @@ export const createComments = async (
 }
 
 export const updateComments = async (
-  comment_content: string | undefined,
+  comment_content: string | null,
   id: number,
 ): Promise<any> => {
   return executeQuery(

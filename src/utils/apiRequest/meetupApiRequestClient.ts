@@ -1,7 +1,9 @@
-import { IMeetupBoardData } from '@/type/Component'
+import { Tables } from '@/type/supabase'
 import { executeQuery, supabase } from './defaultApiSetting'
 
-export const createMeetupBoard = async (data: IMeetupBoardData) => {
+export const createMeetupBoard = async (
+  data: Partial<Tables<'meetup_board'>>,
+) => {
   return executeQuery(
     supabase.from('meetup_board').insert([data]),
     '데이터를 생성하지 못했습니다',

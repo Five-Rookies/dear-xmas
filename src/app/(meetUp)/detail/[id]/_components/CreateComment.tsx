@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef, useState } from 'react'
 import { usePathname } from 'next/navigation'
-import {  } from '@/utils/apiRequest/commentsApiRequest'
+import { createComments } from '@/utils/apiRequest/commentsApiRequest'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 
 const CreateComment = ({

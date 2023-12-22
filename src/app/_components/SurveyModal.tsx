@@ -1,24 +1,16 @@
 'use client'
 
-import React, { useEffect, useState, useRef } from 'react'
-import { createClient } from '@supabase/supabase-js'
+import React, { useEffect, useState } from 'react'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
-import updateServeyData from '@/utils/apiRequest/surveyApiRequest'
-import ISurvey from '@/type/SupabaseResponse'
-import ISupabase from '@/type/SupabaseResponse'
+import { updateServeyData } from '@/utils/apiRequest/surveyApiRequest'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark } from '@fortawesome/free-solid-svg-icons'
+import { Database } from '@/type/supabase'
 import styles from './Modal.module.scss'
 
-const supabase = createClientComponentClient<ISupabase[]>()
+const supabase = createClientComponentClient<Database>()
 
-const SurveyModal = ({
-  surveyData: any,
-  setSurveyData,
-  questionList,
-  labels,
-  handleModalClose
-}) => {
+const SurveyModal = ({ questionList, labels, handleModalClose }: any) => {
   const [userId, setUserId] = useState<string | undefined>('')
   const [loading, setLoading] = useState(false)
   const [selectedItems, setSelectedItems] = useState({
@@ -53,52 +45,45 @@ const SurveyModal = ({
     })
   }
 
-  const submitForm = async (event: any) => {
-    event.preventDefault()
-    setLoading(true)
-    const { data, error } = await supabase
-      .from('survey')
-      .insert([{ selectedItems }])
-    if (error) console.error('Error: ', error)
-    else console.log('Success: ', data)
-    setLoading(false)
-  }
-  
+  // const submitForm = async (event: any) => {
+  //   event.preventDefault()
+  //   setLoading(true)
+  //   const { data, error } = await supabase
+  //     .from('survey')
+  //     .insert([{ selectedItems }])
+  //   if (error) console.error('Error: ', error)
+  //   else console.log('Success: ', data)
+  //   setLoading(false)
+  // }
+
   useEffect(() => {
     getUserId()
     return () => setUserId('')
   }, [])
 
-
   useEffect(() => {
-    //console.log(selectedItems)
+    // console.log(selectedItems)
   }, [selectedItems])
 
-function getAnswers(selectedItems) {
-  const checkedAnswers = Object.keys(selectedItems)
-    .filter(value => selectedItems[value] === true);
-  
-  return checkedAnswers;
-}
+  function getAnswers(selectedList: any) {
+    const checkedAnswers = Object.keys(selectedList).filter(
+      value => selectedList[value] === true,
+    )
 
-const checkedAnswers = getAnswers(selectedItems);
-const firstAnswer = checkedAnswers[0]
-const secondAnswer = checkedAnswers[1]
-const thirdAnswer = checkedAnswers[2]
+    return checkedAnswers
+  }
 
-// 값이 true인 선택된 checkbox들 출력
+  const checkedAnswers = getAnswers(selectedItems)
+  const firstAnswer = checkedAnswers[0]
+  const secondAnswer = checkedAnswers[1]
+  const thirdAnswer = checkedAnswers[2]
 
+  // 값이 true인 선택된 checkbox들 출력
 
-const handleSubmit = async (event: any) => {
-  event.preventDefault()
-  await updateServeyData(
-    userId,
-    firstAnswer,
-    secondAnswer,
-    thirdAnswer
-  )
-  
-}
+  const handleSubmit = async (event: any) => {
+    event.preventDefault()
+    await updateServeyData(userId!, firstAnswer, secondAnswer, thirdAnswer)
+  }
 
   return (
     <div className={styles.modal} onClick={handleModalClose}>
@@ -286,7 +271,11 @@ const handleSubmit = async (event: any) => {
             </div>
           </div>
           <div className={styles.btnGroup}>
-            <button className={styles.submitBtn} type="submit" disabled={loading}>
+            <button
+              className={styles.submitBtn}
+              type="submit"
+              disabled={loading}
+            >
               제출하기
             </button>
             <button className={styles.closeBtn} onClick={handleModalClose}>

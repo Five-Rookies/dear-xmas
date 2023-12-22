@@ -2,29 +2,25 @@
 
 import React, { useEffect, useRef, useState } from 'react'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
-import {
-  IProfile,
-  getProfile,
-  updateProfile,
-} from '@/utils/apiRequest/profileApiRequest'
-import ISupabase from '@/type/SupabaseResponse'
+import { getProfile, updateProfile } from '@/utils/apiRequest/profileApiRequest'
+import { Database, Tables } from '@/type/supabase'
 import styles from './header.module.scss'
 
 const Profile = () => {
   const [isEditMode, setIsEditMode] = useState(false)
   const [currentImg, setCurrentImg] = useState<number>(0)
-  const userData = useRef<IProfile>()
+  const userData = useRef<Tables<'profiles'>>()
   const inputRef = useRef<HTMLInputElement>(null)
   const profileImages = ['santa', 'snowman', 'candle', 'cookie']
 
   useEffect(() => {
     const fetchData = async () => {
-      const supabase = createClientComponentClient<ISupabase[]>()
+      const supabase = createClientComponentClient<Database>()
       const {
         data: { session },
       } = await supabase.auth.getSession()
 
-      const profile: IProfile[] = await getProfile(
+      const profile: Tables<'profiles'>[] = await getProfile(
         'email',
         session!.user.email!,
       )
@@ -34,7 +30,7 @@ const Profile = () => {
       }
 
       userData.current = profile[0]!
-      setCurrentImg(profile[0].profile_img)
+      setCurrentImg(profile[0].profile_img!)
     }
 
     fetchData()
@@ -52,8 +48,8 @@ const Profile = () => {
       // 유효성 검사 통과 시 수정 진행
       const data = {
         id: userData.current.id,
-        profileImg: currentImg,
-        userName: inputRef.current.value,
+        profile_img: currentImg,
+        user_name: inputRef.current.value,
       }
       const res = await updateProfile(data)
       userData.current = res
@@ -90,7 +86,7 @@ const Profile = () => {
         <div className={styles.userInfo}>
           {isEditMode ? (
             <p>
-              <input ref={inputRef} placeholder={userData.current.user_name} />
+              <input ref={inputRef} placeholder={userData.current.user_name!} />
             </p>
           ) : (
             <p>{userData.current.user_name}</p>

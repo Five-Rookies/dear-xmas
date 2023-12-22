@@ -1,3 +1,5 @@
+/* eslint-disable camelcase */
+
 'use client'
 
 import React, { useState, useEffect } from 'react'
@@ -20,21 +22,13 @@ import candle from '@public/assets/profile-candle.svg'
 import cookie from '@public/assets/profile-cookie.svg'
 import likeOff from '@public/assets/likeOff.svg'
 import likeOn from '@public/assets/likeOn.svg'
-import Comments from '@/type/SupabaseResponse'
-import styles from '../detail.module.scss'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
+import { Tables } from '@/type/supabase'
+import styles from '../detail.module.scss'
 
 interface ICommentProps {
-  comment: Comments
+  comment: Tables<'comments'>
   fetchComments: () => Promise<void>
-}
-
-interface ILike {
-  comment_id: number
-  created_at: string
-  id: number
-  is_like: boolean
-  user_id: string
 }
 
 const Comment = ({ comment, fetchComments }: ICommentProps) => {
@@ -43,9 +37,7 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
   const COMMENT_ID: number = id
   const profiles: any[] = [santa, snowman, candle, cookie]
   const [isDotMenuVisible, setIsDotMenuVisible] = useState<boolean>(false)
-  const [inputValue, setInputValue] = useState<string | undefined>(
-    comment_content,
-  )
+  const [inputValue, setInputValue] = useState<string | null>(comment_content)
 
   const [isEditing, setIsEditing] = useState<boolean>(false)
   const [userId, setUserId] = useState<string | undefined>('')
@@ -60,7 +52,7 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
   }
 
   const handleClickCommentLike = async (): Promise<void> => {
-    const checkIsLiked: ILike[] = await checkLike(
+    const checkIsLiked: Tables<'comment_like'>[] = await checkLike(
       userId,
       COMMENT_ID,
       'comment_like',
@@ -68,15 +60,15 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
 
     if (checkIsLiked.length <= 0) {
       await createLike(userId, COMMENT_ID, 'comment_like')
-      setLikeCount(likeCount =>
-        likeCount !== undefined ? likeCount + 1 : undefined,
+      setLikeCount(prevLikeCount =>
+        prevLikeCount !== undefined ? prevLikeCount + 1 : undefined,
       )
     }
 
     if (checkIsLiked.length > 0) {
       await removeLike(userId!, COMMENT_ID, 'comment_like')
-      setLikeCount(likeCount =>
-        likeCount !== undefined ? likeCount - 1 : undefined,
+      setLikeCount(prevLikeCount =>
+        prevLikeCount !== undefined ? prevLikeCount - 1 : undefined,
       )
     }
     setIsLiked(!isLiked)
@@ -109,7 +101,7 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
   }
 
   const handleClickEditComment = async (): Promise<void> => {
-    const editValue: string | undefined = inputValue
+    const editValue: string | null = inputValue
 
     await updateComments(editValue, COMMENT_ID)
     setIsEditing(false)
@@ -143,7 +135,7 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
 
   return (
     <div className={styles.commentContainer}>
-      <Image src={profiles[profile_img]} alt="프로필 이미지" />
+      <Image src={profiles[profile_img!]} alt="프로필 이미지" />
       <div className={styles.commentDetail}>
         <p className={styles.userInfo}>
           {user_name}
@@ -153,7 +145,7 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <input
               className={styles.text}
-              value={inputValue}
+              value={inputValue || undefined}
               onChange={handleChangeInputValue}
             />
             <button

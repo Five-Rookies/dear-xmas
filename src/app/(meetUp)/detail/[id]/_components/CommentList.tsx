@@ -7,19 +7,21 @@ import candle from '@public/assets/profile-candle.svg'
 import cookie from '@public/assets/profile-cookie.svg'
 import Image from 'next/image'
 import { getComments } from '@/utils/apiRequest/commentsApiRequest'
-import IComment from '@/type/SupabaseResponse'
+import { Tables } from '@/type/supabase'
+import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import styles from '../detail.module.scss'
 import CreateComment from './CreateComment'
 import Comment from './Comment'
-import { supabase } from '@/utils/apiRequest/defaultApiSetting'
+
+type TCommnets = Tables<'comments'>
 
 const CommentList = ({ getVideoId }: { getVideoId: string }) => {
   const profiles = [santa, snowman, candle, cookie]
-  const [comments, setComments] = useState<IComment[]>([])
+  const [comments, setComments] = useState<TCommnets[]>([])
   const [userProfile, setUserProfile] = useState<number>(0)
 
   const fetchComments = async (): Promise<void> => {
-    const totalComments: IComment[] = await getComments(getVideoId)
+    const totalComments: TCommnets[] = await getComments(getVideoId)
     if (totalComments) {
       setComments(totalComments)
     }
@@ -43,7 +45,7 @@ const CommentList = ({ getVideoId }: { getVideoId: string }) => {
         <CreateComment profile={userProfile} fetchComments={fetchComments} />
       </div>
       {comments.length !== 0 &&
-        comments.map((el: IComment) => {
+        comments.map((el: TCommnets) => {
           return (
             <Comment key={el.id} comment={el} fetchComments={fetchComments} />
           )

@@ -1,6 +1,4 @@
 import React from 'react'
-import { IYoutubeItem } from '@/type/YoutubeApiResponse'
-import useYoutubeDataRequest from '@/hooks/useYoutubeApiRequest'
 import styles from '@/app/page.module.scss'
 import { getTodayMeetup } from '@/utils/apiRequest/meetupApiRequestClient'
 import MainMeetupList from './MainMeetupList'

@@ -3,7 +3,8 @@
 import React, { useRef } from 'react'
 import styles from '@/app/(sign)/_components/sign.module.scss'
 import Link from 'next/link'
-import { IProfile, getProfile } from '@/utils/apiRequest/profileApiRequest'
+import { Tables } from '@/type/supabase'
+import { getProfile } from '@/utils/apiRequest/profileApiRequest'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { BasicInput, PasswordHintInput } from '../../_components/SignInput'
 
@@ -16,7 +17,7 @@ const FindPasswordPage = () => {
 
     const email = emailRef.current!.value
     const passwordHint = passwordHintRef.current!.value
-    const userdata: IProfile[] = await getProfile('email', email)
+    const userdata: Tables<'profiles'>[] = await getProfile('email', email)
 
     if (!userdata.length) {
       alert('유효하지 않은 이메일 입니다!')

@@ -1,43 +1,32 @@
 /* eslint-disable camelcase */
+import { Tables } from '@/type/supabase'
 import { supabase, executeQuery } from './defaultApiSetting'
 
 const tableName = 'profiles'
 
-export interface IProfile {
-  email: string
-  id: string
-  profile_img: 0 | 1 | 2 | 3
-  user_name: string
-  password_hint: string
-}
+type TProfiles = Tables<'profiles'>
 
 export const getProfile = async (
   fieldName: string,
   fieldValue: string,
-): Promise<IProfile[]> => {
+): Promise<TProfiles[]> => {
   return executeQuery(
     supabase.from(tableName).select('*').eq(fieldName, fieldValue),
     '유저정보를 불러오지 못했습니다',
   )
 }
 
-interface IUpdateProfile {
-  id: string
-  profileImg: number
-  userName: string
-}
-
 export const updateProfile = async ({
   id,
-  profileImg,
-  userName,
-}: IUpdateProfile): Promise<any> => {
+  profile_img,
+  user_name,
+}: Pick<TProfiles, 'id' | 'profile_img' | 'user_name'>): Promise<any> => {
   return executeQuery(
     supabase
       .from(tableName)
       .update({
-        profile_img: profileImg,
-        user_name: userName,
+        profile_img,
+        user_name,
       })
       .eq('id', id),
     '데이터를 수정하지 못했습니다',

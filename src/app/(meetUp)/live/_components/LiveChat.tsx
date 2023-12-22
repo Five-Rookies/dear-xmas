@@ -1,10 +1,11 @@
 'use client'
+
 import React, { useEffect, useState, useRef } from 'react'
-import styles from '../live.module.scss'
-import ISupabase from '@/type/SupabaseResponse'
+import { Tables } from '@/type/supabase'
 import { createChat, getChat } from '@/utils/apiRequest/liveApiRequest'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import useStore from '@/status/store'
+import styles from '../live.module.scss'
 
 const LiveChat = ({ meetupId }: { meetupId: number }) => {
   const { setTime } = useStore()
@@ -47,12 +48,12 @@ const LiveChat = ({ meetupId }: { meetupId: number }) => {
 
   const profiles = ['santa', 'snowman', 'candle', 'cookie']
   const timeToSeconds = (time: string) => {
-    let timeArray = time.split(':')
-    let hours = parseInt(timeArray[0], 10)
-    let minutes = parseInt(timeArray[1], 10)
-    let seconds = parseInt(timeArray[2], 10)
+    const timeArray = time.split(':')
+    const hours = parseInt(timeArray[0], 10)
+    const minutes = parseInt(timeArray[1], 10)
+    const seconds = parseInt(timeArray[2], 10)
 
-    let totalSeconds = hours * 3600 + minutes * 60 + seconds
+    const totalSeconds = hours * 3600 + minutes * 60 + seconds
     return totalSeconds
   }
   const handleCreate = async (e: any) => {
@@ -67,13 +68,14 @@ const LiveChat = ({ meetupId }: { meetupId: number }) => {
       inputValue.current.value = ''
     }
   }
-  const handleVideoStart = (chat: string) => {
-    const startIndex = chat.indexOf('#') + 1
-    const time = chat.substring(startIndex, startIndex + 8)
+
+  const handleVideoStart = (chatTime: string) => {
+    const startIndex = chatTime.indexOf('#') + 1
+    const time = chatTime.substring(startIndex, startIndex + 8)
     const seconds = timeToSeconds(time)
     setTime(seconds)
-    // location.reload() // TODO: 같은 시간 선택 시 리렌더링 되지 않는 문제 해결을 위한 코드. 단 전체 새로고침이 되므로 지양해야함..
   }
+
   return (
     <div className={styles.liveChatContainer}>
       <div className={styles.createChat}>
@@ -91,12 +93,12 @@ const LiveChat = ({ meetupId }: { meetupId: number }) => {
         />
       </div>
       <ul className={styles.liveChat}>
-        {...chat?.map((liveChat: ISupabase) => {
+        {...chat?.map((liveChat: Tables<'live_chat'>) => {
           const { profile_img, live_content } = liveChat
           return (
             <li key={liveChat.id} className={styles.liveChatBox}>
               <img
-                src={`/assets/profile-${profiles[profile_img]}.svg`}
+                src={`/assets/profile-${profiles[profile_img!]}.svg`}
                 alt=""
               />
               <span className={styles.userName}> {liveChat.user_name}</span>
