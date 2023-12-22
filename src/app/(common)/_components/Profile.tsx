@@ -65,23 +65,27 @@ const Profile = () => {
     userData.current && (
       <div className={styles.profile}>
         <div className={styles.profileImgBox}>
-          <button
-            type="button"
-            onClick={() => setCurrentImg(prev => (prev === 0 ? 3 : prev - 1))}
-          >
-            <img src="/assets/profile-btn.svg" alt="" />
-          </button>
+          {isEditMode && (
+            <button
+              type="button"
+              onClick={() => setCurrentImg(prev => (prev === 0 ? 3 : prev - 1))}
+            >
+              <img src="/assets/profile-btn.svg" alt="" />
+            </button>
+          )}
           <img
             className={styles.myProfileImg}
             src={`/assets/profile-${profileImages[currentImg]}.svg`}
             alt=""
           />
-          <button
-            type="button"
-            onClick={() => setCurrentImg(prev => (prev === 3 ? 0 : prev + 1))}
-          >
-            <img src="/assets/profile-btn.svg" alt="" />
-          </button>
+          {isEditMode && (
+            <button
+              type="button"
+              onClick={() => setCurrentImg(prev => (prev === 3 ? 0 : prev + 1))}
+            >
+              <img src="/assets/profile-btn.svg" alt="" />
+            </button>
+          )}
         </div>
         <div className={styles.userInfo}>
           {isEditMode ? (
