@@ -11,22 +11,25 @@ export interface Database {
     Tables: {
       comment_like: {
         Row: {
-          comment_id: number | null
+          comment_id: number
           created_at: string
           id: number
-          user_id: string | null
+          is_like: string | null
+          user_id: string
         }
         Insert: {
-          comment_id?: number | null
+          comment_id: number
           created_at?: string
           id?: number
-          user_id?: string | null
+          is_like?: string | null
+          user_id: string
         }
         Update: {
-          comment_id?: number | null
+          comment_id?: number
           created_at?: string
           id?: number
-          user_id?: string | null
+          is_like?: string | null
+          user_id?: string
         }
         Relationships: [
           {
@@ -50,8 +53,8 @@ export interface Database {
           comment_content: string | null
           created_at: string
           id: number
-          like_num: number | null
           profile_img: number | null
+          user_id: string | null
           user_name: string | null
           video_id: string | null
         }
@@ -59,8 +62,8 @@ export interface Database {
           comment_content?: string | null
           created_at?: string
           id?: number
-          like_num?: number | null
           profile_img?: number | null
+          user_id?: string | null
           user_name?: string | null
           video_id?: string | null
         }
@@ -68,12 +71,20 @@ export interface Database {
           comment_content?: string | null
           created_at?: string
           id?: number
-          like_num?: number | null
           profile_img?: number | null
+          user_id?: string | null
           user_name?: string | null
           video_id?: string | null
         }
-        Relationships: []
+        Relationships: [
+          {
+            foreignKeyName: 'comments_user_id_fkey'
+            columns: ['user_id']
+            isOneToOne: false
+            referencedRelation: 'users'
+            referencedColumns: ['id']
+          },
+        ]
       }
       live_chat: {
         Row: {
@@ -123,6 +134,8 @@ export interface Database {
       meetup_board: {
         Row: {
           category: string | null
+          channel_id: string | null
+          channel_title: string | null
           created_at: string
           id: number
           meetup_content: string | null
@@ -134,9 +147,12 @@ export interface Database {
           thumbnail: string | null
           user_name: string | null
           video_id: string | null
+          video_title: string | null
         }
         Insert: {
           category?: string | null
+          channel_id?: string | null
+          channel_title?: string | null
           created_at?: string
           id?: number
           meetup_content?: string | null
@@ -148,9 +164,12 @@ export interface Database {
           thumbnail?: string | null
           user_name?: string | null
           video_id?: string | null
+          video_title?: string | null
         }
         Update: {
           category?: string | null
+          channel_id?: string | null
+          channel_title?: string | null
           created_at?: string
           id?: number
           meetup_content?: string | null
@@ -162,6 +181,7 @@ export interface Database {
           thumbnail?: string | null
           user_name?: string | null
           video_id?: string | null
+          video_title?: string | null
         }
         Relationships: []
       }
@@ -209,27 +229,27 @@ export interface Database {
       }
       meetup_like: {
         Row: {
-          board_id: number | null
           id: number
-          like_num: number | null
+          is_like: string | null
+          meetup_id: number | null
           user_id: string | null
         }
         Insert: {
-          board_id?: number | null
           id?: number
-          like_num?: number | null
+          is_like?: string | null
+          meetup_id?: number | null
           user_id?: string | null
         }
         Update: {
-          board_id?: number | null
           id?: number
-          like_num?: number | null
+          is_like?: string | null
+          meetup_id?: number | null
           user_id?: string | null
         }
         Relationships: [
           {
-            foreignKeyName: 'meetup_like_board_id_fkey'
-            columns: ['board_id']
+            foreignKeyName: 'meetup_like_meetup_id_fkey'
+            columns: ['meetup_id']
             isOneToOne: false
             referencedRelation: 'meetup_board'
             referencedColumns: ['id']
@@ -295,19 +315,25 @@ export interface Database {
       }
       profiles: {
         Row: {
-          first_name: string | null
+          email: string | null
           id: string
-          last_name: string | null
+          password_hint: string | null
+          profile_img: number | null
+          user_name: string | null
         }
         Insert: {
-          first_name?: string | null
+          email?: string | null
           id: string
-          last_name?: string | null
+          password_hint?: string | null
+          profile_img?: number | null
+          user_name?: string | null
         }
         Update: {
-          first_name?: string | null
+          email?: string | null
           id?: string
-          last_name?: string | null
+          password_hint?: string | null
+          profile_img?: number | null
+          user_name?: string | null
         }
         Relationships: [
           {
@@ -321,63 +347,68 @@ export interface Database {
       }
       survey: {
         Row: {
-          '✈여행 티켓': number | null
-          '🎅아직도 믿음': number | null
-          '👔인기브랜드 의류': number | null
-          '👦11~20세': number | null
-          '👨‍🦰20세 이상': number | null
-          '👶0~5세': number | null
-          '💔마음에 드는 척 한다.': number | null
-          '💣솔직하게 말한다.': number | null
-          '💸현금': number | null
-          '💻최신 전자제품': number | null
-          '🗑몰래 버린다.': number | null
-          '🤖포커페이스 한다.': number | null
-          '🧑6~10세': number | null
-          '🧱당근마켓에 판매한다.': number | null
-          '😇받고 싶은 선물이 없다.': number | null
-          created_at: string
-          id: number
+          first_adult: number | null
+          first_baby: number | null
+          first_child: number | null
+          first_stilltrust: number | null
+          first_teenager: number | null
+          id: string
+          second_honest: number | null
+          second_pokerface: number | null
+          second_pretend: number | null
+          second_sell: number | null
+          second_throwaway: number | null
+          third_clothes: number | null
+          third_electronics: number | null
+          third_money: number | null
+          third_none: number | null
+          third_travelticket: number | null
         }
         Insert: {
-          '✈여행 티켓'?: number | null
-          '🎅아직도 믿음'?: number | null
-          '👔인기브랜드 의류'?: number | null
-          '👦11~20세'?: number | null
-          '👨‍🦰20세 이상'?: number | null
-          '👶0~5세'?: number | null
-          '💔마음에 드는 척 한다.'?: number | null
-          '💣솔직하게 말한다.'?: number | null
-          '💸현금'?: number | null
-          '💻최신 전자제품'?: number | null
-          '🗑몰래 버린다.'?: number | null
-          '🤖포커페이스 한다.'?: number | null
-          '🧑6~10세'?: number | null
-          '🧱당근마켓에 판매한다.'?: number | null
-          '😇받고 싶은 선물이 없다.'?: number | null
-          created_at?: string
-          id?: number
+          first_adult?: number | null
+          first_baby?: number | null
+          first_child?: number | null
+          first_stilltrust?: number | null
+          first_teenager?: number | null
+          id: string
+          second_honest?: number | null
+          second_pokerface?: number | null
+          second_pretend?: number | null
+          second_sell?: number | null
+          second_throwaway?: number | null
+          third_clothes?: number | null
+          third_electronics?: number | null
+          third_money?: number | null
+          third_none?: number | null
+          third_travelticket?: number | null
         }
         Update: {
-          '✈여행 티켓'?: number | null
-          '🎅아직도 믿음'?: number | null
-          '👔인기브랜드 의류'?: number | null
-          '👦11~20세'?: number | null
-          '👨‍🦰20세 이상'?: number | null
-          '👶0~5세'?: number | null
-          '💔마음에 드는 척 한다.'?: number | null
-          '💣솔직하게 말한다.'?: number | null
-          '💸현금'?: number | null
-          '💻최신 전자제품'?: number | null
-          '🗑몰래 버린다.'?: number | null
-          '🤖포커페이스 한다.'?: number | null
-          '🧑6~10세'?: number | null
-          '🧱당근마켓에 판매한다.'?: number | null
-          '😇받고 싶은 선물이 없다.'?: number | null
-          created_at?: string
-          id?: number
+          first_adult?: number | null
+          first_baby?: number | null
+          first_child?: number | null
+          first_stilltrust?: number | null
+          first_teenager?: number | null
+          id?: string
+          second_honest?: number | null
+          second_pokerface?: number | null
+          second_pretend?: number | null
+          second_sell?: number | null
+          second_throwaway?: number | null
+          third_clothes?: number | null
+          third_electronics?: number | null
+          third_money?: number | null
+          third_none?: number | null
+          third_travelticket?: number | null
         }
-        Relationships: []
+        Relationships: [
+          {
+            foreignKeyName: 'survey_id_fkey'
+            columns: ['id']
+            isOneToOne: false
+            referencedRelation: 'users'
+            referencedColumns: ['id']
+          },
+        ]
       }
       survey2: {
         Row: {
@@ -386,6 +417,7 @@ export interface Database {
           id: number
           second_question: Json
           third_question: Json
+          user_id: string | null
         }
         Insert: {
           created_at?: string
@@ -393,6 +425,7 @@ export interface Database {
           id?: number
           second_question: Json
           third_question: Json
+          user_id?: string | null
         }
         Update: {
           created_at?: string
@@ -400,6 +433,34 @@ export interface Database {
           id?: number
           second_question?: Json
           third_question?: Json
+          user_id?: string | null
+        }
+        Relationships: []
+      }
+      youtube_test: {
+        Row: {
+          etag: string | null
+          items: string | null
+          kind: string | null
+          nextpagetoken: string | null
+          pageinfo: string | null
+          regioncode: string | null
+        }
+        Insert: {
+          etag?: string | null
+          items?: string | null
+          kind?: string | null
+          nextpagetoken?: string | null
+          pageinfo?: string | null
+          regioncode?: string | null
+        }
+        Update: {
+          etag?: string | null
+          items?: string | null
+          kind?: string | null
+          nextpagetoken?: string | null
+          pageinfo?: string | null
+          regioncode?: string | null
         }
         Relationships: []
       }
