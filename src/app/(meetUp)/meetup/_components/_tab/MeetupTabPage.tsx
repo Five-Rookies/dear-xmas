@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import styles from '@/app/(meetUp)/meetup/meetup.module.scss'
-import TabLoading from './TabLoading'
+import TabLoading from '@/app/(meetUp)/meetup/_components/_tab/TabLoading'
 
 const MeetupTabPage = ({
   children,
@@ -10,14 +10,13 @@ const MeetupTabPage = ({
   children: React.JSX.Element
 }): React.JSX.Element => {
   const [isLoading, setIsLoading] = useState<boolean>(false)
+
   useEffect(() => {
     setIsLoading(true)
-
     setTimeout(() => {
       setIsLoading(false)
-    }, 400)
-  }, [children])
-
+    }, 200)
+  }, [])
   return (
     <div className={styles.contents}>
       {isLoading ? <TabLoading /> : children}

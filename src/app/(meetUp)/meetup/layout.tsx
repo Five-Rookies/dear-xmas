@@ -18,7 +18,10 @@ const MeetupLayout = async (props: any): Promise<React.JSX.Element> => {
 
   return (
     <div className={styles.layout}>
-      <div style={{ paddingTop: '4.6619rem' }}>
+      <div
+        className={`inner-box ${styles.pageContainer}`}
+        style={{ paddingTop: '4.6619rem' }}
+      >
         <div className={styles.pageHeader}>
           <div>
             <h1>안녕하세요, {userName}님</h1>
@@ -26,8 +29,8 @@ const MeetupLayout = async (props: any): Promise<React.JSX.Element> => {
           </div>
         </div>
       </div>
-      <div className={` ${styles.container}`}>
-        <div className={styles.meetupColumn}>
+      <div className={styles.container}>
+        <div className={`inner-box ${styles.meetupColumn}`}>
           <MeetupTabButtons />
           <MeetupTabPage>{props.children}</MeetupTabPage>
         </div>
