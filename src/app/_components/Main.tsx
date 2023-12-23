@@ -54,8 +54,8 @@ const Main = () => {
             src="/assets/tree.png"
             width={0}
             height={0}
-            sizes="6.5rem"
-            style={{ width: '6.5rem', height: 'auto' }}
+            sizes="5rem"
+            style={{ width: '5rem', height: 'auto' }}
             alt=""
           />
         </li>
@@ -102,15 +102,17 @@ const Main = () => {
       </ul>
       <div className={styles.snowBgSecond}></div>
       <div className={styles.snowBgSecond}></div>
-      <div className={styles.snowBg}>
-        <h2>Introduce</h2>
-        <p>
-          Dear, Xmas에서 특별한 순간을 함께 만들어요! 분위기를 업시키는 노래와
-          <span>재미있는 콘텐츠로</span> <span>이번 크리스마스를</span> 더 특별하게
-          기억해보아요.
-        </p>
+      <div className={styles.snowBg}> </div>
+      <div className={styles.introTextBox}>
+        <div className="inner-box">
+          <h2>Introduce</h2>
+          <p>
+            Dear, Xmas에서 특별한 순간을 함께 만들어요! 분위기를 업시키는 노래와
+            <span>재미있는 콘텐츠로</span> <span>이번 크리스마스를</span> 더
+            특별하게 기억해보아요.
+          </p>
+        </div>
       </div>
-
       <Image
         className={styles.santa}
         src="/assets/santa.png"
