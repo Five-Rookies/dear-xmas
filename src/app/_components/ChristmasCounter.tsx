@@ -7,7 +7,12 @@ import { calculateTimeUntilDays } from '@/utils/calculateTimeUntilDay'
 const ChristmasCounter = () => {
   const [timeRemaining, setTimeRemaining] = useState('')
   const [dayRemaining, setDayRemaining] = useState('')
-  const christmas = new Date(new Date().getFullYear(), 11, 25)
+  const now = new Date()
+  const year =
+    now.getMonth() === 11 && now.getDate() > 25
+      ? now.getFullYear() + 1
+      : now.getFullYear()
+  const christmas = new Date(year, 11, 25)
   useEffect(() => {
     calculateTimeUntilDays(
       'D-Day',
