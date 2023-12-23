@@ -37,6 +37,15 @@ const SurveyModal = ({ surveyList, handleModalClose }: any) => {
     third_travelticket: false,
     third_none: false,
   })
+  
+  useEffect(() => {
+    // 모달이 열릴 때 body의 overflow를 hidden으로 설정
+    document.body.style.overflow = 'hidden'
+    return () => {
+      // 모달이 닫힐 때 body의 overflow를 초기 상태로 복원
+      document.body.style.overflow = 'auto'
+    }
+  })
 
   const getUserId = async (): Promise<void> => {
     const {
@@ -51,6 +60,7 @@ const SurveyModal = ({ surveyList, handleModalClose }: any) => {
       [event.target.name]: event.target.checked,
     })
   }
+
 
   useEffect(() => {
     getUserId()
@@ -78,11 +88,14 @@ const SurveyModal = ({ surveyList, handleModalClose }: any) => {
     try {
       await updateServeyData(userId, firstAnswer, secondAnswer, thirdAnswer)
       alert('설문이 완료되었습니다🎅🏻')
+      setTimeout(() => {
+        handleModalClose()
+      }, 500)
     } catch (error) {
       console.error(error)
       alert('오류가 발생하였습니다!')
     }
-    // handleModalClose()
+    
   }
 
   return (
