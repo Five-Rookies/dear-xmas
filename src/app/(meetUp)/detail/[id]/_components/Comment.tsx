@@ -32,7 +32,8 @@ interface ICommentProps {
 }
 
 const Comment = ({ comment, fetchComments }: ICommentProps) => {
-  const { id, user_name, comment_content, profile_img, created_at } = comment
+  const { id, user_id, user_name, comment_content, profile_img, created_at } =
+    comment
 
   const COMMENT_ID: number = id
   const profiles: any[] = [santa, snowman, candle, cookie]
@@ -178,16 +179,19 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
           <span>&nbsp;{likeCount}</span>
         </button>
       </div>
-      <p
-        className={
-          isDotMenuVisible
-            ? `${styles.moreBtn} ${styles.active}`
-            : styles.moreBtn
-        }
-        onClick={handleClickDotMenu}
-      >
-        ⋮
-      </p>
+      {userId === user_id && (
+        <p
+          className={
+            isDotMenuVisible
+              ? `${styles.moreBtn} ${styles.active}`
+              : styles.moreBtn
+          }
+          onClick={handleClickDotMenu}
+        >
+          ⋮
+        </p>
+      )}
+
       {isDotMenuVisible && (
         <div className={styles.dotMenu}>
           <button onClick={() => handleClickEditButton()}>수정</button>
