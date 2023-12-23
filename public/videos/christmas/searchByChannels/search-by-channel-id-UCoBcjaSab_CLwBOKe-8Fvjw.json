@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "XreDmnK7UTwDuk0PTlyUilXT6oE",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1054,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FwMQJjljJmD43OIGoUPQE_XMR3E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JIMixtvOaDw"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-03T06:00:05Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "윤하(YOUNHA) - Black hole [가사/Lyrics]",
+        "description": "윤하(YOUNHA) - Black hole [가사/Lyrics] #윤하 #YOUNHA #Blackhole 발매 : 2022.03.30 아티스트 : 윤하 앨범 : YOUNHA 6th ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JIMixtvOaDw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JIMixtvOaDw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JIMixtvOaDw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-03T06:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6OGRFAvugNJ5cyS3aB0CFHdBf7c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "txtfrHBvI7c"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-01T10:02:47Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "로이킴 - 그대가 있는 곳, 언제 어디든 (로이킴 X 마이데몬) [가사/Lyrics]",
+        "description": "로이킴 - 그대가 있는 곳, 언제 어디든 (로이킴 X 마이데몬) [가사/Lyrics] #로이킴 #그대가있는곳언제어디든 #마이데몬 발매 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/txtfrHBvI7c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/txtfrHBvI7c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/txtfrHBvI7c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-01T10:02:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5pEn8UeXzLcm3i5mcfEzb22dRBA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MjXeOAouF3w"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-13T10:00:29Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "이무진 - 에피소드 [가사/Lyrics]",
+        "description": "이무진 - 에피소드 [가사/Lyrics] #이무진 #에피소드 발매 : 2023.12.13 아티스트 : 이무진 앨범 : 에피소드 작곡 : 이무진, 이단옆차기, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MjXeOAouF3w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MjXeOAouF3w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MjXeOAouF3w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-13T10:00:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sw9sxWerAg5aV_cH4rT24uaSAxE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4YKi6-vhAcw"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-18T09:00:05Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "에릭남(Eric Nam), 웬디 (WENDY) -봄인가 봐 (Spring Love) [가사/Lyrics]",
+        "description": "에릭남(Eric Nam), 웬디 (WENDY) -봄인가 봐 (Spring Love) [가사/Lyrics] #에릭남 #웬디 #봄인가봐 #EricNam #WENDY ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4YKi6-vhAcw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4YKi6-vhAcw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4YKi6-vhAcw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-18T09:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OEZMNJsvj2RcGOqts0DLBZBGwFQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0ATMKNLZTTc"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-12T09:00:00Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "이무진 - 눈이 오잖아 (Feat.헤이즈) [가사/Lyrics]",
+        "description": "이무진 - 눈이 오잖아 (Feat.헤이즈) [가사/Lyrics] #이무진 #눈이오잖아 #헤이즈 발매 : 2021.12.03 아티스트 : 이무진 앨범 : 눈이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0ATMKNLZTTc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0ATMKNLZTTc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0ATMKNLZTTc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-12T09:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2_JJ3n5V_LnsJi30uxIxqYymSOY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cFgk2PMgPJ4"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-27T10:00:22Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "윤하(YOUNHA) - 오르트구름 [가사/Lyrics]",
+        "description": "윤하(YOUNHA) - 오르트구름 [가사/Lyrics] #윤하 #YOUNHA #오르트구름 발매 : 2021.11.16 아티스트 : 윤하 앨범 : YOUNHA 6th ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cFgk2PMgPJ4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cFgk2PMgPJ4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cFgk2PMgPJ4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-27T10:00:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sF0fR0GF7AAgCjWpuHFnGAHD52I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JHp_yHa1TZg"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-04T10:00:11Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "케이시(Kassy) - 사실말야내가말야그게그러니까말이야 [가사/Lyrics]",
+        "description": "케이시(Kassy) - 사실말야내가말야그게그러니까말이야 [가사/Lyrics] #케이시 #Kassy #사실말야내가말야그게그너끼말이야 발매 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JHp_yHa1TZg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JHp_yHa1TZg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JHp_yHa1TZg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-04T10:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IzvM67Wk-ADsb1vZnBHrX9Lrr9c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Tp8wIaYC1RM"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-16T09:00:31Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "Lil Nas X - Star Walkin’ (리그 오브 레전드 월드 챔피언십 주제곡) [가사/Lyrics]",
+        "description": "Lil Nas X - Star Walkin' (리그 오브 레전드 월드 챔피언십 주제곡) [가사/Lyrics] #LilNasX #StarWalkin #리그오브레전드 발매 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Tp8wIaYC1RM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Tp8wIaYC1RM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Tp8wIaYC1RM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-16T09:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eWpow3M9X682kP1cfUWGIpNBwgY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "54vt4Nalaa8"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-28T10:00:05Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "백아 - 첫사랑 [가사/Lyrics]",
+        "description": "백아 - 첫사랑 [가사/Lyrics] #백아 #첫사랑 발매 : 2018.10.11 아티스트 : 백아 앨범 : 첫사랑 작곡 : 백아 작사 : 백아 편곡 : 백아 해당 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/54vt4Nalaa8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/54vt4Nalaa8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/54vt4Nalaa8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-28T10:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nF_cHnalWQqn6Zr8nuEPOnUdXmM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tj5WMDdlpYE"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-27T09:00:26Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "인피니트 - 하얀 고백 (Lately) [가사/Lyrics]",
+        "description": "인피니트 - 하얀 고백 (Lately) [가사/Lyrics] #인피니트 #하얀고백 #Lately 발매 : 2011.12.06 아티스트 : 인피니트 앨범 : 하얀 고백 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tj5WMDdlpYE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tj5WMDdlpYE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tj5WMDdlpYE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-27T09:00:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wNs9ogJICfReSxnwGDnyFK7bS1o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "COcuU8LKawk"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-28T09:00:13Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "최유리 - 숲 [가사/Lyrics]",
+        "description": "최유리 - 숲 [가사/Lyrics] #최유리 #숲 발매 : 2022.08.24 아티스트 : 최유리 앨범 : 유영 작곡 : 최유리 작사 : 최유리 편곡 : 최유리, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/COcuU8LKawk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/COcuU8LKawk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/COcuU8LKawk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-28T09:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZarSsoxTBF_wMGEXDe6tj0Bqmc4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MEqHS1bybMQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-13T08:00:15Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "정승환 - 눈사람 [가사/Lyrics]",
+        "description": "정승환 - 눈사람 [가사/Lyrics] #정승환 #눈사람 발매 : 2018.02.19 아티스트 : 정승환 앨범 : 그리고 봄 작곡 : 제휘 작사 : 아이유(IU) 편곡 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MEqHS1bybMQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MEqHS1bybMQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MEqHS1bybMQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-13T08:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Crth_tHjgIefap5rQZPBDOHB7-w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GZGKHDppYjg"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-20T09:00:16Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "DAY6(데이식스) - 행복했던 날들이었다 [가사/Lyrics]",
+        "description": "DAY6(데이식스) - 행복했던 날들이었다 [가사/Lyrics] #DAY6 #데이식스 #행복했던날들이었다 발매 : 2018.12.10 아티스트 : DAY6( ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GZGKHDppYjg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GZGKHDppYjg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GZGKHDppYjg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-20T09:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aNuiaE-eCWB6_0W2Kk1FWrQ9BN8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WTSQc0oedlU"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-20T09:00:18Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "소유 (SOYOU) - I Miss You [도깨비 OST] [가사/Lyrics]",
+        "description": "소유 (SOYOU) - I Miss You [도깨비 OST] [가사/Lyrics] #소유 #IMissYou #도깨비OST 발매 : 2016.12.31 아티스트 : 소유 (SOYOU) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WTSQc0oedlU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WTSQc0oedlU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WTSQc0oedlU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-20T09:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YTLhZllKqQpvMd5WB-ib2R1ytRs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DN12I3U5j98"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-06T09:00:05Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "서영은 - 혼자가 아닌 나 [가사/Lyrics]",
+        "description": "서영은 - 혼자가 아닌 나 [가사/Lyrics] #서영은 #혼자가아닌나 발매 : 2004.01.07 아티스트 : 서영은 앨범 : Gift 작곡 : 정용국, 최태완 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DN12I3U5j98/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DN12I3U5j98/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DN12I3U5j98/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-06T09:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Gh-d-wm9cXC2PwdL5ViEJJYUTMY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3gMAEZCOFtE"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-26T10:00:03Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "볼빨간사춘기(BOL4) - 나의 사춘기에게 [가사/Lyrics]",
+        "description": "볼빨간사춘기(BOL4) - 나의 사춘기에게 [가사/Lyrics] #볼빨간사춘기 #나의사춘기에게 #BOL4 발매일 : 2017.09.28 아티스트 : 볼빨간 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3gMAEZCOFtE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3gMAEZCOFtE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3gMAEZCOFtE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-26T10:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "a6vUxA9xM-6K96dwkG3Qj1UEYMI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ScRKKCn6kps"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-31T09:19:26Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "지수 (JISOO) - 꽃 [가사/Lyrics]",
+        "description": "지수 (JISOO) - 꽃 [가사/Lyrics] #지수 #JISOO #꽃 발매 : 2023.03.31 아티스트 : 지수 (JISOO) 앨범 : ME 작곡 : 24, VVN, KUSH(쿠시) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ScRKKCn6kps/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ScRKKCn6kps/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ScRKKCn6kps/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-31T09:19:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Rdr1-VhvW2YNFXP7a7KkrKFGF2w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iqe220lkJzc"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-31T09:00:20Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "Sondia - 어른 [나의 아저씨 OST] [가사/Lyrics]",
+        "description": "Sondia - 어른 [나의 아저씨 OST] [가사/Lyrics] #Sondia #어른 #나의아저씨 발매일 : 2018.03.29 아티스트 : Sondia 앨범명 : 나의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iqe220lkJzc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iqe220lkJzc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iqe220lkJzc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-31T09:00:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WqZOfPKypXkm8n1XXUKS0iHbjpA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "liuUvw85mFk"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-09T09:00:34Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "Sia (시아) - Snowman [가사/Lyrics]",
+        "description": "Sia (시아) - Snowman [가사/Lyrics] #Sia #시아 #Snowman 발매 : 2022.12.30 아티스트 : Sia 앨범 : Everyday Is Christmas ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/liuUvw85mFk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/liuUvw85mFk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/liuUvw85mFk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-09T09:00:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CHUeEP6EDLn4nq8JecH12aDqHjs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aZP41h5e7wE"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-14T12:00:00Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "폴킴(Paul Kim) - 비 [가사/Lyrics]",
+        "description": "폴킴(Paul Kim) - 비 [가사/Lyrics] #폴킴 #비 발매일 : 2016.06.21 아티스트 : 폴킴 앨범명 : 비 작곡가 : 폴킴 작사가 : 폴킴 편곡자 : 조셉 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aZP41h5e7wE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aZP41h5e7wE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aZP41h5e7wE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-14T12:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BiEXEW8Cm6Pl606-3SdsG02rc6Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TV-U45a4Auk"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-26T11:00:29Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "이승철 - 그런 사람 또 없습니다 [슬픔보다 더 슬픈이야기 OST] [가사/Lyrics]",
+        "description": "이승철 - 그런 사람 또 없습니다 [슬픔보다 더 슬픈이야기 OST] [가사/Lyrics] #이승철 #그런사람또없습니다 #슬픔보다더슬픈 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TV-U45a4Auk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TV-U45a4Auk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TV-U45a4Auk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-26T11:00:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rHpYXp6_KKtXcZrfjG8cGf9dG_I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "61pRq2zfsHo"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-06T09:00:05Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "10CM - 폰서트 [가사/Lyrics]",
+        "description": "10CM - 폰서트 [가사/Lyrics] #10CM #폰서트 발매 : 2017.09.01 아티스트 : 10CM 앨범 : 4.0 작곡 : 10CM, 권정열 작사 : 10CM, 권정열 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/61pRq2zfsHo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/61pRq2zfsHo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/61pRq2zfsHo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-06T09:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HMMgNtbuQWfySlEKykRZuZD_MhU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3_nnLq4D3tc"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-22T09:00:03Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "성시경 - 희재 [국화꽃 향기 OST] [가사/Lyrics]",
+        "description": "성시경 - 희재 [국화꽃 향기 OST] [가사/Lyrics] #성시경 #희재 발매 : 2003.02.12 아티스트 : 성시경 앨범 : 국화꽃 향기 OST (The Scent ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3_nnLq4D3tc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3_nnLq4D3tc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3_nnLq4D3tc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-22T09:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Mm6n9v3reJSljFyxW5LgkQfbBQo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "82QbjPoHmyg"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-04T10:00:06Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "10CM - 사랑은 은하수 다방에서 [가사/Lyrics]",
+        "description": "10CM - 사랑은 은하수 다방에서 [가사/Lyrics] #10CM #사랑은은하수다방에서 발매 : 2011.02.10 아티스트 : 10CM 앨범 : 1.0 작곡 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/82QbjPoHmyg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/82QbjPoHmyg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/82QbjPoHmyg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-04T10:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_0roVFfIraikbFShY49hAWkKOds",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LQ0WkGdOEDY"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-16T09:00:11Z",
+        "channelId": "UCoBcjaSab_CLwBOKe-8Fvjw",
+        "title": "이루 - 흰눈 [가사/Lyrics]",
+        "description": "이루 - 흰눈 [가사/Lyrics] #이루 #흰눈 발매 : 2006.10.09 아티스트 : 이루 앨범 : LEVEL Ⅱ 작곡 : 이루 작사 : 이루, 이주호 편곡 : 이주호 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LQ0WkGdOEDY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LQ0WkGdOEDY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LQ0WkGdOEDY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "웅키",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-16T09:00:11Z"
+      }
+    }
+  ]
+}

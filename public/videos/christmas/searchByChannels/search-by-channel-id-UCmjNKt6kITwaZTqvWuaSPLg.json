@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "nRRJTi88iJISkksUEv89Rq_noyQ",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 215691,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qrTJEWBnvdHdo8bB63uxFQlhq7Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uHGD0Ft2nVw"
+      },
+      "snippet": {
+        "publishedAt": "2016-11-13T09:51:41Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "케이윌과 상큼 발랄 세 소녀의 &#39;오늘부터 1일&#39; 《Fantastic Duo》판타스틱 듀오 EP29",
+        "description": "Fantastic Duo 판타스틱 듀오 EP29 20161113 SBS 케이윌과 판타스틱 듀오가 되기 위한 세 도전자의 '오늘부터 1일' 무대가 펼쳐진다 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uHGD0Ft2nVw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uHGD0Ft2nVw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uHGD0Ft2nVw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-11-13T09:51:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ubcu7jY3VGGcxDfvyPf-XJavFtU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XCa04Mc8HQY"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-07T15:37:51Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "‘감성 천재’ 한여름, 절절한 감성의 ＜안동역에서＞ 발라드 ver.ㅣ트롯신이 떴다 (K-Trot in Town)ㅣSBS ENTER.",
+        "description": "한여름은 진성의 ＜안동역에서＞를 발라드 버전으로 바꿔 감성 충만한 무대를 선보인다. SBS 수요일 예능 '트롯신이떴다(K-Trot in ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XCa04Mc8HQY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XCa04Mc8HQY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XCa04Mc8HQY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-07T15:37:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PtM4xz3yLcqE1AX7HlqrWdVLuUc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "imH-NCfpFiM"
+      },
+      "snippet": {
+        "publishedAt": "2017-09-30T17:14:15Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "EXO, 훈남들의 비주얼 파티 ‘call me baby’ @박진영의 파티피플 10회 20170930",
+        "description": "박진영의 파티피플 10회 SBS 20170930 엑소는 박진영의 파티 피플 무대에서 call me baby를 멋지게 소화해내기에 이른다. 홈페이지 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/imH-NCfpFiM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/imH-NCfpFiM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/imH-NCfpFiM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-09-30T17:14:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TR7PHTpj0BbhbI0ySrY-2VeIOjw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "l9rCND89LOc"
+      },
+      "snippet": {
+        "publishedAt": "2016-11-13T09:51:42Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "필리핀 경호사모, 첫인상 무대 부터 기립을 부르는 폭발력 &#39;비련&#39; 《Fantastic Duo》판타스틱 듀오 EP29",
+        "description": "Fantastic Duo 판타스틱 듀오 EP29 20161113 SBS 김경호와 판듀가 되기 위해 도전하는 '필리핀 경호사모'는 첫인상 무대부터 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/l9rCND89LOc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/l9rCND89LOc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/l9rCND89LOc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-11-13T09:51:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Wfp8NGRrXMv6ceJg3bOK7PEUnJE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bGlnn5JNoVA"
+      },
+      "snippet": {
+        "publishedAt": "2017-09-30T17:14:49Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "찬열, 여심 흔드는 감미로운 목소리 ‘Creep’  | 박진영의 파티피플 (PARTY PEOPLE) | SBS ENTER.",
+        "description": "박진영의 파티피플 10회 SBS 20170930 찬열은 감미로운 목소리로 크립을 열창하기 시작한다. 홈페이지 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bGlnn5JNoVA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bGlnn5JNoVA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bGlnn5JNoVA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-09-30T17:14:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "u4kHmhXoPFhmL7IDzwZ3B9BU37s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "famSCqO0Dlg"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-25T11:03:07Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "Red Velvet (조이), ‘내 입술.. 따뜻한 커피처럼 (원곡, 샵)’ㅣ2021 SBS 가요대전(2021sbsgayo)ㅣSBS ENTER.",
+        "description": "2021 가요대전 SBS 예능 '2021 SBS 가요대전(2021sbsgayo)' ☞ 12월 25일 오후 6시 본 방송 #2021SBS가요대전 #조이 #JOY ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/famSCqO0Dlg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/famSCqO0Dlg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/famSCqO0Dlg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-25T11:03:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MuMBNb_rnl-pdoH_AkFa8zkeFKg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kSnCMqWXfhU"
+      },
+      "snippet": {
+        "publishedAt": "2016-07-17T09:19:47Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "SISTAR&#39;s fans singing ‘Give It To Me’ make SISTAR chills! 《Fantastic Duo》판타스틱 듀오 EP14",
+        "description": "Fantastic Duo 판타스틱 듀오 EP14 20160717 SBS 쌍문동 애봉이, 씨스타로 인생역전, 영광 굴비소녀는 'Give It To Me ' 불렀고, 씨스 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kSnCMqWXfhU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kSnCMqWXfhU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kSnCMqWXfhU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-07-17T09:19:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dn1TMHKhk1wm74jNvsxwOqJAU0M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uYjY73Eu2jY"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-09T15:44:22Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "한여름×강문경, 영화 같은 듀엣 무대 ‘미운 사랑’ㅣ트롯신이 떴다 (K-Trot in Town)ㅣSBS ENTER.",
+        "description": "한여름과 강문경은 미운사랑으로 영화 같은 멋진 듀엣 무대를 선보인다. SBS 수요일 예능 '트롯신이떴다' ☞밤 8시 55분 본 방송 #트롯 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uYjY73Eu2jY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uYjY73Eu2jY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uYjY73Eu2jY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-09T15:44:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pZNRkUM8nvqmFnwB9CfHCl3ABxY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vFssH_mN_F0"
+      },
+      "snippet": {
+        "publishedAt": "2019-12-25T09:19:00Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "‘대부 요정의 마법♬’ 진＆제이홉의 ‘Feliz Navidad’ | 2019 SBS 가요대전(2019 SBS K-POP AWARDS) | SBS Enter.",
+        "description": "진 & 제이홉 - 'Feliz Navidad' ♪ #SBS가요대전 #진 #제이홉 ▷ Hompage : https://programs.sbs.co.kr/enter/2019sbsgayo ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vFssH_mN_F0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vFssH_mN_F0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vFssH_mN_F0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-12-25T09:19:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "l7uUtOXmC92YPzDb4jmDGuYASKY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cM4YL_ntwW4"
+      },
+      "snippet": {
+        "publishedAt": "2016-05-15T09:23:39Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "Goosebumps warning! &#39;Ailee - I Will Show You&#39; 1:3 Random play match 《Fantastic Duo》판타스틱 듀오 EP05",
+        "description": "Fantastic Duo 판타스틱 듀오 EP05 20160515 SBS Candidates 1 to 3 random play match performance, 'I Will Show You' gives all ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cM4YL_ntwW4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cM4YL_ntwW4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cM4YL_ntwW4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-05-15T09:23:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TSa6gdOx2YFLi2Gocj7lOiQRYxg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2mRwZbx_2yM"
+      },
+      "snippet": {
+        "publishedAt": "2016-04-24T10:17:46Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "태양(Taeyang) - 눈, 코, 입(Eyes, Nose, Lips)♬ |판타스틱 듀오(Fantastic Duo)| SBS ENTER",
+        "description": "태양(Taeyang) - 눈, 코, 입(Eyes, Nose, Lips)♬ #BIGBANG #Taeyang #눈코입 판타스틱 듀오(Fantastic Duo) 2회 20160424 SBS ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2mRwZbx_2yM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2mRwZbx_2yM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2mRwZbx_2yM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-04-24T10:17:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Y5Mat6y5u72gcjEU_dFK2XDDaHU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cZ8QC64Yytk"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-25T09:36:18Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "크리스마스 오프닝 스페셜 무대 ‘All I Want for Christmas Is You♬’ㅣ2021 SBS 가요대전(2021sbsgayo)ㅣSBS ENTER.",
+        "description": "2021 SBS 가요대전 SBS 예능 '2021 SBS 가요대전(2021sbsgayo)' ☞ 12월 25일 오후 6시 본 방송 #2021SBS가요대전 #크리스마스 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cZ8QC64Yytk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cZ8QC64Yytk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cZ8QC64Yytk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-25T09:36:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "13QVRZqieUuVadOhptbfiqKQvHk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1uk7176wJFk"
+      },
+      "snippet": {
+        "publishedAt": "2016-04-24T10:29:07Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "Kim Bum Soo &amp; Kim Da Mi, perfect harmonizing &#39;I Miss You&#39; 《Fantastic Duo》판타스틱 듀오 EP02",
+        "description": "Fantastic Duo 판타스틱 듀오 EP02 20160424 SBS The last episode winner team Kim Bum Soo & Kim Da Mi singing 'I Miss You' ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1uk7176wJFk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1uk7176wJFk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1uk7176wJFk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-04-24T10:29:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kLuw1BxmYbHyLJhXW8deuG0-V0o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MPzbTJN5wVc"
+      },
+      "snippet": {
+        "publishedAt": "2016-07-10T09:45:55Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "양희은(Yang HeeEun) X 악동뮤지션(AKMU) - 엄마가 딸에게(Mother to daughter) | 판타스틱 듀오2 (Fantastic Duo2) | SBS ENTER",
+        "description": "양희은(Yang Hee Eun) X 악동뮤지션(AKMU) - 엄마가 딸에게(Mother to daughter) #양희은 #악동뮤지션 #엄마가딸에게 판타스틱 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MPzbTJN5wVc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MPzbTJN5wVc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MPzbTJN5wVc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-07-10T09:45:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LxasnKmfTFsV97NN-d1nMEa_Fp4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wEgCZWrHQYo"
+      },
+      "snippet": {
+        "publishedAt": "2019-12-25T09:29:53Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "소년에서 상남자로 변신한 TOMORROW X TOGETHER! | 2019 SBS 가요대전(2019 SBS K-POP AWARDS) | SBS Enter.",
+        "description": "TOMORROW X TOGETHER - '상남자' ♪ #SBS가요대전 #TOMORROWXTOGETHER #상남자 ▷ Hompage ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wEgCZWrHQYo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wEgCZWrHQYo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wEgCZWrHQYo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-12-25T09:29:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NP2JKSxSkVFEeG57Bw0t0F6HiNs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "csCCdQLqcVY"
+      },
+      "snippet": {
+        "publishedAt": "2017-12-25T13:28:05Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "블랙핑크(BLACKPINK) - So Hot♬  | 2017 SBS 가요대전 1부 | SBS ENTER",
+        "description": "블랙핑크(BLACKPINK) - So Hot♬ #블랙핑크 #BLACKPINK #SOHOT 2017 SBS 가요대전 1부 20171225 SBS ▷ Hompage ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/csCCdQLqcVY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/csCCdQLqcVY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/csCCdQLqcVY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-12-25T13:28:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rgEdkYdUT521-BNSO77rpyKzY9s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fjckPX8Kw48"
+      },
+      "snippet": {
+        "publishedAt": "2017-08-27T11:26:17Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "[풀버전] 김종국, 이수현과 판타스틱 콜라보 ‘중독’ 《Fantastic Duo 2》 판타스틱 듀오 2 EP22",
+        "description": "김종국 #이수현 #중독 Fantastic Duo 2 판타스틱 듀오 2 EP22 20170827 SBS 김종국과 악동뮤지션의 이수현은 '중독'을 함께 열창 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fjckPX8Kw48/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fjckPX8Kw48/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fjckPX8Kw48/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-08-27T11:26:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZRi4_TojyrJWFKxKoz5dvtglIo4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ms-SRDXoUPw"
+      },
+      "snippet": {
+        "publishedAt": "2017-06-04T11:03:40Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "아이유와 판듀가 되기 위한 5인 5색 가창력 폭발 ‘좋은 날’ 《Fantastic Duo 2》 판타스틱 듀오 2 EP10",
+        "description": "Fantastic Duo 2 판타스틱 듀오 2 EP10 20170604 SBS 아이유와 최종 판듀를 이루기 위한 경쟁자들이 '좋은 날'을 열창하며 1:5 대결 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ms-SRDXoUPw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ms-SRDXoUPw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ms-SRDXoUPw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-06-04T11:03:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "c3CXxYQO6mESmz9SHnzXyxmDEa8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lZnJFiyVfWo"
+      },
+      "snippet": {
+        "publishedAt": "2017-06-04T11:03:41Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "아이유·마트 보안관, 환상 하모니로 재해석한 ‘너랑 나’ 《Fantastic Duo 2》 판타스틱 듀오 2 EP10",
+        "description": "Fantastic Duo 2 판타스틱 듀오 2 EP10 20170604 SBS 아이유와 '성남 마트 보안관'은 아이유의 '너랑 나'를 선곡해 환상적인 화음의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lZnJFiyVfWo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lZnJFiyVfWo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lZnJFiyVfWo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-06-04T11:03:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AKZWMUqJ2hC63xd4xptgEg2u_U0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PNaQfIHk74Y"
+      },
+      "snippet": {
+        "publishedAt": "2017-11-12T10:38:23Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "효린XGOT7, 기선제압용 특급 콜라보 ‘BLUE MOON’ 《Fantastic Duo 2》 판타스틱 듀오 2 EP32",
+        "description": "Fantastic Duo 2 판타스틱 듀오 2 EP32 20171112 SBS 효린과 GOT7은 지누션에 기선제압하기 위해 특급 콜라보를 자아낸다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PNaQfIHk74Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PNaQfIHk74Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PNaQfIHk74Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-11-12T10:38:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3JaBnfaCoKhYFVcVF86nMGGG3bs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "niLWh6G49-A"
+      },
+      "snippet": {
+        "publishedAt": "2017-05-21T11:58:12Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "에일리, 한우 총각과 숨 멎을 듯한 감성 ‘첫눈처럼 너에게 가겠다’ 《Fantastic Duo 2》 판타스틱 듀오 2 EP08",
+        "description": "Fantastic Duo 2 판타스틱 듀오 2 EP08 20170521 SBS 가수 에일리는 판듀 한우 총각과 함께 도깨비 ost를 부르며 관객들의 감탄을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/niLWh6G49-A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/niLWh6G49-A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/niLWh6G49-A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-05-21T11:58:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XF7iqSZl1vXU6gJRswBC4AxYm4U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vrEjAjj_lzA"
+      },
+      "snippet": {
+        "publishedAt": "2017-03-26T11:02:46Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "이소라, 판듀 후보 7인과 ‘미친 감성’ 무대 ‘제발’ 《Fantastic Duo 2》 판타스틱 듀오 2 EP01",
+        "description": "Fantastic Duo 2 판타스틱 듀오 2 EP01 20170326 SBS 이소라는 자신과 한 팀을 이룰 3명을 가리기 위해 7명의 후보와 함께 '제발'을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vrEjAjj_lzA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vrEjAjj_lzA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vrEjAjj_lzA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-03-26T11:02:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "O47s2GjDYMgzk2lLZ5hXB0MzDcg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cEyQ0P7HjVw"
+      },
+      "snippet": {
+        "publishedAt": "2019-12-25T09:06:16Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "슈가 X 뷔, 상큼한 크리스마스 여는 ‘Jingle Bell Rock’  | 2019 SBS 가요대전(2019 SBS K-POP AWARDS) | SBS Enter.",
+        "description": "슈가 & 뷔 - 'Jingle Bell Rock' ♪ #SBS가요대전 #슈가 #뷔 ▷ Hompage : https://programs.sbs.co.kr/enter/2019sbsgayo ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cEyQ0P7HjVw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cEyQ0P7HjVw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cEyQ0P7HjVw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-12-25T09:06:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VFGAY-HhfpzpkY6kIYRCRhyXbZk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "US22fouLdIQ"
+      },
+      "snippet": {
+        "publishedAt": "2016-06-12T09:38:50Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "바이브, 평균 키 152cm 소녀들의 ‘미친 거니’ 《Fantastic Duo》판타스틱 듀오 EP09",
+        "description": "Fantastic Duo 판타스틱 듀오 EP09 20160612 SBS 평균 키가 152cm인 작은 체구의 소녀들이 파워 넘치는 가창력을 선보여 감탄을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/US22fouLdIQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/US22fouLdIQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/US22fouLdIQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-06-12T09:38:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XfeezrYVx4mkhQ5HPo4JhZmQpS0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cHbNaFNoHCY"
+      },
+      "snippet": {
+        "publishedAt": "2017-05-28T12:06:08Z",
+        "channelId": "UCmjNKt6kITwaZTqvWuaSPLg",
+        "title": "아이유(IU) X 싸이(PSY) - 어땠을까♬(What Would Have Been) | 판타스틱 듀오2 (Fantastic Duo2) | SBS ENTER",
+        "description": "아이유(IU) X 싸이(PSY) - 어땠을까(What Would Have Been) #아이유 #IU #PSY 판타스틱 듀오2(Fantastic Duo2) 9회 20170528 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cHbNaFNoHCY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cHbNaFNoHCY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cHbNaFNoHCY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "SBS Entertainment",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-05-28T12:06:08Z"
+      }
+    }
+  ]
+}

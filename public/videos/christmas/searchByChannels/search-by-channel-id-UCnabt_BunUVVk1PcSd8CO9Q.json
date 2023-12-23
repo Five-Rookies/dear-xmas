@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "27x0LcMId26G4-pSfs7_hxkiqmA",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 277,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NVjpFuSMWWl2CtWR1vp-haB1mnk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HdRClfDlEsI"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-19T11:00:07Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "0.01% 천재 삼 남매의 유산을 가로채려 한 사악한 백작의 최후 [영화리뷰/결말포함]",
+        "description": "레모니 스니켓의 위험한 대결(Lemony Snicket's A Series Of Unfortunate Events), 2004] - 본 영상은 스포일러가 포함되어 있습니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HdRClfDlEsI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HdRClfDlEsI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HdRClfDlEsI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-19T11:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4z6FSFUIPyYamk52_GtxOtfZIlQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WREeNuTGw4A"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-20T10:59:23Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "오필리아 시점에서 바라본 셰익스피어의 4대 비극 &#39;햄릿&#39; [영화리뷰/결말포함]",
+        "description": "[오필리아 (Ophelia), 2021] - 본 영상은 스포일러가 포함되어 있습니다. #데이지리들리 #조지맥케이 #나오미왓츠 #클라이브오웬 #톰 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WREeNuTGw4A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WREeNuTGw4A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WREeNuTGw4A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-20T10:59:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8EtMN4sh-eV54Kv51NSoEsRikN8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "145nkIfqP-w"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-04T11:00:02Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "0.01% 상류층 여대생들이 가난한 여교수를 무시하면 벌어지는 일 [영화리뷰/결말포함]",
+        "description": "모나리자 스마일(Mona Lisa Smile), 2003] - 본 영상은 스포일러가 포함되어 있습니다. #줄리아로버츠 #커스틴던스트 #줄리아 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/145nkIfqP-w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/145nkIfqP-w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/145nkIfqP-w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-04T11:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ytqypx7Yzl35k1rRR7XOU5v3srU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0DUYpQulNnI"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-22T11:00:18Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "노벨문학상 수상작과 &#39;안소니 홉킨스&#39;의 연기가 만나 명작이 된 영화  [영화리뷰/결말포함]",
+        "description": "남아있는 나날(The Remains of the Day), 1993] - 본 영상은 스포일러가 포함되어 있습니다. #남아있는나날 #안소니홉킨스 #엠마톰슨 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0DUYpQulNnI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0DUYpQulNnI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0DUYpQulNnI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-22T11:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DA6TNrnfdxGHjVVQ32iJjfLIVeU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AhrGbw4AVSM"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-06T11:00:03Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "감옥 같은 남편으로부터 벗어나기 위해 매일 달콤한 파이를 굽는 여인 [영화리뷰/결말포함]",
+        "description": "[웨이트리스 (Waitress), 2007] - 본 영상은 스포일러가 포함되어 있습니다. #케리러셀 #애드리안셸리 #셰릴하인즈 #나단필리언 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AhrGbw4AVSM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AhrGbw4AVSM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AhrGbw4AVSM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-06T11:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gqfXCrPjd7EJVvBaiA-BxP8eUmU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LLkqN2770RA"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-12T13:00:17Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "위대한 문학 소설을 수수께끼를 풀 듯 풀어낸 로맨스 스릴러 영화 [영화리뷰/결말포함]",
+        "description": "[레베카, 2020] - 본 영상은 스포일러가 포함되어 있으며, 넷플릭스에서 시청가능합니다. #레베카 #넷플릭스추천 #디토이야기.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LLkqN2770RA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LLkqN2770RA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LLkqN2770RA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-12T13:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "r8SBQBO00ce7WyE10loTy2yI884",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BdgdljOXtco"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-07T11:58:07Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "시간 속에 갇혀 모든 분야에 천재가 된 남자  [영화리뷰/결말포함]",
+        "description": "사랑의 블랙홀(Groundhog Day), 1993] - 본 영상은 스포일러가 포함되어 있습니다. #사랑의블랙홀 #빌머레이 #영화리뷰.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BdgdljOXtco/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BdgdljOXtco/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BdgdljOXtco/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-07T11:58:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2crvc9SVk-dEv8QbN-qdI8867qM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "duYH6gSlbP4"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-21T10:58:10Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "18세기 프랑스 왕가의 솔직한 모습을 99% 재현한 영화 [영화리뷰/결말포함]",
+        "description": "[마리 앙투아네트. 2006] -본 영상은 스포일리가 포함되어 있습니다. #마리앙투아네트 #영화추천 #디토이야기.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/duYH6gSlbP4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/duYH6gSlbP4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/duYH6gSlbP4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-21T10:58:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cJvMGQdpCXHD7oIgi8lvvB_ztY8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4kzwZAlqoBU"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-16T10:59:19Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "런던 최고의 천재 디자이너와 시골 마을 웨이트리스의 매혹적인 고딕 로맨스 [영화리뷰/결말포함]",
+        "description": "[팬텀 스레드 (Phantom Thread), 2018] - 본 영상은 스포일러가 포함되어 있습니다. #다니엘데이루이스 #빅키크리엡스 #레슬리맨빌.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4kzwZAlqoBU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4kzwZAlqoBU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4kzwZAlqoBU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-16T10:59:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Y7Mdzute_GMgXw0OK9oUZy_fr-s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aqUZ2IuPVHY"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-30T13:03:50Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "제인 오스틴의 이성과 감성을 아우르는 최고의 명작 로맨스 [영화리뷰/결말포함]",
+        "description": "[센스 앤 센서빌리티, 1995] - 본 영상은 스포일러가 포함되어 있습니다. #센스앤센서빌리티 #영화리뷰 #디토이야기.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aqUZ2IuPVHY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aqUZ2IuPVHY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aqUZ2IuPVHY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-30T13:03:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xCE_Wq-C0MOsoKxkW8SfpuOLqOU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "c4P70L7tL7w"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-12T11:56:00Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "평화롭던 황혼의 일상에서 첫사랑이 시작되다 [영화리뷰/결말포함]",
+        "description": "[라벤더의 연인들, 2004] - 본 영상은 스포일러가 포함되어 있습니다. #라벤더의연인들 #영화리뷰 #디토이야기.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/c4P70L7tL7w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/c4P70L7tL7w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/c4P70L7tL7w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-12T11:56:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "W1Prran0c5ax3L6LbG53Hp1w2Co",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TW0eo5YbHp4"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-19T11:00:06Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "잠 못 이루는 밤 보기 좋은 영화 [영화리뷰/결말포함]",
+        "description": "시애틀의 잠 못 이루는 밤(Sleepless In Seattle), 1993] - 본 영상은 스포일러가 포함되어 있습니다. #시애틀의잠못이루는밤 #톰행크스 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TW0eo5YbHp4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TW0eo5YbHp4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TW0eo5YbHp4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-19T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DN2DaDtef0x5D14CFQuOMiAK8KY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xZB8pgbpESw"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-08T13:00:51Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "0.1% 천재 가문에서 태어난  0.01% 천재 소녀 [영화리뷰/결말포함]",
+        "description": "[에놀라 홈즈, 2020] - 본 영상은 스포일러가 포함되어 있으며, 넷플릭스에서 시청가능합니다. 유튜브에서 아동용 컨텐츠로 분류되어 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xZB8pgbpESw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xZB8pgbpESw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xZB8pgbpESw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-08T13:00:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ge6DQIr9-3r9yu-UQr6PbAfIneQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DtY2liioHkc"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-12T12:00:19Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "흑인 노예라 무시당한 여인이 영국 권력 서열 1위 집안의 외동딸이라면? [영화리뷰/결말포함]",
+        "description": "[벨, 2013] - 본 영상은 스포일러가 포함되어 있습니다. #벨 #영화리뷰 #디토이야기.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DtY2liioHkc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DtY2liioHkc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DtY2liioHkc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-12T12:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bhmu8swNqUZeS8Ycooom5IsOcjA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OgfmWVeu7WE"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-16T11:00:54Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "영화를 사랑하는 모든 이들에게 바치는 천재 감독의 아름다운 판타지 동화 [영화리뷰/결말포함]",
+        "description": "[휴고 (HUGO), 2012] - 본 영상은 스포일러가 포함되어 있습니다. #에이사버터필드 #벤킹슬리 #클로이모레츠 #마틴스콜세지 #주드로 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OgfmWVeu7WE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OgfmWVeu7WE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OgfmWVeu7WE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-16T11:00:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5W5UtaLiFwcZJHlRKxr7chGyBDY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "06IWgvPB1z4"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-04T11:57:33Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "영국 산업혁명 시대 소매치기 소굴에서 벌어진 적나라한 현실 [영화리뷰/결말포함]",
+        "description": "[올리버 트위스트(Oliver Twist), 2005] - 본 영상은 스포일러가 포함되어 있습니다. #올리버트위스트 #영화리뷰 #디토이야기.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/06IWgvPB1z4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/06IWgvPB1z4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/06IWgvPB1z4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-04T11:57:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8LNznS4CSvvA9O9dm2uD4cV1C-c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-EGRPw6lLEw"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-30T11:58:17Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "장난감들에 생명을 불어넣어 만들어진 판타지 세계 [영화리뷰/결말포함]",
+        "description": "호두까기 인형과 4개의 왕국, 2018] - 본 영상은 스포일러가 포함되어 있습니다. #호두까기인형과4개의왕국 #디즈니플러스 #디토 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-EGRPw6lLEw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-EGRPw6lLEw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-EGRPw6lLEw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-30T11:58:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YAf8PEcLGdjHjuyw24yg6Y308ow",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6J74GF7wtpo"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-09T10:59:35Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "너무나 사랑했던 약혼녀가 재벌 삼촌의 아내가 되면 벌어지는 일 [영화리뷰/결말포함]",
+        "description": "[카페 소사이어티 (Cafe Society), 2016] - 본 영상은 스포일러가 포함되어 있습니다. #제시아이젠버그 #크리스틴스튜어트 #스티브 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6J74GF7wtpo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6J74GF7wtpo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6J74GF7wtpo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-09T10:59:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ur_Spz7u8EMa_lY0GVe_K302Hxk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9mxc33c7Jzs"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-25T11:00:04Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "젊고 아름다운 약혼녀를 두고 그녀의 유부녀 언니를 사랑하게 된 남자 [영화리뷰/결말포함]",
+        "description": "순수의 시대(The Age Of Innocence), 1994] - 본 영상은 스포일러가 포함되어 있습니다. #순수의시대 #다니엘데이루이스 #위노나 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9mxc33c7Jzs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9mxc33c7Jzs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9mxc33c7Jzs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-25T11:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5cAYG-Amm0Xj1QMEQIfoE-6Cz6M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AfytCSTO0Cs"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-04T13:00:04Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "모든 것은 이루어진다. 생각하지 못한 방식으로... [영화리뷰/결말포함]",
+        "description": "[투스카니의 태양, 2003] -본 영상은 스포일러가 포함되어 있습니다. #투스카니의태양#영화리뷰#결말포함.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AfytCSTO0Cs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AfytCSTO0Cs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AfytCSTO0Cs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-04T13:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EbBqMcEoKwn4QX96ZAnu-UGDS48",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fnpTWlH2Knk"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-16T09:26:19Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "새언니도 쥐어패는 신데렐라..ㄷㄷ [영화리뷰/결말포함]",
+        "description": "[에버 애프터, 1998] -본 영상은 스포일러가 포함되어 있습니다. #에버애프터 #영화추천 #디토이야기.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fnpTWlH2Knk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fnpTWlH2Knk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fnpTWlH2Knk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-16T09:26:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vAxR3H0KuV_AK86RW1K8uN-iosY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xiCxmgHHV1M"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-12T11:57:56Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "90년대를 떠올리면 가장 따뜻하게 기억되는 로맨틱 코미디 영화 [영화리뷰]",
+        "description": "당신이 잠든 사이에(While You Were Sleeping),1995] - 본 영상은 스포일러가 포함되어 있습니다. #당신이잠든사이에 #영화리뷰 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xiCxmgHHV1M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xiCxmgHHV1M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xiCxmgHHV1M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-12T11:57:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vtLDv7utPgNstUuy9WzsrjwJy6w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3QR3hk0DyrA"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-06T10:59:16Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "[잔혹동화] 젊음의 비밀을 간직한 아름다운 여인 [영화리뷰/결말포함]",
+        "description": "테일 오브 테일즈 (Tale of Tales), 2015] - 본 영상은 스포일러가 포함되어 있습니다. #셜리헨더슨 #스테이시마틴 #헤일리스카마이클 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3QR3hk0DyrA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3QR3hk0DyrA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3QR3hk0DyrA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-06T10:59:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RjeeGQhAOOsTU6A4aazL7Pp8RcY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vSNX8FBLnCg"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-12T11:00:03Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "신발 한 짝으로 하루아침에 국민 영웅이 된 노숙자 [영화리뷰/결말포함]",
+        "description": "리틀 빅 히어로 (Accidental Hero), 1993] - 본 영상은 스포일러가 포함되어 있습니다. #더스틴호프만 #지나데이비스 #앤디가르시아.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vSNX8FBLnCg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vSNX8FBLnCg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vSNX8FBLnCg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-12T11:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zBD6NAON_qZi_LiKvzZgmU2oMPQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NknnOE-hBVM"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-09T12:00:10Z",
+        "channelId": "UCnabt_BunUVVk1PcSd8CO9Q",
+        "title": "전편 흥행에 이어 현재 전세계 넷플릭스 1위 찍고 있는 0.001% 천재 소녀 이야기 [영화리뷰/결말포함]",
+        "description": "에놀라 홈즈 2(Enola Holmes 2), 2022] - 본 영상은 스포일러가 포함되어 있으며, 넷플릭스에서 시청 가능합니다. #에놀라홈즈2 #셜록 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NknnOE-hBVM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NknnOE-hBVM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NknnOE-hBVM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "디토이야기",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-09T12:00:10Z"
+      }
+    }
+  ]
+}

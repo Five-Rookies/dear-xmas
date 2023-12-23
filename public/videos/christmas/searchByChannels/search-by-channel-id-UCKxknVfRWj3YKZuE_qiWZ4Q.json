@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "RKSl4zBXLO86DQz_MSYh3UYDbH8",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 254,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GUBKv6fgC5By6P4GoegbPg59yxI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "anoV8E4ZZD8"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-15T14:21:39Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "[playlist] 내추럴 와인, 음악 그리고 시시콜콜한 이야기",
+        "description": "Photo : Motif 1 , Korea (2021) Camera : Fuji x100f ☑️ 이 채널에 쓰이는 사진은 모두 제가 직접 촬영했습니다. ☑️ 음악에 대한 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/anoV8E4ZZD8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/anoV8E4ZZD8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/anoV8E4ZZD8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-15T14:21:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cHdH1pNKcqucz4q13FkojmewkcA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "w0YTXODO-dk"
+      },
+      "snippet": {
+        "publishedAt": "2021-06-09T13:40:43Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "Mac Ayres와 플랫화이트가 맛있는 카페 (playlist)",
+        "description": "매주 수요일, 아티스트와 공간을 페어링하여 들려드립니다. Artist : Mac Ayres Place : Impression Coffee Company , Daejeon (2018) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/w0YTXODO-dk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/w0YTXODO-dk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/w0YTXODO-dk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-06-09T13:40:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lPmoHqEj8ciPvUv6_wXZ9nhD5z8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qpjPNIEprI0"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-30T12:00:15Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "rhye의 음악이 흐르던 서교동의 밤 (playlist)",
+        "description": "아티스트와 공간을 페어링하여 들려드립니다. pairing artist with space Artist : Rhye Photo : 앤트러사이트 서교점, Korea (2020) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qpjPNIEprI0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qpjPNIEprI0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qpjPNIEprI0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-30T12:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pge67yHXsqq7CpIRoFkjwuJsf08",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "e-4WDT1xvVg"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-20T11:39:50Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "날씨도 좋은데 나올래? Hoody랑 SOLE도 같이 있어 (playlist)",
+        "description": "Camera : iPhone 11 Pro ☑️ 이 채널에 쓰이는 사진은 모두 제가 직접 촬영했습니다 ☺️ ☑️ 음악에 대한 저작권 소유자가 아니므 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/e-4WDT1xvVg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/e-4WDT1xvVg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/e-4WDT1xvVg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-20T11:39:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "H_HNH72072eoBFEzvXi07n04oIY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3vrcoQTvAEw"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-18T15:38:56Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "ADOY와 늦여름의 청춘  (playlist)",
+        "description": "어느새 지나가 버린 여름의 끝에 꿈결같던 아도이의 음악들 매주 아티스트와 공간을 페어링하여 들려드립니다. Artist : ADOY Place ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3vrcoQTvAEw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3vrcoQTvAEw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3vrcoQTvAEw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-18T15:38:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Wjj-ihsKggjFZi0LohlbBOeVHfo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "p_kIucfcxbo"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-07T16:41:28Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "꿈 속 물결 (playlist)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/p_kIucfcxbo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/p_kIucfcxbo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/p_kIucfcxbo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-07T16:41:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1QIwYXisw0N0Y0CwC7h4llIrVRs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XBGOcyE60yE"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-24T16:25:24Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "욕조에 배쓰밤 풀고 딱 30분만 꿈 속에 다녀올게  [Sabrina Claudio X Alina Baraz Playlist]",
+        "description": "아 나른하다 Artist : Sabrina Claudio, Alina Baraz Camera : iPhone 11 Pro Place : Seoul, Korea ☑️ 이 채널에 쓰이는 사진은 모두 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XBGOcyE60yE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XBGOcyE60yE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XBGOcyE60yE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-24T16:25:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "j8cxtwR7uIe16ohj6NYkPitFaBU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fiuA1hZrDtU"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-11T15:37:50Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "존 메이어와 초원 위 드라이브 (playlist)",
+        "description": "매주 아티스트와 공간을 페어링하여 들려드립니다. Place : Mongolia (2019) Camera : fuji x100f ☑️ 이 채널에 쓰이는 사진은 모두 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fiuA1hZrDtU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fiuA1hZrDtU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fiuA1hZrDtU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-11T15:37:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "z61mBY1-P0iSIteeY6iFDCpJqkE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oQpQVNm8fs0"
+      },
+      "snippet": {
+        "publishedAt": "2020-09-02T14:00:12Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "[Playlist] 이거 틀면 와인 맛집",
+        "description": "Camera : iPhone 11 Pro ☑️ 이 채널에 쓰이는 사진은 모두 제가 직접 촬영했습니다 ☺️ ☑️ 음악에 대한 저작권 소유자가 아니므 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oQpQVNm8fs0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oQpQVNm8fs0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oQpQVNm8fs0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-09-02T14:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0BB21875GCRsZlxrDlw24QwskWc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Koq_6Z_oRBc"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-15T13:00:14Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "[playlist] 자미로콰이의 음악이 흘러나오던 런던의 어느 골목에서",
+        "description": "Photo : London, UK (2016) Camera : Nikon D5300 Contact & SNS : https://linktr.ee/leeplay ☑️ 이 채널에 쓰이는 사진은 모두 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Koq_6Z_oRBc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Koq_6Z_oRBc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Koq_6Z_oRBc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-15T13:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZfLmxGmu1BWfYPQW1HYkFdRPx5c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "C4O8mRKExbY"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-19T13:00:11Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "[playlist] 봄의 문을 두드리며 (Knockin&#39; on weather&#39;s door)",
+        "description": "본 영상은 29CM의 지원을 받아 제작하였으며 유료광고를 포함하고 있습니다. [LEEPLAY X 29CM] inSPiRING HOUSE : Knocking on ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/C4O8mRKExbY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/C4O8mRKExbY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/C4O8mRKExbY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-19T13:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2fCDAFUrDEepsqGH4OBPPQko_tU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FFreTs9YmHU"
+      },
+      "snippet": {
+        "publishedAt": "2021-06-02T13:05:09Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "Men I Trust와 나른한 오후의 포르투 강변 (playlist)",
+        "description": "매주 수요일, 아티스트와 공간을 페어링하여 들려드립니다. Artist : Men I Trust Place : Porto , Portugal (2016) Camera : Nikon D5300 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FFreTs9YmHU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FFreTs9YmHU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FFreTs9YmHU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-06-02T13:05:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Rn5dMZXzcoMm2z9DFNyWI3qrt70",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0s8164dcLZM"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-09T14:51:08Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "취향을 묻길래 나는 검정치마 노래를 들려줬다_Part.2",
+        "description": "긴 세월에 변하지 않을 그런 사랑은 없겠지만 그 사랑을 기다려줄 그런 사람을 찾는거야 Camera : Nikon D5300 Place : Paris,France ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0s8164dcLZM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0s8164dcLZM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0s8164dcLZM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-08-09T14:51:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "i74Z9D61V0WHRxy_LC82mIYErkQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "npgiuricgv4"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-17T13:47:10Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "흑백 필름 같았던 우리의 밤을 기억해요",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/npgiuricgv4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/npgiuricgv4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/npgiuricgv4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-17T13:47:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2xJA_TrjY7I22S0L22AxRwLTags",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BpwDFKFkpOY"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-25T15:28:11Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "차분한 오후의 드립커피",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BpwDFKFkpOY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BpwDFKFkpOY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BpwDFKFkpOY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-25T15:28:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "URw9CP4RBon38NGV71_r7AA0LYY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kQJSNsz9SF0"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-04T14:50:46Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "톰미쉬와 여유로운 튈르리 정원 (playlist)",
+        "description": "Place : Paris, France (2017) Camera : Nikon D5300 ☑️ 이 채널에 쓰이는 사진은 모두 제가 직접 촬영했습니다. ☑️ 음악에 대한 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kQJSNsz9SF0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kQJSNsz9SF0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kQJSNsz9SF0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-04T14:50:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lkACMSYRU-m7kTDzKXSVUDMhuLg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YaUfcvxWl7c"
+      },
+      "snippet": {
+        "publishedAt": "2020-03-29T07:11:02Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "한적한 해변에 가서 오존 (O3ohn)과 92914를 베고 누웠다 (Playlist)",
+        "description": "해변 혹은 잔디밭에 누워, 가만히 눈을 감고 따뜻한 햇살을 맞으며 오존 (o3ohn)과 92914를 듣고 있으면 : LEEPLAY 재생목록으로 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YaUfcvxWl7c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YaUfcvxWl7c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YaUfcvxWl7c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-03-29T07:11:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kQfI90hLhNMdrlWpXFoSWU97eB8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DQOa0NvzUqk"
+      },
+      "snippet": {
+        "publishedAt": "2020-03-08T08:00:50Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "[Playlist] 선선한 밤, 너와 함께 듣고 싶어서",
+        "description": "Paris, France (2017) ☑️ 이 채널에 쓰이는 사진은 모두 제가 직접 촬영했습니다. ☑️ 음악에 대한 저작권 소유자가 아니므로 영상을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DQOa0NvzUqk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DQOa0NvzUqk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DQOa0NvzUqk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-03-08T08:00:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aRP0hyv7W54umoQDkRX8qjl3xvo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LDwZfl_ngBw"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-10T14:00:13Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "[playlist] 빗 속에서 춤을 (Dancing in the rain)",
+        "description": "Photo : Seoul, Korea (2022) Camera : Nikon D5300 Contact & SNS : https://linktr.ee/leeplay ☑️ 이 채널에 쓰이는 사진은 모두 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LDwZfl_ngBw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LDwZfl_ngBw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LDwZfl_ngBw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-10T14:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "02HXPXxPa9dGKjRaqoYYoI5I2Q4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GEGcNJd_4Sw"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-05T13:30:07Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "[Playlist] 지난 기억의 조각들과 92914의 음악",
+        "description": "92914 'Okinawa', 'Quiet Water', 'Moonlight' 고요한 바다 같은 음악의 92914가 오랜만에 단독 공연으로 찾아옵니다. 12월 29일(금) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GEGcNJd_4Sw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GEGcNJd_4Sw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GEGcNJd_4Sw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-05T13:30:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "71bF3k5Hpec1OXW3PqGuWbuZUnI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1TVgZtCv_wU"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-07T14:15:13Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "[playlist] 새벽 6시, 혼자 남은 방 안에서",
+        "description": "Photo : Busan, Korea (2021) Camera : Nikon D5300 Contact & SNS : https://linktr.ee/leeplay ☑️ 이 채널에 쓰이는 사진은 모두 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1TVgZtCv_wU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1TVgZtCv_wU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1TVgZtCv_wU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-07T14:15:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KQ1gFyuHhu9oHdzL9dX8A-7-soc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J4p2XZ9uCLs"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-23T13:00:08Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "[Playlist] 알프스 호숫가에서의 여유로운 휴식 그리고 맥주 한 잔",
+        "description": "본 영상은 일일시호일의 지원을 받아 제작하였으며 유료광고를 포함하고 있습니다. [ LEEPLAY X 일일시호일 ] 일일시호일 ILILSIHOIL ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J4p2XZ9uCLs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J4p2XZ9uCLs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J4p2XZ9uCLs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-23T13:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7W3a5KS9It88-3181elrIWDVxnM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PL0HipTuWVI"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-22T14:16:37Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "백예린과 바다의 윤슬 (playlist)",
+        "description": "매주 아티스트와 공간을 페어링하여 들려드립니다. pairing artist with space Place : Busan, Korea (2021) Camera : Nikon D5300 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PL0HipTuWVI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PL0HipTuWVI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PL0HipTuWVI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-22T14:16:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MUvgzPrWKtcayg2wGmn0kjyMBKE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "06c1k4hOrUE"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-05T13:00:13Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "[playlist] 기분 좋은 하루의 시작",
+        "description": "Good Morning :-) Photo : 경주 유온스테이, Korea (2021) Camera : fuji x100f Contact & SNS : https://linktr.ee/leeplay ☑️ 이 채널 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/06c1k4hOrUE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/06c1k4hOrUE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/06c1k4hOrUE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-05T13:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4vHYFqH_ULXnIY4yjE4S73RyWCA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uLgY05eOnqA"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-06T11:00:18Z",
+        "channelId": "UCKxknVfRWj3YKZuE_qiWZ4Q",
+        "title": "내 방구석을 와인바로 만드는 방법 (Playlist)",
+        "description": "1. 와인과 와인잔, 그리고 안주를 준비한다. 2. 불을 끄고 촛불이나 노란 조명을 켠다 3. 이 영상을 스피커로 튼다 Camera : iPhone 11 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uLgY05eOnqA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uLgY05eOnqA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uLgY05eOnqA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리플레이LEEPLAY",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-06T11:00:18Z"
+      }
+    }
+  ]
+}

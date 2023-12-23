@@ -1,16 +1,16 @@
 {
   "kind": "youtube#searchListResponse",
-  "etag": "iMK_54F55SzMhn6JALXU9uUG-JQ",
+  "etag": "gL0UWfy7_zIjOI2g7q2bk5pAzU0",
   "nextPageToken": "CBkQAA",
   "regionCode": "KR",
   "pageInfo": {
-    "totalResults": 111,
+    "totalResults": 119,
     "resultsPerPage": 25
   },
   "items": [
     {
       "kind": "youtube#searchResult",
-      "etag": "qm1A7Mv6MhuXjIT3CQHHu7Phk_Y",
+      "etag": "RFW6X6UhfNtIiTvjhHIgg3-b2MI",
       "id": {
         "kind": "youtube#video",
         "videoId": "pW6OoeiPozA"
@@ -44,7 +44,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "RtCOgmL1uELPv7MYqt_soLktv-4",
+      "etag": "cRNkatpRFqZXW8ONejWI1bIYXbk",
       "id": {
         "kind": "youtube#video",
         "videoId": "FJY_7TLZ6q0"
@@ -78,41 +78,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "vqgkocW-uKjUnS3T2b4SzyiDEqA",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "ljBTG-YYdYk"
-      },
-      "snippet": {
-        "publishedAt": "2023-03-12T23:45:01Z",
-        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
-        "title": "Playlist | 포근한 햇살과 재즈기타",
-        "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/ljBTG-YYdYk/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/ljBTG-YYdYk/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/ljBTG-YYdYk/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "기분Jazz네 | Mood is Jazz",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-03-12T23:45:01Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "gIVvHERFNZCPssiWqtQrywaJu_Q",
+      "etag": "78sSvsa_d6tGJu-HCoQKlHucvUA",
       "id": {
         "kind": "youtube#video",
         "videoId": "7lq6e4Lu4B8"
@@ -146,109 +112,41 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "KcpIOcPcKLSIZh-4LYgFzttqsg0",
+      "etag": "YA8l0qupnQiZllsN7lHvnq744-I",
       "id": {
         "kind": "youtube#video",
-        "videoId": "JhR5WpqOIEM"
+        "videoId": "ljBTG-YYdYk"
       },
       "snippet": {
-        "publishedAt": "2023-02-26T23:47:00Z",
+        "publishedAt": "2023-03-12T23:45:01Z",
         "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
-        "title": "Playlist | 파리의 포근한 햇살이 느껴지는, 재즈",
+        "title": "Playlist | 포근한 햇살과 재즈기타",
         "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/JhR5WpqOIEM/default.jpg",
+            "url": "https://i.ytimg.com/vi/ljBTG-YYdYk/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/JhR5WpqOIEM/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/ljBTG-YYdYk/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/JhR5WpqOIEM/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/ljBTG-YYdYk/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
         "channelTitle": "기분Jazz네 | Mood is Jazz",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-02-26T23:47:00Z"
+        "publishTime": "2023-03-12T23:45:01Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "sPZ7hSEOx7GaL4itNXymKNYyRT0",
-      "id": {
-        "kind": "youtube#playlist",
-        "playlistId": "PLy1UxQoLWwoKH03Me3iL1qGEAmBwHtygu"
-      },
-      "snippet": {
-        "publishedAt": "2022-07-11T07:01:10Z",
-        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
-        "title": "재즈피아노 플레이리스트",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/srHJNxBpDPE/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/srHJNxBpDPE/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/srHJNxBpDPE/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "기분Jazz네 | Mood is Jazz",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-07-11T07:01:10Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "wapLe7GIbIJaYPAeRCcoeAEn_j0",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "YvV8MEd1SjU"
-      },
-      "snippet": {
-        "publishedAt": "2023-04-16T23:45:00Z",
-        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
-        "title": "Playlist | ☀️날도 좋은데 kpop 재즈 어때?🎧🎺 Kpop 재즈 플레이리스트",
-        "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/YvV8MEd1SjU/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/YvV8MEd1SjU/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/YvV8MEd1SjU/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "기분Jazz네 | Mood is Jazz",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-04-16T23:45:00Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "mQlVwviIOpZV3DbnaTmZKUXBHWA",
+      "etag": "hLgSJRafyGh2pnTsFZfdyABCDJY",
       "id": {
         "kind": "youtube#video",
         "videoId": "2BegA7SRYIQ"
@@ -282,7 +180,75 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "j33-VfJK1UVg1BvshKK4SpC8ip0",
+      "etag": "N1FA_ROC3povn2ONXajETXBKz_0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JhR5WpqOIEM"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-26T23:47:00Z",
+        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
+        "title": "Playlist | 파리의 포근한 햇살이 느껴지는, 재즈",
+        "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JhR5WpqOIEM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JhR5WpqOIEM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JhR5WpqOIEM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "기분Jazz네 | Mood is Jazz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-26T23:47:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uJTTFXr6YDkurePfeeYkewP1MPo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YvV8MEd1SjU"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-16T23:45:00Z",
+        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
+        "title": "Playlist | ☀️날도 좋은데 kpop 재즈 어때?🎧🎺 Kpop 재즈 플레이리스트",
+        "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YvV8MEd1SjU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YvV8MEd1SjU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YvV8MEd1SjU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "기분Jazz네 | Mood is Jazz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-16T23:45:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EbkCzTvWK8Z3gHS2bHvdyeltAAk",
       "id": {
         "kind": "youtube#video",
         "videoId": "vvE3Q1EsspM"
@@ -316,7 +282,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "Ud2K6EyjamzH_h0pJBTqe-0Zmck",
+      "etag": "cErgy3BYrhmhNJYv52W0TtndMEk",
       "id": {
         "kind": "youtube#video",
         "videoId": "XS-YO3ZcMDY"
@@ -350,7 +316,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "uJRopubRQ8hoyGdcTU6YkccyqFg",
+      "etag": "DnD37y0lC9tqHnkHxVeGF3kwM54",
       "id": {
         "kind": "youtube#video",
         "videoId": "FNKdk6EpObQ"
@@ -384,7 +350,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "OQMrCDiPErN6QJx2s91QX8kNTdk",
+      "etag": "FcaNQxT1gUTXJjhtn-fdWf3fbAA",
       "id": {
         "kind": "youtube#video",
         "videoId": "B5d7rRI9knA"
@@ -418,41 +384,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "PoaTj81UYh77AtCyKTJZSvcJ9Gg",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "BKCKavTzgI0"
-      },
-      "snippet": {
-        "publishedAt": "2022-08-21T23:45:00Z",
-        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
-        "title": "Playlist | 아침과 함께, 재즈",
-        "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/BKCKavTzgI0/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/BKCKavTzgI0/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/BKCKavTzgI0/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "기분Jazz네 | Mood is Jazz",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-08-21T23:45:00Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "8vMvGkmCbo7smAY7B1AqKDZrwNA",
+      "etag": "LLNkHoCBb06c0bynzqXc4LmF-N0",
       "id": {
         "kind": "youtube#video",
         "videoId": "Ij1Idody174"
@@ -486,7 +418,41 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "sUR0Q8gJMf3FXua7mzniH7z_Qro",
+      "etag": "sj89ldRc1cIoqw1oiTZsbYD_7Wo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BKCKavTzgI0"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-21T23:45:00Z",
+        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
+        "title": "Playlist | 아침과 함께, 재즈",
+        "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BKCKavTzgI0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BKCKavTzgI0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BKCKavTzgI0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "기분Jazz네 | Mood is Jazz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-21T23:45:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PsUd4exq8apeZZqBu7-JXmGZ6cs",
       "id": {
         "kind": "youtube#video",
         "videoId": "XcCkx8PxUY4"
@@ -520,7 +486,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "vkh4MjLANhEre6x_leYe5DjuBCU",
+      "etag": "_OWe8nXp-lbXOG61Z9DaqY0FzUQ",
       "id": {
         "kind": "youtube#video",
         "videoId": "AUci5aV2y0w"
@@ -554,41 +520,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "7TUawF34FXug0y26x8b-y0qXTe4",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "doOFzU_QCjE"
-      },
-      "snippet": {
-        "publishedAt": "2022-09-26T05:04:13Z",
-        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
-        "title": "Playlist | 클래식음악 x 재즈",
-        "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/doOFzU_QCjE/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/doOFzU_QCjE/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/doOFzU_QCjE/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "기분Jazz네 | Mood is Jazz",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-09-26T05:04:13Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "tmQP4qBi2iFZpWSor3esArKmQ3c",
+      "etag": "3B1mxRm91vOuoqp5i_wv5POvEu0",
       "id": {
         "kind": "youtube#video",
         "videoId": "srHJNxBpDPE"
@@ -622,103 +554,41 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "ZhMsN3qfLVQXKmRdPnP0kDvFvz4",
+      "etag": "JuuWAfIh9L-w8oLMSiAprRkDcS4",
       "id": {
         "kind": "youtube#video",
-        "videoId": "4_SUMselKZI"
+        "videoId": "doOFzU_QCjE"
       },
       "snippet": {
-        "publishedAt": "2022-08-16T23:45:00Z",
+        "publishedAt": "2022-09-26T05:04:13Z",
         "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
-        "title": "Playlist | 감성에 젖는 날, 재즈",
+        "title": "Playlist | 클래식음악 x 재즈",
         "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/4_SUMselKZI/default.jpg",
+            "url": "https://i.ytimg.com/vi/doOFzU_QCjE/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/4_SUMselKZI/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/doOFzU_QCjE/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/4_SUMselKZI/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/doOFzU_QCjE/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
         "channelTitle": "기분Jazz네 | Mood is Jazz",
         "liveBroadcastContent": "none",
-        "publishTime": "2022-08-16T23:45:00Z"
+        "publishTime": "2022-09-26T05:04:13Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "Oomcyao4O0j5v9vuBCUgqqPvbWQ",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "qCwMdZI5JY8"
-      },
-      "snippet": {
-        "publishedAt": "2022-07-19T13:00:57Z",
-        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
-        "title": "Playlist | 재즈란 뭐라고 생각하십니까?",
-        "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/qCwMdZI5JY8/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/qCwMdZI5JY8/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/qCwMdZI5JY8/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "기분Jazz네 | Mood is Jazz",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-07-19T13:00:57Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "bpcLGmOScvXlChanAA66dHkaw10",
-      "id": {
-        "kind": "youtube#channel",
-        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw"
-      },
-      "snippet": {
-        "publishedAt": "2022-06-26T13:46:31Z",
-        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
-        "title": "기분Jazz네 | Mood is Jazz",
-        "description": "당신의 하루를 더 좋게 만들어요 :) Make your day better . 모든 음원은 직접 작곡 또는 편곡 및 연주한 음원이에요. \"기분Jazz네\" ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s88-c-k-c0xffffffff-no-rj-mo"
-          },
-          "medium": {
-            "url": "https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s240-c-k-c0xffffffff-no-rj-mo"
-          },
-          "high": {
-            "url": "https://yt3.ggpht.com/7C7gf_M2SLHMxYY74vn7QPRJuGrc9Ul2ehvf6LXmHDeAVi4-dBiSOGB8bXhMeLz0GYvqzwbk=s800-c-k-c0xffffffff-no-rj-mo"
-          }
-        },
-        "channelTitle": "기분Jazz네 | Mood is Jazz",
-        "liveBroadcastContent": "live",
-        "publishTime": "2022-06-26T13:46:31Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "6ToQ67TitVAXzoBEvWZt9PQVCwI",
+      "etag": "0IrLacEnPd61ZkdXhU-QqCMObSI",
       "id": {
         "kind": "youtube#video",
         "videoId": "ecAR5gVCRmE"
@@ -752,7 +622,41 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "WyAniqXgJts2vCIq4BagPD2xdws",
+      "etag": "hUswSc3yjdV0vNTmoXR5JoTGuj0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4_SUMselKZI"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-16T23:45:00Z",
+        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
+        "title": "Playlist | 감성에 젖는 날, 재즈",
+        "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4_SUMselKZI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4_SUMselKZI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4_SUMselKZI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "기분Jazz네 | Mood is Jazz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-16T23:45:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0egf3gaLfQI8T0KODHnEoyUdN3c",
       "id": {
         "kind": "youtube#video",
         "videoId": "DPROFkADGm0"
@@ -786,41 +690,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "CYjU0pKHZPTonHFDLWqLB3-MGys",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "loCc6eGq1_c"
-      },
-      "snippet": {
-        "publishedAt": "2023-05-01T23:46:00Z",
-        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
-        "title": "Playlist | ☕진한 커피에 재즈 한 스푼🥄 | 카페 재즈 플레이리스트 | 매장음악 | 카페음악 | 중간광고없음❎",
-        "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/loCc6eGq1_c/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/loCc6eGq1_c/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/loCc6eGq1_c/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "기분Jazz네 | Mood is Jazz",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-05-01T23:46:00Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "On-6yvOBkwr93Dd1znwIX7U9_U0",
+      "etag": "a-csjWF0M9dQpxI46KLhgyAzuEI",
       "id": {
         "kind": "youtube#video",
         "videoId": "SLJGnZ3SPQc"
@@ -850,6 +720,142 @@
         "channelTitle": "기분Jazz네 | Mood is Jazz",
         "liveBroadcastContent": "none",
         "publishTime": "2022-08-06T13:46:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hxXk35A1FVEwjyM71N22b-LIQKg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "24fFkBd_3n0"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-08T23:51:00Z",
+        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
+        "title": "Playlist | 잔잔한 재즈와 함께 집중할 시간📖 | Summer Book Jazz",
+        "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/24fFkBd_3n0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/24fFkBd_3n0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/24fFkBd_3n0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "기분Jazz네 | Mood is Jazz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-08T23:51:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "A7a7nbojmZoa2xq7tgyTkARexaQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "unREPBR_nxk"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-14T23:46:00Z",
+        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
+        "title": "Playlist | 재즈를 들으면서 일해야 능률이 올라가는 편입니다 👀 | 일하면서 틀어 놓기 좋은 차분한 재즈 플레이리스트",
+        "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/unREPBR_nxk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/unREPBR_nxk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/unREPBR_nxk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "기분Jazz네 | Mood is Jazz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-14T23:46:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lJt1IljS1gQn3ll1PMPpYEhw-BA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cAlVTCq6JiM"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-02T14:29:32Z",
+        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
+        "title": "Playlist | 듣기만 해도 설레는, 크리스마스 재즈🎅 | Christmas Jazz Playlist",
+        "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cAlVTCq6JiM/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cAlVTCq6JiM/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cAlVTCq6JiM/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "기분Jazz네 | Mood is Jazz",
+        "liveBroadcastContent": "live",
+        "publishTime": "2023-12-02T14:29:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HoMCYXSgHpS7ceHvG0DOPJGQO-g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GRQPySl10s0"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-19T23:45:00Z",
+        "channelId": "UCbsHYIZwk9pZIMp53ciDjOw",
+        "title": "Playlist | 기분 좋은 하루를 만드는, 보사노바",
+        "description": "2023년 기분Jazz네 연말 콘서트 : Everyday Jazzne! \"Everyday Jazzne\" 어제와 오늘, 그리고 내일을 살아가는 당신! 올해 여러분의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GRQPySl10s0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GRQPySl10s0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GRQPySl10s0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "기분Jazz네 | Mood is Jazz",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-19T23:45:00Z"
       }
     }
   ]

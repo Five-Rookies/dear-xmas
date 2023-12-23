@@ -1,50 +1,16 @@
 {
   "kind": "youtube#searchListResponse",
-  "etag": "CK0KwylmRXGFaJsIjQ179JBU7hI",
+  "etag": "kQzzhlFlGh5sekpMw1df-RsvMrU",
   "nextPageToken": "CBkQAA",
   "regionCode": "KR",
   "pageInfo": {
-    "totalResults": 214,
+    "totalResults": 221,
     "resultsPerPage": 25
   },
   "items": [
     {
       "kind": "youtube#searchResult",
-      "etag": "5XLYTJzvNMDIYJgZEoL3NOz-91w",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "OCFfXhzdUfs"
-      },
-      "snippet": {
-        "publishedAt": "2020-08-31T10:35:58Z",
-        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
-        "title": "🔥 이달의신곡 :: 8월에 나온 띵곡 한 번에 몰아보기",
-        "description": "띵곡의 기준은 지극히 저의 주관적인 취향이니 감안하고 봐주세요! 노래는 매일 발매되는 대로 모두 직접 들으며 선별했고 혹시나 깜빡 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/OCFfXhzdUfs/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/OCFfXhzdUfs/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/OCFfXhzdUfs/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "찐막 JJINMAK",
-        "liveBroadcastContent": "none",
-        "publishTime": "2020-08-31T10:35:58Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "Pd3TZmrkjvKcC7ndDByGIxm5OXk",
+      "etag": "RXpvQvNPfnePIHWQt1uHrvMYr10",
       "id": {
         "kind": "youtube#video",
         "videoId": "VRxIPLJOz0s"
@@ -78,36 +44,36 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "lvEmMCkXZrD_KkmWCmb5_kZEqVo",
+      "etag": "Cribv3Epo2cHW6gnVj6OKiVGiI8",
       "id": {
         "kind": "youtube#video",
-        "videoId": "4wXKQtT3AvM"
+        "videoId": "_AsmooFh4xE"
       },
       "snippet": {
-        "publishedAt": "2023-09-02T23:30:00Z",
+        "publishedAt": "2020-04-23T10:26:13Z",
         "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
-        "title": "초가을의 시작! 선선한 요즘 날씨에 찰떡인 노래들 | PLAYLIST",
-        "description": "성큼 다가온 초가을! 선선한 요즘 날씨에 찰떡인 노래들로 모았습니다 :) 영상이 마음에 드셨다면 [ 구독 ] [ 좋아요 ] [ 알림 ...",
+        "title": "🌻 주니엘 (JUNIEL) 노래 모음 | PLAYLIST",
+        "description": "영상이 마음에 드셨다면 [ 구독 ] [ 좋아요 ] [ 알림 ] - 수익 창출을 하지 않는 채널입니다. - 영상 속 광고는 유튜브 저작권 규정상 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/4wXKQtT3AvM/default.jpg",
+            "url": "https://i.ytimg.com/vi/_AsmooFh4xE/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/4wXKQtT3AvM/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/_AsmooFh4xE/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/4wXKQtT3AvM/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/_AsmooFh4xE/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
         "channelTitle": "찐막 JJINMAK",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-09-02T23:30:00Z"
+        "publishTime": "2020-04-23T10:26:13Z"
       }
     },
     {
@@ -180,6 +146,74 @@
     },
     {
       "kind": "youtube#searchResult",
+      "etag": "nSvT5LQfB8gWOmP1W47qCiVFHVA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OfCULYfgqjI"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-03T14:20:38Z",
+        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
+        "title": "🎅🏻 지나가던 산타도 듣고 간다는 크리스마스 캐롤 모음 🎄 | PLAYLIST",
+        "description": "점점 크리스마스가 다가오고 있어서 준비해본 설레는 캐롤 플리! 캐롤은 이맘때쯤 미리미리 들어주는게 국룰인거 알죠? 인기 캐롤들과 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OfCULYfgqjI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OfCULYfgqjI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OfCULYfgqjI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "찐막 JJINMAK",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-03T14:20:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "j97wuOeaYE9hTK6u_V5ypGnvcTI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8lauVGVoCQw"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-30T10:47:05Z",
+        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
+        "title": "그냥.. 내가 좋아하는 방탄소년단 수록곡 명곡 노래 모음 | PLAYLIST",
+        "description": "영상이 마음에 드셨다면 [ 구독 ] [ 좋아요 ] [ 알림 ] - 수익 창출을 하지 않는 채널입니다. - 영상 속 광고는 유튜브 저작권 규정상 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8lauVGVoCQw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8lauVGVoCQw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8lauVGVoCQw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "찐막 JJINMAK",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-30T10:47:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
       "etag": "xwl1pObahJg3kV04cfw1KCjtda8",
       "id": {
         "kind": "youtube#video",
@@ -248,172 +282,36 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "y8mzcztrDeut4zOu6Z6N2-SeKiM",
+      "etag": "FlfLmOyzePZ8N4GO8osc3bcg7yg",
       "id": {
         "kind": "youtube#video",
-        "videoId": "MJkl98uLR6s"
+        "videoId": "4wXKQtT3AvM"
       },
       "snippet": {
-        "publishedAt": "2023-06-11T02:06:31Z",
+        "publishedAt": "2023-09-02T23:30:00Z",
         "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
-        "title": "🌿 초여름 향기 물씬 나는 선선하고 산뜻한 노래 모음 | PLAYLIST",
-        "description": "영상이 마음에 드셨다면 [ 구독 ] [ 좋아요 ] [ 알림 ] - 수익 창출을 하지 않는 채널입니다. - 영상 속 광고는 유튜브 저작권 규정상 ...",
+        "title": "초가을의 시작! 선선한 요즘 날씨에 찰떡인 노래들 | PLAYLIST",
+        "description": "성큼 다가온 초가을! 선선한 요즘 날씨에 찰떡인 노래들로 모았습니다 :) 영상이 마음에 드셨다면 [ 구독 ] [ 좋아요 ] [ 알림 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/MJkl98uLR6s/default.jpg",
+            "url": "https://i.ytimg.com/vi/4wXKQtT3AvM/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/MJkl98uLR6s/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/4wXKQtT3AvM/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/MJkl98uLR6s/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/4wXKQtT3AvM/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
         "channelTitle": "찐막 JJINMAK",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-06-11T02:06:31Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "-WfAavLGMTRhsvikLSjeNNaP07U",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "8lauVGVoCQw"
-      },
-      "snippet": {
-        "publishedAt": "2020-04-30T10:47:05Z",
-        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
-        "title": "그냥.. 내가 좋아하는 방탄소년단 수록곡 명곡 노래 모음 | PLAYLIST",
-        "description": "영상이 마음에 드셨다면 [ 구독 ] [ 좋아요 ] [ 알림 ] - 수익 창출을 하지 않는 채널입니다. - 영상 속 광고는 유튜브 저작권 규정상 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/8lauVGVoCQw/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/8lauVGVoCQw/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/8lauVGVoCQw/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "찐막 JJINMAK",
-        "liveBroadcastContent": "none",
-        "publishTime": "2020-04-30T10:47:05Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "lm12IwN5AlBFq9FWyIDBHTELfeA",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "Gv-9jMMvNuc"
-      },
-      "snippet": {
-        "publishedAt": "2023-11-17T01:18:12Z",
-        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
-        "title": "연말 분위기 가득 담은 크리스마스 K-캐롤 모음 🎅🏻❤️ ‧꙳•⋆꙳ | PLAYLIST",
-        "description": "해당 영상의 일부는 지원 받아 제작되었습니다. 설레는 크리스마스를 위한 연말 분위기 가득 담은 캐롤을 모아봤어요! 사랑하는 사람들 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/Gv-9jMMvNuc/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/Gv-9jMMvNuc/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/Gv-9jMMvNuc/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "찐막 JJINMAK",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-11-17T01:18:12Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "6e4MLiuqIUcDxis1zo392LRZa9M",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "UeiPkFq5q24"
-      },
-      "snippet": {
-        "publishedAt": "2023-11-20T23:34:07Z",
-        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
-        "title": "🧸 캐시미어처럼 따스하고 포근한 겨울 감성 노래 모음 | PLAYLIST",
-        "description": "해당 영상의 일부는 지원 받아 제작되었습니다. 영상이 마음에 드셨다면 [ 구독 ] [ 좋아요 ] [ 알림 ] - 수익 창출을 하지 않는 채널 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/UeiPkFq5q24/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/UeiPkFq5q24/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/UeiPkFq5q24/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "찐막 JJINMAK",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-11-20T23:34:07Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "ZJxM1d-bcYoWQZQdM0pQs5fqDVo",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "zAFYo-qteug"
-      },
-      "snippet": {
-        "publishedAt": "2021-05-13T09:32:02Z",
-        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
-        "title": "🌻 바람도 적당, 햇빛도 적당한 날에 듣기 좋은 싱그러운 팝송 모음 | PLAYLIST",
-        "description": "이번 플리는 바람도 적당, 햇빛도 적당한 화창한 날에 듣기 좋은 싱그러운 팝송들로 모아봤습니다! 최근 비도 오고 우중충한 날이 많았 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/zAFYo-qteug/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/zAFYo-qteug/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/zAFYo-qteug/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "찐막 JJINMAK",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-05-13T09:32:02Z"
+        "publishTime": "2023-09-02T23:30:00Z"
       }
     },
     {
@@ -452,40 +350,6 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "2lMcXF1Oo2qR8HtN4ixHajkv_gY",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "CyBPYJwiO7M"
-      },
-      "snippet": {
-        "publishedAt": "2020-11-06T10:30:00Z",
-        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
-        "title": "🔥 급하게 외출 준비해야 할 때 들으면 텐션UP 되는 팝송 모음 | PLAYLIST",
-        "description": "본 콘텐츠의 '일부'는 워너뮤직의 지원을 받아 제작되었습니다. 급하게 외출 준비해야 할 때 들으면 텐션UP 되는 팝송 플레이리스트 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/CyBPYJwiO7M/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/CyBPYJwiO7M/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/CyBPYJwiO7M/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "찐막 JJINMAK",
-        "liveBroadcastContent": "none",
-        "publishTime": "2020-11-06T10:30:00Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
       "etag": "EVXe17iwnWdWTdUs-z7ScWjxqB8",
       "id": {
         "kind": "youtube#video",
@@ -520,7 +384,109 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "vnR8MTzaHmfg6_Ofe4YdiSlzK5A",
+      "etag": "2lMcXF1Oo2qR8HtN4ixHajkv_gY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CyBPYJwiO7M"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-06T10:30:00Z",
+        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
+        "title": "🔥 급하게 외출 준비해야 할 때 들으면 텐션UP 되는 팝송 모음 | PLAYLIST",
+        "description": "본 콘텐츠의 '일부'는 워너뮤직의 지원을 받아 제작되었습니다. 급하게 외출 준비해야 할 때 들으면 텐션UP 되는 팝송 플레이리스트 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CyBPYJwiO7M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CyBPYJwiO7M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CyBPYJwiO7M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "찐막 JJINMAK",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-11-06T10:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZJxM1d-bcYoWQZQdM0pQs5fqDVo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zAFYo-qteug"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-13T09:32:02Z",
+        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
+        "title": "🌻 바람도 적당, 햇빛도 적당한 날에 듣기 좋은 싱그러운 팝송 모음 | PLAYLIST",
+        "description": "이번 플리는 바람도 적당, 햇빛도 적당한 화창한 날에 듣기 좋은 싱그러운 팝송들로 모아봤습니다! 최근 비도 오고 우중충한 날이 많았 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zAFYo-qteug/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zAFYo-qteug/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zAFYo-qteug/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "찐막 JJINMAK",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-13T09:32:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "y8mzcztrDeut4zOu6Z6N2-SeKiM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MJkl98uLR6s"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-11T02:06:31Z",
+        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
+        "title": "🌿 초여름 향기 물씬 나는 선선하고 산뜻한 노래 모음 | PLAYLIST",
+        "description": "영상이 마음에 드셨다면 [ 구독 ] [ 좋아요 ] [ 알림 ] - 수익 창출을 하지 않는 채널입니다. - 영상 속 광고는 유튜브 저작권 규정상 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MJkl98uLR6s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MJkl98uLR6s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MJkl98uLR6s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "찐막 JJINMAK",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-11T02:06:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "c5lxNvBMqN5zMXUJZBAq8VjITIw",
       "id": {
         "kind": "youtube#video",
         "videoId": "woCuK7Hrw58"
@@ -554,7 +520,41 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "pJJmfIazrdu-066N-QaWc-FCmOQ",
+      "etag": "3i2ROWmMdTB4XDCYGcCYIiHREYk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8kuNnuMYsFA"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-25T11:21:47Z",
+        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
+        "title": "🌧 윤하 찐팬이 모은 윤하 띵곡 노래 모음 | PLAYLIST",
+        "description": "오늘은 우천여신 윤하님의 띵곡들을 가져왔어요! 제가 윤하님의 오랜 팬이다 보니 이번 영상을 만들 때 노래 부르면서 띵가띵가 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8kuNnuMYsFA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8kuNnuMYsFA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8kuNnuMYsFA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "찐막 JJINMAK",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-25T11:21:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vu2Pc2wZNO3-uZaEJUKemQf6vSk",
       "id": {
         "kind": "youtube#video",
         "videoId": "DTxC1UVfyHc"
@@ -588,36 +588,36 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "BlV3bS2pJHwUcPZ00Y4ehGzR-Ts",
+      "etag": "eS3pstA33llxSOPv_ZGloXJ4EnQ",
       "id": {
         "kind": "youtube#video",
-        "videoId": "8kuNnuMYsFA"
+        "videoId": "Nm3mpjEAPGQ"
       },
       "snippet": {
-        "publishedAt": "2020-04-25T11:21:47Z",
+        "publishedAt": "2022-11-04T12:08:18Z",
         "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
-        "title": "🌧 윤하 찐팬이 모은 윤하 띵곡 노래 모음 | PLAYLIST",
-        "description": "오늘은 우천여신 윤하님의 띵곡들을 가져왔어요! 제가 윤하님의 오랜 팬이다 보니 이번 영상을 만들 때 노래 부르면서 띵가띵가 ...",
+        "title": "🌧 윤하의 사계절을 담은 윤하 노래 모음 | PLAYLIST",
+        "description": "제가 찐막이라는 유튜브 채널을 거의 처음 시작했을 때 \"윤하 찐팬이 모은 윤하 노래모음\" 이라는 영상을 업로드 했는데 그 영상이 벌써 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/8kuNnuMYsFA/default.jpg",
+            "url": "https://i.ytimg.com/vi/Nm3mpjEAPGQ/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/8kuNnuMYsFA/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/Nm3mpjEAPGQ/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/8kuNnuMYsFA/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/Nm3mpjEAPGQ/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
         "channelTitle": "찐막 JJINMAK",
         "liveBroadcastContent": "none",
-        "publishTime": "2020-04-25T11:21:47Z"
+        "publishTime": "2022-11-04T12:08:18Z"
       }
     },
     {
@@ -656,7 +656,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "PSizZe-KngmzyiPHWvFaoqFIAG8",
+      "etag": "_cIGrquJDiw_KccbKNzGbYwUQDI",
       "id": {
         "kind": "youtube#video",
         "videoId": "HhZyHEG1kGs"
@@ -724,70 +724,104 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "eS3pstA33llxSOPv_ZGloXJ4EnQ",
+      "etag": "PejJkkxjw2PWLKFc4vow3YqEM8k",
       "id": {
         "kind": "youtube#video",
-        "videoId": "Nm3mpjEAPGQ"
+        "videoId": "e20bu4NoaZw"
       },
       "snippet": {
-        "publishedAt": "2022-11-04T12:08:18Z",
+        "publishedAt": "2023-03-05T11:04:45Z",
         "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
-        "title": "🌧 윤하의 사계절을 담은 윤하 노래 모음 | PLAYLIST",
-        "description": "제가 찐막이라는 유튜브 채널을 거의 처음 시작했을 때 \"윤하 찐팬이 모은 윤하 노래모음\" 이라는 영상을 업로드 했는데 그 영상이 벌써 ...",
+        "title": "🖤 데일리로 틀어놓기 좋은 감성힙합 모음 | PLAYLIST",
+        "description": "본 영상의 일부는 'Cosm' 의 지원을 받아 제작되었습니다. 언제 어디서나 데일리로 틀어놓기 좋은 감성힙합 플레이리스트 ʕ•ᴥ•ʔ♪♫ ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/Nm3mpjEAPGQ/default.jpg",
+            "url": "https://i.ytimg.com/vi/e20bu4NoaZw/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/Nm3mpjEAPGQ/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/e20bu4NoaZw/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/Nm3mpjEAPGQ/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/e20bu4NoaZw/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
         "channelTitle": "찐막 JJINMAK",
         "liveBroadcastContent": "none",
-        "publishTime": "2022-11-04T12:08:18Z"
+        "publishTime": "2023-03-05T11:04:45Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "8dw7YGzg-0MCWB0RzvotyX5yyIo",
+      "etag": "h9Kk0tMDVi9KSfOiwvUhiy7T88A",
       "id": {
         "kind": "youtube#video",
-        "videoId": "tk5br3V8XKI"
+        "videoId": "M0aGDXSUvoY"
       },
       "snippet": {
-        "publishedAt": "2023-09-25T10:15:07Z",
+        "publishedAt": "2022-10-19T00:08:00Z",
         "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
-        "title": "🍂 선선한 가을밤, 산책하며 듣기 좋은 잔잔한 노래들 | PLAYLIST",
-        "description": "해당 영상의 일부는 지원 받아 제작되었습니다. 영상이 마음에 드셨다면 [ 구독 ] [ 좋아요 ] [ 알림 ] - 수익 창출을 하지 않는 채널 ...",
+        "title": "🥨 선곡 맛집 카페에서 흘러나오는 팝송 모음 | PLAYLIST",
+        "description": "방구석을 카페 분위기로 바꿔주는 노래들로 차곡차곡 모았습니다 여유롭게 커피 한잔 하면서 들어보세요! ʕ•ᴥ•ʔ ♪♫ 영상이 마음에 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/tk5br3V8XKI/default.jpg",
+            "url": "https://i.ytimg.com/vi/M0aGDXSUvoY/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/tk5br3V8XKI/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/M0aGDXSUvoY/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/tk5br3V8XKI/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/M0aGDXSUvoY/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
         "channelTitle": "찐막 JJINMAK",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-09-25T10:15:07Z"
+        "publishTime": "2022-10-19T00:08:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-vAum4FzekQAohrAoXqPP_DBJLQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "T5f0FLDnYM8"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-28T01:04:09Z",
+        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
+        "title": "겨울 느낌 한 스푼 곁들인 아련하고 청량한 노래 모음 | PLAYLIST",
+        "description": "해당 영상의 일부는 지원 받아 제작되었습니다. 겨울 느낌 한 스푼 곁들인 아련하고 청량한 곡들로 선곡했습니다. 즐겁게 들어주시고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/T5f0FLDnYM8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/T5f0FLDnYM8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/T5f0FLDnYM8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "찐막 JJINMAK",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-28T01:04:09Z"
       }
     },
     {
@@ -822,40 +856,6 @@
         "channelTitle": "찐막 JJINMAK",
         "liveBroadcastContent": "none",
         "publishTime": "2023-10-26T08:30:14Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "PejJkkxjw2PWLKFc4vow3YqEM8k",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "e20bu4NoaZw"
-      },
-      "snippet": {
-        "publishedAt": "2023-03-05T11:04:45Z",
-        "channelId": "UCxGyH7vzYkZwFseTUa3yZpQ",
-        "title": "🖤 데일리로 틀어놓기 좋은 감성힙합 모음 | PLAYLIST",
-        "description": "본 영상의 일부는 'Cosm' 의 지원을 받아 제작되었습니다. 언제 어디서나 데일리로 틀어놓기 좋은 감성힙합 플레이리스트 ʕ•ᴥ•ʔ♪♫ ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/e20bu4NoaZw/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/e20bu4NoaZw/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/e20bu4NoaZw/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "찐막 JJINMAK",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-03-05T11:04:45Z"
       }
     }
   ]

@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "z33m-t85X_Fsw6BuJ3iFx47nzfg",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 2130,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_2keG8WU2YrlA3v4yTh7MpTr-TU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9YNc_HdPHYE"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-27T13:48:39Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "슈퍼샤이 이거 맞냐..? #supershy",
+        "description": "챌린지 #슈퍼샤이 #뉴진스.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9YNc_HdPHYE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9YNc_HdPHYE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9YNc_HdPHYE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-27T13:48:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gV-kY83KfvHuZSFrbNjz0pDHVFE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "o-sMt0DVhgc"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-27T09:02:16Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "집에서 틱톡 찍으면 안되는 이유ㅋㅋㅋ #shorts",
+        "description": "shorts #틱톡 #공모전 생방송은 화/토 제외 늦은 밤(10~12시 랜덤)에 시작합니다. 트위치 알림 설정 하면 빠르게 볼 수 있다구~ 광고 및 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/o-sMt0DVhgc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/o-sMt0DVhgc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/o-sMt0DVhgc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-27T09:02:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JzFFrESD-61YUuyvCgNWnoSK018",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Rte9ajE2vAs"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-23T12:29:59Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "홍박사님을 아세요...? #홍박사챌린지 #홍박사님을아세요",
+        "description": "챌린지 #홍박사챌린지 #댄스.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Rte9ajE2vAs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Rte9ajE2vAs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Rte9ajE2vAs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-23T12:29:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SFgy5jtqPHGOILTz3fEnAIWZfN0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "v6aqXZf72G8"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-23T17:26:39Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "집에 이게 왜 있어?! - 나만 가진 특이한 물건 대회 2탄",
+        "description": "이 영상 생방송 원본 다시보기   https://www.youtube.com/watch?v=HJS3aOxPnb4&t=783s 생방송은 화/토 제외 늦은 밤(10~12시 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/v6aqXZf72G8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/v6aqXZf72G8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/v6aqXZf72G8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-23T17:26:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Vgf6JgmFov2jw7xFAwdLdUCZ5s4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gk5avm-t9G0"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-17T10:49:50Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "학창시절 일진들이 성인이 되면..?",
+        "description": "이 영상 생방송 원본 다시보기   https://youtu.be/sh54Y9ljb6s?si=llL7ZqGd7doHj8iL 생방송은 화/토 제외 늦은 밤(10~12시 랜덤 알림 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gk5avm-t9G0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gk5avm-t9G0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gk5avm-t9G0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-17T10:49:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RsFm7DCFf9kRCMrMh1kNay9pntM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "z_EsB5Av8Do"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-23T21:55:44Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "엄마 몰래 몰폰 할 때 공감ㅋㅋㅋ",
+        "description": "엄마 #몰컴 #몰폰 생방송은 화/토 제외 9시(+-1시간)에 시작합니다. 광고 및 협찬 문의 : yygkdud@naver.com * 트위치 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/z_EsB5Av8Do/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/z_EsB5Av8Do/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/z_EsB5Av8Do/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-23T21:55:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_unTICPiLqBtm-1GUfoDZEw9PQs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2EPWQLHsG70"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-21T18:47:44Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "내 얼굴로 합성대회를 열었더니ㅋㅋㅋㅋㅋㅋ",
+        "description": "합성대회 #시청자 생방송은 화/토 제외 9시(+-1시간)에 시작합니다. 광고 및 협찬 문의 : yygkdud@naver.com * 트위치 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2EPWQLHsG70/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2EPWQLHsG70/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2EPWQLHsG70/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-21T18:47:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XV-EqSjrcPEFWNjysOtBT2Tb8-Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1qgi5UDdI1g"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-27T15:01:16Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "이해 할 수 없는 일진들의 연애 방법",
+        "description": "이 영상 생방송 원본 다시보기   https://youtu.be/LivlTTH6urM 생방송은 화/토 제외 늦은 밤(10~12시 랜덤 알림설정 부탁)에 시작 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1qgi5UDdI1g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1qgi5UDdI1g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1qgi5UDdI1g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-27T15:01:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BZmQjDaa7JBfJlp_O51Mdmsmi2o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4Y7qMzdJndQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-14T09:19:26Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "골 때리는 카톡 오픈채팅 빌런 모음ㅋㅋㅋ",
+        "description": "카톡 #오픈채팅 #빌런 생방송은 화/토 제외 늦은 밤(10~12시 랜덤)에 시작합니다. 트위치 알림 설정 하면 빠르게 볼 수 있다구~ 광고 및 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4Y7qMzdJndQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4Y7qMzdJndQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4Y7qMzdJndQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-14T09:19:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hDxVwZEX15ka4LIocY3rGIkHKbE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JHl9zBfYVbQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-23T19:42:21Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "요즘 애들은 상상도 못할 옛날 놀이터 클라스ㅋㅋㅋ",
+        "description": "생방송은 화/토 제외 9시(+-1시간)에 시작합니다. 광고 및 협찬 문의 : yygkdud@naver.com * 트위치 : https://www.twitch.tv/chy0715 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JHl9zBfYVbQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JHl9zBfYVbQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JHl9zBfYVbQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-23T19:42:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "upq_oFUQj8_uhnzr4ZjivQ9Wi2o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BlaPEttXkhs"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-26T14:30:05Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "생방송 강제 퇴장 당한 시청자 채팅 읽기ㅋㅋㅋ",
+        "description": "이 영상 생방송 원본 다시보기   https://www.youtube.com/watch?v=q5FTL59sKCo&t=3314s 생방송은 화/토 제외 늦은 밤(10~12시 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BlaPEttXkhs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BlaPEttXkhs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BlaPEttXkhs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-26T14:30:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "V2bUxJezc4nQTdfqLQ1Gj6McWsQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KV9RdrBG0bQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-09T01:36:03Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "후원 500만원이 터져버리면 생기는 일ㅋㅋㅋ",
+        "description": "후원 #500만원 #리액션 생방송은 화/토 제외 9시(+-1시간)에 시작합니다. 광고 및 협찬 문의 : yygkdud@naver.com * 트위치 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KV9RdrBG0bQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KV9RdrBG0bQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KV9RdrBG0bQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-09T01:36:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uDctIZ9Dmr7MpmfaVG8vTJsAXPc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GuI1eGnsJvk"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-20T18:44:12Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "강제퇴장 시청자 채팅 읽기 2탄ㅋㅋㅋ",
+        "description": "생방송 #강제퇴장 #채팅 생방송은 화/토 제외 9시(+-1시간)에 시작합니다. 광고 및 협찬 문의 : yygkdud@naver.com * 트위치 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GuI1eGnsJvk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GuI1eGnsJvk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GuI1eGnsJvk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-20T18:44:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UBuoV6MpQeMyxlIW8yGNHYKN4XE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "chlzUBfnF0I"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-01T17:25:47Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "요즘 급식 클라스ㄷㄷ 급식 자랑 대회ㅋㅋㅋ",
+        "description": "급식 #자랑 #대회 생방송은 화/토 제외 늦은 밤(10~12시 랜덤)에 시작합니다. 트위치 알림 설정 하면 빠르게 볼 수 있다구~ 광고 및 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/chlzUBfnF0I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/chlzUBfnF0I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/chlzUBfnF0I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-01T17:25:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-QOmycldq848UDxeIKqzbnUAt6M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ebO0Vwn7jQ4"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-09T20:48:19Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "이해 하면 무서운 사진 모음ㅋㅋㅋ",
+        "description": "생방송은 화/토 제외 늦은 밤(10~12시 랜덤)에 시작합니다. 트위치 알림 설정 하면 빠르게 볼 수 있다구~ 광고 및 협찬 문의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ebO0Vwn7jQ4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ebO0Vwn7jQ4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ebO0Vwn7jQ4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-09T20:48:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VP1h4IwRbqf8UphzKlA6-oARGpM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2PN86Th_yuA"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-27T01:18:12Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "2023년 설날 빌런 대회ㅋㅋㅋ",
+        "description": "이 영상 생방송 원본 다시보기   https://youtu.be/btd3L1n_PEQ 생방송은 화/토 제외 늦은 밤(10~12시 랜덤 알림설정 부탁)에 시작 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2PN86Th_yuA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2PN86Th_yuA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2PN86Th_yuA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-27T01:18:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ERfDHFsrbvp02zrD8KGoJUpvLr4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WSqaUUD87pE"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-08T14:35:06Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "의외로 남자 입장에서 무서운 여자",
+        "description": "이 영상 생방송 원본 다시보기   https://youtu.be/1AKhj3kR7T8?si=dxSzwoPs6OgbwNSs 생방송은 화/토 제외 늦은 밤(10~12시 랜덤 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WSqaUUD87pE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WSqaUUD87pE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WSqaUUD87pE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-08T14:35:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4pS69H7P8YbWdsYdxsoSpL5uTMk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DW-I2UU5hkU"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-24T15:39:47Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "여동생 코스프레 하고 방송 처들어가기ㅋㅋㅋ",
+        "description": "뽀구미 #예쁘잖아 생방송은 화/토 제외 늦은 밤(10~12시 랜덤)에 시작합니다. 트위치 알림 설정 하면 빠르게 볼 수 있다구~ 광고 및 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DW-I2UU5hkU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DW-I2UU5hkU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DW-I2UU5hkU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-24T15:39:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ih6fiWTfiZKb0o3HeXKoDzQOQms",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "X2-4SpW9YDY"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-03T21:32:06Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "학교 다닐 때 이해 안됐던 교칙들ㅋㅋㅋ",
+        "description": "학교 #공감 #교칙 생방송은 화/토 제외 늦은 밤(10~12시 랜덤)에 시작합니다. 트위치 알림 설정 하면 빠르게 볼 수 있다구~ 광고 및 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/X2-4SpW9YDY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/X2-4SpW9YDY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/X2-4SpW9YDY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-03T21:32:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_zhxdYU5gW3x4UNPjjfCkaX2VCg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "m_97JFd8pmM"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-14T15:19:19Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "진짜 심각해진 요즘 한국 마X 근황",
+        "description": "이 영상 생방송 원본 다시보기   https://www.youtube.com/watch?v=i119KKJn2-g 생방송은 화/토 제외 늦은 밤(10~12시 랜덤 알림 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/m_97JFd8pmM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/m_97JFd8pmM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/m_97JFd8pmM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-14T15:19:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KE_Mt_GoqyMVjkJIOGQreqG1EFw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KaAYUsGr0L8"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-20T02:53:00Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "평범한 여학생이 일진이 되는 과정",
+        "description": "이 영상 생방송 원본 다시보기   https://www.youtube.com/watch?v=J6Ph0-1O4LQ&t=812s ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KaAYUsGr0L8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KaAYUsGr0L8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KaAYUsGr0L8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-20T02:53:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BM4XBOzSF9ovoThxy6GLB5EvSZg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SFGGP2IssAI"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-11T20:29:08Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "잼민들은 모르는 추억의 음식 월드컵ㅋㅋㅋ",
+        "description": "추억의음식 #이상형월드컵 #떡볶이 생방송은 화/토 제외 9시(+-1시간)에 시작합니다. 광고 및 협찬 문의 : yygkdud@naver.com * 트 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SFGGP2IssAI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SFGGP2IssAI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SFGGP2IssAI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-11T20:29:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yRzpWYSz2omPmwJVOX8Je-fxERg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "V0NZ-caQbbg"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-08T15:10:37Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "시청자들 흑역사 썰 대신 풀어드립니다ㅋㅋㅋ",
+        "description": "생방송은 화/토 제외 저녁8시(수요일 9시 30분)에 시작합니다. * 트위치 : https://www.twitch.tv/chy0715 * 팬카페 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/V0NZ-caQbbg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/V0NZ-caQbbg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/V0NZ-caQbbg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-08T15:10:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5PtgSyI4y6Q3KtIZjic60j5eIK4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Nl7p5rwUFko"
+      },
+      "snippet": {
+        "publishedAt": "2020-03-24T13:15:00Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "미쳐버린 대학교 싸이버 강의 빌런들 모음ㅋㅋㅋ",
+        "description": "사이버강의 #싸강 #이차함수 생방송은 화/토 제외 저녁8시(수요일 9시 30분)에 시작합니다. * 트위치 : https://www.twitch.tv/chy0715 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Nl7p5rwUFko/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Nl7p5rwUFko/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Nl7p5rwUFko/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-03-24T13:15:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1V3Z-4oLv0ke9PjDIiOIbCHIQTA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yiXPoISYR-A"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-29T20:46:18Z",
+        "channelId": "UC9ta639M37zzWKwo7kKc80A",
+        "title": "나이별 방학을 보내는 방법ㅋㅋㅋ",
+        "description": "공감 #대학생 #학교 생방송은 화/토 제외 늦은 밤(10~12시 랜덤)에 시작합니다. 트위치 알림 설정 하면 빠르게 볼 수 있다구~ 광고 및 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yiXPoISYR-A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yiXPoISYR-A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yiXPoISYR-A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "주둥이방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-29T20:46:18Z"
+      }
+    }
+  ]
+}

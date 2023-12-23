@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "y8O5K5Vf54KdTXBxyxQkXInAuvY",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 145,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QTR-FuO0n62KMCfN9nd9pgSeXxg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "efnc2S012Co"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-05T04:45:01Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "모든 건 너한테 달렸어",
+        "description": "스케치코미디 #숏박스 #도둑 음원출처 브금대통령 : https://www.youtube.com/user/GwooA.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/efnc2S012Co/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/efnc2S012Co/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/efnc2S012Co/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-05T04:45:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "y6E43qAFm23lWi04P5AZ5DWIXvo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rWzNdMhnYIs"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-08T09:00:22Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "방송사고",
+        "description": "스케치코미디 #숏박스 #뉴스 음원출처 브금대통령 : https://www.youtube.com/user/GwooA.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rWzNdMhnYIs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rWzNdMhnYIs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rWzNdMhnYIs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-08T09:00:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jOSdeSZ72qdqofmqR_UUvITeylc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7VUTjhc-s6o"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-04T09:00:03Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "고깃집",
+        "description": "스케치코미디 #숏박스 #장기연애 장소제공 : 서울 마포구 독막로 67-14 빽돈 홍대점.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7VUTjhc-s6o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7VUTjhc-s6o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7VUTjhc-s6o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-04T09:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "y6-SLOJ4ysT9gMzu8-2wRTQJOxI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bS08FFG20eQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-06T09:00:17Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "여행계획",
+        "description": "스케치코미디 #숏박스 #장기연애 음원출처 브금대통령 : https://www.youtube.com/user/GwooA 장소제공 : 경기 파주시 교하로 427 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bS08FFG20eQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bS08FFG20eQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bS08FFG20eQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-06T09:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "n75EW3HzvOnvybrTNt8utRxJMSc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "u1npU_pnDdE"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-18T04:00:10Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "경차사러 갔다가 람보르기니 산 썰",
+        "description": "스케치코미디 #숏박스 #허위딜러 음원출처 브금대통령 : https://www.youtube.com/user/GwooA.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u1npU_pnDdE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u1npU_pnDdE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u1npU_pnDdE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-18T04:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qTrJ7F3Dq1Ese4oWtUBglEM4MSk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0Fatk2HW8w8"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-13T03:15:00Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "모텔이나 갈까?",
+        "description": "스케치코미디 #숏박스 #장수커플 음원출처 브금대통령 : https://www.youtube.com/user/GwooA.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0Fatk2HW8w8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0Fatk2HW8w8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0Fatk2HW8w8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-13T03:15:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eBALFlT0I8TAWKC46VNT55WwOiQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lkagwPQrWeE"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-27T09:00:32Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "마감 30분 전",
+        "description": "스케치코미디 #숏박스 #미용실 장소제공 : 인천 부평구 부평대로 153 233호 수피아나 음원출처 브금대통령 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lkagwPQrWeE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lkagwPQrWeE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lkagwPQrWeE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-27T09:00:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Kfu9vvaB66GTPdWZzl2j7s5Kyq0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mnGNoGj19Jg"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-13T09:00:22Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "특종",
+        "description": "스케치코미디 #숏박스 #기자.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mnGNoGj19Jg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mnGNoGj19Jg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mnGNoGj19Jg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-13T09:00:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cavS4XoT8egMddikIYjuB5o086A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "v48_kOMPe08"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-29T09:00:21Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "자가격리",
+        "description": "스케치코미디 #숏박스 #찐남매 음원출처 브금대통령 : https://www.youtube.com/user/GwooA.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/v48_kOMPe08/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/v48_kOMPe08/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/v48_kOMPe08/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-29T09:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Mgml1cZlvt_3jZs2fmy4EsRTqI0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AeVP4dzq174"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-01T09:00:04Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "병문안",
+        "description": "스케치코미디 #숏박스 #병문안.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AeVP4dzq174/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AeVP4dzq174/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AeVP4dzq174/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-01T09:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TX8va0h4smAPh15fMXU8lmCKPSs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wVr57pnUj_I"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-28T09:00:22Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "...",
+        "description": "스케치코미디 #숏박스 #찐형제.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wVr57pnUj_I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wVr57pnUj_I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wVr57pnUj_I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-28T09:00:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oBN9zm6r9fDir5lT4jgDCW3d5Jo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2IArGihNhOs"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-12T03:48:43Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "1등 되면 얼마줄 거야?",
+        "description": "스케치코미디 #숏박스 #로또 음원출처 브금대통령 : https://www.youtube.com/user/GwooA.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2IArGihNhOs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2IArGihNhOs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2IArGihNhOs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-12T03:48:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Em_gJqNUrhBc0nBb2UUCM9XCC-g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1z4NjPc4_i0"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-16T09:00:00Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "벚꽃놀이",
+        "description": "스케치코미디 #숏박스 #벚꽃놀이.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1z4NjPc4_i0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1z4NjPc4_i0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1z4NjPc4_i0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-16T09:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nFWK3OwrWcwODwqd9oUCq5D0iwA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3r6OdSjhmJw"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-23T09:00:01Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "정원초과",
+        "description": "스케치코미디 #숏박스 #엘리베이터.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3r6OdSjhmJw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3r6OdSjhmJw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3r6OdSjhmJw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-23T09:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bDcYGxvF8SCtUc_DDz8-2yrG-qU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vd_kEZAH5-k"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-13T11:22:58Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "잔액이 부족합니다",
+        "description": "스케치코미디 #숏박스 #버스.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vd_kEZAH5-k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vd_kEZAH5-k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vd_kEZAH5-k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-13T11:22:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_-uUBwyj6OKZZeDRR9yqPn7DMRg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7MhUaA9wbJA"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-26T09:00:03Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "병문안",
+        "description": "스케치코미디 #숏박스 #병원.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7MhUaA9wbJA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7MhUaA9wbJA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7MhUaA9wbJA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-26T09:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "F7NnGTOKpoWl3rI7CLFyqTxa90I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uRFEhFIsyXY"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-26T09:00:36Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "나 퇴사할 거야",
+        "description": "스케치코미디 #숏박스 #찐남매.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uRFEhFIsyXY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uRFEhFIsyXY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uRFEhFIsyXY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-26T09:00:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vc_2BbO7E-IxXGLYCw5JySnbjwU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4fNMMelN4tM"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-10T09:00:02Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "예쁜카페",
+        "description": "스케치코미디 #숏박스 #예쁜카페 장소제공 : 마포구 상암동 2-127번지 듀이커피 음원출처 브금대통령 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4fNMMelN4tM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4fNMMelN4tM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4fNMMelN4tM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-10T09:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "L-qIt2fV638Q1pbu9X36mG2Oahk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BlC3DgsM3l0"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-02T06:16:24Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "내일 지구 멸망하면 뭐 할 거야?",
+        "description": "스케치코미디 #숏박스 #지구멸망 음원출처 브금대통령 : https://www.youtube.com/user/GwooA.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BlC3DgsM3l0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BlC3DgsM3l0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BlC3DgsM3l0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-02T06:16:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vRkEbd8F2UYHE3VcmlbfGV8Vp1M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YZm9G8iSRgg"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-22T09:00:25Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "한강",
+        "description": "스케치코미디 #숏박스 #짐빔하이볼.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YZm9G8iSRgg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YZm9G8iSRgg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YZm9G8iSRgg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-22T09:00:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yUpZEqaPoZBBX9Zo1Na5TlL4Qi0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eFfuPOLCKks"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-01T09:00:28Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "야간근무",
+        "description": "스케치코미디 #숏박스 #군대.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eFfuPOLCKks/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eFfuPOLCKks/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eFfuPOLCKks/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-01T09:00:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RBdpYVESld1rbYys50sb6D9rpZI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1HKnezfjd0A"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-10T09:00:02Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "5분만 쉴까?",
+        "description": "스케치코미디 #숏박스 #경기도예술인기회소득_경기아트센터.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1HKnezfjd0A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1HKnezfjd0A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1HKnezfjd0A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-10T09:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xMPfVHOCwz5Elpd-Y1WY5-stp8w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lPl8-Fo4nr8"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-24T09:00:37Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "필요한 거 있으시면 말씀해주세요",
+        "description": "스케치코미디 #숏박스 #신발.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lPl8-Fo4nr8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lPl8-Fo4nr8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lPl8-Fo4nr8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-24T09:00:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HMXpxloBkZdB89elQKzgTTvp4nc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4Fs59tq2Cd8"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-23T11:15:00Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "군인 인 거 티나?",
+        "description": "스케치코미디 #숏박스 #신병 음원출처 브금대통령 : https://www.youtube.com/user/GwooA.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4Fs59tq2Cd8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4Fs59tq2Cd8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4Fs59tq2Cd8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-23T11:15:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MjWWfJxOSdsAdBDbOubjuTB_jPA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Dyx_uy9h5UQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-25T11:15:01Z",
+        "channelId": "UC1B6SalAoiJD7eHfMUA9QrA",
+        "title": "손흥민 어떡하냐",
+        "description": "스케치코미디 #숏박스 #손흥민 음원출처 브금대통령 : https://www.youtube.com/user/GwooA.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Dyx_uy9h5UQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Dyx_uy9h5UQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Dyx_uy9h5UQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "숏박스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-25T11:15:01Z"
+      }
+    }
+  ]
+}
