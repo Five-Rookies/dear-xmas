@@ -16,7 +16,7 @@ const ResetPasswordPage = () => {
     try {
       await supabase.auth.updateUser({ password: passwordRef.current?.value })
       alert('비밀번호 재설정이 완료되었습니다.')
-      router.refresh()
+      router.push('/')
     } catch (error) {
       alert('비밀번호 재설정 시도 중 오류가 발생하였습니다.')
       throw error
@@ -29,7 +29,9 @@ const ResetPasswordPage = () => {
       <form onSubmit={handleSubmit}>
         <PasswordInput passwordRef={passwordRef} />
         <PasswordCheckInput passwordRef={passwordRef} />
-        <button type="submit">비밀번호 변경 완료</button>
+        <button onMouseEnter={() => router.prefetch('/')} type="submit">
+          비밀번호 변경 완료
+        </button>
       </form>
     </main>
   )
