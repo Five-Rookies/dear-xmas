@@ -24,6 +24,9 @@ $main-color: #ff1e1e;
     transition: all 0.3s ease-in-out;
     h1 {
       width: 6rem;
+      .logo {
+        margin: 0 0 -0.5rem 0.1rem;
+      }
     }
     .navi {
       display: flex;
