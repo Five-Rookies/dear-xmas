@@ -55,6 +55,7 @@ const Header = (): React.JSX.Element => {
           <button onClick={() => setShowProfile(!showProfile)}>
             <span>프로필</span>
           </button>
+          {showProfile && <Profile setShowProfile={setShowProfile} />}
           <p className={styles.line}>|</p>
           <span
             onClick={() => {
@@ -166,7 +167,6 @@ const Header = (): React.JSX.Element => {
           onClickOutside={onClickOutside}
         />
       )}
-      {showProfile && <Profile setShowProfile={setShowProfile} />}
     </header>
   )
 }
