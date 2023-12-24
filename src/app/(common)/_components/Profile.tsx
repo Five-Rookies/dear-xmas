@@ -6,10 +6,12 @@ import { getProfile, updateProfile } from '@/utils/apiRequest/profileApiRequest'
 import { Database, Tables } from '@/type/supabase'
 import styles from './header.module.scss'
 
+type TProfiles = Tables<'profiles'>
+
 const Profile = () => {
-  const [isEditMode, setIsEditMode] = useState(false)
+  const [isEditMode, setIsEditMode] = useState<boolean>(false)
   const [currentImg, setCurrentImg] = useState<number>(0)
-  const userData = useRef<Tables<'profiles'>>()
+  const userData = useRef<TProfiles>()
   const inputRef = useRef<HTMLInputElement>(null)
   const profileImages = ['santa', 'snowman', 'candle', 'cookie']
 
@@ -20,7 +22,7 @@ const Profile = () => {
         data: { session },
       } = await supabase.auth.getSession()
 
-      const profile: Tables<'profiles'>[] = await getProfile(
+      const profile: TProfiles[] = await getProfile(
         'email',
         session!.user.email!,
       )
