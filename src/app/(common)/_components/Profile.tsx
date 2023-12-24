@@ -46,7 +46,10 @@ const Profile = ({
   useEffect(() => {
     // 프로필 모달 외부 클릭시 창 종료하는 이벤트
     const closeProfile = (e: MouseEvent) => {
-      if (!(e.target as Element).closest('.profile')) {
+      if (
+        !(e.target as Element).closest('.profile') &&
+        !(e.target as Element).closest('.accountProfileBtn')
+      ) {
         setShowProfile(prevShowProfile => !prevShowProfile)
       }
     }
@@ -122,7 +125,11 @@ const Profile = ({
         <div className={styles.userInfo}>
           {isEditMode ? (
             <p>
-              <input ref={inputRef} placeholder={userData.current.user_name!} />
+              <input
+                ref={inputRef}
+                defaultValue={userData.current.user_name!}
+                placeholder={userData.current.user_name!}
+              />
             </p>
           ) : (
             <p>{userData.current.user_name}</p>
