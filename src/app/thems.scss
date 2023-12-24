@@ -36,6 +36,7 @@ html[data-theme='light'] {
   --color-grey-bg: #{$bg-color-11};
   --color-grey-box-bg: #{$bg-color-1};
   --color-border: #{$bg-color-1};
+  --color-profile: #{$bg-color-1};
 }
 
 html[data-theme='dark'] {
@@ -53,4 +54,5 @@ html[data-theme='dark'] {
   --color-grey-bg: #{$bg-color-7};
   --color-grey-box-bg: #{$bg-color-7};
   --color-border: #{$bg-color-4};
+  --color-profile: #{$bg-color-5};
 }
