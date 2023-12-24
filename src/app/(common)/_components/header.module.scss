@@ -368,7 +368,13 @@ $main-color: #ff1e1e;
       padding: 2rem 0 0.1rem;
       margin-bottom: 0.5rem;
       input {
+        background-color: var(--color-profile);
+        color: var(--color-text);
+        font-size: 1rem;
         height: 1.6rem;
+        padding: 1rem 0.5rem;
+        border-radius: 0.5rem;
+        border: 0.1rem solid #eee;
         margin-bottom: 0.5rem;
       }
     }

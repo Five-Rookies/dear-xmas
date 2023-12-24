@@ -122,7 +122,11 @@ const Profile = ({
         <div className={styles.userInfo}>
           {isEditMode ? (
             <p>
-              <input ref={inputRef} placeholder={userData.current.user_name!} />
+              <input
+                ref={inputRef}
+                defaultValue={userData.current.user_name!}
+                placeholder={userData.current.user_name!}
+              />
             </p>
           ) : (
             <p>{userData.current.user_name}</p>
