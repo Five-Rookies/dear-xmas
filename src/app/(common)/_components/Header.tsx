@@ -52,7 +52,12 @@ const Header = (): React.JSX.Element => {
     if (hydrated) {
       return isLogin ? (
         <div className={styles.account}>
-          <button onClick={() => setShowProfile(!showProfile)}>
+          <button
+            className="accountProfileBtn"
+            onClick={() => {
+              setShowProfile(prevShowProfile => !prevShowProfile)
+            }}
+          >
             <span>프로필</span>
           </button>
           {showProfile && <Profile setShowProfile={setShowProfile} />}
