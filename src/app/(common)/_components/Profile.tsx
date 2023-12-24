@@ -57,24 +57,26 @@ const Profile = ({
     }
   })
 
+  const validateUpdateProfileData = () => {
+    const REGEX = /^[a-zA-Z가-힣0-9]{1,8}$/
+    if (!REGEX.test(inputRef.current!.value)) {
+      alert('닉네임을 특수문자 제외 8글자 이하로 입력해주세요')
+      return false
+    }
+
+    if (
+      userData.current!.user_name === inputRef.current!.value &&
+      userData.current!.profile_img === currentImg
+    ) {
+      alert('프로필 변경 내역이 없습니다')
+      return false
+    }
+    return true
+  }
+
   const handleUserProfile = async () => {
     if (isEditMode && inputRef.current && userData.current) {
-      // 업데이트 정보 유효성 검사
-      const REGEX = /^[a-zA-Z가-힣0-9]{1,8}$/
-      if (!REGEX.test(inputRef.current.value)) {
-        alert('닉네임을 특수문자 제외 8글자 이하로 입력해주세요')
-        return
-      }
-
-      if (
-        userData.current.user_name === inputRef.current.value &&
-        userData.current.profile_img === currentImg
-      ) {
-        alert('프로필 변경 내역이 없습니다')
-        return
-      }
-
-      // 유효성 검사 통과 시 수정 진행
+      if (!validateUpdateProfileData()) return
       const data = {
         id: userData.current.id,
         profile_img: currentImg,
@@ -137,7 +139,7 @@ const Profile = ({
           ) : (
             <p
               className={styles.notEditModeBtn}
-              onClick={() => handleUserProfile()}
+              onClick={() => setIsEditMode(!isEditMode)}
             >
               프로필 수정
             </p>
