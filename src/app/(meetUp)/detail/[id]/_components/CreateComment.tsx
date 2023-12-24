@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation'
 import { createComments } from '@/utils/apiRequest/commentsApiRequest'
 import { Tables } from '@/type/supabase'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
+import { debounce } from 'lodash'
 
 const CreateComment = ({
   profile,
@@ -24,22 +25,23 @@ const CreateComment = ({
     setUserName(userData.user_name!)
   }
 
-  const handleCreateCommnet = async (
-    event: React.KeyboardEvent<HTMLInputElement>,
-  ) => {
-    if (event.key === 'Enter') {
-      if (inputValue?.current?.value) {
-        await createComments(
-          inputValue.current.value,
-          videoId,
-          userName,
-          profile,
-        )
-        inputValue.current.value = ''
-        fetchComments()
+  const handleCreateCommnet = debounce(
+    async (event: React.KeyboardEvent<HTMLInputElement>) => {
+      if (event.key === 'Enter') {
+        if (inputValue?.current?.value) {
+          await createComments(
+            inputValue.current.value,
+            videoId,
+            userName,
+            profile,
+          )
+          inputValue.current.value = ''
+          fetchComments()
+        }
       }
-    }
-  }
+    },
+    500,
+  )
 
   useEffect(() => {
     getUserName()
@@ -51,7 +53,7 @@ const CreateComment = ({
         ref={inputValue}
         type="text"
         placeholder="댓글을 남겨주세요"
-        onKeyDown={e => handleCreateCommnet(e)}
+        onKeyDown={handleCreateCommnet}
       />
     </>
   )

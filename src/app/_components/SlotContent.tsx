@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 import styles from '@/app/page.module.scss'
 import SlotModal from './SlotModal'
+import { debounce } from 'lodash'
 
 const SlotContent = () => {
   const [sentence, setSentence] = useState([
@@ -143,7 +144,7 @@ const SlotContent = () => {
     }
   }, [isClicked])
 
-  const handleClick = () => {
+  const handleClick = debounce(() => {
     if (!isClicked) {
       setIsClicked(true)
       // const randomIndex = Math.floor(Math.random() * sentence.length)
@@ -169,7 +170,7 @@ const SlotContent = () => {
       setCurrentIndex(0)
       setIsRestarted(true)
     }
-  }
+  }, 300)
 
   // const handleAnimation = (index: number, isClicked: string) => {
   //   if (isClicked) {

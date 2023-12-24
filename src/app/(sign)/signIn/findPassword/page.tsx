@@ -7,14 +7,13 @@ import { Tables } from '@/type/supabase'
 import { getProfile } from '@/utils/apiRequest/profileApiRequest'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { BasicInput, PasswordHintInput } from '../../_components/SignInput'
+import { debounce } from 'lodash'
 
 const FindPasswordPage = () => {
   const emailRef = useRef<HTMLInputElement>(null)
   const passwordHintRef = useRef<HTMLInputElement>(null)
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault()
-
+  const handleSubmit = debounce(async (): Promise<null | undefined> => {
     const email = emailRef.current!.value
     const passwordHint = passwordHintRef.current!.value
     const userdata: Tables<'profiles'>[] = await getProfile('email', email)
@@ -38,13 +37,13 @@ const FindPasswordPage = () => {
       alert('비밀번호 재설정 시도 중 오류가 발생하였습니다.')
       throw error
     }
-  }
+  }, 500)
 
   return (
     <main className={styles.container}>
       <h1>비밀번호 찾기</h1>
 
-      <form onSubmit={handleSubmit}>
+      <form>
         <BasicInput
           inputRef={emailRef}
           title="이메일"
@@ -53,7 +52,9 @@ const FindPasswordPage = () => {
           placeholder="이메일을 입력해주세요."
         />
         <PasswordHintInput passwordHintRef={passwordHintRef} />
-        <button type="submit">비밀번호 재설정 이메일 받기</button>
+        <button type="button" onClick={handleSubmit}>
+          비밀번호 재설정 이메일 받기
+        </button>
       </form>
 
       <div className={styles.routerBox}>

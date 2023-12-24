@@ -1,6 +1,6 @@
 'use client'
 
-import React, { FormEvent, useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequestClient'
 import { Value, ValuePiece } from '@/type/Component'
@@ -9,6 +9,7 @@ import { IVideoInfoToCookie } from '@/utils/cookieServer'
 import { Tables } from '@/type/supabase'
 import styles from './meetupModal.module.scss'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
+import { debounce } from 'lodash'
 
 type TMeetupBoardData = Tables<'meetup_board'>
 
@@ -75,11 +76,7 @@ const MeetupModal = ({
     })
   }
 
-  const handleSubmitCreateMeetupBoard = async (
-    event: FormEvent,
-  ): Promise<void> => {
-    event.preventDefault()
-
+  const handleSubmitCreateMeetupBoard = debounce(async (): Promise<void> => {
     if (meetupScheduling !== null && meetupScheduling < nowDate) {
       alert('시간 설정 확인해 주세요!')
       return
@@ -107,7 +104,7 @@ const MeetupModal = ({
     } catch (error) {
       console.error(error)
     }
-  }
+  }, 500)
 
   useEffect(() => {
     // 모달이 열릴 때 body의 overflow를 hidden으로 설정
@@ -129,10 +126,7 @@ const MeetupModal = ({
         <div className={styles.modalHeader}>
           <h1>모임 만들기</h1>
         </div>
-        <form
-          className={styles.modalForm}
-          onSubmit={handleSubmitCreateMeetupBoard}
-        >
+        <form className={styles.modalForm}>
           <div className={styles.inputGroup}>
             <select
               required
@@ -176,7 +170,11 @@ const MeetupModal = ({
             >
               취소
             </button>
-            <button type="submit" className={styles.actionButton}>
+            <button
+              type="button"
+              className={styles.actionButton}
+              onClick={handleSubmitCreateMeetupBoard}
+            >
               모임 생성
             </button>
           </div>
