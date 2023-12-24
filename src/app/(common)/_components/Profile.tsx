@@ -125,7 +125,14 @@ const Profile = ({
           {isEditMode ? (
             <div className={styles.editModeBtn}>
               <p onClick={() => handleUserProfile()}>수정 완료</p>
-              <p onClick={() => setIsEditMode(!isEditMode)}>취소</p>
+              <p
+                onClick={() => {
+                  setIsEditMode(!isEditMode)
+                  setCurrentImg(userData.current?.profile_img as number)
+                }}
+              >
+                취소
+              </p>
             </div>
           ) : (
             <p
