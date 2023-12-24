@@ -25,8 +25,6 @@ const Header = (): React.JSX.Element => {
   const router = useRouter()
   const pathname = usePathname()
 
-  console.log('showProfile :', showProfile)
-
   const onClickDarkMode = (): void => {
     toggleDarkMode(!isDark)
   }

@@ -66,6 +66,14 @@ const Profile = ({
         return
       }
 
+      if (
+        userData.current.user_name === inputRef.current.value &&
+        userData.current.profile_img === currentImg
+      ) {
+        alert('프로필 변경 내역이 없습니다')
+        return
+      }
+
       // 유효성 검사 통과 시 수정 진행
       const data = {
         id: userData.current.id,
@@ -113,7 +121,20 @@ const Profile = ({
             <p>{userData.current.user_name}</p>
           )}
           <p>{userData.current.email}</p>
-          <p onClick={() => handleUserProfile()}>프로필 수정</p>
+
+          {isEditMode ? (
+            <div className={styles.editModeBtn}>
+              <p onClick={() => handleUserProfile()}>수정 완료</p>
+              <p onClick={() => setIsEditMode(!isEditMode)}>취소</p>
+            </div>
+          ) : (
+            <p
+              className={styles.notEditModeBtn}
+              onClick={() => handleUserProfile()}
+            >
+              프로필 수정
+            </p>
+          )}
         </div>
       </div>
     )
