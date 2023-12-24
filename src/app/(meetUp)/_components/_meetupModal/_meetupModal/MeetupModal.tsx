@@ -35,11 +35,13 @@ const MeetupModal = ({
   const [meetupScheduling, setMeetupScheduling] = useState<Value>(new Date())
   const [meetupContent, setMeetupContent] = useState<string>('')
   const [userName, setUserName] = useState<string | null>('')
+  const [userEmail, setUserEmail] = useState<string | null>('')
   const nowDate = new Date()
 
   const fetchUser = async (): Promise<void> => {
     const userData: Tables<'profiles'> = await getProfileByEmail()
     setUserName(userData?.user_name)
+    setUserEmail(userData?.email)
   }
 
   const handleClickOutside = (
@@ -89,6 +91,7 @@ const MeetupModal = ({
       meetup_content: meetupContent,
       scheduling: meetupScheduling as string,
       user_name: userName,
+      email: userEmail,
       video_id: videoId,
       thumbnail: thumbnailsUrl,
       channel_id: channelId,

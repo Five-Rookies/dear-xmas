@@ -17,6 +17,7 @@ export interface IMeetupBoardData {
   meetup_content?: string
   scheduling: Value
   user_name?: string | undefined
+  email: string
   video_id?: string
   thumbnail?: string
   channel_id?: string

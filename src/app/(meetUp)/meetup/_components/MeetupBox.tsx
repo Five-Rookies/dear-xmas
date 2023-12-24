@@ -32,14 +32,14 @@ const MeetupBox = ({
   meetup: IMeetupBoardData
   fetchMeetupList: () => void
 }): React.JSX.Element => {
-  const [userName, setUserName] = useState<string>('')
+  const [userEmail, setUserEmail] = useState<string>('')
   const [userId, setUserId] = useState<string>('')
   const [isLiked, setIsLiked] = useState<boolean>(false)
   const [likeCount, setLikeCount] = useState<number | undefined>(0)
 
   const fetchData = async (): Promise<void> => {
     const userData: Tables<'profiles'> = await getProfileByEmail()
-    setUserName(userData?.user_name!)
+    setUserEmail(userData?.email!)
     if (userData.id && meetup.id) {
       const isLike = await getLike(userData.id, meetup.id, 'meetup_like')
       const likeLength: number | undefined = await countLike(
@@ -54,22 +54,22 @@ const MeetupBox = ({
 
   const handleMember = async (
     id: number,
-    user_name: string,
+    email: string,
     status: any,
   ): Promise<void> => {
     const prevMember = await getPrevMember(id)
     if (status.target.innerText === APPLY) {
-      const memberArr = [...prevMember.member_list, userName]
+      const memberArr = [...prevMember.member_list, userEmail]
       if (
-        [...prevMember.member_list].includes(userName) ||
-        user_name.includes(userName)
+        [...prevMember.member_list].includes(userEmail) ||
+        email.includes(userEmail)
       ) {
         return alert('이미 참가하였습니다.')
       }
       await updateMember(id, memberArr)
     } else {
       const memberArr = prevMember.member_list.filter(
-        (member: string) => member !== userName,
+        (member: string) => member !== userEmail,
       )
       await updateMember(id, memberArr)
     }
@@ -117,8 +117,8 @@ const MeetupBox = ({
               <p>{dateFomatter(meetup?.scheduling)} 오픈예정</p>
             )}
 
-            {(meetup?.user_name === userName ||
-              meetup?.member_list?.includes(userName)) && (
+            {(meetup?.email === userEmail ||
+              meetup?.member_list?.includes(userEmail)) && (
               <Link
                 href={`/live?meetup_id=${meetup?.id}`}
                 className={`${btn.button} ${btn.buttonGrayBg}`}
@@ -126,14 +126,14 @@ const MeetupBox = ({
                 라이브 바로가기
               </Link>
             )}
-            {meetup?.user_name !== userName && (
+            {meetup?.email !== userEmail && (
               <button
                 onClick={(e: React.MouseEvent) =>
-                  handleMember(meetup?.id!, meetup?.user_name!, e)
+                  handleMember(meetup?.id!, meetup?.email!, e)
                 }
                 className={`${btn.button} ${btn.buttonRed}`}
               >
-                {[...meetup?.member_list!].includes(userName)
+                {[...meetup?.member_list!].includes(userEmail)
                   ? '신청취소'
                   : APPLY}
               </button>

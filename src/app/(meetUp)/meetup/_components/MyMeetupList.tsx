@@ -10,12 +10,14 @@ import { Tables } from '@/type/supabase'
 
 const MyMeetupList = (): React.JSX.Element => {
   const [userName, setUserName] = useState<string>('')
+  const [userEmail, setUserEmail] = useState<string>('')
   const [createdMeetup, setCreatedMeetup] = useState<never[]>([])
   const [isLoading, setIsLoading] = useState<boolean>(false)
 
   const fetchUser = async (): Promise<void> => {
     const userData: Tables<'profiles'> = await getProfileByEmail()
     setUserName(userData?.user_name!)
+    setUserEmail(userData?.email!)
   }
 
   const fetchMeetupList = async (): Promise<void> => {
@@ -37,8 +39,8 @@ const MyMeetupList = (): React.JSX.Element => {
         createdMeetup
           ?.filter(
             (meetup: IMeetupBoardData) =>
-              meetup?.user_name === userName ||
-              meetup?.member_list?.includes(userName),
+              meetup?.email === userEmail ||
+              meetup?.member_list?.includes(userEmail),
           )
           .map((meetup: IMeetupBoardData) => {
             return (
