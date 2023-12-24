@@ -54,9 +54,7 @@ const Header = (): React.JSX.Element => {
         <div className={styles.account}>
           <button
             className="accountProfileBtn"
-            onClick={() => {
-              setShowProfile(prevShowProfile => !prevShowProfile)
-            }}
+            onClick={() => setShowProfile(!showProfile)}
           >
             <span>프로필</span>
           </button>
