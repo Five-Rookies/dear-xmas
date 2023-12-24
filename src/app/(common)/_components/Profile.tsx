@@ -8,11 +8,16 @@ import styles from './header.module.scss'
 
 type TProfiles = Tables<'profiles'>
 
-const Profile = () => {
+const Profile = ({
+  setShowProfile,
+}: {
+  setShowProfile: React.Dispatch<React.SetStateAction<boolean>>
+}) => {
   const [isEditMode, setIsEditMode] = useState<boolean>(false)
   const [currentImg, setCurrentImg] = useState<number>(0)
   const userData = useRef<TProfiles>()
   const inputRef = useRef<HTMLInputElement>(null)
+  const modalRef = useRef<HTMLDivElement>(null)
   const profileImages = ['santa', 'snowman', 'candle', 'cookie']
 
   useEffect(() => {
@@ -38,6 +43,20 @@ const Profile = () => {
     fetchData()
   }, [])
 
+  useEffect(() => {
+    // 프로필 모달 외부 클릭시 창 종료하는 이벤트
+    const closeProfile = (e: MouseEvent) => {
+      if (!(e.target as Element).closest('.profile')) {
+        setShowProfile(prevShowProfile => !prevShowProfile)
+      }
+    }
+    document.addEventListener('mousedown', closeProfile)
+    return () => {
+      // 컴포넌트 언마운트 시 이벤트 제거
+      document.removeEventListener('mousedown', closeProfile)
+    }
+  })
+
   const handleUserProfile = async () => {
     if (isEditMode && inputRef.current && userData.current) {
       // 업데이트 정보 유효성 검사
@@ -61,7 +80,7 @@ const Profile = () => {
 
   return (
     userData.current && (
-      <div className={styles.profile}>
+      <div ref={modalRef} className={`${styles.profile} profile`}>
         <div className={styles.profileImgBox}>
           {isEditMode && (
             <button

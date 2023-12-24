@@ -168,7 +168,7 @@ const Header = (): React.JSX.Element => {
           onClickOutside={onClickOutside}
         />
       )}
-      {showProfile && <Profile />}
+      {showProfile && <Profile setShowProfile={setShowProfile} />}
     </header>
   )
 }
