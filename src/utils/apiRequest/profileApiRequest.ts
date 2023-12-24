@@ -42,7 +42,7 @@ export const updateProfile = async ({
     // error: unknow 타입으로 code 접근이 불가하여 타입 가드(type guard) 사용
     if ('code' in error) {
       const supabaseError = error as ISupabaseError
-      if (supabaseError.code === '23505') alert('중복된 닉네임입니다!')
+      if (supabaseError.code === '23505') throw new Error(`중복된 닉네임입니다`)
     }
     console.error(error)
     throw new Error(`[ERROR]데이터를 수정하지 못했습니다`)

@@ -82,8 +82,13 @@ const Profile = ({
         profile_img: currentImg,
         user_name: inputRef.current.value,
       }
-      await updateProfile(data)
-      userData.current = { ...userData.current, ...data }
+      try {
+        await updateProfile(data)
+        userData.current = { ...userData.current, ...data }
+      } catch (error) {
+        if (error instanceof Error) alert(error.message)
+        return
+      }
     }
     setIsEditMode(!isEditMode)
   }
