@@ -107,7 +107,7 @@ const SurveyModal = ({ surveyList, handleModalClose }: IProps) => {
 
   // 값이 true인 선택된 checkbox들 출력
 
-  const handleSubmit = debounce(async () => {
+  const handleSubmit = debounce(async (): Promise<void> => {
     try {
       await updateServeyData(userId, firstAnswer, secondAnswer, thirdAnswer)
       alert('설문이 완료되었습니다🎅🏻')

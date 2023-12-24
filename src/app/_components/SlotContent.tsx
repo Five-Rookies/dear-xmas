@@ -144,7 +144,7 @@ const SlotContent = () => {
     }
   }, [isClicked])
 
-  const handleClick = debounce(() => {
+  const handleClick = debounce((): void => {
     if (!isClicked) {
       setIsClicked(true)
       // const randomIndex = Math.floor(Math.random() * sentence.length)
@@ -170,7 +170,7 @@ const SlotContent = () => {
       setCurrentIndex(0)
       setIsRestarted(true)
     }
-  }, 300)
+  }, 500)
 
   // const handleAnimation = (index: number, isClicked: string) => {
   //   if (isClicked) {

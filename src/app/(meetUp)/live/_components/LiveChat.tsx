@@ -57,18 +57,21 @@ const LiveChat = ({ meetupId }: { meetupId: number }) => {
     const totalSeconds = hours * 3600 + minutes * 60 + seconds
     return totalSeconds
   }
-  const handleCreate = debounce(async (e: any) => {
-    if (e.key === 'Enter') {
-      await createChat(
-        meetupId,
-        user.user_metadata.user_name || '',
-        user.id || '',
-        user.user_metadata.profile_img as 0 | 1 | 2 | 3,
-        inputValue?.current?.value,
-      )
-      inputValue.current.value = ''
-    }
-  }, 500)
+  const handleCreate = debounce(
+    async (e: React.KeyboardEvent<HTMLInputElement>): Promise<void> => {
+      if (e.key === 'Enter') {
+        await createChat(
+          meetupId,
+          user.user_metadata.user_name || '',
+          user.id || '',
+          user.user_metadata.profile_img as 0 | 1 | 2 | 3,
+          inputValue?.current?.value,
+        )
+        inputValue.current.value = ''
+      }
+    },
+    500,
+  )
 
   const handleVideoStart = (chatTime: string) => {
     const startIndex = chatTime.indexOf('#') + 1
