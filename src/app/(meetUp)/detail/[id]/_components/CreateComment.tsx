@@ -3,7 +3,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import { createComments } from '@/utils/apiRequest/commentsApiRequest'
-import { supabase } from '@/utils/apiRequest/defaultApiSetting'
+import { Tables } from '@/type/supabase'
+import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 
 const CreateComment = ({
   profile,
@@ -19,10 +20,8 @@ const CreateComment = ({
   const [userName, setUserName] = useState<string | undefined>('')
 
   const getUserName = async (): Promise<void> => {
-    const {
-      data: { user },
-    } = await supabase.auth.getUser()
-    setUserName(user?.user_metadata.user_name)
+    const userData: Tables<'profiles'> = await getProfileByEmail()
+    setUserName(userData.user_name!)
   }
 
   const handleCreateCommnet = async (

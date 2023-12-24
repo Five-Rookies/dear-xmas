@@ -12,7 +12,6 @@ import likeOn from '@public/assets/likeOn.svg'
 import likeOff from '@public/assets/likeOff.svg'
 import styles from '../meetup.module.scss'
 import btn from '@/app/globalButton.module.scss'
-import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import {
   checkLike,
   createLike,
@@ -21,6 +20,8 @@ import {
   countLike,
 } from '@/utils/apiRequest/likeApiRequest'
 import Image from 'next/image'
+import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
+import { Tables } from '@/type/supabase'
 
 const APPLY = '참가신청'
 
@@ -37,13 +38,10 @@ const MeetupBox = ({
   const [likeCount, setLikeCount] = useState<number | undefined>(0)
 
   const fetchData = async (): Promise<void> => {
-    const {
-      data: { session },
-    } = await supabase.auth.getSession()
-    setUserName(session?.user.user_metadata.user_name)
-    const userId = session?.user?.id
-    if (userId && meetup.id) {
-      const isLike = await getLike(userId, meetup.id, 'meetup_like')
+    const userData: Tables<'profiles'> = await getProfileByEmail()
+    setUserName(userData?.user_name!)
+    if (userData.id && meetup.id) {
+      const isLike = await getLike(userData.id, meetup.id, 'meetup_like')
       const likeLength: number | undefined = await countLike(
         meetup.id,
         'meetup_like',
@@ -51,7 +49,7 @@ const MeetupBox = ({
       setIsLiked(isLike)
       setLikeCount(likeLength)
     }
-    setUserId(session?.user?.id!)
+    setUserId(userData.id)
   }
 
   const handleMember = async (

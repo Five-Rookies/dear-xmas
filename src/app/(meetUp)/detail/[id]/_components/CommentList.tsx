@@ -8,10 +8,10 @@ import cookie from '@public/assets/profile-cookie.svg'
 import Image from 'next/image'
 import { getComments } from '@/utils/apiRequest/commentsApiRequest'
 import { Tables } from '@/type/supabase'
-import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import styles from '../detail.module.scss'
 import CreateComment from './CreateComment'
 import Comment from './Comment'
+import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 
 type TCommnets = Tables<'comments'>
 
@@ -26,14 +26,12 @@ const CommentList = ({ getVideoId }: { getVideoId: string }) => {
       setComments(totalComments)
     }
   }
-  const getUserName = async (): Promise<void> => {
-    const {
-      data: { user },
-    } = await supabase.auth.getUser()
-    setUserProfile(user?.user_metadata.profile_img)
+  const fetchUser = async (): Promise<void> => {
+    const userData: Tables<'profiles'> = await getProfileByEmail()
+    setUserProfile(userData?.profile_img!)
   }
   useEffect(() => {
-    getUserName()
+    fetchUser()
     fetchComments()
   }, [])
 
