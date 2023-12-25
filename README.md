@@ -9,9 +9,6 @@ Dear, Xmas는 크리스마스의 감성과 특별한 순간을 함께 쌓아가�
 
 > 배포링크 : https://dear-xmas.vercel.app/
 
-- **Test ID** : dev-city
-- **Test PW** : test1234
-
 > 프로젝트 기간 : 23.12.01 ~ 23.12.25
 
 
