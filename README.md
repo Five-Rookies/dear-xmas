@@ -50,8 +50,8 @@ Dear, Xmas는 크리스마스의 감성과 특별한 순간을 함께 쌓아가�
 ✨ 배포 : <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white"/> 
 
 <br>
-## :sloth: Git
-### [개발 환경]
+## :sloth: Git<br>
+### [개발 환경]<br>
 코드 충돌을 줄이고 브랜치 관리가 용이한 **Git Flow** 방식을 사용하여 기능 브랜치를 만들고<br>
 각자 작업 브랜치를 따로 생성하여 작업하고, 기능 브랜치로 PR을 올립니다.<br>
 PR은 코드 리뷰 담당자를 지정하여 검토 후 Merge를 진행합니다.
