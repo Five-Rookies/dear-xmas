@@ -295,5 +295,16 @@ src
 * 내 모임 리스트 조회 => 내가 생성하거나 참여한 모임 조회
 * 모임 참가 신청
 * 모임 게시글에 좋아요 기능
+  
+<br>
+
+## 구현 화면
+* 실시간 채팅 페이지
+https://github.com/Five-Rookies/final-project/assets/66238849/9ac264f2-a2ae-4d84-8755-223e1e4359c3
+* 개발자 페이지
+https://github.com/Five-Rookies/final-project/assets/66238849/ad216cac-cd83-4fc5-b1fd-77d07204cf1b
+
+
+
 
 
