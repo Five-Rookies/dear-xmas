@@ -1,13 +1,19 @@
 # 멋쟁이 사자처럼 프론트엔드 스쿨 1기 Final Project 5조
 
 ## 프로젝트 소개 및 개요
->**Dear, Xmas**는 크리스마스의 감성과 특별한 순간을 **함께 쌓아가는** 웹 서비스입니다.
->
->크리스마스와 관련된 컨텐츠를 즐길 수 있습니다.
 
-</br>
+```
+Dear, Xmas는 크리스마스의 감성과 특별한 순간을 함께 쌓아가는 웹 서비스입니다.
+크리스마스와 관련된 컨텐츠를 즐길 수 있습니다.
+```
 
-🔗 1차 배포 URL : https://dear-xmas-first-build.vercel.app/
+> 배포링크 : https://dear-xmas.vercel.app/
+
+- **Test ID** : dev-city
+- **Test PW** : test1234
+
+> 프로젝트 기간 : 23.12.01 ~ 23.12.25
+
 
 </br>
 
