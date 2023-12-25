@@ -2,13 +2,13 @@
 
 import React, { FormEvent, useEffect, useRef, useState } from 'react'
 import { useRouter } from 'next/navigation'
-import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequestClient'
 import { Value, ValuePiece } from '@/type/Component'
 import dynamic from 'next/dynamic'
 import { IVideoInfoToCookie } from '@/utils/cookieServer'
 import { Tables } from '@/type/supabase'
 import styles from './meetupModal.module.scss'
+import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 
 type TMeetupBoardData = Tables<'meetup_board'>
 
@@ -35,13 +35,13 @@ const MeetupModal = ({
   const [meetupScheduling, setMeetupScheduling] = useState<Value>(new Date())
   const [meetupContent, setMeetupContent] = useState<string>('')
   const [userName, setUserName] = useState<string | null>('')
+  const [userEmail, setUserEmail] = useState<string | null>('')
   const nowDate = new Date()
 
-  const getUserName = async (): Promise<void> => {
-    const {
-      data: { user },
-    } = await supabase.auth.getUser()
-    setUserName(user?.user_metadata.user_name)
+  const fetchUser = async (): Promise<void> => {
+    const userData: Tables<'profiles'> = await getProfileByEmail()
+    setUserName(userData?.user_name)
+    setUserEmail(userData?.email)
   }
 
   const handleClickOutside = (
@@ -91,6 +91,7 @@ const MeetupModal = ({
       meetup_content: meetupContent,
       scheduling: meetupScheduling as string,
       user_name: userName,
+      email: userEmail,
       video_id: videoId,
       thumbnail: thumbnailsUrl,
       channel_id: channelId,
@@ -111,7 +112,7 @@ const MeetupModal = ({
   useEffect(() => {
     // 모달이 열릴 때 body의 overflow를 hidden으로 설정
     document.body.style.overflow = 'hidden'
-    getUserName()
+    fetchUser()
     return () => {
       // 모달이 닫힐 때 body의 overflow를 초기 상태로 복원
       document.body.style.overflow = 'auto'

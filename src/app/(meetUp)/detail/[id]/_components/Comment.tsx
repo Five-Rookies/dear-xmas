@@ -25,6 +25,7 @@ import likeOn from '@public/assets/likeOn.svg'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { Tables } from '@/type/supabase'
 import styles from '../detail.module.scss'
+import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 
 interface ICommentProps {
   comment: Tables<'comments'>
@@ -46,10 +47,8 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
   const [likeCount, setLikeCount] = useState<number | undefined>(0)
 
   const getUserId = async (): Promise<void> => {
-    const {
-      data: { user },
-    } = await supabase.auth.getUser()
-    setUserId(user?.id)
+    const userData: Tables<'profiles'> = await getProfileByEmail()
+    setUserId(userData?.id)
   }
 
   const handleClickCommentLike = async (): Promise<void> => {

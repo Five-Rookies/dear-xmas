@@ -3,6 +3,8 @@
 import React, { useState, useEffect } from 'react'
 import styles from '@/app/page.module.scss'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
+import { Tables } from '@/type/supabase'
+import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 
 declare global {
   interface Window {
@@ -21,7 +23,7 @@ const SlotModal = ({ handleModalClose, sentence }: any) => {
       document.body.style.overflow = 'auto'
     }
   }, [])
-  const getUserName = async (): Promise<void> => {
+  const checkUser = async (): Promise<void> => {
     try {
       const {
         data: { user },
@@ -30,19 +32,19 @@ const SlotModal = ({ handleModalClose, sentence }: any) => {
       if (!user) {
         throw error
       }
-      return user?.user_metadata.user_name
     } catch (error) {
       alert('로그인 후 사용해주세요')
     }
   }
   const handleShare = async () => {
-    const userName = await getUserName()
+    await checkUser()
+    const userData: Tables<'profiles'> = await getProfileByEmail()
     try {
-      if (userName !== undefined) {
+      if (userData.user_name !== undefined) {
         window.Kakao.Share.sendCustom({
           templateId: 102052,
           templateArgs: {
-            tester: userName,
+            tester: userData.user_name,
             result: sentence.join(' '),
           },
         })

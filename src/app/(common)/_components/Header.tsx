@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import React, { useEffect, useState, useRef, Children } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import useStore from '@/status/store'
 import { useRouter, usePathname } from 'next/navigation'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
@@ -12,22 +12,16 @@ import styles from './header.module.scss'
 import SearchInput from './SearchInput'
 import MainMenu from './MainMenu'
 import Profile from './Profile'
-import dynamic from 'next/dynamic'
 
 const supabase = createClientComponentClient()
 
-const Header = () //   {
-//   children,
-// }: {
-//   children: React.ReactNode
-// }
-: React.JSX.Element => {
+const Header = (): React.JSX.Element => {
   const { isDark, toggleDarkMode } = useStore()
   const [isLogin, setIsLogin] = useState<boolean>(false)
   const [hydrated, setHydrated] = useState<boolean>(false)
   const [color, setColor] = useState<boolean>(false)
   const [isClicked, setIsClicked] = useState<boolean>(false)
-  const [isClickedProfile, setIsClickedProfile] = useState<boolean>(false)
+  const [showProfile, setShowProfile] = useState<boolean>(false)
   const router = useRouter()
   const pathname = usePathname()
 
@@ -58,9 +52,13 @@ const Header = () //   {
     if (hydrated) {
       return isLogin ? (
         <div className={styles.account}>
-          <button onClick={() => setIsClickedProfile(!isClickedProfile)}>
+          <button
+            className="accountProfileBtn"
+            onClick={() => setShowProfile(!showProfile)}
+          >
             <span>프로필</span>
           </button>
+          {showProfile && <Profile setShowProfile={setShowProfile} />}
           <p className={styles.line}>|</p>
           <span
             onClick={() => {
@@ -172,8 +170,6 @@ const Header = () //   {
           onClickOutside={onClickOutside}
         />
       )}
-      {/* {isClickedProfile && children} */}
-      {isClickedProfile && <Profile />}
     </header>
   )
 }

@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import Link from 'next/link'
 import { handleSignOut } from '@/utils/apiRequest/signUserSupabase'
 import styles from './header.module.scss'
 
 const MainMenu = ({ closeMenu, modalRef, onClickOutside }: any) => {
-  
-
   return (
     <div
       className={styles.dropDownWrap}

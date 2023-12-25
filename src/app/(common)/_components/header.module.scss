@@ -24,6 +24,9 @@ $main-color: #ff1e1e;
     transition: all 0.3s ease-in-out;
     h1 {
       width: 6rem;
+      .logo {
+        margin: 0 0 -0.5rem 0.1rem;
+      }
     }
     .navi {
       display: flex;
@@ -125,17 +128,13 @@ $main-color: #ff1e1e;
     left: 0;
     width: 100%;
     height: 100vh;
+    border-top: 0.1rem solid var(--color-border);
   }
   .dropDownMenu {
-    // display: none;
-    // opacity: 0;
-    // height: 0;
     position: relative;
     z-index: 1;
-    // animation: fadeIn .5s cubic-bezier(0.1, -0.6, 0.2, 0);
     animation: fadeIn 0.7s ease-in-out;
-    background-color: #ffcc36;
-
+    background-color: var(--color-mainmenu);
     ul {
       display: flex;
       flex-wrap: wrap;
@@ -148,7 +147,7 @@ $main-color: #ff1e1e;
         border-radius: 1.5376rem;
         overflow: hidden;
         position: relative;
-        &:nth-child(n+5):nth-child(-n+8) {
+        &:nth-child(n + 5):nth-child(-n + 8) {
           margin-top: 1.6rem;
         }
         &:nth-child(3),
@@ -250,7 +249,7 @@ $main-color: #ff1e1e;
       ul {
         li {
           height: 10.875rem;
-          &:nth-child(n+5):nth-child(-n+8) {
+          &:nth-child(n + 5):nth-child(-n + 8) {
             margin-top: 1.3rem;
           }
           p {
@@ -281,7 +280,7 @@ $main-color: #ff1e1e;
             flex-basis: calc((100% - 1.61vh) / 2);
             height: calc(((100% - (1.61vh * 4)) / 5));
             border-radius: 1.25rem;
-            &:nth-child(n+5):nth-child(-n+8) {
+            &:nth-child(n + 5):nth-child(-n + 8) {
               margin-top: 0;
             }
             &:nth-child(1) {
@@ -338,13 +337,13 @@ $main-color: #ff1e1e;
 
 .profile {
   position: absolute;
-  right: 9%;
   text-align: center;
-  margin-top: 0.8rem;
+  margin-top: 24rem;
+  margin-left: -5rem;
   width: 15rem;
   padding: 1.5rem 0.8rem;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: var(--color-profile);
   box-shadow: 0px 3px 15px 0px rgba($color: #000000, $alpha: 0.2);
   .profileImgBox {
     display: flex;
@@ -369,15 +368,40 @@ $main-color: #ff1e1e;
       padding: 2rem 0 0.1rem;
       margin-bottom: 0.5rem;
       input {
+        background-color: var(--color-profile);
+        color: var(--color-text);
+        font-size: 1rem;
         height: 1.6rem;
+        padding: 1rem 0.5rem;
+        border-radius: 0.5rem;
+        border: 0.1rem solid #eee;
         margin-bottom: 0.5rem;
       }
     }
-    p:last-child {
+    .notEditModeBtn {
       cursor: pointer;
       color: #999;
-      text-decoration: underline;
       padding-top: 1.2rem;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .editModeBtn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      padding-top: 1.2rem;
+      & > p {
+        cursor: pointer;
+        color: #999;
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
   }
 }

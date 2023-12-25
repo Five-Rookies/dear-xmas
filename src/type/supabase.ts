@@ -146,6 +146,7 @@ export interface Database {
           scheduling: string | null
           thumbnail: string | null
           user_name: string | null
+          email: string | null
           video_id: string | null
           video_title: string | null
         }
