@@ -3,9 +3,9 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import { createComments } from '@/utils/apiRequest/commentsApiRequest'
-import { Tables } from '@/type/supabase'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 import { debounce } from 'lodash'
+import { TProfile } from '@/type/SupabaseResponse'
 
 const CreateComment = ({
   profile,
@@ -21,7 +21,7 @@ const CreateComment = ({
   const [userName, setUserName] = useState<string | undefined>('')
 
   const getUserName = async (): Promise<void> => {
-    const userData: Tables<'profiles'> = await getProfileByEmail()
+    const userData: TProfile = await getProfileByEmail()
     setUserName(userData.user_name!)
   }
 
