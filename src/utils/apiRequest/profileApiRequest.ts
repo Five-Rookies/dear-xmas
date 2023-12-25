@@ -48,3 +48,17 @@ export const updateProfile = async ({
     throw new Error(`[ERROR]데이터를 수정하지 못했습니다`)
   }
 }
+
+export const fetchSession = async () => {
+  const {
+    data: { session },
+  } = await supabase.auth.getSession()
+  return session
+}
+
+export const getProfileByEmail = async () => {
+  const session = await fetchSession()
+  const email = session?.user?.email
+  const [userData]: Tables<'profiles'>[] = await getProfile('email', email!)
+  return userData
+}

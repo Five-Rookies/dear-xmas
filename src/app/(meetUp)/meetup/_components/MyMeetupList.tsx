@@ -2,19 +2,22 @@
 
 import React, { useState, useEffect } from 'react'
 import { IMeetupBoardData } from '@/type/Component'
-import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import MeetupBox from './MeetupBox'
 import { getMeetupList } from '@/utils/apiRequest/meetupApiRequestClient'
 import TabLoading from '@/app/(meetUp)/meetup/_components/_tab/TabLoading'
+import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
+import { Tables } from '@/type/supabase'
 
 const MyMeetupList = (): React.JSX.Element => {
   const [userName, setUserName] = useState<string>('')
+  const [userEmail, setUserEmail] = useState<string>('')
   const [createdMeetup, setCreatedMeetup] = useState<never[]>([])
   const [isLoading, setIsLoading] = useState<boolean>(false)
 
   const fetchUser = async (): Promise<void> => {
-    const { data } = await supabase.auth.getSession()
-    setUserName(data.session?.user.user_metadata.user_name)
+    const userData: Tables<'profiles'> = await getProfileByEmail()
+    setUserName(userData?.user_name!)
+    setUserEmail(userData?.email!)
   }
 
   const fetchMeetupList = async (): Promise<void> => {
@@ -36,8 +39,8 @@ const MyMeetupList = (): React.JSX.Element => {
         createdMeetup
           ?.filter(
             (meetup: IMeetupBoardData) =>
-              meetup?.user_name === userName ||
-              meetup?.member_list?.includes(userName),
+              meetup?.email === userEmail ||
+              meetup?.member_list?.includes(userEmail),
           )
           .map((meetup: IMeetupBoardData) => {
             return (

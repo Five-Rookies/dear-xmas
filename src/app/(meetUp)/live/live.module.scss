@@ -92,10 +92,12 @@
         .userName {
           color: #999;
           margin: 0 1rem;
+          white-space: nowrap;
         }
         .startTime {
           text-decoration: underline;
           color: #da3017;
+          white-space: pre-wrap;
         }
       }
     }

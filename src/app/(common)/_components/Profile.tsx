@@ -2,7 +2,11 @@
 
 import React, { useEffect, useRef, useState } from 'react'
 import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
-import { getProfile, updateProfile } from '@/utils/apiRequest/profileApiRequest'
+import {
+  fetchSession,
+  getProfile,
+  updateProfile,
+} from '@/utils/apiRequest/profileApiRequest'
 import { Database, Tables } from '@/type/supabase'
 import styles from './header.module.scss'
 
@@ -22,11 +26,7 @@ const Profile = ({
 
   useEffect(() => {
     const fetchData = async () => {
-      const supabase = createClientComponentClient<Database>()
-      const {
-        data: { session },
-      } = await supabase.auth.getSession()
-
+      const session = await fetchSession()
       const profile: TProfiles[] = await getProfile(
         'email',
         session!.user.email!,
