@@ -76,14 +76,7 @@ const Survey = () => {
     <section id="survey" className={`${styles.mainCommon} ${styles.survey}`}>
       <div className="inner-box">
         <h2>Survey</h2>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            marginTop: '1rem',
-          }}
-        >
+        <div>
           <p>크리스마스 설문조사 결과를 확인해보세요</p>
           <div className="btn btn--darkRed" onClick={handleClick}>
             {isClicked && isModalOpen && (
