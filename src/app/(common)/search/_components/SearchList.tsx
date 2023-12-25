@@ -1,32 +1,38 @@
 'use client'
 
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import formatRelativeDate from '@/utils/relativeDate'
 import styles from '@/app/page.module.scss'
 import { IYoutubeItem } from '@/type/YoutubeApiResponse'
-import useInfiniteScroll from '@/hooks/useInfiniteScroll'
 import { setVideoInfoToCookie } from '@/utils/cookieClient'
+import { useSearchParams } from 'next/navigation'
+import youtubeRequest from '@/utils/youtubRequest/youtubeRequest'
 
-interface IProps {
-  initialData: IYoutubeItem[] | []
-  keyword: string
-  pageToken: string
-}
+const SearchList = (): React.ReactElement => {
+  const searchParams = useSearchParams()
+  const keyword = searchParams.get('search-keyword')
+  const [searchResult, setSearchResult] = useState<IYoutubeItem[]>([])
 
-const SearchList = ({
-  initialData,
-  keyword,
-  pageToken,
-}: IProps): React.ReactElement => {
-  const searchResult = useInfiniteScroll({
-    pageToken,
-    initialData,
-    optionalQuery: {
-      q: keyword,
-      maxResults: '12',
-    },
-  })
+  useEffect(() => {
+    const getSearchResults = async () => {
+      if (!keyword) return
+      const { itemList } = await youtubeRequest({
+        apiType: 'search',
+        optionalQuery: {
+          q: keyword,
+          maxResults: '20',
+        },
+      })
+      const searchResults = itemList.filter((el: IYoutubeItem): boolean => {
+        return el.snippet.title.includes(keyword)
+      })
+
+      setSearchResult(searchResults)
+    }
+
+    getSearchResults()
+  }, [keyword])
 
   return (
     <div className="inner-box">
