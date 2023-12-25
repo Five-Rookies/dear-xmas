@@ -7,37 +7,25 @@ import NoResult from './_components/NoResult'
 
 const SearchPage = async () => {
   const getSearchResults = async (keyword: string) => {
-    const { itemList, pageToken = '' } = await youtubeRequest({
+    const { itemList } = await youtubeRequest({
       apiType: 'search',
       optionalQuery: {
         q: keyword,
-        maxResults: '12',
+        maxResults: '20',
       },
     })
     const searchResults = itemList.filter((el: IYoutubeItem): boolean => {
       return el.snippet.title.includes(keyword)
     })
 
-    return { searchResults, pageToken }
+    return { searchResults }
   }
 
   const cookieStore = cookies()
   const keyword = cookieStore.get('search-keyword')?.value
-  const { searchResults, pageToken } = await getSearchResults(keyword!)
+  const { searchResults } = await getSearchResults(keyword!)
 
-  return (
-    <>
-      {searchResults.length ? (
-        <SearchList
-          initialData={searchResults}
-          keyword={keyword as string}
-          pageToken={pageToken}
-        />
-      ) : (
-        <NoResult />
-      )}
-    </>
-  )
+  return <>{searchResults.length ? <SearchList /> : <NoResult />}</>
 }
 
 export default SearchPage
