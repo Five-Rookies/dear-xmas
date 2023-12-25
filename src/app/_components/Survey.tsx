@@ -6,12 +6,12 @@ import styles from '@/app/page.module.scss'
 import SurveyGraph from './SurveyGraph'
 import SurveyModal from './SurveyModal'
 
-interface ICheckList {
+export interface ICheckList {
   title: string
   key: string
 }
 
-interface ISurvey {
+export interface ISurvey {
   question: string
   checkList: ICheckList[]
 }

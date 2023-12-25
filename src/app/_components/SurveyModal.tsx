@@ -7,20 +7,11 @@ import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { updateServeyData } from '@/utils/apiRequest/surveyApiRequest'
 import { debounce } from 'lodash'
 import styles from './Modal.module.scss'
+import { ISurvey } from './Survey'
 
 interface IProps {
   surveyList: ISurvey[]
-  handleModalClose: any
-}
-
-interface ICheckList {
-  title: string
-  key: string
-}
-
-interface ISurvey {
-  question: string
-  checkList: ICheckList[]
+  handleModalClose: () => void
 }
 
 const SurveyModal = ({ surveyList, handleModalClose }: IProps) => {
