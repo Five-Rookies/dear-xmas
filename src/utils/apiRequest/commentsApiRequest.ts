@@ -1,5 +1,4 @@
 /* eslint-disable camelcase */
-import { Database, Tables } from '@/type/supabase'
 import { executeQuery, supabase } from './defaultApiSetting'
 
 const tableName =

@@ -1,3 +1,9 @@
+import { Tables } from './supabase'
+
+export type TComments = Tables<'comments'>
+export type TCommentLike = Tables<'comment_like'>
+export type TProfile = Tables<'profiles'>
+
 export interface ISupabase {
   id: number
   created_at: string

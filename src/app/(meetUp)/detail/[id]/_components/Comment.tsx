@@ -20,13 +20,13 @@ import candle from '@public/assets/profile-candle.svg'
 import cookie from '@public/assets/profile-cookie.svg'
 import likeOff from '@public/assets/likeOff.svg'
 import likeOn from '@public/assets/likeOn.svg'
-import { Tables } from '@/type/supabase'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 import { debounce } from 'lodash'
+import { TComments, TCommentLike, TProfile } from '@/type/SupabaseResponse'
 import styles from '../detail.module.scss'
 
 interface ICommentProps {
-  comment: Tables<'comments'>
+  comment: TComments
   fetchComments: () => Promise<void>
 }
 
@@ -45,12 +45,12 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
   const [likeCount, setLikeCount] = useState<number | undefined>(0)
 
   const getUserId = async (): Promise<void> => {
-    const userData: Tables<'profiles'> = await getProfileByEmail()
+    const userData: TProfile = await getProfileByEmail()
     setUserId(userData?.id)
   }
 
   const handleClickCommentLike = debounce(async (): Promise<void> => {
-    const checkIsLiked: Tables<'comment_like'>[] = await checkLike(
+    const checkIsLiked: TCommentLike[] = await checkLike(
       userId,
       COMMENT_ID,
       'comment_like',
