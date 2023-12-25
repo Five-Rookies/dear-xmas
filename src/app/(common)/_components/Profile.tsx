@@ -1,16 +1,13 @@
 'use client'
 
 import React, { useEffect, useRef, useState } from 'react'
-import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 import {
   fetchSession,
   getProfile,
   updateProfile,
 } from '@/utils/apiRequest/profileApiRequest'
-import { Database, Tables } from '@/type/supabase'
+import { TProfiles } from '@/type/SupabaseResponse'
 import styles from './header.module.scss'
-
-type TProfiles = Tables<'profiles'>
 
 const Profile = ({
   setShowProfile,

@@ -10,7 +10,6 @@ import {
 } from '@/utils/apiRequest/meetupApiRequestClient'
 import likeOn from '@public/assets/likeOn.svg'
 import likeOff from '@public/assets/likeOff.svg'
-import styles from '../meetup.module.scss'
 import btn from '@/app/globalButton.module.scss'
 import {
   checkLike,
@@ -21,8 +20,9 @@ import {
 } from '@/utils/apiRequest/likeApiRequest'
 import Image from 'next/image'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
-import { Tables } from '@/type/supabase'
+import { TProfiles } from '@/type/SupabaseResponse'
 import { debounce } from 'lodash'
+import styles from '../meetup.module.scss'
 
 const APPLY = '참가신청'
 
@@ -39,7 +39,7 @@ const MeetupBox = ({
   const [likeCount, setLikeCount] = useState<number | undefined>(0)
 
   const fetchData = async (): Promise<void> => {
-    const userData: Tables<'profiles'> = await getProfileByEmail()
+    const userData: TProfiles = await getProfileByEmail()
     setUserEmail(userData?.email!)
     if (userData.id && meetup.id) {
       const isLike = await getLike(userData.id, meetup.id, 'meetup_like')
@@ -164,43 +164,8 @@ const MeetupBox = ({
               />
               <span>{likeCount}명</span>
             </button>
-            {/*<button>
-        <img src="/assets/like.svg" alt="댓글" />
-        <span>10개 댓글</span>
-        </button>*/}
           </div>
         </div>
-        {/*<div className={styles.comment}>
-<input type="text" placeholder="하고 싶은 말을 적어봐요!" />
-<div className={styles.commentContainer}>
-  <div>
-    <p className={`${styles.comment} ${styles.writer}`}>
-      <span>성냥팔이소녀</span> ·<span>1시간 전</span>
-    </p>
-    <button
-      className={
-        isDotMenuVisible
-          ? `${styles.moreBtn} ${styles.active}`
-          : styles.moreBtn
-      }
-      onClick={handleDotMenu}
-    >
-      ⋮
-    </button>
-    {isDotMenuVisible && (
-      <div className={styles.dotMenu}>
-        <button onClick={() => handleEditButton()}>수정</button>
-        <button onClick={() => handleDeleteButton()}>삭제</button>
-      </div>
-    )}
-  </div>
-  <p>
-    2023년 많은 사항 받은 인기팝송 총모음.. 치열한 지하철에서
-    크리스마스의 즐거움을 느낄 수 있는 .. 그런 .. 희망창 플레이
-    리스트.. 모두
-  </p>
-</div>
-</div>*/}
       </div>
     </div>
   )

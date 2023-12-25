@@ -5,22 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark } from '@fortawesome/free-solid-svg-icons'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { updateServeyData } from '@/utils/apiRequest/surveyApiRequest'
-import styles from './Modal.module.scss'
 import { debounce } from 'lodash'
+import styles from './Modal.module.scss'
+import { ISurvey } from './Survey'
 
 interface IProps {
   surveyList: ISurvey[]
-  handleModalClose: any
-}
-
-interface ICheckList {
-  title: string
-  key: string
-}
-
-interface ISurvey {
-  question: string
-  checkList: ICheckList[]
+  handleModalClose: () => void
 }
 
 const SurveyModal = ({ surveyList, handleModalClose }: IProps) => {
@@ -106,7 +97,6 @@ const SurveyModal = ({ surveyList, handleModalClose }: IProps) => {
   const thirdAnswer = checkedAnswers[2]
 
   // 값이 true인 선택된 checkbox들 출력
-
   const handleSubmit = debounce(async (): Promise<void> => {
     try {
       await updateServeyData(userId, firstAnswer, secondAnswer, thirdAnswer)
@@ -116,7 +106,6 @@ const SurveyModal = ({ surveyList, handleModalClose }: IProps) => {
       console.error(error)
       alert('오류가 발생하였습니다!')
     }
-    // handleModalClose()
   }, 500)
 
   return (

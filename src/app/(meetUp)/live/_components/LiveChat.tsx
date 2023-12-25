@@ -1,18 +1,18 @@
 'use client'
 
 import React, { useEffect, useState, useRef } from 'react'
-import { Tables } from '@/type/supabase'
 import { createChat, getChat } from '@/utils/apiRequest/liveApiRequest'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import useStore from '@/status/store'
-import styles from '../live.module.scss'
 import { debounce } from 'lodash'
+import { TLiveChat } from '@/type/SupabaseResponse'
+import styles from '../live.module.scss'
 
 const LiveChat = ({ meetupId }: { meetupId: number }) => {
   const { setTime } = useStore()
-  const [chat, setChat] = useState<any>([])
   const [user, setUser] = useState<any>([])
-  const inputValue = useRef<any>()
+  const [chat, setChat] = useState<TLiveChat[]>([])
+  const inputValue = useRef<HTMLInputElement>(null)
   const fetchChat = async () => {
     const {
       data: { session },
@@ -20,6 +20,7 @@ const LiveChat = ({ meetupId }: { meetupId: number }) => {
     setUser(session?.user)
     const chatData = await getChat(meetupId)
     if (chatData) {
+      console.log(chatData)
       setChat(chatData)
     }
   }
@@ -65,9 +66,9 @@ const LiveChat = ({ meetupId }: { meetupId: number }) => {
           user.user_metadata.user_name || '',
           user.id || '',
           user.user_metadata.profile_img as 0 | 1 | 2 | 3,
-          inputValue?.current?.value,
+          inputValue.current!.value,
         )
-        inputValue.current.value = ''
+        inputValue.current!.value = ''
       }
     },
     500,
@@ -97,7 +98,7 @@ const LiveChat = ({ meetupId }: { meetupId: number }) => {
         />
       </div>
       <ul className={styles.liveChat}>
-        {...chat?.map((liveChat: Tables<'live_chat'>) => {
+        {...chat?.map((liveChat: TLiveChat) => {
           const { profile_img, live_content } = liveChat
           return (
             <li key={liveChat.id} className={styles.liveChatBox}>

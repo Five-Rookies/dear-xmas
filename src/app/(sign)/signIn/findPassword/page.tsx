@@ -3,11 +3,11 @@
 import React, { useRef } from 'react'
 import styles from '@/app/(sign)/_components/sign.module.scss'
 import Link from 'next/link'
-import { Tables } from '@/type/supabase'
+import { TProfiles } from '@/type/SupabaseResponse'
 import { getProfile } from '@/utils/apiRequest/profileApiRequest'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
-import { BasicInput, PasswordHintInput } from '../../_components/SignInput'
 import { debounce } from 'lodash'
+import { BasicInput, PasswordHintInput } from '../../_components/SignInput'
 
 const FindPasswordPage = () => {
   const emailRef = useRef<HTMLInputElement>(null)
@@ -16,7 +16,7 @@ const FindPasswordPage = () => {
   const handleSubmit = debounce(async (): Promise<null | undefined> => {
     const email = emailRef.current!.value
     const passwordHint = passwordHintRef.current!.value
-    const userdata: Tables<'profiles'>[] = await getProfile('email', email)
+    const userdata: TProfiles[] = await getProfile('email', email)
 
     if (!userdata.length) {
       alert('유효하지 않은 이메일 입니다!')
@@ -30,7 +30,7 @@ const FindPasswordPage = () => {
 
     try {
       await supabase.auth.resetPasswordForEmail(email, {
-        redirectTo: 'http://localhost:3000/resetpassword',
+        redirectTo: process.env.NEXT_PUBLIC_REDIRECT_URL,
       })
       alert('비밀번호 재설정 이메일이 발송되었습니다.')
     } catch (error) {

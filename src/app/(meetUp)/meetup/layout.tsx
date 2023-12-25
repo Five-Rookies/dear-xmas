@@ -3,10 +3,10 @@
 import React from 'react'
 import { cookies } from 'next/headers'
 import { createServerComponentClient } from '@supabase/auth-helpers-nextjs'
+import { getProfile } from '@/utils/apiRequest/profileApiRequest'
 import styles from './meetup.module.scss'
 import MeetupTabButtons from './_components/_tab/MeetupTabButtons'
 import MeetupTabPage from './_components/_tab/MeetupTabPage'
-import { getProfile } from '@/utils/apiRequest/profileApiRequest'
 
 const MeetupLayout = async (props: any): Promise<React.JSX.Element> => {
   const cookieStore = cookies()

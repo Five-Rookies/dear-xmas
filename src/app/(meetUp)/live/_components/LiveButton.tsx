@@ -1,14 +1,14 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import styles from '../live.module.scss'
 import { calculateTimeUntilDays } from '@/utils/calculateTimeUntilDay'
 import { useRouter } from 'next/navigation'
 import { deleteLive } from '@/utils/apiRequest/liveApiRequest'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { IMeetupBoardData } from '@/type/Component'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
-import { Tables } from '@/type/supabase'
+import { TProfiles } from '@/type/SupabaseResponse'
+import styles from '../live.module.scss'
 
 const LiveButton = ({ user_name, scheduling, meetup_id }: IMeetupBoardData) => {
   const router = useRouter()
@@ -60,7 +60,7 @@ const LiveButton = ({ user_name, scheduling, meetup_id }: IMeetupBoardData) => {
   }, [])
 
   const fetchUser = async () => {
-    const userData: Tables<'profiles'> = await getProfileByEmail()
+    const userData: TProfiles = await getProfileByEmail()
     setUserName(userData.user_name)
   }
 
@@ -69,8 +69,11 @@ const LiveButton = ({ user_name, scheduling, meetup_id }: IMeetupBoardData) => {
     router.push('/meetup')
   }
 
-  const handleDeleteLive = async (e: any) => {
-    if (e.target.textContent === '종료하기') {
+  const handleDeleteLive = async (
+    e: React.MouseEvent<HTMLButtonElement, MouseEvent>,
+  ) => {
+    const target = e.target as HTMLButtonElement
+    if (target.textContent === '종료하기') {
       if (window.confirm('종료하시겠습니까?')) {
         setIsEnd(!isEnd)
         meetup_id && (await deleteLive(meetup_id))
@@ -88,7 +91,10 @@ const LiveButton = ({ user_name, scheduling, meetup_id }: IMeetupBoardData) => {
     </button>
   ) : (
     isNotEnded && (
-      <button onClick={handleDeleteLive} className={styles.liveDelayBtn}>
+      <button
+        onClick={e => handleDeleteLive(e)}
+        className={styles.liveDelayBtn}
+      >
         {`재생까지 ${dayRemaining} ${timeRemaining}`}
       </button>
     )

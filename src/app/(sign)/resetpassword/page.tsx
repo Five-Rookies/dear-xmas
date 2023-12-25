@@ -4,8 +4,8 @@ import React, { useRef } from 'react'
 import styles from '@/app/(sign)/_components/sign.module.scss'
 import { useRouter } from 'next/navigation'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
-import { PasswordInput, PasswordCheckInput } from '../_components/SignInput'
 import { debounce } from 'lodash'
+import { PasswordInput, PasswordCheckInput } from '../_components/SignInput'
 
 const ResetPasswordPage = () => {
   const router = useRouter()

@@ -1,10 +1,8 @@
 /* eslint-disable camelcase */
-import { Tables } from '@/type/supabase'
+import { TProfiles } from '@/type/SupabaseResponse'
 import { supabase, executeQuery } from './defaultApiSetting'
 
 const tableName = 'profiles'
-
-type TProfiles = Tables<'profiles'>
 
 export const getProfile = async (
   fieldName: string,
@@ -59,6 +57,6 @@ export const fetchSession = async () => {
 export const getProfileByEmail = async () => {
   const session = await fetchSession()
   const email = session?.user?.email
-  const [userData]: Tables<'profiles'>[] = await getProfile('email', email!)
+  const [userData]: TProfiles[] = await getProfile('email', email!)
   return userData
 }

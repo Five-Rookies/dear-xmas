@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect, useRef } from 'react'
 import styles from '@/app/page.module.scss'
-import SlotModal from './SlotModal'
 import { debounce } from 'lodash'
+import SlotModal from './SlotModal'
 
 const SlotContent = () => {
   const [sentence, setSentence] = useState([
@@ -147,12 +147,6 @@ const SlotContent = () => {
   const handleClick = debounce((): void => {
     if (!isClicked) {
       setIsClicked(true)
-      // const randomIndex = Math.floor(Math.random() * sentence.length)
-      // const updatedSentence = [...sentence]
-      // updatedSentence[randomIndex] = "클릭됨"
-      // setSentence(updatedSentence)
-
-      // wordRef.current.classList.add('ss')
       handleMakeSentence()
       setButtonText('restart')
       setCurrentIndex(0)
@@ -163,22 +157,12 @@ const SlotContent = () => {
       }, 800)
     } else {
       setIsClicked(false)
-      // const randomIndex = Math.floor(Math.random() * sentence.length)
-      // wordRef.current.classList.remove(`${styles.spin} ${styles[`spin--ani-${index + 1}`]}`)
       setIsModalOpen(false)
       setButtonText('start')
       setCurrentIndex(0)
       setIsRestarted(true)
     }
   }, 500)
-
-  // const handleAnimation = (index: number, isClicked: string) => {
-  //   if (isClicked) {
-  //     return `${styles.spin} ${styles[`spin--ani-${index + 1}`]}`
-  //   } else {
-  //     return styles.spin
-  //   }
-  // }
 
   const handleRestart = () => {
     setCurrentIndex(0) // 재시작 시 currentIndex 초기화

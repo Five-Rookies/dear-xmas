@@ -5,17 +5,13 @@ import { surveyAnalysis } from '@/utils/apiRequest/surveyApiRequest'
 import styles from '@/app/page.module.scss'
 import SurveyGraph from './SurveyGraph'
 import SurveyModal from './SurveyModal'
-/**
- * 체크 박스를 클릭 한다 => 체크한 값이 state에 담긴다
- * 담긴 값을 db의 형식에 맞게 보낸다
- * db 에서 정보를 가져온다
- */
-interface ICheckList {
+
+export interface ICheckList {
   title: string
   key: string
 }
 
-interface ISurvey {
+export interface ISurvey {
   question: string
   checkList: ICheckList[]
 }
@@ -92,10 +88,7 @@ const Survey = () => {
             설문 참여하기
           </div>
         </div>
-        <SurveyGraph
-          surveyData={surveyData}
-          surveyList={surveyList}
-        />
+        <SurveyGraph surveyData={surveyData} surveyList={surveyList} />
       </div>
     </section>
   )

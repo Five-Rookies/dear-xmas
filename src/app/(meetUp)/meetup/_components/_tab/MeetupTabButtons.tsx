@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef } from 'react'
 import styles from '@/app/(meetUp)/meetup/meetup.module.scss'
 import btn from '@/app/globalButton.module.scss'
 import Link from 'next/link'

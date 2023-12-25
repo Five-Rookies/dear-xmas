@@ -3,7 +3,12 @@ import Link from 'next/link'
 import { handleSignOut } from '@/utils/apiRequest/signUserSupabase'
 import styles from './header.module.scss'
 
-const MainMenu = ({ closeMenu, modalRef, onClickOutside }: any) => {
+interface IProps {
+  closeMenu: () => void
+  modalRef: React.MutableRefObject<null>
+  onClickOutside?: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void
+}
+const MainMenu = ({ closeMenu, modalRef, onClickOutside }: IProps) => {
   return (
     <div
       className={styles.dropDownWrap}

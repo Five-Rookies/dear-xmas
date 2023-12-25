@@ -1,9 +1,10 @@
 'use client'
-import styles from '../live.module.scss'
+
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import useStore from '@/status/store'
 import { IMeetupBoardData } from '@/type/Component'
+import styles from '../live.module.scss'
 
 const LiveStream = ({ scheduling, video_id, thumbnail }: IMeetupBoardData) => {
   const [isLive, setIsLive] = useState(false)
@@ -31,7 +32,7 @@ const LiveStream = ({ scheduling, video_id, thumbnail }: IMeetupBoardData) => {
           <iframe
             className={styles.liveVideo}
             src={`https://www.youtube.com/embed/${video_id}?autoplay=1&mute=1&start=${
-              time ? time : 0
+              time || 0
             }`}
             width="100%"
             height="100%"

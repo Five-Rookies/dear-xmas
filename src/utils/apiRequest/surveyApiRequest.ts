@@ -1,13 +1,14 @@
 import { createClient } from '@supabase/supabase-js'
 import { executeQuery } from '@/utils/apiRequest/defaultApiSetting'
-import { ISupabase, ISurvey } from '@/type/SupabaseResponse'
+import { TSurvey } from '@/type/SupabaseResponse'
+import { Database } from '@/type/supabase'
 
-const supabase = createClient<ISupabase[]>(
+const supabase = createClient<Database>(
   process.env.NEXT_PUBLIC_SUPABASE_URL as string,
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string,
 )
 
-export const getSurveyData = async (): Promise<ISurvey[]> => {
+export const getSurveyData = async (): Promise<TSurvey[]> => {
   return executeQuery(
     supabase.from('survey').select('*'),
     '데이터를 불러오지 못했습니다',

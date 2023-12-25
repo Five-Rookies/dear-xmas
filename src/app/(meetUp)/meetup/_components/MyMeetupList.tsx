@@ -2,11 +2,11 @@
 
 import React, { useState, useEffect } from 'react'
 import { IMeetupBoardData } from '@/type/Component'
-import MeetupBox from './MeetupBox'
 import { getMeetupList } from '@/utils/apiRequest/meetupApiRequestClient'
 import TabLoading from '@/app/(meetUp)/meetup/_components/_tab/TabLoading'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
-import { Tables } from '@/type/supabase'
+import { TProfiles } from '@/type/SupabaseResponse'
+import MeetupBox from './MeetupBox'
 
 const MyMeetupList = (): React.JSX.Element => {
   const [userName, setUserName] = useState<string>('')
@@ -15,7 +15,7 @@ const MyMeetupList = (): React.JSX.Element => {
   const [isLoading, setIsLoading] = useState<boolean>(false)
 
   const fetchUser = async (): Promise<void> => {
-    const userData: Tables<'profiles'> = await getProfileByEmail()
+    const userData: TProfiles = await getProfileByEmail()
     setUserName(userData?.user_name!)
     setUserEmail(userData?.email!)
   }

@@ -1,5 +1,3 @@
-/* eslint-disable camelcase */
-
 'use client'
 
 import React, { useState, useEffect } from 'react'
@@ -22,14 +20,13 @@ import candle from '@public/assets/profile-candle.svg'
 import cookie from '@public/assets/profile-cookie.svg'
 import likeOff from '@public/assets/likeOff.svg'
 import likeOn from '@public/assets/likeOn.svg'
-import { supabase } from '@/utils/apiRequest/defaultApiSetting'
-import { Tables } from '@/type/supabase'
-import styles from '../detail.module.scss'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 import { debounce } from 'lodash'
+import { TComments, TCommentLike, TProfiles } from '@/type/SupabaseResponse'
+import styles from '../detail.module.scss'
 
 interface ICommentProps {
-  comment: Tables<'comments'>
+  comment: TComments
   fetchComments: () => Promise<void>
 }
 
@@ -38,7 +35,7 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
     comment
 
   const COMMENT_ID: number = id
-  const profiles: any[] = [santa, snowman, candle, cookie]
+  const profiles = [santa, snowman, candle, cookie]
   const [isDotMenuVisible, setIsDotMenuVisible] = useState<boolean>(false)
   const [inputValue, setInputValue] = useState<string | null>(comment_content)
 
@@ -48,12 +45,12 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
   const [likeCount, setLikeCount] = useState<number | undefined>(0)
 
   const getUserId = async (): Promise<void> => {
-    const userData: Tables<'profiles'> = await getProfileByEmail()
+    const userData: TProfiles = await getProfileByEmail()
     setUserId(userData?.id)
   }
 
   const handleClickCommentLike = debounce(async (): Promise<void> => {
-    const checkIsLiked: Tables<'comment_like'>[] = await checkLike(
+    const checkIsLiked: TCommentLike[] = await checkLike(
       userId,
       COMMENT_ID,
       'comment_like',

@@ -152,18 +152,11 @@ const Header = (): React.JSX.Element => {
             icon={faBars}
             onClick={() => setIsClicked(!isClicked)}
           />
-          {isClicked && (
-            <MainMenu
-              setIsClicked={setIsClicked}
-              closeMenu={closeMenu}
-              modalRef={modalRef}
-            />
-          )}
+          {isClicked && <MainMenu closeMenu={closeMenu} modalRef={modalRef} />}
         </div>
       </div>
       {isClicked && (
         <MainMenu
-          setIsClicked={setIsClicked}
           closeMenu={closeMenu}
           modalRef={modalRef}
           onClickOutside={onClickOutside}

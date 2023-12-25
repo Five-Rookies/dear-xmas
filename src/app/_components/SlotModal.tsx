@@ -1,9 +1,9 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import styles from '@/app/page.module.scss'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
-import { Tables } from '@/type/supabase'
+import { TProfiles } from '@/type/SupabaseResponse'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 
 declare global {
@@ -11,6 +11,7 @@ declare global {
     Kakao: any
   }
 }
+
 const SlotModal = ({
   handleModalClose,
   sentence,
@@ -44,7 +45,7 @@ const SlotModal = ({
   }
   const handleShare = async () => {
     await checkUser()
-    const userData: Tables<'profiles'> = await getProfileByEmail()
+    const userData: TProfiles = await getProfileByEmail()
     try {
       if (userData.user_name !== undefined) {
         window.Kakao.Share.sendCustom({

@@ -9,6 +9,7 @@ import {
   Tooltip,
 } from 'chart.js'
 import { Bar } from 'react-chartjs-2'
+import { ISurvey, ICheckList } from './Survey'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip)
 
@@ -20,16 +21,6 @@ interface IData {
       backgroundColor: string
     },
   ]
-}
-
-interface ICheckList {
-  title: string
-  key: string
-}
-
-interface ISurvey {
-  question: string
-  checkList: ICheckList[]
 }
 
 export const options = {
