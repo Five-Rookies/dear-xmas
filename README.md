@@ -75,69 +75,177 @@ PR은 코드 리뷰 담당자를 지정하여 검토 후 Merge를 진행합니�
 ```
 src
 ├── app
-│   ├── detail
-│   │   └── [id]
-│   │       ├── DetailHeader.tsx
-│   │       ├── RelatedVedio.tsx
-│   │       ├── detail.module.scss
-│   │       └── page.tsx
-│   ├── developers
-│   │   ├── Member.tsx
-│   │   ├── developers.module.scss
-│   │   └── page.tsx
-│   ├── favicon.ico
-│   ├── globals.scss
-│   ├── layout.tsx
-│   ├── loading.tsx
-│   ├── not-found.tsx
-│   ├── page.module.scss
-│   ├── page.tsx
-│   ├── search
-│   │   ├── NoResult.tsx
-│   │   ├── page.tsx
-│   │   └── search.module.scss
-│   ├── signIn
-│   │   ├── findPassword
-│   │   │   └── page.tsx
-│   │   └── page.tsx
-│   ├── signUp
-│   │   ├── page.tsx
-│   │   └── sign.module.scss
-│   └── thems.scss
+│   ├── (common)
+│   │   ├── _components
+│   │   │   ├── Footer.tsx
+│   │   │   ├── Header.tsx
+│   │   │   ├── MainMenu.tsx
+│   │   │   ├── Profile.tsx
+│   │   │   ├── ScrollBtn.module.scss
+│   │   │   ├── ScrollBtn.tsx
+│   │   │   ├── SearchInput.tsx
+│   │   │   ├── footer.module.scss
+│   │   │   └── header.module.scss
+│   │   ├── developers
+│   │   │   ├── Member.tsx
+│   │   │   ├── developers.module.scss
+│   │   │   └── page.tsx
+│   │   ├── layout
+│   │   └── search
+│   │       ├── _components
+│   │       │   ├── NoResult.tsx
+│   │       │   └── SearchList.tsx
+│   │       ├── page.tsx
+│   │       └── search.module.scss
+│   ├── (meetUp)
+│   │   ├── @createMeetupModal
+│   │   │   ├── (.)detail
+│   │   │   │   └── [id]
+│   │   │   │       └── meetupModal
+│   │   │   │           └── page.tsx
+│   │   │   └── default.tsx
+│   │   ├── _components
+│   │   │   └── _meetupModal
+│   │   │       ├── _datePicker
+│   │   │       │   └── DatePicker.tsx
+│   │   │       └── _meetupModal
+│   │   │           ├── MeetupModal.tsx
+│   │   │           └── meetupModal.module.scss
+│   │   ├── detail
+│   │   │   └── [id]
+│   │   │       ├── _components
+│   │   │       │   ├── Comment.tsx
+│   │   │       │   ├── CommentList.tsx
+│   │   │       │   ├── CreateComment.tsx
+│   │   │       │   ├── CreateMeetUpButton.tsx
+│   │   │       │   ├── DetailHeader.tsx
+│   │   │       │   └── RelatedVedio.tsx
+│   │   │       ├── detail.module.scss
+│   │   │       ├── error.tsx
+│   │   │       ├── layout.tsx
+│   │   │       ├── meetupModal
+│   │   │       │   └── page.tsx
+│   │   │       └── page.tsx
+│   │   ├── layout.tsx
+│   │   ├── live
+│   │   │   ├── _components
+│   │   │   │   ├── LiveButton.tsx
+│   │   │   │   ├── LiveChat.tsx
+│   │   │   │   └── LiveStream.tsx
+│   │   │   ├── error.tsx
+│   │   │   ├── live.module.scss
+│   │   │   └── page.tsx
+│   │   └── meetup
+│   │       ├── _components
+│   │       │   ├── MeetupBox.tsx
+│   │       │   ├── MeetupList.tsx
+│   │       │   ├── MyMeetupList.tsx
+│   │       │   ├── VideoList.tsx
+│   │       │   └── _tab
+│   │       │       ├── MeetupTabButtons.tsx
+│   │       │       ├── MeetupTabPage.tsx
+│   │       │       └── TabLoading.tsx
+│   │       ├── layout.tsx
+│   │       ├── meetup.module.scss
+│   │       ├── meetupList
+│   │       │   └── page.tsx
+│   │       ├── myMeetupList
+│   │       │   └── page.tsx
+│   │       └── page.tsx
+│   ├── (sign)
+│   │   ├── _components
+│   │   │   ├── SignInput.tsx
+│   │   │   └── sign.module.scss
+│   │   ├── resetpassword
+│   │   │   └── page.tsx
+│   │   ├── signIn
+│   │   │   ├── findPassword
+│   │   │   │   └── page.tsx
+│   │   │   └── page.tsx
+│   │   └── signUp
+│   │       └── page.tsx
+│   ├── _components
+│   │   ├── @createSurveyModal
+│   │   │   ├── (..)surveyModal
+│   │   │   │   ├── page.tsx
+│   │   │   │   └── surveyModal
+│   │   │   │       └── _components
+│   │   │   │           ├── SurveyModal.tsx
+│   │   │   │           └── surveyModal.module.scss
+│   │   │   └── detault.tsx
+│   │   ├── ChristmasCounter.tsx
+│   │   ├── Main.tsx
+│   │   ├── MainMeetupList.tsx
+│   │   ├── MeetupList.tsx
+│   │   ├── Modal.module.scss
+│   │   ├── Slot.tsx
+│   │   ├── SlotContent.tsx
+│   │   ├── SlotModal.tsx
+│   │   ├── Survey.tsx
+│   │   ├── SurveyGraph.tsx
+│   │   └── SurveyModal.tsx
+│   ├── auth
+│   │   ├── callback
+│   │   │   └── route.ts
+│   │   ├── login
+│   │   │   └── route.ts
+│   │   ├── logout
+│   │   │   └── route.ts
+│   │   └── sign-up
+│   │       └── route.ts
+│   ├── datepicker.scss
+│   ├── favicon.ico
+│   ├── globalButton.module.scss
+│   ├── globals.scss
+│   ├── layout.tsx
+│   ├── loading.tsx
+│   ├── not-found.tsx
+│   ├── page.module.scss
+│   ├── page.tsx
+│   └── thems.scss
 ├── components
-│   ├── ScrollBtn.module.scss
-│   ├── ScrollBtn.tsx
-│   ├── detail
-│   │   ├── Comment.tsx
-│   │   ├── CommentList.tsx
-│   │   └── CreateComment.tsx
-│   ├── home
-│   │   ├── ChristmasCounter.tsx
-│   │   └── VideoList.tsx
-│   └── layout
-│       ├── Header.tsx
-│       ├── HeaderInput.tsx
-│       └── header.module.scss
 ├── hooks
-│   └── useYoutubeApiRequest.ts
+│   ├── useInfiniteScroll.ts
+│   ├── useLoadMore.ts
+│   └── useScrollBottom.ts
+├── middleware.ts
 ├── status
-│   └── store.ts
+│   └── store.ts
 ├── type
-│   ├── Component.ts
-│   ├── SupabaseResponse.ts
-│   └── YoutubeApiResponse.ts
+│   ├── Component.ts
+│   ├── SupabaseResponse.ts
+│   ├── YoutubeApiResponse.ts
+│   └── supabase.ts
 └── utils
     ├── apiRequest
-    │   └── commentsApiRequest.ts
-    └── relativeDate.ts
+    │   ├── commentsApiRequest.ts
+    │   ├── defaultApiSetting.ts
+    │   ├── defaultServerApiSetting.ts
+    │   ├── likeApiRequest.ts
+    │   ├── liveApiRequest.ts
+    │   ├── meetupApiRequestClient.ts
+    │   ├── meetupApiRequestServer.ts
+    │   ├── profileApiRequest.ts
+    │   ├── signUserSupabase.ts
+    │   └── surveyApiRequest.ts
+    ├── calculateTimeUntilDay.ts
+    ├── cookieClient.ts
+    ├── cookieServer.ts
+    ├── relativeDate.ts
+    └── youtubRequest
+        ├── youtubeApiRequest.ts
+        ├── youtubeJsonRequest.ts
+        └── youtubeRequest.ts
 ```
 
 - `app/page` : 메인 페이지
-- `detail` : 비디오 상세 페이지
+- `detail` : 모임 생성 & 비디오 상세 페이지 
 - `developers` : 개발자 소개 페이지
 - `search` : 검색 페이지
 - `signIn` : 로그인 페이지
 - `signUp` : 회원가입 페이지
+- `meetup` : 모임 리스트 페이지
+- `live` : 실시간 영상 시청 & 채팅 페이지
 - `app/loading` : 로딩 페이지
 - `app/not-found` : 에러 페이지
 
@@ -152,21 +260,40 @@ src
 * 운영/개발서버 각각의 데이터 테이블 활용
 ### 📃 메인 페이지
 * 크리스마스 D-Day 확인
-* 인기 게시물 조회
+* 오늘 라이브 예정인 영상목록 조회
 * 비디오 상세 페이지 이동
+* 랜덤 슬롯
+* 랜덤 슬롯 결과 카카오톡 공유
+* 크리스마스 설문 통계
 ### 🖼 상세 페이지
-* 클릭한 비디오 상세 조회
-* 해당 채널 관련 영상 리스트 조회
-* 댓글 생성, 수정, 삭제, 좋아요(준비중)
+* 클릭한 비디오 상세 조회 및 재생
+* 해당 채널 관련 영상 리스트 조회 및 클릭시 링크 이동
+* 댓글 CRUD 및 좋아요
+* 모임 생성 가능 모달(인터셉트,페러렐 라우트)
+* 모달에 사항을 입력 하고 모임 생성
 ### 🔍 검색 페이지
 * 키워드 포함 게시물 조회
 * 비디오 상세 페이지 이동
 ### 👩‍👩‍👧‍👦 개발자 소개 페이지
 * 기술 스택 소개
 * 멤버 소개
-### 🔒 로그인 / 회원가입 (준비중)
+### 🔒 로그인 / 회원가입
 * 로그인
 * 회원가입
+* 비밀번호 찾기 및 수정
 * 유효성 검사
 * 토큰 검증
+### 🕰️ 실시간 모임 참여 페이지
+* 방장이 설정한 시간에 영상 자동 재생
+* 종료했을때 함께 보고있던 사람들도 촛불모임 페이지로 이동
+* 소켓을 활용한 실시간 유저 채팅 기능
+* 채팅 대화창에 동영상 시간을 입력 => 클릭시 동영상 시간대 이동
+### ✉️ 촛불 모임 조회 페이지
+* 촛불모임 페이지 탭 구현
+* 비디오 영상 리스트 조회
+* 현재 모집중인 모임 리스트 조회
+* 내 모임 리스트 조회 => 내가 생성하거나 참여한 모임 조회
+* 모임 참가 신청
+* 모임 게시글에 좋아요 기능
+
 
