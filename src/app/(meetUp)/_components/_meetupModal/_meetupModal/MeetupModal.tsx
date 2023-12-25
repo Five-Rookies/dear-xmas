@@ -6,12 +6,10 @@ import { createMeetupBoard } from '@/utils/apiRequest/meetupApiRequestClient'
 import { Value, ValuePiece } from '@/type/Component'
 import dynamic from 'next/dynamic'
 import { IVideoInfoToCookie } from '@/utils/cookieServer'
-import { Tables } from '@/type/supabase'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 import { debounce } from 'lodash'
+import { TMeetupBoard, TProfile } from '@/type/SupabaseResponse'
 import styles from './meetupModal.module.scss'
-
-type TMeetupBoardData = Tables<'meetup_board'>
 
 const DatePicker: React.ComponentType<any> = dynamic(
   () => import('../_datePicker/DatePicker'),
@@ -40,7 +38,7 @@ const MeetupModal = ({
   const nowDate = new Date()
 
   const fetchUser = async (): Promise<void> => {
-    const userData: Tables<'profiles'> = await getProfileByEmail()
+    const userData: TProfile = await getProfileByEmail()
     setUserName(userData?.user_name)
     setUserEmail(userData?.email)
   }
@@ -82,7 +80,7 @@ const MeetupModal = ({
       return
     }
 
-    const data: Partial<TMeetupBoardData> = {
+    const data: TMeetupBoard = {
       category: meetupCategory,
       meetup_title: meetupTitle,
       meetup_content: meetupContent,

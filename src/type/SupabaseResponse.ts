@@ -1,9 +1,10 @@
-import { Tables } from './supabase'
+import { Tables, TablesInsert } from './supabase'
 
 export type TComments = Tables<'comments'>
 export type TCommentLike = Tables<'comment_like'>
 export type TProfile = Tables<'profiles'>
 export type TLiveChat = Tables<'live_chat'>
+export type TMeetupBoard = TablesInsert<'meetup_board'>
 
 export interface ISupabase {
   id: number
