@@ -7,7 +7,7 @@ import { deleteLive } from '@/utils/apiRequest/liveApiRequest'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { IMeetupBoardData } from '@/type/Component'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
-import { Tables } from '@/type/supabase'
+import { TProfiles } from '@/type/SupabaseResponse'
 import styles from '../live.module.scss'
 
 const LiveButton = ({ user_name, scheduling, meetup_id }: IMeetupBoardData) => {
@@ -60,7 +60,7 @@ const LiveButton = ({ user_name, scheduling, meetup_id }: IMeetupBoardData) => {
   }, [])
 
   const fetchUser = async () => {
-    const userData: Tables<'profiles'> = await getProfileByEmail()
+    const userData: TProfiles = await getProfileByEmail()
     setUserName(userData.user_name)
   }
 

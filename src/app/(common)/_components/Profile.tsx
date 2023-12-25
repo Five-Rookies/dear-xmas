@@ -6,10 +6,8 @@ import {
   getProfile,
   updateProfile,
 } from '@/utils/apiRequest/profileApiRequest'
-import { Tables } from '@/type/supabase'
+import { TProfiles } from '@/type/SupabaseResponse'
 import styles from './header.module.scss'
-
-type TProfiles = Tables<'profiles'>
 
 const Profile = ({
   setShowProfile,

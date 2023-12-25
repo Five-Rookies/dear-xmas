@@ -1,8 +1,9 @@
 import { createClient } from '@supabase/supabase-js'
 import { executeQuery } from '@/utils/apiRequest/defaultApiSetting'
-import { ISupabase, ISurvey } from '@/type/SupabaseResponse'
+import { ISurvey } from '@/type/SupabaseResponse'
+import { Database } from '@/type/supabase'
 
-const supabase = createClient<ISupabase[]>(
+const supabase = createClient<Database>(
   process.env.NEXT_PUBLIC_SUPABASE_URL as string,
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY as string,
 )

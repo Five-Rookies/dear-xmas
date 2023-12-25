@@ -22,7 +22,7 @@ import likeOff from '@public/assets/likeOff.svg'
 import likeOn from '@public/assets/likeOn.svg'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 import { debounce } from 'lodash'
-import { TComments, TCommentLike, TProfile } from '@/type/SupabaseResponse'
+import { TComments, TCommentLike, TProfiles } from '@/type/SupabaseResponse'
 import styles from '../detail.module.scss'
 
 interface ICommentProps {
@@ -35,7 +35,7 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
     comment
 
   const COMMENT_ID: number = id
-  const profiles: any[] = [santa, snowman, candle, cookie]
+  const profiles = [santa, snowman, candle, cookie]
   const [isDotMenuVisible, setIsDotMenuVisible] = useState<boolean>(false)
   const [inputValue, setInputValue] = useState<string | null>(comment_content)
 
@@ -45,7 +45,7 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
   const [likeCount, setLikeCount] = useState<number | undefined>(0)
 
   const getUserId = async (): Promise<void> => {
-    const userData: TProfile = await getProfileByEmail()
+    const userData: TProfiles = await getProfileByEmail()
     setUserId(userData?.id)
   }
 

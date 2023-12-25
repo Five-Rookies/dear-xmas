@@ -2,21 +2,9 @@ import { Tables, TablesInsert } from './supabase'
 
 export type TComments = Tables<'comments'>
 export type TCommentLike = Tables<'comment_like'>
-export type TProfile = Tables<'profiles'>
+export type TProfiles = Tables<'profiles'>
 export type TLiveChat = Tables<'live_chat'>
 export type TMeetupBoard = TablesInsert<'meetup_board'>
-
-export interface ISupabase {
-  id: number
-  created_at: string
-  video_id: string
-  profile_img: 1 | 2 | 3 | 4
-  like_num?: number
-  comment_content?: string
-  live_content?: string
-  user_id?: string
-  user_name?: string
-}
 
 export interface ISurvey {
   first_baby: number

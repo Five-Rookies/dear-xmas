@@ -20,7 +20,7 @@ import {
 } from '@/utils/apiRequest/likeApiRequest'
 import Image from 'next/image'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
-import { Tables } from '@/type/supabase'
+import { TProfiles } from '@/type/SupabaseResponse'
 import { debounce } from 'lodash'
 import styles from '../meetup.module.scss'
 
@@ -39,7 +39,7 @@ const MeetupBox = ({
   const [likeCount, setLikeCount] = useState<number | undefined>(0)
 
   const fetchData = async (): Promise<void> => {
-    const userData: Tables<'profiles'> = await getProfileByEmail()
+    const userData: TProfiles = await getProfileByEmail()
     setUserEmail(userData?.email!)
     if (userData.id && meetup.id) {
       const isLike = await getLike(userData.id, meetup.id, 'meetup_like')

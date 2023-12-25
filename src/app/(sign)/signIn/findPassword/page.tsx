@@ -3,7 +3,7 @@
 import React, { useRef } from 'react'
 import styles from '@/app/(sign)/_components/sign.module.scss'
 import Link from 'next/link'
-import { Tables } from '@/type/supabase'
+import { TProfiles } from '@/type/SupabaseResponse'
 import { getProfile } from '@/utils/apiRequest/profileApiRequest'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { debounce } from 'lodash'
@@ -16,7 +16,7 @@ const FindPasswordPage = () => {
   const handleSubmit = debounce(async (): Promise<null | undefined> => {
     const email = emailRef.current!.value
     const passwordHint = passwordHintRef.current!.value
-    const userdata: Tables<'profiles'>[] = await getProfile('email', email)
+    const userdata: TProfiles[] = await getProfile('email', email)
 
     if (!userdata.length) {
       alert('유효하지 않은 이메일 입니다!')
