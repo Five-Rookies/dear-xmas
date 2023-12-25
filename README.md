@@ -50,7 +50,7 @@ Dear, Xmas는 크리스마스의 감성과 특별한 순간을 함께 쌓아가�
 ✨ 배포 : <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white"/> 
 
 <br>
-## :sloth: Git
+### :sloth: Git
 
 ### [개발 환경]<br>
 코드 충돌을 줄이고 브랜치 관리가 용이한 **Git Flow** 방식을 사용하여 기능 브랜치를 만들고<br>
