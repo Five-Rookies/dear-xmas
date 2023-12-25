@@ -93,7 +93,6 @@ const Survey = () => {
             {isClicked && isModalOpen && (
               <SurveyModal
                 handleModalClose={handleModalClose}
-                // submitSurveyData={submitSurveyData}
                 surveyList={surveyList}
               />
             )}
