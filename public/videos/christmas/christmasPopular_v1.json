@@ -180,40 +180,6 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "xmXkUQnTBiC0ejOc9PFA5BdgMYw",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "0cyweu4yyiA"
-      },
-      "snippet": {
-        "publishedAt": "2020-12-24T02:00:11Z",
-        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
-        "title": "브레드이발소 | 크리스마스 1시간 모음!! | 애니메이션/만화/디저트/animation/cartoon/dessert",
-        "description": "크리스마스 1시간 모음!! -소시지의 크리스마스 -감자칩의 크리스마스 -치즈의 놀이터 -감자칩과 소시지 -브레드의 생일파티 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/0cyweu4yyiA/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/0cyweu4yyiA/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/0cyweu4yyiA/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "브레드이발소",
-        "liveBroadcastContent": "none",
-        "publishTime": "2020-12-24T02:00:11Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
       "etag": "6UyaXE894H_gQ5NR6zfG9NI059w",
       "id": {
         "kind": "youtube#video",
@@ -244,40 +210,6 @@
         "channelTitle": "Christian BGM 크리스찬 BGM",
         "liveBroadcastContent": "live",
         "publishTime": "2023-10-31T23:56:02Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "N1F6VFeB5PmFTH-XsBW_JtoVi8g",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "IJozglvGCtA"
-      },
-      "snippet": {
-        "publishedAt": "2019-12-24T09:00:10Z",
-        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
-        "title": "브레드이발소 | 크리스마스 특집 | 애니메이션/만화/디저트/animation/cartoon/dessert",
-        "description": "크리스마스 특집 -소시지의 크리스마스 -감자칩의 크리스마스 -외톨이 타르트 -브레드의 생일파티 ▷ YouTube 업로드 일정 월(오후 6 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/IJozglvGCtA/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/IJozglvGCtA/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/IJozglvGCtA/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "브레드이발소",
-        "liveBroadcastContent": "none",
-        "publishTime": "2019-12-24T09:00:10Z"
       }
     },
     {
