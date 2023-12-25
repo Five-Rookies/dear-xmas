@@ -3,6 +3,7 @@ import { Tables } from './supabase'
 export type TComments = Tables<'comments'>
 export type TCommentLike = Tables<'comment_like'>
 export type TProfile = Tables<'profiles'>
+export type TLiveChat = Tables<'live_chat'>
 
 export interface ISupabase {
   id: number
