@@ -6,6 +6,7 @@ import { faXmark } from '@fortawesome/free-solid-svg-icons'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { updateServeyData } from '@/utils/apiRequest/surveyApiRequest'
 import styles from './Modal.module.scss'
+import { debounce } from 'lodash'
 
 interface IProps {
   surveyList: ISurvey[]
@@ -57,7 +58,7 @@ const SurveyModal = ({ surveyList, handleModalClose }: IProps) => {
       alert('로그인 후 사용해주세요')
     }
   }
-  
+
   useEffect(() => {
     // 모달이 열릴 때 body의 overflow를 hidden으로 설정
     document.body.style.overflow = 'hidden'
@@ -74,16 +75,17 @@ const SurveyModal = ({ surveyList, handleModalClose }: IProps) => {
     setUserId(user?.id!)
   }
 
-  const handleCheckboxChange = async (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleCheckboxChange = async (
+    event: React.ChangeEvent<HTMLInputElement>,
+  ) => {
     const userName = await getUserName()
-      if (userName !== undefined) {
+    if (userName !== undefined) {
       setSelectedItems({
         ...selectedItems,
         [event.target.name]: event.target.checked,
       })
     }
   }
-
 
   useEffect(() => {
     getUserId()
@@ -93,8 +95,8 @@ const SurveyModal = ({ surveyList, handleModalClose }: IProps) => {
   function getAnswers(selectedList: Record<string, boolean>): string[] {
     const checkedAnswers: string[] = Object.keys(selectedList).filter(
       value => selectedList[value] === true,
-    );
-  
+    )
+
     return checkedAnswers
   }
 
@@ -105,10 +107,7 @@ const SurveyModal = ({ surveyList, handleModalClose }: IProps) => {
 
   // 값이 true인 선택된 checkbox들 출력
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault()
-    const userName = await getUserName()
-
+  const handleSubmit = debounce(async (): Promise<void> => {
     try {
       await updateServeyData(userId, firstAnswer, secondAnswer, thirdAnswer)
       alert('설문이 완료되었습니다🎅🏻')
@@ -117,14 +116,14 @@ const SurveyModal = ({ surveyList, handleModalClose }: IProps) => {
       console.error(error)
       alert('오류가 발생하였습니다!')
     }
-    
-  }
+    // handleModalClose()
+  }, 500)
 
   return (
     <div className={styles.modal} onClick={handleModalClose}>
       <div className={styles.modalContent} onClick={e => e.stopPropagation()}>
         <h2 className={styles.title}>설문조사</h2>
-        <form className={styles.submitForm} onSubmit={handleSubmit}>
+        <form className={styles.submitForm}>
           {surveyList.map((ques: ISurvey, index: number) => {
             return (
               <div key={index} className={styles.row}>
@@ -151,8 +150,9 @@ const SurveyModal = ({ surveyList, handleModalClose }: IProps) => {
           <div className={styles.btnGroup}>
             <button
               className={styles.submitBtn}
-              type="submit"
+              type="button"
               disabled={loading}
+              onClick={handleSubmit}
             >
               제출하기
             </button>

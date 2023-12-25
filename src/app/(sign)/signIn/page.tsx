@@ -17,16 +17,24 @@ const SignInPage = () => {
     login = null
   }, [])
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault()
+  let timeout: string | number | NodeJS.Timeout | undefined
 
-    try {
-      await handleSignIn(event)
-      router.refresh()
-      router.replace('/')
-    } catch (error) {
-      console.error(error)
-    }
+  const handleSubmit = async (
+    event: React.FormEvent<HTMLFormElement>,
+  ): Promise<void> => {
+    event.preventDefault()
+    const formData: FormData = new FormData(event.currentTarget)
+
+    if (timeout) clearTimeout(timeout)
+
+    timeout = setTimeout(async () => {
+      try {
+        await handleSignIn(formData)
+        router.push('/')
+      } catch (error) {
+        console.error(error)
+      }
+    }, 500)
   }
 
   return (
@@ -46,7 +54,9 @@ const SignInPage = () => {
           type="password"
           placeholder="비밀번호를 입력해주세요."
         />
-        <button>로그인</button>
+        <button type="submit" onMouseEnter={() => router.prefetch('/')}>
+          로그인
+        </button>
       </form>
 
       <div className={styles.account}>

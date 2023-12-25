@@ -8,6 +8,7 @@ import { createClientComponentClient } from '@supabase/auth-helpers-nextjs'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import { handleSignOut } from '@/utils/apiRequest/signUserSupabase'
+import { debounce } from 'lodash'
 import styles from './header.module.scss'
 import SearchInput from './SearchInput'
 import MainMenu from './MainMenu'
@@ -48,6 +49,11 @@ const Header = (): React.JSX.Element => {
     }
   }
 
+  const handleLogOut = debounce(async () => {
+    await handleSignOut()
+    router.refresh()
+  }, 500)
+
   const renderLoginMenu = () => {
     if (hydrated) {
       return isLogin ? (
@@ -60,14 +66,7 @@ const Header = (): React.JSX.Element => {
           </button>
           {showProfile && <Profile setShowProfile={setShowProfile} />}
           <p className={styles.line}>|</p>
-          <span
-            onClick={() => {
-              handleSignOut()
-              router.refresh()
-            }}
-          >
-            로그아웃
-          </span>
+          <span onClick={handleLogOut}>로그아웃</span>
         </div>
       ) : (
         <div className={styles.account}>

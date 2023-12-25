@@ -6,6 +6,7 @@ import { createChat, getChat } from '@/utils/apiRequest/liveApiRequest'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import useStore from '@/status/store'
 import styles from '../live.module.scss'
+import { debounce } from 'lodash'
 
 const LiveChat = ({ meetupId }: { meetupId: number }) => {
   const { setTime } = useStore()
@@ -56,18 +57,21 @@ const LiveChat = ({ meetupId }: { meetupId: number }) => {
     const totalSeconds = hours * 3600 + minutes * 60 + seconds
     return totalSeconds
   }
-  const handleCreate = async (e: any) => {
-    if (e.key === 'Enter') {
-      await createChat(
-        meetupId,
-        user.user_metadata.user_name || '',
-        user.id || '',
-        user.user_metadata.profile_img as 0 | 1 | 2 | 3,
-        inputValue?.current?.value,
-      )
-      inputValue.current.value = ''
-    }
-  }
+  const handleCreate = debounce(
+    async (e: React.KeyboardEvent<HTMLInputElement>): Promise<void> => {
+      if (e.key === 'Enter') {
+        await createChat(
+          meetupId,
+          user.user_metadata.user_name || '',
+          user.id || '',
+          user.user_metadata.profile_img as 0 | 1 | 2 | 3,
+          inputValue?.current?.value,
+        )
+        inputValue.current.value = ''
+      }
+    },
+    500,
+  )
 
   const handleVideoStart = (chatTime: string) => {
     const startIndex = chatTime.indexOf('#') + 1
@@ -89,7 +93,7 @@ const LiveChat = ({ meetupId }: { meetupId: number }) => {
           type="text"
           placeholder="[#00:00:00] #을 붙여 현재 재생시간을 공유하세요"
           ref={inputValue}
-          onKeyPress={handleCreate}
+          onKeyDown={handleCreate}
         />
       </div>
       <ul className={styles.liveChat}>
