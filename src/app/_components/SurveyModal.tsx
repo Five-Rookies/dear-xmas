@@ -7,6 +7,11 @@ import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { updateServeyData } from '@/utils/apiRequest/surveyApiRequest'
 import styles from './Modal.module.scss'
 
+interface IProps {
+  surveyList: ISurvey[]
+  handleModalClose: any
+}
+
 interface ICheckList {
   title: string
   key: string
@@ -17,7 +22,7 @@ interface ISurvey {
   checkList: ICheckList[]
 }
 
-const SurveyModal = ({ surveyList, handleModalClose }: any) => {
+const SurveyModal = ({ surveyList, handleModalClose }: IProps) => {
   const [userId, setUserId] = useState<string>('')
   const [loading, setLoading] = useState(false)
   const [selectedItems, setSelectedItems] = useState({
@@ -38,6 +43,30 @@ const SurveyModal = ({ surveyList, handleModalClose }: any) => {
     third_none: false,
   })
 
+  const getUserName = async (): Promise<void> => {
+    try {
+      const {
+        data: { user },
+        error,
+      } = await supabase.auth.getUser()
+      if (!user) {
+        throw error
+      }
+      return user?.user_metadata.user_name
+    } catch (error) {
+      alert('로그인 후 사용해주세요')
+    }
+  }
+  
+  useEffect(() => {
+    // 모달이 열릴 때 body의 overflow를 hidden으로 설정
+    document.body.style.overflow = 'hidden'
+    return () => {
+      // 모달이 닫힐 때 body의 overflow를 초기 상태로 복원
+      document.body.style.overflow = 'auto'
+    }
+  })
+
   const getUserId = async (): Promise<void> => {
     const {
       data: { user },
@@ -45,23 +74,27 @@ const SurveyModal = ({ surveyList, handleModalClose }: any) => {
     setUserId(user?.id!)
   }
 
-  const handleCheckboxChange = (event: any) => {
-    setSelectedItems({
-      ...selectedItems,
-      [event.target.name]: event.target.checked,
-    })
+  const handleCheckboxChange = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    const userName = await getUserName()
+      if (userName !== undefined) {
+      setSelectedItems({
+        ...selectedItems,
+        [event.target.name]: event.target.checked,
+      })
+    }
   }
+
 
   useEffect(() => {
     getUserId()
     return () => setUserId('')
   }, [])
 
-  function getAnswers(selectedList: any) {
-    const checkedAnswers = Object.keys(selectedList).filter(
+  function getAnswers(selectedList: Record<string, boolean>): string[] {
+    const checkedAnswers: string[] = Object.keys(selectedList).filter(
       value => selectedList[value] === true,
-    )
-
+    );
+  
     return checkedAnswers
   }
 
@@ -72,17 +105,19 @@ const SurveyModal = ({ surveyList, handleModalClose }: any) => {
 
   // 값이 true인 선택된 checkbox들 출력
 
-  const handleSubmit = async (event: any) => {
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault()
+    const userName = await getUserName()
 
     try {
       await updateServeyData(userId, firstAnswer, secondAnswer, thirdAnswer)
       alert('설문이 완료되었습니다🎅🏻')
+      handleModalClose()
     } catch (error) {
       console.error(error)
       alert('오류가 발생하였습니다!')
     }
-    // handleModalClose()
+    
   }
 
   return (
