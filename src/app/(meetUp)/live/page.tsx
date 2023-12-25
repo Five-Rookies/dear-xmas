@@ -28,6 +28,7 @@ const LivePage = async (param: any) => {
   revalidatePath('/')
 
   const {
+    email,
     meetup_title,
     user_name,
     scheduling,
@@ -41,6 +42,7 @@ const LivePage = async (param: any) => {
         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
           <h1>{meetup_title}</h1>
           <LiveButton
+            email={email}
             user_name={user_name}
             scheduling={scheduling}
             meetup_id={currentMeetupId}
@@ -49,6 +51,7 @@ const LivePage = async (param: any) => {
 
         <div className={styles.liveBox}>
           <LiveStream
+            email={email}
             scheduling={scheduling}
             thumbnail={thumbnail}
             video_id={video_id}

@@ -183,7 +183,7 @@ const SlotContent = () => {
     setCurrentIndex(0) // 재시작 시 currentIndex 초기화
   }
 
-  const handleModalClose = () => {
+  const handleModalClose = (): void => {
     setIsModalOpen(false)
     setIsClicked(false)
   }
@@ -219,13 +219,7 @@ const SlotContent = () => {
         <div />
       </button>
       {isModalOpen && (
-        <SlotModal
-          onClose={handleModalClose}
-          handleModalClose={handleModalClose}
-          handleMakeSentence={handleMakeSentence}
-          sentence={sentence}
-          isRestarted={isClicked}
-        />
+        <SlotModal handleModalClose={handleModalClose} sentence={sentence} />
       )}
       <div className={styles.slotBox}>
         <div className={styles.imgArea}>
