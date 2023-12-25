@@ -80,6 +80,11 @@ const MeetupModal = ({
       return
     }
 
+    if (meetupTitle === '' || meetupContent === '' || meetupCategory === '') {
+      alert('내용을 작성 했는지 확인해 주세요!')
+      return
+    }
+
     const data: TMeetupBoard = {
       category: meetupCategory,
       meetup_title: meetupTitle,
