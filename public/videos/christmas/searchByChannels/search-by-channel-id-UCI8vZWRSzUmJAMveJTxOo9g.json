@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "n4Wwd1ALY8h9ZPDeZkh28hxeCjA",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 3045,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kkItRviFDl21KmLEwHAsM2Cj12Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yWXWmgP_g00"
+      },
+      "snippet": {
+        "publishedAt": "2018-07-06T10:00:07Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "[새찬송가] 348장 마귀들과 싸울지라",
+        "description": "CCM ,찬송가 최다 컨텐츠, 최고의 찬양 주님께 드리는 찬양을 나누고자 운영중인 채널입니다, 감사와 기쁨, 평안과 승리, 소망 그리고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yWXWmgP_g00/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yWXWmgP_g00/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yWXWmgP_g00/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-07-06T10:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HfQ2GFFCq4Qs6q4CcGqVxBhQEK4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PWDdcAhJenM"
+      },
+      "snippet": {
+        "publishedAt": "2016-10-06T02:20:49Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "반드시 내가 너를 축복하리라 by 호산나싱어즈",
+        "description": "두려워말라 강하고 담대하라 낙심하고 실망치말라.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PWDdcAhJenM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PWDdcAhJenM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PWDdcAhJenM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-10-06T02:20:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rhBP_1c2igpJ4hFupS9IbK81df8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aZillykGpeU"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-16T06:10:35Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "[Shorts] 김대환 - 은혜아니면",
+        "description": "김대환 찬양 사역 문의 : 010-9016-9688 찬양 사역 문의(010-9016-9688) CCM ,찬송가 최다 컨텐츠, 감동의 찬양 주님께 드리는 찬양 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aZillykGpeU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aZillykGpeU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aZillykGpeU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-16T06:10:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qxgSw1U8SCGyWy3GJySGVYc-th0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Zi7WxBlKWDE"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-20T03:00:24Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "[Shorts] 김대환 - 은혜아니면 ver 2",
+        "description": "김대환 찬양 사역 문의 : 010-9016-9688 찬양 사역 문의(010-9016-9688) CCM ,찬송가 최다 컨텐츠, 감동의 찬양 주님께 드리는 찬양 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Zi7WxBlKWDE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Zi7WxBlKWDE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Zi7WxBlKWDE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-20T03:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eKyQ5RKJI1pR8GRBvAmA5iVxicg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZH515oQ5iM0"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-10T04:00:11Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "너 근심 걱정 말아라 (Be Not Dismayed Whate&#39;er Betide) by 조수아",
+        "description": "CCM ,찬송가 최다 컨텐츠, 감동의 찬양 주님께 드리는 찬양을 나누고자 운영중인 채널입니다. 감사와 기쁨, 평안과 승리, 소망 그리고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZH515oQ5iM0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZH515oQ5iM0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZH515oQ5iM0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-10T04:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4K7wVWuK--dhWBnRWdd5AyS4UE8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eiF-bHQmeeI"
+      },
+      "snippet": {
+        "publishedAt": "2017-12-07T23:30:01Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "내 주의 은혜 강가로 by 김정석",
+        "description": "내 주의 은혜 강가로 저 십자가의 강가로 내 주의 사랑 있는 곳 내 주의 강가로.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eiF-bHQmeeI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eiF-bHQmeeI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eiF-bHQmeeI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-12-07T23:30:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MC4SYSv7Mgdv1Yq1yx0Fw9JAUnM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GCkTHGgKkE8"
+      },
+      "snippet": {
+        "publishedAt": "2018-06-27T10:00:05Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "[새찬송가] 312장 너 하나님께 이끌리어",
+        "description": "CCM ,찬송가 최다 컨텐츠, 최고의 찬양 주님께 드리는 찬양을 나누고자 운영중인 채널입니다, 감사와 기쁨, 평안과 승리, 소망 그리고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GCkTHGgKkE8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GCkTHGgKkE8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GCkTHGgKkE8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-06-27T10:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1eO-Qgqu9cMnQyxbDxwUBIE9owY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lP1QWQ1XI9U"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-06T00:10:33Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "[Shorts] 시와그림 김정석 - 나의 힘이 되신 여호와여",
+        "description": "CCM ,찬송가 최다 컨텐츠, 감동의 찬양 주님께 드리는 찬양을 나누고자 운영중인 채널입니다. 감사와 기쁨, 평안과 승리, 소망 그리고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lP1QWQ1XI9U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lP1QWQ1XI9U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lP1QWQ1XI9U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-06T00:10:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "53noqxpWKURkZsETwLP475qGNcE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Fdoo0Yh_vJM"
+      },
+      "snippet": {
+        "publishedAt": "2016-06-03T05:31:12Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "아버지 품으로 by 박진희  To The Father&#39;s Arms (Eng sub)",
+        "description": "아버지 품으로 송상경 작사.곡& (Arr) 나 이제 돌아가리라 아버지 기다리시는 본향으로 나 이제 돌아가리라 아버지 안아주시는 본향 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fdoo0Yh_vJM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fdoo0Yh_vJM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fdoo0Yh_vJM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-06-03T05:31:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Sx-qRAAJisVynpqB2G_N9OPGUso",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jLuhZ5o_yUM"
+      },
+      "snippet": {
+        "publishedAt": "2018-08-01T10:00:18Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "[새찬송가] 438장 내 영혼이 은총 입어",
+        "description": "CCM ,찬송가 최다 컨텐츠, 최고의 찬양 주님께 드리는 찬양을 나누고자 운영중인 채널입니다, 감사와 기쁨, 평안과 승리, 소망 그리고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jLuhZ5o_yUM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jLuhZ5o_yUM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jLuhZ5o_yUM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-08-01T10:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NXFISreC-inmv_0EvynjfbyGdME",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4Z7ogTPjYQs"
+      },
+      "snippet": {
+        "publishedAt": "2018-06-14T10:00:00Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "[새찬송가] 268장 죄에서 자유를 얻게 함은",
+        "description": "CCM ,찬송가 최다 컨텐츠, 최고의 찬양 주님께 드리는 찬양을 나누고자 운영중인 채널입니다, 감사와 기쁨, 평안과 승리, 소망 그리고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4Z7ogTPjYQs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4Z7ogTPjYQs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4Z7ogTPjYQs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-06-14T10:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZB1hvSrY1t16zS7JAS3uU9p4U7w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VZdMLgChd-8"
+      },
+      "snippet": {
+        "publishedAt": "2018-07-17T10:00:03Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "[새찬송가] 384장 나의 갈 길 다 가도록",
+        "description": "CCM ,찬송가 최다 컨텐츠, 최고의 찬양 주님께 드리는 찬양을 나누고자 운영중인 채널입니다, 감사와 기쁨, 평안과 승리, 소망 그리고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VZdMLgChd-8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VZdMLgChd-8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VZdMLgChd-8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-07-17T10:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0q38L6lLueg-pp9k6n7b4B6WV7o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ePWmBJY_d0Y"
+      },
+      "snippet": {
+        "publishedAt": "2018-02-05T23:30:00Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "날마다 숨쉬는 순간마다 by 조수아",
+        "description": "주님의 그 자비로운 손길 항상 좋은 것 주시도다 사랑스레 아픔과 기쁨을 수고와 평화와 안식을.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ePWmBJY_d0Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ePWmBJY_d0Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ePWmBJY_d0Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-02-05T23:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "A8IaDz2r4pYMkqeRpHPWCmedvlU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ABXtzJ4UeE4"
+      },
+      "snippet": {
+        "publishedAt": "2016-10-06T22:00:01Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "할 수 있다 하신 이는 by 호산나싱어즈",
+        "description": "할수있다 하신주 할수있다 하신주 믿음만이 믿음만이 능력이라 하시네.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ABXtzJ4UeE4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ABXtzJ4UeE4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ABXtzJ4UeE4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-10-06T22:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lw_VgjJJkVsBH2C3PNppn8cTQRs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MD1qBxf3KbA"
+      },
+      "snippet": {
+        "publishedAt": "2018-06-11T10:00:03Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "[새찬송가] 259장 예수 십자가에 흘린 피로써",
+        "description": "CCM ,찬송가 최다 컨텐츠, 최고의 찬양 주님께 드리는 찬양을 나누고자 운영중인 채널입니다, 감사와 기쁨, 평안과 승리, 소망 그리고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MD1qBxf3KbA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MD1qBxf3KbA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MD1qBxf3KbA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-06-11T10:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xLUEQD1-Ow8NFeRT2SEUP68TNGk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SfUoRQy-LH4"
+      },
+      "snippet": {
+        "publishedAt": "2018-06-25T10:00:02Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "[새찬송가] 305장 나 같은 죄인 살리신",
+        "description": "CCM ,찬송가 최다 컨텐츠, 최고의 찬양 주님께 드리는 찬양을 나누고자 운영중인 채널입니다, 감사와 기쁨, 평안과 승리, 소망 그리고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SfUoRQy-LH4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SfUoRQy-LH4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SfUoRQy-LH4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-06-25T10:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ktbY8LQtFZ6xC2SfHJ_B2NFtqEw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IKqgbOI0kXI"
+      },
+      "snippet": {
+        "publishedAt": "2016-07-26T06:30:29Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "하나님은 실수하지 않으신다네 by 김대환",
+        "description": "김대환 찬양 사역 문의 : 010-9016-9688 하나님은 실수하지 않으신다네 내가 걷는 이 길이 혹 굽어 도는 수가 있어도 내 심장이 울렁 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IKqgbOI0kXI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IKqgbOI0kXI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IKqgbOI0kXI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-07-26T06:30:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ntZERxjMMU-dgLuqZUXY3BaGF6Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hfdX-FD-7ck"
+      },
+      "snippet": {
+        "publishedAt": "2017-08-08T23:30:00Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "예수 이름 높이세(수많은 무리들 줄지어) by 호산나싱어즈",
+        "description": "예수 이름 높이세 능력의 그 이름 예수 이름 높이세 구원의 그 이름 예수 이름을 부르는 자 예수 이름을 믿는 자 예수 이름 앞에 나오는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hfdX-FD-7ck/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hfdX-FD-7ck/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hfdX-FD-7ck/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-08-08T23:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PU6TAFS4qEjQzsf_A-DBMEgs37A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xRPQ7SK4CkE"
+      },
+      "snippet": {
+        "publishedAt": "2017-03-27T07:57:06Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "당신은 하나님의 사람 by 다윗과 요나단",
+        "description": "주님의 은혜로 살아가는 당신의 모습이 참 아름다워요 주님의 사랑을 나누어주는 당신의 모습이 너무 아름다워요.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xRPQ7SK4CkE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xRPQ7SK4CkE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xRPQ7SK4CkE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-03-27T07:57:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ELvc1e6C2sk3d69aqQNy4kfiafc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "B7YylIK9Mgc"
+      },
+      "snippet": {
+        "publishedAt": "2017-03-05T23:30:00Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "이제 역전되리라 by 시와그림",
+        "description": "너 기도를 멈추지 마라 내가 너의 그 모든 상황을 바로 역전시키리니 너 기도를 멈추지 마라 내가 잠시도 쉬지 않고 모든 걸 지켜보고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/B7YylIK9Mgc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/B7YylIK9Mgc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/B7YylIK9Mgc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-03-05T23:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "x7I4rei44Te5_jA4Cl0cMovjv0g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hFhMsUCA-tQ"
+      },
+      "snippet": {
+        "publishedAt": "2018-06-20T10:00:06Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "[새찬송가] 288장 예수를 나의 구주 삼고",
+        "description": "CCM ,찬송가 최다 컨텐츠, 최고의 찬양 주님께 드리는 찬양을 나누고자 운영중인 채널입니다, 감사와 기쁨, 평안과 승리, 소망 그리고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hFhMsUCA-tQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hFhMsUCA-tQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hFhMsUCA-tQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-06-20T10:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zaDuufGrJFIoF5ekKZUSp8-dtVo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4DtPvPpEq5c"
+      },
+      "snippet": {
+        "publishedAt": "2017-12-10T23:00:01Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "내가 주인 삼은 by 조수아",
+        "description": "내가 주인 삼은 모든 것 내려놓고 내 주 되신 주앞에 나가.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4DtPvPpEq5c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4DtPvPpEq5c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4DtPvPpEq5c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-12-10T23:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8uYqp9ASHra-V2s23EqkmcZIzb0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fu-5cWlJIgI"
+      },
+      "snippet": {
+        "publishedAt": "2018-06-07T10:00:06Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "[새찬송가] 250장 구주의 십자가 보혈로",
+        "description": "CCM ,찬송가 최다 컨텐츠, 최고의 찬양 주님께 드리는 찬양을 나누고자 운영중인 채널입니다, 감사와 기쁨, 평안과 승리, 소망 그리고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fu-5cWlJIgI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fu-5cWlJIgI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fu-5cWlJIgI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-06-07T10:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XFwFwojFoik3IroajuLSdqi-8ZI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RkODTiY5Chw"
+      },
+      "snippet": {
+        "publishedAt": "2020-01-16T23:00:06Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "나의 피난처 예수 by 시와 그림",
+        "description": "나의 피난처 예수 의지해요 나의 피난처 예수 의지해요 나의 가는 길에 거센 바람 몰아쳐 와도 나의 피난처 예수 의지해요 나는 영원히 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RkODTiY5Chw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RkODTiY5Chw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RkODTiY5Chw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-01-16T23:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jPRnUH_zdRUpkVvJ_Ez0GA0eZds",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xi6fmxoVTe8"
+      },
+      "snippet": {
+        "publishedAt": "2017-09-25T23:30:00Z",
+        "channelId": "UCI8vZWRSzUmJAMveJTxOo9g",
+        "title": "보혈을 지나 by 호산나싱어즈",
+        "description": "보혈을 지나 하나님 품으로 보혈을 지나 아버지 품으로 보혈을 지나 하나님 품으로 한걸음씩 나아가네.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xi6fmxoVTe8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xi6fmxoVTe8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xi6fmxoVTe8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Beecompany 비컴퍼니",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-09-25T23:30:00Z"
+      }
+    }
+  ]
+}

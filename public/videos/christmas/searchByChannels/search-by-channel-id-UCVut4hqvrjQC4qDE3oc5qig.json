@@ -1,16 +1,16 @@
 {
   "kind": "youtube#searchListResponse",
-  "etag": "_iC2WUhqKEQxI1evxnzRAOXt1vk",
+  "etag": "QyFDvYN28ysyTd6TYS-q9p7tuqk",
   "nextPageToken": "CBkQAA",
   "regionCode": "KR",
   "pageInfo": {
-    "totalResults": 362,
+    "totalResults": 365,
     "resultsPerPage": 25
   },
   "items": [
     {
       "kind": "youtube#searchResult",
-      "etag": "Qb355QsFcN_TJ16JbHEYODbU_HQ",
+      "etag": "fYxbY6HtTtwHUTaL_sMmaFDeez8",
       "id": {
         "kind": "youtube#video",
         "videoId": "nGN472SyEYo"
@@ -40,74 +40,6 @@
         "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
         "liveBroadcastContent": "none",
         "publishTime": "2019-06-17T17:14:00Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "M5gGqOFIxygnry38AKYNE5n93UM",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "vPRvx-_GHD8"
-      },
-      "snippet": {
-        "publishedAt": "2020-09-05T17:16:10Z",
-        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
-        "title": "K-indie, Chill, Soft Playlist to Sleep/Study",
-        "description": "인디 #새벽 #플레이리스트 #K-Indie playlist 이예린님 - 사람은 이상하고 사랑은 모르겠어 ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/vPRvx-_GHD8/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/vPRvx-_GHD8/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/vPRvx-_GHD8/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
-        "liveBroadcastContent": "none",
-        "publishTime": "2020-09-05T17:16:10Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "jJNbiqvjVLZM194uWBe9I4XCcIk",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "xQV8Frb8Jsg"
-      },
-      "snippet": {
-        "publishedAt": "2020-09-16T16:39:52Z",
-        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
-        "title": "[Playlist] 벌써 크리스마스 100일 전",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/xQV8Frb8Jsg/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/xQV8Frb8Jsg/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/xQV8Frb8Jsg/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
-        "liveBroadcastContent": "none",
-        "publishTime": "2020-09-16T16:39:52Z"
       }
     },
     {
@@ -146,36 +78,138 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "COl1lHYuUC9aD-23orVHpMxYncQ",
+      "etag": "jJNbiqvjVLZM194uWBe9I4XCcIk",
       "id": {
         "kind": "youtube#video",
-        "videoId": "pNunxbSDK5Q"
+        "videoId": "xQV8Frb8Jsg"
       },
       "snippet": {
-        "publishedAt": "2021-12-19T13:19:33Z",
+        "publishedAt": "2020-09-16T16:39:52Z",
         "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
-        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 너의 겨울이 시리도록 하얗고 따뜻하길",
+        "title": "[Playlist] 벌써 크리스마스 100일 전",
         "description": "",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/pNunxbSDK5Q/default.jpg",
+            "url": "https://i.ytimg.com/vi/xQV8Frb8Jsg/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/pNunxbSDK5Q/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/xQV8Frb8Jsg/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/pNunxbSDK5Q/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/xQV8Frb8Jsg/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
         "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
         "liveBroadcastContent": "none",
-        "publishTime": "2021-12-19T13:19:33Z"
+        "publishTime": "2020-09-16T16:39:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oKyHMfB5HBH3zLvTF2u2QmNoWIY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yv29uweEa10"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-16T13:45:10Z",
+        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
+        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 학창시절 나의 첫 연애 l 그 해 우리는",
+        "description": "그해우리는 #플레이리스트 #최우식 #김다미 #그해우리는ost #학창시절 #기억조작 #playlist #ost.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yv29uweEa10/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yv29uweEa10/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yv29uweEa10/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-16T13:45:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-yr6a2BIQ7XMx4sym6LjNjEglDM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3b7ImsIkTKM"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-18T13:28:26Z",
+        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
+        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 단 한 번도 채워진 적 없는 이들을 위해 | 나의 해방일지 OST",
+        "description": "나의해방일지 #플레이리스트 #손석구 #나의해방일지ost #playlist.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3b7ImsIkTKM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3b7ImsIkTKM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3b7ImsIkTKM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-18T13:28:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OzG1TOpE17Si5BmUEhPAdhFF5Fg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tDUiJEmWU7Y"
+      },
+      "snippet": {
+        "publishedAt": "2019-10-25T08:08:46Z",
+        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
+        "title": "연인과 함께 있을때 들으면 위기를 분위기로 바꿔줌",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tDUiJEmWU7Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tDUiJEmWU7Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tDUiJEmWU7Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-10-25T08:08:46Z"
       }
     },
     {
@@ -210,108 +244,6 @@
         "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
         "liveBroadcastContent": "none",
         "publishTime": "2020-02-25T06:57:35Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "JhiuDTW8mxlcmjUEdq9ydTHWnQE",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "yv29uweEa10"
-      },
-      "snippet": {
-        "publishedAt": "2022-02-16T13:45:10Z",
-        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
-        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 학창시절 나의 첫 연애 l 그 해 우리는",
-        "description": "그해우리는 #플레이리스트 #최우식 #김다미 #그해우리는ost #학창시절 #기억조작 #playlist #ost.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/yv29uweEa10/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/yv29uweEa10/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/yv29uweEa10/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-02-16T13:45:10Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "6rmcSwZVwF8sx66KpKJV3l-0lD8",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "3b7ImsIkTKM"
-      },
-      "snippet": {
-        "publishedAt": "2022-06-18T13:28:26Z",
-        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
-        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 단 한 번도 채워진 적 없는 이들을 위해 | 나의 해방일지 OST",
-        "description": "나의해방일지 #플레이리스트 #손석구 #나의해방일지ost #playlist.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/3b7ImsIkTKM/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/3b7ImsIkTKM/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/3b7ImsIkTKM/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-06-18T13:28:26Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "ctv-1AR5wvwgbsGdBMRDnuVP6rA",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "tDUiJEmWU7Y"
-      },
-      "snippet": {
-        "publishedAt": "2019-10-25T08:08:46Z",
-        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
-        "title": "연인과 함께 있을때 들으면 위기를 분위기로 바꿔줌",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/tDUiJEmWU7Y/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/tDUiJEmWU7Y/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/tDUiJEmWU7Y/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
-        "liveBroadcastContent": "none",
-        "publishTime": "2019-10-25T08:08:46Z"
       }
     },
     {
@@ -384,75 +316,75 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "b7uMJa1cPBuLXkDehGn3p6yo5w0",
+      "etag": "DbcFsOy20knZL1WMSILN6oY7O0Y",
       "id": {
         "kind": "youtube#video",
-        "videoId": "3sypqEemyGk"
+        "videoId": "bLgU-ZFPlfk"
       },
       "snippet": {
-        "publishedAt": "2019-09-05T22:17:57Z",
+        "publishedAt": "2023-11-30T12:14:09Z",
         "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
-        "title": "듣는 순간 사랑소설이 저절로 써지기 시작하는데 ,,",
-        "description": "",
+        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 나홀로 유럽거리에 빈티지 크리스마스 재즈 캐롤 𝐕𝐢𝐧𝐭𝐚𝐠𝐞 𝐂𝐡𝐫𝐢𝐬𝐭𝐦𝐚𝐬 𝐂𝐚𝐫𝐨𝐥 🎅🏻",
+        "description": "크리스마스 #캐롤 #빈티지캐롤 #크리스마스재즈 #christmas.",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/3sypqEemyGk/default.jpg",
+            "url": "https://i.ytimg.com/vi/bLgU-ZFPlfk/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/3sypqEemyGk/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/bLgU-ZFPlfk/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/3sypqEemyGk/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/bLgU-ZFPlfk/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
         "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
         "liveBroadcastContent": "none",
-        "publishTime": "2019-09-05T22:17:57Z"
+        "publishTime": "2023-11-30T12:14:09Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "oKBGDbbItEg9NiRGhkEBVbctGxg",
+      "etag": "pmBttRKLLwObpaJYi_6Bb5KzeMk",
       "id": {
         "kind": "youtube#video",
-        "videoId": "x6i3_LfeTjY"
+        "videoId": "P2UEZEj5HSs"
       },
       "snippet": {
-        "publishedAt": "2023-06-09T13:02:51Z",
+        "publishedAt": "2021-07-21T14:51:03Z",
         "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
-        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 질리도록 듣는 히트곡엔 그 이유가 있다𝐅𝐞𝐚𝐭. 𝐋𝐚𝐮𝐯, 𝐋𝐚𝐧𝐲, 𝐇𝐨𝐧𝐧𝐞, 𝐤𝐞𝐬𝐡𝐢, 𝐏𝐞𝐝𝐞𝐫 𝐄𝐥𝐢𝐚𝐬, 𝐓𝐫𝐨𝐲𝐞 𝐒𝐢𝐯𝐚𝐧, 𝐂𝐡𝐚𝐫𝐥𝐢𝐞 𝐏𝐮𝐭𝐡",
-        "description": "",
+        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 소름끼치는 싸이코패스 일화 모음",
+        "description": "해당 영상은 \"워너뮤직\" 으로부터 제작비를 지원받아 제작된 영상입니다. #난노 #그녀의이름은난노 #싸이코패스 #플레이리스트 ...",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/x6i3_LfeTjY/default.jpg",
+            "url": "https://i.ytimg.com/vi/P2UEZEj5HSs/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/x6i3_LfeTjY/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/P2UEZEj5HSs/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/x6i3_LfeTjY/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/P2UEZEj5HSs/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
         "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-06-09T13:02:51Z"
+        "publishTime": "2021-07-21T14:51:03Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "wtQUkOOiYZNbwBc3PEtG1MmrJPQ",
+      "etag": "JrZ_xpEN5-pIcmfinncYK2rW1t8",
       "id": {
         "kind": "youtube#video",
         "videoId": "urx8-yfpY7c"
@@ -482,40 +414,6 @@
         "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
         "liveBroadcastContent": "none",
         "publishTime": "2023-11-09T12:07:29Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "a3G-2Y5wO7-0Oee88Iqe9ZUs54s",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "qAg6fTVu8gI"
-      },
-      "snippet": {
-        "publishedAt": "2023-03-13T12:28:34Z",
-        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
-        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 내가 사랑한 것들은 언젠간 날 울게 만든다 | 카더가든, 잔나비, 검정치마, 혁오, 데이먼스이어",
-        "description": "playlist #플레이리스트 #인디음악 #새벽 #인디플리 #카더가든 #잔나비 #검정치마 #혁오 #새벽인디 #잔잔한.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/qAg6fTVu8gI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/qAg6fTVu8gI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/qAg6fTVu8gI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-03-13T12:28:34Z"
       }
     },
     {
@@ -554,7 +452,41 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "P39F2WwI7SQ6MqdYuDVQZ6Kk2Yw",
+      "etag": "C15nJk52mh1CSJTP7gTGUrEtfEw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qAg6fTVu8gI"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-13T12:28:34Z",
+        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
+        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 내가 사랑한 것들은 언젠간 날 울게 만든다 | 카더가든, 잔나비, 검정치마, 혁오, 데이먼스이어",
+        "description": "playlist #플레이리스트 #인디음악 #새벽 #인디플리 #카더가든 #잔나비 #검정치마 #혁오 #새벽인디 #잔잔한.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qAg6fTVu8gI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qAg6fTVu8gI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qAg6fTVu8gI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-13T12:28:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PTtgtrhrOMbPEDRURIzmvx1T1xw",
       "id": {
         "kind": "youtube#video",
         "videoId": "Y3HehiGvRw0"
@@ -622,7 +554,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "mDFEd_kFhOKcbLqMR_Dz5Nu45UE",
+      "etag": "wvIIbNXFPxt6STCSzL4Yiv0tuys",
       "id": {
         "kind": "youtube#video",
         "videoId": "zekjaeAOCAQ"
@@ -656,75 +588,41 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "sD_TKT27GB-rcXRqIloPBYvaQHE",
+      "etag": "96OmgmJk_KaQ0BxWc0egWXmwTdU",
       "id": {
         "kind": "youtube#video",
-        "videoId": "4nDJFC9hHI0"
+        "videoId": "n-RG8-oGBVw"
       },
       "snippet": {
-        "publishedAt": "2020-06-13T11:47:00Z",
+        "publishedAt": "2023-12-01T12:06:58Z",
         "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
-        "title": "˚✧₊⁎ 띵곡 대잔치ㅠㅠㅠ 코리아 하이틴  Korea high Teen ˚✧₊⁎",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/4nDJFC9hHI0/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/4nDJFC9hHI0/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/4nDJFC9hHI0/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
-        "liveBroadcastContent": "none",
-        "publishTime": "2020-06-13T11:47:00Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "aKfPxApS0J60SjgaP_a51jrLP3M",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "MjyslpML32w"
-      },
-      "snippet": {
-        "publishedAt": "2023-11-04T12:13:18Z",
-        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
-        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 다가오는 크리스마스를 기다리며 l 캐롤 BEST 인기곡 총모음 𝑴𝒆𝒓𝒓𝒚 𝑪𝒉𝒓𝒊𝒔𝒕𝒎𝒂𝒔‧₊˚.⋆",
+        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 인기 크리스마스 캐롤부터 빈티지 재즈 캐롤까지 총모음🎅🏻Best christmas songs of all time",
         "description": "크리스마스 #playlist #플레이리스트 #christmas #carol #캐롤.",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/MjyslpML32w/default.jpg",
+            "url": "https://i.ytimg.com/vi/n-RG8-oGBVw/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/MjyslpML32w/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/n-RG8-oGBVw/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/MjyslpML32w/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/n-RG8-oGBVw/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
         "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-11-04T12:13:18Z"
+        "publishTime": "2023-12-01T12:06:58Z"
       }
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "e9my0JT4zHexdM2t1muv4UtDrUY",
+      "etag": "h0Ha98V3Tff0eeStRb9lWlG8PKo",
       "id": {
         "kind": "youtube#video",
         "videoId": "6aQ4lK1xCcI"
@@ -758,41 +656,7 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "5V9l0XGoyA8LfAKvXXhbaOD6Odw",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "sTICROmSunY"
-      },
-      "snippet": {
-        "publishedAt": "2021-03-06T16:15:14Z",
-        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
-        "title": "[𝐩𝐥𝐚𝐲𝐥𝐢𝐬𝐭] 퇴근길을 조직보스 주인공으로 만들어주는 치명적이고, 퇴폐적인 팝송",
-        "description": "꿀렁꿀렁 #섹시 #퇴폐 #치명.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/sTICROmSunY/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/sTICROmSunY/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/sTICROmSunY/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-03-06T16:15:14Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "nWya3oI8BdiIRKNoPaIcRnLdOfA",
+      "etag": "jGxsyrZFaP7ETxrdKn7_HjVhmKo",
       "id": {
         "kind": "youtube#video",
         "videoId": "71L-Do3Vz4k"
@@ -826,36 +690,172 @@
     },
     {
       "kind": "youtube#searchResult",
-      "etag": "pmBttRKLLwObpaJYi_6Bb5KzeMk",
+      "etag": "uXFLvtyNJRejhX80Z9p7VjN4Bz0",
       "id": {
         "kind": "youtube#video",
-        "videoId": "P2UEZEj5HSs"
+        "videoId": "64-MtZdsxtA"
       },
       "snippet": {
-        "publishedAt": "2021-07-21T14:51:03Z",
+        "publishedAt": "2020-10-13T13:10:58Z",
         "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
-        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 소름끼치는 싸이코패스 일화 모음",
-        "description": "해당 영상은 \"워너뮤직\" 으로부터 제작비를 지원받아 제작된 영상입니다. #난노 #그녀의이름은난노 #싸이코패스 #플레이리스트 ...",
+        "title": "우리가 다시 헤어지는 이유 &#39;연애의 온도&#39; 中",
+        "description": "",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/P2UEZEj5HSs/default.jpg",
+            "url": "https://i.ytimg.com/vi/64-MtZdsxtA/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/P2UEZEj5HSs/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/64-MtZdsxtA/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/P2UEZEj5HSs/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/64-MtZdsxtA/hqdefault.jpg",
             "width": 480,
             "height": 360
           }
         },
         "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
         "liveBroadcastContent": "none",
-        "publishTime": "2021-07-21T14:51:03Z"
+        "publishTime": "2020-10-13T13:10:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_ExUhTdkjn821hOcaZ1A3kqH-IA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "w0g4Bu8pT1w"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-06T10:19:18Z",
+        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
+        "title": "너의 말엔 아무 감정이 없는 걸 아는데도",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/w0g4Bu8pT1w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/w0g4Bu8pT1w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/w0g4Bu8pT1w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-06T10:19:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-JuHd-Xh6mazHLDe2f42IwySi7k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "q08MUpgyPNw"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-28T12:30:04Z",
+        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
+        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 독보적인 아티스트 브라운아이드소울, 나얼 그의 노래",
+        "description": "해당 영상은 지원을 받아 제작된 영상입니다. #나얼 #브라운아이드소울 #플레이리스트 #playlist #브아솔 #나얼플리 #브아솔플리.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/q08MUpgyPNw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/q08MUpgyPNw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/q08MUpgyPNw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-28T12:30:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hM9ay-oVvhYl64w5YA667swO9wM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IoIA4orpGvo"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-12T12:00:13Z",
+        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
+        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 샘스미스 내한 기념! 숨은 명곡부터 유명한 노래까지 𝐒𝐚𝐦 𝐒𝐦𝐢𝐭𝐡 𝐁𝐞𝐬𝐭 𝐩𝐨𝐩 𝐬𝐨𝐧𝐠𝐬",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IoIA4orpGvo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IoIA4orpGvo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IoIA4orpGvo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-12T12:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "W-kV5yJuirjAAqMDihQyyt3g-LM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "krYBU1IKOFA"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-16T12:30:49Z",
+        "channelId": "UCVut4hqvrjQC4qDE3oc5qig",
+        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 오래된 부모님의 연애시절 앨범을 꺼내보았다",
+        "description": "플레이리스트 #playlist #엽기적인그녀 #인디 #전지현 #옛날음악.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/krYBU1IKOFA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/krYBU1IKOFA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/krYBU1IKOFA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "때껄룩ᴛᴀᴋᴇ ᴀ ʟᴏᴏᴋ",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-16T12:30:49Z"
       }
     }
   ]

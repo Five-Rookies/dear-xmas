@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "vtA2T4x4vbJpnuVExueIMpg-THs",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 323,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uHqO34S3-VMnCwRKuOx3k_fIGHM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3sHgwCS2-4I"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-27T10:00:02Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "4개월차 아기의 비트 쪼개기🥁#shorts #혜진쓰",
+        "description": "쿵짝쿵짝.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3sHgwCS2-4I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3sHgwCS2-4I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3sHgwCS2-4I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-27T10:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Dm8Pplh37ZNXmro23mISwuh2xLM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NkMPg6KqmpU"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-29T09:00:14Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "출산 전 최고의 선택  #혜진쓰 #shorts",
+        "description": "혜진쓰 #shorts 바깥 세상 나오기 전에 당충전하기.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NkMPg6KqmpU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NkMPg6KqmpU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NkMPg6KqmpU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-29T09:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eBsGTkJ_H0N0AIAMVnJJ-JGoxF8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zt3w3gBBEY8"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-07T09:02:26Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "헤이지니st 만삭 사진 촬영 📸 #shorts #혜진쓰",
+        "description": "헤이지니st 만삭 사진 촬영 #shorts #혜진쓰 #헤이지니.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zt3w3gBBEY8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zt3w3gBBEY8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zt3w3gBBEY8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-07T09:02:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "06-xcUeE0J-GYhBnLTTtqd36iW8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2LBmCsCjjwY"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-27T05:00:01Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "미래의 우리 아이는 이렇게 생긴거야?😂😂 #5단얼굴조합 #Shorts",
+        "description": "충공깽 #Shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2LBmCsCjjwY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2LBmCsCjjwY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2LBmCsCjjwY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-27T05:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gRt6iLJSuBJwFA8jr0TxmTpbX40",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tezOQ07xr8U"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-16T05:00:21Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "걱정하지마 내가 있잖아🐰🌙 #shorts #육아",
+        "description": "걱정하지마 내가 있잖아    #shorts #육아 #혜진쓰.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tezOQ07xr8U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tezOQ07xr8U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tezOQ07xr8U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-16T05:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WNW808J8TJS27k8l1FlI0ES4ByI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yaUtuZZVvqs"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-08T10:00:58Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "살아움직이는 초점책🖤🤍 #shorts #혜진쓰",
+        "description": "살아움직이는 초점책 박채유 ㅋ.ㅋ     #shorts #혜진쓰.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yaUtuZZVvqs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yaUtuZZVvqs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yaUtuZZVvqs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-08T10:00:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "glYQ1UzSFtgFxa63YrMbYstEdVM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ux13PjcSI4o"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-27T10:30:04Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "물 반 돌돔 반 초보도 잡는 추자도 갯바위 낚시여행",
+        "description": "\"이 날, 충충이는 골프왕 꿈나무에서 낚시왕으로 거듭났다...  \" -BGM Holiday | Prodd. by lukrembo Onion | Prod. by Lukrembo.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ux13PjcSI4o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ux13PjcSI4o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ux13PjcSI4o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-27T10:30:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rhgpR0QkUhXhNlYzu8PVMmHCG1A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "y4W7nB2o6To"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-29T10:30:20Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "충충이와 첫 만남 연애썰 풉니다😎",
+        "description": "10월 27일에 진행했던 라이브 방송에서 혜충이들이 너~무 궁금해 하셨던 첫 만남 연애썰을 짧게 풀어봤어요ㅋㅋㅋㅋㅋㅋㅋ 새삼 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/y4W7nB2o6To/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/y4W7nB2o6To/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/y4W7nB2o6To/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-29T10:30:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Tz_3cFCNfn1QaU7rAYjBoOchepo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "h2G3uuhiN-g"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-21T05:00:12Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "혜진쓰 인생 최대 업적",
+        "description": "안녕하세요 PD입니다 명절이 기대된다고 하십니다 그럼 20000 #밸런스게임.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/h2G3uuhiN-g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/h2G3uuhiN-g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/h2G3uuhiN-g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-21T05:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "a00yUc1UWA3vyCrrQA1GbWlf5lQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GOsfEFHwcVs"
+      },
+      "snippet": {
+        "publishedAt": "2021-02-20T09:00:06Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "혜진쓰 Vlog | 충충이와 저세상 밸런스게임하기",
+        "description": "충충이와 밸런스게임을 해보았어요! 찐 부부 모먼트와 웃음이 끊이지 않는 게임의 향연ㅋㅋ 충충아 그래서 블랙핑크랑 1시간 데이트 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GOsfEFHwcVs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GOsfEFHwcVs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GOsfEFHwcVs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-02-20T09:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TIuaRxvnxRfkKyD5ocFG-_cvjOA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "h-avliVbJ00"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-08T05:00:31Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "여기서 이걸 고른다고????",
+        "description": "혜진쓰X강이부부 콜라보❤️ 혜충이들    \u200d♀️ 오늘은 육아고수 다애랑 함께 육아밸런스 게임을 해봤는데 고르기 너무나 어려운것.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/h-avliVbJ00/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/h-avliVbJ00/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/h-avliVbJ00/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-08T05:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iTx6-c4FGz1Eb06aHNtXd8Lxbys",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Hk1NKz-hT8Q"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-13T05:30:05Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "내가 나무위키를 보지 않는 이유는요...",
+        "description": "나는 외유내유의 족굼한 혜진쓰니까...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Hk1NKz-hT8Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Hk1NKz-hT8Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Hk1NKz-hT8Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-13T05:30:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "beQCN8O3ZLsFO08st7otVuT4PjY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ss_53tPV6cY"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-17T05:30:15Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "여보 이게 얼마짜리라고?",
+        "description": "혜충이들~ 오늘은 특별하게 충충이가 언박싱을 해봤어요 ㅋㅋㅋㅋㅋㅋ 이사기념으로 여러가지를 사봤어요! 재밌게봐주세요.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ss_53tPV6cY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ss_53tPV6cY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ss_53tPV6cY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-17T05:30:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "945X7c03A8fWmM0CjU6Pzm6AtM4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nO9QQ0b7HqQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-21T05:30:09Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "눈 떠보니 우리 집이 붕세권",
+        "description": "혜충이들~~ 요즘 날도 추운데 이럴 때 생각나는 건 역시 붕빵!? 충충이와 함께 혜충 하우스를 붕세권으로 만들어봤어요 ㅋㅋㅋ 끝까지 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nO9QQ0b7HqQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nO9QQ0b7HqQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nO9QQ0b7HqQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-21T05:30:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uE7geU7qT6ZQ8yYFA_AAxGRsfoQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1Arr5Ce0Z_g"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-18T10:30:00Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "지니 애엄마 되다✨",
+        "description": "안뇽 혜충이들! 오늘은... 지니 충충이 애엄마&아빠 됐어요!!! 옆 집 강이부부네 최강 귀요미 채연이를 하루동안 돌보는 영상을 찍어봤 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1Arr5Ce0Z_g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1Arr5Ce0Z_g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1Arr5Ce0Z_g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-18T10:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uXP0PA8rxEkvmWd1qUxO0cqLYAA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "y9LjTrT_izw"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-06T10:30:18Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "애👶와 애👶의 만남 (별별이⭐️)",
+        "description": "드디어!!!!!!!!!! 저도 혜충이들도 너무너무 궁금해하고 기대했던 별별이네와 째유의 첫 만남 성사 따단✌ 혜충이들은 별별맘을 저번 임신 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/y9LjTrT_izw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/y9LjTrT_izw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/y9LjTrT_izw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-06T10:30:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "djHBj95FXEoaERVVaqHl8_spcXU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-6s4N2dcFSk"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-31T10:30:00Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "여보 그거 죽은거야?",
+        "description": "안녕 혜충이들~ 오늘은 생새우를 사와서 다양하게 먹어봤어요! 먹고싶은 건 생새우였지만 머리구이가 더 맛있었답니다 혜충이들도 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-6s4N2dcFSk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-6s4N2dcFSk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-6s4N2dcFSk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-31T10:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "moquHufVCg18XxcP2DuRxJEeiiE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "l5fZsPOzb5M"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-15T05:00:15Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "커플 수건 챌린지 해봄ㅋㅋㅋㅋㅋㅋ Couple Towels Challenge #Shorts",
+        "description": "아니 우리 왜 이거 못하는데... 이거 되긴 하는건가욬ㅋㅋㅋㅋㅋㅋㅋㅋㅋ #Shorts #towelchallenge.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/l5fZsPOzb5M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/l5fZsPOzb5M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/l5fZsPOzb5M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-15T05:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sCHQRDEDbZ5RGIjVpEP_1ufxieA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZarHT1LZ7lI"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-14T08:00:21Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "갱년기가 온 우리 남편... #shorts #혜충부부",
+        "description": "시시각각 변하는 기분.., 음... 그것이 갱년기니까...! (끄덕)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZarHT1LZ7lI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZarHT1LZ7lI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZarHT1LZ7lI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-14T08:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GkLd0rWaUMxL8Iep_Pxse1yTgeY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "clPJeY0mY3g"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-17T09:00:13Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "&#39;강혜진&#39;과 &#39;헤이지니&#39;가 만난다면?",
+        "description": "'헤이지니'와 완벽한 파트너가 된 '강혜진', 마침내 한층 강력한 단계로 성장하게 되는데...! 과연 그들이 가진 속마음은?",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/clPJeY0mY3g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/clPJeY0mY3g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/clPJeY0mY3g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-17T09:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tm0qQKDUhwQoYsPbfDk0-UjYLfA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3dIE2L2lSLQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-08T05:30:02Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "밥 먹다가 직원들 앞에서 부부싸움",
+        "description": "안뇽 혜충이들~~ 오늘은 한글날을 앞두고 직원들이랑 한글로만 말하기 게임을 해봤어요! 결과는 영상에서 확인해봐요! :)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3dIE2L2lSLQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3dIE2L2lSLQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3dIE2L2lSLQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-08T05:30:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JeXxMKhJy4TfB52BIOeD6U2jMMY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1Yv6YCCCeRU"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-03T05:30:00Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "하기 싫은 건 아니구요.. 😗",
+        "description": "안녕 혜충이들~~~ 오늘은 돌카츠 싸인 이벤트 영상입니다 싸인 다하고 팔두께가 1인치나 두꺼워진건 안비밀 ^^",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1Yv6YCCCeRU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1Yv6YCCCeRU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1Yv6YCCCeRU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-03T05:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ri8BglqvgO0AC3mOovB_lkX0l48",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jj7Hv3X13zg"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-25T05:00:17Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "뭐야? 먹으러왔어? (feat. 토토침대)",
+        "description": "이케아 #육아용품 #라탄공예 안뇽 혜충이들✨ 토토맘 혜진쓰예요^ㅅ^ 요즘 토토의 방을 어떻게 꾸밀까 하고 가구나 인테리어 소품들 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jj7Hv3X13zg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jj7Hv3X13zg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jj7Hv3X13zg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-25T05:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WSZ5QOJg64GrSit8iJZ7_OAPY4w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ImlRi0aZ8nI"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-25T05:00:09Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "먹고 자고 놀기만 하는 인생 4개월 차의 일상👶",
+        "description": "안녕 혜충이들~! 잘 있었나요?  \u200d♀️  \u200d♀️ 최근 우리 채유띠가 말이 트였는지 옹알옹알~ 쉴 새 없이 말을 하기 시작하더라구요 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ImlRi0aZ8nI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ImlRi0aZ8nI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ImlRi0aZ8nI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-25T05:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9nRPWBdrpyr9fYORPm3un8lYSeY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PULc56DskuM"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-01T10:30:14Z",
+        "channelId": "UCu4X3ZAoq6nToNJNNoQuICA",
+        "title": "우리 채유 남자친구 생겼네~😏?",
+        "description": "안녕 혜충이들    \u200d♀️ 꽃빈언니랑 오랜만에 전화하면서 서로 육아 일상에 대해서 공유하고 하다가 같이 공동 육아해보면 어떻겠냐 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PULc56DskuM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PULc56DskuM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PULc56DskuM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "혜진쓰 Hyejin's",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-01T10:30:14Z"
+      }
+    }
+  ]
+}

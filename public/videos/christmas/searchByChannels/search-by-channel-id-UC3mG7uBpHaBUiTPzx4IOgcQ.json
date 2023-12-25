@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "ioMmolLr0y7vrWRFBkazKoyt9j0",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 294,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "w-C38U7LrMy-sXITv--BSp0n_X0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "b09yZp2iPKQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-20T05:59:47Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "사막에 샘이 넘쳐 - 예수그리스도(COVER)",
+        "description": "율동: 김주호 최미나 이재호 음원 출처: 어린이 합창단 율동 출처: 예수그리스도(https://youtu.be/RTyu-4e4vjk) ⭐️영상을 만들게 된 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/b09yZp2iPKQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/b09yZp2iPKQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/b09yZp2iPKQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-20T05:59:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mSm3qIfovmRRXsf1hU7tRx33hu4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PlQS23upoxA"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-07T05:00:12Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "둘이 살짝 손잡고 - 이천신하교회(COVER)",
+        "description": "율동: 김가은 이재현 음원 출처: 창의력 발달 어린이 인기 동요 베스트 180 (유치원, 키즈카페, 어린이집, 유아, 초등학교, 신나는 율동, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PlQS23upoxA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PlQS23upoxA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PlQS23upoxA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-07T05:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "k5cyhtHnecVHmzZw4R-h5KwywcI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2uPE4FWnCKI"
+      },
+      "snippet": {
+        "publishedAt": "2019-11-25T05:31:18Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "딩동 딩동 - 예꼬클럽(Yekko Club) (COVER) [성탄절]",
+        "description": "율동 : 김은호 조유진 김주은 음원 출처 : 예꼬클럽(Yekko Club) - 딩동 딩동 율동 출처 : 예꼬클럽(Yekko Club) ⭐️영상을 만들게 된 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2uPE4FWnCKI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2uPE4FWnCKI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2uPE4FWnCKI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-11-25T05:31:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tUCVD1C1DsO4yMX1RYYDuxfOwLo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H0IeBvLiQMo"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-16T09:52:21Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "바람 불어도 괜찮아요",
+        "description": "율동 : 김주호 최미나 이재호 음원 출처 : 파이디온 선교회 - 바람 불어도 괜찮아요 ⭐️영상을 만들게 된 목적⭐️ 이 땅의 모든 이들 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H0IeBvLiQMo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H0IeBvLiQMo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H0IeBvLiQMo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-16T09:52:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iVySBX1oTPryOK5K1Cs6_9j8SF4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KeRVMMaFHzQ"
+      },
+      "snippet": {
+        "publishedAt": "2019-03-19T06:45:34Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "기도의 히어로",
+        "description": "율동 : 김소율 김겸훈 정홍휘 이하은 음원 출처 : 기독교대한감리회(KMC) - 기도의 히어로 ⭐️영상을 만들게 된 목적⭐️ 이땅의 모든 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KeRVMMaFHzQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KeRVMMaFHzQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KeRVMMaFHzQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-03-19T06:45:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FLUebUgtOGgcAcWZStHEbixaouA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TwgRmtOIA00"
+      },
+      "snippet": {
+        "publishedAt": "2019-01-24T10:53:43Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "웃음 있는 나라",
+        "description": "웃음 있는 나라 율동 : 김혜연 김은호 조유진 ⭐️영상을 만들게 된 목적⭐️ 이땅의 모든 이들에게 찬양을 통해 영혼이 치유되고 예배 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TwgRmtOIA00/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TwgRmtOIA00/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TwgRmtOIA00/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-01-24T10:53:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EzPZtQNuBAdGdzMzFnxxe2ap1NU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DswWMo9WJhw"
+      },
+      "snippet": {
+        "publishedAt": "2019-09-06T07:37:08Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "예수님이 내 맘에",
+        "description": "율동 : 김가은 김은호 김주은 이재현 음원 출처 : 영유유치부 전국연합회 - 예수님이 내 맘에 ⭐️영상을 만들게 된 목적⭐️ 이땅의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DswWMo9WJhw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DswWMo9WJhw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DswWMo9WJhw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-09-06T07:37:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "J3E_9QFDOTEP3z7YDCJbzEilW-k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1sVzH4tEhB8"
+      },
+      "snippet": {
+        "publishedAt": "2019-12-12T08:46:59Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "해피해피 하하 [성탄절] - 부산 말씀의빛교회(COVER)",
+        "description": "율동 : 이재현 노예원 김가은 음원 출처 : 해피해피 하하(https://youtu.be/_i8DAlJXFmg) 율동 출처 : 부산 말씀의빛 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1sVzH4tEhB8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1sVzH4tEhB8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1sVzH4tEhB8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-12-12T08:46:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1V1tnW1v0nI4KASVxf3wkSRTVJY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6xgoEzFbuYE"
+      },
+      "snippet": {
+        "publishedAt": "2019-01-30T08:44:31Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "눈 눈 눈 성경보고요 - 노아키즈 (COVER)",
+        "description": "율동 : 김가은 김은호 김주은 음원 출처 : 노아키즈 - 눈 눈 눈 성경보고요 ⭐️영상을 만들게 된 목적⭐️ 이 땅의 모든 이들에게 찬양을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6xgoEzFbuYE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6xgoEzFbuYE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6xgoEzFbuYE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-01-30T08:44:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NFiqb4tlVYYSk9iSvkfWeGoUdUM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "z7IbUAEm4ZM"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-27T11:10:33Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "너 근심 걱정와도 - 좋은만남(COVER)",
+        "description": "율동 : 김겸훈 이하은 음원 출처 : 향기로운 나무 - 너 근심 걱정와도 율동 출처 : 좋은만남(https://youtu.be/YLKx3wtUVnY) ⭐️영상을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/z7IbUAEm4ZM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/z7IbUAEm4ZM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/z7IbUAEm4ZM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-08-27T11:10:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IOca-LYdxvLt2cjt2go24bW7CXI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xKmAk2OW8dg"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-07T04:28:32Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "예수께로 가면 - 예수그리스도(COVER)",
+        "description": "율동: 김주호 이재호 음원 출처: 유아해피송 율동 출처: 예수그리스도(https://youtu.be/OHIsaXY9mos) ⭐️영상을 만들게 된 목적⭐️ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xKmAk2OW8dg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xKmAk2OW8dg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xKmAk2OW8dg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-07T04:28:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "upaMRKzVrD-C_5Pq-85YIJelEnw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aS4YVqg37V8"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-09T04:00:01Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "찬양의 이유",
+        "description": "율동: 김가은 김주은 이재현 음원 출처: 금란키즈 율동 출처: 금란키즈 ⭐️영상을 만들게 된 목적⭐️ 이 땅의 모든 이들에게 찬양을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aS4YVqg37V8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aS4YVqg37V8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aS4YVqg37V8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-09T04:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "x7OOhsurR-vjESVRRqyF7yOiT1Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VeFmOUd_Fig"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-20T08:38:18Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "찬송을 부르세요",
+        "description": "찬송을 부르세요 율동 : 김가은 김은호 김주은 이재현 ⭐️영상을 만들게 된 목적⭐️ 이땅의 모든 이들에게 찬양을 통해 영혼이 치유 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VeFmOUd_Fig/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VeFmOUd_Fig/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VeFmOUd_Fig/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-02-20T08:38:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uIXn6VbJ8RU5AETBtiQ_R7TjlAg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2WeM9BerqIY"
+      },
+      "snippet": {
+        "publishedAt": "2020-09-16T05:00:01Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "나는요",
+        "description": "율동 : 이재현 김은호 김주은 김은진 김가은 음원 출처 : 영유아유치부 전국연합회 - 나는요 ⭐️영상을 만들게 된 목적⭐️ 이 땅의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2WeM9BerqIY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2WeM9BerqIY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2WeM9BerqIY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-09-16T05:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XPwt_JihpoMTrvXvh_erMTMo5Hg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GfCo4o_223U"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-05T13:03:05Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "성탄절 차차 - 찬양나라 요정쌤(COVER) [성탄절]",
+        "description": "율동 : 김은호 조유진 율동 출처 : 찬양나라 요정쌤(https://youtu.be/8ggbSnKiJo8) 찬양 : 찬양나라 요정 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GfCo4o_223U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GfCo4o_223U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GfCo4o_223U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-05T13:03:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Wh7iCWBAAata_VDpyVB1zvAXzOw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "A_SFLED96yE"
+      },
+      "snippet": {
+        "publishedAt": "2021-02-20T05:00:02Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "사랑은 참으로 버리는 것 - 예수그리스도(COVER)",
+        "description": "율동: 이하은 노주원 음원 출처: 양양이와 함께하는 Trinity Kids 2 율동 출처: 예수그리스도(https://youtu.be/o2e6cVpxNLg) ⭐️영상을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/A_SFLED96yE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/A_SFLED96yE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/A_SFLED96yE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-02-20T05:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZfSGr-nJj-LAHBCuss7EyXCHinI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QBLojIaR9bo"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-23T04:00:17Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "누가누가 - KMC 기독교대한감리회교육국(COVER)",
+        "description": "율동: 김은진 조유진 김은호 음원 출처: KMC 2019 여름성경학교 율동 출처: KMC 기독교대한감리회교육국 ⭐️영상을 만들게 된 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QBLojIaR9bo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QBLojIaR9bo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QBLojIaR9bo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-23T04:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "i1QsItNgp4kBTFxn0Ui-5zcHDAY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3g4_poNCIXk"
+      },
+      "snippet": {
+        "publishedAt": "2019-01-29T13:34:03Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "아름다운 마음들이",
+        "description": "아름다운 마음들이 율동 : 김소율 노주원 이예은 ⭐️영상을 만들게 된 목적⭐️ 이땅의 모든 이들에게 찬양을 통해 영혼이 치유되고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3g4_poNCIXk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3g4_poNCIXk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3g4_poNCIXk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-01-29T13:34:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0zYVyYx7Qnj6eaFUR2KcPWpxf0Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IIeL6a52c5k"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-02T08:25:37Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "싹트네",
+        "description": "싹트네 율동 : 김가은 김은호 김주은 이재현 ⭐️영상을 만들게 된 목적⭐️ 이땅의 모든 이들에게 찬양을 통해 영혼이 치유되고 예배 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IIeL6a52c5k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IIeL6a52c5k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IIeL6a52c5k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-02-02T08:25:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "03bvIeXvV7_ADS3uKN1MEJ3E7Pw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cjDUFdfJwA4"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-01T07:45:21Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "사랑 이야기 - KMC 기독교대한감리회교육국(COVER)",
+        "description": "율동: 김은호 조유진 김은진 음원 출처: KMC 2015 여름성경학교 율동 출처: KMC 기독교대한감리회교육국 ⭐️영상을 만들게 된 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cjDUFdfJwA4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cjDUFdfJwA4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cjDUFdfJwA4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-01T07:45:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GGeiThor0vYuCtYIz8j62RxhwUU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ARymFDzU2P8"
+      },
+      "snippet": {
+        "publishedAt": "2020-03-24T05:20:22Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "너와 나의 모습이 - GIL Kids Worship(COVER)",
+        "description": "율동 : 노예원 노주원 음원 출처 : 기독교캠프코리아 - 너와 나의 모습이 율동 출처 : GIL Kids Worship(https://youtu.be/YCcTHgGC6n8) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ARymFDzU2P8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ARymFDzU2P8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ARymFDzU2P8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-03-24T05:20:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Qa_JBNGy2tjVbtlwmw9gKs4Aw3k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_-b52tusf6Y"
+      },
+      "snippet": {
+        "publishedAt": "2019-01-22T12:07:30Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "왕왕왕 나는 왕자다",
+        "description": "왕왕왕 나는 왕자다 율동 : 김가은 김은호 김주은 이재현 ⭐️영상을 만들게 된 목적⭐️ 이땅의 모든 이들에게 찬양을 통해 영혼이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_-b52tusf6Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_-b52tusf6Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_-b52tusf6Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-01-22T12:07:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1nw7lHKXJKgU5_p4T-_nqjh7qPs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TCH36o7TPzM"
+      },
+      "snippet": {
+        "publishedAt": "2018-09-15T05:02:16Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "내 안에 부어주소서",
+        "description": "내 안에 부어주소서 율동 : 이은서 김혜연 노예원 이하은 -작사 김흥영 작곡 김노아 ⭐️영상을 만들게 된 목적⭐️ 이땅의 모든 이들 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TCH36o7TPzM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TCH36o7TPzM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TCH36o7TPzM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-09-15T05:02:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uf9HsBg5BGZ3_R3mNylnxoDMcII",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3OqoTTtc5Z4"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-07T09:25:43Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "More More More",
+        "description": "More More More 율동 : 이하은 김소율 김겸훈 이예은 노주원 ⭐️영상을 만들게 된 목적⭐️ 이땅의 모든 이들에게 찬양을 통해 영혼 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3OqoTTtc5Z4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3OqoTTtc5Z4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3OqoTTtc5Z4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-02-07T09:25:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "O9YSYasZFVtnRMVI15KJfkQ0-nM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "z6fkG226zdU"
+      },
+      "snippet": {
+        "publishedAt": "2019-03-16T02:00:00Z",
+        "channelId": "UC3mG7uBpHaBUiTPzx4IOgcQ",
+        "title": "온땅이여",
+        "description": "온땅이여 율동 : 김주호 김소율 이예은 이효원 음원 출처 : 키즈벤처 - 온땅이여 ⭐️영상을 만들게 된 목적⭐️ 이땅의 모든 이들에게 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/z6fkG226zdU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/z6fkG226zdU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/z6fkG226zdU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "리조이스 Rejoice",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-03-16T02:00:00Z"
+      }
+    }
+  ]
+}

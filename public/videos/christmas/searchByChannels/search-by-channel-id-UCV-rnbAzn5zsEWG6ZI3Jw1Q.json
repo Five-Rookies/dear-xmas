@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "7PCtU1epwtTRzaxF6COC8Kz2zkM",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 144,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0nCFk_8V94cfwaLnHQxxfqW3hS0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "F-kxIyKWLno"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-06T23:00:16Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 북극곰아 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. made by 단지쌤 [도담도담 학급운영] 블로그 http://blog.naver.com/jhj8312 인스타 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F-kxIyKWLno/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F-kxIyKWLno/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F-kxIyKWLno/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-06T23:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Nygh1REkTKHkrxlX_dlqLpGHnmM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mzYeZauhOXA"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-07T09:02:56Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] &quot;넌 할 수 있어&quot;라고 말해주세요 (가사O)",
+        "description": "모든 음원 수익은 원저작자에게 돌아갑니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mzYeZauhOXA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mzYeZauhOXA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mzYeZauhOXA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-07T09:02:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ccR2bR-HjOpvYN4D09lup0giaB0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Z8JPndQQlpk"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-06T23:00:24Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 참 좋은 말 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. made by 스제트쌤 [도담도담 학급운영] 블로그 http://blog.naver.com/jhj8312 인스타 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Z8JPndQQlpk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Z8JPndQQlpk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Z8JPndQQlpk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-06T23:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "m_NnDgM02Gthum7PI6Ul0WetPBI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "n62i17RbUHs"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-04T23:00:30Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 하얀 나라 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. made by 카니쌤 [도담도담 학급운영] 블로그 http://blog.naver.com/jhj8312 인스타 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/n62i17RbUHs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/n62i17RbUHs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/n62i17RbUHs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-04T23:00:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Sp0GXcjTOsfBQFJsyqsvH8E6YA4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TW5PL7BiXFg"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-09T12:51:04Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 숲 속을 걸어요 최종 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. [도담도담 학급운영] 블로그 http://blog.naver.com/jhj8312 인스타 @dodam_school.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TW5PL7BiXFg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TW5PL7BiXFg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TW5PL7BiXFg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-09T12:51:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sIvtVe6rHJw1-KaehMFs5UEo1IA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H_A6ywlTOck"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-11T05:05:14Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 가을길 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. made by 잰쌤 [도담도담 학급운영] 블로그 http://blog.naver.com/jhj8312 인스타 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H_A6ywlTOck/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H_A6ywlTOck/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H_A6ywlTOck/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-11T05:05:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Mut8IaTXetPMQ15XKtscMzM9r0g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WT6OncdeMXk"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-10T13:55:45Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 말의 온도 (가사O)",
+        "description": "모든 수익은 원저작자에게 돌아갑니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WT6OncdeMXk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WT6OncdeMXk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WT6OncdeMXk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-10T13:55:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BxGRvUJAM5r5nyVI-5mmazsne6s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BNWILPsY6sU"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-12T06:00:03Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 멋쟁이 토마토 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. made by 껍데기쌤 [도담도담 학급운영] 블로그 http://blog.naver.com/jhj8312 인스타 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BNWILPsY6sU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BNWILPsY6sU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BNWILPsY6sU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-12T06:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fIczXVx8NW82NW6iIDmxM0paoEw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "muQ48IP7yiY"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-26T00:00:17Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 종이접기 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. made by 빵샘 @ppang_sem [도담도담 학급운영] 블로그 http://blog.naver.com/jhj8312 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/muQ48IP7yiY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/muQ48IP7yiY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/muQ48IP7yiY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-26T00:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BzbyyXwGfgfG744wuIx5n2PeIpU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "n5-OylLUOMY"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-17T23:00:35Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 앞으로 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. made by 지원쌤 [도담도담 학급운영] 블로그 http://blog.naver.com/jhj8312 인스타 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/n5-OylLUOMY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/n5-OylLUOMY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/n5-OylLUOMY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-17T23:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mQZwWosrcIwtU8ptIFHt5SDVI4U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-FhhsWwemmE"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-04T01:13:41Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 네 잎 클로버 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. made by 멍멍샘 @mongmongssam [도담도담 학급운영] 블로그 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-FhhsWwemmE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-FhhsWwemmE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-FhhsWwemmE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-04T01:13:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8UQFGnS-l1wq9e9_c9gyYynGSxo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "F8fNLqGC7gM"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-07T03:00:05Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 착한 사람들이 지구를 지켜요 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. made by 레이니쌤 인스타 @rainy_ssam [도담도담 학급운영] 블로그 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F8fNLqGC7gM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F8fNLqGC7gM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F8fNLqGC7gM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-07T03:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "e-BpbjAzUvoZY7fgXUGyVVzzfaI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gP_ckeSV028"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-19T06:00:12Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 모두 다 꽃이야 (가사O)",
+        "description": "모든 음원 수익은 원저작자에게 돌아갑니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gP_ckeSV028/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gP_ckeSV028/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gP_ckeSV028/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-19T06:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LuszPs3RWu6rk1Doyuc5UF1PGsU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XqPgGWuDGWY"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-10T05:00:14Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 도레미송 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. [도담도담 학급운영] 블로그 http://blog.naver.com/jhj8312 인스타 @dodam_school.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XqPgGWuDGWY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XqPgGWuDGWY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XqPgGWuDGWY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-10T05:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lz2GKl7xiaLx8OvTbryKhYyc0nM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iRDXzeMH_wU"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-02T02:00:08Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "MBC 창작동요제 대상곡 모음",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. by 김지현쌤 [도담도담 학급운영] 블로그 http://blog.naver.com/jhj8312 인스타 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iRDXzeMH_wU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iRDXzeMH_wU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iRDXzeMH_wU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-02T02:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-A6rDipacR--_jpHkwId5mW7BtI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uXxFu1LM2UM"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-12T06:59:25Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 꿈꾸지 않으면 (가사O)",
+        "description": "모든 저작권 수익은 원저작자에게 돌아갑니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uXxFu1LM2UM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uXxFu1LM2UM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uXxFu1LM2UM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-12T06:59:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LbFEHg9HCz_Qch9lpKk8e-uBWnA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WHsD6yu-QUI"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-05T15:45:43Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "초등학생들에게 추천하는 동요 모음",
+        "description": "1. (00:00) 네 잎 클로버 2. (2:08) \"넌 할 수 있어\"라고 말해주세요. 3. (4:14) 다섯 글자 예쁜 말 4. (7:23) 네모의 꿈 5. (10:43) 함께 걸어 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WHsD6yu-QUI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WHsD6yu-QUI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WHsD6yu-QUI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-07-05T15:45:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9sduizfLBDiXWR6Q-g1xh6M7ouM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yCRe1QiVv20"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-30T12:19:45Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 나무의 노래 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. [도담도담 학급운영] 블로그 http://blog.naver.com/jhj8312 인스타 @dodam_school.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yCRe1QiVv20/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yCRe1QiVv20/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yCRe1QiVv20/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-30T12:19:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XOXxdB_XJ9e54AdFgt1tz0Z0q5I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "V_hr2YNDEjg"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-18T00:16:57Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 아무 이유 없이 좋은 친구 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. made by 껍데기쌤 인스타 @joweondae [도담도담 학급운영] 블로그 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/V_hr2YNDEjg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/V_hr2YNDEjg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/V_hr2YNDEjg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-18T00:16:57Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_HhQp5_6CoUYNGGa9G9dBBEE1Zc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VLroRu3yBG0"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-08T23:00:29Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 예쁜아기곰 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. made by 빵쌤 [도담도담 학급운영] 블로그 http://blog.naver.com/jhj8312 인스타 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VLroRu3yBG0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VLroRu3yBG0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VLroRu3yBG0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-08T23:00:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KBdCfeRBgJP-gCXgnVJOlHEX0ec",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1-R04dqOuDI"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-29T01:00:01Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 봄님 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. made by 뽀쌤 인스타 @bomin1109 [도담도담 학급운영] 블로그 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1-R04dqOuDI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1-R04dqOuDI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1-R04dqOuDI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-29T01:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8tRmr-t6LX2HwGqi7t0LELk-gSU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "44frx8ZUgw4"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-03T06:00:01Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 싱그러운 여름 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. [도담도담 학급운영] 블로그 http://blog.naver.com/jhj8312 인스타 @dodam_school.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/44frx8ZUgw4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/44frx8ZUgw4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/44frx8ZUgw4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-03T06:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5fW0YFSUzaaChS6XYIkuPtycCu4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_Ajkb_JMxqA"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-21T01:00:05Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 파란마음 하얀마음 (가사O)",
+        "description": "모든 음원 수익은 원저작자에게 돌아갑니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_Ajkb_JMxqA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_Ajkb_JMxqA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_Ajkb_JMxqA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-21T01:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PIpbbK97cJLpSP_7czb6J6dB5eE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "n5M1UaIlOz0"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-27T01:46:54Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "[동요] 나비야 (가사O)",
+        "description": "모든 음원수익은 원 저작자에게 돌아갑니다. made by 김광희 선생님 인스타 @kim_kwang.hee [도담도담 학급운영] 블로그 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/n5M1UaIlOz0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/n5M1UaIlOz0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/n5M1UaIlOz0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-27T01:46:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_UUi1JO4Ita8jZtnJnJt4KYjt_Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "j70iHfYed6M"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-31T11:51:51Z",
+        "channelId": "UCV-rnbAzn5zsEWG6ZI3Jw1Q",
+        "title": "(도담도담)초등학생에게 추천하는 동요 모음 2탄",
+        "description": "도담도담이 추천하는 초등학생이 들으면 좋은 동요 모음 2탄!!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j70iHfYed6M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j70iHfYed6M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j70iHfYed6M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "도담도담 포켓스쿨",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-31T11:51:51Z"
+      }
+    }
+  ]
+}

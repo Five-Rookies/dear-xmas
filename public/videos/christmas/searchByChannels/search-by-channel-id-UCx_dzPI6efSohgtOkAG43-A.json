@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "xiRAsGH8ChwUBfaS-JWPRi8mcaQ",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 22736,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cZVfey5Bz3JteCnyaSKFq2t8BO0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JsWZ3S_q73E"
+      },
+      "snippet": {
+        "publishedAt": "2021-06-02T07:45:47Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "한글용사 ㅏ.ㅣ.ㅑ. 의 개념원리 송",
+        "description": "자음과 만나 한글을 만드는 모음용사 ㅏ.ㅣ.ㅑ. 를 만나보아요   매주 EBS 1TV 수,목 오전 8:45분 방송 ☆ㅏ.ㅣ.ㅑ. 개념원리송 가사☆ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JsWZ3S_q73E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JsWZ3S_q73E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JsWZ3S_q73E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-06-02T07:45:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1SHWTCteep3QOlRrPYC5ha4KvyE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OvTBPnEuth8"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-07T08:30:07Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "두 번째 말놀이 🎵ㅣ친구야 뭐 먹니?👫🍽️ㅣ오늘 뭐 먹을까?ㅣ말놀이 동요ㅣ한글 공부ㅣ어휘 공부ㅣ한글 떼기ㅣEBS 키즈 #shorts",
+        "description": "우리 말놀이 해보자~   EBS와 함께하는 재미있는 말놀이 글놀이   친구야 뭐 먹니?  🍽️ 토끼  는 당근   고양이  는 물고기   ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OvTBPnEuth8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OvTBPnEuth8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OvTBPnEuth8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-07T08:30:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "a1EX_vWYYXEmZgoMJGmEWV0N0aY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4IQ8er3zmOU"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-01T00:30:02Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "나와라 똥아💦 똥 누고 싶을 때 부르는 노래💩🎶 #shorts",
+        "description": "똥 누고 싶은데 안돼? 나와라 똥아     모여라 딩동댕 - 똥의 요정 뚕 (2023.03.26 방송) ❣️EBS키즈의 영상을 빠르게 보아요!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4IQ8er3zmOU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4IQ8er3zmOU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4IQ8er3zmOU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-01T00:30:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8G9fT0ITeT7h3tlYRU-6ns8969w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kAlcaAx6KNE"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-23T07:30:09Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "[뿡뿡빵빵 부부맨💨] 도와줘요 부부맨!📣📣📣",
+        "description": "뿌우우우우우우웅!       도움이 필요할 땐 부부맨을 불러줘!       부부맨이 나타나서 도와줄거야!       부부맨 공식 인스타그램: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kAlcaAx6KNE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kAlcaAx6KNE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kAlcaAx6KNE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-23T07:30:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nOXre9-Cn9e6X037Z9iJGIhAoTk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lPzvhZmrb5s"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-28T08:00:27Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "최고다! 호기심딱지 시즌4 - 너무 맵게 먹으면 안 돼요!",
+        "description": "호기심딱지야 궁금한 걸 알려줘! 건강 운동 방송을 시작한 개미허리. 열심히 운동을 하며 방송을 하며 음식을 조금씩만 먹는데... 음식이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lPzvhZmrb5s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lPzvhZmrb5s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lPzvhZmrb5s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-28T08:00:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "frblltfo6rk2X8D1iDkWMBUJ8og",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LM04e39eIvs"
+      },
+      "snippet": {
+        "publishedAt": "2014-02-19T11:05:16Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "꾸러기 천사들 - 제1화 공주는 외로워",
+        "description": "제1화 공주는 외로워 2011.04.04 꾸러기 천사들 ▷For more videos visit us at http://home.ebs.co.kr/doki/main 새로운 친구와의 만남, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LM04e39eIvs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LM04e39eIvs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LM04e39eIvs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2014-02-19T11:05:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qp4ZCLxg_9kW6_o6wOaE0tVeVp4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qp_MhPNcgtc"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-01T08:00:09Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "Why-최고다! 호기심딱지 시즌4 - 하늘이 주는 선물, 눈",
+        "description": "호기심딱지야 궁금한 걸 알려줘! 어느 추운 겨울날, 데이트를 하기로 한 엄마와 아빠! 서로에게 줄 커플 장갑과 커플 목도리를 사 들고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qp_MhPNcgtc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qp_MhPNcgtc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qp_MhPNcgtc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-01T08:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WKktd7xIntJxR3vwIORGoM_m1YU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yoOLXKcnmm4"
+      },
+      "snippet": {
+        "publishedAt": "2015-06-01T07:12:14Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "꾸러기 천사들 - 제7화 채린아 놀자!",
+        "description": "EBS 꾸러기 천사들, Naughty Angels, 20110516, 제7화 채린아 놀자! 제7화 채린아 놀자! 다니는 학원이 많아 친구들과 놀지 못하는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yoOLXKcnmm4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yoOLXKcnmm4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yoOLXKcnmm4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-06-01T07:12:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8FmoJYGDa0gr-oRnuZdQvOzF1ZU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wEX3yojXc60"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-24T09:45:40Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "최고다! 호기심딱지 시즌 4 -  태풍은 왜 생겨요?",
+        "description": "호기심 딱지야 궁금한 걸 알려줘! 우연히 보물 지도를 얻은 해적들. 보물을 찾기 위해 바다로 나갔는데... 하필이면 태풍을 만났다!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wEX3yojXc60/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wEX3yojXc60/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wEX3yojXc60/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-24T09:45:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7PGKHKXetQAS1TPO4Eu8m-LFq60",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4blmOcuC4pM"
+      },
+      "snippet": {
+        "publishedAt": "2019-12-18T13:13:36Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "Why - 최고다! 호기심딱지 시즌4 - 꽁꽁 동상에 걸렸어요_#001",
+        "description": "공식 홈페이지 : http://home.ebs.co.kr/whycard/main 꽁꽁 동상에 걸렸어요, ▷For more videos visit us at ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4blmOcuC4pM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4blmOcuC4pM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4blmOcuC4pM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-12-18T13:13:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "89fmzlpvX-0TKZe46_beJw7qr3c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "F1TWNHhncWI"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-02T00:00:13Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "최고다! 호기심딱지 시즌 4 - 자고 나면 더 많이 생기는 눈곱!",
+        "description": "호기심딱지야 궁금한 걸 알려줘! 쿨쿨 잠만 자는 내 맘대로 공주. 세수도 안하고 잠만 자는 바람에 눈이 안 떠질 정도로 눈곱이 많이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F1TWNHhncWI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F1TWNHhncWI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F1TWNHhncWI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-02T00:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sCLk2eVNd58PC3IJ_UptqJt2OG8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AtuenBkxIMI"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-07T08:00:05Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "최고다! 호기심딱지 시즌4 - 눈이 올 때 길에 왜 소금을 뿌려요?",
+        "description": "호기심딱지야 궁금한 걸 알려줘! 몹시 추운 겨울, 꽁꽁 언 빙판을 밟고 넘어진 산친구들 대장. 산친구들은 빙판을 없애기 위해 얼음을 깨 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AtuenBkxIMI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AtuenBkxIMI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AtuenBkxIMI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-07T08:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xaHW2adwjN9k1x2XpuVqnN8iKAk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WIyIOlvdrpY"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-29T00:00:10Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "최고다! 호기심딱지 시즌 4 - 다리 찢기를 하면 왜 아파요?",
+        "description": "호기심 딱지야 궁금한 걸 알려줘! 제자들과 함께 다리 찢기 훈련하는 돌 도사. 그날 밤 돌도 사는 잠이 들지 못했다고 하는데... 급하게 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WIyIOlvdrpY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WIyIOlvdrpY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WIyIOlvdrpY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-29T00:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8Qm3FA8b6pw8as2bP15xB2sdTrg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "d2XWnHPKssY"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-16T00:00:17Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "최고다! 호기심딱지 시즌 4 - 돌다가 멈추면 어지러워!",
+        "description": "호기심 딱지야 궁금한 걸 알려줘! 호빵 초등학교 운동회가 열리는 날. '달리기 3종 경기'에서 이긴 반이 최고의 반이 된다! 대표 선수로 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/d2XWnHPKssY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/d2XWnHPKssY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/d2XWnHPKssY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-16T00:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "czK5bOq-zG3t1ZZ5I_6yA31wvcc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mlpzQ-3SbWQ"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-24T00:00:01Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "꾸러기 천사들 - 제37화 보라반 우체통",
+        "description": "EBS 꾸러기 천사들, Naughty Angels, 제37화 보라반 우체통 (2011.12.16) 친구에게 편지를 써 우체통에 넣는데 무진이와 해라에게는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mlpzQ-3SbWQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mlpzQ-3SbWQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mlpzQ-3SbWQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-02-24T00:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xqjltcEU8eAZVufzwJT6ym_jm4k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "c8f7PEsDRSc"
+      },
+      "snippet": {
+        "publishedAt": "2016-01-28T17:18:07Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "꾸러기천사들 - 제26화 보라반 도우미가 뭐길래",
+        "description": "EBS 꾸러기 천사들, Naughty Angels, 20110930, 제26화 보라반 도우미가 뭐 길래! 제26화 보라반 도우미가 뭐 길래! 선생님을 도와 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/c8f7PEsDRSc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/c8f7PEsDRSc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/c8f7PEsDRSc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-01-28T17:18:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JK3PLK2ohfudqeYMjPm5d8ZUTLk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "h2ifgqzASuU"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-21T09:30:19Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "[처음 타요-씽씽씽] 힘센 변신 팔, 굴착기 ㅣ 힘센 변신 팔의 비밀 ㅣ 버킷, 리퍼, 브레이커, 크러셔!?  l 쉽고 재미있는 파스칼의 법칙 l 3화 전체 보기",
+        "description": "00:00 허허벌판 속 길 잃은 박휘 01:56 오늘의 탈것, 굴착기 등장! 02:56 굴착기의 힘을 보여줘 05:10 변신로봇(?) 굴착기 07:37 굴착기 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/h2ifgqzASuU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/h2ifgqzASuU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/h2ifgqzASuU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-21T09:30:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Fb4ZzvCnZeyEEI921Ca7EM2E18Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oTF9ZlnoYBc"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-09T09:30:14Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "[처음 타요-씽씽씽] 물 위에 뜨는 버스, 수륙양용버스 ㅣ 물속으로 들어가는 버스?! l 버스가 물에 뜰 수 있는 이유 l 부력의 힘 l 10화 전체 보기",
+        "description": "00:00 강 근처를 떠도는 박휘 00:49 버스가 강에 빠졌다?!?! 02:15 오늘의 탈것 '수륙양용버스' 03:17 좌석 밑에는 뭐가 있을까요?",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oTF9ZlnoYBc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oTF9ZlnoYBc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oTF9ZlnoYBc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-09T09:30:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GQC-D7Ncsiy495dz_dBZbPasQ_c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RcXRKJnF-z4"
+      },
+      "snippet": {
+        "publishedAt": "2016-01-28T17:22:59Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "꾸러기 천사들 - 제24화 새로운 친구들",
+        "description": "EBS 꾸러기 천사들, Naughty Angels, 20110916, 제24화 새로운 친구들 ▷For more videos visit us at ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RcXRKJnF-z4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RcXRKJnF-z4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RcXRKJnF-z4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-01-28T17:22:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dsg2bl2P01t_qqNNQmhxs525fTo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LNhe0SLY5Zc"
+      },
+      "snippet": {
+        "publishedAt": "2019-02-22T00:49:23Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "꾸러기 천사들 - 제35화 새로운 삼총사",
+        "description": "EBS 꾸러기 천사들, Naughty Angels, 제35화 새로운 삼총사 (2011.12.02) 친구와 다투고 화해하는 이야기 ▷For more videos visit us ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LNhe0SLY5Zc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LNhe0SLY5Zc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LNhe0SLY5Zc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-02-22T00:49:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6L0ZKPKJ2b6dh9vwFd0di4rojWs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uuEOy06YlwU"
+      },
+      "snippet": {
+        "publishedAt": "2021-02-23T08:57:17Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "최고다! 호기심딱지 시즌4 - 비상! 콜레스트레롤 줄이기 작전",
+        "description": "호기심딱지야 궁금한 걸 알려줘~ 건강검진 결과, 콜레스테롤 수치가 높게 나온 임금님. 내관은 임금님의 건강을 위해 여러 방법을 제시 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uuEOy06YlwU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uuEOy06YlwU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uuEOy06YlwU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-02-23T08:57:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RWAt3JDfihnPuEYI8RJchlB0BDw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uHee5K5cqqg"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-28T09:30:14Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "[처음 타요-씽씽씽] 바퀴 달린 집, 캠핑카 ㅣ없는 게 없는 캠핑카 ㅣ 차 안에 화장실이 있다?!ㅣ 전국 방방곡곡이 나의 집 l 태양이 만드는 전기?! l 4화 전체 보기",
+        "description": "00:00 위기! 똥이 마려운 박휘! 02:04 오늘의 탈것, 캠핑카 등장! 03:30 캠핑카 안에는 모든 게 다 있어요! 07:50 조선인의 캠핑 체험 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uHee5K5cqqg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uHee5K5cqqg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uHee5K5cqqg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-28T09:30:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Tuty-iW4sd5gs_cceauIfFu_7FU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qEgid97RUxw"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-19T00:00:20Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "최고다! 호기심딱지 시즌 4 - 귤을 먹으면 왜 손발이 노랗게 돼요?",
+        "description": "호기심 딱지야 궁금한 걸 알려줘! 데이트를 하기로 한 엄마와 아빠. 그날도 아빠는 귤을 먹으며 기다리고 있었는데... 갑자기 헤어지자는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qEgid97RUxw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qEgid97RUxw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qEgid97RUxw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-19T00:00:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6byVUEa3ZsAydvS9IKLDd0i_JWc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HStwV6_DaD4"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-16T09:00:08Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "[EBS놀이터] 💡최고다! 호기심 딱지💡｜3편 모아보기｜코끼리 코는 어떻게 움직일까?｜뱀은 어떻게 움직일까?｜모기는 왜 왱왱 소리를 낼까?｜40분 연속보기",
+        "description": "00:00 ✔️코끼리 코는 어떻게 움직일까? 12:11 ✔️뱀은 어떻게 움직일까? 24:28 ✔️모기는 왜 왱왱 소리를 낼까? ❣️EBS키즈의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HStwV6_DaD4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HStwV6_DaD4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HStwV6_DaD4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-16T09:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "cVBERmuuF5AZ88Fg8tHOhJlPmwY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ipQpQ1PnP1U"
+      },
+      "snippet": {
+        "publishedAt": "2018-06-15T10:04:46Z",
+        "channelId": "UCx_dzPI6efSohgtOkAG43-A",
+        "title": "삐뽀삐뽀! 우리 몸 X파일 - 자전거를 타다 굴렀어요_#001",
+        "description": "공식 홈페이지 : http://home.ebs.co.kr/X-file/mainrn자전거를 타다 굴렀어요, 자전거를 타다 굴러 떨어진 건령! 보호장구를 했는데도 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ipQpQ1PnP1U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ipQpQ1PnP1U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ipQpQ1PnP1U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "EBS 키즈",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-06-15T10:04:46Z"
+      }
+    }
+  ]
+}

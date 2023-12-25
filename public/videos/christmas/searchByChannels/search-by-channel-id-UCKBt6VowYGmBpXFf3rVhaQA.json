@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "feZD2NdIAmo0aT8GBN1legxhuH0",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1462,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "60LjuldRUogE4tvJ1QJ9t2CVAls",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kTmRW4KReuo"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-18T08:00:55Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "수제버거 만들기🍔 #shorts  #shortvideo",
+        "description": "animation #breadbarbershop #cartoon #dessert #디저트 #만화 #애니메이션 #shortvideo.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kTmRW4KReuo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kTmRW4KReuo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kTmRW4KReuo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-18T08:00:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3k15jqYQe6ynTWpRci0vfhd6N9A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pgzNGmKYrKM"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-19T09:00:12Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "브레드송 | 도넛레인저송 | 애니메이션/만화/디저트/animation/cartoon/dessert",
+        "description": "도넛레인저 애니멀포스!   위기에 빠진 베이커리 타운을 구하러 왔다! ▷ YouTube 업로드 일정 월(오후 6시) : 스페셜 영상 화(오후 6 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pgzNGmKYrKM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pgzNGmKYrKM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pgzNGmKYrKM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-19T09:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uxgUBQFQ2fsytW19bSSdyIVAFMw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "y2D44oLPJ5o"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-28T08:00:21Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "브레드를 무시하면 안되는이유;; #shorts",
+        "description": "shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/y2D44oLPJ5o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/y2D44oLPJ5o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/y2D44oLPJ5o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-28T08:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xyWB8u0sDxfoBEZrUgVYLmvuKEs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Q6r8HMYA2q8"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-22T08:44:49Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "창문펀치 초코 👊 #shorts  #shortvideo",
+        "description": "animation #breadbarbershop #cartoon #dessert #디저트 #만화 #애니메이션 #shortvideo.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Q6r8HMYA2q8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Q6r8HMYA2q8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Q6r8HMYA2q8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-22T08:44:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oBVI_jrtuWpiQ_n9GxScOuB3kN4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jD9Z3gM7oyA"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-17T09:00:12Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "브레드송 | 브레드 농장에 가요 | 애니메이션/만화/디저트/animation/cartoon/dessert",
+        "description": "비트비트! 비트 주세요! 이번주는 신나는 브레드 농장으로 떠나볼까요~? ▷ YouTube 업로드 일정 월(오후 6시) : 스페셜 영상 화(오후 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jD9Z3gM7oyA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jD9Z3gM7oyA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jD9Z3gM7oyA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-17T09:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HlZWo8wjS7xbVrAmA9s3cTq7i8M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "awB82FDY7nU"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-13T09:00:12Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "브레드송 | 난나난송 | 애니메이션/만화/디저트/animation/cartoon/dessert",
+        "description": "브레드송 그 두 번째 주인공은?!   초코에게 수학을 가르쳐준 난 선생님! 난나난송을 부르며 수학천재가 되어보는 건 어때요?",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/awB82FDY7nU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/awB82FDY7nU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/awB82FDY7nU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-13T09:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Za6ev_ngjOHYtEj_pzXM0e067Ew",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7nRMqHgYj6E"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-18T01:00:02Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "브레드송 | 디스코 퀸 초코 | 애니메이션/만화/디저트/animation/cartoon/dessert",
+        "description": "지겨운 일과 브레드 사장님의 잔소리 스트레스야!     그럴땐 초코와 함께 디스코 파뤼 투 나잇!  ✨ ▷ YouTube 업로드 일정 월(오후 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7nRMqHgYj6E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7nRMqHgYj6E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7nRMqHgYj6E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-18T01:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lPJk3vOfJe8SXTccsVzljh032Go",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MOYutKxMbrg"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-15T08:00:12Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "Give me candy!2 #shortvideo #shorts",
+        "description": "animation #breadbarbershop #cartoon #dessert #디저트 #만화 #애니메이션 #shortvideo.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MOYutKxMbrg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MOYutKxMbrg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MOYutKxMbrg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-15T08:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "t0BpmtJdM6INspYQl-lpqU50BMI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8GNHZ7OcliA"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-08T08:00:04Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "맛있는 도넛을 만드는 법 #shorts  #shortvideo",
+        "description": "animation #breadbarbershop #cartoon #dessert #디저트 #만화 #애니메이션 #shortvideo.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8GNHZ7OcliA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8GNHZ7OcliA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8GNHZ7OcliA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-08T08:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Zty_N3QvDj-KQxbQslRgBrRKhEw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Fo1jC1pDaOY"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-14T08:00:07Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "🍣 초밥장인 브레드 1탄! #shortvideo #shorts",
+        "description": "animation #breadbarbershop #cartoon #dessert #애니메이션 #디저트 #만화 #shortvideo.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fo1jC1pDaOY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fo1jC1pDaOY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fo1jC1pDaOY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-14T08:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NrCNA12cnTiYReIlvP0VQMtnyIk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yt3U_7C2M2I"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-26T08:00:31Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "문어빵 변!신!  #shorts",
+        "description": "shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yt3U_7C2M2I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yt3U_7C2M2I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yt3U_7C2M2I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-26T08:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vAkv5_MrdyTLk9kP0OrnHypokj4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_lmtKEzCt90"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-07T08:00:29Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "국민건강보험공단 X 브레드이발소 !! #국민건강보험공단  #shorts  #shortvideo",
+        "description": "animation #breadbarbershop #cartoon #dessert #디저트 #만화 #애니메이션 #shortvideo #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_lmtKEzCt90/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_lmtKEzCt90/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_lmtKEzCt90/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-07T08:00:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7ejB6jxAZ2Ry9ZSbQRNP5FgQYlA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iPZIOt-_1iU"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-13T08:00:30Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "딸기 컵케이크 꾸미기🧁🍓 #shortvideo #shorts",
+        "description": "animation #breadbarbershop #cartoon #dessert #디저트 #만화 #애니메이션 #shortvideo #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iPZIOt-_1iU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iPZIOt-_1iU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iPZIOt-_1iU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-13T08:00:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8RODAJfCgeBhYl37E0BgNwaREs8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QMw8ExbEnDs"
+      },
+      "snippet": {
+        "publishedAt": "2023-09-06T08:00:08Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "직장인의 스트레스 해소법 #shorts  #shortvideo",
+        "description": "animation #breadbarbershop #cartoon #dessert #디저트 #만화 #애니메이션 #shortvideo #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QMw8ExbEnDs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QMw8ExbEnDs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QMw8ExbEnDs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-09-06T08:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZC5oyi1XBKY-CfxmYEGIi8pdeKM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CoRlbAJwWo4"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-15T08:00:09Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "🍣 초밥장인 브레드 2탄! #shortvideo #shorts",
+        "description": "animation #breadbarbershop #cartoon #dessert #애니메이션 #디저트 #shortvideo #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CoRlbAJwWo4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CoRlbAJwWo4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CoRlbAJwWo4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-15T08:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EUs90GrY3YLPd-5WIuHySVCwRws",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "p_qLoMnMdhM"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-24T09:00:25Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "브레드송 | 찰떡콩떡송 | 애니메이션/만화/디저트/animation/cartoon/dessert",
+        "description": "쫀득쫀득 달콤달콤한   떡 친구들 만나러 오세요!   ▷ YouTube 업로드 일정 월(오후 6시) : 스페셜 영상 화(오후 6시) : 시즌3 예고편 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/p_qLoMnMdhM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/p_qLoMnMdhM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/p_qLoMnMdhM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-24T09:00:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IiLbCzhKe-IMXUI2doMWffjB8R4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3ami2f6UVv4"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-04T06:00:01Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "큰머리 컵케이크 4",
+        "description": "shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3ami2f6UVv4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3ami2f6UVv4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3ami2f6UVv4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-04T06:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DTpzUEQ9lQ1odhVIk4BjcZTBgrg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jsj1PUkrc4I"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-20T08:00:32Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "운동초짜 특 : 장비는 최고급! #shorts  #shortvideo",
+        "description": "animation #breadbarbershop #cartoon #dessert #디저트 #만화 #애니메이션 #shortvideo #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jsj1PUkrc4I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jsj1PUkrc4I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jsj1PUkrc4I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-20T08:00:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JlwPQgdHKGlzREmYSaiKz3RhASg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5mfxnwOIuvM"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-24T08:00:02Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "유령부부 메이크업 #shorts",
+        "description": "shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5mfxnwOIuvM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5mfxnwOIuvM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5mfxnwOIuvM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-24T08:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1PfpVAUlFv5Z1yS4FWCwkxDPLf4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "S622i4Oson4"
+      },
+      "snippet": {
+        "publishedAt": "2023-07-03T08:30:39Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "금수저가 알바하는 법! #shortvideo #shorts",
+        "description": "animation #cartoon #dessert #breadbarbershop #애니메이션 #디저트 #만화 #shortvideo #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/S622i4Oson4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/S622i4Oson4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/S622i4Oson4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-07-03T08:30:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hK8KQEQHn3kwaSbd6Tpro_AzGD4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5DglesUw158"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-09T09:00:10Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "브레드이발소3 | KID&#39;S PLAY | Finding Colors | 애니메이션/만화/디저트/animation/cartoon/dessert",
+        "description": "간단한 영어 단어 입문   키즈플레이와 함께해요!   ▷ YouTube 업로드 일정 월(오후 6시) : 스페셜 영상 화(오후 6시) : 시즌3 본편 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5DglesUw158/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5DglesUw158/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5DglesUw158/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-09T09:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "H_Qlo4H4fsAU6NAm0BTt07GbnCg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "S7Ze206N3Co"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-22T06:00:19Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "면접 100% 붙는 방법",
+        "description": "shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/S7Ze206N3Co/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/S7Ze206N3Co/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/S7Ze206N3Co/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-22T06:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-K5h3Z5xSIibb1ObVKrzA3yVncY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "C2mXcoWKWXA"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-04T09:00:07Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "브레드이발소3 | 크니쁘니 히어로즈 오프닝 | 애니메이션/만화/디저트/animation/cartoon/dessert",
+        "description": "브레드박사님의 도움으로 히어로가 된 크니쁘니 친구들! 크니쁘니 히어로즈 오프닝을 공개합니다!✨   4월 4일 화요일부터 브레드 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/C2mXcoWKWXA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/C2mXcoWKWXA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/C2mXcoWKWXA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-04T09:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KwVOyVl84vV0hIWATn2otOT1Erg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Bdmkj6StuGM"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-02T08:00:08Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "척척박사 강씨 #shorts #shortvideo",
+        "description": "shorts #shortvideo #animation #breadbarbershop #cartoon #dessert #디저트 #만화 #애니메이션.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Bdmkj6StuGM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Bdmkj6StuGM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Bdmkj6StuGM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-02T08:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7OS3cZ4x8XSavAukSJLUGDYB_4c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1USmkoJbTNM"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-16T09:00:13Z",
+        "channelId": "UCKBt6VowYGmBpXFf3rVhaQA",
+        "title": "브레드이발소3 | 스페셜 | 브레드이발소X서울교통공사 | 애니메이션/만화/디저트/animation/cartoon/dessert",
+        "description": "함께 지하철 에티켓을 지켜요!     또타와 브레드이발소가 여러분을 응원할게요! ▷ YouTube 업로드 일정 월(오후 6시) : 스페셜 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1USmkoJbTNM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1USmkoJbTNM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1USmkoJbTNM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "브레드이발소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-16T09:00:13Z"
+      }
+    }
+  ]
+}

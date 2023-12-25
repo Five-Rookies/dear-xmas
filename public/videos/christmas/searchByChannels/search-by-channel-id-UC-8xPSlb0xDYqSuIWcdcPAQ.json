@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "SS2VA1d7Vkdnzp_q4eHB6DQFF2g",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1350,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "q9iCTy_eUNvQ_O6UeN7S17-mPcY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "r4gV04Uidxw"
+      },
+      "snippet": {
+        "publishedAt": "2019-08-10T01:00:08Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "밀림으로 ♪ | 자연동요 | 동물동요 | 어린이 인기동요★지니키즈",
+        "description": "인기동요 #율동동요 #동물동요 지니키즈 동요・동화 애니메이션을 만날 수 있는 방법! 지금 바로 [구독] 버튼을 눌러주세요! ♥구독♥ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/r4gV04Uidxw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/r4gV04Uidxw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/r4gV04Uidxw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-08-10T01:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KJw5N07rk1Db-2rO4xwi5p0wYiE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "E5HM4twfrH8"
+      },
+      "snippet": {
+        "publishedAt": "2019-05-20T07:00:00Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "멋쟁이 토마토 ♪ | 울퉁불퉁 빨간 옷을 입은 토마토 | 율동동요 | 음식동요 | 어린이 인기동요★지니키즈",
+        "description": "인기동요 #율동동요 #음식동요 지니키즈 동요・동화 애니메이션을 만날 수 있는 방법! 지금 바로 [구독] 버튼을 눌러주세요! ♥구독♥ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/E5HM4twfrH8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/E5HM4twfrH8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/E5HM4twfrH8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-05-20T07:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Q-s5BYYDntjFwaCzz31ZNE9zb2k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uTrvB_o7D98"
+      },
+      "snippet": {
+        "publishedAt": "2019-04-29T07:00:04Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "작은 동물원 ♪ | 삐약삐약 병아리 | 동물동요 | 어린이 인기동요★지니키즈",
+        "description": "인기동요 #율동동요 #동물동요 지니키즈 동요・동화 애니메이션을 만날 수 있는 방법! 지금 바로 [구독] 버튼을 눌러주세요! ♥구독♥ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uTrvB_o7D98/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uTrvB_o7D98/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uTrvB_o7D98/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-04-29T07:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "j2w5-bOLgSdjB8t84-vDjRspse4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WxeG4tzkYig"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-10T08:00:09Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "🐳GoGo 고래 송🐳 | 고고고 고래고래 길을 비켜라! | 향유고래 혹등고래 흰수염고래 | 동물동요 | 인기동요 ★ 지니키즈",
+        "description": "동물동요 #인기동요 #바다동물동요 GOGOGO 고래고래 GOGOGO 고래고래 GOGOGO 고래고래 GO! 난 향유고래 길을 비켜라 난 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WxeG4tzkYig/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WxeG4tzkYig/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WxeG4tzkYig/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-10T08:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "v6RxcDim9lO5wPhtX3LuT6WCjts",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mI4HhD0NLw4"
+      },
+      "snippet": {
+        "publishedAt": "2019-07-06T07:00:05Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "올챙이와 개구리 ♪ | 율동동요 | 동물동요 | 어린이 인기동요★지니키즈",
+        "description": "인기동요 #율동동요 #동물동요 지니키즈 동요・동화 애니메이션을 만날 수 있는 방법! 지금 바로 [구독] 버튼을 눌러주세요! ♥구독♥ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mI4HhD0NLw4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mI4HhD0NLw4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mI4HhD0NLw4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-07-06T07:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ad4Pu3ks2k3cjw5N1yBtX1hikw0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "U1JjXqxntyc"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-12T08:00:06Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "빙빙뱅뱅 비행기 ♪ | 몬스터 친구들 비행기 송! | 자동차동요 | 율동동요 | 어린이 인기동요★지니키즈",
+        "description": "인기동요 #율동동요 #비행기동요 #몬스터유치원 지니키즈 동요・동화 애니메이션을 만날 수 있는 방법! 지금 바로 [구독] 버튼을 눌러 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/U1JjXqxntyc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/U1JjXqxntyc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/U1JjXqxntyc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-11-12T08:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tzLG4ElvJKG-PUYdCsmlrXumO24",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "99OGvLxHb2U"
+      },
+      "snippet": {
+        "publishedAt": "2019-06-23T07:00:00Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "솜사탕 ♪ | 생활동요 | 나들이동요 | 유치원동요 | 어린이 인기동요★지니키즈",
+        "description": "인기동요 #율동동요 #나들이동요 지니키즈 동요・동화 애니메이션을 만날 수 있는 방법! 지금 바로 [구독] 버튼을 눌러주세요!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/99OGvLxHb2U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/99OGvLxHb2U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/99OGvLxHb2U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-06-23T07:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ij-deTc8j6kdqTw3cbt4I-Va_gw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vf40_llclH4"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-28T08:00:24Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "새학기 유치원에 갑니다로 시작! 노래방 동요 ♪ | 유치원에 갑니다 연속듣기 | 인기동요 연속듣기★지니키즈",
+        "description": "동화연속보기 #동화모음 #인기동요베스트 유치원에 갑니다 지니키즈 동요・동화 애니메이션을 만날 수 있는 방법! 지금 바로 [구독] ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vf40_llclH4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vf40_llclH4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vf40_llclH4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-28T08:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gHWxCyNpNY2dkMm0O4gQvwKTFno",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vUgcd9bw5oY"
+      },
+      "snippet": {
+        "publishedAt": "2016-12-10T00:30:00Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "신나는 크리스마스 캐롤 모음 40분 | 징글벨, 창 밖을 보라 + 총 30곡 | 크리스마스 동요 연속듣기★지니키즈",
+        "description": "동요연속듣기 #동요모음 #인기동요베스트 ♥구독♥지니키즈 동요동화 유튜브 채널 https://goo.gl/lkXUoJ 메리크리스마스! 지니키즈 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vUgcd9bw5oY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vUgcd9bw5oY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vUgcd9bw5oY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-12-10T00:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZJ2ywNd4a0EfzFPgUQXG5vOWX4w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "k5nBS7XqsOE"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-16T08:00:07Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "아빠 힘내세요 ♪ | 아빠 힘내세요! 우리가 있잖아요! | 인기동요★지니키즈",
+        "description": "인기동요 #어린이동요 #유치원동요 아빠 힘내세요 ♪ (가사) 딩동댕 초인종 소리에 얼른 문을 열었더니 그토록 기다리던 아빠가 문 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/k5nBS7XqsOE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/k5nBS7XqsOE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/k5nBS7XqsOE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-08-16T08:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TYnK-IZa7nme9qg1I05_7Ntlwbc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xVeiu4SGl3k"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-09T08:00:07Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "한국을 빛낸 100명의 위인들 1~2절 모음 ♪ | 우리나라 위인들은 누가 있을까? | 역사는 흐른다 | 위인동요 | 인기동요 연속듣기★지니키즈",
+        "description": "동요연속듣기 #동요모음 #인기동요베스트 한국을 빛낸 100명의 위인들 1~2절 모음 ♪ (가사) 아름다운 이 땅에 금수강산에 단군 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xVeiu4SGl3k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xVeiu4SGl3k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xVeiu4SGl3k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-09T08:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kIQologxTv4rpueOnzWUPRR4YUg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FxXYdkXcTLE"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-27T11:30:01Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "아빠 힘내세요 ♬ | 항상 감사하고 사랑해요 아빠 🥰💕 | 가족동요 | 생활동요  | 인기동요 ★지니키즈",
+        "description": "인기동요 #어린이동요#가족동요 딩동댕 초인종 소리에 얼른 문을 열었더니 그토록 기다리던 아빠가 문앞에 서 계셨죠 너무나 반가워 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FxXYdkXcTLE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FxXYdkXcTLE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FxXYdkXcTLE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-27T11:30:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "k60SiUizlmQ0uDOJvnr7yNTWtMs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YiYZyVj4_dg"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-28T00:00:02Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "멋쟁이 눈사람 특집 겨울동요 연속듣기 | 펑펑~ 눈이 옵니다 + 꼬마눈사람 | 인기동요 | 유치원동요 ★지니키즈",
+        "description": "눈사람 #겨울동요 #지니키즈동요 멋쟁이 눈사람 특집 동요 연속듣기 | 펑펑~ 눈이 옵니다 겨울동요 | 인기동요 | 유치원동요 ☆지니 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YiYZyVj4_dg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YiYZyVj4_dg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YiYZyVj4_dg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-28T00:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "G2IM5oBDz5aTnkemAiiSzP2MVsA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BZCXQ0daGUY"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-02T08:00:03Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "[동요 노래방] 다섯 꼬마 원숭이🙉 | &quot;침대에서 절대 뛰면 안돼요!&quot; | 동물동요 | 숫자동요 | 인기동요 노래방 ★ 지니키즈",
+        "description": "몬스터동요 #동물동요 #동요노래방 다섯 꼬마 원숭이가 침대에서 폴짝 한 꼬마 원숭이가 떨어졌네 쿵 엄마가 의사에게 전화했더니 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BZCXQ0daGUY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BZCXQ0daGUY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BZCXQ0daGUY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-02T08:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zLR_9e6OS09rm4AH9G7wmWOsI_o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Tnq7N9H7ekg"
+      },
+      "snippet": {
+        "publishedAt": "2017-01-07T01:00:00Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "스키장 가는 길에 듣는 신나는 겨울동요 모음 ♪ 30분 | 멋진 눈사람, 겨울바람, 고드름, 하얀나라+ | 인기동요 연속듣기★지니키즈",
+        "description": "동요연속듣기 #동요모음 #인기동요베스트 ♥구독♥지니키즈 동요동화 유튜브 채널 https://goo.gl/lkXUoJ 지니키즈 공식 유튜브 채널 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Tnq7N9H7ekg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Tnq7N9H7ekg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Tnq7N9H7ekg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-01-07T01:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9Nuoml0Gqe_2DAAaYXcLwMIKyhc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EvPe5ue_8Uk"
+      },
+      "snippet": {
+        "publishedAt": "2017-11-30T07:00:00Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "BEST 최신 크리스마스 캐롤・동요 모음집 60분 ♪ | 하얀 나라, 울면 안 돼 + 총 40곡 | 크리스마스 동요 모음 연속듣기★지니키즈",
+        "description": "동요연속듣기 #동요모음 #인기동요베스트 ♥구독♥지니키즈 동요동화 유튜브 채널 https://goo.gl/lkXUoJ 지니키즈 공식 유튜브 채널 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EvPe5ue_8Uk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EvPe5ue_8Uk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EvPe5ue_8Uk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-11-30T07:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2cBCX4kK0w1-x78yUobpAbwbS_w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HCEw9-queCQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-02-02T08:00:14Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "멋쟁이 토마토 인기동요 모음♬ 울퉁불퉁 멋진 토마토 특집 30분 | 유치원동요 | 지니키즈 율동동요",
+        "description": "율동동요 #인기동요 멋쟁이 토마토 인기동요 모음♬ 울퉁불퉁 멋진 토마토 특집 30분 | 유치원동요 | 지니키즈 율동동요 지니키즈 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HCEw9-queCQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HCEw9-queCQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HCEw9-queCQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-02-02T08:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "thUXOsOCAODNH39d9DJKHHjmGV0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tnbJzfhWTis"
+      },
+      "snippet": {
+        "publishedAt": "2017-06-12T07:00:02Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "엄마들이 추천하는 인기 아기동요 모음집 80분 ♪ | 산토끼, 뽀뽀뽀, 곰 세 마리 + 총 74곡 동요묶음 | 어린이 인기동요 연속듣기 ★ 지니키즈",
+        "description": "동요연속듣기 #동요모음 #인기동요베스트 ♥구독♥지니키즈 동요동화 유튜브 채널 https://goo.gl/lkXUoJ 지니키즈 공식 유튜브 채널 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tnbJzfhWTis/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tnbJzfhWTis/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tnbJzfhWTis/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-06-12T07:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DNGS7ifWTtrr9RJhvsrL7lMhImQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mPU_I3L-9R8"
+      },
+      "snippet": {
+        "publishedAt": "2019-08-23T07:00:05Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "아이들 인기 최고 동물동요 37분 모음집 ♪ | 어린이 율동동요 모음 | 인기동요 연속듣기★지니키즈",
+        "description": "동요연속듣기 #동요모음 #인기동요베스트 지니키즈 동요・동화 애니메이션을 만날 수 있는 방법! 지금 바로 [구독] 버튼을 눌러주세요 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mPU_I3L-9R8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mPU_I3L-9R8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mPU_I3L-9R8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-08-23T07:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ta181JmkXltkSa9ogIFX3f2K60M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uJux6IxXRu4"
+      },
+      "snippet": {
+        "publishedAt": "2020-01-23T08:00:09Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "엄마 육퇴하게 해주는 베스트 아기동요 모음집 80분 ♪ | 산토끼, 악어떼 + 율동동요 묶음 | 인기동요 연속듣기 ★ 지니키즈",
+        "description": "동요연속듣기 #동요모음 #인기동요베스트 엄마와 함께 듣는 베스트 아기동요 모음집 80분 산토끼 (도리) 솜사탕 (도리) 송아지 (도리) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uJux6IxXRu4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uJux6IxXRu4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uJux6IxXRu4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-01-23T08:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LdfUk7keR4hiju2SS0vco7KaUz8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TcgDiYk4nyM"
+      },
+      "snippet": {
+        "publishedAt": "2019-11-14T07:00:02Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "신규 크리스마스 캐롤 모음 60분 ♪ | 징글벨, 행복한 메리 크리스마스 외+ | 크리스마스 동요 연속듣기 | 캐럴 모음집 ★지니키즈",
+        "description": "동요연속듣기 #동요모음 #인기동요베스트 신규 크리스마스 동요 모음 60분 ♪ 행복한 메리 크리스마스(몬스터) 징글벨 고요한 밤 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TcgDiYk4nyM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TcgDiYk4nyM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TcgDiYk4nyM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-11-14T07:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mC8xkYltsAPan_leWrWt_kVXZII",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "65zN7-L-Ukg"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-30T08:00:01Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "공룡 이름 맞춰요 ♪ | 멋진 공룡 친구들! | 공룡동요 | 인기동요★지니키즈",
+        "description": "인기동요 #어린이동요 #공룡동요 공룡 이름 맞춰요 ♪ (가사) 우와! 공룡 이름 맞추기! 시~~작! 뾰족뾰족 입 커다란 프릴 세 개의 큰 뿔 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/65zN7-L-Ukg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/65zN7-L-Ukg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/65zN7-L-Ukg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-30T08:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-aV3Ltk6HyReGpRpJdUUJxisB2E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eJlsPFCr79U"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-10T04:08:11Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "#깔때기챌린지 #이벤트 #깔때기만들기편 #설명란참고",
+        "description": "지니키즈 #깔때기챌린지   ⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀ ⠀ ⠀⠀⠀⠀⠀⠀ 아이와 놀아주기 쉽지 않으시죠? 그래서 지니키즈가 깜짝 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eJlsPFCr79U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eJlsPFCr79U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eJlsPFCr79U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-10T04:08:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pWF5AbkUigAMaSTMT22aij5JlLE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wiR65HRBvU0"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-31T08:00:33Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "탈 것 송 | 무엇을 탈까요!? | 교통수단동요 | 자동차동요 | 탈것동요 | 인기동요 ★ 지니키즈",
+        "description": "자동차동요 #인기동요 #율동동요 “나는 지하철!” “나는 버스!” “나는 자전거!” “Let's Go!” Go Go Go Go Go Go Go Go Go Go Go Go Go ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wiR65HRBvU0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wiR65HRBvU0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wiR65HRBvU0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-31T08:00:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ou4t7bhaCVe1E3ZAszZeH_96BDg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_y3hMLkP-dw"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-04T08:00:10Z",
+        "channelId": "UC-8xPSlb0xDYqSuIWcdcPAQ",
+        "title": "뿡차차 응가구조대💩 | 우리는 응가 구조대! 뿡차차 뿡차차! | 응가동요 | 인기동요 ★ 지니키즈",
+        "description": "응가동요 #인기동요 #율동동요 “음, 우리가 나서야겠군!” 우리는 응가 구조대 뿡차차 뿡차차 냄새는 나도 용감해 우리는 응가 구조대 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_y3hMLkP-dw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_y3hMLkP-dw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_y3hMLkP-dw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "지니키즈 Genikids (인기 동요・동화)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-04T08:00:10Z"
+      }
+    }
+  ]
+}

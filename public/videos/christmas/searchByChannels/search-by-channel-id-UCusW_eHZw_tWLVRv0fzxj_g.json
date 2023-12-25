@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "-_w39g6NdH1LsSBYsXVr2bF-jX4",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 434,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pwW-sGNZRjQMixK2MtFvzDq90TU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oCqPfi1yLqI"
+      },
+      "snippet": {
+        "publishedAt": "2019-10-20T14:02:03Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "김건모 - 뻐꾸기 둥지위로 날아간 새, 보고 듣는 소울뮤직TV",
+        "description": "김건모, 뻐꾸기 둥지위로 날아간 새, 김건모 뻐꾸기 둥지위로 날아간 새, 자막포함, 김건모 댄스곡, 김건모 인기곡,",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oCqPfi1yLqI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oCqPfi1yLqI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oCqPfi1yLqI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-10-20T14:02:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2U-jBq1sFrVLw6-2UDZ4oAh9QQ8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "evLVG7mry4o"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-13T03:01:02Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "손흥민 VS 멘시티전 골 모음 (7골 몰아보기)",
+        "description": "손흥민 VS 멘시티전 골 모음 (7골 몰아보기) #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/evLVG7mry4o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/evLVG7mry4o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/evLVG7mry4o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-13T03:01:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "a83uaW6dgd2-rDD8xueWbviUbkQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "K3-BbA_k4I8"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-20T01:35:15Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "손흥민 VS 리버풀전 골 모음",
+        "description": "손흥민 VS 리버풀전 골 모음 #Shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/K3-BbA_k4I8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/K3-BbA_k4I8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/K3-BbA_k4I8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-20T01:35:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6cUFzlfhUSQQYsvqDQ3OaACBRpM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Yaf9Xc07Tqk"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-25T23:03:15Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "21/22시즌 손흥민 중거리 원더골 골, 골",
+        "description": "21/22시즌 손흥민 중거리 원더골 골, 골 #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Yaf9Xc07Tqk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Yaf9Xc07Tqk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Yaf9Xc07Tqk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-25T23:03:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-LDzmeKMWVlYsHWnMI1OkHQIw14",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rb52LNPOwo0"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-11T22:51:00Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "이문세 노래모음 26곡, 보고듣는 소울뮤직TV",
+        "description": "여기서 나오는 광고는 유투브 자체적으로 자동적으로 삽입되는 것이며, (저와는 아무 상관없습니다) 그로 인한 광고 수익은 원 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rb52LNPOwo0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rb52LNPOwo0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rb52LNPOwo0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-07-11T22:51:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yy_HpZrze-mMnS3VfD_GcBCAWkg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BgxBhPegzss"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-29T07:48:38Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "김광석 노래 모음 28곡 (베스트 스물여덟곡), 보고듣는 소울뮤직TV",
+        "description": "항상 소울뮤직TV를 애청해주셔서 감사드립니다. 좋아요+알람설정은 영상제작에 큰힘이 됩니다. 좋은하루 되세요~ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BgxBhPegzss/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BgxBhPegzss/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BgxBhPegzss/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-29T07:48:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-b3XI23XH2jKnWHthNun6yv7Tbk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4Fzu4CaqAq4"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-04T23:10:20Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "김창완(산울림) 노래 모음 30곡, 보고듣는 소울뮤직TV",
+        "description": "항상 소울뮤직TV를 애청해주셔서 감사드립니다. 좋아요+알람설정은 영상제작에 큰힘이 됩니다. 좋은하루 되세요~ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4Fzu4CaqAq4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4Fzu4CaqAq4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4Fzu4CaqAq4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-04T23:10:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UPSfD5G0obsfgm5hmAgXInwLh84",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "b8ZtspUUOj8"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-16T07:22:59Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "보아 -  메리크리 (Merry  Chri), Korean Ver.  소울뮤직TV",
+        "description": "보아 - 메리크리 (Merry Chri), Korean Ver. 소울뮤직TV ============================================ ※ 공지 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/b8ZtspUUOj8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/b8ZtspUUOj8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/b8ZtspUUOj8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-16T07:22:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5LnmMTsZAhjbB-TVS41tZuarezs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fusLVWg8B9s"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-24T04:10:15Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "환혼 OST 모음 (빛과 그림자 포함) , 소울뮤직TV",
+        "description": "환혼 OST 모음 (빛과 그림자 포함) , 소울뮤직TV ======================================= ※ 공지 ※ ◈저작권 법률에 의거 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fusLVWg8B9s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fusLVWg8B9s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fusLVWg8B9s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-24T04:10:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9kEM1z1FigMMoHOEIHWczj0FkGw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9Gj_ehctHdg"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-14T07:32:40Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "임재범 노래 모음 BEST 30곡 연속듣기(베스트 서른곡), 보고듣는 소울뮤직TV",
+        "description": "항상 소울뮤직TV를 애청해주셔서 감사드립니다. 좋아요+알람설정은 영상제작에 큰힘이 됩니다. 좋은하루 되세요~ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9Gj_ehctHdg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9Gj_ehctHdg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9Gj_ehctHdg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-14T07:32:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FvShh7AwlQUb4EPrWWnGjbvoU0Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pf2yfNHXJM8"
+      },
+      "snippet": {
+        "publishedAt": "2021-03-20T00:32:10Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "80년대 가수시리즈,- 최성수 노래모음  24곡 , 보고듣는 소울뮤직TV( Watching and Listening Soul Music TV)",
+        "description": "0년대 가수시리즈,- 최성수 노래모음 24곡 , 보고듣는 소울뮤직TV( Watching and Listening Soul Music TV) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pf2yfNHXJM8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pf2yfNHXJM8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pf2yfNHXJM8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-03-20T00:32:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OxnBvxY6ggm_PQ7PewR5KpSzIpI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cqxNgwY2oDg"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-07T23:06:20Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "성시경 노래 모음 BEST 42곡 , 보고듣는 소울뮤직TV",
+        "description": "성시경 노래 모음 BEST 42곡 , 보고듣는 소울뮤직TV ========================================== ※ 공지 ※ ◈저작권 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cqxNgwY2oDg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cqxNgwY2oDg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cqxNgwY2oDg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-07T23:06:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zFzhUp-FmtJzBtBhMVuk3aj_GOs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "APGE2DLblQw"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-21T00:06:46Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "서태지와 아이들 노래 모음 BEST 22곡, 믿고듣는 소울뮤직TV",
+        "description": "서태지와 아이들 노래 모음 BEST 22곡, 믿고듣는 소울뮤직TV (대한민국 아이돌의 원조, 대한민국 대중가요의 판도를 바꾼 선구자.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/APGE2DLblQw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/APGE2DLblQw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/APGE2DLblQw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-21T00:06:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Nx2xwOo0s3tj2f25WEurtnUVbLI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7g4LYpNbIQA"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-16T23:02:59Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "김범룡 노래 모음 BEST 28곡,  믿고듣는 소울뮤직 TV",
+        "description": "김범룡 노래 모음 BEST 28곡, 믿고듣는 소울뮤직 TV ========================================== ※ 공지 ※ ◈저작권 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7g4LYpNbIQA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7g4LYpNbIQA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7g4LYpNbIQA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-16T23:02:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sgYrnkQ32MZX0BoCLWQ0NBa572E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "75_Q_v7wXf4"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-07T00:50:38Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "양희은 노래 모음, 소울뮤직TV",
+        "description": "양희은 노래 모음, 소울뮤직TV ======================== ※ 공지 ※ ◈저작권 법률에 의거 여기서 발생하는 모든수익은 원 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/75_Q_v7wXf4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/75_Q_v7wXf4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/75_Q_v7wXf4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-07T00:50:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8n9dTSveXW4WlPGB9v51B1XuS4Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8sCCPe-LL6E"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-01T06:23:32Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "김범수 노래모음 34곡,  보고듣는 소울뮤직TV( Watching and Listening Soul Music TV)",
+        "description": "김범수 노래모음 34곡, 보고듣는 소울뮤직TV( Watching and Listening Soul Music TV) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8sCCPe-LL6E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8sCCPe-LL6E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8sCCPe-LL6E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-01T06:23:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "P51xlwRXLxH1WwKD4W9TuclVXu8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ShFBtu6hfxE"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-09T23:12:58Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "케이윌 노래모음 40곡♥, ♬보고듣는 소울뮤직TV",
+        "description": "여기서 나오는 광고는 유투브 자체적으로 자동적으로 삽입되는 것이며, (저와는 아무 상관없습니다) 그로 인한 광고 수익은 원 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ShFBtu6hfxE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ShFBtu6hfxE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ShFBtu6hfxE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-11-09T23:12:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OyllktQnLG6MQ_Il070CkxHfg-0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yOyIaekux6o"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-12T05:39:42Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "손흥민 vs 아스널 골모음",
+        "description": "손흥민 vs 아스널 골모음 #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yOyIaekux6o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yOyIaekux6o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yOyIaekux6o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-12T05:39:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XeQsLAe_XP1g579vPLYRCgOfhxo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ILPsCKKzidM"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-22T23:02:21Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "윤도현 노래 모음 BEST 32곡, 보고듣는 소울뮤직TV",
+        "description": "윤도현 노래 모음 BEST 32곡, 보고듣는 소울뮤직TV ========================================= ※ 공지 ※ ◈저작권 법률 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ILPsCKKzidM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ILPsCKKzidM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ILPsCKKzidM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-22T23:02:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "c4IkkNF19IxOG4wwCej9EoS0epY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SPqIvf60Dkk"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-03T23:43:51Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "조관우 노래 모음 BEST 38곡, 보고듣는 소울뮤직TV",
+        "description": "조관우 노래 모음 BEST 38곡, 보고듣는 소울뮤직TV ========================================= ※ 공지 ※ ◈저작권 법률 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SPqIvf60Dkk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SPqIvf60Dkk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SPqIvf60Dkk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-03T23:43:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fhhsUJPo09ogp-Ugch0Obvw_Fmc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "M2nBY3AQu9Y"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-16T23:06:29Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "럼블피쉬 노래모음 40곡 , 소울뮤직TV (SOUL MUSIC TV)",
+        "description": "럼블피쉬 노래모음 40곡, 소울뮤직TV (SOUL MUSIC TV) ============================= ※ 공지 ※ ◈저작권 법률에 의거 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/M2nBY3AQu9Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/M2nBY3AQu9Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/M2nBY3AQu9Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-16T23:06:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZvVSQAmtZnGadWYXUIqut4PvxMs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "M41niCFWswY"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-18T01:55:41Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "조영남 노래 모음, 소울뮤직TV",
+        "description": "조영남 노래 모음, 소울뮤직TV ========================= ※ 공지 ※ ◈저작권 법률에 의거 여기서 발생하는 모든수익은 원 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/M41niCFWswY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/M41niCFWswY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/M41niCFWswY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-18T01:55:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZYFJBuZkZRYxUCrqOk83YyNfMF8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xeE7QQzKKsk"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-14T08:42:41Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "조성모 노래모음 30곡💝 , 조성모 발라드 및, 댄스곡 모음 30곡 연속듣기💞, 보고듣는 소울뮤직TV",
+        "description": "여기서 나오는 광고는 유투브 자체적으로 자동적으로 삽입되는 것이며, (저와는 아무 상관없습니다) 그로 인한 광고 수익은 원 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xeE7QQzKKsk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xeE7QQzKKsk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xeE7QQzKKsk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-08-14T08:42:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Dcs7N0G_9JNLDoRo7vITMSZQzhg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H6OCRF_FEmk"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-23T09:30:56Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "변진섭 노래 모음, 소울뮤직TV",
+        "description": "변진섭 노래 모음, 소울뮤직TV ======================== ※ 공지 ※ ◈저작권 법률에 의거 여기서 발생하는 모든수익은 원 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H6OCRF_FEmk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H6OCRF_FEmk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H6OCRF_FEmk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-23T09:30:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fN7abuBDrXuah4WKIEmRU7APj_s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Hb8AMC4pL1A"
+      },
+      "snippet": {
+        "publishedAt": "2020-01-30T03:19:54Z",
+        "channelId": "UCusW_eHZw_tWLVRv0fzxj_g",
+        "title": "2000년대 초, 중반에 &quot;핫&quot;했던 발라드 명곡 , 겨울에 듣고 싶은 발라드 명곡, 감성 노래듣고 싶은 사람들에게 추천하는 발라드 모음.보고듣는 소울뮤직TV",
+        "description": "여기서 나오는 광고는 유투브 자체적으로 자동적으로 삽입되는 것이며, (저와는 아무 상관없습니다) 그로 인한 광고 수익은 원 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Hb8AMC4pL1A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Hb8AMC4pL1A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Hb8AMC4pL1A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "소울뮤직TV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-01-30T03:19:54Z"
+      }
+    }
+  ]
+}
