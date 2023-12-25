@@ -116,28 +116,29 @@ const MeetupBox = ({
             ) : (
               <p>{dateFomatter(meetup?.scheduling)} 오픈예정</p>
             )}
-
-            {(meetup?.email === userEmail ||
-              meetup?.member_list?.includes(userEmail)) && (
-              <Link
-                href={`/live?meetup_id=${meetup?.id}`}
-                className={`${btn.button} ${btn.buttonGrayBg}`}
-              >
-                라이브 바로가기
-              </Link>
-            )}
-            {meetup?.email !== userEmail && (
-              <button
-                onClick={(e: React.MouseEvent) =>
-                  handleMember(meetup?.id!, meetup?.email!, e)
-                }
-                className={`${btn.button} ${btn.buttonRed}`}
-              >
-                {[...meetup?.member_list!].includes(userEmail)
-                  ? '신청취소'
-                  : APPLY}
-              </button>
-            )}
+            <div className={styles.liveButton}>
+              {(meetup?.email === userEmail ||
+                meetup?.member_list?.includes(userEmail)) && (
+                <Link
+                  href={`/live?meetup_id=${meetup?.id}`}
+                  className={`${btn.button} ${btn.buttonGrayBg} ${styles.meetupButton}`}
+                >
+                  라이브 바로가기
+                </Link>
+              )}
+              {meetup?.email !== userEmail && (
+                <button
+                  onClick={(e: React.MouseEvent) =>
+                    handleMember(meetup?.id!, meetup?.email!, e)
+                  }
+                  className={`${btn.button} ${btn.buttonRed} ${styles.meetupButton}`}
+                >
+                  {[...meetup?.member_list!].includes(userEmail)
+                    ? '신청취소'
+                    : APPLY}
+                </button>
+              )}
+            </div>
           </div>
         </div>
         <p className={styles.writer}>
