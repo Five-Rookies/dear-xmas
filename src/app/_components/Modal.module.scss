@@ -19,15 +19,18 @@
     padding: 3rem;
 
     .title {
+      color: #232323;
       font-family: Pretendard, sans-serif;
       font-size: 2rem;
       font-weight: bold;
       margin-bottom: 3rem;
     }
     .subTitle {
+      color: #232323;
       font-size: 1.25rem;
       font-weight: bold;
       margin-bottom: .625rem;
+      text-align: left;
     }
 
     // .submitForm {
@@ -50,10 +53,6 @@
     .checkbox {
       flex-basis: 20%;
       margin-bottom: .3rem;
-    }
-    .checkbox input[type="checkbox"] {
-      //display: none;
-      
     }
 
     .checkbox .label {
