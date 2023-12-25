@@ -326,10 +326,48 @@ src
 <br>
 
 ## 구현 화면
-| 실시간 채팅 페이지   | 개발자 페이지                       |
-| ---------- | ---------------------------------------------- |
-| ![result_4](https://github.com/Five-Rookies/final-project/assets/66238849/9ac264f2-a2ae-4d84-8755-223e1e4359c3) | ![result_4](https://github.com/Five-Rookies/final-project/assets/66238849/ad216cac-cd83-4fc5-b1fd-77d07204cf1b)|
-| ![result_4](https://github.com/Five-Rookies/final-project/assets/66238849/9ac264f2-a2ae-4d84-8755-223e1e4359c3) | ![result_4](https://github.com/Five-Rookies/final-project/assets/66238849/ad216cac-cd83-4fc5-b1fd-77d07204cf1b)|
+<table>
+<tr>
+    <td align="center"> <a href="https://dear-xmas.vercel.app/signUp">회원가입</a> </td>
+     <td align="center"><a href="https://dear-xmas.vercel.app/signIn">로그인</a>  </td>
+   </tr>
+   <tr>
+      <td align="center"><img src="public/assets/readme/SignUp.gif" width="350"> </td>
+       <td align="center"><img src="public/assets/readme/SignIn.gif" width="350"> </td>
+   </tr>   
+   <tr>
+     <td align="center"><a href="https://dear-xmas.vercel.app/signIn/findPassword">비밀번호 찾기</a>  </td>
+    <td align="center"> <a href="https://dear-xmas.vercel.app/detail/PmoZQTp_9dI/meetupModal">인터셉트 라우팅을 이용한 모달창</a> </td>
+   </tr>
+   <tr>
+      <td align="center"><img src="public/assets/readme/ResetPassword.gif" width="350"> </td>
+       <td align="center"><img src="public/assets/readme/Modal.gif" width="350"> </td>
+   </tr>
+   <tr>
+    <td align="center"> <a href="https://dear-xmas.vercel.app/live?meetup_id=86">실시간 채팅</a> </td>
+     <td align="center"><a href="https://dear-xmas.vercel.app/live?meetup_id=86">라이브 종료하기</a>  </td>
+   </tr>
+   <tr>
+      <td align="center"><img src="public/assets/readme/Chatting.gif" width="350"> </td>
+       <td align="center"><img src="public/assets/readme/LiveEnd.gif" width="350"> </td>
+   </tr>
+   <tr>
+    <td align="center"> <a href="https://dear-xmas.vercel.app/live?meetup_id=86">현재 재생시간 공유</a> </td>
+     <td align="center"><a href="https://dear-xmas.vercel.app/developers">Github 잔디 연동</a>  </td>
+   </tr>
+   <tr>
+      <td align="center"><img src="public/assets/readme/LiveVideo.gif" width="350"> </td>
+       <td align="center"><img src="public/assets/readme/Develop.gif" width="350"> </td>
+   </tr>
+   <tr>
+    <td align="center"> <a href="https://dear-xmas.vercel.app/">설문조사 통계</a> </td>
+     <td align="center"><a href="https://dear-xmas.vercel.app/">랜덤 슬롯</a>  </td>
+   </tr>
+   <tr>
+      <td align="center"><img src="public/assets/readme/Servey.gif" width="350"> </td>
+       <td align="center"><img src="public/assets/readme/Slot.gif" width="350"> </td>
+   </tr>
+</table>
 
 
 
