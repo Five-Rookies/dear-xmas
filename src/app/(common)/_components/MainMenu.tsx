@@ -1,7 +1,9 @@
-import React from 'react'
+'use client'
+import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { handleSignOut } from '@/utils/apiRequest/signUserSupabase'
 import styles from './header.module.scss'
+import { fetchSession } from '@/utils/apiRequest/profileApiRequest'
 
 interface IProps {
   closeMenu: () => void
@@ -9,6 +11,16 @@ interface IProps {
   onClickOutside?: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void
 }
 const MainMenu = ({ closeMenu, modalRef, onClickOutside }: IProps) => {
+  const [isLogin, setIsLogin] = useState(false)
+  const setLoginMenu = async () => {
+    const session = await fetchSession()
+    if (session) setIsLogin(true)
+    else setIsLogin(false)
+  }
+
+  useEffect(() => {
+    setLoginMenu()
+  }, [])
   return (
     <div
       className={styles.dropDownWrap}
@@ -66,27 +78,43 @@ const MainMenu = ({ closeMenu, modalRef, onClickOutside }: IProps) => {
             </Link>
           </li>
           <li style={{ backgroundColor: '#F3FFAC' }} onClick={closeMenu}>
-            <Link href="/">
+            <Link href={isLogin ? '/' : '/signIn'}>
               <figure>
                 <img src="/assets/sock.png" alt="" />
               </figure>
-              <p>프로필</p>
+              <p>{isLogin ? '프로필' : '로그인'}</p>
             </Link>
           </li>
-          <li
-            style={{ backgroundColor: '#0E6B1D' }}
-            onClick={() => {
-              closeMenu()
-              handleSignOut()
-            }}
-          >
-            <Link href="/">
-              <figure>
-                <img src="/assets/stuckedSanta.png" alt="" />
-              </figure>
-              <p>로그아웃</p>
-            </Link>
-          </li>
+          {isLogin ? (
+            <li
+              style={{ backgroundColor: '#0E6B1D' }}
+              onClick={() => {
+                closeMenu()
+                handleSignOut()
+              }}
+            >
+              <Link href="/">
+                <figure>
+                  <img src="/assets/stuckedSanta.png" alt="" />
+                </figure>
+                <p>로그아웃</p>
+              </Link>
+            </li>
+          ) : (
+            <li
+              style={{ backgroundColor: '#0E6B1D' }}
+              onClick={() => {
+                closeMenu()
+              }}
+            >
+              <Link href="/signUp">
+                <figure>
+                  <img src="/assets/stuckedSanta.png" alt="" />
+                </figure>
+                <p>회원가입</p>
+              </Link>
+            </li>
+          )}
         </ul>
       </div>
     </div>
