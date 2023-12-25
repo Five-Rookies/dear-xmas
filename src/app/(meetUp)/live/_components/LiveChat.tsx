@@ -5,8 +5,9 @@ import { createChat, getChat } from '@/utils/apiRequest/liveApiRequest'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import useStore from '@/status/store'
 import { debounce } from 'lodash'
-import { TLiveChat } from '@/type/SupabaseResponse'
+import { TLiveChat, TProfiles } from '@/type/SupabaseResponse'
 import styles from '../live.module.scss'
+import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 
 const LiveChat = ({ meetupId }: { meetupId: number }) => {
   const { setTime } = useStore()
@@ -14,13 +15,10 @@ const LiveChat = ({ meetupId }: { meetupId: number }) => {
   const [chat, setChat] = useState<TLiveChat[]>([])
   const inputValue = useRef<HTMLInputElement>(null)
   const fetchChat = async () => {
-    const {
-      data: { session },
-    } = await supabase.auth.getSession()
-    setUser(session?.user)
+    const userData: TProfiles = await getProfileByEmail()
+    setUser(userData)
     const chatData = await getChat(meetupId)
     if (chatData) {
-      console.log(chatData)
       setChat(chatData)
     }
   }
@@ -63,9 +61,9 @@ const LiveChat = ({ meetupId }: { meetupId: number }) => {
       if (e.key === 'Enter') {
         await createChat(
           meetupId,
-          user.user_metadata.user_name || '',
+          user.user_name || '',
           user.id || '',
-          user.user_metadata.profile_img as 0 | 1 | 2 | 3,
+          user.profile_img as 0 | 1 | 2 | 3,
           inputValue.current!.value,
         )
         inputValue.current!.value = ''
@@ -84,12 +82,7 @@ const LiveChat = ({ meetupId }: { meetupId: number }) => {
   return (
     <div className={styles.liveChatContainer}>
       <div className={styles.createChat}>
-        <img
-          src={`/assets/profile-${
-            profiles[user?.user_metadata?.profile_img]
-          }.svg`}
-          alt=""
-        />
+        <img src={`/assets/profile-${profiles[user.profile_img]}.svg`} alt="" />
         <input
           type="text"
           placeholder="[#00:00:00] #을 붙여 현재 재생시간을 공유하세요"
