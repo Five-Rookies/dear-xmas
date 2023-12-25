@@ -8,7 +8,7 @@ import dynamic from 'next/dynamic'
 import { IVideoInfoToCookie } from '@/utils/cookieServer'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 import { debounce } from 'lodash'
-import { TMeetupBoard, TProfile } from '@/type/SupabaseResponse'
+import { TMeetupBoard, TProfiles } from '@/type/SupabaseResponse'
 import styles from './meetupModal.module.scss'
 
 const DatePicker: React.ComponentType<any> = dynamic(
@@ -38,7 +38,7 @@ const MeetupModal = ({
   const nowDate = new Date()
 
   const fetchUser = async (): Promise<void> => {
-    const userData: TProfile = await getProfileByEmail()
+    const userData: TProfiles = await getProfileByEmail()
     setUserName(userData?.user_name)
     setUserEmail(userData?.email)
   }

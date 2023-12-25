@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation'
 import { createComments } from '@/utils/apiRequest/commentsApiRequest'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 import { debounce } from 'lodash'
-import { TProfile } from '@/type/SupabaseResponse'
+import { TProfiles } from '@/type/SupabaseResponse'
 
 const CreateComment = ({
   profile,
@@ -21,7 +21,7 @@ const CreateComment = ({
   const [userName, setUserName] = useState<string | undefined>('')
 
   const getUserName = async (): Promise<void> => {
-    const userData: TProfile = await getProfileByEmail()
+    const userData: TProfiles = await getProfileByEmail()
     setUserName(userData.user_name!)
   }
 
