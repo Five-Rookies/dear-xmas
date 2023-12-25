@@ -22,6 +22,7 @@ import {
 import Image from 'next/image'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 import { Tables } from '@/type/supabase'
+import { debounce } from 'lodash'
 
 const APPLY = '참가신청'
 
@@ -52,31 +53,30 @@ const MeetupBox = ({
     setUserId(userData.id)
   }
 
-  const handleMember = async (
-    id: number,
-    email: string,
-    status: any,
-  ): Promise<void> => {
-    const prevMember = await getPrevMember(id)
-    if (status.target.innerText === APPLY) {
-      const memberArr = [...prevMember.member_list, userEmail]
-      if (
-        [...prevMember.member_list].includes(userEmail) ||
-        email.includes(userEmail)
-      ) {
-        return alert('이미 참가하였습니다.')
+  const handleMember = debounce(
+    async (id: number, email: string, status: any): Promise<void> => {
+      const prevMember = await getPrevMember(id)
+      if (status.target.innerText === APPLY) {
+        const memberArr = [...prevMember.member_list, userEmail]
+        if (
+          [...prevMember.member_list].includes(userEmail) ||
+          email.includes(userEmail)
+        ) {
+          return alert('이미 참가하였습니다.')
+        }
+        await updateMember(id, memberArr)
+      } else {
+        const memberArr = prevMember.member_list.filter(
+          (member: string) => member !== userEmail,
+        )
+        await updateMember(id, memberArr)
       }
-      await updateMember(id, memberArr)
-    } else {
-      const memberArr = prevMember.member_list.filter(
-        (member: string) => member !== userEmail,
-      )
-      await updateMember(id, memberArr)
-    }
-    fetchMeetupList()
-  }
+      fetchMeetupList()
+    },
+    500,
+  )
 
-  const handleLike = async () => {
+  const handleLike = debounce(async () => {
     const checkIsLiked: ILike[] = await checkLike(
       userId,
       meetup?.id!,
@@ -97,7 +97,7 @@ const MeetupBox = ({
       )
     }
     setIsLiked(!isLiked)
-  }
+  }, 500)
 
   useEffect(() => {
     fetchData()
