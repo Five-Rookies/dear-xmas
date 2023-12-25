@@ -307,10 +307,12 @@ src
 <br>
 
 ## 구현 화면
-* 실시간 채팅 페이지
-https://github.com/Five-Rookies/final-project/assets/66238849/9ac264f2-a2ae-4d84-8755-223e1e4359c3
-* 개발자 페이지
-https://github.com/Five-Rookies/final-project/assets/66238849/ad216cac-cd83-4fc5-b1fd-77d07204cf1b
+| 실시간 채팅 페이지   | 개발자 페이지                       |
+| ---------- | ---------------------------------------------- |
+| ![result_4](https://github.com/Five-Rookies/final-project/assets/66238849/9ac264f2-a2ae-4d84-8755-223e1e4359c3) | ![result_4](https://github.com/Five-Rookies/final-project/assets/66238849/ad216cac-cd83-4fc5-b1fd-77d07204cf1b)|
+| ![result_4](https://github.com/Five-Rookies/final-project/assets/66238849/9ac264f2-a2ae-4d84-8755-223e1e4359c3) | ![result_4](https://github.com/Five-Rookies/final-project/assets/66238849/ad216cac-cd83-4fc5-b1fd-77d07204cf1b)|
+
+
 
 
 
