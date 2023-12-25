@@ -1,9 +1,10 @@
 # 멋쟁이 사자처럼 프론트엔드 스쿨 1기 Final Project 5조
 <div align="center">
   <br />
-  <img src="https://github.com/Five-Rookies/final-project/assets/84695884/d305a21a-7edb-4b0b-b036-bea2887d1786.png" width=100%>
+  <img src="https://github.com/Five-Rookies/final-project/assets/84695884/f23de518-4f63-4745-a690-70cd5fb117ea.png" width=100%>
   <br />
 </div>
+
 
 
 ## 프로젝트 소개 및 개요
@@ -13,9 +14,12 @@ Dear, Xmas는 크리스마스의 감성과 특별한 순간을 함께 쌓아가�
 크리스마스와 관련된 컨텐츠를 즐길 수 있습니다.
 ```
 
+⏰ 작업기간 : 23.12.01 ~ 23.12.25
+
 🔗 배포링크 : https://dear-xmas.vercel.app/
 
-⏰ 작업기간 : 23.12.01 ~ 23.12.25
+* ID : 726yhy@naver.com
+* PW : istest12**
 
 </br>
 
