@@ -38,12 +38,6 @@ Dear, Xmas는 크리스마스의 감성과 특별한 순간을 함께 쌓아가�
 
 
 ## 기술 및 개발 환경
-### 🖥 **Front-end**
-| Html | TypeScript | Prettier | ESLint | Next.js | SCSS |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| <img alt="Html" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/440px-HTML5_logo_and_wordmark.svg.png" width="65" height="65" /> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="icon" width="80" height="80" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/prettier-icon.svg" alt="icon" width="71" height="71" /></div>| <div style="display: flex; align-items: flex-start;"><img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="icon" width="73" height="73" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png" alt="Next.js" width="65" height="65" style="animation: rotation 2s infinite linear;" /></div> | <div style="display: flex; align-items: flex-start;"><img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" alt="SCSS" width="65" height="65" style="animation: rotation 2s infinite linear;" /></div> |
-
-
 
 ✨ Front-end : <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" />  <img src="https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white"/> <img src="https://img.shields.io/badge/Zustand-A9225C?style=flat&logo=&logoColor=white"/> 
 
