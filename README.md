@@ -1,4 +1,10 @@
 # 멋쟁이 사자처럼 프론트엔드 스쿨 1기 Final Project 5조
+<div align="center">
+  <br />
+  <img src="https://github.com/Five-Rookies/final-project/assets/84695884/d305a21a-7edb-4b0b-b036-bea2887d1786.png" width=100%>
+  <br />
+</div>
+
 
 ## 프로젝트 소개 및 개요
 
@@ -27,9 +33,10 @@ Dear, Xmas는 크리스마스의 감성과 특별한 순간을 함께 쌓아가�
 | :------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | <img src='public/assets/mimoticon/mimoticon-yoo.png' width="180px;"> | <img src="public/assets/mimoticon/mimoticon-song.png" width="180px;"> | <img src="public/assets/mimoticon/mimoticon-yoon.png" width="180px;"/> | <img src="public/assets/mimoticon/mimoticon-lee.png" width="180px;" > |
 | [zxxng](https://github.com/zxxng)  | [ssb1565b](https://github.com/ssb1565b) | [seonyeongyoon](https://github.com/seonyeongyoon) | [dv-yeop920](https://github.com/dv-yeop920) |
-|![FrontEnd](https://img.shields.io/badge/FrontEnd-DA3017)</br> ![Team%20Leader](https://img.shields.io/badge/-Team%20leader-0C412F) | ![FrontEnd](https://img.shields.io/badge/FrontEnd-DA3017)</br> | ![FrontEnd](https://img.shields.io/badge/FrontEnd-DA3017)</br> | ![FrontEnd](https://img.shields.io/badge/FrontEnd-DA3017)</br> |
-
+|![FrontEnd](https://img.shields.io/badge/FrontEnd-DA3017)</br> ![Team%20Leader](https://img.shields.io/badge/-Team%20leader-0C412F) | ![FrontEnd](https://img.shields.io/badge/FrontEnd-DA3017)</br> ![UI/UX%20](https://img.shields.io/badge/-UI/UX-3FCF8E)  </br> | ![FrontEnd](https://img.shields.io/badge/FrontEnd-DA3017)</br> | ![FrontEnd](https://img.shields.io/badge/FrontEnd-DA3017)</br> |
+| 로그인, 회원가입, 비밀번호 찾기<br>미들웨어 / 라우트 핸들러<br>프로필 수정 기능<br>댓글 수정 / 삭제 기능  | 실시간 채팅&영상 기능<br>GitHub 잔디 연동<br>카운트 다운 기능<br>검색 기능<br>댓글 좋아요 / 생성 기능<br>카카오톡 공유 기능  |드롭다운 헤더<br>랜덤 슬롯 머신<br>설문조사 애니메이션, 데이터 통계<br>무한스크롤 기능 | 댓글 좋아요 / crud<br>전체 디바운싱 처리<br>인터셉트 모달<br> 모임생성 기능<br>탭 기능<br>채팅 렌더링, 무한스크롤 에러해결  | 
 <br>
+
 
 
 <!-- ## 🧑🏻‍💻 역할 분담 -->
@@ -39,32 +46,34 @@ Dear, Xmas는 크리스마스의 감성과 특별한 순간을 함께 쌓아가�
 
 ## 기술 및 개발 환경
 
-✨ Front-end : <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" />  <img src="https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white"/> <img src="https://img.shields.io/badge/Zustand-A9225C?style=flat&logo=&logoColor=white"/> 
+##### Front-end
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white" />  <img src="https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white"/> <img src="https://img.shields.io/badge/Zustand-A9225C?style=flat&logo=&logoColor=white"/> 
+##### Back-end
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white"/> 
 
-✨ Back-end : <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat&logo=supabase&logoColor=white"/> 
+##### Design
+<img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white"/> 
 
-✨ Design : <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=Figma&logoColor=white"/> 
+##### 협업
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white"/> <img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=Discord&logoColor=white"/>
 
-✨ 협업 : <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-000000?style=flat&logo=Notion&logoColor=white"/> <img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=Discord&logoColor=white"/>
-
-✨ 배포 : <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white"/> 
+##### 배포
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white"/> 
 
 <br>
 
-## :sloth: Git
-### [개발 환경]<br>
+### 🛠 개발 환경
 코드 충돌을 줄이고 브랜치 관리가 용이한 **Git Flow** 방식을 사용하여 기능 브랜치를 만들고<br>
 각자 작업 브랜치를 따로 생성하여 작업하고, 기능 브랜치로 PR을 올립니다.<br>
 PR은 코드 리뷰 담당자를 지정하여 검토 후 Merge를 진행합니다.
 
 
-### :wood: Branch
+### 📚 Branch
 `main` : 배포 브랜치 <br/>
 `develop` : 메인 브랜치 배포전 테스트 브랜치 <br/>
 `feat/개발명` : 기능 개발 브랜치 ex) feat/Askquestion  
 
-
-### [커밋 컨벤션]
+### 🙏🏼 커밋 컨벤션
 |커밋 유형|설명|
 |---------|----|
 |Feat|새로운 기능 구현, 특징 추가|
