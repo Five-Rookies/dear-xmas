@@ -72,6 +72,11 @@ PR은 코드 리뷰 담당자를 지정하여 검토 후 Merge를 진행합니�
 <br>
 
 ## 폴더 구조
+<details>
+<summary>📁</summary>
+<div>
+
+
 ```
 src
 ├── app
@@ -237,6 +242,9 @@ src
         ├── youtubeJsonRequest.ts
         └── youtubeRequest.ts
 ```
+</div>
+</details>
+
 
 - `app/page` : 메인 페이지
 - `detail` : 모임 생성 & 비디오 상세 페이지 
