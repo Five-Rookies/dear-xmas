@@ -29,7 +29,6 @@ const Main = () => {
       <img className={styles.snowman} src="/assets/snowman.png" alt="" />
       <ul className={styles.tree}>
         <li>
-          {/* <img src="/assets/tree.png" alt="" /> */}
           <Image
             src="/assets/tree.png"
             width={0}

@@ -1,4 +1,3 @@
-import React from 'react'
 import { supabase } from './defaultApiSetting'
 
 export const handleSignOut = async () => {

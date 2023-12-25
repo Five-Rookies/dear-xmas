@@ -3,8 +3,8 @@
 import React, { useEffect, useState } from 'react'
 import { getMeetupList } from '@/utils/apiRequest/meetupApiRequestClient'
 import { IMeetupBoardData } from '@/type/Component'
-import MeetupBox from './MeetupBox'
 import TabLoading from '@/app/(meetUp)/meetup/_components/_tab/TabLoading'
+import MeetupBox from './MeetupBox'
 
 const MeetupList = (): React.JSX.Element => {
   const [createdMeetup, setCreatedMeetup] = useState<IMeetupBoardData[]>([])

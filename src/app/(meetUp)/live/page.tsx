@@ -1,15 +1,15 @@
 'use server'
 
 import React from 'react'
-import LiveStream from './_components/LiveStream'
-import styles from './live.module.scss'
-import DetailHeader from '../detail/[id]/_components/DetailHeader'
 import dynamic from 'next/dynamic'
-import LiveButton from './_components/LiveButton'
 import { cookies } from 'next/headers'
 import { createServerActionClient } from '@supabase/auth-helpers-nextjs'
 import { revalidatePath } from 'next/cache'
 import { IMeetupBoardData } from '@/type/Component'
+import LiveButton from './_components/LiveButton'
+import DetailHeader from '../detail/[id]/_components/DetailHeader'
+import styles from './live.module.scss'
+import LiveStream from './_components/LiveStream'
 
 const ComponentsWithNoSSR = dynamic<{ meetupId: number }>(
   () => import('./_components/LiveChat'), // Component로 사용할 항목을 import합니다.

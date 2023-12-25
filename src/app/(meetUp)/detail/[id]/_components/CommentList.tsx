@@ -8,10 +8,10 @@ import cookie from '@public/assets/profile-cookie.svg'
 import Image from 'next/image'
 import { getComments } from '@/utils/apiRequest/commentsApiRequest'
 import { Tables } from '@/type/supabase'
+import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 import styles from '../detail.module.scss'
 import CreateComment from './CreateComment'
 import Comment from './Comment'
-import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 
 type TCommnets = Tables<'comments'>
 

@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import styles from '@/app/page.module.scss'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { Tables } from '@/type/supabase'
@@ -11,6 +11,7 @@ declare global {
     Kakao: any
   }
 }
+
 const SlotModal = ({
   handleModalClose,
   sentence,

@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import formatRelativeDate from '@/utils/relativeDate'
@@ -8,7 +8,6 @@ import { IYoutubeItem } from '@/type/YoutubeApiResponse'
 import ScrollBtn from '@/app/(common)/_components/ScrollBtn'
 import useInfiniteScroll from '@/hooks/useInfiniteScroll'
 import { setVideoInfoToCookie } from '@/utils/cookieClient'
-import TabLoading from '@/app/(meetUp)/meetup/_components/_tab/TabLoading'
 import styles from '../meetup.module.scss'
 
 interface IProps {
@@ -70,7 +69,6 @@ const VideoList = ({ initialData, pageToken }: IProps): React.JSX.Element => {
           )
         })}
       </ul>
-      {/* {isLoading && <p>Loading...</p>} */}
       <ScrollBtn />
     </div>
   )

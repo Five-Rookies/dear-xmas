@@ -7,9 +7,9 @@ import { Value, ValuePiece } from '@/type/Component'
 import dynamic from 'next/dynamic'
 import { IVideoInfoToCookie } from '@/utils/cookieServer'
 import { Tables } from '@/type/supabase'
-import styles from './meetupModal.module.scss'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 import { debounce } from 'lodash'
+import styles from './meetupModal.module.scss'
 
 type TMeetupBoardData = Tables<'meetup_board'>
 

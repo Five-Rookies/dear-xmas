@@ -4,7 +4,7 @@ import Image from 'next/image'
 import styles from './developers.module.scss'
 import Member from './Member'
 
-const title = (subTItle: string, title: string, intro: string) => {
+const titleInfo = (subTItle: string, title: string, intro: string) => {
   return (
     <div className={styles.title}>
       <h4>{subTItle}</h4>
@@ -59,7 +59,7 @@ const Developers = () => {
     <>
       <section className={styles.skillContainer}>
         <div className="inner-box">
-          {title(
+          {titleInfo(
             '기술 스택',
             '함께 선정한 기술들',
             '저희는 새로운 기술 학습을 위해 3개월 전 업데이트 된 Next.js 14를 도입하여 제작하였습니다.',
@@ -85,7 +85,7 @@ const Developers = () => {
       </section>
       <section>
         <div className={styles.developersContainer}>
-          {title(
+          {titleInfo(
             '멤버 소개',
             '함께 만든 사람들',
             '멋쟁이 사자처럼 프론트엔드 심화과정에서 팀프로젝트를 함께 하게된 5조, Five Rookies입니다.',

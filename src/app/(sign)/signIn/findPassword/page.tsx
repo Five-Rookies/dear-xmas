@@ -6,8 +6,8 @@ import Link from 'next/link'
 import { Tables } from '@/type/supabase'
 import { getProfile } from '@/utils/apiRequest/profileApiRequest'
 import { supabase } from '@/utils/apiRequest/defaultApiSetting'
-import { BasicInput, PasswordHintInput } from '../../_components/SignInput'
 import { debounce } from 'lodash'
+import { BasicInput, PasswordHintInput } from '../../_components/SignInput'
 
 const FindPasswordPage = () => {
   const emailRef = useRef<HTMLInputElement>(null)

@@ -3,13 +3,8 @@ import styles from '@/app/page.module.scss'
 import SlotContent from './SlotContent'
 
 const Slot = () => {
-
-
   return (
-    <section 
-    id="slot" 
-    className={`${styles.mainCommon} ${styles.slot}`}
-    >
+    <section id="slot" className={`${styles.mainCommon} ${styles.slot}`}>
       <div className={`inner-box ${styles.slotWapper}`}>
         <div className={styles.textArea}>
           <h2>Slot</h2>

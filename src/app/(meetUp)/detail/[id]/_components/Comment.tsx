@@ -1,5 +1,3 @@
-/* eslint-disable camelcase */
-
 'use client'
 
 import React, { useState, useEffect } from 'react'
@@ -22,11 +20,10 @@ import candle from '@public/assets/profile-candle.svg'
 import cookie from '@public/assets/profile-cookie.svg'
 import likeOff from '@public/assets/likeOff.svg'
 import likeOn from '@public/assets/likeOn.svg'
-import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { Tables } from '@/type/supabase'
-import styles from '../detail.module.scss'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 import { debounce } from 'lodash'
+import styles from '../detail.module.scss'
 
 interface ICommentProps {
   comment: Tables<'comments'>

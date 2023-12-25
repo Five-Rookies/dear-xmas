@@ -2,11 +2,11 @@
 
 import React, { useState, useEffect } from 'react'
 import { IMeetupBoardData } from '@/type/Component'
-import MeetupBox from './MeetupBox'
 import { getMeetupList } from '@/utils/apiRequest/meetupApiRequestClient'
 import TabLoading from '@/app/(meetUp)/meetup/_components/_tab/TabLoading'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
 import { Tables } from '@/type/supabase'
+import MeetupBox from './MeetupBox'
 
 const MyMeetupList = (): React.JSX.Element => {
   const [userName, setUserName] = useState<string>('')
