@@ -11,7 +11,13 @@ declare global {
     Kakao: any
   }
 }
-const SlotModal = ({ handleModalClose, sentence }: any) => {
+const SlotModal = ({
+  handleModalClose,
+  sentence,
+}: {
+  handleModalClose: () => void
+  sentence: string[]
+}) => {
   useEffect(() => {
     if (!window.Kakao.isInitialized()) {
       window.Kakao.init(process.env.NEXT_PUBLIC_KAKAO_API_KEY)

@@ -12,6 +12,16 @@ import { Bar } from 'react-chartjs-2'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip)
 
+interface IData {
+  labels: string[]
+  datasets: [
+    {
+      data: object
+      backgroundColor: string
+    },
+  ]
+}
+
 interface ICheckList {
   title: string
   key: string
@@ -59,7 +69,13 @@ export const options = {
   },
 }
 
-const SurveyGraph = ({surveyData, surveyList}: any) => {
+const SurveyGraph = ({
+  surveyData,
+  surveyList,
+}: {
+  surveyData: object
+  surveyList: ISurvey[]
+}) => {
   const [isToggleListShow, setToggleListShow] = useState(false)
   const [toggleIndex, setToggleIndex] = useState<number>(0)
 
@@ -81,7 +97,7 @@ const SurveyGraph = ({surveyData, surveyList}: any) => {
       </button>
       <ul className={styles.toggleList}>
         {surveyList.map((survey: ISurvey, index: number) => {
-          const data = {
+          const data: IData = {
             labels: [],
             datasets: [
               {
@@ -90,11 +106,11 @@ const SurveyGraph = ({surveyData, surveyList}: any) => {
               },
             ],
           }
-  
+
           survey.checkList.map((check: ICheckList) => {
             data.labels.push(check.title)
           })
-  
+
           return (
             <li
               className={`${styles.toggleItem} ${
@@ -102,7 +118,9 @@ const SurveyGraph = ({surveyData, surveyList}: any) => {
               }`}
               key={index}
             >
-              <button onClick={() => handleToggle(index)}>{`Q. ${survey.question}`}</button>
+              <button
+                onClick={() => handleToggle(index)}
+              >{`Q. ${survey.question}`}</button>
               {(toggleIndex === index || isToggleListShow) && (
                 <div className={styles.toggleInner}>
                   <div>
