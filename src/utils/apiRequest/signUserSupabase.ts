@@ -26,9 +26,8 @@ export const handleSignOut = async () => {
   }
 }
 
-export const handleSignIn = async (event: React.FormEvent<HTMLFormElement>) => {
+export const handleSignIn = async (formData: FormData) => {
   try {
-    const formData = new FormData(event.currentTarget)
     const response = await fetch('/auth/login', {
       method: 'POST',
       body: formData,
@@ -49,9 +48,8 @@ export const handleSignIn = async (event: React.FormEvent<HTMLFormElement>) => {
   }
 }
 
-export const handleSignUp = async (event: React.FormEvent<HTMLFormElement>) => {
+export const handleSignUp = async (formData: FormData) => {
   try {
-    const formData = new FormData(event.currentTarget)
     const response = await fetch('/auth/sign-up', {
       method: 'POST',
       body: formData,

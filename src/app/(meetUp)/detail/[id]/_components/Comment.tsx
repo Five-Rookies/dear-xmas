@@ -26,6 +26,7 @@ import { supabase } from '@/utils/apiRequest/defaultApiSetting'
 import { Tables } from '@/type/supabase'
 import styles from '../detail.module.scss'
 import { getProfileByEmail } from '@/utils/apiRequest/profileApiRequest'
+import { debounce } from 'lodash'
 
 interface ICommentProps {
   comment: Tables<'comments'>
@@ -51,7 +52,7 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
     setUserId(userData?.id)
   }
 
-  const handleClickCommentLike = async (): Promise<void> => {
+  const handleClickCommentLike = debounce(async (): Promise<void> => {
     const checkIsLiked: Tables<'comment_like'>[] = await checkLike(
       userId,
       COMMENT_ID,
@@ -72,7 +73,7 @@ const Comment = ({ comment, fetchComments }: ICommentProps) => {
       )
     }
     setIsLiked(!isLiked)
-  }
+  }, 500)
 
   const handleClickDotMenu = (): void => {
     setIsDotMenuVisible(!isDotMenuVisible)

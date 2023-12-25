@@ -15,16 +15,24 @@ const SignUpPage = () => {
   const router = useRouter()
   const passwordRef = useRef<HTMLInputElement>(null)
 
-  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault()
+  let timeout: string | number | NodeJS.Timeout | undefined
 
-    try {
-      await handleSignUp(event)
-      alert('인증 이메일을 확인해주세요!')
-      router.refresh()
-    } catch (error) {
-      console.error(error)
-    }
+  const handleSubmit = async (
+    event: React.FormEvent<HTMLFormElement>,
+  ): Promise<void> => {
+    event.preventDefault()
+    const formData: FormData = new FormData(event.currentTarget)
+    if (timeout) clearTimeout(timeout)
+
+    timeout = setTimeout(async () => {
+      try {
+        await handleSignUp(formData)
+        alert('인증 이메일을 확인해주세요!')
+        router.refresh()
+      } catch (error) {
+        console.error(error)
+      }
+    }, 500)
   }
 
   return (
