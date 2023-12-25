@@ -79,7 +79,7 @@
   }
 
   .meetupList {
-    margin-bottom: 1.2rem;
+    padding: 1rem;
     .meetupPost {
       background-color: var(--color-grey-box-bg);
       border: 1px solid var(--color-border);
@@ -92,6 +92,7 @@
       justify-content: space-between;
       align-items: center;
       font-weight: bold;
+      margin-bottom: 0.5rem;
 
       span {
         color: #da3017;
@@ -111,6 +112,13 @@
         p {
           color: #da3017;
         }
+        .liveButton {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          gap: 0.5rem;
+          font-size: 1.5rem;
+        }
       }
     }
     .writer span {
@@ -118,7 +126,8 @@
       color: #999;
     }
     .textContent {
-      font-size: 1rem;
+      max-width: 80%;
+      font-size: 1.1rem;
       line-height: 1.5;
       margin: 0.9375rem 0 1.875rem;
       p {
@@ -276,71 +285,111 @@
   }
 }
 
-@media (max-width: 878px) {
+@media (max-width: 942px) {
   .pageContainer {
-    background: no-repeat top 50% right 15% / 20% url('/assets/candles.png');
+    background: no-repeat top 110% right 10% / 20% url('/assets/candles.png');
+  }
+  .titleArea {
+    flex-direction: column;
+    h2 {
+      margin-bottom: 1.2rem;
+    }
+    .openNotice {
+      flex-direction: column;
+      margin-bottom: 1rem;
+      .meetupButton {
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+      }
+    }
   }
 }
 
-@media (max-width: 615px) {
-  .pageHeader {
-    h1 {
-      font-size: 2.6rem;
-    }
+@media (max-width: 878px) {
+  .pageContainer {
+    background: no-repeat top 110% right 5% / 20% url('/assets/candles.png');
+
     p {
       font-size: 1.3rem;
     }
   }
 }
 
-@media (max-width: 543px) {
+@media (max-width: 695px) {
   .pageContainer {
-    background: no-repeat top 53% right 15% / 15% url('/assets/candles.png');
-  }
-}
+    height: 25rem;
+    background: no-repeat top 110% right 50% / 25% url('/assets/candles.png');
 
-@media (max-width: 528px) {
-  .pageContainer {
-    background: no-repeat top 55% right 15% / 15% url('/assets/candles.png');
-  }
-  .pageHeader {
-    h1 {
-      font-size: 2.3rem;
-    }
     p {
-      font-size: 1.1rem;
+      font-size: 1.3rem;
     }
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 615px) {
   .pageContainer {
-    background: no-repeat top 55% right 8% / 15% url('/assets/candles.png');
+    background: no-repeat top 110% right 50% / 25% url('/assets/candles.png');
+
     .pageHeader {
-      p {
-        font-size: 0.9rem;
+      h1 {
+        font-size: 2.6rem;
       }
     }
   }
 }
 
-@media (max-width: 438px) {
+@media (max-width: 550px) {
   .pageContainer {
-    background: no-repeat top 55% right 15% / 15% url('/assets/candles.png');
+    background: no-repeat top 110% right 50% / 30% url('/assets/candles.png');
+
+    .pageHeader {
+      h1 {
+        font-size: 2.3rem;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .pageContainer {
+    background: no-repeat top 110% right 50% / 34% url('/assets/candles.png');
+
+    .pageHeader {
+      h1 {
+        font-size: 2.2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 419px) {
+  .pageContainer {
+    background: no-repeat top 110% right 50% / 40% url('/assets/candles.png');
+
     .pageHeader {
       h1 {
         font-size: 2rem;
       }
       p {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
       }
     }
   }
 }
 
 @media (max-width: 398px) {
-  .pageContainer {
-    background: no-repeat top 56% right 8% / 15% url('/assets/candles.png');
+  .titleArea {
+    .openNotice {
+      .meetupButton {
+        padding: 0.5rem 1.2rem;
+      }
+    }
   }
 }
 
