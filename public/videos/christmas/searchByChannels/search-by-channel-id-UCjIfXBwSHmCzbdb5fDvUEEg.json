@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "ZdIYFJSnhs3--Kph-xbaHqBgMg0",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 634,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jOZnXW6U7r5gqQjRKE3NtmLv_xs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Euqw2nHrpe8"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-11T14:00:07Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 사랑에 잠겨 죽어버리고 싶다.",
+        "description": "플레이리스트 #인디 이번 영상은 소정의 제작비를 지원 받아 제작되었습니다. 사진 정보 : 한소희님 영상 내 삽입된 광고들은 제가 넣은 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Euqw2nHrpe8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Euqw2nHrpe8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Euqw2nHrpe8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-11T14:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ILlHaRoWRfLwJOPB1X1dPYxRdPg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MqSa1Xb2QFc"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-29T14:00:09Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 길었던 너와의 연애를 마치고",
+        "description": "플레이리스트 영상 정보 : https://youtu.be/JI8uRSq-k0k [MV] Car, the garden(카더가든) _ Memorize Our Night(우리의 밤을 외워요) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MqSa1Xb2QFc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MqSa1Xb2QFc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MqSa1Xb2QFc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-29T14:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "no7XIhn0Q1Ar-yC6jKNTfcpTH1o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_j9MnO2tCCo"
+      },
+      "snippet": {
+        "publishedAt": "2020-10-17T09:15:01Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 마! 이게 K-캐롤이다 ! 국내 크리스마스 캐롤 플레이리스트",
+        "description": "00:00 성시경, 박효신, 이석훈, 서인국, vixx - 크리스마스니까 03:42 첫 눈 - Exo 07:10 아이유 - 미리 메리 크리스마스 11:40 12월의 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_j9MnO2tCCo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_j9MnO2tCCo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_j9MnO2tCCo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-10-17T09:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NWXP7pgcizzl7h9geHFHXyUoifk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "22TSM-11unU"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-02T14:00:01Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 빈티지 재즈 크리스마스 캐롤",
+        "description": "사진 정보 : 해당 영상은 수익을 창출하지 않습니다. 자동으로 붙은 영상 내 광고 수익은 원저작권자에게 돌아갑니다. 영상 내 삽입된 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/22TSM-11unU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/22TSM-11unU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/22TSM-11unU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-02T14:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vr8g5QY9zGZy5sFOs1I3xIX9Wkg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0jjKWMtlJpE"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-22T14:00:00Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 우리가 헤어진 건 다 내 오만이었다.",
+        "description": "플레이리스트 영상 정보 : 드라마 '그 해 우리는' 영상 내 삽입된 광고들은 제가 넣은 것이 아닌 유튜브 측에서 넣은 것이므로 저에게 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0jjKWMtlJpE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0jjKWMtlJpE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0jjKWMtlJpE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-22T14:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Tt_WNEJFXpYeyEXzVUldmGKmtCQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iFuNwz3WrcU"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-11T14:00:19Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 네가 날 사랑하는 걸 보고 싶었나 봐",
+        "description": "플레이리스트 영상 정보 : 드라마 '그 해 우리는' 영상 내 삽입된 광고들은 제가 넣은 것이 아닌 유튜브 측에서 넣은 것이므로 저에게 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iFuNwz3WrcU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iFuNwz3WrcU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iFuNwz3WrcU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-11T14:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "K5zkqXhkf0Yd0cdklEW2_bOQJVU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VWCEMYDWlUI"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-14T14:00:29Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 넌 겨울이 오면 어김없이 따뜻하고 다정한 노래를 틀었지",
+        "description": "플레이리스트 이 영상은 EMA의 지원 받아 제작되었습니다. 사진 정보 : 드라마 'First Love 初恋' 자동으로 붙은 영상 내 광고 수익은 원 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VWCEMYDWlUI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VWCEMYDWlUI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VWCEMYDWlUI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-14T14:00:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6yZot9nTcEvwkgTp_QPIkvtzTGQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8ZjPeRE6nyw"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-27T14:00:07Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 네가 제일 좋아하는 겨울에게",
+        "description": "플레이리스트 #겨울 #인디 사진 정보 : 장희령님 영상 내 삽입된 광고들은 제가 넣은 것이 아닌 유튜브 측에서 넣은 것이므로 저에게 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8ZjPeRE6nyw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8ZjPeRE6nyw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8ZjPeRE6nyw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-27T14:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JJ3x4JG0kh0983R5hHd9Jl_rk3Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "atvDxDKYTHk"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-13T14:00:01Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 너처럼 참 예쁘고 해로운 것도 없었지",
+        "description": "플레이리스트 #인디 사진 정보 : 한소희님 영상 내 삽입된 광고들은 제가 넣은 것이 아닌 유튜브 측에서 넣은 것이므로 저에게 들어오는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/atvDxDKYTHk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/atvDxDKYTHk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/atvDxDKYTHk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-13T14:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "w42Zfq4nknmpYj0rerWphKkABDE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oPXp-wmOSnc"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-12T14:00:17Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 몽글몽글하고 따뜻한 크리스마스 캐롤 플레이리스트",
+        "description": "플레이리스트 #크리스마스 #캐롤 사진 정보 : 영상 내 삽입된 광고들은 제가 넣은 것이 아닌 유튜브 측에서 넣은 것이므로 저에게 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oPXp-wmOSnc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oPXp-wmOSnc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oPXp-wmOSnc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-12T14:00:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SCekh84Tq3ORDOHvk7R4Ayy3J7U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6l7-sc8nENo"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-16T14:00:03Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 사랑하는 사람을 만날 확률은 60억 분의 1, 우린 기적과 운명이었고 그건 첫사랑이었다. (First Love 初恋)",
+        "description": "플레이리스트 #jpop 영상 정보 : https://www.youtube.com/watch?v=7U7rb3OXo3c 해당 영상은 수익을 창출하지 않습니다. 자동으로 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6l7-sc8nENo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6l7-sc8nENo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6l7-sc8nENo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-16T14:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jLmW2IzAgzuR7b9fmTZ-nuZMXSw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8pvFm1Zn8T4"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-18T14:00:04Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 우린 불필요한 사랑을 했고 쓸모없는 감정을 나눴던 거야",
+        "description": "플레이리스트 영상 정보 : https://youtu.be/B22UWVJUeBM [MV] Car, the garden(카더가든) _ Doesn't matter(아무렇지 않은 사람) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8pvFm1Zn8T4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8pvFm1Zn8T4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8pvFm1Zn8T4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-18T14:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "x3K20lzF4xAXL0TGbS2CWU-OFLs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aQEXzrO_eJI"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-17T14:00:00Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 애인은 기간제 베프다.",
+        "description": "플레이리스트 #인디 영상 정보 : https://youtu.be/cHkDZ1ekB9U [MV] Car, the garden - tree 영상 내 삽입된 광고들은 제가 넣은 것이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aQEXzrO_eJI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aQEXzrO_eJI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aQEXzrO_eJI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-17T14:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "J8GCt5aLkI8SlEBuD50JgPckgvs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "i6KmkYGT018"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-17T14:00:25Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 젊음은 서툴고 투박해야 하며 사랑은 해맑고 촌스러워야 한다.",
+        "description": "사진 정보 : 박유림님 해당 영상은 수익을 창출하지 않습니다. 자동으로 붙은 영상 내 광고 수익은 원저작권자에게 돌아갑니다. 영상 내 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/i6KmkYGT018/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/i6KmkYGT018/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/i6KmkYGT018/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-17T14:00:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aSc8hJxqiIsI88t2Y56psnWIgWI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2og7VzM8Yss"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-10T14:00:04Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 가끔 너와의 재회를 상상하곤 해",
+        "description": "플레이리스트 사진 정보 : 아이유님 나는 가끔 너와의 재회를 상상하곤 한다. 우리가 함께 걷던 연남동, 다정하게 날 봐주던 너의 두 눈, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2og7VzM8Yss/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2og7VzM8Yss/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2og7VzM8Yss/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-10T14:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "f0M-PmwX-jmwSHg2vdizIp5opFs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MkN_UyQ5JlA"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-23T14:00:08Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 내가 이 노래를 듣는 이유가 단지 너 하나 뿐인 게",
+        "description": "플레이리스트 사진 정보 : 미노이님 영상 내 삽입된 광고들은 제가 넣은 것이 아닌 유튜브 측에서 넣은 것이므로 저에게 들어오는 수익 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MkN_UyQ5JlA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MkN_UyQ5JlA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MkN_UyQ5JlA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-23T14:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fYzVHlWsEfLjCXmskHwml19IopM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-0qKNcz7XEU"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-05T14:00:00Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 나의 기쁨 나의 노래야",
+        "description": "사진 정보 : atonement (2007) 해당 영상은 수익을 창출하지 않습니다. 자동으로 붙은 영상 내 광고 수익은 원저작권자에게 돌아갑니다 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-0qKNcz7XEU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-0qKNcz7XEU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-0qKNcz7XEU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-05T14:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3677nS2GYOKgehyVhIXm8-cZN3U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uvC-spgGsDI"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-27T15:00:35Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 사랑 빼곤 멋도 없는 사람일 뿐야",
+        "description": "플레이리스트 #최유리 #인디 사진 정보 : 예리님 영상 내 삽입된 광고들은 제가 넣은 것이 아닌 유튜브 측에서 넣은 것이므로 저에게 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uvC-spgGsDI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uvC-spgGsDI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uvC-spgGsDI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-27T15:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "odIUgZ8drAY_zWzdBK8wI7AZp04",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jrz-MQjy2fU"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-24T14:00:18Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 사랑은 취급주의",
+        "description": "플레이리스트 #인디 사진 정보 : 한소희님 영상 내 삽입된 광고들은 제가 넣은 것이 아닌 유튜브 측에서 넣은 것이므로 저에게 들어오는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jrz-MQjy2fU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jrz-MQjy2fU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jrz-MQjy2fU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-24T14:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "886ZPxsfs8DOfeEeS_nUR_AIe-8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kgvLuzhQjhI"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-22T14:00:20Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 내 사랑은 일방통행",
+        "description": "플레이리스트 #인디 사진 정보 : 로제님 영상 내 삽입된 광고들은 제가 넣은 것이 아닌 유튜브 측에서 넣은 것이므로 저에게 들어오는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kgvLuzhQjhI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kgvLuzhQjhI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kgvLuzhQjhI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-22T14:00:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xTie-pxCVGrUAiBIcFtNEWIhQ5c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pbTYR-URT9A"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-15T14:00:20Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 나는 구닥다리 사랑꾼이니까요.",
+        "description": "플레이리스트 사진 정보 : 아이린님 해당 영상은 수익을 창출하지 않습니다. 자동으로 붙은 영상 내 광고 수익은 원저작권자에게 돌아 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pbTYR-URT9A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pbTYR-URT9A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pbTYR-URT9A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-15T14:00:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7KFCSt-jbAK_2YbKiZen-ld-b40",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qUGB_0ih3Qc"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-20T14:00:34Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "새벽 일기",
+        "description": "zunhozoon - message in a bottle.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qUGB_0ih3Qc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qUGB_0ih3Qc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qUGB_0ih3Qc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-20T14:00:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UZpDQPoqA-02SNFx_FwbE-VkHgc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4ApD_NF4rTo"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-04T14:00:03Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 그대가 그리워서 만든 플레이리스트",
+        "description": "플레이리스트 #인디 사진 정보 : 한소희님 영상 내 삽입된 광고들은 제가 넣은 것이 아닌 유튜브 측에서 넣은 것이므로 저에게 들어오는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4ApD_NF4rTo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4ApD_NF4rTo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4ApD_NF4rTo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-04T14:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fTirC7vGC3PGfU3_6PWb5SpSv24",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gmBxSKGyP9I"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-08T12:00:32Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "우리는 사랑 아니면 오사카겠지 #1",
+        "description": "Yerin Baek - LA LA LA LOVE SONG instagram : mmmusiclife.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gmBxSKGyP9I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gmBxSKGyP9I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gmBxSKGyP9I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-08T12:00:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-AAtghPYpZWnopNEpzUudm-FSTM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uvzlYQNOUCM"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-19T14:00:29Z",
+        "channelId": "UCjIfXBwSHmCzbdb5fDvUEEg",
+        "title": "[playlist] 이별에 가장 좋은 처방은 시간이다.",
+        "description": "플레이리스트 이 영상은 제작비를 지원 받아 제작되었습니다. 사진 정보 : 이시하라 사토미 자동으로 붙은 영상 내 광고 수익은 원 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uvzlYQNOUCM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uvzlYQNOUCM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uvzlYQNOUCM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Music is My Life",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-19T14:00:29Z"
+      }
+    }
+  ]
+}

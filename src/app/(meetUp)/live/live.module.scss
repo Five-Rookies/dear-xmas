@@ -1,0 +1,118 @@
+.container {
+  h1 {
+    font-size: 1.85rem;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+  }
+
+  .liveDelayBtn {
+    background-color: #eee;
+    color: #999;
+    border-radius: 10rem;
+    font-weight: 800;
+    padding: 0 1rem;
+    text-align: center;
+    height: 2rem;
+  }
+  .liveEndBtn {
+    background-color: #ffdcdc;
+    color: #da3017;
+    border-radius: 10rem;
+    font-weight: 800;
+    padding: 0 1rem;
+    text-align: center;
+    height: 2rem;
+  }
+}
+
+// LiveStream
+.liveBox {
+  display: flex;
+  justify-content: space-between;
+
+  .liveStreamContainer {
+    width: 65%;
+    height: 70vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    .liveStreamBox {
+      width: 100%;
+      image {
+        width: 100%;
+      }
+      .liveVideo {
+        height: 70vh;
+        width: 100%;
+        iframe {
+          height: 70vh;
+        }
+      }
+    }
+  }
+
+  .liveChatContainer {
+    border: 1px solid #eee;
+    width: 34%;
+    height: 70vh;
+    padding: 2rem 1.5rem;
+    .createChat {
+      display: flex;
+      margin-bottom: 1rem;
+      input {
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        background-color: #f8f8f8;
+        border-radius: 50px;
+        width: 100%;
+        margin-left: 1rem;
+        padding: 0.5rem 1rem;
+      }
+      img {
+        width: 2rem;
+      }
+    }
+    .liveChat {
+      display: flex;
+      flex-direction: column;
+      height: 90%;
+      overflow-y: scroll;
+
+      .liveChatBox {
+        display: flex;
+        align-items: center;
+        margin: 0.5rem 0;
+        font-size: 1rem;
+        img {
+          width: 2rem;
+        }
+        .userName {
+          color: #999;
+          margin: 0 1rem;
+          white-space: nowrap;
+        }
+        .startTime {
+          text-decoration: underline;
+          color: #da3017;
+          white-space: pre-wrap;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .liveBox {
+    display: block;
+    .liveStreamContainer {
+      width: 100%;
+    }
+    .liveChatContainer {
+      width: 100%;
+      height: 40vh;
+    }
+  }
+}

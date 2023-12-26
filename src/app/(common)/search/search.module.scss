@@ -1,0 +1,43 @@
+.NoResult {
+  text-align: center;
+  position: relative;
+  background-color: var(--color-error-bg);
+
+  height: 100vh;
+  div {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-54%, -50%);
+    p.tag {
+      display: inline-block;
+      padding: 0.5rem 0.8rem;
+      color: #da3017;
+      font-weight: 800;
+      border-radius: 20rem;
+      background-color: #ffdcdc;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin: 1rem 0 1rem;
+    }
+    p.tryAnotherKeword {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin: 1rem 0 3rem;
+    }
+    img {
+      width: 25rem;
+      margin: 5rem 0 3rem 0;
+      display: block;
+      // margin-bottom: 2rem;
+    }
+    a {
+      text-decoration: underline;
+      font-weight: 500;
+      color: var(--color-text);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}

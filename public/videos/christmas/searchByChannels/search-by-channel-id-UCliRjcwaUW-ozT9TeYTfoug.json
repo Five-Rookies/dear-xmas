@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "hVFYF6Y9fl96OSJt6q6A1MYzdHg",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 332,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "B0TyM_GNxtcKNjXzwU1lOq-rA18",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uEC3zTHvVhA"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-09T13:26:22Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "🔥해외에서 난리난 화제의 그 애니 OST : Kenshi Yonezu - KICK BACK [가사/해석/번역/lyrics]",
+        "description": "저번에 올렸던 너의 이름은 OST가 반응이 좋아서 한 곡 더 들고 왔습니다 제가 좋아하는 요네즈 켄시의 노래예요! 솔직히 처음 들었을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uEC3zTHvVhA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uEC3zTHvVhA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uEC3zTHvVhA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-09T13:26:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "O89kyNSzC86R8UMDWPE9oIGINxU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oxHgNcitd5w"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-28T14:52:05Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "😈듣는 순간 세상 치명적인 척 쌉가능 : 𝐂𝐚𝐭 &amp; 𝐂𝐚𝐥𝐦𝐞𝐥𝐥 - 𝐝𝐫𝐚𝐦𝐚𝐭𝐢𝐜 [가사/해석/한국어/lyrics]",
+        "description": "딱 듣고 마마무같다 생각했는데 사람 생각은 다 비슷한가 봐요 *Sponsored by Universal Music Korea 구독과 좋아요는 큰 힘이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oxHgNcitd5w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oxHgNcitd5w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oxHgNcitd5w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-28T14:52:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3TvWX4qdh2pmU1t9eqgC5CHzU9Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "INak4ORss18"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-17T10:16:53Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "🔥탑건: 매버릭OST| 탑건 해변가 그 노래 : OneRepublic - I Ain’t Worried [가사/해석/번역/lyrics]",
+        "description": "Sponsored by Universal Music Korea 구독과 좋아요는 큰 힘이 됩니다 ❤️ (Don't forget to subscribe, like and leave a comment ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/INak4ORss18/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/INak4ORss18/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/INak4ORss18/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-17T10:16:53Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-fQyYGTRdPuKPrau61_MzRAZxW4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iElVEUXfC4o"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-20T13:21:48Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "❤️\u200d🔥계속 생각날 미친 도입부, Stela Cole - I Shot Cupid [가사/해석/번역/lyrics]",
+        "description": "그동안 스포티파이에서만 듣던 그 노래, 드디어 국내 음원사이트에 떴습니다... 멜론, 지니, 벅스, VIBE, FLO 등 국내 모든 음원 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iElVEUXfC4o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iElVEUXfC4o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iElVEUXfC4o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-20T13:21:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vrGmHiTXPTOv6zh-NqB4YmwkhrY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6d9rxJoYZ6k"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-17T12:42:38Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "🌟너만 빼고 다 아는 노래, vaultboy - everything sucks (Ft. Eric Nam) [가사/해석/번역/lyrics]",
+        "description": "제작비 지원을 받아 제작되었습니다. 구독과 좋아요는 큰 힘이 됩니다 ❤️ (Don't forget to subscribe, like and leave a comment ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6d9rxJoYZ6k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6d9rxJoYZ6k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6d9rxJoYZ6k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-17T12:42:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZBlKxel2EM25rXJCbtZ3ZEMD7_s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "X7T2ROU9yzg"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-17T11:33:28Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "⭐마음이 몽글몽글해지는 팝송, Sabai - Million Days (feat. Hoang &amp; Claire Ridgely) (Acoustic) [가사/해석/번역/lyrics]",
+        "description": "구독과 좋아요는 큰 힘이 됩니다 ❤️ (Don't forget to subscribe, like and leave a comment ❤️) 영상출처: 목소리의 형태 (A Silent ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/X7T2ROU9yzg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/X7T2ROU9yzg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/X7T2ROU9yzg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-17T11:33:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "V8A0CY-crWda43fkEdLwl0c8pIA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Eb9KHFx5p34"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-12T14:22:19Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "🔥롤 아케인 OST | 팀을 승리로 이끌 노래 : Imagine Dragons &amp; JID - Enemy [가사/해석/번역/lyrics]",
+        "description": "유니버설 뮤직 코리아의 지원을 받아 제작되었습니다. 구독과 좋아요는 큰 힘이 됩니다 ❤️ (Don't forget to subscribe, like and ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Eb9KHFx5p34/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Eb9KHFx5p34/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Eb9KHFx5p34/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-12T14:22:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "01EFcgn7WRVx_GxXTnkGM6p2jXU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MqLUNd1WMOM"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-08T15:55:25Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "아는 사람은 다 아는 눈물의 띵곡 : Sasha Alex Sloan(사샤 슬론) - Dancing With Your Ghost [가사/해석/번역/lyrics]",
+        "description": "+)이제 보니 제가 시제를 바꿔서 해석했네요 단지 남들보다 보기 힘든 그대였다고 단지 남들보다 보기 힘든 그대라고가 맞을 것 같아요 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MqLUNd1WMOM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MqLUNd1WMOM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MqLUNd1WMOM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-08T15:55:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DENTGeznD0fkrWP0KBD6I1aFfTg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kIjUfXfJjGU"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-22T13:42:19Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "🔥마블덕후들 오열할 영상 : Sia - Unstoppable [가사/해석/한국어/lyrics]",
+        "description": "이 노래를 듣자마자 이건 마블이다! 싶었는데 이미 해외에선 꽤나 유명한 조합이더라고요   아무리 머리를 굴려봐도 마블만큼 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kIjUfXfJjGU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kIjUfXfJjGU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kIjUfXfJjGU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-22T13:42:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Dxo7VGe68OYKI_FViJWKmlXwl9U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CY07zwt5MIE"
+      },
+      "snippet": {
+        "publishedAt": "2020-09-02T12:26:25Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "🔥본격 동심 파괴 노래, Salem ilese - Mad at Disney (가사/해석/번역/lyrics)",
+        "description": "구독과 좋아요는 큰 힘이 됩니다 ❤️ (Don't forget to subscribe, like and leave a comment ❤️) 영상출처: 백설공주와 일곱 난쟁이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CY07zwt5MIE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CY07zwt5MIE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CY07zwt5MIE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-09-02T12:26:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OuzNcHeixh95RN2BYBcpx0-uLoU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_HpWVbImZQQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-21T12:21:46Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "🔥전 세계가 기다린 그의 신곡🔥 Charlie Puth(찰리 푸스) - Light Switch [가사/해석/한국어/lyrics]",
+        "description": "워너 뮤직 코리아의 지원을 받아 제작 구독과 좋아요는 큰 힘이 됩니다 ❤️ (Don't forget to subscribe, like and leave a comment ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_HpWVbImZQQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_HpWVbImZQQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_HpWVbImZQQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-21T12:21:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aWhj1vKMcv2Uc-9ly2yyf2WMn0c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EBMwWyAPtmI"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-23T14:58:31Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "🔥혼자 듣기 아쉬운 노래, Stellar - Ashes (가사/해석/번역/lyrics)",
+        "description": "구독과 좋아요는 큰 힘이 됩니다 ❤️ (Don't forget to subscribe, like and leave a comment ❤️) 영상출처: 레전드 (Legend , 2015) ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EBMwWyAPtmI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EBMwWyAPtmI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EBMwWyAPtmI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-23T14:58:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "b8WDPxlh8wZJvUEBk2rAPlH8PHg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xUhjyZ53cz0"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-28T10:55:05Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "💜당신의 취향을 저격할 노래 : GAYLE - abcdefu [가사/해석/번역/lyrics]",
+        "description": "+) 헐 이 영상 천만 뷰 넘었네요... 세상일이란 게 참 신기한 거 같아요 이 영상 업로드할 때만 해도 원곡 조회 수 10만도 안됐었는데 지금 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xUhjyZ53cz0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xUhjyZ53cz0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xUhjyZ53cz0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-28T10:55:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "35N-k-eN-ztTfIQMPGhMzok9GaY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "asM4XwTS0lM"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-24T16:00:46Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "✨음원차트 찢어놓을 역대급 조합 : Charlie Puth(찰리 푸스) - Left And Right (feat. 정국 of BTS) [가사/해석/번역/lyrics]",
+        "description": "14년도에 BTS 상남자 하루에 100번씩 듣던 게 엊그제 같은데 벌써 2022년이고 정국은 찰리와 콜라보를 하네요 구독과 좋아요는 큰 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/asM4XwTS0lM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/asM4XwTS0lM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/asM4XwTS0lM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-24T16:00:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3myF5dky73FGP3bjzSLo0aF_2eE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QYyyKLgXEwE"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-22T14:54:58Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "👑 내게 완벽을 바란다면, 𝑩𝒆𝒍𝒍𝒂 𝑷𝒐𝒂𝒓𝒄𝒉(벨라 포치) - 𝑩𝒖𝒊𝒍𝒅 𝒂 𝑩*𝒕𝒄𝒉 [가사/해석/번역/lyrics]",
+        "description": "워너 뮤직 코리아의 지원을 받아 제작되었습니다. 구독과 좋아요는 큰 힘이 됩니다 ❤️ (Don't forget to subscribe, like and leave a ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QYyyKLgXEwE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QYyyKLgXEwE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QYyyKLgXEwE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-22T14:54:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2qVqfgmnIiAJBxNdoQmkA36IsGs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KmnxtDu5TOE"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-06T14:57:01Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "🔥 ㅈㄴ강해지는 노래 : Kelly Clarkson - Stronger [가사/해석/한국어/lyrics]",
+        "description": "영화 거의 10개 가까이 써서 편집하는데 죽는 줄... 아이언맨 2랑 블랙 위도우랑 10년 정도 차이 나다 보니까 화질 차이가 많이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KmnxtDu5TOE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KmnxtDu5TOE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KmnxtDu5TOE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-06T14:57:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "l7Jbq-DLFL_Yv8ND0TwC8S3t0dE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "i8Cf8V1KC6g"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-28T13:23:10Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "✨릴스보다가 제목 찾는다는 그 노래 : Mina Okabe - Every Second [가사/해석/번역/lyrics]",
+        "description": "요즘 인스타 켜면 이 노래만 나와... *Sponsored by Universal Music Korea 구독과 좋아요는 큰 힘이 됩니다 ❤️ (Don't forget to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/i8Cf8V1KC6g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/i8Cf8V1KC6g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/i8Cf8V1KC6g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-28T13:23:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zfDy6-e_swuqTQRLDjPZgg-3m3U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UGOXdPtipxE"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-26T04:46:07Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "🔥멈춰있던 심장을 뛰게 할 노래, Sam Ryder - Tiny Riot [가사/해석/번역/lyrics]",
+        "description": "워너 뮤직 코리아의 지원을 받아 제작되었습니다. 구독과 좋아요는 큰 힘이 됩니다 ❤️ (Don't forget to subscribe, like and leave a ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UGOXdPtipxE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UGOXdPtipxE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UGOXdPtipxE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-26T04:46:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lv7arrtIr81MLjHNKmtdUneKIOg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Cx6CBCYyJp8"
+      },
+      "snippet": {
+        "publishedAt": "2020-09-01T17:24:08Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "네가 날 좋아할 리 없잖아, Conan Gray (코난 그레이) - Heather [가사/해석/번역/lyrics]",
+        "description": "구독과 좋아요는 큰 힘이 됩니다 ❤️ (Don't forget to subscribe, like and leave a comment ❤️) 영상출처: 로미오와 줄리엣 (Romeo ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Cx6CBCYyJp8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Cx6CBCYyJp8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Cx6CBCYyJp8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-09-01T17:24:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "StbUCzrmy3Xb4hHtS9wvWqaeWJQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "by3y7iAuqaY"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-18T14:27:04Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "악마는 협상따윈 하지 않아 : Alec Benjamin - Devil Doesn&#39;t Bargain [가사/해석/번역/lyrics]",
+        "description": "+)듄 맞아요... 전 영상 복붙해서 잘못 들어갔네요 ㅠㅠ 내 기준 미성 음색 1티어 *Sponsored by Warner Music Korea 구독과 좋아요 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/by3y7iAuqaY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/by3y7iAuqaY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/by3y7iAuqaY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-18T14:27:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DO6Sw3R5dRGTO40SbympmkMePvE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OMRZevAb_jU"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-16T15:22:03Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "🏆빌보드 15주 1위, 22년도 최고의 히트곡 : Harry Styles - As It Was [가사/해석/번역/lyrics]",
+        "description": "4월 1일 발매된 해리 스타일스 선공개 곡 As It Was입니다. 좀 더 빨리 들고 오고 싶었는데 개인 사정도 있었고 영화를 몇 번 바꿔 만든 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OMRZevAb_jU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OMRZevAb_jU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OMRZevAb_jU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-16T15:22:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eJ2r8gbP26dC-68ixegb8SdrQaE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "u9DJJa2P_Fc"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-20T16:06:12Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "✨7년만에 역주행하는 개띵곡 : The Walters - I Love You So [가사/해석/번역/lyrics]",
+        "description": "저 특유의 지브리 감성 너무 좋지 않나요? 지브리 다른 영화로 작업한 영상들 [센과 치히로의 행방불명] Katie Sky - Monsters ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u9DJJa2P_Fc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u9DJJa2P_Fc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u9DJJa2P_Fc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-20T16:06:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Nf-fsZtD9Yrcwc1NqglPijfPYn0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XtjGvOAov7s"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-12T05:21:13Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "🍧캡사이신을 살짝 곁들인 솜사탕 맛, Doja Cat - Kiss Me More (ft. SZA) [가사/해석/번역/lyrics]",
+        "description": "소니 뮤직 코리아의 지원을 받아 제작되었습니다. 구독과 좋아요는 큰 힘이 됩니다 ❤️ (Don't forget to subscribe, like and leave a ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XtjGvOAov7s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XtjGvOAov7s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XtjGvOAov7s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-12T05:21:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7I0c7zTn5GIMrsS8n0BzdSLnwOg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OaqCq1k5EPA"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-25T13:44:15Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "⭐️도입부터 지리는 인생 띵곡 : Tai Verdes - LAst dAy oN EaRTh [가사/해석/번역/lyrics]",
+        "description": "여러분 요즘 같은 영상이 자주 올라오죠…?   유튜브 문제인지 렌더링 문제인지 모르겠으나, 업로드한 후에 영상의 화질이 계속 깨지 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OaqCq1k5EPA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OaqCq1k5EPA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OaqCq1k5EPA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-25T13:44:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hnuyUawijcjfB6nfbzNP8CZZ2uE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1t_1MkFZAOU"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-26T13:48:53Z",
+        "channelId": "UCliRjcwaUW-ozT9TeYTfoug",
+        "title": "🌙 뒤로 갈수록 극락인 띵곡 : Conan Gray(코난 그레이) - Memories [가사/해석/번역/lyrics]",
+        "description": "제가 정말 너무 X100 좋아하는 코난 그레이의 신곡이예요! 개인적으로 이번 신곡 Heather만큼 좋은 것 같아요... 코난 그레이 다른 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1t_1MkFZAOU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1t_1MkFZAOU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1t_1MkFZAOU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "쏘플 soso playlist",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-26T13:48:53Z"
+      }
+    }
+  ]
+}

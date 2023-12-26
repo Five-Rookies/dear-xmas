@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "LWH-dsob0pxjMVid1vQkWjvlwUk",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 280,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WSdEtgE-FWVElCkSAZ9EjPkP_WU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ofNzI5b03KA"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-08T16:23:56Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "💰돈을 부르는 재즈BGM l ❗️ 중간광고없음 l 카페재즈BGM , 재즈BGM l Cafe Jazz BGM",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Song ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ofNzI5b03KA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ofNzI5b03KA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ofNzI5b03KA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-08T16:23:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "93jD9MzAmjwoQJP6HtrEYJ5FqGg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yU19mWfCIdg"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-01T23:00:16Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "💖이제 일할 맛 나네💖  l Office Jazz l Relaxing Jazz Piano Music l 사무실재즈, 카페재즈, 매장음악, 라운지재즈",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Song List 00:01 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yU19mWfCIdg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yU19mWfCIdg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yU19mWfCIdg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-01T23:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UO_rm1WW-kfb8TyFttSxRH8B7Ic",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9CTLzRWGjdk"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-10T16:53:48Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "(중간광고❌ )🏄🏻\u200d♂️방구석 해변음악(망할코로나😡) l 카페음악, 매장음악 l Guitar Bossanova Music l relaxing jazz piano music",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Guitar By 김경모 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9CTLzRWGjdk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9CTLzRWGjdk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9CTLzRWGjdk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-10T16:53:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WKVRVYF2dZ9aOpxJagR5b3twXYE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bDuq2QKhQiI"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-06T23:00:22Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "[𝐇𝐎𝐓𝐄𝐋 𝐉𝐀𝐙𝐙] 💸돈을 부르는 재즈비지엠 ℙ𝔸ℝ𝕋 𝟚 😎😎😎😎 l 중간광고없음❌ l 카페재즈, CAFE JAZZ BGM",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Song ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bDuq2QKhQiI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bDuq2QKhQiI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bDuq2QKhQiI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-06T23:00:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sApsX0JDaWU8XcTqAk3-I7VJnuA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BcbmFxbdsJ0"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-06T05:31:10Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "☕️ 뭐지? 나 스타벅스 언제왔지? 🤭 l 중간 광고 없는❗️ 매장 음악, 카페 음악 l starbucks jazz piano music",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Song ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BcbmFxbdsJ0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BcbmFxbdsJ0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BcbmFxbdsJ0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-06T05:31:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "grXSG1d0cK_t9KvzhHsyoi6KidE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "86gToHFkbiU"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-06T02:37:20Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "💓스타벅스 매장음악 ( 중간광고없음❗️) / Starbucks Jazz Piano Music / 카페음악, 매장음악, 라운지음악",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) ✨CAFE&JAZZ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/86gToHFkbiU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/86gToHFkbiU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/86gToHFkbiU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-06T02:37:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KtlO9cJv8O1TaYvgQg_7RJkGDSM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "y3kZxoUltLM"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-09T23:30:11Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "[𝐎𝐅𝐅𝐈𝐂𝐄 𝐉𝐀𝐙𝐙] 사무실에 이 음악 틀어놓으면 칼퇴각‼️l 𝐅𝐔𝐍𝐊 𝐉𝐀𝐙𝐙 𝐏𝐈𝐀𝐍𝐎 𝐌𝐔𝐒𝐈𝐂😎",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Song ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/y3kZxoUltLM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/y3kZxoUltLM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/y3kZxoUltLM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-09T23:30:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SyYjNy2vHvuwMGduIYNjW7yBTvs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "R2sYaJyFETM"
+      },
+      "snippet": {
+        "publishedAt": "2021-01-19T14:29:58Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "🥤 카페에서 듣기 좋은 포근한 보사노바 재즈 음악 l 카페음악, 매장음악, 라운지음악 l Jazz Piano Music",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Song ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/R2sYaJyFETM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/R2sYaJyFETM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/R2sYaJyFETM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-01-19T14:29:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vFYSw_QVjDZDoqcLuR6ZV9edkdc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4q4vpQCIZ6w"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-06T23:00:01Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "🌉 맨해튼 안가봤으면 이 음악 PICK❗️l Manhattan Jazz 💖 l 카페재즈,매장음악 l Relaxing Jazz Piano Music",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) ✨CAFE&JAZZ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4q4vpQCIZ6w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4q4vpQCIZ6w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4q4vpQCIZ6w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-06T23:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZdnpFu1w_YaYre8-wosBNDgRVao",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "U06POC1ztgM"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-24T00:55:26Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "😁이 음악보다 카페에 어울리는 음악은 없을걸❓❓l STARBUCKS JAZZ PIANO MUSIC l 카페음악, 매장음악",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Sogn List   00:01 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/U06POC1ztgM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/U06POC1ztgM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/U06POC1ztgM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-24T00:55:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iZBocCcUzeIpokzkrI4V1DKzHr0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mgBFGwsmdOQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-16T23:15:01Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "🚖 뉴욕 거리 안가봤으면 이 음악 PICK❗️l 차분한 감성의 뉴욕재즈💓 l 카페재즈,매장음악 l Relaxing Jazz Piano Music",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) ✨CAFE&JAZZ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mgBFGwsmdOQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mgBFGwsmdOQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mgBFGwsmdOQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-16T23:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OFH9_9pY-WBq-DChwruF46nwDRs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "c_j1DlJblGs"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-25T23:00:12Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "[𝐒𝐔𝐍𝐒𝐇𝐈𝐍𝐄 𝐉𝐀𝐙𝐙] 오늘은 기분이 좋아~ 랄랄라랄랄랄랄라🎵😎 l 기분좋은 아침, 재즈와 함께💖 l Relaxing Jazz Piano Music",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Song ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/c_j1DlJblGs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/c_j1DlJblGs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/c_j1DlJblGs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-25T23:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mb-KsashTHU5i0YUFpS9hUqVJ08",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "f3m_WqxhL4o"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-09T23:15:00Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "🎥전 세계 사람들이 다 알만한 영화 OST 피아노 연주 모음 l Relaxing Jazz Piano Music l 카페재즈, 매장음악 l 중간광고없음❌",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Song List 00:01 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/f3m_WqxhL4o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/f3m_WqxhL4o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/f3m_WqxhL4o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-09T23:15:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zeGip80xdylrUVAfL7lOmWJEaTM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Sm80PTHRgkU"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-19T23:15:01Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "🎄크리스마스엔 캐롤이지😎 l 𝐉𝐚𝐳𝐳 𝐂𝐡𝐫𝐢𝐬𝐭𝐦𝐚𝐬 𝐂𝐚𝐫𝐨𝐥 𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 l 중간광고없음❌",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Song ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Sm80PTHRgkU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Sm80PTHRgkU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Sm80PTHRgkU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-19T23:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "O5yoc_U2RVBCTPd0gN2WkYLCHyg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QiEac4VWZgg"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-27T23:15:00Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "[𝐂𝐡𝐫𝐢𝐬𝐭𝐦𝐚𝐬 𝐂𝐚𝐫𝐨𝐥] 연말 분위기 나는 경쾌한 느낌의 재즈 크리스마스 캐롤🎄☃️Christmas Carol Jazz Piano Background Music for U💕",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Song ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QiEac4VWZgg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QiEac4VWZgg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QiEac4VWZgg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-27T23:15:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "N4CZXj0RwdltQSQqizF05NpzSG8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cp4aUznNvJ0"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-21T22:30:09Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "[𝐖𝐎𝐑𝐊&amp;𝐒𝐓𝐔𝐃𝐘 𝐉𝐀𝐙𝐙] 조용한 방안에서 혼자 일할 때 듣기 좋은 재즈플리💖 집중력을 최대치로 끌어올려주는 재즈노동요💻 l 𝙅𝙖𝙯𝙯 𝙋𝙞𝙖𝙣𝙤 𝙈𝙪𝙨𝙞𝙘 𝙛𝙤𝙧 𝙁𝙤𝙘𝙪𝙨😃",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Song ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cp4aUznNvJ0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cp4aUznNvJ0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cp4aUznNvJ0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-21T22:30:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "l4y_a_79w6HKhgF8GedoaMJzDKU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "b1F2AVsJ05c"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-12T23:15:35Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "🍷고급스러운 분위기에 어울리는 재즈음악 l 호텔 라운지 재즈 , 카페재즈, 매장음악 l Relaxing Jazz Piano Music",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Song List   00:01 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/b1F2AVsJ05c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/b1F2AVsJ05c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/b1F2AVsJ05c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-12T23:15:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "P3nMEuglxUXAvunlrvSk-jDfYzc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jaxvFsJrsxw"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-02T04:28:30Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "𝙄𝙣 𝙖 𝙎𝙚𝙣𝙩𝙞𝙢𝙚𝙣𝙩𝙖𝙡 𝙈𝙤𝙤𝙙🌙  #shorts #jazz #jazzmusic #cafemusic #jazzpiano #piano",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jaxvFsJrsxw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jaxvFsJrsxw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jaxvFsJrsxw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-02T04:28:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hS0ohFJYjEype4DXSY4L9NoyeqQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7rFtdZv4AZY"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-16T10:10:08Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "🎅🏻  분위기 있는  재즈 크리스마스 캐롤 모음🎅🏻 / 신나는 크리스마스 캐롤 재즈피아노☃️🎄 / Christmas Carol Jazz Piano Music🎹",
+        "description": "모든 음원은 직접 연주한 음원입니다. (All the music is directly performed.) Song List   00:01 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7rFtdZv4AZY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7rFtdZv4AZY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7rFtdZv4AZY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-16T10:10:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "63evdWkt0Wl6vh6BBiVd-77EWTw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fMLgG7fwdFk"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-23T23:00:24Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "[𝐂𝐀𝐅𝐄&amp;𝐉𝐀𝐙𝐙] 여행 중 우연히 들린 카페에서 흘러나오는 𝙅𝘼𝙕𝙕 𝙋𝙇𝘼𝙔𝙇𝙄𝙎𝙏💗",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) (해당 영상은 허가를 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fMLgG7fwdFk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fMLgG7fwdFk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fMLgG7fwdFk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-23T23:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "e2bX_Pu2URNv_pIwPPoJNA6UGIg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZdDdfg6-Z6c"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-22T23:00:31Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "💓디즈니OST 재즈피아노 연주 모음 Part3 (FUNK Ver.)💓l Disney OST Piano Collection Part3l Jazz Piano Music for Cafe",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) ( 영상 내 문제로 인해 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZdDdfg6-Z6c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZdDdfg6-Z6c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZdDdfg6-Z6c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-22T23:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eOuAxJbUuMceFgC186SERB3KjGw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hOJ76cZEt08"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-04T23:15:01Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "[ 𝐍𝐈𝐆𝐇𝐓 𝐉𝐀𝐙𝐙 ] 저녁에 듣기 좋은 잔잔한 재즈플레이리스트🌃 l Romantic Jazz, Relaxing Jazz Piano Music for Good Mood🌠",
+        "description": "모든 음원은 직접 연주한 음원입니다.All the music is directly performed.) Song List   ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hOJ76cZEt08/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hOJ76cZEt08/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hOJ76cZEt08/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-04T23:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "87aYVOBzCEgMptltGv9RwXi16cs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "G7M5dMEsQmE"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-13T23:00:05Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "🏄🏻\u200d♂️무더운 여름, 시원함을 더해줄 재즈비지엠💙 l Summer Jazz l Positive Jazz Piano BGM l Background Piano Music",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) ✨CAFE&JAZZ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/G7M5dMEsQmE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/G7M5dMEsQmE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/G7M5dMEsQmE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-13T23:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wyLGV1Y0foqOJY51ofODL0t_Ujw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EtE09lowIbk"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-22T23:00:04Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "💕디즈니 OST 피아노 연주 모음 Part 2 l Disney OST Piano Collection Part2 l for study, work, focus, relax",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Song List   00:01 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EtE09lowIbk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EtE09lowIbk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EtE09lowIbk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-22T23:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oJi70us4rRlGiE7ybwgm5CQRNMQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cYM7Rpk1wmc"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-26T23:00:28Z",
+        "channelId": "UCBnMxlW70f0SB4ZTJx124lw",
+        "title": "[ 𝐂𝐀𝐅𝐄 &amp; 𝐉𝐀𝐙𝐙 ] 청량한 바다가 보이는 카페 테라스에서 재즈음악 들으며 힐링하기💙 l 카페음악, 매장음악, Relaxing Jazz Music for Cafe",
+        "description": "모든 음원은 직접 연주한 음원입니다.(All the music is directly performed.) Song ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cYM7Rpk1wmc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cYM7Rpk1wmc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cYM7Rpk1wmc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MONKEY BGM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-26T23:00:28Z"
+      }
+    }
+  ]
+}

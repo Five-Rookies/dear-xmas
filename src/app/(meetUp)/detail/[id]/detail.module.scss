@@ -1,0 +1,384 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.8rem;
+  font-size: 1.1rem;
+  button {
+    display: flex;
+    align-items: center;
+    span {
+      color: #da3017;
+      font-size: 1rem;
+      font-weight: 700;
+      padding-top: 0.2rem;
+    }
+
+    img {
+      width: 0.6rem;
+      margin-right: 0.5rem;
+    }
+  }
+  p {
+    font-size: 1rem;
+    padding-top: 0.2rem;
+    &::before {
+      content: '|';
+      color: #999;
+      margin: 0 0.6rem;
+    }
+  }
+  h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.3;
+  }
+}
+
+.titleArea {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.relatedVideoContainer {
+  max-height: 60rem;
+  overflow-y: scroll;
+}
+
+.videoInfoTitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.3;
+  margin-bottom: 1.7rem;
+  width: 73%;
+}
+
+.visualContainer {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 2rem;
+  .visual {
+    display: flex;
+    align-items: center;
+    height: 35rem;
+    background-color: #bbb;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+}
+
+.relatedTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: none;
+}
+
+.list {
+  width: 100%;
+}
+
+.listItem {
+  border: 1px solid #ddd;
+
+  & + & {
+    margin-top: 1rem;
+  }
+  .listLink {
+    text-decoration: none;
+    color: #333;
+
+    .listImg {
+      height: 10.625rem;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    img {
+      height: 100%;
+      &:hover {
+        transform: scale(1.03);
+        transition: all 0.3s ease-in-out;
+      }
+    }
+
+    .listTitleWrap {
+      padding: 0.5rem;
+    }
+
+    .listTitle {
+      font-size: 1.2rem;
+      font-weight: bold;
+      line-height: 1.3;
+      margin: 0.5rem 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+
+    .channelTitle {
+      font-size: 0.9rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+
+.comments {
+  > p {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 3.5rem;
+  }
+  .inputComments {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2.5rem 0 3.5rem 0;
+    img {
+      width: 5%;
+      height: auto;
+    }
+    input {
+      width: 93%;
+      height: 2.6rem;
+      padding: 0 1.2rem;
+      border: none;
+      font-size: 1rem;
+      border-radius: 12rem;
+      background-color: #f8f8f8;
+    }
+  }
+}
+
+.commentContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
+  gap: 0.5rem;
+  position: relative;
+  &:hover {
+    .moreBtn {
+      opacity: 1;
+      &.active {
+        opacity: 1;
+      }
+    }
+  }
+  img {
+    width: 5%;
+    height: 5%;
+  }
+  .commentDetail {
+    width: 100%;
+    margin-left: 1rem;
+    p.userInfo {
+      font-weight: 700;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      span {
+        font-weight: 400;
+        font-size: 1rem;
+        color: #999999;
+      }
+    }
+    p.text {
+      padding: 0.5rem 0;
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+    input.text {
+      border: 0.1rem solid #eee;
+      border-radius: 0.5rem;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      padding: 0.2rem 0.7rem;
+      margin: 1rem 0 1.5rem;
+      margin-right: 0.5rem;
+      width: 87%;
+    }
+    button {
+      img {
+        width: 1.2rem;
+      }
+      display: flex;
+      align-items: center;
+
+      font-size: 1rem;
+      font-weight: bold;
+      &.save_btn {
+        color: #da3017;
+        margin: 1rem 0.5rem 1.5rem;
+      }
+      &.cancle_btn {
+        color: #6d6d6d;
+        margin: 1rem 0.5rem 1.5rem;
+      }
+    }
+  }
+  .moreBtn {
+    cursor: pointer;
+    opacity: 0;
+    font-size: 2rem;
+    padding: 0 2rem 0 0;
+  }
+  .dotMenu {
+    display: inline;
+    z-index: 10;
+    border: 0.1rem solid #ddd;
+    background-color: white;
+    border-radius: 0.3rem;
+    width: 4rem;
+    text-align: center;
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    color: #111;
+    & > * {
+      padding: 0.5rem;
+      box-sizing: border-box;
+      height: 2rem;
+    }
+    :nth-child(2) {
+      border-top: 0.1rem solid #ddd;
+      color: #da3017;
+    }
+  }
+}
+
+.buttonArea {
+  button {
+    width: 17rem;
+    text-align: center;
+  }
+}
+
+.createMeetup {
+  background-color: #da3017;
+  border-radius: 24px;
+  padding: 0.9rem;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  word-wrap: break-word;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: #c72e16;
+  }
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes reduction {
+  0% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.likeOn {
+  animation: pop 0.3s;
+}
+
+.likeOff {
+  animation: reduction 0.3s;
+}
+
+@media (max-width: 1280px) {
+  .detailContainer {
+    padding: 7rem 0.5rem;
+  }
+
+  .buttonArea {
+    button {
+      width: 15rem;
+    }
+  }
+
+  .buttonArea {
+    margin-bottom: 2rem;
+    order: 1;
+  }
+
+  .videoInfoTitle {
+    order: 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .buttonArea {
+    button {
+      width: 10rem;
+      margin-right: 0.7rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .buttonArea {
+    display: flex;
+    justify-content: center;
+
+    button {
+      width: 90vw;
+      margin-right: 0rem;
+    }
+  }
+
+  .visualContainer {
+    display: block;
+  }
+
+  .titleArea {
+    display: block;
+  }
+
+  .videoInfoTitle {
+    width: 100%;
+  }
+
+  .relatedTitle {
+    display: block;
+    margin-top: 1rem;
+  }
+
+  .list {
+    grid-template-columns: repeat(2, calc((100% - 1.25rem) / 2));
+  }
+
+  .listItem {
+    .listLink {
+      .listImg {
+        height: 20.625rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .list {
+    grid-template-columns: repeat(1, 100%);
+    row-gap: 0;
+  }
+}

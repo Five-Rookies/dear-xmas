@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "iSGTAWyW5X6Q7PeT4p64q3rSagc",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 119,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SDdsPMsMODWpr7BZxHNmDRRW-os",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gkwUC8o5Glc"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-16T03:00:28Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 크리스마스 메들리(Christmas Song) | 성탄절 동요 | 크리스마스 동요 모음 | 울면 안 돼 | 루돌프 사슴코 | 징글벨",
+        "description": "안녕하세요? 아이꿈터TV 준PD에요! 함박눈이 펑펑 내리는 화이트 크리스마스를 기원하며 크리스마스 대표 동요 울면 안 돼, 루돌프 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gkwUC8o5Glc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gkwUC8o5Glc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gkwUC8o5Glc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-16T03:00:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DN9YO1dzQIazRFUyXkNqPgN8aOo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PNBrnamAeXs"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-09T04:26:37Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 호빵찐빵ㅣ겨울 손유희 ㅣ호빵송",
+        "description": "안녕하세요? 아이꿈터TV 준PD에요. 오늘은 쉽게 따라할 수 있는 손유희 율동을 준비했어요. 겨울이면 생각나는 호빵! 따뜻한 김이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PNBrnamAeXs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PNBrnamAeXs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PNBrnamAeXs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-09T04:26:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QIHOdodI0sHKBWj6MLN1uWs8f8o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oPd-K76uTpA"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-11T09:04:58Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 수박송 | 여름동요 | 수박송 | #shorts",
+        "description": "안녕하세요? 아이꿈터 TV 준PD에요! 오늘은 여러가지 과일송 중에 여름을 대표하는 과일인 수박송을 준비해 보았어요. 더운 여름!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oPd-K76uTpA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oPd-K76uTpA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oPd-K76uTpA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-11T09:04:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9Zm5dB1zyg6RNvGZZSxGx2xxXLs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ycgnqzB4Vv0"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-01T03:00:36Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와 함께하는 율동요] 마트 예절송ㅣ마트 안전동요ㅣ생활예절ㅣ안전송",
+        "description": "안녕하세요? 아이꿈터 TV 준PD에요! 이꿈이 친구들~ 마트에 갔을 때에는 어떻게 해야 할까요? 장난치거나 다치지 않도록 우리 마트 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ycgnqzB4Vv0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ycgnqzB4Vv0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ycgnqzB4Vv0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-01T03:00:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6IWhkYVpZlaiF5JKNU-3wP7d-2A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oj5u0-1hPOw"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-19T04:32:10Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 수박송 | 여름동요 | 수박송",
+        "description": "안녕하세요? 아이꿈터TV 준PD에요! 오늘은 여러가지 과일송 중에 여름을 대표하는 과일인 수박송을 준비해 보았어요. 더운 여름!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oj5u0-1hPOw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oj5u0-1hPOw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oj5u0-1hPOw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-19T04:32:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "66_0C2meK41EGAiM2R6o2U84C3E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "faS654UPQ2E"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-25T03:00:15Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 뛰는아이들 | 체조송 | 유아체육 | Running Kids | 키 크고 싶은 친구들 여기 여기 모여라 ~~~",
+        "description": "안녕하세요? 아이꿈터TV 준PD에요! 토끼처럼 콩콩! 생쥐처럼 살금~ 공룡처럼 쿵쿵!! 써니 그리고 이꿈이와 함께 신나는 체조를 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/faS654UPQ2E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/faS654UPQ2E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/faS654UPQ2E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-25T03:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vlYqlrDxbjYEmX0WI-Da_zspetc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "V1c3W1eA1Lw"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-13T03:16:15Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 붕어빵 | 가족동요 | 우리 가족은 붕어빵이래요.",
+        "description": "안녕하세요? 아이꿈터TV 준PD에요! 우리 친구들은 겨울에 파는 붕어빵 본 적 있나요? 모두 똑같은 모양이죠? 엄마 아빠와 닮은 아이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/V1c3W1eA1Lw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/V1c3W1eA1Lw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/V1c3W1eA1Lw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-13T03:16:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gUfstSizzfRgVeptM7zBG_dOUXM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Lv_eF06xt6k"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-22T03:00:08Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 사과송 | 과일송 | 아삭아삭 빨간 사과와 함께 신나게 춤 춰봐요",
+        "description": "안녕하세요? 아이꿈터TV 준PD에요! 우리 이꿈이 친구들은 어떤 과일을 좋아하나요? 새콤달콤 딸기, 길쭉길쭉 바나나, 시원한 수박, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Lv_eF06xt6k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Lv_eF06xt6k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Lv_eF06xt6k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-22T03:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "O_OWWKRv8lQmfuSAmjZWQENxK6Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NppEUlS0lVQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-11T03:00:05Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 노랑 병아리 | 삐약삐약 귀여운 병아리처럼 율동을 해봐요!",
+        "description": "안녕하세요? '아이꿈터TV' 준PD에요! 추운 겨울이 지나고 봄이 오고 있어요. 우리 이꿈이 친구들은 '봄' 하면 무슨 색이 가장 먼저 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NppEUlS0lVQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NppEUlS0lVQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NppEUlS0lVQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-11T03:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "H3AbkCyLRosOZv6IVONWjRAAj0k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "s04KvGcEj0o"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-18T03:00:25Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와 함께하는 율동요] 포도송ㅣ과일노래동요ㅣgrape songㅣfruit song",
+        "description": "안녕하세요? 아이꿈터 TV 준PD에요! 오늘은 과일동요 포도송을 재미있게 함께 해봐요 새콤 달콤 땡글 땡글 포도송 출발!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/s04KvGcEj0o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/s04KvGcEj0o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/s04KvGcEj0o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-18T03:00:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TC-MWBGbSz02Wde0bzruDCEFNX4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "50nmA3UQueo"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-29T09:00:06Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는놀이교실]김장송 | 깨끗한 우리 농산물로 만드는 우리 김치! 어떻게 만드는지 써니와 함께 출발해볼까요?",
+        "description": "안녕하세요? '아이꿈터TV' 준PD에요! 오늘의 영상은 깨끗하고 맛좋은 우리 농산물로 김치를 만들어 볼꺼에요. 대한민국 어디서나 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/50nmA3UQueo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/50nmA3UQueo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/50nmA3UQueo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-29T09:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ee6o_IlBWw_QkjpUb92jn3FL4LE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "I2J-8s0vzpA"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-12T03:18:38Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 컵타송 | Nanta with Cup | 컵으로 하는 난타 | 노래에 맞춰 신나게 두드려봐요!",
+        "description": "안녕하세요? 아이꿈터 TV 준PD에요! 오늘은 컵타송을 준비했어요. 컵타가 무엇이냐! 바로 컵으로 하는 난타에요. 한국의 대표적인 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/I2J-8s0vzpA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/I2J-8s0vzpA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/I2J-8s0vzpA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-12T03:18:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TzJD2J9m6lsss5Kj3qdcDqt57Ys",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2jDeK4DHGUw"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-20T09:02:56Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 앵두송ㅣ과일 손유희ㅣ앵두손유희ㅣ겨울과일 딸기 손유희",
+        "description": "안녕하세요? 아이꿈터TV 준PD에요! 오늘은 겨울에 많이 볼 수 있는 과일인 앵두와 딸기 동요를 준비해봤어요. 간단하게 따라할 수 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2jDeK4DHGUw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2jDeK4DHGUw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2jDeK4DHGUw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-20T09:02:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dMWJZSW7cGFcgzFvDf36JF7y9WA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "t2aTxiH0XnU"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-10T03:00:26Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 개구장이 꿀벌 | 곤충송 | 꿀을 찾아 바쁘게 여행하는 꿀벌의 이야기",
+        "description": "안녕하세요? 아이꿈터TV 준PD에요! 이꿈이 친구들은 윙윙윙 바쁘게 날아가는 꿀벌을 본 적이 있나요? 꿀벌 친구들은 바쁘게 어디를 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/t2aTxiH0XnU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/t2aTxiH0XnU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/t2aTxiH0XnU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-10T03:00:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sfFGYSEQBXdXiooj3wrC7S_kYw0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pjL0-CEyGZE"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-14T04:11:05Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 시계송 | 시계 체조 | 시계체조 놀이하며 시계보는 법을 배워봐요!",
+        "description": "안녕하세요? 아이꿈터TV 준PD에요! 째깍째깍 쉬지않고 돌아가는 시계를 율동을 표현해 볼까요? 작은 바늘과 큰 바늘이 가르키는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pjL0-CEyGZE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pjL0-CEyGZE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pjL0-CEyGZE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-14T04:11:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VWCFxayoSB8s1BMnyWe6Xikj1J0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AsZ_-imzSsQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-06T03:00:07Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와 함께하는 율동요] 쥐가 백 마리ㅣ컵타송ㅣNanta with Cupㅣ유아 컵타ㅣ동요와 함께하는 어린이 컵타",
+        "description": "안녕하세요? 아이꿈터 TV 준PD에요! 이꿈이 친구들! 쥐가 백 마리 동요를 부르며 신나고 재밌는 컵타송 함께 해볼까요! 다함께 출발~ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AsZ_-imzSsQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AsZ_-imzSsQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AsZ_-imzSsQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-06T03:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "19Dio573-Ddekx9s4ScHYmkojrw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TjGliEn3dCM"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-17T04:06:55Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 감정송 | 내 마음을 표현해요 | 마음 날씨 | 누리과정",
+        "description": "안녕하세요? 아이꿈터TV 준PD에요! 이꿈이 친구들은 얼마나 다양한 감정들을 표현할 수 있나요? 기쁨, 슬픔, 화남, 놀람 등등 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TjGliEn3dCM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TjGliEn3dCM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TjGliEn3dCM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-17T04:06:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TcvPmHCwAee1Rokar-5eXxhxfQw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9QLrjobNOrQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-13T07:12:19Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 햇님송 |  Song of the Sun | 해의 특징을 알아보자 | Let&#39;s learn about the Sun",
+        "description": "안녕하세요? 아이꿈터TV 준PD에요! 하늘을 밝혀주는 건 무엇일까요? 맞아요 바로 태양! 해에요. 아침에 동쪽 하늘에서 떠올라서 저녁 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9QLrjobNOrQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9QLrjobNOrQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9QLrjobNOrQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-13T07:12:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6fSv9FOrd877dQo-UNwlfVgdEzk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aloZYYQHfno"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-01T03:00:03Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 놀이터송 | 신나는 놀이터 | 놀이터 안전수칙에 대해서 알아보아요",
+        "description": "안녕하세요? 아이꿈터TV 준PD에요! 오늘은 우리 친구들과 놀이터 안전수칙에 대해서 알아볼거에요! 신나고 재미있는 놀이터이지만 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aloZYYQHfno/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aloZYYQHfno/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aloZYYQHfno/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-01T03:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ShwNYxo-sUtt8AlcwklT35xeG8c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YE-CV-OJFME"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-03T03:00:15Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와 함께하는 율동요] 리본체조ㅣ초등표현ㅣ리본체조의 기본동작을 배워봐요ㅣ체육활동ㅣ초등 수행평가ㅣ학습발표회 율동",
+        "description": "안녕하세요? 아이꿈터 TV 준PD에요! 초등학교 표현체육, 리본체조의 기본동작과 예쁜 포즈를 클래식 '고색'의 '가보트' 연주에 맞춰 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YE-CV-OJFME/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YE-CV-OJFME/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YE-CV-OJFME/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-03T03:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UGDNkBAJ0UxfbgKujV0ysGQgjTQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kML-znQccVI"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-17T03:00:31Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 손씻기송 | Wash my hands | 깨끗하게 손을 씻어보아요!",
+        "description": "안녕하세요? 아이꿈터TV 준PD에요. 써니와 함께하는 율동요의 두번째 영상이였던 손씻기송을 기억하시나요? 세균대왕 물리치기 2 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kML-znQccVI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kML-znQccVI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kML-znQccVI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-17T03:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "F810dcu-UOkIQJ_9HVGZ1GIgyOA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J_YcjE2xUZA"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-02T03:42:00Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[추억의재롱잔치Vol.2] 카드캡터체리 | 기억 하시나요? 그때 그 시절 재롱잔치",
+        "description": "안녕하세요? 아이꿈터 TV 준PD에요! 90년대부터 2000년대까지는 유치원 재롱잔치가 가장 큰 행사 중 하나였죠. 그때 그 재롱잔치를 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J_YcjE2xUZA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J_YcjE2xUZA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J_YcjE2xUZA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-02T03:42:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fx574Yhfw_drc4KwcQOY-Uzag5o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "u9Gfkc7TDVs"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-12T04:44:42Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요] 바다송 | 바닷속 여행 | 바닷속에는 어떤 친구들이 살고 있을까",
+        "description": "안녕하세요? 아이꿈터TV 준PD에요! 오늘은 우리 친구들과 바닷속 친구들을 만나러 가볼거에요. 다리가 8개 있는 문어 땅에서는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u9Gfkc7TDVs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u9Gfkc7TDVs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u9Gfkc7TDVs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-12T04:44:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oISCAoP4mnpQlkHZ56esTerYZhc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4QpxA0PhF98"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-06T01:19:54Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와함께하는율동요]손씻기송 | 세균대왕을 무찌르자! 다같이 손씻으러 가자!!",
+        "description": "안녕하세요? '아이꿈터TV' 준대리에요! 오늘의 영상은 세균대왕 무찌르기 2단계! 바로 손씻기 방법이에요! 밖에 나갔다 오거나 또는 손 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4QpxA0PhF98/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4QpxA0PhF98/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4QpxA0PhF98/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-06T01:19:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RyGsy9Gj5dD2YB8AMjB3Q2cZvlY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iG31uxU1BMo"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-24T03:00:31Z",
+        "channelId": "UCk1rgRaCucSef10-fuzD2TA",
+        "title": "[써니와 함께하는 율동요] 감기송ㅣ겨울 손유희ㅣ앞집 여우 뒷집 여우ㅣ감기 걸렸네 에취!ㅣ동물송ㅣ",
+        "description": "안녕하세요? 아이꿈터 TV 준PD에요! 앞집의 여우 친구와 뒷집의 여우 친구가 감기에 걸려서 에취! 하고 재채기를 해요 재채기가 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iG31uxU1BMo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iG31uxU1BMo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iG31uxU1BMo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "아이꿈터TV - Kindergarten Joy",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-24T03:00:31Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+@keyframes showModal {
+  0% {
+    transform: translateY(500px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
+.modalBackground {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding-top: 6rem;
+}
+
+.modal {
+  background-color: var(--color-background);
+  width: 100%;
+  position: relative;
+  top: 5%;
+  border-radius: 16px 16px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0.5;
+  transition: all 0.3s ease-in-out;
+  animation: showModal 0.3s ease-in-out;
+  box-sizing: border-box;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.modalForm {
+  margin: 0.5rem 0;
+}
+
+.inputGroup {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 3rem;
+  padding-bottom: 1.1rem;
+  gap: 2%;
+}
+
+.inputDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+  padding-bottom: 1.1rem;
+}
+
+.category {
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: rgba(182, 182, 182, 0.1);
+  font-size: 0.9rem;
+  text-align: center;
+  color: rgb(0, 0, 0.5);
+  padding: 1.1rem;
+  cursor: pointer;
+  color: var(--color-text);
+}
+
+.inputTitle {
+  width: 100%;
+}
+
+.schedule {
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: rgba(182, 182, 182, 0.1);
+  font-size: 1rem;
+  color: rgb(0, 0, 0.5);
+  padding: 1.1rem;
+  cursor: pointer;
+  color: var(--color-text);
+  width: 6.5rem;
+}
+
+.input {
+  border: none;
+  border-radius: 20px;
+  background-color: rgba(182, 182, 182, 0.1);
+  font-size: 1rem;
+  padding: 1.2rem;
+  cursor: pointer;
+  font-weight: medium;
+  color: var(--color-text);
+}
+
+.inputContent {
+  resize: none;
+  padding: 1.2rem;
+  font-family: none;
+  height: 7rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.actionButton {
+  width: 50%;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  padding: 1rem 0;
+  transition: all 0.3s ease-in-out;
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+.actionButton:disabled {
+  opacity: 0.5;
+}
+
+.actionButton:hover {
+  background-color: var(--color-hover-bg);
+}
+
+@media (min-width: 1700px) {
+  .modal {
+    top: 15%;
+    flex: 0.3;
+  }
+}
+
+@media (max-width: 1400px) {
+  .modal {
+    top: 7%;
+    flex: 0.4;
+  }
+}
+
+@media (max-width: 1220px) {
+  .modal {
+    top: 3%;
+    flex: 0.5;
+  }
+}
+
+@media (max-width: 900px) {
+  .modal {
+    flex: 0.8;
+  }
+}
+
+@media (max-width: 661px) {
+  .modal {
+    flex: 0.9;
+  }
+}
+
+@media (max-width: 520px) {
+  .modal {
+    top: 7%;
+  }
+  .modalHeader {
+    justify-content: center;
+  }
+  .inputDiv,
+  .inputGroup {
+    padding: 0 1rem 1rem 1rem;
+  }
+  .modalHeader {
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .modal {
+    flex: 1;
+  }
+  .inputDiv,
+  .inputGroup {
+    padding: 0 0.5rem 0.5rem 0.5rem;
+  }
+  .modalHeader {
+    padding: 1rem 0.5rem;
+  }
+}
+
+@media (min-height: 1200px) {
+  .modal {
+    top: 15%;
+    height: 35vh;
+  }
+}
+
+@media (max-height: 1200px) {
+  .modal {
+    height: 45vh;
+  }
+}
+
+@media (max-height: 950px) {
+  .modal {
+    height: 50vh;
+  }
+}
+
+@media (max-height: 882px) {
+  .modal {
+    height: 53vh;
+  }
+}
+
+@media (max-height: 850px) {
+  .modal {
+    height: 57vh;
+  }
+}
+
+@media (max-height: 800px) {
+  .modal {
+    height: 60vh;
+  }
+}
+
+@media (max-height: 719px) {
+  .modal {
+    height: 64vh;
+  }
+}
+
+@media (max-height: 670px) {
+  .modal {
+    height: 68vh;
+  }
+}
+
+@media (max-height: 626px) {
+  .modal {
+    height: 72vh;
+  }
+}
+
+@media (max-height: 607px) {
+  .modal {
+    top: 3%;
+    height: 75vh;
+  }
+}

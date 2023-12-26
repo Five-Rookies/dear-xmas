@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "1TPBmrVh0iPUglixAwoBPfq0-Io",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 145,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wD80n6zXAG8DeU4ZNQPIfu1i7Sc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mdDf-aRfGfw"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-20T11:02:25Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "과거를 숨기고 조용히 살던 무적 킬러를 건드리면 생기는 일[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 재밌게 보셨다면 구독과 좋아요 부탁드립니다     트리거 포인트(2021)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mdDf-aRfGfw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mdDf-aRfGfw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mdDf-aRfGfw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-20T11:02:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RKj6jUnI9tRqr_mweS3Ru4iBHJk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BsxK2j8np2E"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-14T11:02:51Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "100만 번째 반복되는 하루에 갇힌 남자가 벌인 일(로코)[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 재밌게 보셨다면 구독과 좋아요 부탁드립니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BsxK2j8np2E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BsxK2j8np2E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BsxK2j8np2E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-14T11:02:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LgKUN0jm-feZ-GuPsr6bT4G28Yk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Eo3N-DZlroQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-26T11:01:58Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "많은 사람들이 인생 영화로 꼽는 감동적이고 따뜻한 영화[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 오늘 소개드릴 영화는 라스트 홀리데이(2006)입니다   #퀸라티파.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Eo3N-DZlroQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Eo3N-DZlroQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Eo3N-DZlroQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-26T11:01:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RnpG5wh_LYBXks7hJp3a7kdozfA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wlJY-HX29IE"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-29T11:02:07Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "아무리 죽고 못 살아도, 왜 결혼은 현실이라고 하는지 보여주는 영화[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. ✓프라임 러브(2005) 구독, 좋아요, 댓글은 큰 힘이 됩니다   시청해 주셔서 감사합니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wlJY-HX29IE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wlJY-HX29IE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wlJY-HX29IE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-29T11:02:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "E5eM-n5bJO2xgKnVYEJjvTJSYLA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vZ2m-a55ED4"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-07T11:00:47Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "사상 최악의 범죄 실화를 바탕으로 만든 몰입도 좋은 영화[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 재밌게 보셨다면 구독과 좋아요 부탁드립니다     보스턴 교살자(2023)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vZ2m-a55ED4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vZ2m-a55ED4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vZ2m-a55ED4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-07T11:00:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MNxvPPu_ZNQFUIytFMFNgy5Tc1E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9HiPtoLJ5y0"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-15T11:01:03Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "사랑은 곧 함께한 추억임을 보여주는 가슴 먹먹한 영화[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. ✓어웨이 프롬 허(2006) 구독, 좋아요, 댓글은 큰 힘이 됩니다   시청해 주셔서 감사합니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9HiPtoLJ5y0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9HiPtoLJ5y0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9HiPtoLJ5y0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-15T11:01:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ASKXaxwCO5Hry1DMEyrBxk1rmBM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FJgV79cZ0Mk"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-29T11:03:59Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "속이 뻥 뚫리는 액션으로 꽉 채운, 가볍게 보기 좋은 킬링타임 영화[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 재밌게 보셨다면 구독과 좋아요 부탁드립니다     블러드 앤 본(2009) #마이클제이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FJgV79cZ0Mk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FJgV79cZ0Mk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FJgV79cZ0Mk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-29T11:03:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1qgekxRg99fnDf_yyliDc5cV68E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NaFdwDEYZWc"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-06T11:01:12Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "(원작) 진짜 극강의 몰입도를 선사하는 잘 만든 영화[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 재밌게 보셨다면 구독과 좋아요 부탁드립니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NaFdwDEYZWc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NaFdwDEYZWc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NaFdwDEYZWc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-06T11:01:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wf6_vVcZ--mCp_nxYKoLL_PXo5E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "coILKIDDlq0"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-12T11:00:47Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "강렬하면서도 묵직한 메시지가 있는, 진짜 멋있는 영화[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. ✓구독, 좋아요, 댓글은 큰 힘이 됩니다   ✓시청해 주셔서 감사합니다   #몬태나 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/coILKIDDlq0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/coILKIDDlq0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/coILKIDDlq0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-12T11:00:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Cw8G77iOCZiJmxLwjJ-AEXY3OIA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "l_ctZu2cqu4"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-31T11:01:20Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "마음이 아프고 힘들 때 보면 좋은 따뜻한 힐링 영화[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 재밌게 보셨다면 구독과 좋아요 부탁드립니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/l_ctZu2cqu4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/l_ctZu2cqu4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/l_ctZu2cqu4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-31T11:01:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7ncq_AYksv39HBimqvXkzDv3noE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "clrpzpf7TvI"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-19T11:00:09Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "기가 막힌 캐스팅에 꿀잼까지 더해진 숨은 띵작[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. ✓젠틀맨(2020) 구독, 좋아요, 댓글은 큰 힘이 됩니다   시청해 주셔서 감사합니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/clrpzpf7TvI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/clrpzpf7TvI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/clrpzpf7TvI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-19T11:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9H1lSBnzuXO0vmABc_HSeSkxk9E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZqsnAThgdPI"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-30T11:01:58Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "인생이 계획대로 되는 게 없어 지칠 때 보면 좋은 영화[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 재밌게 보셨다면 구독과 좋아요 부탁드립니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZqsnAThgdPI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZqsnAThgdPI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZqsnAThgdPI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-30T11:01:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wDf4tO1STJ6T6c9DB1Q4X06Jl8k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "S58VCyvbpKU"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-14T11:00:51Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "무게만 2톤이 넘는 다이아몬드를 흔적도 없이 훔치는 방법[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. ✓플로리스(2007) 구독, 좋아요, 댓글은 큰 힘이 됩니다   시청해 주셔서 감사합니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/S58VCyvbpKU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/S58VCyvbpKU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/S58VCyvbpKU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-14T11:00:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9ReSEFyAPNTpP_-mIUtM1OtQxas",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dp2lUOuUtTs"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-07T11:02:56Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "크리스마스에 가볍게 즐기기 좋은 킬링타임 영화[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 재밌게 보셨다면 구독과 좋아요 부탁드립니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dp2lUOuUtTs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dp2lUOuUtTs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dp2lUOuUtTs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-07T11:02:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rOt2WHt9CKR02z__uNih-5j5mdg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "80qwtPgspFs"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-29T11:02:07Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "와.. ㄹㅇ 50분 순삭!! 그냥 말이 필요 없는 레전드 영화 《킬 빌》 한방에 몰아보기[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 재밌게 보셨다면 구독과 좋아요 부탁드립니다     00:00 킬 빌1 24:20 킬 빌2 49:22 리뷰 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/80qwtPgspFs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/80qwtPgspFs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/80qwtPgspFs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-29T11:02:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "39phHRgsEu4PyE1H_H9_m1A4_Bg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-rSVUNy8Wbs"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-05T11:00:24Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "왜 사랑은 타이밍이라고 하는지 제대로 보여주는 영화[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. ✓나의 특별한 사랑 이야기(Definitely, Maybe, 2007) 구독, 좋아요, 댓글은 큰 힘이 됩니다   ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-rSVUNy8Wbs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-rSVUNy8Wbs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-rSVUNy8Wbs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-05T11:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "feyY6AGX7RO4MDLwfcD1MIUEDwk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "E1ETN4j9LHo"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-05T11:03:29Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "시한부 선고를 받은 억만장자가 죽지 않고 영원히 사는 방법[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 재밌게 보셨다면 구독과 좋아요 부탁드립니다     셀프/리스(Self/less, 2015) #라이언 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/E1ETN4j9LHo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/E1ETN4j9LHo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/E1ETN4j9LHo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-05T11:03:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OueEgJcXi29ioVh2NQskIXqt5iA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CBINgA2cQ2U"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-31T11:01:07Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "웃음과 액션에 낭만까지, 레전드 배우들의 역대급 만남 《레드 시리즈》 한방에 몰아보기[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 재밌게 보셨다면 구독과 좋아요 부탁드립니다     00:00 1편 24:11 2편 47:35 결말.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CBINgA2cQ2U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CBINgA2cQ2U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CBINgA2cQ2U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-31T11:01:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZljEddhQ9vMALhI_TNO_c7r-2Gk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FqtdHC_9eqI"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-30T11:05:43Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "한 시대를 풍미했던 첩보 영화의 교과서 《본 시리즈》 한방에 보기[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 00:00 본 아이덴티티 13:54 본 슈프리머시 27:12 본 얼티메이텀 41:37 제이슨 본.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FqtdHC_9eqI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FqtdHC_9eqI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FqtdHC_9eqI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-30T11:05:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HUS6BAMv5els8Q67_KluQkRV2WM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "MNm_4yUt9s4"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-27T11:00:38Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "부모의 인생을 아들이 영화로 만든, 눈물 없이 볼 수 없는 감동적인 영화[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. ✓구독, 좋아요, 댓글은 큰 힘이 됩니다   ✓시청해 주셔서 감사합니다   #달링.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MNm_4yUt9s4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MNm_4yUt9s4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MNm_4yUt9s4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-27T11:00:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IzSSADcojRE-TaWQW55VU-WMpok",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pf2NiMUVjCc"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-23T11:00:36Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "소소한 유쾌함으로 가볍게 즐기기 좋은 킬링타임용 영화[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 재밌게 보셨다면 구독과 좋아요 부탁드립니다     더 허슬(2019) #앤해서웨이.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pf2NiMUVjCc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pf2NiMUVjCc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pf2NiMUVjCc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-23T11:00:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wYku9pgHEzi3ISNchAQjm99DRGU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2SlBTUEgh3Q"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-25T11:01:56Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "한치의 오차도 허용하지 않는 완벽주의 강박을 이겨내는 방법[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 재밌게 보셨다면 구독과 좋아요 부탁드립니다     더 셰프(2015)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2SlBTUEgh3Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2SlBTUEgh3Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2SlBTUEgh3Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-25T11:01:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "09vrd8XvlNv_ayRTA2Bn6zmHJAQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EyFpdP7FNW0"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-18T11:02:22Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "가슴 아픈 실화를 바탕으로 만든, 너무 안타깝지만.. 감동적인 영화[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 재밌게 보셨다면 구독과 좋아요 부탁드립니다     더 임파서블(2012) #톰홀랜드.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EyFpdP7FNW0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EyFpdP7FNW0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EyFpdP7FNW0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-18T11:02:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HAcHTfN8P0fb6qQ46QPO7RBUixE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xsYj-J6CxC0"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-22T11:02:43Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "진짜 쉴 새 없이 떠드는 귀여운 존윅을 볼 수 있는 영화(로코)[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 재밌게 보셨다면 구독과 좋아요 부탁드립니다     데스티네이션 웨딩(2018) #키아누 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xsYj-J6CxC0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xsYj-J6CxC0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xsYj-J6CxC0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-22T11:02:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "g_mH6x1V2Hvk7GkkJ9_q--3qmKc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QDN9iZu94wU"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-11T11:05:02Z",
+        "channelId": "UCaS8JH5U5nMaOfrSVYnbOTQ",
+        "title": "크리스마스에 절대 빠질 수 없는 레전드 영화 《나 홀로 집에》 1-3편 한방에 보기[영화리뷰/결말포함]",
+        "description": "본 영상은 스포일러와 결말을 포함합니다. 00:00 나홀로집에1 15:01 나홀로집에2 37:35 나홀로집에3.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QDN9iZu94wU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QDN9iZu94wU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QDN9iZu94wU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "어쩌다영화한편",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-11T11:05:02Z"
+      }
+    }
+  ]
+}

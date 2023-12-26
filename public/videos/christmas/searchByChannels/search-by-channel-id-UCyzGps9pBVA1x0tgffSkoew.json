@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "bjXpuYHUTbWuKCzV5Vig1py-d9M",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 129,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rerGwZLQ6VG20hsQ0J2pX9DcnhY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "M2cTLX_iOuQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-06T05:19:52Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "♣ 잊을 수 없는 노래1 / 벙어리 바이올린 / 페이지_이가은",
+        "description": "1984년 '오선과 한음'이라는 그룹으로 데뷔한 김선민이 페이지라는 보컬을 만들어 객원가수 이가은을 통해 발표(2002)한 노래다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/M2cTLX_iOuQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/M2cTLX_iOuQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/M2cTLX_iOuQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-06T05:19:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bcH8bhe2GlTZQVqp2p254LoHnfA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JQ5dUKF8UC4"
+      },
+      "snippet": {
+        "publishedAt": "2020-03-04T07:11:03Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "밤하늘의 트럼펫 _ 적막 ( Il Silenzio )_Nini Rosso",
+        "description": "옛 추억이 몹시 그립습니다. 구독, 좋아요, 댓글 부탁합니다. Please subscribe my channel ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JQ5dUKF8UC4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JQ5dUKF8UC4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JQ5dUKF8UC4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-03-04T07:11:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GWLt1ZEIaNo7Mlx9JHOG7JWirNc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "aciYYtp_GOo"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-25T08:03:34Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "영화의 명장면을 보면서 주페 (Franze von Suppe) 의 [경기병 서곡] 감상하기-Listen to the  Der Leichte Kavallerie",
+        "description": "프란츠 폰 주페(Franze von Suppe, 1819년 ~ 1895년)는 오스트리아의 작곡가이자 지휘자이다. [경기병 서곡]은 1866년 빈의 시인 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/aciYYtp_GOo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/aciYYtp_GOo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/aciYYtp_GOo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-25T08:03:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "34xYRX-rHzuSi8iON8OgtU85GKc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "n_48bNTa4Zw"
+      },
+      "snippet": {
+        "publishedAt": "2020-07-26T11:58:44Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "◈ 세상에서 제일 아름다운 첼로 명곡 A / The most beautiful cello music in the world / Peaceful Relaxation / 평화로운 휴식",
+        "description": "클래식의 깊이를 잘 표현할 수 있는 악기가 첼로입니다. 첼로 선율은 가장 경건하고 진중한 소리를 가지고 있습니다. 편안한 감상을 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/n_48bNTa4Zw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/n_48bNTa4Zw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/n_48bNTa4Zw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-07-26T11:58:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "swae6ZFfmdqgN9JX0RFQnJ99Xyw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7JvnyuKiw7c"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-10T00:07:12Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "天上의 소리 /세상에서 제일 아름다운 플루트 명곡 A /The most beautiful flute music in the world / fine relaxation /좋은 휴식",
+        "description": "선곡에 많은 시간이 흘렀습니다. 일부 단일 곡들도 부분 편집 했습니다. 편안한 감상과 상쾌한 휴식을 통해 긴장해소와 재충전의 도움 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7JvnyuKiw7c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7JvnyuKiw7c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7JvnyuKiw7c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-10T00:07:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6SQZw39HIZv3jiwr342ixqP2WPk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lK9woO8-AXY"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-30T14:30:34Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "지금도 가슴이 뛰는/ 내 젊은 날의 노래들 1/ BEST 연주곡/ 추억, 휴식",
+        "description": "내 젊은 날의 노래들 1 의 원본을 다시 업로드 합니다. 그리운 추억을 회상하면서 잠시 편안한 휴식을 가져보시기 바랍니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lK9woO8-AXY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lK9woO8-AXY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lK9woO8-AXY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-30T14:30:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MopegIwNUwhg2RtHew2FQLVEpMY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PNi7TxAxoOM"
+      },
+      "snippet": {
+        "publishedAt": "2020-01-27T15:01:47Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "[1h repeat*](고음질) Saint-Saëns, The Carnival Of The Animals: XIII. The Swan_생상스, 동물의 사육제 ‘백조’_/사색/휴식/",
+        "description": "프랑스의 작곡가 생상스의 관현악모음곡 《동물의 사육제》 전 14곡 가운데 제13곡. 첼로와 2대의 피아노용으로 쓰여졌는데, 첼로 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PNi7TxAxoOM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PNi7TxAxoOM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PNi7TxAxoOM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-01-27T15:01:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rJe_SAn1PxUVabvSSi9FsUY7IqY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CWLUCHjxSOM"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-29T12:42:34Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "♣ 지치고 힘들 때 들으세요. / 진정한 위로를 주는 / 클래식 명곡 11 / When you are tired/Classical music that give consolation",
+        "description": "아늑히 감싸주는 듯한, 깊은 위로의 말씀 같이 들려오는 유장한 클래식 음악들을 골라 보았습니다. 진정한 휴식과 재충전에 도움이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CWLUCHjxSOM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CWLUCHjxSOM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CWLUCHjxSOM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-11-29T12:42:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JYHP_phewzc4_sP5b82cyJF8J90",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BHjIR4GjyHw"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-11T13:52:49Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "♣ 조용하고 경건한 크리스마스 캐롤 11곡 / 합창과 실내악/ Calm and Holy Christmas Carol/ Chorus and chamber music",
+        "description": "연말연시 편안하고 행복한 시간 보내시기 바랍니다. 00:00 1 O Holy Night /거룩한 밤 /실내악 연주/ Eaken Piano Trio 04:10 2 Silent ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BHjIR4GjyHw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BHjIR4GjyHw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BHjIR4GjyHw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-11T13:52:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JqQgMjVrNoUOTPbd86OLUA0Vlks",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "o_UZ3a-Tfq4"
+      },
+      "snippet": {
+        "publishedAt": "2023-11-13T16:39:28Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "☘세상에서 제일 아름다운 피아노 명곡 A / The most beautiful piano music in the world / fine relaxation /좋은 휴식",
+        "description": "저작권 정책에 의해 중단된 “세상에서 제일 아름다운 피아노 명곡 A”를 수정하여 다시 올립니다. 협주, 중주 등은 배제하고 독주 위주로 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/o_UZ3a-Tfq4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/o_UZ3a-Tfq4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/o_UZ3a-Tfq4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-11-13T16:39:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eLNya5BiuvIE7-z17qL0tny8-JE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xJk0gbr1bTI"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-22T23:15:02Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "☂ 언제나 나를 위로해 준 음악들 1/흔히 듣기 어려운 클래식 명곡 포함 11곡/ These music that comforted me /fine relaxtion /좋은 휴식",
+        "description": "저작권 정책으로 중단 되었던 본 비디오를 수정하여 재업로드 하였습니다. 편안한 휴식과 재충전에 도움이 되기를 바랍니다. 구독 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xJk0gbr1bTI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xJk0gbr1bTI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xJk0gbr1bTI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-22T23:15:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XYKNjmIvOFanHdwVWFtpMwUL2iw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Iun4RCxYKgI"
+      },
+      "snippet": {
+        "publishedAt": "2021-02-07T18:54:31Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "♣ 우아한 왈츠의 세계 12 / The world of elegant waltz /우울할 때 들으면 좋아요.",
+        "description": "대표적인 왈츠 명곡들을 찾아 구성했습니다. 우리나라 민요들이 3 박자로 되어 있는 것으로 보아 빠르고 느린 차이는 있지만 정서적 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Iun4RCxYKgI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Iun4RCxYKgI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Iun4RCxYKgI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-02-07T18:54:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "61aohM0l6ICWheO3z-QNv6ShOx4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "VtQdxglCpB0"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-21T06:22:39Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "불멸의 명곡 repeat*/ 사랑과 영혼 OST/ 언체인드멜로디(Unchained Melody)/gerry and pacemakers",
+        "description": "Oh, my love, my darling 오, 나의 사랑, 나의 그대 I've hungered for your touch 당신의 손길을 바라고 있어요 A long, lonely time 길고 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/VtQdxglCpB0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/VtQdxglCpB0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/VtQdxglCpB0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-21T06:22:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FiqMR3Rn8qQwH14NHba5uNpc2vA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nvfCovSpc34"
+      },
+      "snippet": {
+        "publishedAt": "2019-11-17T18:24:44Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "[ 30 m repeat * ]  마스카니(Mascagni)_카발레리아 루스티카나(Cavalleria Rusticana)_간주곡_고요함, 경건함",
+        "description": "마스카니(Mascagni)는 1863년 이탈리아에서 태어난 작곡가다. 1890년에 카발레리아 루스티카나를 발표함으로써 오페라역사에 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nvfCovSpc34/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nvfCovSpc34/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nvfCovSpc34/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-11-17T18:24:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aU6w6KSH0BBcUkC8okq8NRX-h30",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3bk_zKHJjtQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-05-14T16:58:56Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "⚑ 영혼의 소리 / 팬플릇의 아버지/ 게오르그 잠피르 영화음악/ Gheorghe Zamfir Movie music / 12곡 /추억에 잠겨 봅니다.",
+        "description": "저작권 정책에 따라 수정하여 다시 올립니다. Gheorghe Zamfir(게오르그 잠피르)의 팬플릇 연주는 깊은 마음의 울림이 있습니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3bk_zKHJjtQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3bk_zKHJjtQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3bk_zKHJjtQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-05-14T16:58:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "c-prVD05B2xWH7-macOFe3cJ0rE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "pI_RsjHz9uY"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-22T18:49:38Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "➣ 여름에 듣는 시원한 클래식 / Cool classical music to listen to in summer / Fine relaxation / 좋은 휴식",
+        "description": "유난한 폭염입니다. 시원한 느낌을 주는 클래식 작품들을 찾아보았습니다. 좋은 감상을 통해 유쾌한 휴식과 재충전의 도움이 되기를 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/pI_RsjHz9uY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/pI_RsjHz9uY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/pI_RsjHz9uY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-22T18:49:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gukniiJPiko0Mf0TbOMTgfX-yMI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H_X6cHqP2wo"
+      },
+      "snippet": {
+        "publishedAt": "2021-03-17T08:35:40Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "❝가끔 옛고향 생각이 날 때❞ / 정겨운 우리 가곡 13 /  바이올린 연주/ Sometimes,  when I think of old hometown   / 가사 일체 첨부",
+        "description": "가끔 어린 시절 옛 고향이 생각 날 때가 있습니다. 아련하게 떠오르는 시골 초가집, 동네 공동 우물에서 들려오는 여인들의 목소리, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H_X6cHqP2wo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H_X6cHqP2wo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H_X6cHqP2wo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-03-17T08:35:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qDHa2N3bWiTxiIuh8_9cO_FohNg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mO3RGVzJpoU"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-08T09:44:37Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "♥ 철들면 아름다움이 사라진다는 것을  몰랐을 때   / 추억의 포크송 A  /  Folk song of memories  A",
+        "description": "철들면 아름다움이 사라진다는 것을 몰랐을 때. 웃음 , 눈물, 그리고 다 그리움. 00:00 1 어니언스 - 작은 새 04:09 2 트윈폴리오 -하얀 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mO3RGVzJpoU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mO3RGVzJpoU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mO3RGVzJpoU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-08T09:44:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mg8PJDFs78IThv0WYVjYiJJpj74",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xBCAG7bmwzg"
+      },
+      "snippet": {
+        "publishedAt": "2019-11-30T15:19:25Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "행진곡으로 의욕 충전하기/ fill your motivation with Marching music/라데츠키행진곡(요한스트라우스1세), 군대행진곡(슈베르트), 위풍당당행진곡(엘가)",
+        "description": "듣고 있으면 손과 발이 저절로 리듬을 타게 됩니다. 우울할 때, 의욕이 떨어질 때 들으면 좋습니다. 라데츠키 행진곡(요한스트라우스1 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xBCAG7bmwzg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xBCAG7bmwzg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xBCAG7bmwzg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-11-30T15:19:25Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5kgbSyhG4018wbm9MixIcPmwAHo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "r_Gim9mzDcU"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-05T18:54:35Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "★ 세상 모르고 살았던 / 내 젊은 날의 노래들 5 / 추억의 연주곡 BEST 14 곡 / Beautiful instrumental music",
+        "description": "내 젊은 날의 추억의 장면들을 음악을 통해서 한 장 씩 넘겨봅니다. 그땐 왜 그랬는지, 지금 생각하면 세상 모르고 지냈던 것 같습니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/r_Gim9mzDcU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/r_Gim9mzDcU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/r_Gim9mzDcU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-05T18:54:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "F5Xjidfa-eWB5WTlhh13ljSAGMU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kFMmXF6d96E"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-27T16:34:23Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "호아킨 로드리고 「 아랑훼즈 협주곡」 _  Joaqúin Rodrigo Aranjuez&#39;s concerto",
+        "description": "후아킨 로드리고(1901~1999)의 음악을 들을 때는 눈을 감아보기 바랍니다. 음악이 더 깊숙이 들어오는 느낌을 받게 됩니다. 스페인 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kFMmXF6d96E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kFMmXF6d96E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kFMmXF6d96E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-27T16:34:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fxcrTAkwVcGxUWCkWHGWTFYe7xU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-dSUwMPd1Ss"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-10T16:35:00Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "스메타나(Smetana)_ 교향시(symphony)_ 나의 조국_ NO.2_ 몰다우(Vltaba) 중에서",
+        "description": "6곡의 교향시 중 가장 유명한 것으로 몰다우는 프라하 시를 흘러가는 강이름이며, 표제에 충실한 흐름이나 품위있는 묘사적 기법과 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-dSUwMPd1Ss/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-dSUwMPd1Ss/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-dSUwMPd1Ss/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-10T16:35:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vdV3wSqQGWqnt3CC8_7UyUc0d80",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "P_c36Qw_oLY"
+      },
+      "snippet": {
+        "publishedAt": "2020-12-21T08:28:28Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "★ 옛날에 즐겨 부르던 노래들 / 외국 민요,  가곡 / Foreign Folk songs and Art songs",
+        "description": "옛날 고향 언덕에서 즐겨 부르던 노래들이 있었습니다. 그 때가 행복했었지요. 지금 생각하니 꿈만 같습니다. (가사는 대표적인 우리말 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/P_c36Qw_oLY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/P_c36Qw_oLY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/P_c36Qw_oLY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-12-21T08:28:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9EC8QAIPC3k-J4WjausvS-wfutg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IbiU_mlzu_8"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-24T09:48:40Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "♥ 사랑은 꿈 같은 것 ♥ 1 hour / Claude Choe_ Love Is Just A Dream/ SaQi",
+        "description": "사랑은 꿈만 같은 것 - 조수미 꿈이었나. 너를 떠나온 날 지금까지 후회하고 있어 기억조차 하기 힘든 지금 사랑이란 이미 끝났다오.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IbiU_mlzu_8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IbiU_mlzu_8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IbiU_mlzu_8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-24T09:48:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "R15PHBtMaLquJNlc5NstBxrlnEk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zwAKdwV43LU"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-26T11:12:47Z",
+        "channelId": "UCyzGps9pBVA1x0tgffSkoew",
+        "title": "☂ 그 때는 팝송의 시대 2 / 청춘, 피고 지다/ Vista and relaxation/추억, 휴식",
+        "description": "그땐 다방이나 음악 감상실은 거의 다 뮤직 박스가 설치되어 있었고 소장 음악은 모두 팝송 LP판으로 가득했다. 중심가에 있는 다방 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zwAKdwV43LU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zwAKdwV43LU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zwAKdwV43LU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "purifymusic",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-26T11:12:47Z"
+      }
+    }
+  ]
+}

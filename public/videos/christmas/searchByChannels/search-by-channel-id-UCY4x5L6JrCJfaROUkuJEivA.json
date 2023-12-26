@@ -1,0 +1,385 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "52cbMcZBrkFpRNGCzSofZrpngok",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 13,
+    "resultsPerPage": 11
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZB1Oy9KW6-A4nD5LHbgQbGghRAM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Xf5WPFS9gik"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-24T13:00:18Z",
+        "channelId": "UCY4x5L6JrCJfaROUkuJEivA",
+        "title": "90년대 크리스마스 뉴욕 거리에서 듣는 캐롤",
+        "description": "이 재생목록은 당신을 위한 것입니다 #노래추천 #팝송추천 #플레이리스트.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Xf5WPFS9gik/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Xf5WPFS9gik/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Xf5WPFS9gik/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mow",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-24T13:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5km5yHpEeNeM1MTkLt28_QFzHuI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ezavoy2qmek"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-03T13:00:06Z",
+        "channelId": "UCY4x5L6JrCJfaROUkuJEivA",
+        "title": "Playlist 해리포터 덕후의 크리스마스 플레이리스트🎄   𝑪𝒉𝒓𝒊𝒔𝒕𝒎𝒂𝒔 𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕",
+        "description": "이 재생목록은 당신을 위한 것입니다 #노래추천 #팝송추천 #플레이리스트.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ezavoy2qmek/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ezavoy2qmek/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ezavoy2qmek/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mow",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-03T13:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AgN24AE4moGeZWYiXsF-yrSgksY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5Bi7T_l-DUo"
+      },
+      "snippet": {
+        "publishedAt": "2022-08-16T10:00:07Z",
+        "channelId": "UCY4x5L6JrCJfaROUkuJEivA",
+        "title": "𝐏𝐥𝐚𝐲𝐥𝐢𝐬𝐭 🌙선선한 밤 공기 더 없이 완벽한🚗드라이브 팝송",
+        "description": "이 재생목록은 당신을 위한 것입니다 #노래추천 #팝송추천 #플레이리스트.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5Bi7T_l-DUo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5Bi7T_l-DUo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5Bi7T_l-DUo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mow",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-08-16T10:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4CiEXLMGNJe8n8OSl5vrK9P_a6w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GP-h5PvTBt0"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-19T09:00:07Z",
+        "channelId": "UCY4x5L6JrCJfaROUkuJEivA",
+        "title": "𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕 이맘때쯤 캐롤 들어줘야지 #1",
+        "description": "이 재생목록은 당신을 위한 것입니다 #노래추천 #팝송추천 #플레이리스트 #크리스마스 #Christmas #캐롤.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GP-h5PvTBt0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GP-h5PvTBt0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GP-h5PvTBt0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mow",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-19T09:00:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "OmXxsFb31UbKBQwst-66zc9lIR8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jCtTisj9vT0"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-15T08:29:55Z",
+        "channelId": "UCY4x5L6JrCJfaROUkuJEivA",
+        "title": "𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕낭만적인 크리스마스 저녁#1",
+        "description": "이 재생목록은 당신을 위한 것입니다 #노래추천 #팝송추천 #플레이리스트#하얀눈 #뉴욕 #크리스마스 #크리스마스 #캐롤 #플레이 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jCtTisj9vT0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jCtTisj9vT0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jCtTisj9vT0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mow",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-15T08:29:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "O7MLQ8bP3EyDS1IjEMhkpJrrvt0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CsOLglVlPJQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-23T09:00:10Z",
+        "channelId": "UCY4x5L6JrCJfaROUkuJEivA",
+        "title": "90년대 빈티지한 크리스마스 재즈 캐롤",
+        "description": "이 재생목록은 당신을 위한 것입니다 #노래추천 #팝송추천 #플레이리스트.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CsOLglVlPJQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CsOLglVlPJQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CsOLglVlPJQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mow",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-23T09:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LURYeKdyQEYTZAKKufeMHYJrbxA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1as09f6Bfb4"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-25T09:00:01Z",
+        "channelId": "UCY4x5L6JrCJfaROUkuJEivA",
+        "title": "𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕 당신을 위한 크리스마스 플레이리스트",
+        "description": "이 재생목록은 당신을 위한 것입니다 #노래추천 #팝송추천 #플레이리스트.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1as09f6Bfb4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1as09f6Bfb4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1as09f6Bfb4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mow",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-25T09:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "71_rtOedNdZU70K0E50MH50QKA8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EhIeH3Qw460"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-17T09:00:06Z",
+        "channelId": "UCY4x5L6JrCJfaROUkuJEivA",
+        "title": "𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕 90년대 크리스마스 뉴욕 거리에서 듣는 캐롤 #1",
+        "description": "이 재생목록은 당신을 위한 것입니다 #노래추천 #팝송추천 #플레이리스트 #크리스마스 #Christmas #캐롤.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EhIeH3Qw460/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EhIeH3Qw460/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EhIeH3Qw460/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mow",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-17T09:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QqqVxYxZxcA3fc0WoPcW_5AEN2Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "N5jaZAb_BjU"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-27T10:00:10Z",
+        "channelId": "UCY4x5L6JrCJfaROUkuJEivA",
+        "title": "𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕 벌써부터 크리스마스 기다리는 사람?",
+        "description": "이 재생목록은 당신을 위한 것입니다 #노래추천 #팝송추천 #플레이리스트.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/N5jaZAb_BjU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/N5jaZAb_BjU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/N5jaZAb_BjU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mow",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-27T10:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7opLQDLX3NwnkC6IY9hP0o7QSy0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XYvX8Lo-bHw"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-21T09:00:31Z",
+        "channelId": "UCY4x5L6JrCJfaROUkuJEivA",
+        "title": "𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕크리스마스 분위기가 그 어느 때보다 가까워졌습니다.#1",
+        "description": "이 재생목록은 당신을 위한 것입니다 #노래추천 #팝송추천 #플레이리스트.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XYvX8Lo-bHw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XYvX8Lo-bHw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XYvX8Lo-bHw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mow",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-21T09:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HL08fIxp5lKXCJVAt959CtxOqbw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7Un77ENynw0"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-29T10:00:04Z",
+        "channelId": "UCY4x5L6JrCJfaROUkuJEivA",
+        "title": "𝑷𝒍𝒂𝒚𝒍𝒊𝒔𝒕 길거리에 들리는 띵곡 캐롤 모음",
+        "description": "이 재생목록은 당신을 위한 것입니다 #노래추천 #팝송추천 #플레이리스트.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7Un77ENynw0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7Un77ENynw0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7Un77ENynw0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mow",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-29T10:00:04Z"
+      }
+    }
+  ]
+}

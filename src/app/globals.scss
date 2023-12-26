@@ -1,0 +1,286 @@
+@use './thems.scss' as *;
+
+/* /styles/reset.css */
+@font-face {
+  font-family: 'LINESeedKR-Bd';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2')
+    format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'LINESeedKR-Rg';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Rg.woff2')
+    format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NewYork';
+  src: url('/assets/fonts/NewYork.otf') format('opentype');
+  font-weight: 300;
+  font-style: light;
+}
+@font-face {
+  font-family: 'NewYork';
+  src: url('/assets/fonts/NewYork.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NewYork';
+  src: url('/assets/fonts/NewYork.otf') format('opentype');
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'establish Retrosans';
+  src: url('/assets/fonts/establish Retrosans.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'establish Retrosans';
+  src: url('/assets/fonts/establish Retrosans.otf') format('opentype');
+  font-weight: 700;
+  font-style: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /* rem 값의 기준을 잡기 위함 16px -> 10px */
+  font-size: 62.5%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'LINESeedKR-Rg';
+}
+img {
+  width: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+button {
+  all: unset;
+  cursor: pointer;
+}
+button:focus,
+button:active,
+textarea:focus,
+textarea:active,
+input:focus,
+input:active {
+  box-shadow: none;
+  outline: none;
+}
+
+/* 접근성 숨김 처리 */
+.a11y-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'LINESeedKR-Rg';
+}
+.btn {
+  box-sizing: border-box;
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1;
+  border-radius: 3.125rem;
+  padding: 0.7rem 1.25rem 0.5rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.btn--white {
+  color: #fff;
+  border: 2px solid #fff;
+  &:hover {
+    background-color: #fff;
+    color: var(--color-sub-bg);
+  }
+}
+.btn--gray {
+  color: #999;
+  border: 2px solid #999;
+  &:hover {
+    border: 2px solid #da3017;
+    background-color: #da3017;
+    color: #fff;
+  }
+}
+.btn--red {
+  color: #da3017;
+  background-color: #ffdcdc;
+  &:hover {
+    background-color: rgb(211, 173, 173);
+  }
+}
+.btn--darkRed {
+  color: #fff;
+  background-color: #da3017;
+  &:hover {
+    background-color: var(--color-main-bg-hover);
+  }
+}
+
+.inner-box {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 7rem 0 5rem 0;
+}
+
+.main-container {
+  padding-top: 4.5rem;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  transition: all 0.3s ease-in-out;
+}
+
+h4,
+span,
+p {
+  color: var(--color-text);
+  transition: all 0.3s ease-in-out;
+}
+
+img {
+  user-select: none;
+  -webkit-user-drag: none;
+}

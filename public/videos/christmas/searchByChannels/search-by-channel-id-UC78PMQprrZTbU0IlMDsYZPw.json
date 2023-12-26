@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "BBgd2zHnQ4CQJVrlUXzeCrjHFqs",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 88813,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dNw_wPS-st5icEDDSzZoMufczic",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eCLgVOCTeAo"
+      },
+      "snippet": {
+        "publishedAt": "2017-11-09T15:22:23Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "이게 패자부활전이라구요? 전상근이 부르는 정인의 &#39;미워요&#39; | 수상한가수 | 패자부활전",
+        "description": "수상한 가수 (2017.07.14. ~ 2017.11.16.) : 무대 위 인기 스타가 무대 뒤 숨은 실력자의 복제 가수로 빙의해 치열한 대결을 펼치는 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eCLgVOCTeAo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eCLgVOCTeAo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eCLgVOCTeAo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-11-09T15:22:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nRU0iaEaaqE4SQzOfrlTCIip9bw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2riD1l9wqs0"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-15T14:30:00Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "조인성의 부인들이 모이면 생기는 일 #어쩌다사장3",
+        "description": "차태현 #조인성 #어쩌다사장3 #어사장3 #UnexpectedBusiness3 #choinsung #chataehyun 어쩌다 해외 진출한 차사장X조사장!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2riD1l9wqs0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2riD1l9wqs0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2riD1l9wqs0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-15T14:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "i-OVNY96hVvA6Nrf_7MnBIrrZJU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nzHzax1KXx0"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-15T14:30:23Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "그렇다. 이 손님은 한국말을 못 한다고 한 적이 없다. #어쩌다사장3",
+        "description": "차태현 #조인성 #어쩌다사장3 #어사장3 #UnexpectedBusiness3 #choinsung #chataehyun 어쩌다 해외 진출한 차사장X조사장!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nzHzax1KXx0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nzHzax1KXx0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nzHzax1KXx0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-15T14:30:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Am8rtWOqK86YTofFfQLikYMp4ag",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ggJ-2K3LN1I"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-21T09:11:20Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "마인츠 VS 뮌헨 경기 종료 후 이재성&amp;김민재 선수와의 만남! 국대급 팬 서비스 미쳤다ㄷㄷ #골든일레븐:언리미티드 EP.4 | tvN 231220 방송",
+        "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f 분데스리가 경기장에 나타난 골든일레븐 선수들?! \"독일 유소년 명문 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ggJ-2K3LN1I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ggJ-2K3LN1I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ggJ-2K3LN1I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-21T09:11:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "E4Tl_N_Asscw0aWlQs9n_mHvY7U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JXqUP331Tvw"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-24T23:00:09Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "[미방분] 유재석 통화 연결! 이광수 전화 받자 반응은…? (ft. 유자기 어사장2 나올 뻔한 사연) #어쩌다사장2 EP.6",
+        "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f #차태현 #조인성 어쩌다 사장2 Unexpected Business2 EP.6 *휴방 안내 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JXqUP331Tvw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JXqUP331Tvw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JXqUP331Tvw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-24T23:00:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Y2yqWoQMczqbXD19nwMw1MINKAI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dzYYQJJDAAs"
+      },
+      "snippet": {
+        "publishedAt": "2019-07-19T13:45:33Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "[#강식당3] 강사장님의 멈추지 않는 눈물💧 아주 특별한 손님과 강호동의 만남ㅣEP.2",
+        "description": "티뷔엔 출연 맛집 [ #강식당3 ] 강식당 시즌3  \u200d   모아보기 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dzYYQJJDAAs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dzYYQJJDAAs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dzYYQJJDAAs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-07-19T13:45:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VZRGzk_FBE41IFpdYoMHJw0LoDs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "h7NGF3IB42I"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-11T12:52:13Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "목소리만 들어도 웃긴 유느님과의 전화 통화 ^__^#어쩌다사장 | Unexpected Business EP.7 | tvN 210408 방송",
+        "description": "차태현x조인성의 시골슈퍼 영업일지 {어쩌다 사장} 매주 [목] 저녁 8시 40분 tvN OPEN!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/h7NGF3IB42I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/h7NGF3IB42I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/h7NGF3IB42I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-11T12:52:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "45nE1s5D7P2KIEMQ9tLXprfVWNU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7GOzVkfkv8o"
+      },
+      "snippet": {
+        "publishedAt": "2018-05-06T15:45:33Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "[#선다방] 저 누나 나가라 그래요!!!!! 진지한 양세형을 차마 볼 수가 없는 유인나ㅋㅋㅋㅋㅋ EP6-09",
+        "description": "선다방 봄여름편(2018)   국내 최초 맞선 전문 카페 #선다방 삼청동에서 펼쳐지는 간질간질 현실로맨스! 선다방 봄여름편 몰아보기 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7GOzVkfkv8o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7GOzVkfkv8o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7GOzVkfkv8o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-05-06T15:45:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nZ-kxBIxL-VnxVRBZ7itZLhRB6Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "imFsqjT20n0"
+      },
+      "snippet": {
+        "publishedAt": "2019-03-20T12:00:05Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "박보영은 참지 않긔! 코빅 카메오로 와서 진상 개그맨 뺨치고 감ㅋㅋㅋ 알바생 박보영을 화나게 하면 벌어지는 일 (갑과을)│#코미디빅리그│#Diggle",
+        "description": "박보영이 영화관에서 진상 손님을 만난다면? 진상 손님에 대처하는 그녀의 사이다스러운 반전☆ (03:28) 마냥 귀여운 줄만 알았던 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/imFsqjT20n0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/imFsqjT20n0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/imFsqjT20n0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-03-20T12:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VXSh3_wMCO-vfmAiirECiKnOpn0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Fs0qitF-qWM"
+      },
+      "snippet": {
+        "publishedAt": "2017-12-22T13:44:27Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "[#알쓸신잡2] ′어떻게 사는 삶이 행복한 삶인가?′ 에 대한 박사들의 생각",
+        "description": "tvN 알쓸신잡2 (2017) : 분야를 넘나드는 잡학박사들의 지식 대방출 향연! 국내를 여행하면서 다양한 관점의 이야기를 펼쳐 딱히 쓸데 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fs0qitF-qWM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fs0qitF-qWM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fs0qitF-qWM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-12-22T13:44:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vWbNh4Xu5DW-MQ1WL0stNzdWvTI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "asGKOTRTobE"
+      },
+      "snippet": {
+        "publishedAt": "2018-11-30T13:18:11Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "[#알쓸신잡3] 과학박사이자 무신론자 김상욱이 생각하는 종교를 완전히 부정할 수 없는 이유",
+        "description": "tvN 알쓸신잡3 (2018) : '알아두면 쓸데없는' 수다계의 판도를 뒤집을 새로운 잡학박사들이 나타났다! '도시계획 X 역사 X 문학 X ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/asGKOTRTobE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/asGKOTRTobE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/asGKOTRTobE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-11-30T13:18:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6mMRqdRNpj5aZstxVXklb1EtZ7Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "J36g8NmgyZQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-18T13:20:00Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "집에 북어채 남았어유? 당장 들어와유🤗 파기름에 마법 간장소스면 밥도둑 완성 | 집밥백선생3",
+        "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f #tvN #집밥백선생3 #끌올 tvN 레전드 예능 끌어~ 올려↗↗ #티빙에서 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/J36g8NmgyZQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/J36g8NmgyZQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/J36g8NmgyZQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-18T13:20:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "j2b7mSyEn2p3riwtDkGZ8eqL1_o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QZWD2b43T18"
+      },
+      "snippet": {
+        "publishedAt": "2018-10-17T12:06:54Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "[#수미네반찬] 수미네반찬 시청자분들의 최애 반찬! 무말랭이 무침 조리법! #여름찬거리 #EP20",
+        "description": "수미네 반찬 (2018.06.06. ~ 2020.05.12.) : 해외 식문화가 유입됨으로써 잠시 조연으로 물러났던 반찬을 다시 우리의 밥상으로 옮겨 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QZWD2b43T18/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QZWD2b43T18/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QZWD2b43T18/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-10-17T12:06:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "f9lGIyiZfDJBOcjc7oIsiBbPvFg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5g8XwomF--s"
+      },
+      "snippet": {
+        "publishedAt": "2018-11-23T13:50:33Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "[#알쓸신잡3] 초고층 건물과 건강과의 연관성! 자연 방사능, 건물이 있는 곳에는 반드시 있다!",
+        "description": "tvN 알쓸신잡3 (2018) : '알아두면 쓸데없는' 수다계의 판도를 뒤집을 새로운 잡학박사들이 나타났다! '도시계획 X 역사 X 문학 X ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5g8XwomF--s/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5g8XwomF--s/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5g8XwomF--s/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-11-23T13:50:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "R0j4_Gz7rC74BazFgaSsxIEm3eU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9ByUPWKrSVg"
+      },
+      "snippet": {
+        "publishedAt": "2016-05-19T12:31:28Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "[신서유기2/25화] ㄹㅇ 밥도둑 이수근",
+        "description": "신서유기2 제25화 브랜드 스피드 퀴즈! 아 이거 그 와따리 가따리? tvN 신서유기2-언리미티드(2016) : 4명의 남자들이 중국대륙으로 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9ByUPWKrSVg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9ByUPWKrSVg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9ByUPWKrSVg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-05-19T12:31:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xm8m-jvjeDrcytzNXJgWVtzccZs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xMolcHeTpV4"
+      },
+      "snippet": {
+        "publishedAt": "2015-12-29T14:12:57Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "[#집밥백선생] 그릇 하나도 뚝딱! 백종원의 초간다나 &#39;굴 전&#39; 레시피 대공개 | EP33",
+        "description": "백종원레시피#집밥백선생#백종원 tvN (2015-2016) : 먹고 살기 힘든 시대에 누구나 집에서 쉽게 요리를 할 수 있는 생활 밀착 예능 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xMolcHeTpV4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xMolcHeTpV4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xMolcHeTpV4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-12-29T14:12:57Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "20OFu4DOZa_U02JnRRm14OFdHco",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4KaJlUtEKbU"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-11T13:38:35Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "💫요식업에 빠지다💫 주문 폭주 속에서 주방이 살아남는 법 #highlight #서진이네 EP.3",
+        "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f 일곱 빛깔 호수를 품은 멕시코에서 #서진이네 OPEN! 식당 경영에 진심 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4KaJlUtEKbU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4KaJlUtEKbU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4KaJlUtEKbU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-11T13:38:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NGCZDo9G-c5e8Tx32WMu3z9UKwQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2j0waph0NSU"
+      },
+      "snippet": {
+        "publishedAt": "2021-06-16T15:33:48Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "[알쓸범잡 부록] 1987 박종철 고문치사 사건, 진실을 밝힌 사람들! #알쓸범잡 EP.11",
+        "description": "알쓸범잡 #알아두면 쓸데있는 범죄 잡학사전 #사건사고 알쓸범잡 crimetrivia EP.11 MC 윤종신x범죄심리학자 박지선x법학박사 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2j0waph0NSU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2j0waph0NSU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2j0waph0NSU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-06-16T15:33:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xXHu2MYNK9U9ARVXDxCncOeGuvU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "j7Qpx32EcCE"
+      },
+      "snippet": {
+        "publishedAt": "2016-05-31T01:34:17Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "[신서유기2/32화] 신서유기 레전드 종합 게임 세트",
+        "description": "신서유기2 제32화 종합 게임 세트! 예능신 부활? tvN 신서유기2-언리미티드(2016) : 4명의 남자들이 중국대륙으로 여행을 떠나 각종 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/j7Qpx32EcCE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/j7Qpx32EcCE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/j7Qpx32EcCE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-05-31T01:34:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2whdA8zx_6yINYBIEnHPVuN4olg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "528XMujOZGw"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-25T13:30:18Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "오픈 전부터 우당탕탕💫 티격태격💥 서진이네 모음 #highlight  #유료광고포함 #서진이네 EP.1",
+        "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f 일곱 빛깔 호수를 품은 멕시코에서 #서진이네 OPEN! 식당 경영에 진심 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/528XMujOZGw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/528XMujOZGw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/528XMujOZGw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-25T13:30:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4lRgbC0VcJ_wdMSlzbgPDe2cirU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5_PRxrRJOhg"
+      },
+      "snippet": {
+        "publishedAt": "2022-09-13T12:50:21Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "딸과의 스윗한 저녁 시간을 보낸 홍서범X조갑경💗 티격태격하는 부부를 위한 딸의 진심어린 조언 #우리들의차차차 EP.5 | tvN 220912 방송",
+        "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f 다시 설렐 시간, 쉘 위 댄스? 부부들이 농도 짙은 댄스스포츠를 배우며 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5_PRxrRJOhg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5_PRxrRJOhg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5_PRxrRJOhg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-09-13T12:50:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7p6gHmgK6nUW5hT_bcmiizqh1IY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GJYXCUKpQno"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-20T07:47:37Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "전 세계에 영향을 끼친 &#39;예수&#39;의 탄생! 기독교의 시작 &amp; 로마 제국 종교 박해의 진실!! #highlight #벌거벗은세계사 EP.69",
+        "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f {벌거벗은 세계사} [화] 저녁 8:40 tvN 방송 #벌거벗은세계사 #은지원 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GJYXCUKpQno/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GJYXCUKpQno/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GJYXCUKpQno/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-20T07:47:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0fJEPnHeGnMBHdiQJLX2fGC5BaM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BCKppjGOFwc"
+      },
+      "snippet": {
+        "publishedAt": "2016-05-19T11:22:16Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "[신서유기2/14화] 은지원 사자성어 레전드 섬섬딤섬(?)",
+        "description": "신서유기2 제14화 역시 신서유기! 오매 죽겠네ㅋㅋㅋ tvN 신서유기2-언리미티드(2016) : 4명의 남자들이 중국대륙으로 여행을 떠나 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BCKppjGOFwc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BCKppjGOFwc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BCKppjGOFwc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-05-19T11:22:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fjOWrNpIttJ-VNKAi_XKQeGpsMw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3mNGomWwC7U"
+      },
+      "snippet": {
+        "publishedAt": "2016-05-19T10:57:39Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "[신서유기2/9화] 강호동 브랜드 퀴즈 대참사",
+        "description": "신서유기2 제9화 브랜드 퀴즈! '옛날사람' 호동의 사투! tvN 신서유기2-언리미티드(2016) : 4명의 남자들이 중국대륙으로 여행을 떠나 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3mNGomWwC7U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3mNGomWwC7U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3mNGomWwC7U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-05-19T10:57:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tGt-OwxlkQM9RiMZ16JYfzNnccw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4wXprtZF_UQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-12T03:30:03Z",
+        "channelId": "UC78PMQprrZTbU0IlMDsYZPw",
+        "title": "입어만 볼게요^^ 예능인에서 유명 패션 매거진에 걸리기까지 전부를 건 김나영✨ | 유퀴즈온더블럭",
+        "description": "티빙에서 스트리밍 : https://tving.onelink.me/xHqC/30a78d6f #tvN #유퀴즈온더블럭 #끌올 tvN 레전드 예능 끌어~ 올려↗↗ #티빙 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4wXprtZF_UQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4wXprtZF_UQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4wXprtZF_UQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tvN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-12T03:30:03Z"
+      }
+    }
+  ]
+}

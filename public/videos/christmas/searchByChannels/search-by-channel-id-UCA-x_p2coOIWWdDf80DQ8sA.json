@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "cM1XPigo_xtRFka4OjWB7PzJRKs",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 298,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HGmkC27TIz4WPF_-vvAIW33_6tI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xAEasIp4ft0"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-27T13:00:38Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "너의 미래에 축복을⭐️: YOASOBI - 축복(祝福) [가사/발음/한글 자막/해석]",
+        "description": "민나가 요청해줬던 요아소비의 노래를 가져왔다냥   와타시도 민나가 걸어가는 길 옆에서 이츠모 서있을게냥   노래에 쓰인 단어 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xAEasIp4ft0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xAEasIp4ft0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xAEasIp4ft0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-27T13:00:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "i0uOxUMnmTIeVnxG9B7Y50PQYJk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UjOfnl_G5Ow"
+      },
+      "snippet": {
+        "publishedAt": "2021-07-08T10:30:56Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "천 년 뒤에도 우리는 함께일까?🌻: VAUNDY - 꽃점(花占い) [가사/발음/한글 자막]",
+        "description": "뮤비가 혼토니 사랑스러운 바운디의 신곡이다냥!.! 와타시랑 가사 보고 뮤비도 보러자냥!.! 노래에 쓰인 단어 공부하기     根 / ね ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UjOfnl_G5Ow/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UjOfnl_G5Ow/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UjOfnl_G5Ow/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-07-08T10:30:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "B6NpfIrSHlnmRVCil1Z_ZVb3BMA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OhYQAVgeu5g"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-25T13:00:08Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "자그마한 나의 커다란 꿈☁️: 요아소비 - 제비(ツバメ, Tsubame) [가사/발음/한글 자막/해석]",
+        "description": "너무나 귀엽고 세상이 밝아지는 것만 같은 요아소비의 신곡이다냥!.! 민나의 새로운 일주일이 즐거워지길 호시인다냥!.! 노래에 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OhYQAVgeu5g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OhYQAVgeu5g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OhYQAVgeu5g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-25T13:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8l-KKLAlreXUeVIOK6cZ2hYfXNo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "obW4xWXKZjw"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-03T13:00:46Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "50년 뒤의 미래에도 내가 있을거야❄️: Novelbright - Walking with you [가사/발음/한글 자막/해석]",
+        "description": "민나가 타쿠상 많이 추천해주는 노벨브라이트의 대표곡이다냥     고쥬넨 뒤에도 와타시랑 잇쇼니 음악듣자냥     노래에 쓰인 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/obW4xWXKZjw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/obW4xWXKZjw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/obW4xWXKZjw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-03T13:00:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sIYuuI5YTgLpe-BcEphFGO6_bLk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zTm6JPIfp-g"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-22T09:35:40Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "사랑받고 싶다구❤️💔: 아이묭 - 아침 해(朝陽, Morning Sun) [가사/발음/해석]",
+        "description": "묭쨩의 신곡 아침해(朝陽) 를 못테킷타냥☀️☀️ 혼토니 아이묭-스러운 솔직하고 발랄한 노래다냥!! 노래에 나오는 단어도 확인 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zTm6JPIfp-g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zTm6JPIfp-g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zTm6JPIfp-g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-08-22T09:35:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xs25_Wok7j0UedOvidiMdoBJkiE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jGRPHVfwCJU"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-28T13:00:34Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "헤엄쳐 보자, 이 세상에서🐟: SPITZ - 아름다운 지느러미(美しい鰭) [가사/발음/한글 자막/해석/명탐정 코난 흑철의 어영 OST]",
+        "description": "와타시가 사랑해 마지않는 SPITZ의 노래다냥...⭐️ 가사 한줄 한줄 혼토니 스테키다냥     노래에 쓰인 단어 공부하기     抗う ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jGRPHVfwCJU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jGRPHVfwCJU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jGRPHVfwCJU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-28T13:00:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wz1cqdIRvJdKArJI1r5zIZr15RU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YS1eRp_zG4w"
+      },
+      "snippet": {
+        "publishedAt": "2021-03-29T03:00:18Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "구원받은 거야, 너에게⭐: 요아소비(YOASOBI) - 상냥한 혜성(comet) [가사/발음/한글 자막] [비스타즈 2기 ED Full]",
+        "description": "요아소비 팬들과 비스타즈 팬들이 잇쇼니 원했던!.! 비스타즈 2기 엔딩곡 가져왔다냥       노래에 쓰인 단어 공부하기     ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YS1eRp_zG4w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YS1eRp_zG4w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YS1eRp_zG4w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-03-29T03:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9J08w3FEnbctZ3ZamHNmjwW9M98",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GHIdqSHNPC0"
+      },
+      "snippet": {
+        "publishedAt": "2020-08-17T07:21:03Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "그녀는 무엇을 생각하고 있을까🥀: 아이묭 - 살아왔던거구나(生きていたんだよな) [가사/해석/발음]",
+        "description": "많은 구독자냥들이 듣고 싶어했던 묭쨩의 生きていたんだよな를 못테키타냥   무거운 소재를 묭쨩이 어떻게 풀어냈는지 들어보자냥!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GHIdqSHNPC0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GHIdqSHNPC0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GHIdqSHNPC0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-08-17T07:21:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wzO1cvmObMTdsFvauDyLqDocvOI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nuj4S2wy3ek"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-12T13:00:18Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "걔한테 다시 고백할거야💌: YOASOBI - 좋아해(好きだ) [가사/발음/한글 자막/해석]",
+        "description": "리라쨩의 목소리에 너무나 어울리는 귀여운 요아소비의 신곡이다냥!.! 민나 함께 들어달라냥!.! 노래에 쓰인 단어 공부하기     ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nuj4S2wy3ek/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nuj4S2wy3ek/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nuj4S2wy3ek/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-12T13:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "raC4yO3rgm35OW1y1ahtpGrAceg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jfdSYuEO7Wg"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-18T13:00:31Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "부서질 것 같아도 움직이는 거야✈️: 유우리(優里) - 비행선(hikousen) [가사/발음/한글 자막/해석]",
+        "description": "멋지고 용기가 나고 힘이 나는 유우리의 노래 소개한다냥!.! 한본냥은 구독자냥들과 함께 날린 비행선이니까냥!.! 노래에 쓰인 단어 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jfdSYuEO7Wg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jfdSYuEO7Wg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jfdSYuEO7Wg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-18T13:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0z6P4fwNODjW4kJVMMsNq2tGMlU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vgl0A3TxY9A"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-10T13:00:21Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "너의 손은 온기를 잊어버렸어🌙: 쿠지라(くじら) - 금목서(金木犀) feat.Ado [가사/발음/한글 자막/해석]",
+        "description": "가사와 단어 보기     掃く / はく [하쿠] / 쓸다, 털다 窓辺 / まどべ [마도베] / 창가 落書き / らくがき [라쿠가키] / 낙서 拾う / ひろう ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vgl0A3TxY9A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vgl0A3TxY9A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vgl0A3TxY9A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-10T13:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LZwsHeeYOTi6XPzBPFsC18grt_U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Qt9W68EP6-k"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-11T13:00:30Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "별들도 없는 둘만의 세계☘️: eill - 피날레(フィナーレ) [가사/발음/한글 자막/해석]",
+        "description": "구독샤냥들이 추천헤준 에일의 노래다냥!.! 호시쿠즈(별가루)라는 단어... 너무 카와이하다냥 노래에 쓰인 단어 공부 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Qt9W68EP6-k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Qt9W68EP6-k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Qt9W68EP6-k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-11T13:00:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gGG54bpElVnMZVMI7Rqmj0AJRzQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NGj0n80ib2w"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-18T13:00:11Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "돌아와서 나를 혼내줘💌: 요아소비 - 미스터(ミスター) [가사/발음/한글 자막/해석]",
+        "description": "왠지 모르게 음질이 깨져서 업로드 되어서 다시 업로드했다냥     꼼꼼히 확인하지 못해서 미안하다냥     새로운 소설과 함께 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NGj0n80ib2w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NGj0n80ib2w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NGj0n80ib2w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-18T13:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-aFQkFxJajaoSlUzBraWh8WZFI0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "B8bHLqgqRic"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-27T13:00:03Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "모두가 미쳐가는 세상에서🤡: Vaundy - 불가행력(不可幸力 ) [가사/발음/한글 자막/해석]",
+        "description": "민나가 미쳐가는 세카이라도 서로가 함께해준다면 위로가 될 거라냥☂️ 가사와 단어 보기     いかれる [이카레루] / 미치다, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/B8bHLqgqRic/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/B8bHLqgqRic/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/B8bHLqgqRic/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-27T13:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JLU4YQL7rR5FWEDyAjBJI0vZZis",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-6xk0OH1_TM"
+      },
+      "snippet": {
+        "publishedAt": "2022-07-23T13:00:01Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "춤추자, 즐기는 사람이 이기는 거야💎: 미세스 그린애플 - 댄스홀(ダンスホール, Dance Hall) [가사/발음/한글 자막/해석]",
+        "description": "컨디션 좋을 때 들었을 때는 잘 와닿지 않다가 피곤한 요즘 우연히 다시 들었더니 힘이 나서!! 민나에게 소개한다냥   노래에 쓰인 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-6xk0OH1_TM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-6xk0OH1_TM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-6xk0OH1_TM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-07-23T13:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Mi1TNxzV76VYyiQWAUMbkFayMnI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LSRDXjMmA1g"
+      },
+      "snippet": {
+        "publishedAt": "2022-10-01T13:01:10Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "그런 멋진 사랑을 한거야💐: 아야세 - 포화(飽和, houwa) [가사/발음/한글 자막/해석]",
+        "description": "담담하게 슬픈 가사의 아야세의 신곡을 민나에게 소개한다냥!.! 노래에 쓰인 단어 공부하기     完成 / かんせい [칸세이] / 완성 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LSRDXjMmA1g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LSRDXjMmA1g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LSRDXjMmA1g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-10-01T13:01:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YmHcoEHIRq9rc0KwMeLyr_gsMeQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bkVp-B-wDH4"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-05T13:01:26Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "백 년을 지나 도착한 별빛처럼⭐️: 유우리 - 베텔기우스(BETELGEUSE) [가사/발음/한글 자막/해석]",
+        "description": "가사도 멜로디도 멋있는 유우리의 새로운 사랑노래다냥!.! 몇 백 년이 지나도 와타시랑 잇쇼니 노래 듣자냥!.! 노래에 쓰인 단어 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bkVp-B-wDH4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bkVp-B-wDH4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bkVp-B-wDH4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-05T13:01:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qBYUCDxqC-PseACBUpEDqu96w80",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oHpcDKAYW0U"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-26T13:00:22Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "가끔 다 싫어지는 날이 있어🍏: Mrs.Green Apple - 춘수(春愁) [가사/발음/한글 자막/해석]",
+        "description": "와타시도 가끔 모든게 다이키라이니 되는 날이 있다냥 하지만 민나랑 이야기하며 잇쇼니 음악을 들으면 기부니가 좋아진다냥 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oHpcDKAYW0U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oHpcDKAYW0U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oHpcDKAYW0U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-26T13:00:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ptYVZGRHqPJrJU-et7c21zIY88M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QRYTOTMpfag"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-08T22:57:58Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "벌거벗은 마음, 받아줘🍋: 아이묭 -  벌거벗은 마음(裸の心 하다카노 코코로)  [가사 발음 해석]",
+        "description": "민나상가 신청해주고 기다려줬던 아노 앨범! 아이묭이 인스타에서 라이브❤️해줬던 사이킨노 앨범! 하다카노 코코로 이제서야 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QRYTOTMpfag/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QRYTOTMpfag/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QRYTOTMpfag/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-08T22:57:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2odpDAQuelu4w0nwidbVrNdJm18",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3s5HVHaUaic"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-03T13:00:01Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "이제 됐어. 그만 자고 싶어🌙: 쿠지라(くじら) - 잠드는 거리(ねむるまち) (feat. yama) [가사/발음/한글 자막/해석]",
+        "description": "킨요비노 밤을 센치하게 마무리하는 노래다냥!.! 민나 오야스미다냥     노래에 쓰인 단어 공부하기     項垂れる / うなだれる ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3s5HVHaUaic/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3s5HVHaUaic/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3s5HVHaUaic/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-03T13:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "w-2xdyP-cM7lmlJ26jd9FVuAhjE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Var9VKC5gm8"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-14T13:00:19Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "시시하지만 편하고 좋잖아☀️: 오피셜히게단디즘 - TATTOO [가사/발음/한글 자막/해석]",
+        "description": "많은 구독자냥들이 소개해준 히게단의 신곡이다냥!.! 와타시도 민나와 이렇게 편하게 위로가 되는 사이가 나리타인다냥   노래에 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Var9VKC5gm8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Var9VKC5gm8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Var9VKC5gm8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-14T13:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fgGQfrSNlXYK9ViuKZ2_pLQMa2I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "q97aDjknwpo"
+      },
+      "snippet": {
+        "publishedAt": "2020-11-02T06:00:13Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "여름 밤, 너와, 「좋아해」⭐️ : YOASOBI - 저 꿈을 덧그리며(あの夢をなぞって) [가사/발음/한글 자막]",
+        "description": "너무나 이토시이 여름 밤 미타이나 요아소비의 노래다냥   민나와 함께 듣고 싶어서 못테킷타냥!.! 노래에 나온 단어들도 공부 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/q97aDjknwpo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/q97aDjknwpo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/q97aDjknwpo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-11-02T06:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Uuyz3s1PO1NyOcOVmNJ7yZUNZG0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EY_n7wgUX-U"
+      },
+      "snippet": {
+        "publishedAt": "2022-01-10T13:00:10Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "리더도 영웅도 믿지 않아✊: 오피셜 히게단디즘 - Anarchy [가사/발음/한글 자막/해석]",
+        "description": "히게단의 신곡을 소개한다냥!.! 나무랄데 하나 없는 인생은 걷지 않는 와타시다냥!.! 노래에 쓰인 단어 공부하기     悪循環 / あく ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EY_n7wgUX-U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EY_n7wgUX-U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EY_n7wgUX-U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-01-10T13:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fbeX7EAz6xKD9pH3nbDNcYAOgLY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kzyah5BWZxw"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-23T13:00:23Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "겁많은 목소리는 덮어버려👊: 오피셜히게단디즘 - 화이트 노이즈(White Noise) (도쿄리벤저스 op) [가사/발음/한글 자막/해석]",
+        "description": "많은 구독자냥들이 추천해준 히게단의 신곡이다냥   도로를 질주하는 칸지데 같이 들어보자냥!.! 노래에 쓰인 단어 공부하기     ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kzyah5BWZxw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kzyah5BWZxw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kzyah5BWZxw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-23T13:00:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GG-uRryhrwDQ-2qPzNdC502VNPU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fxZG-EiTEDk"
+      },
+      "snippet": {
+        "publishedAt": "2021-02-16T15:59:49Z",
+        "channelId": "UCA-x_p2coOIWWdDf80DQ8sA",
+        "title": "아이묭 - 🌸벚꽃이 내리는 밤은🌸(桜が降る夜は) [가사/발음/해석]",
+        "description": "묭쨩 신곡이 나왔다냥!.! 민나 듣고 가라냥!.! 가사가 혼토니 사랑스럽고 아름답다냥       노래에 쓰인 단어 보기     距離 / きょ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fxZG-EiTEDk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fxZG-EiTEDk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fxZG-EiTEDk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한본어 하는 고양이",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-02-16T15:59:49Z"
+      }
+    }
+  ]
+}
