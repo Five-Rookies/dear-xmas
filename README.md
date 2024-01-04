@@ -336,7 +336,7 @@ src
      <td align="center"><a href="https://dear-xmas.vercel.app/signIn">로그인</a>  </td>
    </tr>
    <tr>
-      <td align="center"><img src="public/assets/readme/SignUp.gif" width="350"> </td>
+      <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/785a7fed-36e0-4008-a754-bb61a4157dcc.gif" width="350"> </td>
        <td align="center"><img src="public/assets/readme/SignIn.gif" width="350"> </td>
    </tr>   
    <tr>
@@ -360,7 +360,7 @@ src
      <td align="center"><a href="https://dear-xmas.vercel.app/developers">Github 잔디 연동</a>  </td>
    </tr>
    <tr>
-      <td align="center"><img src="public/assets/readme/LiveVideo.gif" width="350"> </td>
+      <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/aed51315-316e-4af9-94d7-d531ef797afd.gif" width="350"> </td>
        <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/5281bba1-7aca-4a44-adcd-43a01e7de6b6.gif" width="350"> </td>
    </tr>
    <tr>
