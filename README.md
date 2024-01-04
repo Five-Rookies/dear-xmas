@@ -336,16 +336,16 @@ src
      <td align="center"><a href="https://dear-xmas.vercel.app/signIn">로그인</a>  </td>
    </tr>
    <tr>
-      <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/785a7fed-36e0-4008-a754-bb61a4157dcc.gif" width="350"> </td>
-       <td align="center"><img src="public/assets/readme/SignIn.gif" width="350"> </td>
+      <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/e83c6e28-3599-473f-b117-7f32e985cc9a.gif" width="350"> </td>
+       <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/ec668fd3-d0fe-4962-aaa1-9c45fc7d0964.gif" width="350"> </td>
    </tr>   
    <tr>
      <td align="center"><a href="https://dear-xmas.vercel.app/signIn/findPassword">비밀번호 찾기</a>  </td>
     <td align="center"> <a href="https://dear-xmas.vercel.app/detail/PmoZQTp_9dI/meetupModal">인터셉트 라우팅을 이용한 모달창</a> </td>
    </tr>
    <tr>
-      <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/c341b04a-eceb-4980-bd12-fcfc773a39fc.gif" width="350"> </td>
-       <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/e187f781-167b-475b-a8ba-a758593df973.gif" width="350"> </td>
+      <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/97f06cd0-5e33-4d83-a119-724223360787.gif" width="350"> </td>
+       <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/fb1a5c56-9d57-48c7-b911-37a4a3142197.gif" width="350"> </td>
    </tr>
    <tr>
     <td align="center"> <a href="https://dear-xmas.vercel.app/live?meetup_id=86">실시간 채팅</a> </td>
