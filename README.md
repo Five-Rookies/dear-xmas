@@ -352,7 +352,7 @@ src
      <td align="center"><a href="https://dear-xmas.vercel.app/live?meetup_id=86">라이브 종료하기</a>  </td>
    </tr>
    <tr>
-      <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/f21e744e-0ad8-4c83-87a3-a6bc59ad09f0.mp4" width="350"> </td>
+      <td align="center"><video src="https://github.com/Five-Rookies/final-project/assets/66238849/f21e744e-0ad8-4c83-87a3-a6bc59ad09f0.mp4" width="350"> </td>
        <td align="center"><img src="public/assets/readme/LiveEnd.gif" width="350"> </td>
    </tr>
    <tr>
