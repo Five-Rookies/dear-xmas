@@ -344,7 +344,7 @@ src
     <td align="center"> <a href="https://dear-xmas.vercel.app/detail/PmoZQTp_9dI/meetupModal">인터셉트 라우팅을 이용한 모달창</a> </td>
    </tr>
    <tr>
-      <td align="center"><img src="public/assets/readme/ResetPassword.gif" width="350"> </td>
+      <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/c341b04a-eceb-4980-bd12-fcfc773a39fc.gif" width="350"> </td>
        <td align="center"><img src="public/assets/readme/Modal.gif" width="350"> </td>
    </tr>
    <tr>
@@ -361,7 +361,7 @@ src
    </tr>
    <tr>
       <td align="center"><img src="public/assets/readme/LiveVideo.gif" width="350"> </td>
-       <td align="center"><img src="public/assets/readme/Develop.gif" width="350"> </td>
+       <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/5281bba1-7aca-4a44-adcd-43a01e7de6b6.gif" width="350"> </td>
    </tr>
    <tr>
     <td align="center"> <a href="https://dear-xmas.vercel.app/">설문조사 통계</a> </td>
