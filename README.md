@@ -345,7 +345,7 @@ src
    </tr>
    <tr>
       <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/c341b04a-eceb-4980-bd12-fcfc773a39fc.gif" width="350"> </td>
-       <td align="center"><img src="public/assets/readme/Modal.gif" width="350"> </td>
+       <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/e187f781-167b-475b-a8ba-a758593df973.gif" width="350"> </td>
    </tr>
    <tr>
     <td align="center"> <a href="https://dear-xmas.vercel.app/live?meetup_id=86">실시간 채팅</a> </td>
@@ -353,7 +353,7 @@ src
    </tr>
    <tr>
       <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/6ea32d8a-c9eb-4990-a3c8-49f23a8c7b4f.gif" width="350"> </td>
-       <td align="center"><img src="public/assets/readme/LiveEnd.gif" width="350"> </td>
+       <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/7b66a4a8-3dae-4e88-8eec-c10c8ccb56e0.gif" width="350"> </td>
    </tr>
    <tr>
     <td align="center"> <a href="https://dear-xmas.vercel.app/live?meetup_id=86">현재 재생시간 공유</a> </td>
@@ -368,8 +368,8 @@ src
      <td align="center"><a href="https://dear-xmas.vercel.app/">랜덤 슬롯</a>  </td>
    </tr>
    <tr>
-      <td align="center"><img src="public/assets/readme/Servey.gif" width="350"> </td>
-       <td align="center"><img src="public/assets/readme/Slot.gif" width="350"> </td>
+      <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/03f50309-a418-4a11-a818-9d98a14d2801.gif" width="350"> </td>
+       <td align="center"><img src="https://github.com/Five-Rookies/final-project/assets/66238849/5642bc78-2566-4f3b-9ba6-526e4e287069.gif" width="350"> </td>
    </tr>
 </table>
 
