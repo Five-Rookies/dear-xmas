@@ -38,7 +38,7 @@ Dear, Xmas는 크리스마스의 감성과 특별한 순간을 함께 쌓아가�
 | <img src='public/assets/mimoticon/mimoticon-yoo.png' width="180px;"> | <img src="public/assets/mimoticon/mimoticon-song.png" width="180px;"> | <img src="public/assets/mimoticon/mimoticon-yoon.png" width="180px;"/> | <img src="public/assets/mimoticon/mimoticon-lee.png" width="180px;" > |
 | [zxxng](https://github.com/zxxng)  | [ssb1565b](https://github.com/ssb1565b) | [seonyeongyoon](https://github.com/seonyeongyoon) | [dv-yeop920](https://github.com/dv-yeop920) |
 |![FrontEnd](https://img.shields.io/badge/FrontEnd-DA3017)</br> ![Team%20Leader](https://img.shields.io/badge/-Team%20leader-0C412F) | ![FrontEnd](https://img.shields.io/badge/FrontEnd-DA3017)</br> ![UI/UX%20](https://img.shields.io/badge/-UI/UX-3FCF8E)  </br> | ![FrontEnd](https://img.shields.io/badge/FrontEnd-DA3017)</br> | ![FrontEnd](https://img.shields.io/badge/FrontEnd-DA3017)</br> |
-| 로그인, 회원가입, 비밀번호 찾기<br>미들웨어 / 라우트 핸들러<br>프로필 수정 기능<br>댓글 수정 / 삭제 기능  | 실시간 채팅&영상 기능<br>GitHub 잔디 연동<br>카운트 다운 기능<br>검색 기능<br>댓글 좋아요 / 생성 기능<br>카카오톡 공유 기능  |드롭다운 헤더<br>랜덤 슬롯 머신<br>설문조사 애니메이션, 데이터 통계<br>무한스크롤 기능 | 댓글 좋아요 / crud<br>디바운싱 처리<br>페러렐,인터셉트 라우팅 모달<br> 모임생성 기능<br>탭 기능 | 
+| 로그인, 회원가입, 비밀번호 찾기<br>미들웨어 / 라우트 핸들러<br>프로필 수정 기능<br>댓글 수정 / 삭제 기능  | 실시간 채팅&영상 기능<br>GitHub 잔디 연동<br>카운트 다운 기능<br>검색 기능<br>댓글 좋아요 / 생성 기능<br>카카오톡 공유 기능  |드롭다운 헤더<br>랜덤 슬롯 머신<br>설문조사 애니메이션, 데이터 통계<br>무한스크롤 기능 | 댓글/crud 좋아요 기능 <br>디바운싱 처리<br>페러렐,인터셉트 라우팅 모달<br> 모임생성 기능<br>탭 기능<br>다크모드 기능 | 
 <br>
 
 
